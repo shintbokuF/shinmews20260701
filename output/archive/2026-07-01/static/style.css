@@ -82,7 +82,13 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--signal); outline-of
 
 /* contact */
 .contact{max-width:1320px; margin:10px auto 0; padding:26px 28px;}
-.contact-inner{border:2px dashed var(--signal); border-radius:10px; padding:22px 26px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap; background:rgba(255,90,31,.04);}
+.contact-inner{border:2px dashed var(--signal); border-radius:10px; padding:22px 26px; display:flex; align-items:flex-start; justify-content:space-between; gap:28px; flex-wrap:wrap; background:rgba(255,90,31,.04);}
+.contact-lead{flex:1 1 260px;}
+.contact-form{flex:1 1 320px; min-width:280px; display:flex; flex-direction:column; gap:10px;}
+.contact-form input,.contact-form textarea{font-family:var(--body); font-size:.9rem; padding:10px 12px; border:1px solid var(--line); border-radius:6px; background:#fff; color:var(--ink); width:100%;}
+.contact-form textarea{min-height:88px; resize:vertical;}
+.contact-form input:focus,.contact-form textarea:focus{outline:none; border-color:var(--signal); box-shadow:0 0 0 3px rgba(255,90,31,.12);}
+.contact-form button{border:none; cursor:pointer; align-self:flex-start; margin-top:2px;}
 .contact .lbl{color:var(--signal);}
 .contact h2{font-family:var(--body); font-weight:700; font-size:1.15rem; margin:6px 0 4px;}
 .contact p{margin:0; color:var(--ink-soft); font-size:.86rem;}

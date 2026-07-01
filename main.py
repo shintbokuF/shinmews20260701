@@ -63,13 +63,15 @@ def build(today: str | None = None) -> dict:
 def render_all(data: dict) -> None:
     """最新版を output/ に、日付スナップショットを output/archive/<date>/ に描画。
     さらに過去分を一覧する archive/index.html を生成。"""
-    from config import GOATCOUNTER
+    from config import GOATCOUNTER, CONTACT_FORM_ACTION, SITE_URL
     date_str = data["date"]
     # 最新（トップ）
-    renderer.render(data, OUTPUT_DIR, archive_href="archive/index.html", goatcounter=GOATCOUNTER)
+    renderer.render(data, OUTPUT_DIR, archive_href="archive/index.html", goatcounter=GOATCOUNTER,
+                    contact_action=CONTACT_FORM_ACTION, site_url=SITE_URL)
     # 日付スナップショット
     snap_dir = os.path.join(OUTPUT_DIR, "archive", date_str)
-    renderer.render(data, snap_dir, archive_href="../index.html", goatcounter=GOATCOUNTER)
+    renderer.render(data, snap_dir, archive_href="../index.html", goatcounter=GOATCOUNTER,
+                    contact_action=CONTACT_FORM_ACTION, site_url=SITE_URL)
     # アーカイブ一覧（data/*.json の日付から）
     dates = sorted(
         (f[:-5] for f in os.listdir(DATA_DIR)

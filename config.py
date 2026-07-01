@@ -50,6 +50,13 @@ SECTION_BY_SLUG = {s["slug"]: s for s in SECTIONS}
 # GoatCounter（アクセス解析。公開情報でありシークレットではない）
 GOATCOUNTER = "https://shinmews.goatcounter.com/count"
 
+# お問い合わせフォーム（FormSubmit、無登録・無料）。
+# メール直書きは源码に露出するため、初回送信で有効化後、
+# https://formsubmit.co でランダム別名を取得して差し替えると隠せる。
+CONTACT_FORM_ACTION = "https://formsubmit.co/shintboku@gmail.com"
+# 送信後の戻り先（FormSubmit _next）
+SITE_URL = "https://shintbokuf.github.io/shinmews20260701/"
+
 # 記事数のデフォルト（各section で min_items/max_items 上書き可）
 # 検索クレジット概算: 通常4板块×(1+3)=16 + 日本国内(1+10)=11 → 約27/日 ≈ 810/月（Tavily無料枠1000内）
 MIN_ITEMS = 3

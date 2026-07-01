@@ -36,10 +36,6 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
       創作者プロフィール
     </a>
-    <a class="ghost-btn" href="https://researchmap.jp/buxinzhe" target="_blank" rel="noopener" data-gc="nav/researchmap">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M8 6h8M7.6 7.7 10.6 16.3M16.4 7.7 13.4 16.3"/></svg>
-      リサーチマップ
-    </a>
     <a class="ghost-btn" href="../index.html" data-gc="nav/archive">過去のダイジェスト
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
     </a>
@@ -298,21 +294,25 @@
 
 <section class="contact">
   <div class="contact-inner">
-    <div>
+    <div class="contact-lead">
       <div class="mono lbl">▶ INTEL REQUEST</div>
       <h2>あなたが最も知りたいテーマは？</h2>
-      <p>今後取り上げてほしいトピック・業界・企業のご要望、記事内容へのご相談など、お気軽にどうぞ。</p>
+      <p>取り上げてほしいトピック・業界・企業のご要望、記事へのご相談など、お気軽にどうぞ。</p>
     </div>
-    <div class="contact-actions">
-      <a class="contact-btn" target="_blank" rel="noopener" data-gc="click/theme" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shintboku@gmail.com&su=%5BNews%20Digest%5D%20%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84%E3%83%86%E3%83%BC%E3%83%9E%E3%83%BB%E3%81%94%E8%A6%81%E6%9C%9B&body=%E5%8F%96%E3%82%8A%E4%B8%8A%E3%81%92%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84%E3%83%88%E3%83%94%E3%83%83%E3%82%AF%E3%83%BB%E6%A5%AD%E7%95%8C%E3%83%BB%E4%BC%81%E6%A5%AD%E3%82%92%E3%81%8A%E6%9B%B8%E3%81%8D%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%9A%0A%0A">
+    <form class="contact-form" action="https://formsubmit.co/shintboku@gmail.com" method="POST" data-gc="click/formsubmit">
+      <input type="hidden" name="_subject" value="[News Digest] お問い合わせ・ご要望">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ追ってご連絡します。（AI・クラウド ニュースダイジェスト）">
+      <input type="hidden" name="_next" value="https://shintbokuf.github.io/shinmews20260701/">
+      <input type="text" name="name" placeholder="お名前（任意）" autocomplete="name">
+      <input type="email" name="email" placeholder="メール（返信をご希望の方・任意）" autocomplete="email">
+      <textarea name="message" placeholder="知りたいテーマ・ご相談内容をご記入ください" required></textarea>
+      <button type="submit" class="contact-btn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
-        知りたいテーマを送る
-      </a>
-      <a class="contact-btn alt" target="_blank" rel="noopener" data-gc="click/consult" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shintboku@gmail.com&su=%5BNews%20Digest%5D%20%E4%BD%9C%E8%80%85%E3%81%B8%E3%81%AE%E7%9B%B8%E8%AB%87%E3%83%BB%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&body=%E3%81%94%E7%9B%B8%E8%AB%87%E3%83%BB%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%E3%82%92%E3%81%8A%E6%9B%B8%E3%81%8D%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%9A%0A%0A">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-        作者に相談する
-      </a>
-    </div>
+        送信する
+      </button>
+    </form>
   </div>
 </section>
 

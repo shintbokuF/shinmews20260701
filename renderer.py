@@ -67,7 +67,7 @@ def _env() -> Environment:
 
 
 def render(data: dict, out_dir: str, archive_href: str = "archive/index.html",
-           goatcounter: str = "") -> None:
+           goatcounter: str = "", contact_action: str = "", site_url: str = "") -> None:
     """data = {date, generated_at, sections:[{slug,name,accent,accent_dark,icon,summary,articles:[...]}]}。"""
     env = _env()
     index_tpl = env.get_template("index.html.j2")
@@ -95,7 +95,8 @@ def render(data: dict, out_dir: str, archive_href: str = "archive/index.html",
 
     # 首页
     with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write(index_tpl.render(data=data, archive_href=archive_href, goatcounter=goatcounter))
+        f.write(index_tpl.render(data=data, archive_href=archive_href, goatcounter=goatcounter,
+                                 contact_action=contact_action, site_url=site_url))
 
     _copy_static(out_dir)
 
