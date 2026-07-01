@@ -29,6 +29,8 @@ jobs:
       AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
       AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
       AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+      # --- Tavily 検索キー（GitHub Secrets に登録） ---
+      TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 

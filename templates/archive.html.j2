@@ -4,27 +4,28 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>過去のダイジェスト | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="static/style.css">
+{% if goatcounter %}<script data-goatcounter="{{ goatcounter }}" async src="//gc.zgo.at/count.js"></script>{% endif %}
 </head>
 <body>
-<header class="site-header">
-  <div class="header-inner">
-    <h1>過去のダイジェスト</h1>
-    <a class="archive-link" href="../index.html">← 最新へ</a>
-  </div>
+<header class="masthead">
+  <h1 class="mast-title" style="font-size:clamp(1.5rem,3vw,2.2rem)">過去のダイジェスト</h1>
+  <a class="ghost-btn" href="../index.html">← 最新へ</a>
 </header>
 
-<main class="container archive-list">
+<main class="archive-list">
   <ul>
   {% for d in dates %}
-    <li><a href="{{ d }}/index.html"><span class="cal">📄</span>{{ d }}</a></li>
+    <li><a href="{{ d }}/index.html">📄&nbsp;{{ d }}</a></li>
   {% endfor %}
   </ul>
   {% if not dates %}<p>まだ記録がありません。</p>{% endif %}
 </main>
 
-<footer class="site-footer">
-  <p>各日付のスナップショットです。</p>
-</footer>
+<footer class="foot">各日付のスナップショットです。</footer>
 </body>
 </html>

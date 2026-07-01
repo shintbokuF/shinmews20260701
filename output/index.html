@@ -4,375 +4,327 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
-<header class="site-header">
-  <div class="header-inner">
-    <div>
-      <h1>AI・クラウド ニュースダイジェスト</h1>
-      <p class="site-date">2026-07-01 生成</p>
-    </div>
-    <a class="archive-link" href="archive/index.html">📅 過去のダイジェスト</a>
+<div class="ticker" aria-label="本日のニュース速報">
+  <div class="ticker-live"><span class="live-dot" aria-hidden="true"></span><span>LIVE</span></div>
+  <div class="ticker-track">
+    <span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 広島のWEAVEがAIエージェント「AI社員きんちゃん」を公開、国内企業の“社内AI化”をどう読むか</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // AMD Ryzen AI 7 350搭載PCが国内で広がる中、マウスコンピューターが示すAI PC戦略</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 国内企業の生成AI・AIエージェント導入は「実験」から「業務設計」へ——国内SIer・国産LLM・ガバナンスが焦点</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 国内SIerの生成AI実装・内製化支援が加速　AI駆動開発と国産LLMで変わる開発現場</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 政府はAIを止めるより“使い方”を整えるへ――日本のAI政策・規制は実装段階に入った</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 国産LLM・日本語特化LLMの開発と商用化はどこまで進んだか</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // AI研修・人材育成市場で広がる「実践型」導入、教育・製造・福祉の現場に見る企業向け事例</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 日本国内で広がるAI PC・端末導入と業務活用——Windows 10延長、教育現場の生成AI、国産LLM採用が示す次の一手</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、エージェント向け中位モデル「Claude Sonnet 5」を発表　低価格で自律実行力を強化</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // OpenAI、GPT-5.6を政府要請で段階制限　「trusted partners」限定公開に</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // GoogleのAI人材流出が加速、AnthropicがGemini主要メンバーを引き抜き</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // AWS、AI向け新組織「Forward Deployed Engineering」を設立　約10億ドル投資で顧客伴走を強化</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // Amazon、AIクラウド料金を引き上げ　メモリ不足がAWSに波及</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // EUがAWSとAzureをゲートキーパー指定へ、クラウド規制がAI時代に一段強化</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // Cursor、iPhone/iPad向けモバイルアプリを公開　外出先からコーディングエージェントを指示可能に</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AnthropicがClaude Sonnet 5を投入、エージェント/コーディング用途を中価格帯で強化</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // XがMCPサーバー公開、ClaudeやCursorから直接使いやすく</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // EUがAmazon/Microsoftのクラウドを「ゲートキーパー」扱いへ、規制はAI戦略にも波及か</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // オーストリア、AnthropicのEU域内ホスティングを提案　米国の利用制限に対抗する“AI主権”の動き</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // 欧州が自前AI基盤を志向、独仏中心に『米中依存からの脱却』を模索</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 広島のWEAVEがAIエージェント「AI社員きんちゃん」を公開、国内企業の“社内AI化”をどう読むか</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // AMD Ryzen AI 7 350搭載PCが国内で広がる中、マウスコンピューターが示すAI PC戦略</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 国内企業の生成AI・AIエージェント導入は「実験」から「業務設計」へ——国内SIer・国産LLM・ガバナンスが焦点</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 国内SIerの生成AI実装・内製化支援が加速　AI駆動開発と国産LLMで変わる開発現場</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 政府はAIを止めるより“使い方”を整えるへ――日本のAI政策・規制は実装段階に入った</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 国産LLM・日本語特化LLMの開発と商用化はどこまで進んだか</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // AI研修・人材育成市場で広がる「実践型」導入、教育・製造・福祉の現場に見る企業向け事例</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 日本国内で広がるAI PC・端末導入と業務活用——Windows 10延長、教育現場の生成AI、国産LLM採用が示す次の一手</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、エージェント向け中位モデル「Claude Sonnet 5」を発表　低価格で自律実行力を強化</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // OpenAI、GPT-5.6を政府要請で段階制限　「trusted partners」限定公開に</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // GoogleのAI人材流出が加速、AnthropicがGemini主要メンバーを引き抜き</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // AWS、AI向け新組織「Forward Deployed Engineering」を設立　約10億ドル投資で顧客伴走を強化</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // Amazon、AIクラウド料金を引き上げ　メモリ不足がAWSに波及</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // EUがAWSとAzureをゲートキーパー指定へ、クラウド規制がAI時代に一段強化</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // Cursor、iPhone/iPad向けモバイルアプリを公開　外出先からコーディングエージェントを指示可能に</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AnthropicがClaude Sonnet 5を投入、エージェント/コーディング用途を中価格帯で強化</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // XがMCPサーバー公開、ClaudeやCursorから直接使いやすく</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // EUがAmazon/Microsoftのクラウドを「ゲートキーパー」扱いへ、規制はAI戦略にも波及か</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // オーストリア、AnthropicのEU域内ホスティングを提案　米国の利用制限に対抗する“AI主権”の動き</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // 欧州が自前AI基盤を志向、独仏中心に『米中依存からの脱却』を模索</span>
   </div>
+</div>
+
+<header class="masthead">
+  <div class="mast-left">
+    <div>
+      <h1 class="mast-title">AI・クラウド<br>ニュースダイジェスト</h1>
+      <div class="mast-sub">DAILY INTELLIGENCE DISPATCH</div>
+    </div>
+    <div class="stamp" aria-hidden="true">
+      <div class="arc">◦ RECEIVED ◦</div>
+      <div class="d">2026.07.01</div>
+      <div class="t">TRANSMISSION<br>RECEIVED</div>
+    </div>
+  </div>
+  <nav class="mast-nav">
+    <a class="ghost-btn" href="https://shintbokuf.github.io/" target="_blank" rel="noopener" data-gc="nav/profile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+      創作者プロフィール
+    </a>
+    <a class="ghost-btn" href="https://researchmap.jp/buxinzhe" target="_blank" rel="noopener" data-gc="nav/researchmap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M8 6h8M7.6 7.7 10.6 16.3M16.4 7.7 13.4 16.3"/></svg>
+      リサーチマップ
+    </a>
+    <a class="ghost-btn" href="archive/index.html" data-gc="nav/archive">過去のダイジェスト
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </nav>
 </header>
 
+<nav class="chipbar" aria-label="分類">
+  <a class="chip" href="#sec-japan"><span class="side-dot" style="background:#D6314B"></span>日本国内<span class="signal" style="height:16px"><i style="height:10px;background:#D6314B"></i><i style="height:7px;background:#D6314B"></i><i style="height:14px;background:#D6314B"></i><i style="height:11px;background:#D6314B"></i><i style="height:8px;background:#D6314B"></i><i style="height:15px;background:#D6314B"></i><i style="height:12px;background:#D6314B"></i><i style="height:9px;background:#D6314B"></i></span></a><a class="chip" href="#sec-models"><span class="side-dot" style="background:#0E8A87"></span>生成AIモデル<span class="signal" style="height:16px"><i style="height:10px;background:#0E8A87"></i><i style="height:7px;background:#0E8A87"></i><i style="height:14px;background:#0E8A87"></i></span></a><a class="chip" href="#sec-cloud"><span class="side-dot" style="background:#3654D6"></span>クラウド<span class="signal" style="height:16px"><i style="height:10px;background:#3654D6"></i><i style="height:7px;background:#3654D6"></i><i style="height:14px;background:#3654D6"></i></span></a><a class="chip" href="#sec-devtools"><span class="side-dot" style="background:#8A3FE0"></span>AI開発ツール<span class="signal" style="height:16px"><i style="height:10px;background:#8A3FE0"></i><i style="height:7px;background:#8A3FE0"></i><i style="height:14px;background:#8A3FE0"></i></span></a><a class="chip" href="#sec-global"><span class="side-dot" style="background:#C2871F"></span>欧米動向<span class="signal" style="height:16px"><i style="height:10px;background:#C2871F"></i><i style="height:7px;background:#C2871F"></i><i style="height:14px;background:#C2871F"></i></span></a>
+</nav>
+
 <div class="layout">
-  <!-- 左侧索引栏 -->
-  <nav class="sidebar">
-    <p class="nav-head">INDEX</p>
-    <ul>
+  <nav class="sidebar" aria-label="分類インデックス">
+    <div class="side-head">SIGNAL INDEX</div>
     
-      
-      <li>
-        <a href="#sec-openai">
-          <span class="nav-dot" style="background:#10A37F"></span>OpenAI系
-          <span class="nav-count">5</span>
-        </a>
-      </li>
-      
+    <a class="side-row" href="#sec-japan">
+      <span class="side-dot" style="background:#D6314B"></span>
+      <span class="side-name">日本国内</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#D6314B"></i><i style="height:10px;background:#D6314B"></i><i style="height:20px;background:#D6314B"></i><i style="height:15px;background:#D6314B"></i><i style="height:11px;background:#D6314B"></i><i style="height:21px;background:#D6314B"></i><i style="height:17px;background:#D6314B"></i><i style="height:13px;background:#D6314B"></i></span>
+    </a>
     
-      
-      <li>
-        <a href="#sec-cloud">
-          <span class="nav-dot" style="background:#4285F4"></span>クラウド
-          <span class="nav-count">5</span>
-        </a>
-      </li>
-      
+    <a class="side-row" href="#sec-models">
+      <span class="side-dot" style="background:#0E8A87"></span>
+      <span class="side-name">生成AIモデル</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#0E8A87"></i><i style="height:10px;background:#0E8A87"></i><i style="height:20px;background:#0E8A87"></i></span>
+    </a>
     
-      
-      <li>
-        <a href="#sec-devtools">
-          <span class="nav-dot" style="background:#AB47BC"></span>AI開発ツール
-          <span class="nav-count">5</span>
-        </a>
-      </li>
-      
+    <a class="side-row" href="#sec-cloud">
+      <span class="side-dot" style="background:#3654D6"></span>
+      <span class="side-name">クラウド</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#3654D6"></i><i style="height:10px;background:#3654D6"></i><i style="height:20px;background:#3654D6"></i></span>
+    </a>
     
-      
-      <li>
-        <a href="#sec-japan">
-          <span class="nav-dot" style="background:#EF5350"></span>日本国内
-          <span class="nav-count">5</span>
-        </a>
-      </li>
-      
+    <a class="side-row" href="#sec-devtools">
+      <span class="side-dot" style="background:#8A3FE0"></span>
+      <span class="side-name">AI開発ツール</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#8A3FE0"></i><i style="height:10px;background:#8A3FE0"></i><i style="height:20px;background:#8A3FE0"></i></span>
+    </a>
     
-      
-      <li>
-        <a href="#sec-global">
-          <span class="nav-dot" style="background:#F9AB00"></span>欧米動向
-          <span class="nav-count">5</span>
-        </a>
-      </li>
-      
+    <a class="side-row" href="#sec-global">
+      <span class="side-dot" style="background:#C2871F"></span>
+      <span class="side-name">欧米動向</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#C2871F"></i><i style="height:10px;background:#C2871F"></i><i style="height:20px;background:#C2871F"></i></span>
+    </a>
     
-    </ul>
   </nav>
 
-  <main class="container">
+  <main class="main">
   
-    
-    <section class="board" id="sec-openai" style="--accent:#10A37F">
-      <h2 class="board-title">
-        <span class="board-dot" style="background:#10A37F"></span>OpenAI系
-      </h2>
-      
-      <p class="board-summary">OpenAIは、GPT-5.6系のプレビュー公開とCodexの再編を通じて、開発者向け機能をAPI中心に段階投入しつつ、ChatGPTへの統合も見据えた提供形態へと整理を進めている。あわせて、サイバー防御を含む安全性強化や限定先行提供を前面に出し、政府要請への対応も含めて慎重に展開しているのが今日の流れだ。さらにBroadcomとの推論チップ共同開発で、モデルだけでなく専用半導体まで含めたフルスタック戦略を強めている。</p>
-      
-      <div class="card-grid">
+    <section class="board" id="sec-japan" style="--cat-light:#D6314B;--cat-dark:#AA2439;--hl:#D6314B26">
+      <div class="board-head">
+        <span class="board-bar" style="background:#D6314B"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D6314B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg></span>
+        <span class="board-name">日本国内</span>
+        <span class="board-tag">08 SIGNALS</span>
+      </div>
+      <p class="board-intro">日本国内では、生成AIやAIエージェントが「試す段階」から、業務設計・開発内製化・人材育成まで含めて実装する段階へ一気に進んでいる。あわせて、国産LLMや国内SIer、AI PC/端末、教育・製造・福祉での実践型導入が広がり、企業や自治体は“何をどう任せるか”を前提にガバナンスと運用設計を整える流れが強まっている。</p>
+      <div class="grid">
       
         <article class="card">
-          <span class="card-tag" style="background:#10A37F">OpenAI系</span>
-          <h3 class="card-title"><a href="articles/openai-1.html"><mark style="background:#10A37F26">OpenAI</mark>、<mark style="background:#10A37F26">GPT-5.6</mark> <mark style="background:#10A37F26">Sol</mark>を予告—コーディングと安全性を両立した次世代プレビュー</a></h3>
-          <ul class="three-lines">
-            <li><mark style="background:#10A37F26">GPT-5.6</mark> Solを限定プレビュー公開</li><li>APIとCodexで先行提供を開始</li><li>推論強化と<mark style="background:#10A37F26">安全スタック</mark>を両立</li>
-          </ul>
-          <a class="read-more" href="articles/openai-1.html">詳しく読む →</a>
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-1.html">広島の<mark style="background:#D6314B26">WEAVE</mark>がAIエージェント「<mark style="background:#D6314B26">AI社員きんちゃん</mark>」を公開、国内企業の“社内AI化”をどう読むか</a></h3>
+          <ul class="lines"><li>WEAVEがAI社員きんちゃんを公開した。</li><li>社内業務を任せるAI活用が進みそうだ。</li><li>国内企業のAI導入の次段階を示す。</li></ul>
+          <a class="readmore" href="articles/japan-1.html" data-gc="click/japan-1">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#10A37F">OpenAI系</span>
-          <h3 class="card-title"><a href="articles/openai-2.html">米政府要請で<mark style="background:#10A37F26">GPT-5.6</mark>公開<mark style="background:#10A37F26">延期</mark>、OpenAIは限定先行提供へ</a></h3>
-          <ul class="three-lines">
-            <li><mark style="background:#10A37F26">GPT-5.6</mark>は先行公開に切り替えた</li><li>一般公開は<mark style="background:#10A37F26">米政府要請</mark>で延期した</li><li>APIとCodexで限定提供を始めた</li>
-          </ul>
-          <a class="read-more" href="articles/openai-2.html">詳しく読む →</a>
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-2.html">AMD <mark style="background:#D6314B26">Ryzen AI 7 350</mark>搭載PCが国内で広がる中、マウスコンピューターが示す<mark style="background:#D6314B26">AI PC</mark>戦略</a></h3>
+          <ul class="lines"><li>マウスコンピューターが新製品群を示した。</li><li>夏のセールでAI PC需要を押し上げる。</li><li>国内の業務AI導入が端末選定を変える。</li></ul>
+          <a class="readmore" href="articles/japan-2.html" data-gc="click/japan-2">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#10A37F">OpenAI系</span>
-          <h3 class="card-title"><a href="articles/openai-3.html">OpenAI、<mark style="background:#10A37F26">Broadcom</mark>とLLM推論チップ「<mark style="background:#10A37F26">Jalapeño</mark>」を発表</a></h3>
-          <ul class="three-lines">
-            <li>OpenAIが<mark style="background:#10A37F26">推論特化</mark>チップを発表</li><li>Broadcomと9か月で共同設計した</li><li>年内展開へ<mark style="background:#10A37F26">多世代基盤</mark>を始動</li>
-          </ul>
-          <a class="read-more" href="articles/openai-3.html">詳しく読む →</a>
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-3.html">国内企業の生成AI・<mark style="background:#D6314B26">AIエージェント</mark>導入は「実験」から「業務設計」へ——国内SIer・<mark style="background:#D6314B26">国産LLM</mark>・ガバナンスが焦点</a></h3>
+          <ul class="lines"><li>AI導入は実験段階から業務実装へ進む。</li><li>AIエージェントは権限管理が成否を分ける。</li><li>国産LLMとオンプレ基盤が再評価される。</li></ul>
+          <a class="readmore" href="articles/japan-3.html" data-gc="click/japan-3">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#10A37F">OpenAI系</span>
-          <h3 class="card-title"><a href="articles/openai-4.html">OpenAI、<mark style="background:#10A37F26">Daybreak</mark>で<mark style="background:#10A37F26">GPT-5.5-Cyber</mark>と<mark style="background:#10A37F26">Codex Security</mark>を拡張投入</a></h3>
-          <ul class="three-lines">
-            <li>Daybreakで防御AI基盤を拡張</li><li><mark style="background:#10A37F26">GPT-5.5-Cyber</mark>を正式投入</li><li><mark style="background:#10A37F26">Codex Security</mark>で修正まで支援</li>
-          </ul>
-          <a class="read-more" href="articles/openai-4.html">詳しく読む →</a>
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-4.html">国内SIerの生成AI実装・内製化支援が加速　<mark style="background:#D6314B26">AI駆動開発</mark>と国産LLMで変わる開発現場</a></h3>
+          <ul class="lines"><li>国内SIerがAI駆動開発の導入を広げた。</li><li>開発支援市場は26年度に急拡大が見込まれる。</li><li>政府の実装方針が内製化需要を押し上げる。</li></ul>
+          <a class="readmore" href="articles/japan-4.html" data-gc="click/japan-4">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#10A37F">OpenAI系</span>
-          <h3 class="card-title"><a href="articles/openai-5.html">OpenAI、<mark style="background:#10A37F26">Codex</mark>の提供形態を再編　<mark style="background:#10A37F26">ChatGPT</mark>各プランに内蔵へ</a></h3>
-          <ul class="three-lines">
-            <li>Codexを各ChatGPTプランに内蔵</li><li>法人向けは<mark style="background:#10A37F26">従量課金</mark>で柔軟化</li><li>新規Businessのseat販売は停止</li>
-          </ul>
-          <a class="read-more" href="articles/openai-5.html">詳しく読む →</a>
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-5.html">政府はAIを止めるより“使い方”を整えるへ――日本のAI政策・規制は実装段階に入った</a></h3>
+          <ul class="lines"><li>文科省は学習用AIの整備に乗り出した。</li><li>政府はAI活用へ規制改革を進めた。</li><li>44社連合が国産AI基盤の開発へ動いた。</li></ul>
+          <a class="readmore" href="articles/japan-5.html" data-gc="click/japan-5">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-6.html"><mark style="background:#D6314B26">国産LLM</mark>・<mark style="background:#D6314B26">日本語特化LLM</mark>の開発と商用化はどこまで進んだか</a></h3>
+          <ul class="lines"><li>国内のAI活用は、実務導入へ重心が移った。</li><li>技術解説と事例紹介が、商用化の土台を広げる。</li><li>日本企業の省力化需要が、LLM需要を押し上げる。</li></ul>
+          <a class="readmore" href="articles/japan-6.html" data-gc="click/japan-6">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-7.html"><mark style="background:#D6314B26">AI研修</mark>・人材育成市場で広がる「実践型」導入、教育・製造・福祉の現場に見る企業向け事例</a></h3>
+          <ul class="lines"><li>現場で使うAI研修へ需要が移っている。</li><li>教育・製造・福祉で実践事例が増えている。</li><li>校内推進役や導入設計が定着の鍵になる。</li></ul>
+          <a class="readmore" href="articles/japan-7.html" data-gc="click/japan-7">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-8.html">日本国内で広がるAI PC・端末導入と業務活用——<mark style="background:#D6314B26">Windows 10</mark>延長、教育現場の生成AI、国産LLM採用が示す次の一手</a></h3>
+          <ul class="lines"><li>Windows 10 ESU延長で更新負担を緩和する</li><li>教育現場は校内キーパーソンでAI活用を進める</li><li>大学はPaperpal導入で業務支援を実装する</li></ul>
+          <a class="readmore" href="articles/japan-8.html" data-gc="click/japan-8">詳しく読む →</a>
         </article>
       
       </div>
     </section>
-    
   
-    
-    <section class="board" id="sec-cloud" style="--accent:#4285F4">
-      <h2 class="board-title">
-        <span class="board-dot" style="background:#4285F4"></span>クラウド
-      </h2>
-      
-      <p class="board-summary">クラウド各社は、生成AIを単なる機能追加ではなく、企業の本番運用・課金・ガバナンスまで含む基盤として組み込み始めている。AWSはエージェント実運用とAIボットの収益化、AzureはClaudeやBlackwell GPUで既存基盤への統合強化、Google CloudはGemini Enterpriseを軸に企業向けAIの入口を拡大しており、競争の焦点は「AIを安全に使う」段階から「AIを業務と収益に結びつける」段階へ移っている。</p>
-      
-      <div class="card-grid">
+    <section class="board" id="sec-models" style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+      <div class="board-head">
+        <span class="board-bar" style="background:#0E8A87"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0E8A87" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg></span>
+        <span class="board-name">生成AIモデル</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">生成AIモデル分野では、各社が単なる高性能化だけでなく、エージェント用途での自律実行力や実務適性を強く意識した中位モデルの強化を進めており、低価格で広く普及させる競争が一段と鮮明になっています。同時に、先端モデルの公開には政府要請による制限や安全保障上の配慮が入り始めており、技術進化のスピードと規制・管理の緊張が高まっています。加えて、人材面ではGoogleからAnthropicへの流出が示すように、モデル性能競争は研究者の獲得競争でもあり、勢力図の変化が進んでいます。</p>
+      <div class="grid">
       
         <article class="card">
-          <span class="card-tag" style="background:#4285F4">クラウド</span>
-          <h3 class="card-title"><a href="articles/cloud-1.html">AWS、Summit NYで<mark style="background:#4285F426">Bedrock</mark>と<mark style="background:#4285F426">WAF</mark>を拡張</a></h3>
-          <ul class="three-lines">
-            <li>Bedrock <mark style="background:#4285F426">AgentCore</mark>を運用基盤へ拡張</li><li>WAFがAIボット課金機能を追加</li><li><mark style="background:#4285F426">Grok 4.3</mark>と値下げで利用を促進</li>
-          </ul>
-          <a class="read-more" href="articles/cloud-1.html">詳しく読む →</a>
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-1.html">Anthropic、<mark style="background:#0E8A8726">エージェント</mark>向け中位モデル「<mark style="background:#0E8A8726">Claude Sonnet 5</mark>」を発表　<mark style="background:#0E8A8726">低価格</mark>で自律実行力を強化</a></h3>
+          <ul class="lines"><li>Claude Sonnet 5が中位帯を刷新した</li><li>計画立案とツール利用を強化した</li><li>高性能級を低価格で使えるようにした</li></ul>
+          <a class="readmore" href="articles/models-1.html" data-gc="click/models-1">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#4285F4">クラウド</span>
-          <h3 class="card-title"><a href="articles/cloud-2.html">AWS WAFがAIボット課金を実装</a></h3>
-          <ul class="three-lines">
-            <li>AWS WAFがAIボット課金を追加</li><li><mark style="background:#4285F426">HTTP 402</mark>でエッジ課金を返す</li><li>可視化から収益化へ戦略を拡張</li>
-          </ul>
-          <a class="read-more" href="articles/cloud-2.html">詳しく読む →</a>
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-2.html">OpenAI、<mark style="background:#0E8A8726">GPT-5.6</mark>を政府要請で段階制限　「<mark style="background:#0E8A8726">trusted partners</mark>」限定公開に</a></h3>
+          <ul class="lines"><li>OpenAIはGPT-5.6の公開を段階制限した。</li><li>米政府要請でtrusted partnersに絞った。</li><li>AI強化と安全審査の両立が焦点になった。</li></ul>
+          <a class="readmore" href="articles/models-2.html" data-gc="click/models-2">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#4285F4">クラウド</span>
-          <h3 class="card-title"><a href="articles/cloud-3.html">Azureで<mark style="background:#4285F426">Claude</mark>が<mark style="background:#4285F426">Foundry</mark>に正式提供、<mark style="background:#4285F426">GB300</mark> Blackwell Ultra上でホスト</a></h3>
-          <ul class="three-lines">
-            <li>ClaudeがFoundryで<mark style="background:#4285F426">一般提供</mark>に</li><li>Azure上で<mark style="background:#4285F426">GB300</mark>により稼働</li><li>既存Azure管理で導入を容易化</li>
-          </ul>
-          <a class="read-more" href="articles/cloud-3.html">詳しく読む →</a>
-        </article>
-      
-        <article class="card">
-          <span class="card-tag" style="background:#4285F4">クラウド</span>
-          <h3 class="card-title"><a href="articles/cloud-4.html">Azure更新で<mark style="background:#4285F426">OneLake</mark>連携と<mark style="background:#4285F426">Blackwell</mark> GPU VMを強化</a></h3>
-          <ul class="three-lines">
-            <li>OneLake連携がGAで前進した</li><li>Blackwell GPU VMもGAになった</li><li>分析基盤とAI計算基盤を同時強化</li>
-          </ul>
-          <a class="read-more" href="articles/cloud-4.html">詳しく読む →</a>
-        </article>
-      
-        <article class="card">
-          <span class="card-tag" style="background:#4285F4">クラウド</span>
-          <h3 class="card-title"><a href="articles/cloud-5.html"><mark style="background:#4285F426">Google Cloud</mark>、<mark style="background:#4285F426">Gemini Enterprise</mark>を前面に押し出し企業向けAI基盤を拡充</a></h3>
-          <ul class="three-lines">
-            <li>Gemini Enterprise <mark style="background:#4285F426">Business Edition</mark>を前面訴求</li><li>ConfluenceやJira連携を相次ぎGA化</li><li><mark style="background:#4285F426">Provisioned Throughput</mark>の運用機能も拡充</li>
-          </ul>
-          <a class="read-more" href="articles/cloud-5.html">詳しく読む →</a>
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-3.html"><mark style="background:#0E8A8726">Google</mark>のAI人材流出が加速、<mark style="background:#0E8A8726">Anthropic</mark>が<mark style="background:#0E8A8726">Gemini</mark>主要メンバーを引き抜き</a></h3>
+          <ul class="lines"><li>Gemini中核の研究者2人がAnthropicへ移る。</li><li>Googleは低価格モデル投入で反撃を急ぐ。</li><li>人材流出と供給制約がAI戦略を揺らす。</li></ul>
+          <a class="readmore" href="articles/models-3.html" data-gc="click/models-3">詳しく読む →</a>
         </article>
       
       </div>
     </section>
-    
   
-    
-    <section class="board" id="sec-devtools" style="--accent:#AB47BC">
-      <h2 class="board-title">
-        <span class="board-dot" style="background:#AB47BC"></span>AI開発ツール
-      </h2>
-      
-      <p class="board-summary">AI開発ツールでは、Claude Sonnet 5の投入を起点に、GitHub CopilotやCursorなど主要製品が次々と対応し、モデルそのものの優劣だけでなく「どの開発環境で、どのAIを、どこまで実行系として使えるか」が競争軸になっている。さらにCopilot SDKやAgent HQの拡充で、AIは補助機能から外部アプリや常駐エージェントに組み込める実行基盤へ広がっており、開発者向けAIツールは“使う”段階から“運用・埋め込み・自動化する”段階に移りつつある。</p>
-      
-      <div class="card-grid">
+    <section class="board" id="sec-cloud" style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+      <div class="board-head">
+        <span class="board-bar" style="background:#3654D6"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3654D6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg></span>
+        <span class="board-name">クラウド</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">AWSを中心に、クラウド各社はAI需要の拡大に合わせて「基盤提供」だけでなく、顧客の導入・実装まで踏み込む支援体制を強化しています。一方で、メモリ不足など供給制約によるコスト上昇が料金改定として表面化し、AIクラウドの利用コストはじわりと上昇局面にあります。加えてEUがAWSやAzureへの規制を強める動きもあり、クラウド市場は「AI投資の拡大」と「価格・規制圧力の強化」が同時進行する段階に入っています。</p>
+      <div class="grid">
       
         <article class="card">
-          <span class="card-tag" style="background:#AB47BC">AI開発ツール</span>
-          <h3 class="card-title"><a href="articles/devtools-1.html"><mark style="background:#AB47BC26">Claude Sonnet 5</mark>が<mark style="background:#AB47BC26">Claude Code</mark>とAPIに登場</a></h3>
-          <ul class="three-lines">
-            <li><mark style="background:#AB47BC26">Claude Sonnet 5</mark>がAPIで利用可能に</li><li><mark style="background:#AB47BC26">Claude Code</mark>と各種IDEへ展開が進む</li><li>導入価格は期間限定で割安に設定</li>
-          </ul>
-          <a class="read-more" href="articles/devtools-1.html">詳しく読む →</a>
+          <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+          <h3><a href="articles/cloud-1.html"><mark style="background:#3654D626">AWS</mark>、AI向け新組織「Forward Deployed Engineering」を設立　約<mark style="background:#3654D626">10億ドル</mark>投資で顧客伴走を強化</a></h3>
+          <ul class="lines"><li>AWSがAI支援組織に約10億ドルを投じる。</li><li>顧客現場に入るFDEを数千人規模で育てる。</li><li>AI導入支援をクラウド戦略の中核に置く。</li></ul>
+          <a class="readmore" href="articles/cloud-1.html" data-gc="click/cloud-1">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#AB47BC">AI開発ツール</span>
-          <h3 class="card-title"><a href="articles/devtools-2.html"><mark style="background:#AB47BC26">GitHub Copilot</mark>で<mark style="background:#AB47BC26">Claude Sonnet 5</mark>が<mark style="background:#AB47BC26">GA</mark>、モデル競争はさらに加速</a></h3>
-          <ul class="three-lines">
-            <li>Claude <mark style="background:#AB47BC26">Sonnet 5</mark>がCopilotでGAに</li><li>IDEとCLIで使える新選択肢に</li><li>Copilotのモデル更新競争が加速</li>
-          </ul>
-          <a class="read-more" href="articles/devtools-2.html">詳しく読む →</a>
+          <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+          <h3><a href="articles/cloud-2.html">Amazon、AIクラウド料金を引き上げ　メモリ不足が<mark style="background:#3654D626">AWS</mark>に波及</a></h3>
+          <ul class="lines"><li>AWSのAI向け料金がまた上がった。</li><li>メモリ不足がクラウド原価を押し上げた。</li><li>AIインフラの値上げ連鎖が広がる。</li></ul>
+          <a class="readmore" href="articles/cloud-2.html" data-gc="click/cloud-2">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#AB47BC">AI開発ツール</span>
-          <h3 class="card-title"><a href="articles/devtools-3.html">GitHub Copilotの<mark style="background:#AB47BC26">Agent HQ</mark>で<mark style="background:#AB47BC26">Claude</mark>と<mark style="background:#AB47BC26">Codex</mark>を選べるように</a></h3>
-          <ul class="three-lines">
-            <li>ClaudeとCodexが<mark style="background:#AB47BC26">Agent HQ</mark>で公開プレビューに</li><li>GitHubとVS Codeから同じ流れで使える</li><li>4月に<mark style="background:#AB47BC26">モデル選択</mark>も追加され運用が進化</li>
-          </ul>
-          <a class="read-more" href="articles/devtools-3.html">詳しく読む →</a>
-        </article>
-      
-        <article class="card">
-          <span class="card-tag" style="background:#AB47BC">AI開発ツール</span>
-          <h3 class="card-title"><a href="articles/devtools-4.html"><mark style="background:#AB47BC26">Cursor</mark> Automationsが <mark style="background:#AB47BC26">/automate</mark> とGitHub/Slackトリガーを強化</a></h3>
-          <ul class="three-lines">
-            <li><mark style="background:#AB47BC26">/automate</mark>で自動化設定を自然文で開始</li><li><mark style="background:#AB47BC26">GitHub・Slack</mark>起点の実行面を拡張</li><li><mark style="background:#AB47BC26">computer use</mark>で成果物作成まで自動化</li>
-          </ul>
-          <a class="read-more" href="articles/devtools-4.html">詳しく読む →</a>
-        </article>
-      
-        <article class="card">
-          <span class="card-tag" style="background:#AB47BC">AI開発ツール</span>
-          <h3 class="card-title"><a href="articles/devtools-5.html"><mark style="background:#AB47BC26">Copilot SDK</mark>が<mark style="background:#AB47BC26">GA</mark>、GitHubが“実行系”を外部アプリに開放</a></h3>
-          <ul class="three-lines">
-            <li><mark style="background:#AB47BC26">Copilot SDK</mark>が6月2日に一般提供へ</li><li><mark style="background:#AB47BC26">CLI由来</mark>の実行系を外部アプリへ埋め込み可能に</li><li>Pythonなど<mark style="background:#AB47BC26">6言語</mark>で本番利用を支援</li>
-          </ul>
-          <a class="read-more" href="articles/devtools-5.html">詳しく読む →</a>
+          <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+          <h3><a href="articles/cloud-3.html">EUが<mark style="background:#3654D626">AWS</mark>と<mark style="background:#3654D626">Azure</mark>をゲートキーパー指定へ、クラウド規制がAI時代に一段強化</a></h3>
+          <ul class="lines"><li>EUがAWSとAzureをゲートキー指定へ進める</li><li>DMA適用でクラウド監督が一段と厳しくなる</li><li>AI基盤を支える大型クラウドに波及する</li></ul>
+          <a class="readmore" href="articles/cloud-3.html" data-gc="click/cloud-3">詳しく読む →</a>
         </article>
       
       </div>
     </section>
-    
   
-    
-    <section class="board" id="sec-japan" style="--accent:#EF5350">
-      <h2 class="board-title">
-        <span class="board-dot" style="background:#EF5350"></span>日本国内
-      </h2>
-      
-      <p class="board-summary">日本国内では、AIを前提にした基幹システム刷新と実運用への移行が一気に進み、金融や政府を含む重要領域で国産LLMや安全なAI実装が競争軸になっている。海外AIベンダーの現場支援が国内SIerへの圧力を強める一方、NECやデジタル庁の動きに見られるように、経済安保やガバナンスを背景に日本勢が国産基盤・業界特化で差別化を狙う構図が鮮明だ。さらに水冷AIインフラの整備も進み、PoC段階から本番導入へ向けた土台づくりが加速している。</p>
-      
-      <div class="card-grid">
+    <section class="board" id="sec-devtools" style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+      <div class="board-head">
+        <span class="board-bar" style="background:#8A3FE0"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A3FE0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg></span>
+        <span class="board-name">AI開発ツール</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">AI開発ツール分野では、Cursorのモバイル化やAnthropicのClaude Sonnet 5投入により、開発者がどこからでも、より低コストでエージェント型コーディングを回せる環境が一気に整いつつあります。あわせてXのMCPサーバー公開が示すように、各サービスは単体性能だけでなく、ClaudeやCursorのような外部ツールと安全かつ滑らかにつながる“接続基盤”の競争に入っており、AI開発体験は常時接続・相互連携へ進化しています。</p>
+      <div class="grid">
       
         <article class="card">
-          <span class="card-tag" style="background:#EF5350">日本国内</span>
-          <h3 class="card-title"><a href="articles/japan-1.html"><mark style="background:#EF535026">みずほ証券</mark>が<mark style="background:#EF535026">Devin</mark>導入、AI駆動開発を金融本番へ</a></h3>
-          <ul class="three-lines">
-            <li>みずほ証券が<mark style="background:#EF535026">Devin</mark>導入を本格化</li><li>ULSが金融向け安全運用を支援</li><li>国内SIerのAI導入競争が加速</li>
-          </ul>
-          <a class="read-more" href="articles/japan-1.html">詳しく読む →</a>
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-1.html">Cursor、<mark style="background:#8A3FE026">iPhone/iPad</mark>向けモバイルアプリを公開　外出先からコーディングエージェントを指示可能に</a></h3>
+          <ul class="lines"><li>Cursorがスマホから指示できるようにした</li><li>iPhone/iPad版で外出先運用を広げた</li><li>AI開発ツールは常時接続へ進んだ</li></ul>
+          <a class="readmore" href="articles/devtools-1.html" data-gc="click/devtools-1">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#EF5350">日本国内</span>
-          <h3 class="card-title"><a href="articles/japan-2.html">日本の<mark style="background:#EF535026">SIer</mark>は「先手」を打てるか</a></h3>
-          <ul class="three-lines">
-            <li>OpenAIとAnthropicが<mark style="background:#EF535026">現場支援</mark>へ踏み込む</li><li>国内SIerは<mark style="background:#EF535026">要件定義</mark>の競合圧力を受ける</li><li><mark style="background:#EF535026">国産LLM</mark>活用で日本仕様に差別化する</li>
-          </ul>
-          <a class="read-more" href="articles/japan-2.html">詳しく読む →</a>
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-2.html">Anthropicが<mark style="background:#8A3FE026">Claude Sonnet 5</mark>を投入、エージェント/コーディング用途を<mark style="background:#8A3FE026">中価格帯</mark>で強化</a></h3>
+          <ul class="lines"><li>Claude Sonnet 5を中価格で投入した。</li><li>コーディングとエージェント性能を底上げした。</li><li>開発者は高性能をより安く試しやすくなる。</li></ul>
+          <a class="readmore" href="articles/devtools-2.html" data-gc="click/devtools-2">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#EF5350">日本国内</span>
-          <h3 class="card-title"><a href="articles/japan-3.html"><mark style="background:#EF535026">NEC</mark>が示す<mark style="background:#EF535026">SIer</mark>勝者の条件、<mark style="background:#EF535026">AI革命</mark>と経済安保が基準に</a></h3>
-          <ul class="three-lines">
-            <li>NECは<mark style="background:#EF535026">AI産業革命</mark>でSIer再編を促す</li><li><mark style="background:#EF535026">2026年度需要</mark>は基幹刷新へ集中する</li><li>政府のガバナンス強化が国産AIを後押し</li>
-          </ul>
-          <a class="read-more" href="articles/japan-3.html">詳しく読む →</a>
-        </article>
-      
-        <article class="card">
-          <span class="card-tag" style="background:#EF5350">日本国内</span>
-          <h3 class="card-title"><a href="articles/japan-4.html">デジタル庁、ガバメントAI用国産LLMを選定　<mark style="background:#EF535026">tsuzumi 2</mark>や<mark style="background:#EF535026">PLaMo 2.0</mark>など</a></h3>
-          <ul class="three-lines">
-            <li>tsuzumi 2やPLaMo 2.0を<mark style="background:#EF535026">7件選定</mark></li><li>源内で<mark style="background:#EF535026">行政実務</mark>への適合性を検証</li><li>2027年度以降の<mark style="background:#EF535026">政府調達</mark>を視野</li>
-          </ul>
-          <a class="read-more" href="articles/japan-4.html">詳しく読む →</a>
-        </article>
-      
-        <article class="card">
-          <span class="card-tag" style="background:#EF5350">日本国内</span>
-          <h3 class="card-title"><a href="articles/japan-5.html">レノボが日本初の<mark style="background:#EF535026">水冷AI</mark>検証拠点を開設</a></h3>
-          <ul class="three-lines">
-            <li>レノボが国内初の<mark style="background:#EF535026">Neptuneラボ</mark>を開設</li><li>GPU高密度化に水冷検証で対応</li><li>PoCから本番設計まで支援を強化</li>
-          </ul>
-          <a class="read-more" href="articles/japan-5.html">詳しく読む →</a>
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-3.html">Xが<mark style="background:#8A3FE026">MCP</mark>サーバー公開、<mark style="background:#8A3FE026">Claude</mark>や<mark style="background:#8A3FE026">Cursor</mark>から直接使いやすく</a></h3>
+          <ul class="lines"><li>XがMCPサーバーを公開し連携を簡単にした。</li><li>ClaudeやCursorなどが直接つなぎやすくなる。</li><li>開発ツール側ではMCP活用と安全性が同時に進む。</li></ul>
+          <a class="readmore" href="articles/devtools-3.html" data-gc="click/devtools-3">詳しく読む →</a>
         </article>
       
       </div>
     </section>
-    
   
-    
-    <section class="board" id="sec-global" style="--accent:#F9AB00">
-      <h2 class="board-title">
-        <span class="board-dot" style="background:#F9AB00"></span>欧米動向
-      </h2>
-      
-      <p class="board-summary">欧州ではAI法の施行は予定通り進みつつ、実務負担を和らげるための任意コードや修正案も並行して整備されており、規制の骨格は維持しながら運用面を調整する局面に入っている。これに対し米国勢は対応が分かれ、MicrosoftのようにEU規範へ歩み寄る動きと、Metaのように法的不確実性を理由に距離を取る動きが対照的になっている。加えて、AI投資の過熱による金融リスクへの警戒や、研究現場でのAI活用拡大に伴う人間中心の原則をめぐる議論も強まり、欧米では「加速するAI実装」と「強まるガバナンス整備」が同時進行している。</p>
-      
-      <div class="card-grid">
+    <section class="board" id="sec-global" style="--cat-light:#C2871F;--cat-dark:#96690E;--hl:#C2871F26">
+      <div class="board-head">
+        <span class="board-bar" style="background:#C2871F"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C2871F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg></span>
+        <span class="board-name">欧米動向</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">欧州では、米国系クラウドやAI基盤への依存を見直し、デジタル市場法の適用拡大や域内ホスティング推進を通じて「AI主権」を強めようとする動きが鮮明になっている。背景には、規制や安全保障の観点から計算資源とモデル基盤を自前で確保したい思惑があり、独仏を中心に米中依存からの脱却を模索する流れが加速している。一方で、トップ級AIを域内で育てる難しさもあり、当面は完全自立よりも欧州版の基盤整備を進める段階にある。</p>
+      <div class="grid">
       
         <article class="card">
-          <span class="card-tag" style="background:#F9AB00">欧米動向</span>
-          <h3 class="card-title"><a href="articles/global-1.html"><mark style="background:#F9AB0026">Microsoft</mark>がEU AI行動規範に前向き、<mark style="background:#F9AB0026">Meta</mark>は距離</a></h3>
-          <ul class="three-lines">
-            <li>MicrosoftがEU規範に<mark style="background:#F9AB0026">署名方針</mark>を示した</li><li>Metaは法的不確実性を理由に<mark style="background:#F9AB0026">拒否</mark>した</li><li>EUはAI Act対応の<mark style="background:#F9AB0026">任意ツール</mark>とした</li>
-          </ul>
-          <a class="read-more" href="articles/global-1.html">詳しく読む →</a>
+          <span class="pill" style="background:#96690E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg>欧米動向</span>
+          <h3><a href="articles/global-1.html">EUがAmazon/Microsoftのクラウドを「ゲートキーパー」扱いへ、規制はAI戦略にも波及か</a></h3>
+          <ul class="lines"><li>EUがAWSとAzureを規制対象に近づけた。</li><li>巨大クラウドの支配力に監視を強める。</li><li>AI基盤の競争環境にも影響が及ぶ。</li></ul>
+          <a class="readmore" href="articles/global-1.html" data-gc="click/global-1">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#F9AB00">欧米動向</span>
-          <h3 class="card-title"><a href="articles/global-2.html">EU、<mark style="background:#F9AB0026">AI法</mark>の施行タイムラインを維持　延期要請を退ける</a></h3>
-          <ul class="three-lines">
-            <li>EUはAI法の延期要請を退けた</li><li>GPAI義務は<mark style="background:#F9AB0026">2025年8月</mark>に始まる</li><li>高リスクAI規制は<mark style="background:#F9AB0026">2026年8月</mark>へ進む</li>
-          </ul>
-          <a class="read-more" href="articles/global-2.html">詳しく読む →</a>
+          <span class="pill" style="background:#96690E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg>欧米動向</span>
+          <h3><a href="articles/global-2.html">オーストリア、<mark style="background:#C2871F26">Anthropic</mark>の<mark style="background:#C2871F26">EU域内</mark>ホスティングを提案　米国の利用制限に対抗する“<mark style="background:#C2871F26">AI主権</mark>”の動き</a></h3>
+          <ul class="lines"><li>オーストリアがAnthropicのEU内設置を提案した。</li><li>米国の利用制限に欧州側が対抗姿勢を見せた。</li><li>Anthropicは米国で規制緩和の動きも進む。</li></ul>
+          <a class="readmore" href="articles/global-2.html" data-gc="click/global-2">詳しく読む →</a>
         </article>
       
         <article class="card">
-          <span class="card-tag" style="background:#F9AB00">欧米動向</span>
-          <h3 class="card-title"><a href="articles/global-3.html"><mark style="background:#F9AB0026">BIS</mark>、<mark style="background:#F9AB0026">AIブーム</mark>の持続性と金融リスクに警鐘</a></h3>
-          <ul class="three-lines">
-            <li><mark style="background:#F9AB0026">BIS</mark>がAI投資過熱に金融警戒を発した</li><li>欧州はAI Act本格適用へ備えを急ぐ</li><li>米国は巨額調達でAI競争が資本市場化</li>
-          </ul>
-          <a class="read-more" href="articles/global-3.html">詳しく読む →</a>
-        </article>
-      
-        <article class="card">
-          <span class="card-tag" style="background:#F9AB00">欧米動向</span>
-          <h3 class="card-title"><a href="articles/global-4.html">EU、AI法の適用延期を含む『<mark style="background:#F9AB0026">Digital Omnibus</mark> on AI』を前進</a></h3>
-          <ul class="three-lines">
-            <li>高リスクAIの適用時期を後ろ倒し</li><li>同意なきAI生成画像を新たに禁止</li><li><mark style="background:#F9AB0026">正式採択前</mark>でも企業準備は急務</li>
-          </ul>
-          <a class="read-more" href="articles/global-4.html">詳しく読む →</a>
-        </article>
-      
-        <article class="card">
-          <span class="card-tag" style="background:#F9AB00">欧米動向</span>
-          <h3 class="card-title"><a href="articles/global-5.html">AIが数理研究を加速、欧州では規制と規範整備が進む</a></h3>
-          <ul class="three-lines">
-            <li>AIが数理研究を急速に変えた</li><li>数学者は人間中心の原則を求めた</li><li>欧州は規制と研究基盤を同時整備</li>
-          </ul>
-          <a class="read-more" href="articles/global-5.html">詳しく読む →</a>
+          <span class="pill" style="background:#96690E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg>欧米動向</span>
+          <h3><a href="articles/global-3.html">欧州が自前<mark style="background:#C2871F26">AI基盤</mark>を志向、独仏中心に『米中依存からの脱却』を模索</a></h3>
+          <ul class="lines"><li>独仏を軸に、自前AI基盤を模索する</li><li>EUは技能育成と制度整備を同時に進める</li><li>課題は大規模モデルと実装資金の確保だ</li></ul>
+          <a class="readmore" href="articles/global-3.html" data-gc="click/global-3">詳しく読む →</a>
         </article>
       
       </div>
     </section>
-    
   
   </main>
 </div>
 
-<footer class="site-footer">
-  <p>本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク(原文)をご確認ください。</p>
-</footer>
+<section class="contact">
+  <div class="contact-inner">
+    <div>
+      <div class="mono lbl">▶ INTEL REQUEST</div>
+      <h2>あなたが最も知りたいテーマは？</h2>
+      <p>今後取り上げてほしいトピック・業界・企業のご要望、記事内容へのご相談など、お気軽にどうぞ。</p>
+    </div>
+    <div class="contact-actions">
+      <a class="contact-btn" target="_blank" rel="noopener" data-gc="click/theme" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shintboku@gmail.com&su=%5BNews%20Digest%5D%20%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84%E3%83%86%E3%83%BC%E3%83%9E%E3%83%BB%E3%81%94%E8%A6%81%E6%9C%9B&body=%E5%8F%96%E3%82%8A%E4%B8%8A%E3%81%92%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84%E3%83%88%E3%83%94%E3%83%83%E3%82%AF%E3%83%BB%E6%A5%AD%E7%95%8C%E3%83%BB%E4%BC%81%E6%A5%AD%E3%82%92%E3%81%8A%E6%9B%B8%E3%81%8D%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%9A%0A%0A">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+        知りたいテーマを送る
+      </a>
+      <a class="contact-btn alt" target="_blank" rel="noopener" data-gc="click/consult" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shintboku@gmail.com&su=%5BNews%20Digest%5D%20%E4%BD%9C%E8%80%85%E3%81%B8%E3%81%AE%E7%9B%B8%E8%AB%87%E3%83%BB%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&body=%E3%81%94%E7%9B%B8%E8%AB%87%E3%83%BB%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%E3%82%92%E3%81%8A%E6%9B%B8%E3%81%8D%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%9A%0A%0A">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        作者に相談する
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク（原文）をご確認ください。</footer>
+
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest('[data-gc]'); if(!a) return;
+  if(window.goatcounter&&window.goatcounter.count){
+    window.goatcounter.count({path:a.getAttribute('data-gc'),title:'click:'+a.getAttribute('data-gc'),event:true});
+  }
+});
+</script>
 </body>
 </html>

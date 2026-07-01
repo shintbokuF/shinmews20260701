@@ -66,8 +66,9 @@ def _env() -> Environment:
     return env
 
 
-def render(data: dict, out_dir: str, archive_href: str = "archive/index.html") -> None:
-    """data = {date, generated_at, sections:[{slug,name,accent,summary,articles:[...]}]}。"""
+def render(data: dict, out_dir: str, archive_href: str = "archive/index.html",
+           goatcounter: str = "") -> None:
+    """data = {date, generated_at, sections:[{slug,name,accent,accent_dark,icon,summary,articles:[...]}]}。"""
     env = _env()
     index_tpl = env.get_template("index.html.j2")
     article_tpl = env.get_template("article.html.j2")
@@ -88,13 +89,13 @@ def render(data: dict, out_dir: str, archive_href: str = "archive/index.html") -
     # 詳情ページ
     for sec in data["sections"]:
         for art in sec["articles"]:
-            html = article_tpl.render(article=art, section=sec, data=data)
+            html = article_tpl.render(article=art, section=sec, data=data, goatcounter=goatcounter)
             with open(os.path.join(articles_dir, f"{art['id']}.html"), "w", encoding="utf-8") as f:
                 f.write(html)
 
     # 首页
     with open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8") as f:
-        f.write(index_tpl.render(data=data, archive_href=archive_href))
+        f.write(index_tpl.render(data=data, archive_href=archive_href, goatcounter=goatcounter))
 
     _copy_static(out_dir)
 
@@ -106,11 +107,11 @@ def _copy_static(out_dir: str) -> None:
         shutil.copy2(os.path.join(STATIC, fn), os.path.join(out_static, fn))
 
 
-def render_archive_index(dates: list[str], out_path: str) -> None:
+def render_archive_index(dates: list[str], out_path: str, goatcounter: str = "") -> None:
     """過去のダイジェスト日付一覧ページ。out_path = output/archive/index.html。"""
     env = _env()
     tpl = env.get_template("archive.html.j2")
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     with open(out_path, "w", encoding="utf-8") as f:
-        f.write(tpl.render(dates=dates))
+        f.write(tpl.render(dates=dates, goatcounter=goatcounter))
     _copy_static(os.path.dirname(out_path))

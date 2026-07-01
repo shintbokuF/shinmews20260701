@@ -16,3 +16,7 @@ _shots/
 
 # ログ
 logs/
+
+# ローカル作業用スクリプト
+_*.py
+design_mock.html

@@ -1,70 +1,134 @@
+{%- set ICONS = {
+  "chip": '<path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/>',
+  "cloud": '<path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/>',
+  "terminal": '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/>',
+  "torii": '<path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/>',
+  "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/>'
+} -%}
+{%- macro svg(name, color, size) -%}
+<svg width="{{size}}" height="{{size}}" viewBox="0 0 24 24" fill="none" stroke="{{color}}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{{ ICONS[name]|safe }}</svg>
+{%- endmacro -%}
+{%- macro bars(count, color, h) -%}
+<span class="signal" style="height:{{h}}px">{% for i in range(count) %}<i style="height:{{ (h*(0.45+((i*7+3)%10)/16))|round|int }}px;background:{{color}}"></i>{% endfor %}</span>
+{%- endmacro -%}
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="static/style.css">
+{% if goatcounter %}<script data-goatcounter="{{ goatcounter }}" async src="//gc.zgo.at/count.js"></script>{% endif %}
 </head>
 <body>
-<header class="site-header">
-  <div class="header-inner">
-    <div>
-      <h1>AI・クラウド ニュースダイジェスト</h1>
-      <p class="site-date">{{ data.date }} 生成</p>
-    </div>
-    <a class="archive-link" href="{{ archive_href }}">📅 過去のダイジェスト</a>
+<div class="ticker" aria-label="本日のニュース速報">
+  <div class="ticker-live"><span class="live-dot" aria-hidden="true"></span><span>LIVE</span></div>
+  <div class="ticker-track">
+    {% for pass in [1, 2] %}{% for sec in data.sections %}{% for art in sec.articles %}<span class="ticker-item"><b style="background:{{ sec.accent }}"></b>{{ sec.name }} // {{ art.title }}</span>{% endfor %}{% endfor %}{% endfor %}
   </div>
+</div>
+
+<header class="masthead">
+  <div class="mast-left">
+    <div>
+      <h1 class="mast-title">AI・クラウド<br>ニュースダイジェスト</h1>
+      <div class="mast-sub">DAILY INTELLIGENCE DISPATCH</div>
+    </div>
+    <div class="stamp" aria-hidden="true">
+      <div class="arc">◦ RECEIVED ◦</div>
+      <div class="d">{{ data.date.replace('-', '.') }}</div>
+      <div class="t">TRANSMISSION<br>RECEIVED</div>
+    </div>
+  </div>
+  <nav class="mast-nav">
+    <a class="ghost-btn" href="https://shintbokuf.github.io/" target="_blank" rel="noopener" data-gc="nav/profile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+      創作者プロフィール
+    </a>
+    <a class="ghost-btn" href="https://researchmap.jp/buxinzhe" target="_blank" rel="noopener" data-gc="nav/researchmap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M8 6h8M7.6 7.7 10.6 16.3M16.4 7.7 13.4 16.3"/></svg>
+      リサーチマップ
+    </a>
+    <a class="ghost-btn" href="{{ archive_href }}" data-gc="nav/archive">過去のダイジェスト
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </nav>
 </header>
 
+<nav class="chipbar" aria-label="分類">
+  {% for sec in data.sections %}{% if sec.articles %}<a class="chip" href="#sec-{{ sec.slug }}"><span class="side-dot" style="background:{{ sec.accent }}"></span>{{ sec.name }}{{ bars(sec.articles|length, sec.accent, 16) }}</a>{% endif %}{% endfor %}
+</nav>
+
 <div class="layout">
-  <!-- 左侧索引栏 -->
-  <nav class="sidebar">
-    <p class="nav-head">INDEX</p>
-    <ul>
-    {% for sec in data.sections %}
-      {% if sec.articles %}
-      <li>
-        <a href="#sec-{{ sec.slug }}">
-          <span class="nav-dot" style="background:{{ sec.accent }}"></span>{{ sec.name }}
-          <span class="nav-count">{{ sec.articles|length }}</span>
-        </a>
-      </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
+  <nav class="sidebar" aria-label="分類インデックス">
+    <div class="side-head">SIGNAL INDEX</div>
+    {% for sec in data.sections %}{% if sec.articles %}
+    <a class="side-row" href="#sec-{{ sec.slug }}">
+      <span class="side-dot" style="background:{{ sec.accent }}"></span>
+      <span class="side-name">{{ sec.name }}</span>
+      {{ bars(sec.articles|length, sec.accent, 22) }}
+    </a>
+    {% endif %}{% endfor %}
   </nav>
 
-  <main class="container">
-  {% for sec in data.sections %}
-    {% if sec.articles %}
-    <section class="board" id="sec-{{ sec.slug }}" style="--accent:{{ sec.accent }}">
-      <h2 class="board-title">
-        <span class="board-dot" style="background:{{ sec.accent }}"></span>{{ sec.name }}
-      </h2>
-      {% if sec.summary %}
-      <p class="board-summary">{{ sec.summary }}</p>
-      {% endif %}
-      <div class="card-grid">
+  <main class="main">
+  {% for sec in data.sections %}{% if sec.articles %}
+    <section class="board" id="sec-{{ sec.slug }}" style="--cat-light:{{ sec.accent }};--cat-dark:{{ sec.accent_dark }};--hl:{{ sec.accent }}26">
+      <div class="board-head">
+        <span class="board-bar" style="background:{{ sec.accent }}"></span>
+        <span class="board-icon">{{ svg(sec.icon, sec.accent, 26) }}</span>
+        <span class="board-name">{{ sec.name }}</span>
+        <span class="board-tag">{{ '%02d'|format(sec.articles|length) }} SIGNALS</span>
+      </div>
+      {% if sec.summary %}<p class="board-intro">{{ sec.summary }}</p>{% endif %}
+      <div class="grid">
       {% for art in sec.articles %}
         <article class="card">
-          <span class="card-tag" style="background:{{ sec.accent }}">{{ sec.name }}</span>
-          <h3 class="card-title"><a href="articles/{{ art.id }}.html">{{ art.title_html }}</a></h3>
-          <ul class="three-lines">
-            {% for line in art.three_lines_html %}<li>{{ line }}</li>{% endfor %}
-          </ul>
-          <a class="read-more" href="articles/{{ art.id }}.html">詳しく読む →</a>
+          <span class="pill" style="background:{{ sec.accent_dark }}">{{ svg(sec.icon, '#fff', 12) }}{{ sec.name }}</span>
+          <h3><a href="articles/{{ art.id }}.html">{{ art.title_html }}</a></h3>
+          <ul class="lines">{% for line in art.three_lines %}<li>{{ line }}</li>{% endfor %}</ul>
+          <a class="readmore" href="articles/{{ art.id }}.html" data-gc="click/{{ art.id }}">詳しく読む →</a>
         </article>
       {% endfor %}
       </div>
     </section>
-    {% endif %}
-  {% endfor %}
+  {% endif %}{% endfor %}
   </main>
 </div>
 
-<footer class="site-footer">
-  <p>本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク(原文)をご確認ください。</p>
-</footer>
+<section class="contact">
+  <div class="contact-inner">
+    <div>
+      <div class="mono lbl">▶ INTEL REQUEST</div>
+      <h2>あなたが最も知りたいテーマは？</h2>
+      <p>今後取り上げてほしいトピック・業界・企業のご要望、記事内容へのご相談など、お気軽にどうぞ。</p>
+    </div>
+    <div class="contact-actions">
+      <a class="contact-btn" target="_blank" rel="noopener" data-gc="click/theme" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shintboku@gmail.com&su=%5BNews%20Digest%5D%20%E7%9F%A5%E3%82%8A%E3%81%9F%E3%81%84%E3%83%86%E3%83%BC%E3%83%9E%E3%83%BB%E3%81%94%E8%A6%81%E6%9C%9B&body=%E5%8F%96%E3%82%8A%E4%B8%8A%E3%81%92%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84%E3%83%88%E3%83%94%E3%83%83%E3%82%AF%E3%83%BB%E6%A5%AD%E7%95%8C%E3%83%BB%E4%BC%81%E6%A5%AD%E3%82%92%E3%81%8A%E6%9B%B8%E3%81%8D%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%9A%0A%0A">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
+        知りたいテーマを送る
+      </a>
+      <a class="contact-btn alt" target="_blank" rel="noopener" data-gc="click/consult" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=shintboku@gmail.com&su=%5BNews%20Digest%5D%20%E4%BD%9C%E8%80%85%E3%81%B8%E3%81%AE%E7%9B%B8%E8%AB%87%E3%83%BB%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&body=%E3%81%94%E7%9B%B8%E8%AB%87%E3%83%BB%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B%E5%86%85%E5%AE%B9%E3%82%92%E3%81%8A%E6%9B%B8%E3%81%8D%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%EF%BC%9A%0A%0A">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        作者に相談する
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク（原文）をご確認ください。</footer>
+
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest('[data-gc]'); if(!a) return;
+  if(window.goatcounter&&window.goatcounter.count){
+    window.goatcounter.count({path:a.getAttribute('data-gc'),title:'click:'+a.getAttribute('data-gc'),event:true});
+  }
+});
+</script>
 </body>
 </html>

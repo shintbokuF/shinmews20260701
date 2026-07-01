@@ -38,7 +38,9 @@ def build(today: str | None = None) -> dict:
             art["id"] = f"{sec['slug']}-{i + 1}"
         sections_out.append({
             "slug": sec["slug"], "name": sec["name"],
-            "accent": sec["accent"], "articles": articles, "summary": summary,
+            "accent": sec["accent"], "accent_dark": sec.get("accent_dark", sec["accent"]),
+            "icon": sec.get("icon", "chip"),
+            "articles": articles, "summary": summary,
         })
 
     data = {
@@ -61,19 +63,21 @@ def build(today: str | None = None) -> dict:
 def render_all(data: dict) -> None:
     """最新版を output/ に、日付スナップショットを output/archive/<date>/ に描画。
     さらに過去分を一覧する archive/index.html を生成。"""
+    from config import GOATCOUNTER
     date_str = data["date"]
     # 最新（トップ）
-    renderer.render(data, OUTPUT_DIR, archive_href="archive/index.html")
+    renderer.render(data, OUTPUT_DIR, archive_href="archive/index.html", goatcounter=GOATCOUNTER)
     # 日付スナップショット
     snap_dir = os.path.join(OUTPUT_DIR, "archive", date_str)
-    renderer.render(data, snap_dir, archive_href="../index.html")
+    renderer.render(data, snap_dir, archive_href="../index.html", goatcounter=GOATCOUNTER)
     # アーカイブ一覧（data/*.json の日付から）
     dates = sorted(
         (f[:-5] for f in os.listdir(DATA_DIR)
          if f.endswith(".json") and not f.endswith(".raw.json")),
         reverse=True,
     )
-    renderer.render_archive_index(dates, os.path.join(OUTPUT_DIR, "archive", "index.html"))
+    renderer.render_archive_index(dates, os.path.join(OUTPUT_DIR, "archive", "index.html"),
+                                  goatcounter=GOATCOUNTER)
 
 
 def main() -> int:
