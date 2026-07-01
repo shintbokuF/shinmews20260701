@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Copilot SDKがGA、GitHubが“実行系”を外部アプリに開放 | AI・クラウド ニュースダイジェスト</title>
+<title>Spring Tools 5.2.0、Claude Code実験版とSpring AI対応を追加 | AI・クラウド ニュースダイジェスト</title>
 <link rel="stylesheet" href="../static/style.css">
 </head>
 <body class="article-page" style="--accent:#AB47BC">
@@ -16,24 +16,24 @@
 <main class="container article-container">
   <div class="article-meta">
     <span class="card-tag" style="background:#AB47BC">AI開発ツール</span>
-    <span class="article-date">2026-06-02</span>
+    <span class="article-date">2026-06-15</span>
   </div>
-  <h1 class="article-title"><mark style="background:#AB47BC26">Copilot SDK</mark>が<mark style="background:#AB47BC26">GA</mark>、GitHubが“実行系”を外部アプリに開放</h1>
+  <h1 class="article-title"><mark style="background:#AB47BC26">Spring Tools</mark> 5.2.0、<mark style="background:#AB47BC26">Claude Code</mark>実験版と<mark style="background:#AB47BC26">Spring AI</mark>対応を追加</h1>
 
   <div class="three-block" style="border-color:#AB47BC">
     <h2 class="three-block-head">3行でわかる！今日のニュース</h2>
     <ul>
-      <li><mark style="background:#AB47BC26">Copilot SDK</mark>が6月2日に一般提供へ</li><li><mark style="background:#AB47BC26">CLI由来</mark>の実行系を外部アプリへ埋め込み可能に</li><li>Pythonなど<mark style="background:#AB47BC26">6言語</mark>で本番利用を支援</li>
+      <li><mark style="background:#AB47BC26">Claude Code</mark>向け実験版プラグインを追加</li><li>埋め込み<mark style="background:#AB47BC26">MCP</mark>でSpring文脈を提供</li><li><mark style="background:#AB47BC26">Spring AI</mark>対応を広く強化</li>
     </ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">GitHubはCopilot SDKを一般提供し、外部アプリへagentic engineを埋め込めるようにした。CLI由来の実行基盤を6言語で利用でき、開発者ツールの設計を変える可能性がある。</p>
-    <p class="sum-en">GitHub has generally available Copilot SDK, letting external apps embed Copilot&#39;s agentic engine. The CLI-derived execution layer is available in six languages and could reshape developer-tool design.</p>
+    <p class="sum-ja">Spring Tools 5.2.0は、Claude Code向け実験プラグインと埋め込みMCPサーバーを追加し、Spring AI対応も広げた。Spring IDE支援とAIエージェント連携を同時に強化する更新だ。</p>
+    <p class="sum-en">Spring Tools 5.2.0 adds an experimental Claude Code plugin, an embedded MCP server, and broader Spring AI support. It strengthens both Spring-aware IDE assistance and AI-agent integration.</p>
   </div>
 
   <div class="article-body">
-    <p>GitHubは2026年6月2日にCopilot SDKを一般提供へ移行し、外部のアプリ・サービス・開発者ツールへCopilotのagentic engineを安定APIで組み込めるようにした。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#AB47BC">[1]</a></sup> このSDKの中核は、Copilot CLIの背後にある実戦投入済みのエージェント実行系を再利用し、計画立案・ツール呼び出し・ファイル編集といった面倒なオーケストレーションを肩代わりする点にある。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#AB47BC">[2]</a></sup> 対応言語はPython、TypeScript、Go、.NET、Java、Rustの6言語で、GitHub Docsも同じ言語群での実装例を案内している。 位置づけとしては、1月のtechnical preview、4月のpublic previewを経てGAに到達した流れであり、GitHubが“作るべきはモデルではなく実行レイヤー”という方針を製品に落とし込んだ形だ。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#AB47BC">[3]</a></sup> さらに、同時期にはCopilot CLI、GitHub Copilot app、JetBrains連携、サンドボックスなど周辺のagentic機能も拡張されており、SDK GAはGitHub全体の開発体験をエージェント前提へ寄せる中核アップデートとみられる。</p>
+    <p>Spring Tools 5.2.0は、Visual Studio CodeやCursor、Eclipse、Theiaに加えてClaude Codeまで視野に入れたアップデートとして公表された。 公式の要約では、Claude Code PluginをExperimental扱いで導入し、埋め込みMCPサーバーとClaude Code Skillsを通じて、Spring固有の問題、修正、インデックス情報をLLMへ渡せる点が示されている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#AB47BC">[1]</a></sup> またGitHubのリリース情報ではSpring AI Supportの追加が明記されており、Spring AI公式ドキュメント上でもSpring AI 2.0.xがSpring Boot 4.0.x/4.1.xを支える現行系として整理されている。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#AB47BC">[2]</a></sup> 以前からSpring側は、Claude CodeのようなCLI型エージェントをAI開発環境の一形態として位置づけており、今回の5.2.0はその方針を実装面で前進させたものと読める。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#AB47BC">[3]</a></sup> つまりこのリリースは、IDE内の補助機能だけでなく、エージェントが参照する文脈をSpring Toolsが直接供給する段階に入ったことを示している。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#AB47BC">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#AB47BC">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#AB47BC">[3]</a></sup></p>
   </div>
 
   
@@ -42,23 +42,18 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available/" target="_blank" rel="noopener noreferrer">Copilot SDK is now generally available - GitHub Changelog</a>
-        <span class="ref-source">— GitHub</span>
+        <a href="https://spring.io/authors/martinlippert/" target="_blank" rel="noopener noreferrer">Spring Tools 5.2.0 released / Author page</a>
+        <span class="ref-source">— Spring</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://github.com/github/copilot-sdk" target="_blank" rel="noopener noreferrer">GitHub - github/copilot-sdk</a>
+        <a href="https://github.com/spring-projects/spring-tools/releases" target="_blank" rel="noopener noreferrer">Releases · spring-projects/spring-tools</a>
         <span class="ref-source">— GitHub</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://github.blog/changelog/2026-01-14-copilot-sdk-in-technical-preview/" target="_blank" rel="noopener noreferrer">Copilot SDK in technical preview - GitHub Changelog</a>
-        <span class="ref-source">— GitHub</span>
-      </li>
-      
-      <li id="ref-4">
-        <a href="https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input/" target="_blank" rel="noopener noreferrer">Copilot CLI: Improved UI, rubber duck, prompt scheduling, and voice ...</a>
-        
+        <a href="https://spring.io/blog/2025/12/04/towards-spring-tools-5-part3/" target="_blank" rel="noopener noreferrer">Towards Spring Tools 5 - Ready for AI</a>
+        <span class="ref-source">— Spring Blog</span>
       </li>
       
     </ol>

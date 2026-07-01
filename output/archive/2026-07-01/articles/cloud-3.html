@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AzureでClaudeがFoundryに正式提供、GB300 Blackwell Ultra上でホスト | AI・クラウド ニュースダイジェスト</title>
+<title>Google Cloud、60日分の更新を集約　Vertex AIはRAG・検索・モデル更新が主軸 | AI・クラウド ニュースダイジェスト</title>
 <link rel="stylesheet" href="../static/style.css">
 </head>
 <body class="article-page" style="--accent:#4285F4">
@@ -16,24 +16,24 @@
 <main class="container article-container">
   <div class="article-meta">
     <span class="card-tag" style="background:#4285F4">クラウド</span>
-    <span class="article-date">2026-06-29</span>
+    <span class="article-date">2026-07-01</span>
   </div>
-  <h1 class="article-title">Azureで<mark style="background:#4285F426">Claude</mark>が<mark style="background:#4285F426">Foundry</mark>に正式提供、<mark style="background:#4285F426">GB300</mark> Blackwell Ultra上でホスト</h1>
+  <h1 class="article-title">Google Cloud、60日分の更新を集約　<mark style="background:#4285F426">Vertex AI</mark>は<mark style="background:#4285F426">RAG</mark>・検索・モデル更新が主軸</h1>
 
   <div class="three-block" style="border-color:#4285F4">
     <h2 class="three-block-head">3行でわかる！今日のニュース</h2>
     <ul>
-      <li>ClaudeがFoundryで<mark style="background:#4285F426">一般提供</mark>に</li><li>Azure上で<mark style="background:#4285F426">GB300</mark>により稼働</li><li>既存Azure管理で導入を容易化</li>
+      <li><mark style="background:#4285F426">Vertex AI</mark>でRAGと検索を拡充</li><li><mark style="background:#4285F426">Gemini 2.0</mark> Flash系は終了済み</li><li><mark style="background:#4285F426">Agent Builder</mark>は実運用を前進</li>
     </ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">ClaudeがMicrosoft Foundryで一般提供となり、Azure上でGB300 Blackwell Ultraによりホストされる体制が整った。企業は既存のAzure基盤のままClaudeを使い、認証・課金・ガバナンスを統合できる。</p>
-    <p class="sum-en">Claude is now generally available in Microsoft Foundry, hosted on Azure and running on NVIDIA GB300 Blackwell Ultra. Enterprises can use Claude within their existing Azure stack with integrated auth, billing, networking, and governance.</p>
+    <p class="sum-ja">Google Cloudの最新リリースノートでは、直近60日分の変更を横断集約しつつ、AI領域はVertex AI周辺のRAG、検索、モデル更新が中心でした。古いGemini 2.0系の終了も進み、移行圧力が強まっています。</p>
+    <p class="sum-en">Google Cloud’s latest release notes aggregate the last 60 days of changes, with AI updates centered on Vertex AI across RAG, search, and model availability. Older Gemini 2.0 variants have also been sunset, increasing migration pressure.</p>
   </div>
 
   <div class="article-body">
-    <p>Microsoft Azure Blogは、AnthropicのClaudeがMicrosoft Foundryで一般提供になり、Azure上でホストされ、NVIDIA GB300 Blackwell Ultra上で稼働すると伝えた<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#4285F4">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#4285F4">[2]</a></sup>。Microsoftは、Azureアカウントに紐づく認証・課金・ネットワーク・ガバナンスをそのまま使えるため、企業はインフラ調達よりもエージェント開発に集中できると説明している<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#4285F4">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#4285F4">[3]</a></sup>。Anthropic側も、MicrosoftとNVIDIAとの戦略提携を通じてAzure上でClaudeの提供範囲を広げ、Azure企業顧客のモデル選択肢と新機能を拡張すると表明した<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#4285F4">[4]</a></sup>。この流れは、FoundryがAzure OpenAI系とAnthropic系の両方を扱う統合AI基盤として存在感を強めることを示している<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#4285F4">[3]</a></sup>。</p>
+    <p>Google Cloudの全体リリースノートは、直近60日分の変更を横断で拾う入口として整理されており、個別サービスの詳細は各プロダクトの更新ページに分かれています<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#4285F4">[1]</a></sup>。AI/Vertex AI領域では、春以降も更新が続き、Vector Search 2.0のGA、RAG Cross Corpus RetrievalのPreview、RAG Engine向けメタデータ検索、Claude Opus 4.7のModel Garden追加など、検索・RAG・モデル供給の強化が進みました<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#4285F4">[2]</a></sup>。またVertex AI Extensionsの終了予告も出ており、GoogleはAgent Platform側への移行を促しています。周辺のAgent Builder/Agent Engineでは、Code ExecutionのGA化や課金開始時期の調整、地域拡大が進み、生成AI機能を試作段階から本番運用へ押し上げる流れが見えます。加えて、2026年6月1日にはGemini 2.0 Flash系の一部モデルが終了しており、最新世代モデルへの移行が実務上の論点になっています<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#4285F4">[3]</a></sup>。</p>
   </div>
 
   
@@ -42,23 +42,18 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://azure.microsoft.com/en-us/blog/product/microsoft-foundry/" target="_blank" rel="noopener noreferrer">Microsoft Foundry | Microsoft Azure Blog | Microsoft Azure</a>
-        <span class="ref-source">— Microsoft Azure Blog</span>
+        <a href="https://docs.cloud.google.com/release-notes" target="_blank" rel="noopener noreferrer">Google Cloud release notes | Google Cloud Documentation</a>
+        <span class="ref-source">— Google Cloud Documentation</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://azure.microsoft.com/en-us/blog/claude-in-microsoft-foundry-is-now-generally-available/" target="_blank" rel="noopener noreferrer">Claude in Microsoft Foundry is now generally available</a>
-        <span class="ref-source">— Microsoft Azure Blog</span>
+        <a href="https://docs.cloud.google.com/vertex-ai/docs/release-notes" target="_blank" rel="noopener noreferrer">Vertex AI release notes | Google Cloud Documentation</a>
+        <span class="ref-source">— Google Cloud Documentation</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://azure.microsoft.com/en-us/blog/introducing-anthropics-claude-models-in-microsoft-foundry-bringing-frontier-intelligence-to-azure/" target="_blank" rel="noopener noreferrer">Introducing Anthropic&#39;s Claude models in Microsoft Foundry: Bringing frontier intelligence to Azure</a>
-        <span class="ref-source">— Microsoft Azure Blog</span>
-      </li>
-      
-      <li id="ref-4">
-        <a href="https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships" target="_blank" rel="noopener noreferrer">Microsoft, NVIDIA, and Anthropic announce strategic partnerships</a>
-        <span class="ref-source">— Anthropic</span>
+        <a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-0-flash" target="_blank" rel="noopener noreferrer">Gemini 2.0 Flash | Gemini Enterprise Agent Platform | Google Cloud Documentation</a>
+        <span class="ref-source">— Google Cloud Documentation</span>
       </li>
       
     </ol>

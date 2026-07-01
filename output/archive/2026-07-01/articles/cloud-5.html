@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Google Cloud、Gemini Enterpriseを前面に押し出し企業向けAI基盤を拡充 | AI・クラウド ニュースダイジェスト</title>
+<title>Google Cloudのサービスヘルスページが最新状態を提供中 | AI・クラウド ニュースダイジェスト</title>
 <link rel="stylesheet" href="../static/style.css">
 </head>
 <body class="article-page" style="--accent:#4285F4">
@@ -18,24 +18,22 @@
     <span class="card-tag" style="background:#4285F4">クラウド</span>
     <span class="article-date">2026-07-01</span>
   </div>
-  <h1 class="article-title"><mark style="background:#4285F426">Google Cloud</mark>、<mark style="background:#4285F426">Gemini Enterprise</mark>を前面に押し出し企業向けAI基盤を拡充</h1>
+  <h1 class="article-title">Google Cloudのサービスヘルスページが最新状態を提供中</h1>
 
   <div class="three-block" style="border-color:#4285F4">
     <h2 class="three-block-head">3行でわかる！今日のニュース</h2>
     <ul>
-      <li>Gemini Enterprise <mark style="background:#4285F426">Business Edition</mark>を前面訴求</li><li>ConfluenceやJira連携を相次ぎGA化</li><li><mark style="background:#4285F426">Provisioned Throughput</mark>の運用機能も拡充</li>
+      <li>公開<mark style="background:#4285F426">Service Health</mark>が最新状態を示す</li><li>PSHでプロジェクト障害を詳しく追う</li><li><mark style="background:#4285F426">Vertex AI</mark>系の障害履歴も確認された</li>
     </ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Google Cloudは6月26日付の更新でGemini Enterprise Business Editionを前面に出し、企業向けAIの入口として訴求を強めた。連携先拡大とガバナンス強化も同時に進み、業務自動化の基盤化が鮮明になっている。</p>
-    <p class="sum-en">Google Cloud put Gemini Enterprise Business Edition front and center in its June 26 update, reinforcing its pitch as the workplace AI entry point. At the same time, new connectors and governance features show Google is turning Gemini Enterprise into an operational platform for enterprise automation.</p>
+    <p class="sum-ja">Google Cloudは公開ステータスページを更新しつつ、個別プロジェクト向けのPersonalized Service Healthも案内している。6月下旬にはネットワーク障害やVertex AI Gemini APIの障害履歴が確認でき、AI関連ワークロードの監視重要性が高い。</p>
+    <p class="sum-en">Google Cloud is actively updating its public Service Health page while steering users to Personalized Service Health for project-specific visibility. Late-June incident history shows both network disruption and a Vertex AI Gemini API issue, underscoring the importance of monitoring AI workloads.</p>
   </div>
 
   <div class="article-body">
-    <p>Google Cloudは2026年6月26日の更新で、Gemini Enterprise Business Editionを「職場向けAIの入口」として強く打ち出した。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#4285F4">[1]</a></sup> これは単なるモデル更新ではなく、企業が日常業務で使うAIの導線をGemini Enterpriseへ寄せる訴求だと読める。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#4285F4">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#4285F4">[3]</a></sup></p>
-<p>同時にGemini Enterpriseのリリースノートでは、Confluence Data CenterのGA化、Jira Data CenterやHubSpot連携の拡張、SharePoint/OneDriveのアクセス制御強化が続き、業務データ接続と統制機能の厚みが増している。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#4285F4">[2]</a></sup> こうした動きは、4月にGoogle Cloud Nextで示された「Gemini Enterprise app」と「Gemini Enterprise Agent Platform」を中核に据える戦略の延長線上にある。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#4285F4">[3]</a></sup></p>
-<p>さらにAgent Platform側でも、Provisioned Throughputの新機能やメール通知のGA化が進み、運用・課金・通知の周辺機能まで整備が進展した。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#4285F4">[4]</a></sup> つまり今回の更新は、Google CloudがGemini Enterpriseを生成AIの機能群ではなく、企業の業務自動化とガバナンスを支える本格的なクラウド基盤として前面に押し出していることを示している。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#4285F4">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#4285F4">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#4285F4">[4]</a></sup></p>
+    <p>Google Cloudの公開ステータスページは、全体の稼働状況を一覧できる公式のヘルス確認窓口として機能しており、障害がない場合は最近のインシデントがないことも示します<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#4285F4">[1]</a></sup>。一方、Googleはプロジェクト単位での詳細な可視化としてPersonalized Service Healthを案内し、API、ログ、アラートまで含めて障害対応を行える設計にしています<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#4285F4">[2]</a></sup>。6月下旬の履歴には、デリー周辺を起点とするネットワーク遅延・パケットロスの障害が残っており、広域の通信品質が実際に問題化していたことが分かります<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#4285F4">[3]</a></sup>。さらに2026年のVertex AI Gemini APIでは応答エラー増加の事象が記録されていて、AI関連機能も通常のインフラ障害と同じくサービスヘルス監視の重要対象になっています<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#4285F4">[4]</a></sup>。こうした構成を見ると、Google Cloudの障害確認は公開ページだけでなく、AIワークロードを含む実運用ではPersonalized Service Healthを併用するのが実務的だと言えます<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#4285F4">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#4285F4">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#4285F4">[4]</a></sup>。</p>
   </div>
 
   
@@ -44,23 +42,28 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud" target="_blank" rel="noopener noreferrer">Google Cloud latest news and announcements | Google Cloud Blog</a>
-        <span class="ref-source">— Google Cloud Blog</span>
+        <a href="https://status.cloud.google.com/summary" target="_blank" rel="noopener noreferrer">Google Cloud Service Health</a>
+        <span class="ref-source">— Google Cloud</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://docs.cloud.google.com/gemini/enterprise/docs/release-notes" target="_blank" rel="noopener noreferrer">Gemini Enterprise release notes | Google Cloud Documentation</a>
-        <span class="ref-source">— Google Cloud Documentation</span>
+        <a href="https://cloud.google.com/service-health" target="_blank" rel="noopener noreferrer">Personalized Service Health - Google Cloud</a>
+        <span class="ref-source">— Google Cloud</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise" target="_blank" rel="noopener noreferrer">What’s new in Gemini Enterprise | Google Cloud Blog</a>
-        <span class="ref-source">— Google Cloud Blog</span>
+        <a href="https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr" target="_blank" rel="noopener noreferrer">Google Cloud Service Health incident: Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai...</a>
+        <span class="ref-source">— Google Cloud</span>
       </li>
       
       <li id="ref-4">
-        <a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes" target="_blank" rel="noopener noreferrer">Gemini Enterprise Agent Platform release notes | Google Cloud Documentation</a>
-        <span class="ref-source">— Google Cloud Documentation</span>
+        <a href="https://status.cloud.google.com/products/Z0FZJAMvEB4j3NbCJs6B/history" target="_blank" rel="noopener noreferrer">Google Cloud Service Health: All incidents reported for Vertex Gemini API 2026</a>
+        <span class="ref-source">— Google Cloud</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://docs.cloud.google.com/service-health/docs/incident-communication" target="_blank" rel="noopener noreferrer">Google Cloud incident communication | Personalized Service Health ...</a>
+        
       </li>
       
     </ol>

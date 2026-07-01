@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "generated_at": "2026-07-01T01:52:03.247544+00:00",
+  "generated_at": "2026-07-01T03:52:41.278328+00:00",
   "sections": [
     {
       "slug": "openai",
@@ -8,37 +8,25 @@
       "accent": "#10A37F",
       "articles": [
         {
-          "title": "OpenAI、GPT-5.6 Solを予告—コーディングと安全性を両立した次世代プレビュー",
-          "summary_ja": "OpenAIはGPT-5.6 Solをプレビュー公開し、API/Codex向けに限定提供を開始した。最上位のSolは、コーディングや科学、サイバーセキュリティでの強化と新しい安全スタックを前面に出す。",
-          "summary_en": "OpenAI has previewed GPT-5.6 Sol and started limited access through the API and Codex. The flagship Sol model emphasizes stronger coding, science, and cybersecurity capabilities, backed by a new safety stack.",
+          "title": "OpenAI、次世代モデル「GPT-5.6 Sol」をプレビュー公開",
+          "summary_ja": "OpenAIはGPT-5.6 Solをプレビュー公開し、APIとCodex限定で先行提供を始めた。ChatGPTではまだ使えず、一般公開日は未定だ。",
+          "summary_en": "OpenAI has previewed GPT-5.6 Sol, starting limited access through the API and Codex. It is not yet available in ChatGPT, and no GA date has been announced.",
           "three_lines": [
-            "GPT-5.6 Solを限定プレビュー公開",
-            "APIとCodexで先行提供を開始",
-            "推論強化と安全スタックを両立"
+            "GPT-5.6 SolをAPI限定で先行公開",
+            "ChatGPT未対応のまま段階的に展開",
+            "安全強化と価格設計も同時に更新"
           ],
-          "body_ja": "OpenAIは2026年6月26日、GPT-5.6 Solをプレビュー公開し、TerraとLunaを含むGPT-5.6ファミリーを示した。Solは同社の最上位モデルとして、コーディング、科学、サイバーセキュリティの強化を打ち出している[1][2][3]。\n\nただし提供範囲はかなり絞られており、プレビューはAPIとCodexで限られた信頼済み組織にのみ開放され、ChatGPTではまだ利用できない。OpenAIは一般提供日をまだ明言しておらず、拡大は段階的に進める方針だ[2]。\n\n技術面では、max reasoning effortやultra modeといった新機能により、長い手順を伴うエージェント作業やツール連携をより深く回せる設計がうかがえる。発表ではTerminal-Bench 2.1、ExploitBench、SecureBio系評価での成果も示され、開発者・企業向けの実務性能を強く意識したリリースになっている[3]。\n\n一方でOpenAIは、このリリース向けに最も堅牢とする安全スタックとSystem Cardを公開し、能力向上と安全対策をセットで訴えている。今回のGPT-5.6 Solは、単なる高性能化ではなく、“実務で使える前提の大型モデル更新”として位置づけるのが妥当だ[1][4]。",
+          "body_ja": "OpenAIは6月26日付で、次世代モデル「GPT-5.6 Sol」のプレビューを公開し、Sol・Terra・Lunaの3モデル構成で展開すると説明している[1][2]。Solは旗艦、Terraは低コスト、Lunaは最速・最安という役割分担で、対象はソフトウェア開発、コンピュータ操作、専門知識ワーク、科学研究、サイバーセキュリティだ[1][2]。\n\nただし公開範囲はかなり限定的で、プレビュー期間中はAPIとCodexで信頼できる一部のパートナー／組織のみが利用でき、ChatGPTではまだ使えない[1][2]。OpenAIは一般公開日をまだ示しておらず、提供拡大を急ぐ姿勢だけを明らかにしている[1][2]。\n\n安全面では、System Cardで「これまでで最も堅牢」とする防御策を強調し、公開前には既存のGPT-5.5会話を使ってGPT-5.6 Solの挙動を擬似的に検証したと説明する[2]。これは、性能向上と同時に誤用リスクの評価を強く意識した投入であることを示している[2]。\n\n価格面でもヘルプセンターはGPT-5.6を100万トークン単位で課金すると案内し、APIの価格表も同日に更新されている[1]。現時点ではChatGPTよりも、まずAPIとCodexを使う開発者・企業の実務導入で存在感を示すモデルだといえる[1]。",
           "references": [
             {
               "id": 1,
-              "title": "Previewing GPT‑5.6 Sol: a next-generation model - OpenAI",
-              "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
-              "source": "OpenAI"
-            },
-            {
-              "id": 2,
-              "title": "A preview of GPT-5.6 Sol, Terra, and Luna - OpenAI Help Center",
+              "title": "A preview of GPT-5.6 Sol, Terra, and Luna",
               "url": "https://help.openai.com/en/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna",
               "source": "OpenAI Help Center"
             },
             {
-              "id": 3,
-              "title": "Introducing GPT-5.6 series: Sol, Terra and Luna - OpenAI API Community",
-              "url": "https://community.openai.com/t/introducing-gpt-5-6-series-sol-terra-and-luna/1384931",
-              "source": "OpenAI Community"
-            },
-            {
-              "id": 4,
-              "title": "GPT-5.6 Preview System Card - OpenAI Deployment Safety Hub",
+              "id": 2,
+              "title": "GPT-5.6 Preview System Card",
               "url": "https://deploymentsafety.openai.com/gpt-5-6-preview",
               "source": "OpenAI Deployment Safety Hub"
             }
@@ -46,59 +34,127 @@
           "published_date": "2026-06-26",
           "category": "openai",
           "title_highlights": [
-            "GPT-5.6",
-            "Sol",
-            "OpenAI"
+            "GPT-5.6 Sol",
+            "OpenAI",
+            "プレビュー"
           ],
           "three_lines_highlights": [
-            "GPT-5.6",
-            "API/Codex",
-            "安全スタック"
+            "GPT-5.6 Sol",
+            "API限定",
+            "安全強化"
           ],
           "id": "openai-1"
         },
         {
-          "title": "米政府要請でGPT-5.6公開延期、OpenAIは限定先行提供へ",
-          "summary_ja": "OpenAIはGPT-5.6を発表したが、米政府要請で一般公開を遅らせ、まず限定パートナーに先行提供する。APIとCodex中心のプレビューで、ChatGPTでの提供時期は未定だ。",
-          "summary_en": "OpenAI announced GPT-5.6 but delayed broad public access at the U.S. government’s request, first offering it to a limited set of partners. The preview is centered on API and Codex, with no ChatGPT availability date yet.",
+          "title": "OpenAI、chat-latest案内を更新しGPT-5.5を本番推奨に",
+          "summary_ja": "OpenAIはchat-latestの案内を更新し、API本番ではGPT-5.5を推奨した。価格は入力$5/100万トークン、出力$30/100万トークンで、長文・ツール多用・エージェント用途を強く意識した設計が目立つ。",
+          "summary_en": "OpenAI updated its chat-latest guidance and now recommends GPT-5.5 for production API use. The model is priced at $5 per 1M input tokens and $30 per 1M output tokens, and is positioned for long-context, tool-heavy, and agentic workflows.",
           "three_lines": [
-            "GPT-5.6は先行公開に切り替えた",
-            "一般公開は米政府要請で延期した",
-            "APIとCodexで限定提供を始めた"
+            "chat-latestの案内を更新した",
+            "本番APIはGPT-5.5を推奨した",
+            "価格は入力$5・出力$30に設定"
           ],
-          "body_ja": "OpenAIは2026年6月26日にGPT-5.6系列を発表した一方、一般公開は米政府の要請を受けて見送り、まずは少数の信頼できるパートナーに限定して先行提供する方針を取った。 Reuters報道では、この制限付き公開は政府側の要請に基づくもので、OpenAIが当局とアクセス先の情報も共有しているとされる。 公式ヘルプでは、プレビュー期間中の提供先はAPIとCodexに限られ、ChatGPTでは使えず、一般提供の時期もまだ告知していない。 公式ブログでも、GPT-5.6はコーディング、科学、サイバーセキュリティでの能力向上を掲げつつ、安全性を重視して段階的に展開する姿勢が示されている。 この一件は、最先端モデルの公開が技術発表だけでなく、政府との安全審査や配布管理を伴う時代に入ったことを示している。",
+          "body_ja": "OpenAIのchat-latestは、ChatGPTで使われる最新Instant系モデルへのエイリアスで、スナップショットは今後も更新される前提です。今回の案内では、その変動する既定モデルを本番にそのまま使うのではなく、API利用ではGPT-5.5を選ぶよう明示されました[1]。\n\n価格面でもGPT-5.5は入力$5/100万トークン、出力$30/100万トークンと示され、OpenAIはこれをcodingやprofessional work向けの新しい主力として位置づけています。さらに同社は、長文コンテキスト、ツール多用、エージェント型ワークフローでの実行品質を強調しており、単なる会話モデルではなく業務実装の土台として訴求しています[2]。\n\n一方でGPT-5は旧世代扱いとなり、OpenAI自身が「最新はGPT-5.5」と案内しています。発表記事では2026年4月24日にGPT-5.5/5.5 ProがAPIで利用可能になったとされており、今回の更新は、その新モデルを前提にした実務ガイドの整理と見るのが自然です[2]。",
           "references": [
             {
               "id": 1,
-              "title": "OpenAI Defers Public Rollout of GPT‑5.6 as US Seeks Early Access to ...",
-              "url": "https://money.usnews.com/investing/news/articles/2026-06-26/openai-defers-public-rollout-of-gpt-5-6-as-us-seeks-early-access-to-frontier-ai-models",
+              "title": "Chat Latest Model | OpenAI API",
+              "url": "https://developers.openai.com/api/docs/models/chat-latest",
+              "source": "OpenAI Developers"
+            },
+            {
+              "id": 2,
+              "title": "API Pricing - OpenAI",
+              "url": "https://openai.com/api/pricing/",
+              "source": "OpenAI"
+            },
+            {
+              "id": 3,
+              "title": "GPT-5 Model | OpenAI API",
+              "url": "https://developers.openai.com/api/docs/models/gpt-5",
               "source": ""
             }
           ],
-          "published_date": "2026-06-26",
+          "published_date": "2026-07-01",
           "category": "openai",
           "title_highlights": [
-            "GPT-5.6",
-            "延期",
-            "限定公開"
+            "chat-latest",
+            "GPT-5.5",
+            "API価格"
           ],
           "three_lines_highlights": [
-            "GPT-5.6",
-            "米政府要請",
-            "API/Codex"
+            "chat-latest",
+            "GPT-5.5",
+            "$5/$30"
           ],
           "id": "openai-2"
         },
         {
-          "title": "OpenAI、BroadcomとLLM推論チップ「Jalapeño」を発表",
-          "summary_ja": "OpenAIはBroadcomと共同で、LLM推論に特化した独自チップ「Jalapeño」を公開した。設計から量産準備までを約9か月で進め、OpenAIは製品・モデル・チップを束ねるフルスタック戦略を強めている。",
-          "summary_en": "OpenAI and Broadcom unveiled Jalapeño, a custom chip optimized for LLM inference. The move extends OpenAI’s full-stack strategy from models and products into hardware.",
+          "title": "OpenAI、Codexのクレジット消費急増を調査　誤レート制限も焦点に",
+          "summary_ja": "OpenAIはCodexの利用枠が想定より速く減る問題を調査中。公式には不正防止システムの誤判定が一因とされ、料金体系の複雑さも利用者の不信感を強めている。",
+          "summary_en": "OpenAI is investigating reports that Codex usage limits are depleting faster than expected. The company says misfiring abuse/fraud controls are partly to blame, while the product’s complex billing model is also fueling user concern.",
           "three_lines": [
-            "OpenAIが推論特化チップを発表",
-            "Broadcomと9か月で共同設計した",
-            "年内展開へ多世代基盤を始動"
+            "Codex枠の急減でOpenAIが調査を開始",
+            "誤レート制限が一部原因と公式説明",
+            "クレジット設計の複雑さも不安を増幅"
           ],
-          "body_ja": "OpenAIとBroadcomは2026年6月24日、LLM推論向けに最適化した独自チップ「Jalapeño」を発表した。OpenAIはこれを初の「Intelligence Processor」と位置づけ、current and future LLMs を前提にゼロから設計したと説明している。[1]\n\nReutersによれば、このチップはChatGPTのようなサービスで使われる推論処理を担い、Nvidia GPUへの依存を減らしてコストを抑える狙いがある。OpenAIは設計完了まで約9か月を要し、年内の導入を計画しているという。[2]\n\n今回の発表は単独の新製品というより、2025年10月に公表されたBroadcomとの10GW規模の長期提携の具体化とみるべきだ。OpenAIはモデル開発だけでなく、ハードウェアまで自社主導で握ることで、計算資源の効率と供給力を高める方向に進んでいる。[3]\n\nその意味でJalapeñoは、OpenAIが“モデル企業”から“計算基盤企業”へ踏み込む象徴的な一手であり、今後は推論コスト、供給体制、Broadcomとの共同開発ロードマップが注目点になる。[1][3]",
+          "body_ja": "OpenAIは2026年6月29日、Codexの利用枠が想定より速く減る問題について調査を進めていると明らかにした。公式には、これは一部アカウントに対する不正利用・不正検知システムの誤ったレート制限が関係しており、影響は限定的だと説明している。[1]\n\nこの発表は、開発者コミュニティで「軽い作業でも週次枠やクレジットが急減する」「使用量表示がずれる」といった報告が続いていた流れの延長線上にある。[2]  つまり、利用者側の体感としては、単なる“人気の急増”ではなく、課金と制御の挙動が読みにくいことが不満の中心になっている。\n\nOpenAIの公式ヘルプによれば、CodexはChatGPTの複数プランに含まれ、必要に応じてクレジットを追加して使う仕組みだが、実際の消費量は入力・キャッシュ・出力トークン、タスク規模、モデル選択によって変動する。[3]  このため、外から見ると同じような作業でも消費量が大きく違って見えることがある。\n\n加えてOpenAIは、レートリミットを後で使えるbanked resetや紹介特典を導入し、利用枠を柔軟に扱えるようにしている。[4]  その一方で、今回の件は「使いやすさの改善」と「不正対策の厳格化」が同じ仕組みの中で衝突したとき、ユーザーが最も敏感に反応するのは結局“クレジットの減り方”だということを示している。[1] ",
+          "references": [
+            {
+              "id": 1,
+              "title": "Codex Usage Limits Depleting Faster Than Expected - OpenAI Status",
+              "url": "https://status.openai.com/incidents/01KW2E6W0503W4NXJNCVAG8V6T",
+              "source": "OpenAI Status"
+            },
+            {
+              "id": 2,
+              "title": "Codex Credit usage is inconsistent - Codex CLI - OpenAI Developer Community",
+              "url": "https://community.openai.com/t/codex-credit-usage-is-inconsistent/1381102",
+              "source": "OpenAI Developer Community"
+            },
+            {
+              "id": 3,
+              "title": "Using Codex with your ChatGPT plan - OpenAI Help Center",
+              "url": "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+              "source": "OpenAI Help Center"
+            },
+            {
+              "id": 4,
+              "title": "Pricing – Codex | OpenAI Developers",
+              "url": "https://developers.openai.com/codex/pricing",
+              "source": "OpenAI Developers"
+            },
+            {
+              "id": 5,
+              "title": "Beyond rate limits: scaling access to Codex and Sora - OpenAI",
+              "url": "https://openai.com/index/beyond-rate-limits/",
+              "source": ""
+            }
+          ],
+          "published_date": "2026-07-01",
+          "category": "openai",
+          "title_highlights": [
+            "Codex",
+            "クレジット",
+            "誤レート制限"
+          ],
+          "three_lines_highlights": [
+            "利用枠急減",
+            "誤判定",
+            "設計複雑"
+          ],
+          "id": "openai-3"
+        },
+        {
+          "title": "OpenAIとBroadcom、推論最適化チップ「Jalapeño」を共同発表",
+          "summary_ja": "OpenAIはBroadcomとともに、LLM推論向けの独自チップJalapeñoを公開した。9か月で設計から量産準備まで進め、フルスタック化を加速する狙いだ。",
+          "summary_en": "OpenAI and Broadcom unveiled Jalapeño, a custom chip for LLM inference. The move advances OpenAI’s full-stack strategy and aims to improve efficiency, cost, and scale.",
+          "three_lines": [
+            "OpenAIが推論チップJalapeñoを公開",
+            "9か月で設計から量産準備へ",
+            "フルスタック化で効率と拡張を狙う"
+          ],
+          "body_ja": "OpenAIとBroadcomは2026年6月24日、LLM推論向けの独自チップ「Jalapeño」を共同発表した。OpenAIはこのチップを、モデル・製品・チップまでを一体で扱うフルスタック戦略の延長線上にあるものと位置づけている[1]。\n\n公式発表によれば、Jalapeñoは現行および将来のLLMを前提にゼロから設計され、開発開始から量産準備まで9か月という短期間で進んだ。初期評価では性能/電力で現行最先端を上回るとしており、推論コストの圧縮に主眼がある[1]。\n\nさらにOpenAIは、これを単発の試作ではなく複数世代にわたる計算基盤の第一弾と説明し、BroadcomやCelesticaの協力でネットワーク、ラック、量産システムまで含めて産業化を進める方針を示した。外部報道でも、ChatGPTを含む推論負荷を下げるための専用ASICとして位置づけられ、NVIDIA依存の緩和という文脈で受け止められている。",
           "references": [
             {
               "id": 1,
@@ -108,20 +164,14 @@
             },
             {
               "id": 2,
-              "title": "OpenAI Unveils Custom Chip It Designed With Broadcom to Boost Its AI Infrastructure",
-              "url": "https://money.usnews.com/investing/news/articles/2026-06-24/openai-unveils-custom-chip-it-designed-with-broadcom-to-boost-its-ai-infrastructure",
-              "source": "Reuters via U.S. News"
+              "title": "OpenAI unveils custom chip it designed with Broadcom to boost its AI infrastructure",
+              "url": "https://www.msn.com/en-us/news/technology/openai-unveils-custom-chip-it-designed-with-broadcom-to-boost-its-ai-infrastructure/ar-AA26qUS8",
+              "source": ""
             },
             {
               "id": 3,
-              "title": "OpenAI and Broadcom announce strategic collaboration to deploy 10 gigawatts of OpenAI-designed AI accelerators",
-              "url": "https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/",
-              "source": "OpenAI"
-            },
-            {
-              "id": 4,
               "title": "OpenAI News",
-              "url": "https://openai.com/newsroom/",
+              "url": "https://openai.com/newsroom/research/",
               "source": ""
             }
           ],
@@ -130,117 +180,67 @@
           "title_highlights": [
             "Jalapeño",
             "Broadcom",
-            "Inference"
+            "推論最適化"
           ],
           "three_lines_highlights": [
-            "推論特化",
-            "9か月共同設計",
-            "多世代基盤"
-          ],
-          "id": "openai-3"
-        },
-        {
-          "title": "OpenAI、DaybreakでGPT-5.5-CyberとCodex Securityを拡張投入",
-          "summary_ja": "OpenAIはDaybreakを拡張し、GPT-5.5-CyberとCodex Securityで防御から修正までを一体化した。",
-          "summary_en": "OpenAI expanded Daybreak with GPT-5.5-Cyber and Codex Security, unifying detection, validation, and remediation for defenders.",
-          "three_lines": [
-            "Daybreakで防御AI基盤を拡張",
-            "GPT-5.5-Cyberを正式投入",
-            "Codex Securityで修正まで支援"
-          ],
-          "body_ja": "OpenAIは2026年6月22日、Daybreakを拡張してGPT-5.5-Cyberのフル版とCodex Securityを前面に出し、脆弱性の発見・検証・修正を一気通貫で支援する方針を示した[1]。Daybreakは、サイバー向けモデル、Codex Security、信頼されたワークフロー、パートナー連携を束ねる防御者向けの基盤として設計されている[1]。\n\nGPT-5.5-Cyberは、OpenAIのヘルプ上では認可された攻撃的テスト向けの上位アクセス層に位置づけられ、より強い検証とアカウント単位の制御を伴う[2]。これは、一般的な防御支援よりもレッドチーミング、侵入テスト、脅威ハンティングのような高度な用途に焦点を当てた整理だといえる[2]。\n\nCodex Securityは、研究プレビューから製品運用へ進み、リポジトリをスキャンして脆弱性を見つけ、妥当性を検証し、修正案まで提示するセキュリティレビュー用プラグインとして案内されている[3]。OpenAIはEnterprise/Edu/Business/Proでの利用やGitHub連携を案内しており、実務導入を前提にした提供体制を整えつつある。\n\n全体として今回の動きは、モデルの性能向上だけでなく、権限管理、監査性、パートナー配布まで含む“サイバー運用基盤”づくりへのシフトを示す[4]。OpenAIはDaybreakを通じて、脆弱性を見つけるAIから、実際に直すAIへと主戦場を移しつつある[1][4]。",
-          "references": [
-            {
-              "id": 1,
-              "title": "Daybreak: Tools for securing every organization in the world | OpenAI",
-              "url": "https://openai.com/index/daybreak-securing-the-world/",
-              "source": "OpenAI"
-            },
-            {
-              "id": 2,
-              "title": "OpenAI Daybreak - Trusted Access for Cyber Overview",
-              "url": "https://help.openai.com/en/articles/20001258",
-              "source": "OpenAI Help"
-            },
-            {
-              "id": 3,
-              "title": "Codex Security: now in research preview | OpenAI",
-              "url": "https://openai.com/index/codex-security-now-in-research-preview/",
-              "source": "OpenAI"
-            },
-            {
-              "id": 4,
-              "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-              "url": "https://openai.com/index/patch-the-planet/",
-              "source": "OpenAI"
-            }
-          ],
-          "published_date": "2026-06-22",
-          "category": "openai",
-          "title_highlights": [
-            "Daybreak",
-            "GPT-5.5-Cyber",
-            "Codex Security"
-          ],
-          "three_lines_highlights": [
-            "Daybreak拡張",
-            "GPT-5.5-Cyber",
-            "Codex Security"
+            "Jalapeño",
+            "9か月",
+            "フルスタック"
           ],
           "id": "openai-4"
         },
         {
-          "title": "OpenAI、Codexの提供形態を再編　ChatGPT各プランに内蔵へ",
-          "summary_ja": "OpenAIはCodexをChatGPT各プランにバンドルし、個人向けは内包、法人向けは従量課金の柔軟性を残す形に再設計した。",
-          "summary_en": "OpenAI bundled Codex into ChatGPT plans, shifting consumer access into subscriptions while keeping usage-based flexibility for business customers.",
+          "title": "OpenAI、Oracleクラウド契約経由でモデルとCodex提供を拡大",
+          "summary_ja": "OpenAIはOracle Cloudの既存契約・クレジット経由で主要モデルとCodexを使えるようにし、企業導入を簡素化する。提供は「数週間以内」に段階展開される見通しだ。",
+          "summary_en": "OpenAI will let enterprises access its models and Codex through existing Oracle Cloud commitments and credits, simplifying procurement. Availability is expected to roll out over the coming weeks.",
           "three_lines": [
-            "Codexを各ChatGPTプランに内蔵",
-            "法人向けは従量課金で柔軟化",
-            "新規Businessのseat販売は停止"
+            "Oracle契約でOpenAIモデルを利用可能に",
+            "Codexも既存クレジット経由で提供拡大",
+            "提供開始は今後数週間で段階展開"
           ],
-          "body_ja": "OpenAIはCodexの提供方式を見直し、Free/Go/Plus/Proに加えてBusiness/Edu/Enterpriseまで、ChatGPTの各プランにCodexを含める方向へ整理した。[1][2] 個人向けではプランごとに利用上限やクレジットの扱いが異なり、API Key利用はトークン課金ベースに分かれる。[1] 一方で法人向けは、2026年6月24日以降、新規ChatGPT BusinessではCodex seatを新たに売らず、既存の導入済みワークスペースだけが使用量ベースの追加枠を維持できる。[2][3] そのため今回の更新は、Codexを専用オプションからサブスク内蔵機能へ寄せつつ、企業には従量課金の拡張余地を残す再編といえる。[1][3]",
+          "body_ja": "OpenAIは2026年6月10日、Oracle Cloudの既存コミットメントやOracle Universal Creditsを使って、同社の主要モデルとCodexへアクセスできるようにすると発表した。[1] 企業は新しい購買経路を増やさずにAI導入を進められ、Oracle側も既存のOCI契約を活かした調達の簡素化を打ち出している。[1][2] OpenAIのニュース一覧にも同日付の会社発表として掲載されており、今回の動きが公式発表であることが確認できる。[3] ただし提供は即日全面解禁ではなく、「今後数週間」で順次始まる案内で、Codexを含む実運用の展開は段階的になる見込みだ。[1][2]",
           "references": [
             {
               "id": 1,
-              "title": "Pricing – Codex | OpenAI Developers",
-              "url": "https://developers.openai.com/codex/pricing",
-              "source": "OpenAI Developers"
+              "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+              "url": "https://openai.com/index/openai-on-oracle-cloud/",
+              "source": "OpenAI"
             },
             {
               "id": 2,
-              "title": "Codex rate card - OpenAI Help Center",
-              "url": "https://help.openai.com/en/articles/20001106-codex-rate-card",
-              "source": "OpenAI Help Center"
+              "title": "Put Your Oracle Cloud Commitment to Work with OpenAI Models",
+              "url": "https://blogs.oracle.com/oraclemarketplace/put-your-oracle-cloud-commitment-to-work-with-openai-models",
+              "source": "Oracle Blogs"
             },
             {
               "id": 3,
-              "title": "Flexible pricing for the Enterprise, Edu, and Business plans",
-              "url": "https://help.openai.com/en/articles/11487671-flexible-pricing-for-the-enterprise-edu-and-business-plans",
-              "source": "OpenAI Help Center"
+              "title": "OpenAI Newsroom | Recent news",
+              "url": "https://openai.com/news/company-announcements/",
+              "source": "OpenAI"
             },
             {
               "id": 4,
-              "title": "developers.openai.com",
-              "url": "https://developers.openai.com/codex/pricing.md",
+              "title": "Codex | AI Coding Partner from OpenAI",
+              "url": "https://openai.com/codex/",
               "source": ""
             }
           ],
-          "published_date": "2026-07-01",
+          "published_date": "2026-06-10",
           "category": "openai",
           "title_highlights": [
+            "Oracle Cloud",
             "Codex",
-            "ChatGPT",
-            "従量課金"
+            "OpenAI"
           ],
           "three_lines_highlights": [
-            "Codex内蔵",
-            "従量課金",
-            "seat停止"
+            "Oracle契約",
+            "Codex拡大",
+            "数週間以内"
           ],
           "id": "openai-5"
         }
       ],
-      "summary": "OpenAIは、GPT-5.6系のプレビュー公開とCodexの再編を通じて、開発者向け機能をAPI中心に段階投入しつつ、ChatGPTへの統合も見据えた提供形態へと整理を進めている。あわせて、サイバー防御を含む安全性強化や限定先行提供を前面に出し、政府要請への対応も含めて慎重に展開しているのが今日の流れだ。さらにBroadcomとの推論チップ共同開発で、モデルだけでなく専用半導体まで含めたフルスタック戦略を強めている。"
+      "summary": "OpenAIは、次世代モデルの先行公開や本番推奨モデルの更新を進めつつ、Codexや企業向け提供の拡大で、API・エージェント・業務利用を中心に実運用を一段と強化している。あわせて、利用枠の消費やレート制限をめぐる不透明感が課題となる一方、独自推論チップやOracle経由の展開など、基盤から販売経路まで含めたフルスタック化と商用展開の加速が鮮明になっている。"
     },
     {
       "slug": "cloud",
@@ -248,233 +248,251 @@
       "accent": "#4285F4",
       "articles": [
         {
-          "title": "AWS、Summit NYでBedrockとWAFを拡張",
-          "summary_ja": "AWSはSummit New York 2026で、Bedrock AgentCore、AWS Context、WAFの新機能を発表し、AIエージェントの実運用と収益化を前進させた。",
-          "summary_en": "At AWS Summit New York 2026, AWS expanded Bedrock AgentCore, AWS Context, and WAF features, pushing AI agents toward production use and monetization.",
+          "title": "AWSがBedrockにGrok 4.3を追加、価格最適化も継続",
+          "summary_ja": "AWSは2026年6月にxAIのGrok 4.3をAmazon Bedrockへ追加し、推論重視の企業向けAI選択肢を広げた。一方で公開一次情報では、Bedrock全体の一律値下げではなく、階層型料金やBatch推論の割安設定が確認できる。",
+          "summary_en": "AWS added xAI’s Grok 4.3 to Amazon Bedrock in June 2026, expanding enterprise AI model choices with a reasoning-first option. Public primary sources show no blanket Bedrock price cut; instead, AWS highlights tiered pricing and lower-cost batch inference for select models.",
           "three_lines": [
-            "Bedrock AgentCoreを運用基盤へ拡張",
-            "WAFがAIボット課金機能を追加",
-            "Grok 4.3と値下げで利用を促進"
+            "Grok 4.3をBedrockで提供開始",
+            "Mantle採用で性能とコストを両立",
+            "値下げは階層型料金で最適化"
           ],
-          "body_ja": "AWS Summit New York 2026では、AWSがエージェントを単なる生成AI機能から、業務・開発・セキュリティまでを支える運用基盤へ押し上げた。Bedrock AgentCoreには、Web Search、Managed Knowledge Base、GA化したharnessなどが加わり、エージェントの構築・接続・制御をまとめて扱える方向に進んでいる。[1][3]\n\n加えてAWSは、AWS Contextで組織データの関係性を知識グラフ化し、AWS Continuumでコード脆弱性の発見・検証・修復を自動化する構想も示した。これにより、エージェントは単に回答するだけでなく、社内文脈を踏まえて実務を進める存在へ近づく。[2]\n\n注目度が高いのはAWS WAFの拡張で、AIボットやエージェントに対して価格設定、課金、支払い受領、制御付きアクセスを行えるようにした点だ。これはコンテンツ保護の話にとどまらず、AIトラフィックを収益化する新しい設計をAWSが提示したことを意味する。[1]\n\nまた、Summit後のAWS Weekly RoundupではBedrockにGrok 4.3が追加されたことや価格改定があったことが示され、AWSはモデル選択肢の拡充とコスト低下を同時に進めている。結果として、AWSはAIエージェント時代の“土台”を、機能面と経済性の両方から固めに来ている。[3]",
+          "body_ja": "AWSは2026年6月15日、xAIのGrok 4.3をAmazon Bedrockで利用可能にしたと発表した。AWSはこのモデルを推論重視の企業向けに位置づけ、ツール利用や命令追従の強さに加え、新しい推論エンジン「Mantle」上で動かすことで価格性能比の改善も打ち出している[1]。\\n\\n一方、AWSの週次まとめではGrok 4.3の追加が「price reductions」と並んで扱われており、同時期に複数の価格関連ニュースがあったことは確認できる[2]。ただしBedrockの価格ページを見る限り、料金はモデルやモダリティ、サービス階層で決まり、全体一律の値下げというより、Standard/Flex/Priority/Reservedの階層設計や、選択モデルに対するBatch推論の割安提供でコスト最適化を図る構図だ[3]。\\n\\nしたがって今回のニュースは、AWSがBedrockでxAIモデルの選択肢を拡充しながら、AI推論基盤の価格競争力を高める流れの一部と見るのが妥当だろう。特に、モデル追加と料金設計の両輪で「企業が本番導入しやすい生成AI基盤」を強調している点が重要だ[1][3]。",
           "references": [
             {
               "id": 1,
-              "title": "Top announcements of the AWS Summit in New York, 2026",
-              "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/",
-              "source": "AWS News Blog"
+              "title": "Grok 4.3 from xAI now available in Amazon Bedrock - AWS",
+              "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+              "source": "AWS"
             },
             {
               "id": 2,
-              "title": "AWS Summit New York 2026: New AI agent innovations",
-              "url": "https://www.aboutamazon.com/news/aws/aws-summit-nyc-2026-ai-agents",
-              "source": "About Amazon"
-            },
-            {
-              "id": 3,
               "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
               "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
               "source": "AWS News Blog"
-            }
-          ],
-          "published_date": "2026-06-17",
-          "category": "cloud",
-          "title_highlights": [
-            "Bedrock",
-            "AgentCore",
-            "WAF"
-          ],
-          "three_lines_highlights": [
-            "AgentCore",
-            "WAF課金",
-            "Grok 4.3"
-          ],
-          "id": "cloud-1"
-        },
-        {
-          "title": "AWS WAFがAIボット課金を実装",
-          "summary_ja": "AWSはWAFにAI traffic monetizationを追加し、AIボットのアクセスをエッジで課金できるようにした。まず可視化と分類を強化し、最後に収益化へ進む戦略が鮮明だ。",
-          "summary_en": "AWS added AI traffic monetization to WAF, enabling edge-based charging for AI bots. The move extends earlier visibility and control features into a monetization strategy for content owners.",
-          "three_lines": [
-            "AWS WAFがAIボット課金を追加",
-            "HTTP 402でエッジ課金を返す",
-            "可視化から収益化へ戦略を拡張"
-          ],
-          "body_ja": "AWSは2026年6月15日、AWS WAFのBot ControlにAI traffic monetizationを追加し、AIボットやエージェントに対してコンテンツやAPIの利用料金を設定・計測・徴収できるようにした。これはコンテンツ提供者やパブリッシャーが、AIトラフィックを防ぐだけでなく課金するという新しい立場に移ることを意味する。\n\n仕組みはエッジで完結し、モニタライズ対象のリクエストに対してAWS WAFがHTTP 402 Payment Requiredを返し、x402形式の支払い指示を含めるため、独自の決済基盤を自前で作らずに済む。さらにBot Controlのラベルを使って、ボット種別や認証状態に応じた価格差を付けられる。\n\nAWSはこの新機能を、2026年2月のAI activity dashboardや5月のAI Traffic Analysis dashboardsに続くAIボット管理強化の延長線上に置いており、まず可視化してから制御し、最後に収益化へ進む戦略が見える。公式ドキュメントでは、Monetize actionはCloudFront配信に紐づくWeb ACLで利用でき、料金設定や支払いネットワークはMonetizationConfigで定義すると案内している。[1]\n\n料金面では、このAI traffic monetization自体はAWS WAF利用者に追加料金なしで提供されるとされ、AWSはAIボット流入を新たな収益源に変えたいコンテンツ事業者向けに、WAFを単なる防御製品から課金ゲートウェイへと拡張した格好だ。[2]",
-          "references": [
-            {
-              "id": 1,
-              "title": "AWS WAF announces AI activity dashboard for visibility into AI bot and agent traffic",
-              "url": "https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-ai-activity-dashboard/",
-              "source": "AWS"
-            },
-            {
-              "id": 2,
-              "title": "Pricing - AWS WAF - Amazon Web Services",
-              "url": "https://aws.amazon.com/waf/pricing/",
-              "source": "AWS"
             },
             {
               "id": 3,
-              "title": "AWS WAF | AWS News Blog - aws.amazon.com",
-              "url": "https://aws.amazon.com/blogs/aws/category/security-identity-compliance/aws-waf/",
-              "source": ""
-            },
-            {
-              "id": 4,
-              "title": "How AI traffic monetization works - AWS WAF, AWS Firewall Manager, AWS ...",
-              "url": "https://docs.aws.amazon.com/waf/latest/developerguide/waf-ai-traffic-monetization-how-it-works.html",
-              "source": ""
+              "title": "Amazon Bedrock Pricing",
+              "url": "https://aws.amazon.com/bedrock/pricing/",
+              "source": "AWS"
             }
           ],
           "published_date": "2026-06-15",
           "category": "cloud",
           "title_highlights": [
-            "AI traffic monetization",
-            "HTTP 402",
+            "Grok 4.3",
+            "Bedrock",
+            "価格性能比"
+          ],
+          "three_lines_highlights": [
+            "Grok 4.3",
+            "Mantle",
+            "料金最適化"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "AWS Health Dashboard、6月29日の公開ヘルス確認が重要",
+          "summary_ja": "AWSは6月29日付の公開ヘルスページを持ち、全サービスの障害確認は公式ダッシュボードと個別RSSの突合が有効です。",
+          "summary_en": "AWS maintained a public Health Dashboard for June 29, and verifying outages is best done by cross-checking the official dashboard with per-service RSS feeds.",
+          "three_lines": [
+            "AWS公開ヘルスを6月29日分で確認",
+            "個別RSSで障害の有無を突合",
+            "一次情報だけで直近障害を判断"
+          ],
+          "body_ja": "AWSの公開ヘルスダッシュボードは、全AWSサービスのイベントを確認できる公式窓口で、サインインなしでも閲覧できる[1][3]。対象日の2026年6月29日についても、同日のService healthページが存在しており、まずここを起点に見るのが基本になる[2][3]。AWS自身もHealthを「サービスイベントや計画変更の一次情報源」と位置づけているため、障害の有無は公開ダッシュボードに加え、CloudFrontなど各サービスのRSSやPost-Event Summaryを照合して判断するのが妥当だ[1][4]。今回の検索結果からは、個別サービスでoperational issueやresolvedの記述は拾えたが、6月29日当日のAWS全体障害を断定するには、公開ヘルスの該当時刻表示や追加の一次ソース確認が必要だ[4]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "AWS Health Dashboard",
+              "url": "https://docs.aws.amazon.com/health/latest/ug/aws-health-dashboard-status.html",
+              "source": "AWS Docs"
+            },
+            {
+              "id": 2,
+              "title": "Service health - Jun 29, 2026 | AWS Health Dashboard | Global",
+              "url": "https://health.aws.amazon.com/health/status",
+              "source": "AWS Health Dashboard"
+            },
+            {
+              "id": 3,
+              "title": "Status of AWS cloud resources – AWS Health – AWS",
+              "url": "https://aws.amazon.com/premiumsupport/technology/aws-health/",
+              "source": "AWS"
+            },
+            {
+              "id": 4,
+              "title": "Amazon CloudFront Service Status - status.aws.amazon.com",
+              "url": "https://status.aws.amazon.com/rss/cloudfront.rss",
+              "source": "AWS Status RSS"
+            }
+          ],
+          "published_date": "2026-07-01",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS Health",
+            "Jun 29",
             "CloudFront"
           ],
           "three_lines_highlights": [
-            "AI traffic monetization",
-            "HTTP 402",
-            "CloudFront"
+            "公開ヘルス",
+            "個別RSS",
+            "一次情報"
           ],
           "id": "cloud-2"
         },
         {
-          "title": "AzureでClaudeがFoundryに正式提供、GB300 Blackwell Ultra上でホスト",
-          "summary_ja": "ClaudeがMicrosoft Foundryで一般提供となり、Azure上でGB300 Blackwell Ultraによりホストされる体制が整った。企業は既存のAzure基盤のままClaudeを使い、認証・課金・ガバナンスを統合できる。",
-          "summary_en": "Claude is now generally available in Microsoft Foundry, hosted on Azure and running on NVIDIA GB300 Blackwell Ultra. Enterprises can use Claude within their existing Azure stack with integrated auth, billing, networking, and governance.",
+          "title": "Google Cloud、60日分の更新を集約　Vertex AIはRAG・検索・モデル更新が主軸",
+          "summary_ja": "Google Cloudの最新リリースノートでは、直近60日分の変更を横断集約しつつ、AI領域はVertex AI周辺のRAG、検索、モデル更新が中心でした。古いGemini 2.0系の終了も進み、移行圧力が強まっています。",
+          "summary_en": "Google Cloud’s latest release notes aggregate the last 60 days of changes, with AI updates centered on Vertex AI across RAG, search, and model availability. Older Gemini 2.0 variants have also been sunset, increasing migration pressure.",
           "three_lines": [
-            "ClaudeがFoundryで一般提供に",
-            "Azure上でGB300により稼働",
-            "既存Azure管理で導入を容易化"
+            "Vertex AIでRAGと検索を拡充",
+            "Gemini 2.0 Flash系は終了済み",
+            "Agent Builderは実運用を前進"
           ],
-          "body_ja": "Microsoft Azure Blogは、AnthropicのClaudeがMicrosoft Foundryで一般提供になり、Azure上でホストされ、NVIDIA GB300 Blackwell Ultra上で稼働すると伝えた[1][2]。Microsoftは、Azureアカウントに紐づく認証・課金・ネットワーク・ガバナンスをそのまま使えるため、企業はインフラ調達よりもエージェント開発に集中できると説明している[2][3]。Anthropic側も、MicrosoftとNVIDIAとの戦略提携を通じてAzure上でClaudeの提供範囲を広げ、Azure企業顧客のモデル選択肢と新機能を拡張すると表明した[4]。この流れは、FoundryがAzure OpenAI系とAnthropic系の両方を扱う統合AI基盤として存在感を強めることを示している[3]。",
+          "body_ja": "Google Cloudの全体リリースノートは、直近60日分の変更を横断で拾う入口として整理されており、個別サービスの詳細は各プロダクトの更新ページに分かれています[1]。AI/Vertex AI領域では、春以降も更新が続き、Vector Search 2.0のGA、RAG Cross Corpus RetrievalのPreview、RAG Engine向けメタデータ検索、Claude Opus 4.7のModel Garden追加など、検索・RAG・モデル供給の強化が進みました[2]。またVertex AI Extensionsの終了予告も出ており、GoogleはAgent Platform側への移行を促しています。周辺のAgent Builder/Agent Engineでは、Code ExecutionのGA化や課金開始時期の調整、地域拡大が進み、生成AI機能を試作段階から本番運用へ押し上げる流れが見えます。加えて、2026年6月1日にはGemini 2.0 Flash系の一部モデルが終了しており、最新世代モデルへの移行が実務上の論点になっています[3]。",
           "references": [
             {
               "id": 1,
-              "title": "Microsoft Foundry | Microsoft Azure Blog | Microsoft Azure",
-              "url": "https://azure.microsoft.com/en-us/blog/product/microsoft-foundry/",
-              "source": "Microsoft Azure Blog"
+              "title": "Google Cloud release notes | Google Cloud Documentation",
+              "url": "https://docs.cloud.google.com/release-notes",
+              "source": "Google Cloud Documentation"
             },
             {
               "id": 2,
-              "title": "Claude in Microsoft Foundry is now generally available",
-              "url": "https://azure.microsoft.com/en-us/blog/claude-in-microsoft-foundry-is-now-generally-available/",
-              "source": "Microsoft Azure Blog"
+              "title": "Vertex AI release notes | Google Cloud Documentation",
+              "url": "https://docs.cloud.google.com/vertex-ai/docs/release-notes",
+              "source": "Google Cloud Documentation"
             },
             {
               "id": 3,
-              "title": "Introducing Anthropic's Claude models in Microsoft Foundry: Bringing frontier intelligence to Azure",
-              "url": "https://azure.microsoft.com/en-us/blog/introducing-anthropics-claude-models-in-microsoft-foundry-bringing-frontier-intelligence-to-azure/",
-              "source": "Microsoft Azure Blog"
-            },
-            {
-              "id": 4,
-              "title": "Microsoft, NVIDIA, and Anthropic announce strategic partnerships",
-              "url": "https://www.anthropic.com/news/microsoft-nvidia-anthropic-announce-strategic-partnerships",
-              "source": "Anthropic"
+              "title": "Gemini 2.0 Flash | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+              "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-0-flash",
+              "source": "Google Cloud Documentation"
             }
           ],
-          "published_date": "2026-06-29",
+          "published_date": "2026-07-01",
           "category": "cloud",
           "title_highlights": [
-            "Claude",
-            "Foundry",
-            "GB300"
+            "Vertex AI",
+            "RAG",
+            "Gemini 2.0"
           ],
           "three_lines_highlights": [
-            "一般提供",
-            "GB300",
-            "Azure統合"
+            "Vertex AI",
+            "Gemini 2.0",
+            "Agent Builder"
           ],
           "id": "cloud-3"
         },
         {
-          "title": "Azure更新でOneLake連携とBlackwell GPU VMを強化",
-          "summary_ja": "Azureは2026年6月、DatabricksのOneLake連携をGA/Previewで前進させ、NVIDIA Blackwell系GPU VMもGA化した。分析基盤のデータ移動削減とAI計算資源の拡充を同時に進めた更新だ。",
-          "summary_en": "In June 2026, Azure advanced Databricks-OneLake integration with GA and preview releases, while also generalizing NVIDIA Blackwell-based GPU VMs. The update strengthens both data movement efficiency and AI compute capacity.",
+          "title": "Microsoft Partner Centerの6月更新は、価格改定より“販売基盤の再整備”が主役",
+          "summary_ja": "Microsoft Partner Centerの2026年6月アナウンスは、MPA改定、ソフトウェア終売価格表の新設、UXでのプロモーション可視化、そしてAI認定の再編が重なった“基盤更新月”だった。Azure AIの個別値上げは目立たないが、販売・契約・スキルの三層を同時に整える動きが読み取れる。",
+          "summary_en": "Microsoft Partner Center’s June 2026 announcements were more of a platform reset than a direct price shock: a revised Partner Agreement, a new software end-of-sale price list, promotion visibility in UX, and an AI credential realignment. There was no obvious standalone Azure AI price hike, but the sales, contract, and skills layers were all being reworked at once.",
           "three_lines": [
-            "OneLake連携がGAで前進した",
-            "Blackwell GPU VMもGAになった",
-            "分析基盤とAI計算基盤を同時強化"
+            "MPA改定で契約条件を2026年末へ更新",
+            "終売ソフト価格表が7月1日から提供",
+            "AI認定の後継でAI-103へ移行"
           ],
-          "body_ja": "2026年6月のAzure Updatesでは、Azure DatabricksのOneLake連携が大きく前進し、OneLake上のデータをDatabricksからネイティブに読む機能がGA、DatabricksからOneLakeへネイティブに書き込む機能がプレビューとして並んだ。[1] これにより、FabricとDatabricksの間でデータを複製せずに扱う運用がしやすくなり、分析基盤の一体化が進む。[1] さらに同じ6月に、Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines がGAとなり、AI/機械学習向けのGPU計算資源が拡充された。[1] Microsoftは別のNVIDIA連携ブログでもBlackwell世代GPUのAzure展開を明示しており、今回のVM GAはその方針を具体化したものといえる。 総じてAzureは、データレイヤーの接続性とGPUインフラを同時に押し上げ、生成AI・分析ワークロードの実装しやすさを高めている。[1]",
+          "body_ja": "Microsoft Partner Centerの2026年6月アナウンスは、単発の告知ではなく、CSPの契約・価格・スキル要件を同時に整える更新群だった。[1] 6月17日付の更新Microsoft Partner Agreement（MPA）は、通常のCSPパートナーでは2026年12月1日に自動適用され、フランスの一部パートナーには明示的な同意が必要とされている。[1] 価格面では、6月16日にSoftwareのEnd of Sale Pricelistが新設され、7月1日から利用可能になると案内されたほか、プロモーション詳細をPartner CenterのUXから直接見られるようになり、販売実務の確認導線が改善された。[1] さらに、Partner Centerの価格ワークスペースはAzureの使用量ベース価格やRI、ソフトウェア価格を月初更新する仕組みであるため、6月の一連の更新は7月反映を見据えた前倒し整備といえる。[2][3] AI関連では、Partner Centerの6月告知にAzure AIの単独値上げは見当たらない一方、Microsoft Learn側ではAI-102の後継としてAI-103が示されており、Microsoftが販売制度だけでなくAI人材認定の移行も進めている構図が見える。",
           "references": [
             {
               "id": 1,
-              "title": "Azure updates | Microsoft Azure",
-              "url": "https://azure.microsoft.com/en-us/updates/",
-              "source": "Microsoft Azure"
+              "title": "June 2026 announcements - Partner Center announcements | Microsoft Learn",
+              "url": "https://learn.microsoft.com/en-us/partner-center/announcements/2026-june",
+              "source": "Microsoft Learn"
+            },
+            {
+              "id": 2,
+              "title": "Partner Center announcements - Partner Center announcements | Microsoft Learn",
+              "url": "https://learn.microsoft.com/en-us/partner-center/announcements/",
+              "source": "Microsoft Learn"
+            },
+            {
+              "id": 3,
+              "title": "Pricing and offers - Partner Center | Microsoft Learn",
+              "url": "https://learn.microsoft.com/en-us/partner-center/pricing/pricing-and-offers",
+              "source": "Microsoft Learn"
+            },
+            {
+              "id": 4,
+              "title": "Partner software pricing - Partner Center | Microsoft Learn",
+              "url": "https://learn.microsoft.com/en-us/partner-center/pricing/software-pricing",
+              "source": ""
             }
           ],
           "published_date": "2026-07-01",
           "category": "cloud",
           "title_highlights": [
-            "OneLake",
-            "Blackwell",
-            "GA"
+            "MPA改定",
+            "終売価格表",
+            "AI-103"
           ],
           "three_lines_highlights": [
-            "OneLake GA",
-            "Blackwell VM",
-            "AI基盤強化"
+            "MPA改定",
+            "7月1日",
+            "AI-103"
           ],
           "id": "cloud-4"
         },
         {
-          "title": "Google Cloud、Gemini Enterpriseを前面に押し出し企業向けAI基盤を拡充",
-          "summary_ja": "Google Cloudは6月26日付の更新でGemini Enterprise Business Editionを前面に出し、企業向けAIの入口として訴求を強めた。連携先拡大とガバナンス強化も同時に進み、業務自動化の基盤化が鮮明になっている。",
-          "summary_en": "Google Cloud put Gemini Enterprise Business Edition front and center in its June 26 update, reinforcing its pitch as the workplace AI entry point. At the same time, new connectors and governance features show Google is turning Gemini Enterprise into an operational platform for enterprise automation.",
+          "title": "Google Cloudのサービスヘルスページが最新状態を提供中",
+          "summary_ja": "Google Cloudは公開ステータスページを更新しつつ、個別プロジェクト向けのPersonalized Service Healthも案内している。6月下旬にはネットワーク障害やVertex AI Gemini APIの障害履歴が確認でき、AI関連ワークロードの監視重要性が高い。",
+          "summary_en": "Google Cloud is actively updating its public Service Health page while steering users to Personalized Service Health for project-specific visibility. Late-June incident history shows both network disruption and a Vertex AI Gemini API issue, underscoring the importance of monitoring AI workloads.",
           "three_lines": [
-            "Gemini Enterprise Business Editionを前面訴求",
-            "ConfluenceやJira連携を相次ぎGA化",
-            "Provisioned Throughputの運用機能も拡充"
+            "公開Service Healthが最新状態を示す",
+            "PSHでプロジェクト障害を詳しく追う",
+            "Vertex AI系の障害履歴も確認された"
           ],
-          "body_ja": "Google Cloudは2026年6月26日の更新で、Gemini Enterprise Business Editionを「職場向けAIの入口」として強く打ち出した。[1] これは単なるモデル更新ではなく、企業が日常業務で使うAIの導線をGemini Enterpriseへ寄せる訴求だと読める。[1][3] \n\n同時にGemini Enterpriseのリリースノートでは、Confluence Data CenterのGA化、Jira Data CenterやHubSpot連携の拡張、SharePoint/OneDriveのアクセス制御強化が続き、業務データ接続と統制機能の厚みが増している。[2] こうした動きは、4月にGoogle Cloud Nextで示された「Gemini Enterprise app」と「Gemini Enterprise Agent Platform」を中核に据える戦略の延長線上にある。[3]\n\nさらにAgent Platform側でも、Provisioned Throughputの新機能やメール通知のGA化が進み、運用・課金・通知の周辺機能まで整備が進展した。[4] つまり今回の更新は、Google CloudがGemini Enterpriseを生成AIの機能群ではなく、企業の業務自動化とガバナンスを支える本格的なクラウド基盤として前面に押し出していることを示している。[1][2][4]",
+          "body_ja": "Google Cloudの公開ステータスページは、全体の稼働状況を一覧できる公式のヘルス確認窓口として機能しており、障害がない場合は最近のインシデントがないことも示します[1]。一方、Googleはプロジェクト単位での詳細な可視化としてPersonalized Service Healthを案内し、API、ログ、アラートまで含めて障害対応を行える設計にしています[2]。6月下旬の履歴には、デリー周辺を起点とするネットワーク遅延・パケットロスの障害が残っており、広域の通信品質が実際に問題化していたことが分かります[3]。さらに2026年のVertex AI Gemini APIでは応答エラー増加の事象が記録されていて、AI関連機能も通常のインフラ障害と同じくサービスヘルス監視の重要対象になっています[4]。こうした構成を見ると、Google Cloudの障害確認は公開ページだけでなく、AIワークロードを含む実運用ではPersonalized Service Healthを併用するのが実務的だと言えます[1][2][4]。",
           "references": [
             {
               "id": 1,
-              "title": "Google Cloud latest news and announcements | Google Cloud Blog",
-              "url": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud",
-              "source": "Google Cloud Blog"
+              "title": "Google Cloud Service Health",
+              "url": "https://status.cloud.google.com/summary",
+              "source": "Google Cloud"
             },
             {
               "id": 2,
-              "title": "Gemini Enterprise release notes | Google Cloud Documentation",
-              "url": "https://docs.cloud.google.com/gemini/enterprise/docs/release-notes",
-              "source": "Google Cloud Documentation"
+              "title": "Personalized Service Health - Google Cloud",
+              "url": "https://cloud.google.com/service-health",
+              "source": "Google Cloud"
             },
             {
               "id": 3,
-              "title": "What’s new in Gemini Enterprise | Google Cloud Blog",
-              "url": "https://cloud.google.com/blog/products/ai-machine-learning/whats-new-in-gemini-enterprise",
-              "source": "Google Cloud Blog"
+              "title": "Google Cloud Service Health incident: Network traffic to Google Cloud originating from Delhi, Chennai, Mumbai...",
+              "url": "https://status.cloud.google.com/incidents/5fGQt4VbkDnr3Yp8PXPr",
+              "source": "Google Cloud"
             },
             {
               "id": 4,
-              "title": "Gemini Enterprise Agent Platform release notes | Google Cloud Documentation",
-              "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/release-notes",
-              "source": "Google Cloud Documentation"
+              "title": "Google Cloud Service Health: All incidents reported for Vertex Gemini API 2026",
+              "url": "https://status.cloud.google.com/products/Z0FZJAMvEB4j3NbCJs6B/history",
+              "source": "Google Cloud"
+            },
+            {
+              "id": 5,
+              "title": "Google Cloud incident communication | Personalized Service Health ...",
+              "url": "https://docs.cloud.google.com/service-health/docs/incident-communication",
+              "source": ""
             }
           ],
           "published_date": "2026-07-01",
           "category": "cloud",
           "title_highlights": [
-            "Gemini Enterprise",
-            "Business Edition",
-            "Google Cloud"
+            "Service Health",
+            "Personalized Service Health",
+            "Vertex AI"
           ],
           "three_lines_highlights": [
-            "Business Edition",
-            "Confluence/Jira",
-            "Provisioned Throughput"
+            "Service Health",
+            "Personalized Service Health",
+            "Vertex AI"
           ],
           "id": "cloud-5"
         }
       ],
-      "summary": "クラウド各社は、生成AIを単なる機能追加ではなく、企業の本番運用・課金・ガバナンスまで含む基盤として組み込み始めている。AWSはエージェント実運用とAIボットの収益化、AzureはClaudeやBlackwell GPUで既存基盤への統合強化、Google CloudはGemini Enterpriseを軸に企業向けAIの入口を拡大しており、競争の焦点は「AIを安全に使う」段階から「AIを業務と収益に結びつける」段階へ移っている。"
+      "summary": "クラウド各社では、AI基盤の拡充と周辺の料金・販売・運用ルールの整備が同時に進んでおり、特にAWSはBedrockへの新モデル追加と推論コストの最適化、Google CloudはVertex AI中心のRAG・検索・モデル更新、MicrosoftはPartner Centerの制度再編が目立ちました。あわせて、各社とも公開ステータスやヘルスダッシュボードの確認が重要になっており、AI/クラウドワークロードは機能拡張と同時に障害監視・移行対応の比重が高まっています。"
     },
     {
       "slug": "devtools",
@@ -482,233 +500,233 @@
       "accent": "#AB47BC",
       "articles": [
         {
-          "title": "Claude Sonnet 5がClaude CodeとAPIに登場",
-          "summary_ja": "AnthropicがClaude Sonnet 5を公開し、API・Claude Code・主要開発者ツールへ一斉展開した。",
-          "summary_en": "Anthropic released Claude Sonnet 5 and rolled it out across the API, Claude Code, and major developer tools.",
+          "title": "Claude Sonnet 5が一般提供、Claude Codeでも利用可能に",
+          "summary_ja": "AnthropicはClaude Sonnet 5を一般提供し、Claude CodeとAPIにも同日展開した。導入価格は2026年8月31日まで入力$2/出力$10で、その後は標準の$3/$15に戻る。",
+          "summary_en": "Anthropic has generally released Claude Sonnet 5 and made it available in Claude Code and the API on the same day. Launch pricing runs through Aug. 31, 2026 at $2/$10 per million tokens, then returns to $3/$15.",
           "three_lines": [
-            "Claude Sonnet 5がAPIで利用可能に",
-            "Claude Codeと各種IDEへ展開が進む",
-            "導入価格は期間限定で割安に設定"
+            "Claude Sonnet 5が一般提供に入った",
+            "Claude CodeとAPIでも同時に使える",
+            "導入価格は8月31日まで$2/$10"
           ],
-          "body_ja": "Anthropicは2026年6月30日付でClaude Sonnet 5を発表し、Claude APIからclaude-sonnet-5を利用できることを明示した。あわせて、Claude CodeとClaude Platformでも同モデルが使えるようになったと案内している。[1]\n\n今回の位置づけは、日常的な開発やエージェント運用に向いた上位Sonnetで、コーディング、エージェント、業務用途を幅広くカバーする。AnthropicはSonnet 4.6やOpus 4.8との比較で、より広いコスト性能レンジを持つモデルだと説明している。[1]\n\n価格は導入期間中、入力100万トークンあたり2ドル、出力100万トークンあたり10ドルで、2026年9月1日以降は3ドル/15ドルへ移行する。APIでの利用開始が容易な一方で、長時間・多段タスクを前提にしたコスト設計が見えるのが特徴だ。[1]\n\nエコシステム面では、CursorがSonnet 5の提供開始を告知し、GitHub Copilotも一般提供を案内した。つまり今回の更新は、単なる新モデル追加ではなく、IDEやエージェント実行環境へClaude系モデルが一斉に広がる節目と見るべきだ。[2]\n\n開発者にとっての注目点は、補完中心の使い方から、実装・修正・検証をまたぐ自律的な作業にどこまで耐えられるかだ。Claude Codeを含む開発ツール群でSonnet 5が選べるようになったことで、モデル選択は性能だけでなく、長いタスクの安定性と費用対効果をどう最適化するかが焦点になる。[3]",
+          "body_ja": "Anthropicは2026年6月30日にClaude Sonnet 5を発表し、Sonnet 4.6比で推論・ツール利用・コーディング・知識労働の各面を押し上げるモデルとして位置づけた。[1] 同日からは全プランで使えるほか、Claude CodeとClaude Platform/Claude APIでも利用可能になり、開発者は `claude-sonnet-5` を直接呼び出せる。[1][2] 価格面では、2026年8月31日まで入力100万トークンあたり2ドル、出力100万トークンあたり10ドルの導入価格が適用され、その後は3ドル/15ドルへ戻る。[1] Claude Codeはコードベースの読解、複数ファイル編集、テスト実行、コミットまで担うエージェント型の開発システムであり、Sonnet 5の投入は“チャット補助”より一段進んだ実装自動化を押し進める動きといえる。[2]",
           "references": [
             {
               "id": 1,
               "title": "Introducing Claude Sonnet 5",
-              "url": "https://www.anthropic.com/news/claude-sonnet-5?s=03",
+              "url": "https://www.anthropic.com/news/claude-sonnet-5",
               "source": "Anthropic"
             },
             {
               "id": 2,
-              "title": "Claude Sonnet 5 Now Available - Announcements",
-              "url": "https://forum.cursor.com/t/claude-sonnet-5-now-available/164463",
-              "source": "Cursor Community Forum"
-            },
-            {
-              "id": 3,
               "title": "Claude Code | Anthropic's agentic coding system",
               "url": "https://www.anthropic.com/product/claude-code",
               "source": "Anthropic"
-            }
-          ],
-          "published_date": "2026-07-01",
-          "category": "devtools",
-          "title_highlights": [
-            "Claude Sonnet 5",
-            "Claude Code",
-            "Claude API"
-          ],
-          "three_lines_highlights": [
-            "Claude Sonnet 5",
-            "Claude Code",
-            "API展開"
-          ],
-          "id": "devtools-1"
-        },
-        {
-          "title": "GitHub CopilotでClaude Sonnet 5がGA、モデル競争はさらに加速",
-          "summary_ja": "GitHub CopilotにClaude Sonnet 5が一般提供され、IDEとCLIの両方で使える新たな選択肢になった。Copilotは短期間でモデルを更新し続けており、開発者体験の差別化軸が“どのAIを選べるか”に移っている。",
-          "summary_en": "Claude Sonnet 5 is now generally available in GitHub Copilot, giving developers a new option across IDE and CLI workflows. GitHub’s rapid model turnover shows that model choice is becoming a key differentiator in AI developer tools.",
-          "three_lines": [
-            "Claude Sonnet 5がCopilotでGAに",
-            "IDEとCLIで使える新選択肢に",
-            "Copilotのモデル更新競争が加速"
-          ],
-          "body_ja": "GitHub は 2026年6月30日付の Changelog で、Claude Sonnet 5 を GitHub Copilot 向けに一般提供（GA）したと明記した。IDE と CLI の両方で使える Sonnet-class の新しい選択肢として案内している。[1]\n\nまた GitHub Changelog の Copilot 一覧でも、6月30日の新規リリースとしてこの項目が掲載されており、単なる告知ではなく製品アップデートとして位置づけられている。[2]\n\nGitHub Docs の対応モデル一覧には Claude Sonnet 5 が Anthropic 提供の GA モデルとして記載され、Copilot のモデル選択に正式に組み込まれていることが確認できる。[3]\n\n背景には、Copilot が今年に入って Claude を Business/Pro に広げ、さらに別モデルの GA 化と利用停止を短期間で繰り返してきた流れがある。今回の Sonnet 5 GA は、GitHub Copilot が最新モデルを素早く取り込み、開発者向けエージェント体験を更新し続ける戦略を象徴する動きだと言える。[4]",
-          "references": [
-            {
-              "id": 1,
-              "title": "Claude Sonnet 5 is generally available for GitHub Copilot",
-              "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot/",
-              "source": "GitHub Blog / Changelog"
-            },
-            {
-              "id": 2,
-              "title": "Use Case: copilot - GitHub Changelog",
-              "url": "https://github.blog/changelog/label/copilot/",
-              "source": "GitHub Blog / Changelog"
-            },
-            {
-              "id": 3,
-              "title": "Supported AI models in GitHub Copilot",
-              "url": "https://docs.github.com/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot",
-              "source": "GitHub Docs"
-            },
-            {
-              "id": 4,
-              "title": "Claude and Codex now available for Copilot Business & Pro users",
-              "url": "https://github.blog/changelog/2026-02-26-claude-and-codex-now-available-for-copilot-business-pro-users/",
-              "source": "GitHub Blog / Changelog"
             }
           ],
           "published_date": "2026-06-30",
           "category": "devtools",
           "title_highlights": [
             "Claude Sonnet 5",
-            "GitHub Copilot",
-            "GA"
+            "Claude Code",
+            "API"
           ],
           "three_lines_highlights": [
             "Sonnet 5",
-            "Copilot GA",
-            "モデル競争"
+            "Claude Code",
+            "$2/$10"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "GitHub CopilotでClaude Sonnet 5がGA、JetBrains連携も前進",
+          "summary_ja": "GitHub CopilotはClaude Sonnet 5をGA化し、JetBrains AI AssistantでもCopilot Agentを使えるようにした。モデル強化とIDE統合を同時に進め、開発者向けエージェント競争を押し上げている。",
+          "summary_en": "GitHub Copilot has made Claude Sonnet 5 generally available and enabled Copilot Agent in JetBrains AI Assistant. The update advances both model quality and IDE integration, intensifying competition in developer agent tooling.",
+          "three_lines": [
+            "Claude Sonnet 5がCopilotでGA化",
+            "Copilot AgentがJetBrainsで利用可能に",
+            "モデル強化とIDE統合が同時進行"
+          ],
+          "body_ja": "GitHubは2026年6月30日、Claude Sonnet 5をGitHub Copilotで一般提供に切り替え、対応モデル一覧でもGAとして扱っている。[1] これにより、Copilotのモデル選択肢は高性能化が進み、開発者は用途に応じてClaude系モデルを正式に選びやすくなった。[1]\n\n同日には、Copilot AgentがJetBrains AI Assistantで利用可能になったことも告知された。 JetBrains側の案内では、IDE内のAIチャットでGitHub Copilotをエージェントとして選び、GitHubアカウントをOAuthで接続する流れが示されており、机上の構想ではなく実際に使える統合として提供されている。\n\nなおGitHubは6月22日にもJetBrains IDE向けにClaudeをエージェントプロバイダとしてpublic preview提供しており、今回の更新はその延長線上で、Claude系のエージェント利用をCopilotの正式な導線にまとめた動きと見られる。[2][1] こうした流れは、Claude CodeやCursorなどの開発者向けエージェントと競合しながら、Copilotが“モデル”と“作業実行”の両面で存在感を強めていることを示す。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Use Case: copilot - GitHub Changelog",
+              "url": "https://github.blog/changelog/label/copilot/",
+              "source": "GitHub"
+            },
+            {
+              "id": 2,
+              "title": "New features and Claude as agent provider preview in JetBrains IDEs",
+              "url": "https://github.blog/changelog/2026-06-22-new-features-and-claude-as-agent-provider-preview-in-jetbrains-ides/",
+              "source": "GitHub"
+            },
+            {
+              "id": 3,
+              "title": "Supported AI models in GitHub Copilot",
+              "url": "https://docs.github.com/copilot/using-github-copilot/using-claude-sonnet-in-github-copilot",
+              "source": ""
+            }
+          ],
+          "published_date": "2026-07-01",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Sonnet 5",
+            "Copilot Agent",
+            "JetBrains AI Assistant"
+          ],
+          "three_lines_highlights": [
+            "Sonnet 5 GA",
+            "JetBrains連携",
+            "Agent強化"
           ],
           "id": "devtools-2"
         },
         {
-          "title": "GitHub CopilotのAgent HQでClaudeとCodexを選べるように",
-          "summary_ja": "GitHubはAgent HQでClaudeとCodexをpublic preview化し、Copilot利用者がGitHub本体やVS Codeからタスクを割り当てられるようにした。4月にはモデル選択も追加され、単なるエージェント切替からモデル運用へ広がった。",
-          "summary_en": "GitHub moved Agent HQ into public preview for Claude and Codex, letting Copilot users assign tasks from GitHub and VS Code. By April, model selection was added, shifting the experience from agent switching to model operations.",
+          "title": "Cursor、iPhoneからクラウドエージェントを動かす公開ベータを開始",
+          "summary_ja": "CursorはiOS公開ベータを始め、外出先からクラウド/ローカルのエージェントを操作できるようにした。開発者ツールの競争軸は、補完から遠隔委任へ移りつつある。",
+          "summary_en": "Cursor launched a public beta for iOS, letting developers control cloud and local agents from anywhere. The developer-tool race is shifting from code completion toward remote delegation.",
           "three_lines": [
-            "ClaudeとCodexがAgent HQで公開プレビューに",
-            "GitHubとVS Codeから同じ流れで使える",
-            "4月にモデル選択も追加され運用が進化"
+            "CursorがiOS公開ベータを開始",
+            "スマホからクラウドエージェントを起動",
+            "遠隔操作で開発を前進できる"
           ],
-          "body_ja": "GitHubは2026年2月4日、Agent HQ上でAnthropicのClaudeとOpenAI Codexをpublic previewとして公開し、Copilot Pro+ / Enterpriseの利用者がgithub.com、GitHub Mobile、VS Codeから同じ流れでエージェントを起動・割り当てできるようにしたと説明している。[1][2] その後2026年4月14日には、github.com上でClaudeとCodexのモデル選択が可能になり、各エージェントに対してAnthropic系・OpenAI系のモデルを切り替えられるようになったため、エージェント選択だけでなくモデルまで使い分ける運用に進んだ。[3]\n\nGitHub Docsでは、ClaudeとCodexはthird-party coding agentsとしてCopilot cloud agentと並行して使え、issueの割り当てやプロンプトから非同期に作業し、完了後にPRを作ってレビューを求める設計だとされる。[4] さらにAuto選択では、可用性やポリシーを踏まえて最適なモデルが選ばれるため、GitHubは単一モデルの固定利用ではなく、タスクに応じた選択を前提にした運用基盤へ進めているといえる。[3]\n\nこの動きは、Claude CodeやCursorのような開発者向けagentツールとの競争を、単純な機能比較から「どのモデルをどの権限・どのワークフローで安全に回すか」というプラットフォーム競争へ押し広げるものだ。[2][4]",
+          "body_ja": "Cursorは2026年6月29日にiOS向け公開ベータを開始し、Paid planのユーザーは外出先から常時稼働エージェントを起動・管理できるようになった。[1] モバイル版ではリポジトリを選んでクラウドエージェントを立ち上げ、音声入力やスラッシュコマンドで指示しながら、開発環境付きの仮想マシン上でテストや検証まで回せる。[2] さらに、ローカルPC上のエージェントをスマホから継続操作するRemote Controlも用意されており、ラップトップを開けない状況でも作業を止めにくい設計になっている。[2][3] この展開は、CursorがWeb・Slack・GitHub・Jiraへと接点を広げてきた流れの延長であり、開発者は“どの画面からでも同じエージェントに指示する”体験へ近づいている。[3] 一方で、AnthropicのClaude Codeはコードベース読解から変更・テスト・コミットまでを担うエージェント型で、GitHub CopilotもSDKやアプリ展開を強めており、競争は補完機能よりも「どこまで自律実行できるか」に移っている。[4]",
           "references": [
             {
               "id": 1,
-              "title": "Claude and Codex are now available in public preview on GitHub",
-              "url": "https://github.blog/changelog/2026-02-04-claude-and-codex-are-now-available-in-public-preview-on-github/",
-              "source": "GitHub Changelog"
+              "title": "What's New in Cursor — Latest Updates & Release Notes",
+              "url": "https://cursor.com/changelog",
+              "source": "Cursor"
             },
             {
               "id": 2,
-              "title": "Pick your agent: Use Claude and Codex on Agent HQ",
-              "url": "https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/",
-              "source": "The GitHub Blog"
+              "title": "Cursor Mobile App for iOS",
+              "url": "https://cursor.com/changelog/ios-mobile-app",
+              "source": "Cursor"
             },
             {
               "id": 3,
-              "title": "Model selection for Claude and Codex agents on github.com",
-              "url": "https://github.blog/changelog/2026-04-14-model-selection-for-claude-and-codex-agents-on-github-com/",
-              "source": "GitHub Changelog"
+              "title": "Cursor agents can now control their own computers",
+              "url": "https://cursor.com/blog/agent-computer-use",
+              "source": "Cursor"
             },
             {
               "id": 4,
-              "title": "About third-party coding agents",
-              "url": "https://docs.github.com/en/copilot/concepts/agents/about-third-party-coding-agents",
-              "source": "GitHub Docs"
+              "title": "Claude Code | Anthropic's agentic coding system",
+              "url": "https://www.anthropic.com/product/claude-code",
+              "source": "Anthropic"
             }
           ],
-          "published_date": "2026-02-04",
+          "published_date": "2026-06-29",
           "category": "devtools",
           "title_highlights": [
-            "Agent HQ",
-            "Claude",
-            "Codex"
+            "Cursor",
+            "iOS Beta",
+            "Cloud Agents"
           ],
           "three_lines_highlights": [
-            "Agent HQ",
-            "Claude Codex",
-            "モデル選択"
+            "iOS公開ベータ",
+            "クラウド操作",
+            "遠隔委任"
           ],
           "id": "devtools-3"
         },
         {
-          "title": "Cursor Automationsが /automate とGitHub/Slackトリガーを強化",
-          "summary_ja": "CursorはAutomationsに /automate、GitHub/Slackトリガー、computer useを追加し、自然言語で設定できる常時稼働エージェントを前進させた。",
-          "summary_en": "Cursor added /automate, GitHub/Slack triggers, and computer use to Automations, pushing always-on agents further into event-driven developer workflows.",
+          "title": "Cursor SDKがcustom stores・custom tools・auto-reviewに対応",
+          "summary_ja": "CursorはSDKを拡張し、保存先の制御・独自ツール公開・自動レビューを一体で提供した。",
+          "summary_en": "Cursor expanded its SDK with customizable storage, custom tools, and auto-review for safer agent execution.",
           "three_lines": [
-            "/automateで自動化設定を自然文で開始",
-            "GitHub・Slack起点の実行面を拡張",
-            "computer useで成果物作成まで自動化"
+            "Cursor SDKが保存先を選べるように",
+            "独自ツール公開と自動レビューに対応",
+            "長時間実行のエージェント運用を後押し"
           ],
-          "body_ja": "Cursorは2026年6月18日の更新で、Automationsに`/automate`スキル、Slackの絵文字トリガー、GitHubの追加トリガー群、そしてcomputer useを加えた。[1] 公式changelogによれば、`/automate`はローカルのagentセッションから自然言語で自動化を作成でき、Slackのメッセージ反応やPRレビュー、Issueコメント、Workflow完了などを起点に動かせる。[1] もともとCursor Automationsは3月5日に「always-on agents」として公開され、Slack、Linear、GitHub PR、PagerDutyなどのイベントで動く設計だったため、今回の更新はその実行トリガーと自律性を一段引き上げた形だ。 またcomputer useでは、Automationsで起動したクラウドagentが自分のコンピュータを使ってデモや成果物を作成でき、Cursorはこれをデフォルト有効としている。[1] つまりCursorは、開発者が都度指示する補助機能から、GitHub/Slack起点で継続実行される実務エージェント基盤へと、Automationsを押し進めている。[1]",
+          "body_ja": "Cursorは2026年6月4日のSDK更新で、TypeScript/Python SDKに custom stores、custom tools、auto-review を追加した。これにより、agent/runメタデータの保存先を選べるほか、自作関数をツールとして公開し、ローカルのツール呼び出しを自動レビュー経由で安全に通せるようになった。[1]\n\nこの動きは、Cursorが4月29日にSDKを公開した時点から掲げていた「本体と同じruntime・harness・モデルを外部に開く」という方針の延長線上にある。デスクトップ、CLI、Webで動くエージェントをTypeScriptから扱えるようにした流れの中で、今回の更新は実装自由度をさらに広げたものといえる。[2]\n\nまた、Cursorは2月のplugins発表や6月のNotion事例でも、MCPや外部サーバー連携、cloud sandbox、tool use を通じて、エージェントが実作業を進めてPRまで出すユースケースを前面に出してきた。custom tools は、その接続先や業務ロジックを開発者側で差し替えやすくする機能として位置づけられる。[3]\n\nauto-review は5月29日のRun Mode説明で、Shell・MCP・Fetch の呼び出しを allowlist、sandbox、classifier subagent で段階判定し、承認回数を減らしながら安全性を担保する仕組みとして整理されていた。SDK側にこれが入ったことで、自前のエージェントでも“長く回す”運用を組み込みやすくなった。[4]\n\n総じて今回の更新は、Cursorが単なるAIコーディング補助ではなく、プロダクト内の実運用機能をSDKへ素早く反映する「組み込み可能なエージェント基盤」へ寄っていることを示している。Claude Code、GitHub Copilot、LangChain系と競う文脈でも、開発者が自社ワークフローへ埋め込みやすい点が注目ポイントだ。[1][2]",
           "references": [
             {
               "id": 1,
-              "title": "Improvements to Cursor Automations · Cursor",
-              "url": "https://cursor.com/changelog/06-18-26",
+              "title": "Custom stores, custom tools, and auto-review for the Cursor SDK",
+              "url": "https://cursor.com/changelog/sdk-updates-jun-2026",
+              "source": "Cursor"
+            },
+            {
+              "id": 2,
+              "title": "Build programmatic agents with the Cursor SDK",
+              "url": "https://cursor.com/blog/typescript-sdk",
+              "source": "Cursor"
+            },
+            {
+              "id": 3,
+              "title": "Extend Cursor with plugins",
+              "url": "https://cursor.com/blog/marketplace",
+              "source": "Cursor"
+            },
+            {
+              "id": 4,
+              "title": "Auto-review Run Mode",
+              "url": "https://cursor.com/changelog/auto-review",
               "source": "Cursor"
             }
           ],
-          "published_date": "2026-06-18",
+          "published_date": "2026-06-04",
           "category": "devtools",
           "title_highlights": [
-            "Cursor",
-            "/automate",
-            "computer use"
+            "Cursor SDK",
+            "custom tools",
+            "auto-review"
           ],
           "three_lines_highlights": [
-            "/automate",
-            "GitHub・Slack",
-            "computer use"
+            "Cursor SDK",
+            "custom stores",
+            "auto-review"
           ],
           "id": "devtools-4"
         },
         {
-          "title": "Copilot SDKがGA、GitHubが“実行系”を外部アプリに開放",
-          "summary_ja": "GitHubはCopilot SDKを一般提供し、外部アプリへagentic engineを埋め込めるようにした。CLI由来の実行基盤を6言語で利用でき、開発者ツールの設計を変える可能性がある。",
-          "summary_en": "GitHub has generally available Copilot SDK, letting external apps embed Copilot's agentic engine. The CLI-derived execution layer is available in six languages and could reshape developer-tool design.",
+          "title": "Spring Tools 5.2.0、Claude Code実験版とSpring AI対応を追加",
+          "summary_ja": "Spring Tools 5.2.0は、Claude Code向け実験プラグインと埋め込みMCPサーバーを追加し、Spring AI対応も広げた。Spring IDE支援とAIエージェント連携を同時に強化する更新だ。",
+          "summary_en": "Spring Tools 5.2.0 adds an experimental Claude Code plugin, an embedded MCP server, and broader Spring AI support. It strengthens both Spring-aware IDE assistance and AI-agent integration.",
           "three_lines": [
-            "Copilot SDKが6月2日に一般提供へ",
-            "CLI由来の実行系を外部アプリへ埋め込み可能に",
-            "Pythonなど6言語で本番利用を支援"
+            "Claude Code向け実験版プラグインを追加",
+            "埋め込みMCPでSpring文脈を提供",
+            "Spring AI対応を広く強化"
           ],
-          "body_ja": "GitHubは2026年6月2日にCopilot SDKを一般提供へ移行し、外部のアプリ・サービス・開発者ツールへCopilotのagentic engineを安定APIで組み込めるようにした。[1] このSDKの中核は、Copilot CLIの背後にある実戦投入済みのエージェント実行系を再利用し、計画立案・ツール呼び出し・ファイル編集といった面倒なオーケストレーションを肩代わりする点にある。[2] 対応言語はPython、TypeScript、Go、.NET、Java、Rustの6言語で、GitHub Docsも同じ言語群での実装例を案内している。 位置づけとしては、1月のtechnical preview、4月のpublic previewを経てGAに到達した流れであり、GitHubが“作るべきはモデルではなく実行レイヤー”という方針を製品に落とし込んだ形だ。[3] さらに、同時期にはCopilot CLI、GitHub Copilot app、JetBrains連携、サンドボックスなど周辺のagentic機能も拡張されており、SDK GAはGitHub全体の開発体験をエージェント前提へ寄せる中核アップデートとみられる。",
+          "body_ja": "Spring Tools 5.2.0は、Visual Studio CodeやCursor、Eclipse、Theiaに加えてClaude Codeまで視野に入れたアップデートとして公表された。 公式の要約では、Claude Code PluginをExperimental扱いで導入し、埋め込みMCPサーバーとClaude Code Skillsを通じて、Spring固有の問題、修正、インデックス情報をLLMへ渡せる点が示されている。[1] またGitHubのリリース情報ではSpring AI Supportの追加が明記されており、Spring AI公式ドキュメント上でもSpring AI 2.0.xがSpring Boot 4.0.x/4.1.xを支える現行系として整理されている。[2] 以前からSpring側は、Claude CodeのようなCLI型エージェントをAI開発環境の一形態として位置づけており、今回の5.2.0はその方針を実装面で前進させたものと読める。[3] つまりこのリリースは、IDE内の補助機能だけでなく、エージェントが参照する文脈をSpring Toolsが直接供給する段階に入ったことを示している。[1][2][3]",
           "references": [
             {
               "id": 1,
-              "title": "Copilot SDK is now generally available - GitHub Changelog",
-              "url": "https://github.blog/changelog/2026-06-02-copilot-sdk-is-now-generally-available/",
-              "source": "GitHub"
+              "title": "Spring Tools 5.2.0 released / Author page",
+              "url": "https://spring.io/authors/martinlippert/",
+              "source": "Spring"
             },
             {
               "id": 2,
-              "title": "GitHub - github/copilot-sdk",
-              "url": "https://github.com/github/copilot-sdk",
+              "title": "Releases · spring-projects/spring-tools",
+              "url": "https://github.com/spring-projects/spring-tools/releases",
               "source": "GitHub"
             },
             {
               "id": 3,
-              "title": "Copilot SDK in technical preview - GitHub Changelog",
-              "url": "https://github.blog/changelog/2026-01-14-copilot-sdk-in-technical-preview/",
-              "source": "GitHub"
-            },
-            {
-              "id": 4,
-              "title": "Copilot CLI: Improved UI, rubber duck, prompt scheduling, and voice ...",
-              "url": "https://github.blog/changelog/2026-06-02-copilot-cli-improved-ui-rubber-duck-prompt-scheduling-and-voice-input/",
-              "source": ""
+              "title": "Towards Spring Tools 5 - Ready for AI",
+              "url": "https://spring.io/blog/2025/12/04/towards-spring-tools-5-part3/",
+              "source": "Spring Blog"
             }
           ],
-          "published_date": "2026-06-02",
+          "published_date": "2026-06-15",
           "category": "devtools",
           "title_highlights": [
-            "Copilot SDK",
-            "GA",
-            "agentic engine"
+            "Spring Tools",
+            "Claude Code",
+            "Spring AI"
           ],
           "three_lines_highlights": [
-            "Copilot SDK",
-            "CLI由来",
-            "6言語"
+            "Claude Code",
+            "MCP",
+            "Spring AI"
           ],
           "id": "devtools-5"
         }
       ],
-      "summary": "AI開発ツールでは、Claude Sonnet 5の投入を起点に、GitHub CopilotやCursorなど主要製品が次々と対応し、モデルそのものの優劣だけでなく「どの開発環境で、どのAIを、どこまで実行系として使えるか」が競争軸になっている。さらにCopilot SDKやAgent HQの拡充で、AIは補助機能から外部アプリや常駐エージェントに組み込める実行基盤へ広がっており、開発者向けAIツールは“使う”段階から“運用・埋め込み・自動化する”段階に移りつつある。"
+      "summary": "AI開発ツールでは、Claude Sonnet 5の一般提供を軸に、主要な開発環境やCopilot連携へ一斉に波及し、モデル競争がそのままIDE内のエージェント体験競争へ移っています。加えてCursorやSpring Toolsの動きが示すように、補完中心から、クラウド/ローカルをまたいで開発作業を委任・自動レビュー・外部ツール連携まで行う統合型ワークフローへの進化が加速しています。"
     },
     {
       "slug": "japan",
@@ -716,227 +734,233 @@
       "accent": "#EF5350",
       "articles": [
         {
-          "title": "みずほ証券がDevin導入、AI駆動開発を金融本番へ",
-          "summary_ja": "ULSコンサルティングが、みずほ証券のDevin導入を支援した。大手金融機関として国内初の大規模事例とされ、AI駆動開発の本格化が進む。",
-          "summary_en": "ULS Consulting supported Mizuho Securities’ Devin adoption, described as Japan’s first large-scale deployment at a major financial institution, signaling a shift toward production-grade AI-driven development.",
+          "title": "国産LLM「Sarashina3」登場、高品質データと独自検証で日本語能力を強化",
+          "summary_ja": "SB IntuitionsはSarashina3 mini/nanoを公開し、約30Tトークン超の高品質データで事前学習した。社内評価とOPSD反映で日本語の自然さ・実用性を高め、ソフトバンクのCloud PF Type Aと政府向けガバメントAIでも展開が進む。",
+          "summary_en": "SB Intuitions has released Sarashina3 mini/nano, trained on more than 30T tokens of high-quality data. Internal evaluation and OPSD-based feedback improved Japanese fluency and practicality, while deployment is expanding via SoftBank's Cloud PF Type A and government AI initiatives.",
           "three_lines": [
-            "みずほ証券がDevin導入を本格化",
-            "ULSが金融向け安全運用を支援",
-            "国内SIerのAI導入競争が加速"
+            "Sarashina3が約30Tトークンで再学習",
+            "社内検証とOPSDで日本語を強化",
+            "Cloud PF Type Aと行政導入が進展"
           ],
-          "body_ja": "ULSコンサルティングは2026年1月22日、みずほ証券の自律型AIソフトウェアエンジニア「Devin」導入支援を公表し、大手金融機関として国内初の大規模導入プロジェクトだと説明した[1]。みずほ証券は、生成AIを開発工程全体に組み込むAI駆動開発を通じて、開発現場の生産性向上と慢性的な人材不足の緩和を狙っている[1]。  \n\n導入前には2025年9月からトライアルを行い、実用性を確認したうえで、2026年4月の運用開始に向けた準備を進めている[1]。Devinは設計、コーディング、テスト、デプロイまでを自律的に支援するAIエンジニアで、Cognition AIの公式説明でも「autonomous software engineer」と位置づけられている。  \n\n今回の支援では、みずほ証券の情報システムを20年以上支えてきたULSコンサルティングが、Cognition AIと連携しながら専用環境構築やセキュリティ対策、ユースケース整理までを担った[1]。これは、AIを本番業務に入れる際に、単なるPoCではなく、ガバナンスと運用設計を含めた実装力が問われる段階に入ったことを示している[2]。  \n\n背景には、みずほフィナンシャルグループが2026〜2028年度でAI関連に最大1000億円を投資する方針を示すなど、金融大手がAIを経営課題として扱っている流れがある[1]。さらに経産省は2026年4月にAI事業者ガイドライン第1.2版を公表しており、国内のAI活用は「導入するか」から「どう安全に統制するか」へと軸足を移している[2]。",
+          "body_ja": "SB Intuitionsは2026年6月30日、国産LLM「Sarashina3 mini / nano」を公開し、日本語・英語を中心とした約30Tトークン超の大規模かつ高品質なデータで事前学習したと説明した[1]。独自の品質フィルタリングやデータ合成、カリキュラム学習を組み合わせ、さらに社内の日本語アノテーション・評価体制で自然さ、丁寧さ、簡潔さ、実用性を継続的に検証している[1]。その評価結果を強化学習とOPSD（オンポリシー自己蒸留）に反映し、フィードバックループを回すことで日本語出力の安定性を高めた点が今回の特徴だ[1]。同日にはソフトバンクがCloud PF Type AでSarashina3シリーズの提供開始を発表し、政府側でもガバメントAI「源内」の展開が進んでいるため、国内SIerや行政案件での採用余地が広がっている。国産LLMは、モデル性能だけでなく、学習・評価・運用を国内で閉じる“ソブリンAI”の実装手段として存在感を増している。",
           "references": [
             {
               "id": 1,
-              "title": "ULSコンサルティング、みずほ証券のAI駆動開発推進を支援",
-              "url": "https://www.ulsconsulting.co.jp/news/press/2026-01-22.html",
-              "source": "ULSコンサルティング"
-            },
-            {
-              "id": 2,
-              "title": "AI事業者ガイドライン（METI/経済産業省）",
-              "url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html",
-              "source": "経済産業省"
+              "title": "Sarashina3 mini / Sarashina3 nano: フルスクラッチで開発した最新の国産LLM",
+              "url": "https://www.sbintuitions.co.jp/blog/entry/2026/06/30/100000",
+              "source": "SB Intuitions TECH BLOG"
             }
           ],
-          "published_date": "2026-01-22",
+          "published_date": "2026-06-30",
           "category": "japan",
           "title_highlights": [
-            "Devin",
-            "みずほ証券",
-            "ULS"
+            "Sarashina3",
+            "OPSD",
+            "30T"
           ],
           "three_lines_highlights": [
-            "Devin",
-            "AI駆動開発",
-            "国内初"
+            "30T",
+            "OPSD",
+            "源内"
           ],
           "id": "japan-1"
         },
         {
-          "title": "日本のSIerは「先手」を打てるか",
-          "summary_ja": "OpenAIとAnthropicは現場伴走型の企業向けAI支援に踏み込み、国内SIerの守備範囲に競合圧力をかけ始めた。一方で、国産LLMや業界特化の実装力は日本勢の差別化余地でもある。",
-          "summary_en": "OpenAI and Anthropic are moving into hands-on enterprise AI deployment, creating new competition for Japanese SIers. Yet domestic LLMs and Japan-specific implementation expertise still offer room for differentiation.",
+          "title": "経産省、AIロボット1000万台導入へ",
+          "summary_ja": "経産省は2040年までにAIロボット1000万台の導入を掲げ、18分野別の導入目標と実装ロードマップを進める。",
+          "summary_en": "Japan’s METI is pushing toward deploying 10 million AI robots by 2040, backed by sector-by-sector targets and an implementation roadmap.",
           "three_lines": [
-            "OpenAIとAnthropicが現場支援へ踏み込む",
-            "国内SIerは要件定義の競合圧力を受ける",
-            "国産LLM活用で日本仕様に差別化する"
+            "2040年にAIロボット1000万台を目標化",
+            "18分野ごとの導入目標を制度設計",
+            "国産基盤モデルとSIer育成を重視"
           ],
-          "body_ja": "2026年5月、OpenAIはOpenAI Deployment Companyを立ち上げ、Tomoro買収でForward Deployed Engineerを強化した。一方AnthropicもBlackstone、Hellman & Friedman、Goldman Sachsと企業向けAIサービス会社を設立し、モデル提供から現場定着支援へと軸足を移している。[1] こうした動きは、従来SIerが担ってきた業務設計や導入伴走の領域に新たな競合を持ち込む可能性がある。[1] ただし日本では、NTTのtsuzumiやNECのcotomiなど国産LLMとローカルAI整備が進み、言語・文化・データ保護の観点で海外勢がそのまま優位とは限らない。[2] それでも、AI導入企業ほど推進体制づくりやデータ整備など深い支援を求める傾向があり、国内SIerは業界知見と日本仕様の実装力を前面に出して先手を打つ必要がある。[1]",
+          "body_ja": "経産省は、AIを活用したロボットを2040年までに国内へ約1000万台導入する方向で、18分野ごとの導入目標を置く政策設計を進めている[1]。この方針は、単なる台数目標ではなく、需要創出と供給強化を同時に回す産業政策として位置づけられている[1][2]。\n\n政府は2026年3月にAIロボティクスの社会実装方針をまとめ、5月27日に改訂したうえで、ロボットフレンドリーな環境整備や、中小企業向けのロボット導入支援を進める考えを示している[2]。あわせて、SIerや金融機関を巻き込んだ地域エコシステムを整え、現場導入のハードルを下げる構えだ[2][3]。\n\n戦略文書では、ロボットメーカー、部品メーカー、SIerが連携して、機能モジュールやデータ形式、安全論証などの標準化を進める方針も明記されている[3]。さらに、国産マルチモーダル基盤モデルの開発や、AIRoAが開発する基盤モデルの2027年6月ごろのOSS公開も計画されており、国産LLM/基盤モデルと現場データを結びつける設計が鮮明だ[1][3]。",
           "references": [
             {
               "id": 1,
-              "title": "OpenAI launches the OpenAI Deployment Company to help businesses build ...",
-              "url": "https://openai.com/index/openai-launches-the-deployment-company/",
-              "source": "OpenAI"
+              "title": "AIロボットで20兆円の市場獲得へ…経産省、製造など18分野に導入目標｜ニュースイッチ by 日刊工業新聞社",
+              "url": "https://newswitch.jp/p/49325",
+              "source": "ニュースイッチ"
             },
             {
               "id": 2,
-              "title": "NEC Develops High-speed Generative AI Large Language Models (LLM) with World-class Performance",
-              "url": "https://www.nec.com/en/press/202404/global_20240424_01.html",
-              "source": "NEC"
+              "title": "ロボット（METI/経済産業省）",
+              "url": "https://www.meti.go.jp/policy/mono_info_service/mono/robot/",
+              "source": "経済産業省"
             },
             {
               "id": 3,
-              "title": "AI導入を阻む「現状維持志向」は打破できるか OpenAI・Anthropicの「業務現場支援」が与える影響：日本のSIerは「先手を打つべき ...",
-              "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news069.html",
-              "source": ""
-            },
-            {
-              "id": 4,
-              "title": "プレゼンテーション",
-              "url": "https://www.norkresearch.co.jp/pdf/2025DevTool_rel4.pdf",
-              "source": ""
+              "title": "AIロボティクス戦略",
+              "url": "https://www.cas.go.jp/jp/seisaku/ai_robo/dai2/shiryo3.pdf",
+              "source": "内閣官房"
             }
           ],
-          "published_date": "2026-07-01",
+          "published_date": "2026-06-30",
           "category": "japan",
           "title_highlights": [
-            "OpenAI",
-            "Anthropic",
+            "1000万台",
+            "AIロボティクス戦略",
             "SIer"
           ],
           "three_lines_highlights": [
-            "現場支援",
-            "要件定義",
-            "国産LLM"
+            "1000万台",
+            "18分野",
+            "国産基盤モデル"
           ],
           "id": "japan-2"
         },
         {
-          "title": "NECが示すSIer勝者の条件、AI革命と経済安保が基準に",
-          "summary_ja": "NECはAIを中核にSIerの勝者像を再定義し、国内IT需要の主戦場を基幹刷新と安全なAI実装に見ている。政府のAIガバナンス強化も追い風で、国産LLMや国内クラウドが競争軸になる。",
-          "summary_en": "NEC is redefining the winning model for Japanese SIers around AI, seeing core-system modernization and secure AI deployment as the main battleground for domestic IT demand. Stronger government AI governance is also reinforcing the case for domestic cloud and homegrown LLMs.",
+          "title": "Noetra始動、産総研と国産マルチモーダルAI開発へ",
+          "summary_ja": "Noetraが7月1日に始動し、産総研とともに国産マルチモーダル基盤モデルの研究開発を進める。NEDO採択と経産省の大型支援が重なり、日本の生成AI政策が産業実装段階へ進んだ。",
+          "summary_en": "Noetra has started operations and will develop a domestic multimodal foundation model with AIST. Backed by NEDO selection and major METI funding, Japan’s generative AI policy is moving into industrial deployment.",
           "three_lines": [
-            "NECはAI産業革命でSIer再編を促す",
-            "2026年度需要は基幹刷新へ集中する",
-            "政府のガバナンス強化が国産AIを後押し"
+            "Noetraが7月1日に事業を開始",
+            "産総研と国産マルチモーダルAIを開発",
+            "経産省支援で国内エコシステムを強化"
           ],
-          "body_ja": "NECの森田隆之社長は、AIが単なる効率化手段ではなく事業構造そのものを塗り替える「AI産業革命」に入ったと位置づけ、SIerには従来型の受託開発から脱し、AIを中核にした提案・実装へ移ることが勝者の条件だと示している。国内でもNECは2026年4月に価値創造モデル「BluStellar」をAI中心に強化し、自社を「AI Native Company」へ変革すると表明しており、この方向性は自社実践を前提にした再編と読める。[1]\n\n一方で、2026年度の国内IT需要は「伸びるが、何でも伸びる」わけではなく、ITmediaは富士通・NECの2025年度受注や決算を踏まえ、AI革命と安全保障環境の変化を背景に、基幹系刷新・運用高度化・セキュアな国内クラウド需要が主戦場になると整理している。NEC自身もIFSとの協業で、国内データセンターを使うセキュアなクラウド、クライアントゼロ、自社AIを組み合わせた“真のモダナイゼーション”を掲げ、レガシー更新とAI活用を同時に進める戦略を打ち出した。[2]\n\n日本企業側では、AI導入は実証段階から業務実装へ移りつつあり、経産省も2026年3月公表の「AI Guidelines for Business Ver1」で、AIリスクを踏まえたガバナンスと全ライフサイクルでの対策を企業に求めている。さらに経産省の経済安全保障政策ページでは、2025年〜2026年にかけて経済安全保障経営ガイドラインや技術流出対策ガイダンスを拡充しており、AI活用は「速く入れる」だけでなく「安全に使う」ことが競争力になりつつある。\n\n国産LLMを含む日本発AIの文脈では、政府系の検証でも行政事務の高度化に向けたLLM環境整備が進められており、NECも導入事例ページでAI・5G・生体認証を軸にDX事例を継続発信している。つまり、NECの“勝者の条件”は、国産LLMを含むAIを個別PoCで終わらせず、経済安全保障とガバナンスを満たす基盤上で業務・基幹・運用を一体改革できるSIerだけが生き残る、という現実的な選別を意味している。[3]",
+          "body_ja": "Noetraは、ソニーグループ、ソフトバンク、NEC、ホンダなどの出資を受ける国産AI開発企業として、2026年7月1日に事業を開始し、国産マルチモーダル基盤モデルの研究開発へ本格着手します。[1]\n同社は旧社名「日本AI基盤モデル開発」から6月1日付で社名変更しており、6月30日には新名称での発表とともに、Webサイトも公開されました。[2]\n産総研とは、NEDOの「AIロボット・フィジカルAIを見据えたマルチモーダル基盤モデル開発事業」に採択され、画像・動画・音声・物理特性など実空間データを統合して扱う“実世界ネイティブ”な技術を共同で開発します。[2]\nこの案件は、生成AIの競争力確保だけでなく、産業現場の重要データを国内で安全に活用できる基盤を作り、学習済み重みを広く提供して国内エコシステムを形成する狙いも明示しています。[2][1]\n経産省は同事業の支援先としてNoetraを選定し、2026年度に3873億円を拠出、2030年度までの5年間で総額1兆円規模の支援方針を示しており、国産LLM/マルチモーダルAIの政策色が一段と強まっています。[3]",
           "references": [
             {
               "id": 1,
-              "title": "NEC「AI産業革命で勝つ企業に」 社長が掲げる3つの「勝者の条件」とは",
-              "url": "https://www.itmedia.co.jp/business/articles/2605/14/news071.html",
-              "source": "ITmedia ビジネスオンライン"
+              "title": "Noetra、国産マルチモーダル基盤モデルの開発に向けて事業を開始",
+              "url": "https://www.noetra.co.jp/pressrelease20260630-1",
+              "source": "Noetra株式会社"
             },
             {
               "id": 2,
-              "title": "NEC社長が説く“SIerの勝者の条件” 2026年度の国内IT需要の行方",
-              "url": "https://www.itmedia.co.jp/enterprise/articles/2606/12/news044.html",
-              "source": "ITmedia エンタープライズ"
+              "title": "マルチモーダル基盤モデルおよびフィジカルAI基盤技術に関する研究開発が、NEDOのAI開発事業に採択",
+              "url": "https://www.noetra.co.jp/pressrelease20260630-2",
+              "source": "Noetra株式会社"
             },
             {
               "id": 3,
-              "title": "経済産業省デジタルプラットフォーム構築事業（行政事務の高度化に資するLLM活用促進可能性検証調査）調査報告書",
-              "url": "https://www.meti.go.jp/meti_lib/report/2024FY/000718.pdf",
-              "source": "経済産業省"
-            },
-            {
-              "id": 4,
-              "title": "SIerは生成AI需要を取り込んでビジネス拡大につなげられるか - ZDNET Japan",
-              "url": "https://japan.zdnet.com/article/35217605/",
-              "source": ""
+              "title": "ソフトバンク・NEC・ホンダ・ソニーの国産AI企業「Noetra」経産省が3873億円拠出",
+              "url": "https://news.yahoo.co.jp/articles/5f1b9b4e932182f18d88629588612bcd0f922d95",
+              "source": "Yahoo!ニュース / ビジネス+IT"
             }
           ],
-          "published_date": "2026-07-01",
+          "published_date": "2026-06-30",
           "category": "japan",
           "title_highlights": [
-            "NEC",
-            "SIer",
-            "AI革命"
+            "Noetra",
+            "産総研",
+            "NEDO"
           ],
           "three_lines_highlights": [
-            "AI産業革命",
-            "2026年度需要",
-            "国産LLM"
+            "7月1日",
+            "国産マルチモーダル",
+            "3873億円"
           ],
           "id": "japan-3"
         },
         {
-          "title": "デジタル庁、ガバメントAI用国産LLMを選定　tsuzumi 2やPLaMo 2.0など",
-          "summary_ja": "デジタル庁はガバメントAIで試用する国産LLMを7件選定し、tsuzumi 2やPLaMo 2.0 Primeなどを採用した。源内での実証を経て、2027年度以降の政府調達を見据える。",
-          "summary_en": "Japan's Digital Agency selected seven domestic LLMs for trial use in Government AI, including tsuzumi 2 and PLaMo 2.0 Prime. The models will be tested in the Gennai environment ahead of possible government procurement from fiscal 2027.",
+          "title": "スクエニ、IP360でQA自動化基盤を開発へ",
+          "summary_ja": "スクエニはIP360採択で、AI駆動の品質チェック基盤を開発する。国の補助金は国内企業のAI導入を後押しし、コンテンツ産業のDXを加速させる。",
+          "summary_en": "Square Enix will develop an AI-driven quality-check platform under Japan’s IP360 subsidy. The policy tailwind is accelerating AI adoption across domestic companies and the content industry’s digital transformation.",
           "three_lines": [
-            "tsuzumi 2やPLaMo 2.0を7件選定",
-            "源内で行政実務への適合性を検証",
-            "2027年度以降の政府調達を視野"
+            "スクエニがQA工程のAI化に着手",
+            "IP360が国費で開発投資を後押し",
+            "国内企業のAI導入が一段と加速"
           ],
-          "body_ja": "デジタル庁は2026年3月6日、ガバメントAIで試用する国内LLMの公募結果を公表し、15件の応募から7件を選定した。採用モデルにはNTTデータのtsuzumi 2、Preferred NetworksのPLaMo 2.0 Prime、KDDI/ELYZAのLlama-3.1-ELYZA-JP-70B、NECのcotomi v3などが含まれる[1]。\n\n同庁は、職員向け生成AI環境「源内」を各府省庁へ広げる方針を進めており、その前提として、日本語の語彙・表現や文化・価値観に適合した国産LLMの活用を重視している。2026年度中は試用費用をデジタル庁が負担し、実務での有効性や課題を見極めたうえで、2027年度以降の政府調達につなげる構想だ[1][2]。\n\nNTTデータは、tsuzumi 2の用途として行政文書作成支援、職員向け対話型AI、行政業務アプリへの組み込みを挙げ、行政実務での実装可能性を示した。PFNも、PLaMo 2.0 Primeが2026年8月頃から源内で試験利用されると公表しており、国産LLMを政府が実地で検証するフェーズに入ったことが分かる[2]。\n\nこの動きは、政府が自らAIを使って評価し、その結果を将来の調達に反映する「実証先行型」の政策として位置づけられる。国内SIerやAIベンダーにとっては、性能だけでなく、法令遵守、セキュリティ、説明可能性、行政業務への組み込みやすさが競争軸になっていくことを示している[1][2]。",
+          "body_ja": "スクウェア・エニックスは、経産省のコンテンツ産業支援メニュー「IP360」の採択を受け、「AI駆動型品質チェックプラットフォーム」を開発する。計画には、テスト設計からQAの自動プレイ、グラフィックス不具合の検出、テキストチェックまでを一気通貫で自動化する構想が含まれる。[1][2]\n\nこのIP360は、日本発コンテンツの海外売上を2033年までに20兆円へ拡大する政府目標のもとで整備された支援策で、メニュー6の「開発プラットフォーム構築支援」は1社最大1億円・補助率2分の1とされる。今回の採択にはスクエニのほか、バンダイナムコエンターテインメント、NTT西日本、noteなども含まれる。[2]\n\n同時に、政府は中小企業向けにも「デジタル化・AI導入補助金2026」を通じてAIを含むITツール導入を支援しており、国内のAI実装を広く下支えする構図が鮮明になっている。[3]\n\nゲーム開発では、プラットフォームの多様化やアセット増加でQA負荷が膨らんでおり、今回の動きは“生成AIの試用”ではなく、品質保証の業務基盤そのものをAIで組み替える段階に入ったことを示す。国内SIerやAIベンダーにとっても、個別PoCより運用前提の実装案件が増える転換点になりそうだ。[1][4]",
           "references": [
             {
               "id": 1,
-              "title": "ガバメントAIで試用する国内大規模言語モデル（LLM）の公募結果｜デジタル庁",
-              "url": "https://www.digital.go.jp/news/10d55c63-b3e1-42b9-9cc5-93a06943ae0e",
-              "source": "デジタル庁"
+              "title": "スクエニ「AI駆動型品質チェックプラットフォーム」開発へ、国が補助金 バンナムやnoteも採択 - ITmedia AI＋",
+              "url": "https://www.itmedia.co.jp/aiplus/article/2606/30/2000000142/",
+              "source": "ITmedia AI＋"
             },
             {
               "id": 2,
-              "title": "デジタル庁「ガバメントAI」で試用する大規模言語モデルに「tsuzumi® 2」が選定",
-              "url": "https://www.nttdata.com/global/ja/news/topics/2026/032302/",
-              "source": "NTTデータグループ"
+              "title": "コンテンツ産業支援メニュー （METI/経済産業省）",
+              "url": "https://www.meti.go.jp/policy/mono_info_service/contents/menu_contents.html",
+              "source": "経済産業省"
+            },
+            {
+              "id": 3,
+              "title": "デジタル化・AI導入補助金2026の公募要領を公開しました",
+              "url": "https://www.chusho.meti.go.jp/koukai/hojyokin/kobo/2026/260310001.html",
+              "source": "中小企業庁"
+            },
+            {
+              "id": 4,
+              "title": "生成AIを活用したQA工数削減の試み。スクエニと東大・松尾研究室の共同研究を紹介するセッションをレポート[CEDEC+KYUSHU 2025]",
+              "url": "https://www.4gamer.net/games/581/G058152/20251212002/",
+              "source": "4Gamer"
             }
           ],
-          "published_date": "2026-03-06",
+          "published_date": "2026-06-30",
           "category": "japan",
           "title_highlights": [
-            "tsuzumi 2",
-            "PLaMo 2.0",
-            "源内"
+            "スクエニ",
+            "IP360",
+            "QA自動化"
           ],
           "three_lines_highlights": [
-            "7件選定",
-            "行政実務",
-            "政府調達"
+            "QA自動化",
+            "IP360採択",
+            "AI導入加速"
           ],
           "id": "japan-4"
         },
         {
-          "title": "レノボが日本初の水冷AI検証拠点を開設",
-          "summary_ja": "レノボは印西市のDC内にNeptuneラボを設け、水冷AI基盤を実機検証できる場を国内に初めて作った。GPU高密度化に伴う電力・冷却・運用課題を、PoCから本番設計へつなぐ狙いだ。",
-          "summary_en": "Lenovo has opened Japan's first Neptune Lab in Inzai to validate liquid-cooled AI infrastructure in a real data center. The facility is meant to bridge PoC and production design as GPU density drives power, cooling, and operational challenges.",
+          "title": "AI前提化で問われるSIerの再定義",
+          "summary_ja": "ITmediaの論点は、SIerがAI導入の外注先から、AI前提の組織設計者へ変われるかに移っていることだ。国内ではDX銘柄や政府調達、国産LLM整備がその変化を加速している。",
+          "summary_en": "ITmedia’s argument is that SIers must evolve from outsourced implementers to designers of AI-native organizations. In Japan, DX cases, government procurement, and domestic LLMs are accelerating that shift.",
           "three_lines": [
-            "レノボが国内初のNeptuneラボを開設",
-            "GPU高密度化に水冷検証で対応",
-            "PoCから本番設計まで支援を強化"
+            "AI前提の組織設計が焦点に移る",
+            "政府調達が国産LLM市場を押し上げる",
+            "SIerは全社展開の設計力が問われる"
           ],
-          "body_ja": "レノボ・ジャパンは2026年5月26日、千葉県印西市のMCDR「NRT12」内に、日本初の水冷AIインフラ検証拠点「Neptuneラボ」を開設した。ここではLenovo Neptuneの水冷技術に加え、ニデックのCDU、GPUサーバー、ラック、ネットワーク、監視を組み合わせ、AI推論・学習ワークロードの性能、電力、冷却、運用性を実機に近い条件で検証できる。[1]\n\nこの動きの背景には、生成AIの拡大でGPUサーバー需要とデータセンターの高発熱・高消費電力化が進み、国内でも水冷導入のノウハウ不足が残っていることがある。関連する国内検証でも、既存データセンターへの水冷設備導入には大きな改修や時間が必要だと指摘されており、Neptuneラボはその“詰まり”を実機で解くための場と言える。\n\nレノボは、PoC止まりではなく本番導入とスケールを見据えたTCO検討まで支援する狙いを示し、ISV・クラウド事業者・SIerとの共同検証で参照構成を作る方針だ。これは、日本企業のAI導入がアプリの試用段階から、電力・冷却・運用を含む基盤設計へ重心を移していることを示している。[1]\n\n政策面でも、日本政府はAI基本計画やAI事業者ガイドライン、広島AIプロセスを通じて、AI活用促進と安全・信頼性確保を並行して進めている。Neptuneラボは、国産LLMや企業内AIの普及を支える計算資源の実装を、ガバナンスと両立させる国内インフラ投資として位置づけられる。[2]",
+          "body_ja": "ITmediaの6月30日記事は、SIerの将来を「AIをどう使うか」ではなく、「AI前提の組織にどう作り替えるか」で捉え直している。従来型の工程分業や多重下請けは、AIが設計から実装まで関与する開発様式との相性が問われ、受託のやり方自体が見直し対象になっている。 [1] 国内ではIPAのDX銘柄2026が、AI活用を前提に事業や経営を変えるAXを重視しており、企業評価の軸が“導入”から“前提化”へ動いている。 [2] さらにデジタル庁は国産LLM7モデルを源内で試用し、全府省庁約18万人に展開する計画を進めており、政府調達が国内AI市場の実需を作り始めた。 [3]  その一方で内閣府はAIの社会実装を妨げる規制・制度の情報募集を始めており、技術だけでなく制度対応も勝負所になっている。 [4] こうした流れを踏まえると、SIerに残る余地は、単なる開発請負ではなく、AIエージェントの統制、全社展開、業務再設計までをまとめて担う上流設計力にある。 [5] ",
           "references": [
             {
               "id": 1,
-              "title": "レノボ、水冷AIインフラの検証拠点「Neptuneラボ」をMCDRのNRT12データセンターに新設 - クラウド Watch",
-              "url": "https://cloud.watch.impress.co.jp/docs/news/2112209.html",
-              "source": "Cloud Watch"
+              "title": "「AIが前提となる世界」でSIerは生き残れるか？：ITmedia エンタープライズ まとめ読みeBook",
+              "url": "https://www.itmedia.co.jp/enterprise/articles/2606/30/news039.html",
+              "source": "ITmedia"
             },
             {
               "id": 2,
-              "title": "人工知能基本計画 - 科学技術・イノベーション - 内閣府",
-              "url": "https://www8.cao.go.jp/cstp/ai/ai_plan/ai_plan.html",
-              "source": "内閣府"
+              "title": "「DX銘柄2026」事例レポート公開 51社のAI活用事例を掲載",
+              "url": "https://www.itmedia.co.jp/enterprise/articles/2606/11/news020.html",
+              "source": "ITmedia"
             },
             {
               "id": 3,
-              "title": "国内データセンター市場におけるAI 需要/ 地方分散/再エネ電源",
-              "url": "https://www.meti.go.jp/policy/mono_info_service/joho/conference/digital_infrastructure/0007/005_fujichimera.pdf",
-              "source": ""
+              "title": "“政府認定AI”選定へ デジタル庁、国産7モデルを検証 全府省庁18万人に展開",
+              "url": "https://www.itmedia.co.jp/aiplus/articles/2603/06/news097.html",
+              "source": "ITmedia"
+            },
+            {
+              "id": 4,
+              "title": "日本政府、AIの社会実装を妨げている規制の情報を募集 制度見直しの参考に",
+              "url": "https://www.itmedia.co.jp/aiplus/article/2602/10/1260210111/",
+              "source": "ITmedia"
+            },
+            {
+              "id": 5,
+              "title": "ServiceNowとAccenture、エージェント型AIを全社展開する「FDE」を開始",
+              "url": "https://www.itmedia.co.jp/enterprise/articles/2606/04/news024.html",
+              "source": "ITmedia"
             }
           ],
-          "published_date": "2026-05-26",
+          "published_date": "2026-06-30",
           "category": "japan",
           "title_highlights": [
-            "Neptuneラボ",
-            "水冷AI",
-            "GPUサーバー"
+            "AI前提",
+            "SIer",
+            "国産LLM"
           ],
           "three_lines_highlights": [
-            "Neptuneラボ",
-            "水冷AI",
-            "PoC→本番"
+            "AI前提",
+            "政府調達",
+            "全社展開"
           ],
           "id": "japan-5"
         }
       ],
-      "summary": "日本国内では、AIを前提にした基幹システム刷新と実運用への移行が一気に進み、金融や政府を含む重要領域で国産LLMや安全なAI実装が競争軸になっている。海外AIベンダーの現場支援が国内SIerへの圧力を強める一方、NECやデジタル庁の動きに見られるように、経済安保やガバナンスを背景に日本勢が国産基盤・業界特化で差別化を狙う構図が鮮明だ。さらに水冷AIインフラの整備も進み、PoC段階から本番導入へ向けた土台づくりが加速している。"
+      "summary": "国産LLMやマルチモーダルAIの開発が相次ぎ、政府支援も追い風になって、日本では生成AIの研究段階から実装・社会実装へと一段進んだ流れが強まっている。あわせて、AIロボットの大規模導入や業務自動化基盤の整備が進み、製造・コンテンツ・行政まで含めて現場にAIを組み込む動きが本格化している。こうした変化の中で、SIerを含む国内IT産業も「AIを導入する側」から「AI前提で業務や組織を設計する側」へ役割転換を迫られている。"
     },
     {
       "slug": "global",
@@ -944,251 +968,209 @@
       "accent": "#F9AB00",
       "articles": [
         {
-          "title": "MicrosoftがEU AI行動規範に前向き、Metaは距離",
-          "summary_ja": "MicrosoftはEUのAI行動規範に署名する見通しで、Metaは法的不確実性を理由に拒否した。EUはこの規範をAI Act対応の任意ツールとして位置づけ、米大手の規制対応の差が鮮明になった。",
-          "summary_en": "Microsoft is likely to sign the EU’s AI code of practice, while Meta has refused, citing legal uncertainty. The EU positions the code as a voluntary tool for AI Act compliance, highlighting diverging strategies among major US AI players.",
+          "title": "GoogleのAnthropic巨額投資で、AI計算資源争奪戦が一段と加速",
+          "summary_ja": "GoogleはAnthropicへの最大400億ドル投資を打ち出し、TPUと電力を含む計算資源の囲い込みを急いでいる。Anthropic側も大規模調達で評価額を9650億ドルまで押し上げ、AI競争はモデル性能よりインフラ確保の色合いを強めた。EU AI Actの執行強化が迫るなか、欧米大手は資金・規制・研究開発を同時に回す局面に入っている。",
+          "summary_en": "Google has unveiled up to $40 billion in investment for Anthropic, accelerating the race to lock up compute, TPU capacity, and power infrastructure. Anthropic’s own massive financing lifted its valuation to $965 billion, underscoring how AI competition is shifting from model quality to infrastructure control. With EU AI Act enforcement tightening, major Western players are now balancing capital, compliance, and frontier research at once.",
           "three_lines": [
-            "MicrosoftがEU規範に署名方針を示した",
-            "Metaは法的不確実性を理由に拒否した",
-            "EUはAI Act対応の任意ツールとした"
+            "GoogleがAnthropic投資を最大400億ドルに拡大",
+            "Anthropicは大規模調達で9650億ドル評価に",
+            "EU AI Act執行前に巨額投資競争が加速"
           ],
-          "body_ja": "MicrosoftはEUの一般目的AI向け行動規範に署名する見通しで、Brad Smith氏はReutersに対し「署名する可能性が高い」と述べた。狙いは、EUのAI Actに沿った対応を進めるうえで、法的な確実性を高めることにある。[1] 一方のMetaは署名を見送り、規範が法的な不確実性を増やし、欧州でのAI開発を萎縮させると批判した。[2] EU側はこの規範を2025年7月10日に公表した任意ツールとして位置づけ、署名企業は訓練データ要約の開示などを通じてAI Actへの適合を示しやすくなる。[3] 結果として今回の構図は、規制に先回りして適合を進めるMicrosoftと、規制設計そのものに異を唱えるMetaの対照を浮き彫りにしている。[2]",
+          "body_ja": "Googleは2026年4月24日、Anthropicへの投資枠を最大400億ドルに拡大し、先行100億ドルと成果連動の300億ドルで構成する計画を示した。Reuters系報道では、この時点でAnthropicの評価額は3500億ドル規模とされ、GoogleのTPUを軸にした計算資源の確保が投資の中核にあることがうかがえる。[1]\n\n4月上旬にはBroadcomがGoogle向け次世代AIチップ供給とAnthropic向け拡張契約を発表し、Anthropicには約3.5ギガワット分のGoogle製AI計算資源が割り当てられると報じられた。これは、AI競争が単なるモデル性能の争いではなく、電力・半導体・データセンターを押さえる総力戦になっていることを示す。[2]\n\nさらにAnthropicは5月28日に650億ドルを調達し、評価額は9650億ドルに達したとReutersが報じた。OpenAIを上回る規模まで資本市場が押し上げた背景には、生成AIの需要増に応じて、先に計算資源を確保できるかが企業価値を左右するという見方がある。\n\n規制面では、EU AI ActのGPAI義務はすでに段階適用されており、2026年8月には透明性や執行面の圧力が一段と強まる。GoogleやAnthropicのようなフロンティアAI企業は、資金調達だけでなく、欧州向けの説明責任や安全対策も前倒しで整える必要がある。[3]",
           "references": [
             {
               "id": 1,
-              "title": "Microsoft Likely to Sign EU AI Code of Practice, Meta Rebuffs Guidelines",
-              "url": "https://money.usnews.com/investing/news/articles/2025-07-18/microsoft-likely-to-sign-eu-ai-code-of-practice-meta-rebuffs-guidelines",
-              "source": "U.S. News / Reuters"
+              "title": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+              "url": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
+              "source": "CNBC / Reuters"
             },
             {
               "id": 2,
-              "title": "Meta rebuffs EU's AI Code of Practice",
-              "url": "https://www.euronews.com/next/2025/07/18/meta-rebuffs-eus-ai-code-of-practice",
-              "source": "Euronews"
+              "title": "Broadcom agrees to expanded chip deals with Google, Anthropic",
+              "url": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html",
+              "source": "CNBC"
             },
             {
               "id": 3,
-              "title": "The General-Purpose AI Code of Practice",
-              "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
-              "source": "European Commission"
+              "title": "EU AI Act Compliance Guide: Updated June 2026",
+              "url": "https://www.surecloud.com/resource-hub/eu-ai-act-complete-compliance-guide",
+              "source": "SureCloud"
+            },
+            {
+              "id": 4,
+              "title": "SpaceX Lands Google AI Compute Deal After Anthropic Pact Ahead of IPO",
+              "url": "https://money.usnews.com/investing/news/articles/2026-06-05/spacex-signs-cloud-deal-with-google",
+              "source": ""
             }
           ],
-          "published_date": "2025-07-18",
+          "published_date": "2026-07-01",
           "category": "global",
           "title_highlights": [
-            "Microsoft",
-            "Meta",
+            "Google",
+            "Anthropic",
+            "400億ドル",
+            "9650億ドル",
             "EU AI Act"
           ],
           "three_lines_highlights": [
-            "署名方針",
-            "拒否",
-            "任意ツール"
+            "400億ドル投資",
+            "9650億ドル評価",
+            "EU AI Act"
           ],
           "id": "global-1"
         },
         {
-          "title": "EU、AI法の施行タイムラインを維持　延期要請を退ける",
-          "summary_ja": "EUはAI法の施行延期を拒み、GPAI規則の開始と高リスクAIの適用へ既定通り進む姿勢を明確にした。任意のコード整備で実務負担を和らげつつ、法定期限は動かさない。",
-          "summary_en": "The EU rejected calls to delay the AI Act and kept its rollout on the original schedule, including GPAI rules and later high-risk AI obligations. It is easing implementation with a voluntary code of practice, but not moving legal deadlines.",
+          "title": "OpenAIとAnthropic、AI投資の効率化圧力で成長戦略を再調整",
+          "summary_ja": "企業のAI支出が効率化へ傾き、OpenAIとAnthropicは高単価・大量利用型の成長モデルからの再調整を迫られている。model routingや低コスト代替の普及が、両社の収益拡大と評価額の前提を揺さぶっている。",
+          "summary_en": "Enterprise AI buyers are shifting toward efficiency, forcing OpenAI and Anthropic to rethink growth models built on high-volume, premium usage. Model routing and cheaper alternatives are pressuring both revenue expansion and valuation assumptions.",
           "three_lines": [
-            "EUはAI法の延期要請を退けた",
-            "GPAI義務は2025年8月に始まる",
-            "高リスクAI規制は2026年8月へ進む"
+            "企業AI支出が効率最優先に転換",
+            "model routingが高額利用を抑制",
+            "OpenAIとAnthropicは戦略を再調整"
           ],
-          "body_ja": "EUは2025年7月、AI法の施行を予定通り進める姿勢を改めて示し、Google親会社AlphabetやMeta、Mistral、ASMLなどが求めた延期を退けた。Reutersによれば、欧州委は「stop the clock」や猶予措置を否定し、GPAI義務は8月、高リスクAIの義務は2026年8月に来ると説明している。[1]\n\n同時にEUは、GPAI Code of Practiceという任意の実務ガイドを整備した。これは法的義務の代替ではなく、透明性・著作権・安全性の3分野で事業者の順守を助けるためのものだ。欧州委サイトでは、このコードが2025年7月10日に公表されたと案内されている。[2]\n\n公式タイムライン上でも、AI法は段階的に適用され、2025年2月に一部規定が発効、2025年8月にGPAI規則が適用開始、2026年8月に大半の規則が施行、全面展開は2027年8月2日とされている。したがって今回の判断は、新しい施行日を上積みする話ではなく、既定の期限を守るという宣言に近い。[1][3]\n\nこの動きは、EUが生成AIの競争よりも説明責任と共通ルールの整備を優先していることを示す。米大手AI企業にとっては、欧州向け製品を「新機能の投入」だけでなく、文書化・透明性・安全性対応まで含めた設計に組み替える必要がある。[2]",
+          "body_ja": "OpenAIとAnthropicは、企業顧客がAI利用を「効率化」へ切り替える中で、従来の大量利用前提の成長モデルを見直す局面に入っている。CNBCは、企業がAI支出を抑え始め、上位顧客が過剰なtoken spendを制限し始める可能性があると報じたうえで、低コストのオープンソース代替が広がっていると伝えた。[1]\n\nこの変化を象徴するのが「model routing」だ。これは、難しい処理だけを高性能モデルへ、簡単な処理は安価なモデルへ振り分ける考え方で、CNBCはこれが企業のAI過剰支出を抑える一方、OpenAIとAnthropicの高価格モデル依存を揺さぶると整理している。[2]\n\n両社はそれでも企業市場を軸に攻勢を続けており、OpenAIは企業向け展開を強める一方で研究・製品更新を継続し、AnthropicもClaude Sonnet 5やClaude Scienceなど、業務・研究用途を意識した投入を進めている。[3] つまり競争の焦点は、単なる性能競争ではなく「1ドルあたりの知能」とROIの証明へ移っている。\n\n背景には、EU AI Actを含む規制対応、IPO観測、そして投資家が求める収益性の圧力がある。今後は、モデル性能そのものよりも、企業がどれだけ安く、安全に、説明可能にAIを使えるかが、欧米大手の勝敗を分ける可能性が高い。[4][3]",
           "references": [
             {
               "id": 1,
-              "title": "EU sticks with timeline for AI rules - Yahoo",
-              "url": "https://www.yahoo.com/news/artificial-intelligence-rules-ahead-no-104746037.html",
-              "source": "Reuters via Yahoo"
+              "title": "OpenAI, Anthropic new AI spending reality as users shift to efficiency",
+              "url": "https://www.cnbc.com/2026/06/26/openai-anthropic-new-ai-spending-reality-as-users-shift-to-efficiency.html",
+              "source": "CNBC"
             },
             {
               "id": 2,
-              "title": "The General-Purpose AI Code of Practice | Shaping Europe’s digital future",
-              "url": "https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai",
-              "source": "European Commission"
+              "title": "Model routing on AI is a problem for OpenAI and Anthropic",
+              "url": "https://www.cnbc.com/2026/06/05/model-routing-on-ai-is-a-problem-for-openai-and-anthropic.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 3,
+              "title": "As OpenAI leans into enterprise, Apple and Google target consumer AI",
+              "url": "https://www.cnbc.com/2026/06/11/as-openai-leans-into-enterprise-apple-and-google-target-consumer-ai.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "EU AI Act Enforcement Tracker 2026 - Presenc AI",
+              "url": "https://presenc.ai/research/eu-ai-act-enforcement-tracker-2026",
+              "source": "Presenc AI"
+            }
+          ],
+          "published_date": "2026-06-26",
+          "category": "global",
+          "title_highlights": [
+            "OpenAI",
+            "Anthropic",
+            "model routing"
+          ],
+          "three_lines_highlights": [
+            "効率化",
+            "routing",
+            "再調整"
+          ],
+          "id": "global-2"
+        },
+        {
+          "title": "欧米大手、AI戦略を基盤投資・モデル配布・企業導入へ再編",
+          "summary_ja": "Microsoftは自社モデルを前面に出し、GoogleはAnthropic支援で計算資源を押さえ、AI競争の軸はモデル単体から基盤と配布へ移った。EU AI Actの施行が迫り、企業向けAIは規制対応込みの実装勝負になる。",
+          "summary_en": "Microsoft is foregrounding its own models, while Google is backing Anthropic to secure compute, shifting AI competition from model quality alone to infrastructure and distribution. With the EU AI Act nearing enforcement, enterprise AI is becoming a compliance-heavy execution race.",
+          "three_lines": [
+            "Microsoft、自社AIモデルを前面に押し出す",
+            "Google、Anthropic支援で計算資源を囲い込む",
+            "EU AI Act施行で企業導入は規制勝負へ"
+          ],
+          "body_ja": "欧米大手の2026年のAI戦略は、モデル性能の競争だけでなく、基盤投資、配布チャネル、企業導入を束ねる方向に再編されている。MicrosoftはBuild 2026で自社の生成AIモデル群を打ち出し、OpenAI依存を薄めつつ、開発者向けの実装基盤を強化している。[1]\n\nGoogleはAnthropicへの最大400億ドル投資と計算資源支援を通じて、モデル企業の成長を自社クラウドとTPU基盤に結び付けている。[2] Anthropicも複数のAIハードウェアを使い分ける方針を示しており、最先端AIの競争軸は「どのモデルが強いか」から「どのインフラで大規模運用できるか」へ広がっている。\n\nさらにEU AI Actは2026-08-02に主要ルールが施行段階へ入り、透明性や高リスクAIに関する義務が本格化する。[3] その結果、欧米大手にとっては、研究ブレークスルーを出すだけでは不十分で、監査・文書化・ガバナンス対応を含む形で企業向けに配布できるかが競争力を左右する。[1][3]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Microsoft unveils new AI models lessen reliance on OpenAI, lower costs",
+              "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 2,
+              "title": "Google to invest up to $40 billion in Anthropic as search giant spreads its AI bets",
+              "url": "https://www.cnbc.com/2026/04/24/google-to-invest-up-to-40-billion-in-anthropic-as-search-giant-spreads-its-ai-bets.html",
+              "source": "CNBC"
             },
             {
               "id": 3,
               "title": "Timeline for the Implementation of the EU AI Act",
               "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
-              "source": "European Commission"
-            }
-          ],
-          "published_date": "2025-07-04",
-          "category": "global",
-          "title_highlights": [
-            "AI法",
-            "延期否定",
-            "GPAI"
-          ],
-          "three_lines_highlights": [
-            "延期否定",
-            "2025年8月",
-            "2026年8月"
-          ],
-          "id": "global-2"
-        },
-        {
-          "title": "BIS、AIブームの持続性と金融リスクに警鐘",
-          "summary_ja": "BISはAI投資の過熱が金融安定を損なう恐れを示した。米欧では資金調達と規制が同時進行し、AI戦略の重心が変わっている。",
-          "summary_en": "The BIS warned that overheated AI investment could threaten financial stability. In the US and Europe, funding and regulation are advancing in parallel, shifting the center of AI strategy.",
-          "three_lines": [
-            "BISがAI投資過熱に金融警戒を発した",
-            "欧州はAI Act本格適用へ備えを急ぐ",
-            "米国は巨額調達でAI競争が資本市場化"
-          ],
-          "body_ja": "BISは6月28日公表の年次経済報告で、AIブームの持続性が世界経済の重要な論点になっていると指摘し、AI関連投資の急拡大がインフレ再燃や金融脆弱性と重なれば、金融安定を損ないかねないと警告した。[1] Reutersも、BISが過度なAI支出やデータセンター投資を巡る不透明な資金循環に注意を促し、影の銀行や私募信用など非銀行金融との結びつきが連鎖的な崩れを生みうると伝えている。[1] [2] こうした懸念は、米国でAIインフラ資金が私募信用や不動産資本に広がり、欧州では欧州委員会が半導体・AI・クラウド・オープンソースを束ねた技術主権パッケージを打ち出して、成長戦略と規制整備を同時に進めている現状とも重なる。[3] [4]  さらにEU AI Actは2026年8月2日に本格適用の節目を迎える見通しで、欧州向けAI事業は性能競争だけでなく、ガバナンス対応を前提に設計し直す必要がある。[4]  その一方でAnthropicの巨額資金調達やIPO申請が示すように、AI競争は研究開発競争から資本市場の勝負へ移っており、BISの警鐘は“AIは伸びる”という期待と“過剰投資は崩れる”という警戒の綱引きを象徴している。[5]  ",
-          "references": [
-            {
-              "id": 1,
-              "title": "I. Progress and peril - Bank for International Settlements",
-              "url": "https://www.bis.org/publ/arpdf/ar2026e1.htm",
-              "source": "BIS"
-            },
-            {
-              "id": 2,
-              "title": "BIS says debt, AI boom and fragilities raise global risks (Reuters)",
-              "url": "https://money.usnews.com/investing/news/articles/2026-06-28/bis-says-debt-ai-boom-and-fragilities-raise-global-risks",
-              "source": "Reuters"
-            },
-            {
-              "id": 3,
-              "title": "Private Infra, Real Estate Capital to Play Larger Financing Role in AI Data-Center Boom - Reuters",
-              "url": "https://money.usnews.com/investing/news/articles/2026-06-03/private-infra-real-estate-capital-to-play-larger-financing-role-in-ai-data-center-boom-goldman-says",
-              "source": "Reuters"
+              "source": "European Commission AI Act Service Desk"
             },
             {
               "id": 4,
-              "title": "AI Act - Shaping Europe’s digital future",
-              "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
-              "source": "European Commission"
-            },
-            {
-              "id": 5,
-              "title": "Anthropic tops OpenAI as most valuable AI startup, nears $1T valuation",
-              "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
-              "source": "CNBC"
+              "title": "Microsoft Build 2026",
+              "url": "https://news.microsoft.com/build-2026/",
+              "source": ""
             }
           ],
-          "published_date": "2026-06-28",
+          "published_date": "2026-07-01",
           "category": "global",
           "title_highlights": [
-            "BIS",
-            "AIブーム",
-            "金融安定"
+            "Microsoft",
+            "Anthropic",
+            "EU AI Act"
           ],
           "three_lines_highlights": [
-            "BIS",
-            "EU AI Act",
-            "Anthropic"
+            "Microsoft",
+            "Anthropic",
+            "EU AI Act"
           ],
           "id": "global-3"
         },
         {
-          "title": "EU、AI法の適用延期を含む『Digital Omnibus on AI』を前進",
-          "summary_ja": "EUは2026年5月、AI法の実装負荷を下げる修正案で暫定合意に達した。高リスクAIの適用延期と一部禁止強化が同時に進む。",
-          "summary_en": "In May 2026, the EU reached provisional agreement on the Digital Omnibus on AI, delaying some high-risk AI obligations while strengthening certain prohibitions.",
+          "title": "EU AI Actの実務対応が本格化、企業は監査・透明性対応を急ぐ",
+          "summary_ja": "EU AI Actは2026年8月の透明性義務適用を前に、企業に監査・ログ保全・表示対応の実装を迫っている。違反時の制裁も重く、法務だけでなく製品設計と運用統制の見直しが必要だ。",
+          "summary_en": "Ahead of the August 2026 transparency obligations, the EU AI Act is pushing companies to implement audits, logging, and disclosure controls. Heavy penalties mean compliance is now a product, legal, and operations issue.",
           "three_lines": [
-            "高リスクAIの適用時期を後ろ倒し",
-            "同意なきAI生成画像を新たに禁止",
-            "正式採択前でも企業準備は急務"
+            "EU AI Act透明性義務が8月に適用",
+            "企業は監査・ログ保全を急ぐ",
+            "違反時は重い制裁リスク"
           ],
-          "body_ja": "EUでは、2025年11月に欧州委員会がAI法の実装負荷を下げるための「Digital Omnibus on AI」を提案し、その後2026年5月7日にEU理事会と欧州議会の交渉担当者が暫定合意に達したため、修正案が前進した。 この合意の中心は、EU AI Actの高リスクAI規制の適用時期を遅らせることで、スタンドアロン型の高リスクAIは2027年12月2日から、製品組込み型は2028年8月2日から適用する設計である。[1][2] あわせて、AIが同意なく生成する性的・親密画像や児童性的虐待 सामग्रीを禁じる新たな禁止条項が入り、EUは規制の簡素化と保護強化を同時に進めている。[2] 欧州委員会は、このパッケージがEU企業の実装を容易にしつつ安全・基本権の保護を維持し、技術標準や支援ツールが整う前に施行を急がない狙いだと説明している。 ただし、暫定合意はまだ正式採択前であり、最終文言の承認と官報掲載を経て初めて法的拘束力を持つため、企業側は準備期間が明確化されたと捉えるべきである。",
+          "body_ja": "EU AI Actは、2024年に発効したEUの包括的なAI規制で、透明性・高リスクAI・基盤モデルまでを広く対象にしており、2026年に向けて実装フェーズが本格化している。[1] 欧州委員会は2026年5月に、AIシステムの透明性義務をめぐるガイドライン案と公開協議を出し、利用者への通知やAI生成・加工コンテンツの識別を、企業が実務でどう満たすかを具体化し始めた。[2] とくにArticle 50の透明性義務は、生成AIの利用表示、deepfakeや公共性の高いAI生成テキストのラベル付けなどを含み、2026年8月2日から適用されるため、企業はプロダクト設計と法務・監査の両面で対応を急ぐ必要がある。[2] 監査・証跡管理の負荷も重く、高リスクAIの利用者は人間による監督体制を置き、指示書に従う運用をし、制御下にあるログを少なくとも6か月保存することが求められる。[3] さらに違反時の制裁は重く、透明性義務を含む複数条項違反には最大1,500万ユーロまたは世界売上高の3%までの行政罰金が科されうる。 このため、2026年の企業対応は「規制を読む」段階から、データフローの棚卸し、ラベル表示のUI修正、ログ保全、モデル供給元との契約見直しまで含む統合的なコンプライアンス作業へ移っている。[2][3] EU AI Officeと各国市場監視当局が執行を担う構造で、違反リスクは単なる法務案件ではなく、プロダクト変更と運用統制の経営課題になっている。[4]",
           "references": [
             {
               "id": 1,
-              "title": "Guidelines for providers and deployers of AI high-risk systems",
-              "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-ai-high-risk-systems",
-              "source": "European Commission"
-            },
-            {
-              "id": 2,
-              "title": "EU agrees to simplify AI rules to boost innovation and ban nudification apps to protect citizens",
-              "url": "https://digital-strategy.ec.europa.eu/en/news/eu-agrees-simplify-ai-rules-boost-innovation-and-ban-nudification-apps-protect-citizens",
-              "source": "European Commission"
-            },
-            {
-              "id": 3,
-              "title": "Digital Omnibus on AI - europarl.europa.eu",
-              "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2026/782651/EPRS_BRI%282026%29782651_EN.pdf",
-              "source": ""
-            },
-            {
-              "id": 4,
-              "title": "EU agrees to simplify AI rules to boost innovation and ban ...",
-              "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_1024/IP_26_1024_EN.pdf",
-              "source": ""
-            }
-          ],
-          "published_date": "2026-07-01",
-          "category": "global",
-          "title_highlights": [
-            "Digital Omnibus",
-            "AI Act",
-            "高リスク延期"
-          ],
-          "three_lines_highlights": [
-            "2027年延期",
-            "nudification禁止",
-            "正式採択前"
-          ],
-          "id": "global-4"
-        },
-        {
-          "title": "AIが数理研究を加速、欧州では規制と規範整備が進む",
-          "summary_ja": "Nature Machine Intelligenceは、AIが数理研究を急速に変えつつある一方で、数学者コミュニティが公開書簡で人間中心の研究原則を守るべきだと主張していると報じた。欧州ではEU AI ActとAI Office、AI Factoriesが並走し、研究ブレークスルーとガバナンス整備が同時進行している。",
-          "summary_en": "Nature Machine Intelligence reports that AI is rapidly transforming mathematical research, even as mathematicians push back with an open letter defending human-centered norms. In Europe, the EU AI Act, the AI Office, and AI Factories are advancing in parallel with the research breakthrough, highlighting a simultaneous push for innovation and governance.",
-          "three_lines": [
-            "AIが数理研究を急速に変えた",
-            "数学者は人間中心の原則を求めた",
-            "欧州は規制と研究基盤を同時整備"
-          ],
-          "body_ja": "Nature Machine Intelligenceは6月の編集記事で、AIが数理研究を急速に変えている一方、同月公開の国際的な公開書簡が「数学は人間の営み」であるべきだと訴えたと伝えた。Nature本誌の別報道では、AIが80年越しの数学問題を解いた事例や、厳格な未見問題ベンチマークで人間がAIを上回った結果が示され、進歩と限界が同時に見えている[1]。こうした状況を受け、数学コミュニティは透明性・真正性・公平性を守る利用規範を整備し始めており、Natureはその動きを他分野にも波及しうる先例と位置づけた[2]。欧州ではEU AI Actが包括的なAI規制として運用段階に入り、欧州委員会はAI OfficeやAI Factoriesを通じて信頼できるAIの普及と研究基盤の強化を進めている[3]。",
-          "references": [
-            {
-              "id": 1,
-              "title": "AI cracks 80-year-old mathematics challenge — researchers are astonished",
-              "url": "https://www.nature.com/articles/d41586-026-01651-0",
-              "source": "Nature"
-            },
-            {
-              "id": 2,
-              "title": "Mathematicians are developing rules for AI use — other ...",
-              "url": "https://www.nature.com/articles/d41586-026-01881-2",
-              "source": "Nature"
-            },
-            {
-              "id": 3,
               "title": "AI Act - Shaping Europe’s digital future",
               "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
               "source": "European Commission"
             },
             {
+              "id": 2,
+              "title": "Commission opens consultation on draft guidelines for AI transparency obligations",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/commission-opens-consultation-draft-guidelines-ai-transparency-obligations",
+              "source": "European Commission"
+            },
+            {
+              "id": 3,
+              "title": "Article 26: Obligations of deployers of high-risk AI systems",
+              "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-26",
+              "source": "AI Act Service Desk"
+            },
+            {
               "id": 4,
-              "title": "Articles in 2026 | Nature Machine Intelligence",
-              "url": "https://www.nature.com/natmachintell/articles?year=2026",
-              "source": ""
+              "title": "Governance and enforcement of the AI Act",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-act-governance-and-enforcement",
+              "source": "European Commission"
             }
           ],
           "published_date": "2026-07-01",
           "category": "global",
           "title_highlights": [
-            "AI数学",
             "EU AI Act",
-            "AI Office"
+            "Article 50",
+            "罰金3%"
           ],
           "three_lines_highlights": [
-            "AI数学",
-            "公開書簡",
-            "AI規制"
+            "透明性義務",
+            "監査・ログ",
+            "制裁リスク"
           ],
-          "id": "global-5"
+          "id": "global-4"
         }
       ],
-      "summary": "欧州ではAI法の施行は予定通り進みつつ、実務負担を和らげるための任意コードや修正案も並行して整備されており、規制の骨格は維持しながら運用面を調整する局面に入っている。これに対し米国勢は対応が分かれ、MicrosoftのようにEU規範へ歩み寄る動きと、Metaのように法的不確実性を理由に距離を取る動きが対照的になっている。加えて、AI投資の過熱による金融リスクへの警戒や、研究現場でのAI活用拡大に伴う人間中心の原則をめぐる議論も強まり、欧米では「加速するAI実装」と「強まるガバナンス整備」が同時進行している。"
+      "summary": "欧米のAI競争は、モデル性能の競争から、計算資源・電力・配布基盤をどれだけ押さえられるかという総合戦へ移っている。GoogleやOpenAI、Anthropicは巨額投資と提携を通じて優位確保を急ぐ一方、企業側ではAI投資の効率化圧力が強まり、低コスト運用やmodel routingの普及が成長戦略を揺さぶっている。加えてEU AI Actの実務対応が本格化し、欧米大手は資金調達、インフラ確保、規制順守を同時に進める局面に入っている。"
     }
   ]
 }
