@@ -80,11 +80,27 @@ def render_all(data: dict) -> None:
                                   goatcounter=GOATCOUNTER)
 
 
+def latest_data() -> dict:
+    """最新の data/*.json を読み込む（採集せず再描画する用）。"""
+    files = sorted(f for f in os.listdir(DATA_DIR)
+                   if f.endswith(".json") and not f.endswith(".raw.json"))
+    if not files:
+        raise SystemExit("data/ にJSONがありません。まず `python main.py` で採集してください。")
+    with open(os.path.join(DATA_DIR, files[-1]), encoding="utf-8") as f:
+        return json.load(f)
+
+
 def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     logging.basicConfig(level=logging.INFO,
                         format="%(asctime)s %(levelname)s %(message)s",
                         datefmt="%H:%M:%S")
+    # `python main.py render` = 採集せず、保存済みデータから再描画のみ（UI変更用・無料/即時）
+    if len(sys.argv) > 1 and sys.argv[1] in ("render", "--render-only"):
+        data = latest_data()
+        render_all(data)
+        log.info("再描画のみ完了（採集なし）: %s", os.path.join(OUTPUT_DIR, "index.html"))
+        return 0
     data = build()
     render_all(data)
     log.info("描画完了: %s", os.path.join(OUTPUT_DIR, "index.html"))

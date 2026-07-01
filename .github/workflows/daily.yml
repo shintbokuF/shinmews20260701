@@ -43,17 +43,21 @@ jobs:
       - name: Generate digest
         run: python main.py
 
-      - name: Commit data & output (履歴蓄積)
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data output
-          git commit -m "Daily digest $(date -u +%Y-%m-%d)" || echo "no changes"
-          git push
-
+      # --- 先にPagesへデプロイ（push失敗に左右されない）---
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: output
       - id: deploy
         uses: actions/deploy-pages@v4
+
+      # --- data/output を履歴として push（競合しても job は失敗させない）---
+      - name: Commit data & output (履歴蓄積)
+        continue-on-error: true
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data output
+          git commit -m "Daily digest $(date -u +%Y-%m-%d)" || { echo "no changes"; exit 0; }
+          git pull --rebase -X ours origin main || true
+          git push || echo "push skipped (remote ahead); デプロイは完了済み"

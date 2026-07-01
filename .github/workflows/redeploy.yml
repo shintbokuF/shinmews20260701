@@ -1,0 +1,47 @@
+name: Redeploy (no collect)
+
+# 採集せず、コミット済み data/ から再描画してデプロイのみ（Tavily/LLMを使わない = 0 credits）。
+# UI/テンプレ/CSS変更時や、既存データで再公開したい時に使う。
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - 'templates/**'
+      - 'static/**'
+      - 'renderer.py'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  redeploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      # 描画のみ。import時に必要な非機密のみ（APIキー不要）
+      AZURE_OPENAI_ENDPOINT: https://snboku-0401-resource.cognitiveservices.azure.com
+      AZURE_MODEL_DEPLOYMENT: gpt-5.4-mini
+      AZURE_OPENAI_API_VERSION: preview
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Re-render from saved data (no collect)
+        run: python main.py render
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+      - id: deploy
+        uses: actions/deploy-pages@v4
