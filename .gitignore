@@ -1,0 +1,18 @@
+# 機密は絶対にコミットしない
+.env
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 生レスポンス（巨大・デバッグ用、サイトには不要）
+data/*.raw.json
+
+# ローカルの視覚確認ツールの出力
+_shots/
+
+# ログ
+logs/

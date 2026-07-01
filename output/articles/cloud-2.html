@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AWS WAFがAIボット課金を実装 | AI・クラウド ニュースダイジェスト</title>
+<link rel="stylesheet" href="../static/style.css">
+</head>
+<body class="article-page" style="--accent:#4285F4">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+  </div>
+</header>
+
+<main class="container article-container">
+  <div class="article-meta">
+    <span class="card-tag" style="background:#4285F4">クラウド</span>
+    <span class="article-date">2026-06-15</span>
+  </div>
+  <h1 class="article-title">AWS WAFがAIボット課金を実装</h1>
+
+  <div class="three-block" style="border-color:#4285F4">
+    <h2 class="three-block-head">3行でわかる！今日のニュース</h2>
+    <ul>
+      <li>AWS WAFがAIボット課金を追加</li><li><mark style="background:#4285F426">HTTP 402</mark>でエッジ課金を返す</li><li>可視化から収益化へ戦略を拡張</li>
+    </ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">AWSはWAFにAI traffic monetizationを追加し、AIボットのアクセスをエッジで課金できるようにした。まず可視化と分類を強化し、最後に収益化へ進む戦略が鮮明だ。</p>
+    <p class="sum-en">AWS added AI traffic monetization to WAF, enabling edge-based charging for AI bots. The move extends earlier visibility and control features into a monetization strategy for content owners.</p>
+  </div>
+
+  <div class="article-body">
+    <p>AWSは2026年6月15日、AWS WAFのBot ControlにAI traffic monetizationを追加し、AIボットやエージェントに対してコンテンツやAPIの利用料金を設定・計測・徴収できるようにした。これはコンテンツ提供者やパブリッシャーが、AIトラフィックを防ぐだけでなく課金するという新しい立場に移ることを意味する。</p>
+<p>仕組みはエッジで完結し、モニタライズ対象のリクエストに対してAWS WAFがHTTP 402 Payment Requiredを返し、x402形式の支払い指示を含めるため、独自の決済基盤を自前で作らずに済む。さらにBot Controlのラベルを使って、ボット種別や認証状態に応じた価格差を付けられる。</p>
+<p>AWSはこの新機能を、2026年2月のAI activity dashboardや5月のAI Traffic Analysis dashboardsに続くAIボット管理強化の延長線上に置いており、まず可視化してから制御し、最後に収益化へ進む戦略が見える。公式ドキュメントでは、Monetize actionはCloudFront配信に紐づくWeb ACLで利用でき、料金設定や支払いネットワークはMonetizationConfigで定義すると案内している。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#4285F4">[1]</a></sup></p>
+<p>料金面では、このAI traffic monetization自体はAWS WAF利用者に追加料金なしで提供されるとされ、AWSはAIボット流入を新たな収益源に変えたいコンテンツ事業者向けに、WAFを単なる防御製品から課金ゲートウェイへと拡張した格好だ。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#4285F4">[2]</a></sup></p>
+  </div>
+
+  
+  <div class="references">
+    <h2 class="ref-head">▼ 関連リンク / References</h2>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://aws.amazon.com/about-aws/whats-new/2026/02/aws-waf-ai-activity-dashboard/" target="_blank" rel="noopener noreferrer">AWS WAF announces AI activity dashboard for visibility into AI bot and agent traffic</a>
+        <span class="ref-source">— AWS</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://aws.amazon.com/waf/pricing/" target="_blank" rel="noopener noreferrer">Pricing - AWS WAF - Amazon Web Services</a>
+        <span class="ref-source">— AWS</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://aws.amazon.com/blogs/aws/category/security-identity-compliance/aws-waf/" target="_blank" rel="noopener noreferrer">AWS WAF | AWS News Blog - aws.amazon.com</a>
+        
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://docs.aws.amazon.com/waf/latest/developerguide/waf-ai-traffic-monetization-how-it-works.html" target="_blank" rel="noopener noreferrer">How AI traffic monetization works - AWS WAF, AWS Firewall Manager, AWS ...</a>
+        
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="site-footer">
+  <p>本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</p>
+</footer>
+</body>
+</html>

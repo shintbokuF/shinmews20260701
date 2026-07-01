@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI・クラウド ニュースダイジェスト</title>
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div>
+      <h1>AI・クラウド ニュースダイジェスト</h1>
+      <p class="site-date">{{ data.date }} 生成</p>
+    </div>
+    <a class="archive-link" href="{{ archive_href }}">📅 過去のダイジェスト</a>
+  </div>
+</header>
+
+<div class="layout">
+  <!-- 左侧索引栏 -->
+  <nav class="sidebar">
+    <p class="nav-head">INDEX</p>
+    <ul>
+    {% for sec in data.sections %}
+      {% if sec.articles %}
+      <li>
+        <a href="#sec-{{ sec.slug }}">
+          <span class="nav-dot" style="background:{{ sec.accent }}"></span>{{ sec.name }}
+          <span class="nav-count">{{ sec.articles|length }}</span>
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </nav>
+
+  <main class="container">
+  {% for sec in data.sections %}
+    {% if sec.articles %}
+    <section class="board" id="sec-{{ sec.slug }}" style="--accent:{{ sec.accent }}">
+      <h2 class="board-title">
+        <span class="board-dot" style="background:{{ sec.accent }}"></span>{{ sec.name }}
+      </h2>
+      {% if sec.summary %}
+      <p class="board-summary">{{ sec.summary }}</p>
+      {% endif %}
+      <div class="card-grid">
+      {% for art in sec.articles %}
+        <article class="card">
+          <span class="card-tag" style="background:{{ sec.accent }}">{{ sec.name }}</span>
+          <h3 class="card-title"><a href="articles/{{ art.id }}.html">{{ art.title_html }}</a></h3>
+          <ul class="three-lines">
+            {% for line in art.three_lines_html %}<li>{{ line }}</li>{% endfor %}
+          </ul>
+          <a class="read-more" href="articles/{{ art.id }}.html">詳しく読む →</a>
+        </article>
+      {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+  {% endfor %}
+  </main>
+</div>
+
+<footer class="site-footer">
+  <p>本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク(原文)をご確認ください。</p>
+</footer>
+</body>
+</html>

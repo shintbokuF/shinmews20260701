@@ -1,0 +1,15 @@
+# AI・クラウド ニュースダイジェスト — 毎日9:00に生成
+# 導入: crontab -e で以下を追記（Linux/macOS）。
+#
+# 前提:
+#  - az login 済み（DefaultAzureCredential が使える状態）。
+#    cron環境ではaz CLIのトークンが切れることがあるため、
+#    サービスプリンシパル(環境変数 AZURE_CLIENT_ID/SECRET/TENANT_ID)推奨。
+#  - venv のパスは各自の環境に合わせて修正。
+
+# 毎日 09:00 に実行し、ログを logs/ に残す
+0 9 * * *  cd /path/to/news_digest && /path/to/venv/bin/python main.py >> logs/digest_$(date +\%Y\%m\%d).log 2>&1
+
+# --- Windows タスクスケジューラの場合（参考） ---
+# schtasks /Create /SC DAILY /ST 09:00 /TN "NewsDigest" ^
+#   /TR "powershell -c \"cd C:\Users\snboku\news_digest; python main.py\""

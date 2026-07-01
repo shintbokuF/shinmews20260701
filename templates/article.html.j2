@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ article.title }} | AI・クラウド ニュースダイジェスト</title>
+<link rel="stylesheet" href="../static/style.css">
+</head>
+<body class="article-page" style="--accent:{{ section.accent }}">
+<header class="site-header">
+  <div class="header-inner">
+    <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+  </div>
+</header>
+
+<main class="container article-container">
+  <div class="article-meta">
+    <span class="card-tag" style="background:{{ section.accent }}">{{ section.name }}</span>
+    <span class="article-date">{{ article.published_date }}</span>
+  </div>
+  <h1 class="article-title">{{ article.title_html }}</h1>
+
+  <div class="three-block" style="border-color:{{ section.accent }}">
+    <h2 class="three-block-head">3行でわかる！今日のニュース</h2>
+    <ul>
+      {% for line in article.three_lines_html %}<li>{{ line }}</li>{% endfor %}
+    </ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">{{ article.summary_ja }}</p>
+    <p class="sum-en">{{ article.summary_en }}</p>
+  </div>
+
+  <div class="article-body">
+    {{ article.body_html }}
+  </div>
+
+  {% if article.references %}
+  <div class="references">
+    <h2 class="ref-head">▼ 関連リンク / References</h2>
+    <ol>
+      {% for ref in article.references %}
+      <li id="ref-{{ ref.id }}">
+        <a href="{{ ref.url }}" target="_blank" rel="noopener noreferrer">{{ ref.title or ref.url }}</a>
+        {% if ref.source %}<span class="ref-source">— {{ ref.source }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+  {% endif %}
+</main>
+
+<footer class="site-footer">
+  <p>本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</p>
+</footer>
+</body>
+</html>

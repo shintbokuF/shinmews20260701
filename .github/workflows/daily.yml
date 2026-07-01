@@ -1,0 +1,57 @@
+name: Daily News Digest
+
+on:
+  schedule:
+    - cron: '0 1 * * *'      # 01:00 UTC = 10:00 JST（毎日10時）
+  workflow_dispatch: {}       # 手動実行ボタンも有効
+
+permissions:
+  contents: write             # data/ output/ をコミットして履歴を蓄積
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      # --- 非機密（必要ならリポジトリ変数/シークレットへ移動可） ---
+      AZURE_OPENAI_ENDPOINT: https://snboku-0401-resource.cognitiveservices.azure.com
+      AZURE_MODEL_DEPLOYMENT: gpt-5.4-mini
+      AZURE_OPENAI_API_VERSION: preview
+      # --- サービスプリンシパル（GitHub Secrets に登録。DefaultAzureCredentialが自動使用） ---
+      AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+      AZURE_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
+      AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - run: pip install -r requirements.txt
+
+      - name: Generate digest
+        run: python main.py
+
+      - name: Commit data & output (履歴蓄積)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data output
+          git commit -m "Daily digest $(date -u +%Y-%m-%d)" || echo "no changes"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+      - id: deploy
+        uses: actions/deploy-pages@v4
