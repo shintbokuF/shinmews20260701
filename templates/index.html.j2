@@ -97,28 +97,25 @@
 </div>
 
 <section class="contact">
-  <div class="contact-inner">
-    <div class="contact-lead">
-      <div class="mono lbl">▶ INTEL REQUEST</div>
+  <div class="dispatch">
+    <div class="dispatch-head"><span class="d-dot"></span>TRANSMIT · 作者へのシグナル</div>
+    <div class="dispatch-body">
       <h2>あなたが最も知りたいテーマは？</h2>
       <p>取り上げてほしいトピック・業界・企業のご要望、記事へのご相談など、お気軽にどうぞ。</p>
+      <form class="contact-form" action="{{ contact_action }}" method="POST" data-gc="click/formsubmit">
+        <input type="hidden" name="_subject" value="[News Digest] お問い合わせ・ご要望">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ追ってご連絡します。（AI・クラウド ニュースダイジェスト）">
+        {% if site_url %}<input type="hidden" name="_next" value="{{ site_url }}">{% endif %}
+        <div class="fields">
+          <label class="field"><span>Name</span><input type="text" name="name" placeholder="お名前（任意）" autocomplete="name"></label>
+          <label class="field"><span>Email</span><input type="email" name="email" placeholder="返信希望の方（任意）" autocomplete="email"></label>
+        </div>
+        <label class="field"><span>Message</span><textarea name="message" placeholder="知りたいテーマ・ご相談内容をご記入ください" required></textarea></label>
+        <button type="submit" class="contact-btn">送信する&nbsp;→</button>
+      </form>
     </div>
-    <form class="contact-form" action="{{ contact_action }}" method="POST" data-gc="click/formsubmit">
-      <input type="hidden" name="_subject" value="[News Digest] お問い合わせ・ご要望">
-      <input type="hidden" name="_template" value="table">
-      <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ追ってご連絡します。（AI・クラウド ニュースダイジェスト）">
-      {% if site_url %}<input type="hidden" name="_next" value="{{ site_url }}">{% endif %}
-      <div class="form-row">
-        <input type="text" name="name" placeholder="お名前（任意）" autocomplete="name">
-        <input type="email" name="email" placeholder="メール（返信希望の方・任意）" autocomplete="email">
-      </div>
-      <textarea name="message" placeholder="知りたいテーマ・ご相談内容をご記入ください" required></textarea>
-      <button type="submit" class="contact-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
-        送信する
-      </button>
-    </form>
   </div>
 </section>
 
