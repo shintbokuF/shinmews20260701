@@ -109,8 +109,10 @@
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ追ってご連絡します。（AI・クラウド ニュースダイジェスト）">
       {% if site_url %}<input type="hidden" name="_next" value="{{ site_url }}">{% endif %}
-      <input type="text" name="name" placeholder="お名前（任意）" autocomplete="name">
-      <input type="email" name="email" placeholder="メール（返信をご希望の方・任意）" autocomplete="email">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="お名前（任意）" autocomplete="name">
+        <input type="email" name="email" placeholder="メール（返信希望の方・任意）" autocomplete="email">
+      </div>
       <textarea name="message" placeholder="知りたいテーマ・ご相談内容をご記入ください" required></textarea>
       <button type="submit" class="contact-btn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16v12H4z"/><path d="M4 7l8 6 8-6"/></svg>
