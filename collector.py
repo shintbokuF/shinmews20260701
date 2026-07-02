@@ -43,20 +43,23 @@ def _norm_url(u: str) -> str:
 
 
 # ---------------- Tavily 検索 ----------------
-def tavily_search(query: str, max_results: int = 12, time_range: str = "week",
+def tavily_search(query: str, max_results: int = 12, time_range: str | None = "week",
                   country: str | None = None, include_domains: list[str] | None = None,
                   timeout: int = 40) -> list[dict]:
     """Tavily で検索し [{title,url,content,score}] を返す。1リクエスト=1 credit。
-    country: その国のニュースを優先（例: japan）。include_domains: 対象ドメインを限定。"""
+    country: その国のニュースを優先（例: japan）。include_domains: 対象ドメインを限定。
+    time_range=None の場合は指定しない（include_domains併用時、time_range指定だと
+    該当がほぼ0件に潰れるTavily側の挙動があるため）。"""
     if not TAVILY_KEY:
         raise RuntimeError("TAVILY_API_KEY が未設定です（.env か 環境変数）。")
     body = {
         "query": query,
         "topic": "news",
-        "time_range": time_range,
         "max_results": max_results,
         "search_depth": "basic",
     }
+    if time_range:
+        body["time_range"] = time_range
     if country:
         body["country"] = country
     if include_domains:
@@ -114,14 +117,23 @@ def _discovery_prompt(section: dict, results: list[dict], today: str, lo: int, h
 
 この中から、本日〜直近で最も重要なニュースを {lo}〜{hi} 件選んでください。
 重複する話題はまとめ、この分野({section['focus']})に本当に関連するものだけ。
+
+以下は選ばないでください: 単なる家電・PC・ガジェット等の値下げ/セール/クーポン情報、
+EC・通販・アフィリエイト記事、求人情報、IR資料(PDF)、アーカイブ一覧・目次ページ、
+著者プロフィールページ、イベント/セミナー告知のみの記事。
+条件に合う記事が{lo}件に満たない場合は、無理に埋めず件数を減らして構いません(0件も可)。
+
 純粋なJSONのみ（説明文・コードフェンス禁止）:
 {{"stories":[{{"headline":"日本語の見出し","query_hint":"この件を深掘り検索する具体キーワード(英日可)"}}]}}"""
 
 
 def discover(section: dict, today: str, lo: int, hi: int) -> tuple[list[dict], dict]:
     query = section.get("query") or f"{section['name']} {section['focus']}"
+    if section.get("include_domains"):
+        query = f"{query} {today[:4]}年{int(today[5:7])}月"
     results = tavily_search(query, max_results=20, country=section.get("country"),
-                            include_domains=section.get("include_domains"))
+                            include_domains=section.get("include_domains"),
+                            time_range=section.get("time_range", "week"))
     raw = {"phase": "discovery", "slug": section["slug"],
            "query": query, "results": results}
     try:
@@ -160,9 +172,13 @@ def _write_prompt(section: dict, story: dict, results: list[dict], today: str) -
 
 
 def write_article(section: dict, story: dict, today: str) -> tuple[dict | None, dict]:
-    results = tavily_search(story.get("query_hint") or story.get("headline", ""),
+    write_query = story.get("query_hint") or story.get("headline", "")
+    if section.get("include_domains"):
+        write_query = f"{write_query} {today[:4]}年{int(today[5:7])}月"
+    results = tavily_search(write_query,
                             max_results=8, country=section.get("country"),
-                            include_domains=section.get("include_domains"))
+                            include_domains=section.get("include_domains"),
+                            time_range=section.get("time_range", "week"))
     raw = {"phase": "write", "slug": section["slug"],
            "headline": story.get("headline"), "results": results}
     # 許可URL台帳（正規化URL -> 実メタ）

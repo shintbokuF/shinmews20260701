@@ -7,14 +7,19 @@ SECTIONS = [
         "slug": "japan",
         "name": "日本国内",
         "accent": "#D6314B", "accent_dark": "#AA2439", "icon": "torii",
-        "focus": "日本企業のAI導入事例、国内SIer動向、政府のAI政策・規制、国産LLM。",
-        "query": "生成AI 企業 導入事例 国産LLM SIer 政府 AI政策 DX",
+        "focus": "日本政府・省庁のAI政策/規制/補助金、経済安全保障・地政学、国産LLM開発、"
+                 "セキュリティインシデント、企業のAI導入事例や資金調達・M&A。"
+                 "単なる家電・PC・ガジェット等の値下げ/セール/クーポン情報は対象外。",
+        "query": "生成AI 政府 政策 補助金 セキュリティ 国産LLM 経済安全保障 地政学 投資",
         "country": "japan",
         "include_domains": [
             "itmedia.co.jp", "atmarkit.itmedia.co.jp", "nikkei.com", "xtech.nikkei.com",
             "publickey1.jp", "ascii.jp", "watch.impress.co.jp", "cloud.watch.impress.co.jp",
             "japan.cnet.com", "japan.zdnet.com", "ledge.ai", "nikkeibp.co.jp",
         ],
+        # include_domains指定時、Tavilyはtime_range併用だと該当ゼロ〜1件(アーカイブページのみ)に
+        # 潰れる不具合があるため、この板块はtime_range無指定にする（代わりにqueryへ年月を付与）。
+        "time_range": None,
         "min_items": 6, "max_items": 10,
     },
     {
