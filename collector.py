@@ -109,12 +109,45 @@ def _parse_json(text: str) -> dict:
     return json.loads(cleaned)
 
 
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+
+
+def _recent_headlines(slug: str, today: str, days: int = 4) -> list[str]:
+    """直近 `days` 日分（today除く）の当該板块の見出し一覧。discoveryでの重複トピック除外用。"""
+    if not os.path.isdir(DATA_DIR):
+        return []
+    dates = sorted(
+        f[:-5] for f in os.listdir(DATA_DIR)
+        if f.endswith(".json") and not f.endswith(".raw.json") and f[:-5] < today
+    )
+    headlines: list[str] = []
+    for d in dates[-days:]:
+        try:
+            with open(os.path.join(DATA_DIR, f"{d}.json"), encoding="utf-8") as f:
+                data = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+        for sec in data.get("sections", []):
+            if sec.get("slug") == slug:
+                headlines.extend(a.get("title", "") for a in sec.get("articles", []))
+    return headlines
+
+
 # ---------------- Phase A: 発見 ----------------
-def _discovery_prompt(section: dict, results: list[dict], today: str, lo: int, hi: int) -> str:
+def _discovery_prompt(section: dict, results: list[dict], today: str, lo: int, hi: int,
+                       recent: list[str]) -> str:
+    recent_block = ""
+    if recent:
+        recent_list = "\n".join(f"- {h}" for h in recent)
+        recent_block = f"""
+直近数日で既に取り上げた見出し（同じ話題の単純な言い換え・焼き直しは選ばないこと。
+その話題に重要な新展開があった場合のみ、新展開が分かる見出しとして選んでよい）:
+{recent_list}
+"""
     return f"""あなたはIT/AI/クラウド専門のニュース編集者です。
 本日は {today}。次は「{section['name']}」分野の検索結果です:
 {_results_block(results)}
-
+{recent_block}
 この中から、本日〜直近で最も重要なニュースを {lo}〜{hi} 件選んでください。
 重複する話題はまとめ、この分野({section['focus']})に本当に関連するものだけ。
 
@@ -134,10 +167,12 @@ def discover(section: dict, today: str, lo: int, hi: int) -> tuple[list[dict], d
     results = tavily_search(query, max_results=20, country=section.get("country"),
                             include_domains=section.get("include_domains"),
                             time_range=section.get("time_range", "week"))
+    recent = _recent_headlines(section["slug"], today)
     raw = {"phase": "discovery", "slug": section["slug"],
            "query": query, "results": results}
     try:
-        stories = _parse_json(_call_plain(_discovery_prompt(section, results, today, lo, hi))).get("stories", [])
+        stories = _parse_json(_call_plain(
+            _discovery_prompt(section, results, today, lo, hi, recent))).get("stories", [])
     except json.JSONDecodeError as e:
         log.warning("[%s] discovery パース失敗: %s", section["slug"], e)
         stories = []
