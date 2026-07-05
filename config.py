@@ -20,7 +20,7 @@ SECTIONS = [
         # include_domains指定時、Tavilyはtime_range併用だと該当ゼロ〜1件(アーカイブページのみ)に
         # 潰れる不具合があるため、この板块はtime_range無指定にする（代わりにqueryへ年月を付与）。
         "time_range": None,
-        "min_items": 6, "max_items": 10,
+        "min_items": 3, "max_items": 10,
     },
     {
         # OpenAIだけでなく主要AIモデル大手を横断（Claude / Gemini 等も対象）
@@ -63,6 +63,8 @@ CONTACT_FORM_ACTION = "https://formsubmit.co/shintboku@gmail.com"
 SITE_URL = "https://shintbokuf.github.io/shinmews20260701/"
 
 # 記事数のデフォルト（各section で min_items/max_items 上書き可）
+# min < max にして「新展開が無ければ無理に埋めない」を実際に機能させる
+# （min=max だと枠を埋めるため既出話題の焼き直しが選ばれてしまう）。
 # 検索クレジット概算: 通常4板块×(1+3)=16 + 日本国内(1+10)=11 → 約27/日 ≈ 810/月（Tavily無料枠1000内）
-MIN_ITEMS = 3
+MIN_ITEMS = 1
 MAX_ITEMS = 3

@@ -74,6 +74,10 @@ def render(data: dict, out_dir: str, archive_href: str = "archive/index.html",
     article_tpl = env.get_template("article.html.j2")
 
     articles_dir = os.path.join(out_dir, "articles")
+    if os.path.isdir(articles_dir):
+        # 前回より記事数が減った日に古いarticle-N.htmlが残らないよう毎回クリアする
+        for f in os.listdir(articles_dir):
+            os.remove(os.path.join(articles_dir, f))
     os.makedirs(articles_dir, exist_ok=True)
 
     # 各記事に描画用HTMLを付与
