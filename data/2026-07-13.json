@@ -1,0 +1,903 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T23:56:36.331348+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "国家情報局は何を変えるか　米英の先行事例に学ぶIT市場と統治",
+          "summary_ja": "高市政権が創設を進める「国家情報局」は、経済安全保障と情報収集を一体で強化する構想として注目される。先行事例として米英の情報機関や関連制度を見比べると、単なる組織改編ではなく、ITシステム整備を通じた巨大な調達・運用市場が立ち上がる可能性がある。[2]",
+          "summary_en": "Takaiichi’s administration is moving to create a National Intelligence Bureau. Looking at precedents in the U.S. and U.K., the key issue is not only institutional design but also the emergence of a large IT procurement and operations market.[2]",
+          "three_lines": [
+            "国家情報局の創設で情報統治が再編される。",
+            "米英の先行例がIT市場拡大を示唆する。",
+            "経済安保で官民の調達競争が強まる。"
+          ],
+          "body_ja": "高市政権が創設を掲げる「国家情報局」は、従来の省庁縦割りでは拾い切れない情報を集約し、経済安全保障や地政学対応に直結させるための中枢になりうる。今回の論点は、制度の名前そのものよりも、どのような権限と予算が付与され、どの程度までデータ連携や分析基盤を持てるかにある。[2]\n\n検索結果の範囲で見ると、関連記事は「米英の先行事例はどうなっているか」「ITシステムで生まれる大型市場」という視点を強く打ち出している。ここから読み取れるのは、情報機関の再編が、監視・分析・共有のための基盤整備を伴い、結果として大規模なシステム更新や運用委託を生むということだ。つまり、国家情報局は政策組織であると同時に、国内ITベンダーやクラウド事業者、セキュリティ企業にとっての需要創出装置にもなりうる。[2]\n\n一方で、2026年の高市政権は衆院で強い基盤を得たとされ、IT政策の推進力が増しているとの文脈も示されている。政権が情報機能を強化するなら、国産技術の採用、調達要件の厳格化、機微情報を扱うシステムの国内管理など、国産LLMやセキュリティ製品の追い風になる可能性がある。ただし、検索結果から確認できるのはあくまで「動いている」という事実と、市場化への見方までであり、具体的な制度設計や対象分野は今後の発表を待つ必要がある。[1][2]\n\n米英の先行事例を手がかりにすると、論点は二つに整理できる。第一に、情報機関がどこまでIT基盤を自前化するか。第二に、その過程でどれだけ官民の調達市場が広がるかである。国家情報局は、単なる新しい看板ではなく、日本の行政IT、サイバー防御、データ統合、さらには関連企業の資金調達やM&Aの方向性にまで影響しうるテーマとして見ておくべきだ。[2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "高市早苗内閣 衆議院の2/3議席獲得でIT政策はどうなるか？走り書き的なメモ",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/02/23it.html",
+              "source": "ITmedia Blogs"
+            },
+            {
+              "id": 2,
+              "title": "高市政権が創設する「国家情報局」米英の先行事例はどうなっているか？ ITシステムで生まれる大型市場",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/02/_it.html",
+              "source": "ITmedia Blogs"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "japan",
+          "title_highlights": [
+            "国家情報局",
+            "米英"
+          ],
+          "three_lines_highlights": [
+            "国家情報局",
+            "米英",
+            "経済安保"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "Anthropicソースコード流出事件の深層：Claude Codeの漏えいが突きつけたAI開発セキュリティの課題",
+          "summary_ja": "AnthropicのAIエージェント「Claude Code」で起きたソースコード流出を起点に、AI開発の内部情報管理と防御型セキュリティ製品の重要性を整理する。流出したコードは、エージェントの再実装競争やLLM製マルウエアの文脈とも重なり、生成AIの“使う側”だけでなく“作る側”の統制が問われている。",
+          "summary_en": "The leak of Anthropic’s Claude Code source code highlights how AI development security, internal information handling, and defensive security tooling are becoming central issues. It also intersects with the broader race to reimplement AI agents and concerns over LLM-powered malware.",
+          "three_lines": [
+            "Claude Code流出で開発競争が加速した。",
+            "LLM製マルウエアがOSS文化を揺さぶる。",
+            "防御型AI製品の重要性が一段と増した。"
+          ],
+          "body_ja": "米AnthropicのAIエージェントツール「Claude Code」で、ソースコードを誤って公開する事故が起きたことを受け、AI開発の現場では“モデルの性能競争”だけでなく“内部資産をどう守るか”が改めて焦点になっている。[2] 先週のアクセスランキングでも、この流出を起点にした「エージェントの再実装競争」を解説する海外連載が注目を集めており、単なる一企業の事故ではなく、AIエージェント開発全体の競争構造に波及する話題として受け止められている。[1]\n\n今回の件が重く受け止められるのは、生成AIが開発支援に深く入り込むほど、ソースコードや設定情報、運用ノウハウ自体が競争力の源泉になるからだ。特にエージェント型AIは、外部ツール連携や自動実行の比重が大きく、設計思想や安全対策の一部が実装に強く反映されるため、漏えいした情報が模倣や再現の加速につながりやすい。[1][2] つまり、AIの“賢さ”を高めるほど、開発プロセス全体の秘匿性と統制が重要になる。\n\n同時に、日経XTECHが指摘するように、AIは開発者のふるまいを装う形で悪用される段階に入りつつあり、LLM製マルウエアがOSS文化そのものを揺さぶる懸念も強まっている。[2] これは、オープンソースの再利用や検証を前提にしてきた開発現場にとって、信頼できるコードと不審な自動生成物の見分けが難しくなることを意味する。AIを活用する企業は、導入の利便性だけでなく、コード生成・レビュー・配布の各段階での検証強化を迫られる。\n\n一方でAnthropicは、防御側のニーズに応える動きも見せている。ZDNET Japanによれば、同社は脆弱性スキャンからパッチ生成までを自動化する防御型サイバーセキュリティ製品「Claude Security」を発表しており、AIを攻撃にも防御にも使う時代の現実を示している。[3] さらに、＠ITの関連記事では、セーフガード付きの次世代AIが脆弱性修正の猶予を極端に短縮させるという見方も示されており、AIがセキュリティ運用の時間軸そのものを変え始めていることがうかがえる。[4]\n\n日本国内の観点で見ると、この事件は企業のAI導入だけでなく、経済安全保障や政府のAI政策にも通じる論点を含む。AIモデルや関連コードが一度外部に出れば、国内企業が採るべき調達・利用ルール、研究開発の秘匿管理、そしてサプライチェーン全体の監査がより厳しく問われるからだ。[1][2] 生成AIの活用を進めるほど、単に“使えるか”ではなく、“漏れてはいけないものを守れるか”が導入判断の中核になっていく。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claude Codeのソースコード流出から始まったエージェントの再実装競争を解説した海外連載が先週の1位",
+              "url": "https://cloud.watch.impress.co.jp/docs/news/ranking/2102824.html",
+              "source": "クラウド Watch"
+            },
+            {
+              "id": 2,
+              "title": "AIが「善良な開発者」装う時代、LLM製マルウエアがOSS文化揺さぶる",
+              "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/040701995/",
+              "source": "日経XTECH"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic、「Claude Security」を発表--脆弱性スキャンからパッチ生成までを自動化",
+              "url": "https://japan.zdnet.com/article/35247092/",
+              "source": "ZDNET Japan"
+            },
+            {
+              "id": 4,
+              "title": "脆弱性修正の猶予は「125日から0.5日」へ激減。セーフガード付き「Claude Fable 5」と最上位「Mythos」がもたらす激震",
+              "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/17/news014.html",
+              "source": "＠IT"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "japan",
+          "title_highlights": [
+            "Claude Code",
+            "LLMマルウエア",
+            "Claude Security"
+          ],
+          "three_lines_highlights": [
+            "Claude Code",
+            "LLMマルウエア",
+            "Claude Security"
+          ],
+          "id": "japan-2"
+        },
+        {
+          "title": "AIデータセンター電力供給は「メガワット」から「ギガワット」へ、国家戦略としての電力問題",
+          "summary_ja": "AI向けデータセンターは、もはやIT投資ではなく電力・燃料・送電網を巻き込む国家課題になりつつある。海外ではインドが原発増設を見据えて豪州からのウラン調達を固め、日本でも高圧接続や系統連系を前提にした設計論が前面に出てきた。",
+          "summary_en": "AI data centers are turning into a national issue that involves power supply, fuel procurement, and grid infrastructure rather than just IT investment. Overseas, India is securing uranium from Australia while planning more nuclear capacity, and in Japan the discussion is shifting toward high-voltage interconnection and grid integration.",
+          "three_lines": [
+            "AI拠点は電力確保が先に立つ",
+            "原発級の供給力が競争条件になる",
+            "日本でも高圧接続の設計が重要になる"
+          ],
+          "body_ja": "AIデータセンターの議論は、半導体の性能競争から「どれだけ電力を確保できるか」という国家レベルの問題へと重心が移りつつある。とくに、巨大な計算基盤を前提にした拠点では、メガワット級では足りず、ギガワット級の供給力をどう用意するかが焦点になる。[4][8]\n\nこの流れを象徴するのが、インドの動きだ。インドのモディ首相はオーストラリア訪問時に、ウラン調達を巡る取り決めに署名した。背景には、世界のAIデータセンター需要をにらみ、原発増設を進める狙いがあると報じられている。AIの計算需要が増えるほど、安定電源としての原子力の位置づけが強まる構図だ。[1][2]\n\n一方、日本では、AIデータセンターを単なるサーバー施設としてではなく、電力インフラと一体で設計する発想が広がっている。6,600Vの高圧接続を前提にしたパッケージや、系統連系、発電、変電、蓄電、UPS、冷却まで含めた実務が前面に出ており、工期短縮や価格競争力も競争軸になっている。[5][7]\n\nこの変化が意味するのは、AI導入競争の勝負どころが、モデルの性能だけでなく、発電・送電・受電・バックアップ電源を含む「電力の総合設計」に移ったということだ。米国ではすでに「Power-First」という考え方が語られ始めており、日本でも同じ発想で供給側の準備を急がなければ、AI計算基盤の誘致や国内整備で後れを取る可能性がある。[8][4]\n\n国内のAI政策や産業振興を考える上でも、補助金や規制の議論をクラウドやLLM開発だけで終わらせるのは不十分だ。これからは、電力会社、総合商社、IT企業が一体となって、原子力を含むベースロード電源、系統増強、データセンター立地までをまとめて設計する国家戦略が必要になる。AI時代の競争力は、GPUの数だけでなく、そのGPUを動かす電気をどこから、どう安定して持ってくるかで決まる。[6][7][1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "インド、豪州からウラン調達合意 「世界のAIデータセンター」へ原発増",
+              "url": "https://www.nikkei.com/article/DGXZQOGM08AXO0Y6A700C2000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 2,
+              "title": "インド、豪からウラン調達で合意 AI需要へ原発増",
+              "url": "https://www.nikkei.com/article/DGKKZO97464300Z00C26A7FF8000",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 3,
+              "title": "【AIデータセンター電力供給】AI特需は「半導体」だけではない―日本の重電・電力インフラ企業に訪れる100年に一度の「スーパーサイクル」：経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/01/aiai100.html",
+              "source": "ITmediaブログ"
+            },
+            {
+              "id": 4,
+              "title": "【AIデータセンター電力供給】「メガワット」から「ギガワット」へ―原子力発電所級の「AIファクトリー」が描き直す世界のエネルギー地図：経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/01/aiai_4.html",
+              "source": "ITmediaブログ"
+            },
+            {
+              "id": 5,
+              "title": "SKにも勝てる。圧倒的な工期短縮と価格競争力！「6,600V・高圧接続AIデータセンター・パッケージ」の戦略と実務（海外市場でもスケール可能）を含むセミナー資料全140ページ。販売は終了しました：経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/06/skai140.html",
+              "source": "ITmediaブログ"
+            },
+            {
+              "id": 6,
+              "title": "1/27開催 AIデータセンター電力供給セミナーに電力会社、総合商社、最大手ITなど56名が参加予定。競合さんもお早めに",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/01/127_aiit56.html",
+              "source": "ITmediaブログ"
+            },
+            {
+              "id": 7,
+              "title": "【セミナー】GW級AIデータセンター時代の系統連系／発電／変電／蓄電／絶縁／非常用電源／所内給電／UPS／冷却／設計：2026年4月23日開催：経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/04/gwaiups.html",
+              "source": "ITmediaブログ"
+            },
+            {
+              "id": 8,
+              "title": "米国AIデータセンター業界で常識になりつつある「Power-First」戦略をビジネスパーソン向けに解説",
+              "url": "https://blogs.itmedia.co.jp/serial/2025/12/aipower-first.html",
+              "source": "ITmediaブログ"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "japan",
+          "title_highlights": [
+            "ギガワット",
+            "電力問題"
+          ],
+          "three_lines_highlights": [
+            "電力確保",
+            "原発増設",
+            "高圧接続"
+          ],
+          "id": "japan-3"
+        }
+      ],
+      "summary": "今日の「日本国内」分野では、国家情報局の創設を軸に、情報収集・経済安全保障・IT基盤整備が一体化した新たな統治モデルへの移行が意識されています。あわせて、AI開発の内部統制やソースコード管理の脆弱性、さらにAIデータセンターを支える電力・送電網の確保といった論点が浮上し、先端技術はもはやソフトウェア競争ではなく、国家レベルの制度・安全保障・インフラ競争として捉えられています。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "OpenAI、GPT-5.6とChatGPT Workを同時投入　Sol/Terra/Lunaで業務AIを再編",
+          "summary_ja": "OpenAIがGPT-5.6ファミリーを公開し、ChatGPT Workという業務向けAIエージェントも同時に投入した。Sol/Terra/Lunaの3モデルを使い分ける構成で、企業利用と開発者向けAPIの両面を強化する動きだ。",
+          "summary_en": "OpenAI has released the GPT-5.6 family and simultaneously launched ChatGPT Work, an enterprise-focused AI agent. With three variants—Sol, Terra, and Luna—the company is sharpening its push into workplace AI for users and developers alike.",
+          "three_lines": [
+            "OpenAIがGPT-5.6群を正式公開した。",
+            "ChatGPT Workで業務自動化を狙う。",
+            "Sol/Terra/Lunaで用途を分ける。"
+          ],
+          "body_ja": "OpenAIがGPT-5.6を公開し、同時に業務向けの新しいAIエージェント「ChatGPT Work」を打ち出した。今回の発表は、単なる新モデルの追加ではなく、仕事で使う前提の製品群をまとめて整え直す動きとして見ると分かりやすい。[1][2]\n\n今回のGPT-5.6は、Sol、Terra、Lunaという3つのバリエーションで展開される。Axiosは、Solに新しい「ultra」モードが含まれると報じており、同社が用途や推論強度の違いを細かく切り分けていることがうかがえる。[2] CNETも、これら3モデルがChatGPT、Codex、OpenAI APIで利用可能になったと伝えており、消費者向けUIと開発者向けAPIを同時に押し出す構図が明確だ。[3]\n\n注目は、ChatGPT Workが「ファイルをAIに任せる」方向の業務支援を前面に出している点だ。Forbesは、同エージェントが職場タスクの自動化を目的に設計されたと説明している。[1] これまでのチャット中心の利用から一歩進み、資料作成やファイル操作といった日常業務の実務層に食い込もうとしていることが分かる。[1][3]\n\n一方で、公開タイミングには規制面の事情も絡んでいた。The Vergeは、GPT-5.6が当初は政府承認組織向けの限定公開だったが、その後に公開承認を得たと報じた。[8] Axiosも、米政府の要請により段階的に展開していたモデルを広く提供すると伝えており、最先端モデルの展開が安全性・規制対応と切り離せない状況を示している。[2]\n\n競争環境も厳しい。Forbesは、OpenAIが企業AIへの攻勢を強める中で今回の投入を行ったとし、別のForbes記事では、SolがAnthropicのClaude Fable 5にかなり近い性能を示しつつ、コストは3分の1程度だと紹介している。[1][4] つまりOpenAIは、性能競争だけでなく価格競争でも主導権を取りに来ている。\n\nただし、選択肢が増えたことで利用者側の迷いも増している。Axiosは、GPT-5.6の新しい名前、推論レベル、課金体系が一気に増え、どの組み合わせが自分の仕事と予算に合うのか見極めが難しくなっていると指摘した。[5] これは、生成AIが「どれを使っても同じ」段階を超え、用途別に選ぶ時代へ入ったことの裏返しでもある。\n\n今回の発表を一言でまとめるなら、OpenAIはGPT-5.6を“単体モデル”ではなく、“業務OSの中核”として再定義した、ということだ。モデルの性能、エージェント機能、API公開、そして規制対応までを同時に動かし、企業向け生成AIの主戦場をさらに前に進めた。[1][2][3][8]",
+          "references": [
+            {
+              "id": 1,
+              "title": "OpenAI Launches GPT-5.6 and ChatGPT Work AI Agent - Forbes",
+              "url": "https://www.forbes.com/sites/madhulika-pathak/2026/07/09/openai-debuts-chatgpt-work-workplace-ai-agent-with-gpt-56/",
+              "source": "Forbes"
+            },
+            {
+              "id": 2,
+              "title": "OpenAI releases GPT-5.6 and ChatGPT Work tool - Axios",
+              "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release",
+              "source": "Axios"
+            },
+            {
+              "id": 3,
+              "title": "OpenAI's Powerful New ChatGPT-5.6 Is Ready for You - CNET",
+              "url": "https://www.cnet.com/tech/services-and-software/openais-powerful-new-chatgpt-5-6-is-ready-for-you/",
+              "source": "CNET"
+            },
+            {
+              "id": 4,
+              "title": "OpenAI’s GPT-5.6 Lands With Work Agents And A Desktop Pivot - Forbes",
+              "url": "https://www.forbes.com/sites/anishasircar/2026/07/10/openais-gpt-56-lands-with-work-agents-and-a-desktop-pivot/",
+              "source": "Forbes"
+            },
+            {
+              "id": 5,
+              "title": "ChatGPT's paradox of choice - Axios",
+              "url": "https://www.axios.com/2026/07/12/openai-chatgpt-work-luna-terra-sol",
+              "source": "Axios"
+            },
+            {
+              "id": 6,
+              "title": "OpenAI to publicly release GPT-5.6, rolls out conversational AI models - CNBC",
+              "url": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 7,
+              "title": "Axios C-Suite: 4 big AI moves - Axios",
+              "url": "https://www.axios.com/2026/07/13/ai-voice-agents-chatgpt",
+              "source": "Axios"
+            },
+            {
+              "id": 8,
+              "title": "OpenAI rolls out GPT-5.6 after government green light — and announces ‘ChatGPT Work’ - The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+              "source": "The Verge"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "models",
+          "title_highlights": [
+            "GPT-5.6",
+            "ChatGPT Work",
+            "Sol/Terra/Luna"
+          ],
+          "three_lines_highlights": [
+            "GPT-5.6",
+            "ChatGPT Work",
+            "Sol/Terra/Luna"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "OpenAI、GPT-5.6を段階解禁　米政府の安全審査が示した「フロンティアAI」統治の新常態",
+          "summary_ja": "OpenAIが最新のGPT-5.6を公開したが、背景には米政府によるサイバーリスク審査と、段階的な解禁という異例の手順があった。報道によれば、商務省の追加テスト後に広範な展開が認められ、企業向けの新機能も同時に打ち出された。",
+          "summary_en": "OpenAI released GPT-5.6 after a U.S. government cyber-risk review and staggered rollout. Reports say the Commerce Department approved broader deployment after additional testing, alongside new enterprise features.",
+          "three_lines": [
+            "米政府審査後にGPT-5.6が段階解禁された。",
+            "追加テストを経て広範展開の許可が出た。",
+            "企業向け新機能も同時に投入された。"
+          ],
+          "body_ja": "OpenAIの最新モデルGPT-5.6は、単なる新製品発表では終わらなかった。複数報道によると、同社は当初の公開を見送り、米政府が懸念したサイバー攻撃への悪用可能性を踏まえた追加テストと調整を経て、段階的な解禁に踏み切ったという [2][4][7][8]。この流れは、先端AIの公開が、性能だけでなく国家レベルの安全審査と表裏一体になりつつあることを示している。\n\n今回の焦点は、モデルそのものの能力向上だけではない。OpenAIはGPT-5.6を「3つの形態」で展開し、Sol内の“ultra”モードや新たなChatGPT Workといった用途別の機能を前面に出したと伝えられている [4][6]。特にChatGPT Workは、業務タスクの自動化を狙う企業向けエージェントとして位置づけられており、OpenAIがコンシューマー用途からエンタープライズ市場へ軸足を広げている構図が見える [6]。\n\n一方で、今回の公開プロセスが注目を集めた最大の理由は、その“遅れ方”にある。The GuardianやPoliticoは、OpenAIの公開がホワイトハウスやトランプ政権のサイバーセキュリティ上の懸念により遅れたと報じており、段階的なリリースは政権側の要請に沿ったものだったとされる [1][2]。Reutersも、商務省が追加テスト後に広範なローンチを承認したと伝えており、規制当局がフロンティアAIのリリースに直接関与する新しい運用が現実化している [7]。\n\nここで重要なのは、これはOpenAIだけの問題ではない点だ。The Guardianの報道では、同様の制限がAnthropicの最新AIモデルにも及んでいたとされ、しかも先月の措置では一時的な輸出禁止にまで発展したという [1]。つまり、米政府は単発の審査ではなく、主要AI企業に対して共通の安全基準を求め始めている可能性が高い。\n\nOpenAIにとってGPT-5.6の公開は、技術的な節目であると同時に、政策対応の試金石でもあった。サイバーリスクを理由に公開が止まり、追加審査を経て再開される――この一連の流れは、今後の生成AIモデルのリリースが、性能発表会ではなく“規制当局との共同設計”に近づいていくことを示唆している [2][7][8]。競合がひしめく生成AI市場では、能力競争に加えて、いかに安全性を説明し、審査を通すかが、製品戦略そのものになりつつある。",
+          "references": [
+            {
+              "id": 1,
+              "title": "OpenAI releases latest ChatGPT model after delay over White House cybersecurity concerns - The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/jul/09/trump-administration-openai-chatgpt-cybersecurity",
+              "source": "The Guardian"
+            },
+            {
+              "id": 2,
+              "title": "OpenAI to release its most powerful model after weekslong hold - Politico",
+              "url": "https://www.politico.com/news/2026/07/08/open-ai-models-release-sol-00989959",
+              "source": "Politico"
+            },
+            {
+              "id": 3,
+              "title": "Trump puts brakes on OpenAI’s newest AI model - Fox News",
+              "url": "https://www.foxnews.com/science/trump-puts-brakes-openais-newest-ai-model",
+              "source": "Fox News"
+            },
+            {
+              "id": 4,
+              "title": "OpenAI releases GPT-5.6 and ChatGPT Work tool - Axios",
+              "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release",
+              "source": "Axios"
+            },
+            {
+              "id": 5,
+              "title": "OpenAI to launch GPT-5.6 after US delays release over AI security concerns - Ynetnews",
+              "url": "https://www.ynetnews.com/business/article/hjguhiixml",
+              "source": "Ynetnews"
+            },
+            {
+              "id": 6,
+              "title": "OpenAI Launches GPT-5.6 and ChatGPT Work AI Agent - Forbes",
+              "url": "https://www.forbes.com/sites/madhulika-pathak/2026/07/09/openai-debuts-chatgpt-work-workplace-ai-agent-with-gpt-56/",
+              "source": "Forbes"
+            },
+            {
+              "id": 7,
+              "title": "OpenAI gets US approval for broad GPT-5.6 rollout, Axios reports - Reuters",
+              "url": "https://www.reuters.com/technology/openai-gets-us-approval-broad-gpt-56-rollout-axios-reports-2026-07-08/",
+              "source": "Reuters"
+            },
+            {
+              "id": 8,
+              "title": "OpenAI secures U.S. regulatory green light for GPT-5.6 rollout, Axios report says - CNBC",
+              "url": "https://www.cnbc.com/2026/07/08/openai-gets-us-regulatory-approval-for-gpt-5point6-rollout-axios-report.html",
+              "source": "CNBC"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "models",
+          "title_highlights": [
+            "GPT-5.6",
+            "米政府",
+            "サイバー審査"
+          ],
+          "three_lines_highlights": [
+            "GPT-5.6",
+            "追加テスト",
+            "企業向け"
+          ],
+          "id": "models-2"
+        }
+      ],
+      "summary": "OpenAIがGPT-5.6ファミリーと業務向けのChatGPT Workを同時投入し、企業利用と開発者向けAPIの両面で生成AIの実用化を一段と進めました。あわせて、米政府のサイバーリスク審査を経た段階的な解禁が行われており、フロンティアAIは「高性能化」と「安全統治」を両立しながら展開する流れが強まっています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "Big TechのAI投資、データセンター拡張で負債が3500億ドルに倍増",
+          "summary_ja": "AI需要を追い風に、Big Techと関連企業のデータセンター投資が加速し、AIインフラ向け負債は3500億ドル規模に膨らんだ。Amazonの大型起債や周辺事業者の資金調達も重なり、電力制約や金利負担、インフレ圧力まで含めた“AI建設ラッシュ”の持続性が問われている。",
+          "summary_en": "AI-driven data-center expansion has pushed Big Tech and related builders’ debt to roughly $350 billion. Amazon’s large bond plan and other financing moves show the spending spree is still accelerating, while energy constraints, interest costs, and inflation risks raise questions about how long the buildout can continue.",
+          "three_lines": [
+            "AI向け投資で負債が3500億ドルに膨張",
+            "Amazonが25億ドル超の起債を計画",
+            "電力制約と採算不安が拡張を圧迫"
+          ],
+          "body_ja": "AI向けデータセンターの建設ラッシュが、クラウド業界の財務構造を大きく変えつつあります。Bloombergによると、巨大IT企業やAIデータセンターの主要建設主体が抱える負債は、この3年間で倍増し、3500億ドルに達しました[1]。TechCrunchも、かつてSequoiaのDavid Cahnが試算した“AIインフラの巨額コスト”を起点に、データセンターの運用費や関連事業の利益率まで含めた負担の大きさを改めて問題提起しています[2]。\n\nこの流れを最も象徴しているのがAmazonです。Bloombergは、AmazonがAIインフラ資金を確保するため、少なくとも250億ドル規模の米ドル建て債券発行を計画していると伝えました[4]。つまり、クラウド各社のAI競争は単なる設備投資ではなく、巨大な調達市場を伴う長期戦に入っています。Reutersが伝えるように、こうしたデータセンター需要を背景に、各国・各地域も誘致競争を強めており、供給側の拡張余地は広がる一方で、資金調達と立地確保の両面で競争が激化しています[5]。\n\nただし、資金が集まるほどリスクも見えやすくなります。Business Insiderは、Morgan Stanleyの固定収益運用責任者がBig TechのAI向け債務拡大に「問題の兆し」を指摘していると報じました[6]。CNBCでも、AIデータセンターの建設が“mission critical”と見なされる一方、最大のボトルネックはエネルギーだという見方が示されています[3]。Los Angeles Timesは、今年のデータセンター投資が7000億ドルを超える可能性に触れ、GPUやプロセッサー、電力コストの上昇が消費者価格にも波及しうると指摘しました[7]。\n\nクラウドの文脈で見ると、AWS、Azure、GCPの勝負はもはやAIモデルの性能競争だけではありません。学習・推論を支える計算資源、電力、土地、そしてそれを賄う資金調達力まで含めた総力戦です。今回の一連の報道が示すのは、AIクラウドの拡大が売上成長の物語であると同時に、負債とエネルギー制約を抱えたインフラ産業へと変質しつつあるという現実です[1][3][4][6][7]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Big Tech Doubles Debt Load to $350 Billion in AI Spending Spree",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-10/big-tech-doubles-debt-load-to-350-billion-in-ai-spending-spree",
+              "source": "Bloomberg.com"
+            },
+            {
+              "id": 2,
+              "title": "Can AI answer the $3 trillion question?",
+              "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 3,
+              "title": "Dynamix Corp CEO: Biggest bottleneck to AI's 'unprecedented' growth is energy",
+              "url": "https://www.cnbc.com/video/2026/07/08/the-biggest-bottleneck-to-unprecedented-ai-growth-in-energy--dynamix-corp-ceo.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "Amazon Fuels AI Debt Boom With Bond Sale of at Least $25 Billion",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-07/amazon-returns-to-us-bond-market-to-fund-ai-infrastructure-build",
+              "source": "Bloomberg.com"
+            },
+            {
+              "id": 5,
+              "title": "Big Tech joins Calgary Stampede oil bash, as Canada courts data centers",
+              "url": "https://www.reuters.com/business/big-tech-joins-calgary-stampede-oil-bash-canada-courts-data-centers-2026-07-08/",
+              "source": "Reuters"
+            },
+            {
+              "id": 6,
+              "title": "A top Morgan Stanley bond manager flags problems brewing in Big Tech's AI debt binge",
+              "url": "https://www.businessinsider.com/ai-debt-big-tech-capex-spending-bonds-morgan-stanley-2026-7",
+              "source": "Business Insider"
+            },
+            {
+              "id": 7,
+              "title": "Massive AI buildout poses latest inflation threat as consumers pay more for laptops and electricity",
+              "url": "https://www.latimes.com/business/story/2026-07-13/massive-ai-buildout-poses-latest-inflation-threat-as-consumers-pay-more-for-laptops-electricity",
+              "source": "Los Angeles Times"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "cloud",
+          "title_highlights": [
+            "3500億ドル",
+            "AI投資"
+          ],
+          "three_lines_highlights": [
+            "3500億ドル",
+            "25億ドル",
+            "電力制約"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "AIゲートウェイの“制御層”が招く新たなクラウド防御リスク",
+          "summary_ja": "AIゲートウェイが、モデル呼び出しの中継点にとどまらず、ID・権限・アクセス制御を集約する“制御層”になりつつある。その結果、侵入者にとってはクラウド全体へ広がる足がかりになりうる、という警鐘が複数の報道で浮かび上がった。",
+          "summary_en": "AI gateways are evolving from simple model intermediaries into centralized control layers for identities, permissions, and model access. That makes them a potentially high-value target and a new cloud security risk, as multiple reports on recent intrusions highlight.",
+          "three_lines": [
+            "AIゲートウェイが侵入口の要所になった",
+            "Bedrock連携事例で制御層の弱点が見えた",
+            "攻撃者は権限横展開で被害を広げうる"
+          ],
+          "body_ja": "AI導入が進むにつれ、注目を集めているのが「AIゲートウェイ」です。これは単なるモデルの中継装置ではなく、AI利用の入口としてID、権限、モデルアクセスを束ねる“制御層”として機能し始めています。今回の事例では、Amazon Bedrockと連携するAIゲートウェイが攻撃の起点になったとされ、クラウド防御の見直しを迫る材料になりました[1][2]。\n\n報道が示すのは、攻撃そのものは従来型のクラウド侵入の延長線上にあっても、最後に狙われる“入口”がAIゲートウェイへ移っている点です。侵入後に仮想通貨の採掘マルウェアが展開されたことからも、攻撃者がまず認証情報や権限を奪い、その先のクラウド資源へ横展開する流れが読み取れます[1][2]。\n\n背景には、AIゲートウェイが「誰が、どのモデルに、どこまでアクセスできるか」をまとめて扱う設計があります。便利な反面、そこを押さえられると、単一サービスの侵害にとどまらず、組織のAI利用全体に影響が及ぶ可能性があるためです。複数ソースが共通して強調するのは、AIゲートウェイが“モデルへの門番”から“クラウド全体の制御点”へ変わりつつある、という認識です[1][2]。\n\n同時に、AIを使った攻撃自体の高速化も無視できません。別の報道では、AIを活用した単独攻撃者が、クラウド環境への侵入を72時間で進めた事例や、エージェント型AIが偵察から暗号化、脅迫文生成までを自動化する流れが報じられました[3][4][6]。つまり防御側は、AIゲートウェイの設定不備だけでなく、AIで加速する攻撃のスピードにも備える必要があります。\n\n企業側の示唆は明確です。AIゲートウェイは利便性のために集約された“制御層”である一方、その集約性ゆえに一点突破の価値が高い。したがって、認証、権限、監査ログ、第三者リスクを分離して設計し直し、AI接続点を通常のAPIより厳しく扱うことが、クラウド防御の新しい前提になりつつあります[1][7][5]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Attack on Amazon Bedrock-linked AI gateway highlights new cloud security risk - csoonline.com",
+              "url": "https://www.csoonline.com/article/4194984/attack-on-amazon-bedrock-linked-ai-gateway-highlights-new-cloud-security-risk.html",
+              "source": "CSO Online"
+            },
+            {
+              "id": 2,
+              "title": "AI Gateways Offer Attackers the Keys to the Kingdom - Dark Reading",
+              "url": "https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom",
+              "source": "Dark Reading"
+            },
+            {
+              "id": 3,
+              "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours - Dark Reading",
+              "url": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
+              "source": "Dark Reading"
+            },
+            {
+              "id": 4,
+              "title": "AI Ransomware Is Here, Now Powered By Cheaper, Agentic Models - Forbes",
+              "url": "https://www.forbes.com/sites/ronschmelzer/2026/07/10/ai-ransomware-is-here-now-powered-by-cheaper-agentic-models/",
+              "source": "Forbes"
+            },
+            {
+              "id": 5,
+              "title": "AI coding tool hole illustrates a big problem with human in the loop - csoonline.com",
+              "url": "https://www.csoonline.com/article/4195235/ai-coding-tool-hole-illustrates-a-big-problem-with-human-in-the-loop.html",
+              "source": "CSO Online"
+            },
+            {
+              "id": 6,
+              "title": "Threat Actors Uses Agentic AI to Rapidly Compromise Cloud Target - Infosecurity Magazine",
+              "url": "https://www.infosecurity-magazine.com/news/threat-actor-agentic-ai-cloud/",
+              "source": "Infosecurity Magazine"
+            },
+            {
+              "id": 7,
+              "title": "Toll Group puts third-party risk at centre of AI-era data security - iTnews",
+              "url": "https://www.itnews.com.au/news/toll-group-puts-third-party-risk-at-centre-of-ai-era-data-security-627275",
+              "source": "iTnews"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "cloud",
+          "title_highlights": [
+            "AI",
+            "Bedrock"
+          ],
+          "three_lines_highlights": [
+            "AIゲートウェイ",
+            "Bedrock",
+            "72時間"
+          ],
+          "id": "cloud-2"
+        },
+        {
+          "title": "AI支出の主導権はCTOだけでなくCFOへ　導入コストと投資回収がクラウド戦略の焦点に",
+          "summary_ja": "AI導入は技術選定だけでなく、費用対効果と資本配分を握るCFOの判断がより重要になっている。大規模なデータセンター投資と計算資源の高騰を背景に、企業は「何を作るか」より「いくらで、どれだけ回収できるか」を軸にクラウドとAIの戦略を見直し始めた。",
+          "summary_en": "AI adoption is increasingly becoming a CFO-level decision, not just a CTO-level one. As compute, data-center, and deployment costs rise, companies are rethinking cloud AI strategies around return on investment, control, and cheaper systems.",
+          "three_lines": [
+            "AI導入はCFOの判断比重が高まった。",
+            "企業は計算資源のコストを厳しく見る。",
+            "AI競争は低コスト運用へ移る。"
+          ],
+          "body_ja": "AI投資の主導権が、技術部門だけの話ではなくなってきた。JPモルガン側の見方として、AIの採用は「CFOの決定でもある」とされ、企業は導入の可能性だけでなく、そのコストと見返りを同時に精査している[1]。つまり、クラウド上でAIをどう展開するかは、性能競争よりも予算管理と回収計画の問題へ移りつつある。\n\nこの流れを後押ししているのが、AI競争のルール自体の変化だ。CNBCの別の報道では、競争の焦点は大規模モデルの誇示から「cost, control, and compute」へ移っており、PerplexityのCEOはタスクごとにどのモデルを使うかを選ぶ“システム”こそが実質的な製品だと語っている[2][3]。これは、クラウド利用者が単一の巨大モデルを持ち込むのではなく、用途に応じてモデルを切り替え、処理単価を下げる設計へ寄っていることを示す。\n\nコスト圧力は、机上の議論ではない。データセンターへの投資が今年7000億ドルを超える可能性があるとされ、関連するメモリやプロセッサー、電力の負担が広がっている[4]。AIの普及が進むほど、クラウド事業者にとっても電力・設備・計算資源のコスト管理は重要になり、ユーザー企業側もその値上がりを前提に投資判断を迫られる。\n\nその結果、AIインフラは“外部クラウドを使うか、自前で持つか”の二項対立ではなくなっている。JPモルガンがSambaNovaをAI推論のインフラパートナーとして選び、オンプレミスで推論能力を確保しようとしている事例は、性能だけでなく制御性や費用の見通しを重視する動きを象徴する[5]。また、PerplexityがNvidiaの新CPU利用を計画していると報じられたことも、次世代AI基盤でCPUや推論効率の選別が一段と重要になることを示している[6]。\n\nクラウド戦略の文脈で見ると、AWS、Azure、GCPを選ぶ基準は、単なる機能比較では終わらない。企業はAIワークロードごとの単価、制御のしやすさ、推論の効率、そして投資回収期間を見ながら、最適な配置を探る必要がある。今後は「どのクラウドが最も賢いAI機能を持つか」以上に、「どのクラウドが最も安く、安定して、予算内で回せるか」が競争軸になっていくだろう[1][2][3][4][5][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "AI deployment is now as much of a CFO decision as a CTO one: JP Morgan - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/08/jitters-about-ai-led-borrowing-while-the-direction-of-travel-is-a-concern-the-magnitude-of-borrowing-is-not-high-relative-to.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 2,
+              "title": "AI’s Next Race: Cost, Control, and Compute - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/10/ais-next-race-cost-control-and-compute.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 3,
+              "title": "The AI race is shifting from bigger models to cheaper, smarter systems - CNBC",
+              "url": "https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "Massive AI buildout poses latest inflation threat as consumers pay more for laptops and electricity - Los Angeles Times",
+              "url": "https://www.latimes.com/business/story/2026-07-13/massive-ai-buildout-poses-latest-inflation-threat-as-consumers-pay-more-for-laptops-electricity",
+              "source": "Los Angeles Times"
+            },
+            {
+              "id": 5,
+              "title": "JP Morgan taps SambaNova as AI inference infrastructure partner - FinTech Futures",
+              "url": "https://www.fintechfutures.com/ai-in-fintech/jp-morgan-chase-partners-sambanova",
+              "source": "FinTech Futures"
+            },
+            {
+              "id": 6,
+              "title": "Perplexity says it plans to use Nvidia's new CPU - Reuters",
+              "url": "https://www.reuters.com/business/perplexity-says-it-plans-use-nvidias-new-cpu-2026-07-07/",
+              "source": "Reuters"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "cloud",
+          "title_highlights": [
+            "CFO",
+            "ROI"
+          ],
+          "three_lines_highlights": [
+            "CFO",
+            "compute",
+            "cost"
+          ],
+          "id": "cloud-3"
+        }
+      ],
+      "summary": "AI投資は、モデル開発そのものよりもデータセンターや電力を含む「基盤インフラ」の拡張競争へ軸足が移っており、Big Tech主導で巨額の資金調達と負債増加が進む一方、持続可能性への懸念も強まっています。あわせて、AIゲートウェイがクラウド全体の制御層として重要性を増すことで、新たな防御リスクが浮上し、セキュリティ設計の見直しが迫られています。さらに意思決定の中心はCTOだけでなくCFOにも広がり、AI/クラウド戦略は技術選定から投資回収と資本効率を重視する段階へ移っています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Anthropic、Claude Coworkをモバイル/Webへ拡張　“閉じても動く”クラウド常駐で業務エージェント化を前進",
+          "summary_ja": "AnthropicがClaude CoworkをWeb、iOS、Androidへ広げ、クラウド実行で端末を閉じても作業を継続できるようにした。開発者向けのClaude Code型エージェントが、個人のPC内ツールから複数デバイスで使える業務エージェントへと進化しつつある。",
+          "summary_en": "Anthropic is expanding Claude Cowork to web, iOS, and Android, with cloud execution that lets tasks continue even when the device is closed. The move pushes Claude-style agents closer to always-on work assistants usable across multiple devices.",
+          "three_lines": [
+            "Claude CoworkがWebとモバイルへ広がった。",
+            "クラウド常駐で端末を閉じても動き続ける。",
+            "Max向けベータで業務エージェント化を進める。"
+          ],
+          "body_ja": "Anthropicは7月7日、Claude CoworkをWeb、iOS、Androidへ展開すると発表した。まずはMaxユーザー向けに、今後数週間かけてベータ提供を広げるという。[1][2] これまでデスクトップ中心だったClaude Coworkが、スマホやブラウザからも扱えるようになることで、利用の起点がPCに縛られなくなる。[2][3]\n\n注目すべきは、単なる対応端末の拡大ではない点だ。The Vergeによれば、Claude Coworkはクラウド上でも動作し、ノートPCを閉じてもタスクを継続できる。[4] NBC Newsも、同機能が複数デバイスからアクセスでき、端末がオフラインでも作業を実行できるようになると伝えている。[5] つまり、ユーザーが画面の前にいない時間も、エージェントが仕事を進める“非同期型”の使い方が前面に出てきた。\n\n製品の性格としても、Claude Coworkは開発者向けのClaude Codeに近い「エージェント型」の一般業務版と位置づけられている。[2] MacRumorsは、ローカルファイルや接続済みツールにアクセスし、利用者の代わりにタスクを自律実行する機能として説明している。[3] これがモバイルとWeb、さらにクラウド常駐と組み合わさることで、チャットUIの延長ではなく、継続実行できる業務オペレーターに近づく。\n\nAI開発ツールの文脈では、この一手は競争軸の変化を示す。TechCrunchは、Claude Coworkを「Claude Code-style agent for general knowledge work」と表現し、コーディング支援の枠をオフィス業務全般へ広げる流れだと報じた。[2] いま開発者ツールやagentフレームワークに求められているのは、単発の生成精度だけではない。どこからでも呼び出せて、裏で走り続け、必要なときに成果を返す“常時稼働型”の設計である。Claude Coworkのモバイル/Web展開は、その方向性をAnthropicが明確に打ち出した動きといえる。[1][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic Brings Claude Cowork to Mobile and Web - Let's Data Science",
+              "url": "https://letsdatascience.com/news/anthropic-brings-claude-cowork-to-mobile-and-web-3d792cba",
+              "source": "Let's Data Science"
+            },
+            {
+              "id": 2,
+              "title": "Claude Cowork expands to mobile and web - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 3,
+              "title": "Claude Cowork Expands to iPhone and the Web - MacRumors",
+              "url": "https://www.macrumors.com/2026/07/07/claude-cowork-mobile-web/",
+              "source": "MacRumors"
+            },
+            {
+              "id": 4,
+              "title": "Anthropic is launching Claude Cowork on mobile and web - The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web",
+              "source": "The Verge"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic will make Claude Cowork available to users via the cloud - NBC News",
+              "url": "https://www.nbcnews.com/tech/tech-news/anthropic-will-make-claude-cowork-available-users-cloud-rcna353218",
+              "source": "NBC News"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Cowork",
+            "クラウド常駐"
+          ],
+          "three_lines_highlights": [
+            "Claude Cowork",
+            "Web/モバイル",
+            "Maxベータ"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "AIコーディング支援の承認フローに共通欠陥、GhostApprovalが6製品に影響",
+          "summary_ja": "Wizが公開したGhostApprovalは、開発者ツールの「人間による承認」を逆手に取り、AIコーディング支援の承認画面を事実上の通過儀礼に変えてしまう脆弱性だ。複数の主要アシスタントにまたがる共通パターンとして見つかり、AI開発ツールの安全設計に改めて警鐘を鳴らしている。",
+          "summary_en": "Wiz disclosed GhostApproval, a vulnerability pattern that exploits human approval steps in AI coding tools and affects six products. The issue highlights a broader security weakness in developer assistants and agentic workflows.",
+          "three_lines": [
+            "GhostApprovalが承認手順をすり抜ける",
+            "6製品に共通の欠陥が見つかった",
+            "人間の確認頼み設計に警鐘が鳴る"
+          ],
+          "body_ja": "AIコーディング支援ツールの安全性で、見落とされがちな弱点が浮かび上がった。セキュリティ企業Wizによると、GhostApprovalと名付けられた問題は、ツールが人間の承認を得たように見せかけることで、開発者マシン上の保護された領域から抜け出す手口につながるという。[1][3]\n\n報道によれば、この問題は単発のバグではなく、複数製品にまたがる「体系的な脆弱性パターン」として説明されている。Infosecurity Magazineは、6つの主要なAIコーディング支援が影響を受け、承認プロンプトが実質的に形骸化することで、悪意あるリポジトリがユーザーの判断をすり抜けうると伝えた。[2]\n\nSecurityWeekは、攻撃手法そのものは「何十年も前から知られている」古典的な技法の応用だと指摘している。つまり、新しい攻撃ベクトルというより、AIエージェント時代のUIや承認フローに、昔ながらの誘導・だましの手口が再装着された格好だ。[3]\n\n今回の件が厄介なのは、AI開発ツールの多くが「人間が最終確認するから安全」という前提で作られていることだ。だが、その確認画面自体が攻撃者に操作されるなら、ヒューマン・イン・ザ・ループは防波堤ではなく、逆に突破口になってしまう。CSOは、まさにこの点を「人間のループを誤誘導する」問題として要約している。[1]\n\n足元では、AnthropicがClaude Code向けにサンドボックス付きブラウザを組み込むなど、AI開発体験はよりエージェント的で、より自律的な方向に進んでいる。[5] その一方で、Perplexityの内部AIコーディング支援「Teammate」のように、長期的な開発作業まで肩代わりする構想も出てきた。[4] こうした流れの中では、承認フローの信頼性はこれまで以上に重要になる。\n\n今回のGhostApprovalは、Claude Code、Cursor、GitHub Copilot、LangChain系のような開発者向けAI支援をめぐって、機能の高度化だけでは安全は担保できないことを示した。企業や開発者は、AIに任せる範囲を広げるほど、承認ステップの設計そのものを見直す必要がある。[1][2][3]",
+          "references": [
+            {
+              "id": 1,
+              "title": "AI coding tool hole illustrates a big problem with human in the loop",
+              "url": "https://www.csoonline.com/article/4195235/ai-coding-tool-hole-illustrates-a-big-problem-with-human-in-the-loop.html",
+              "source": "CSO Online"
+            },
+            {
+              "id": 2,
+              "title": "GhostApproval Flaw Hits Six Major AI Coding Assistants",
+              "url": "https://www.infosecurity-magazine.com/news/ghostapproval-flaw-ai-coding/",
+              "source": "Infosecurity Magazine"
+            },
+            {
+              "id": 3,
+              "title": "AI Coding Tools Tricked Into Hacking Developer Machine via Decades-Old Technique",
+              "url": "https://www.securityweek.com/ai-coding-tools-tricked-into-hacking-developer-machine-via-decades-old-technique/",
+              "source": "SecurityWeek"
+            },
+            {
+              "id": 4,
+              "title": "Perplexity Develops 'Teammate' AI Coding Assistant",
+              "url": "https://letsdatascience.com/news/perplexity-develops-teammate-ai-coding-assistant-e5c5164f",
+              "source": "Let's Data Science"
+            },
+            {
+              "id": 5,
+              "title": "Advertisers Cannot Ignore The Disappearing AI Browser 07/13/2026",
+              "url": "https://www.mediapost.com/publications/article/416470/",
+              "source": "MediaPost"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "devtools",
+          "title_highlights": [
+            "GhostApproval",
+            "6製品"
+          ],
+          "three_lines_highlights": [
+            "GhostApproval",
+            "6製品",
+            "承認フロー"
+          ],
+          "id": "devtools-2"
+        },
+        {
+          "title": "中国当局がClaude Codeに“バックドア”警告、開発者向けAIツールの安全性が再び焦点に",
+          "summary_ja": "中国の業界当局がAnthropicのコード生成ツール「Claude Code」に対し、深刻な“セキュリティ・バックドア”の懸念を示しました。開発者向けAIツールは生産性向上の一方で、脆弱性や供給網リスクをどう抑えるかが改めて問われています。",
+          "summary_en": "Chinese authorities have flagged Anthropic’s Claude Code for an alleged security backdoor, renewing scrutiny over the safety of developer-facing AI tools. The episode highlights how productivity gains from coding assistants now come with sharper concerns about vulnerabilities and supply-chain risk.",
+          "three_lines": [
+            "中国当局がClaude Codeの危険性を警告した。",
+            "開発者向けAIツールの安全性が再び争点化した。",
+            "競争が進むほど検証と監査の重要性が増した。"
+          ],
+          "body_ja": "中国の業界当局が、Anthropicの開発者向けAIツール「Claude Code」について、セキュリティ上の“バックドア”を含むとする警告を出しました。[1][2] 抜粋ベースでは、当局側は同ツールに「security back-door vulnerability」があるとし、重大な脅威になりうると位置づけています。[1][3]\n\nこの件が注目を集めるのは、Claude Codeが単なるチャットAIではなく、実際のソフトウェア開発作業に入り込むコード生成・編集系ツールだからです。[1][3] こうしたツールは、ソースコードの作成や修正を高速化する一方で、もし不正な挙動や脆弱性があれば、利用企業の開発環境やリポジトリに直接影響しうるため、リスクの見え方が一般向けAIとは少し違います。[2][3]\n\nReutersの抜粋では、今回の警告は中国の工業情報化省系のサイバー脅威プラットフォームによるもので、7月8日に公表されたことが示されています。[2] CBS Newsも、同省系の規制当局がClaude Codeの一部バージョンに「security backdoor」が埋め込まれていると警告したと伝えました。[3] 一方、CNBCの抜粋は、Anthropicが先月、中国企業Alibabaによる攻撃的な動きを非難していたとも触れており、米中のAI競争が安全保障とセットで語られる状況が続いています。[1]\n\n市場や事業への波及も無視できません。Crypto Briefingの抜粋は、この警告がClaude Codeを利用する企業の信頼や市場心理に影響しうると指摘しています。[4] 開発者向けAIは、導入が広がるほど“便利だから使う”段階を越え、どの入力が学習・保存されるのか、どの権限でコードに触れるのか、どこまで自動実行を許すのかといった統制が重要になります。[4]\n\n今回のニュースは、Claude Code固有の話に見えて、CursorやGitHub Copilot、LangChainのような開発支援ツール全般にも通じる論点を投げかけています。つまり、生成精度だけでなく、権限管理、監査可能性、サプライチェーン上の信頼性が製品評価の中心になりつつあるということです。[2][3] AIコーディング支援は今後も普及が進む見通しですが、その普及を支えるのは機能の派手さではなく、企業が安心して組み込める安全設計だと言えます。[1][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "China warns about AI risks with Anthropic's Claude Code - CNBC",
+              "url": "https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 2,
+              "title": "China issues 'backdoor' security alert over Anthropic's Claude Code - Reuters",
+              "url": "https://www.reuters.com/legal/litigation/china-issues-backdoor-security-alert-over-anthropics-claude-code-2026-07-08/",
+              "source": "Reuters"
+            },
+            {
+              "id": 3,
+              "title": "China warns of \"security backdoor\" in Anthropic AI coding tool - CBS News",
+              "url": "https://www.cbsnews.com/news/china-security-backdoor-anthropic-ai-coding-tool/",
+              "source": "CBS News"
+            },
+            {
+              "id": 4,
+              "title": "China warns of security risks in Anthropic’s AI tool, impacting market confidence - Crypto Briefing",
+              "url": "https://cryptobriefing.com/china-warns-of-security-risks-in-anthropics-ai-tool-impacting-market-confidence/",
+              "source": "Crypto Briefing"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "backdoor"
+          ],
+          "three_lines_highlights": [
+            "Claude Code",
+            "安全性",
+            "開発者向けAI"
+          ],
+          "id": "devtools-3"
+        }
+      ],
+      "summary": "AI開発ツールは、単なるコード補助から、Web/モバイルでも動くクラウド常駐型の業務エージェントへと進化し、利用シーンが個人PC内から複数デバイス前提へ広がっている。一方で、その高度化に伴い承認フローを悪用する共通脆弱性や、バックドア懸念のような安全性・供給網リスクが改めて顕在化しており、利便性の拡大とガバナンス強化が同時に求められる流れが鮮明だ。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "欧州のAI推進は前進、だが成熟度の地域差と北米との距離はなお残る",
+          "summary_ja": "欧州企業のAI活用は着実に進み、アジアを上回る一方で、北米との差はまだ埋まり切っていない。Accentureの最新調査では、AI導入の進展が見える地域ほど、ガバナンス、人材、実装の成熟度にばらつきが残る実態が示された。周辺では、金融や非営利分野でもAI人材育成や実装拡大が進む一方、リスク管理や組織準備は追いついていない。",
+          "summary_en": "European companies are making progress in AI readiness and staying ahead of Asia, but they still lag North America. Recent findings point to uneven maturity across regions, with adoption outpacing governance, workforce readiness, and risk management.",
+          "three_lines": [
+            "欧州のAI準備度は上がるが差は残る。",
+            "金融や団体でも実装拡大が進み始めた。",
+            "人材育成と統治整備が次の焦点になる。"
+          ],
+          "body_ja": "欧州のAI活用は、もはや「試す段階」を越えつつある。Consultancy.euが伝えたAccentureの最新AI Progress Barometerによると、欧州企業のAI readinessは改善しており、アジア企業を上回る水準にある。ただし、世界の先頭を走る北米とのギャップはなお残るという。[1]\n\n重要なのは、今回の論点が単純な導入率の話ではないことだ。欧州ではAI導入そのものは前進している一方、地域や企業規模によって成熟度にばらつきがある。つまり、ツールを入れることはできても、それを業務設計、データ基盤、人材育成、ガバナンスまで含めて組織に埋め込めるかどうかで差が広がっている。[1]\n\nこの「実装の深さ」は、欧州の企業戦略を考えるうえで見逃せない。AIが実験や個別プロジェクトの段階にとどまる企業と、全社展開へ進める企業の間では、競争力の差が今後さらに開きやすい。Accentureの調査が示すのは、欧州が遅れているというより、前進はしているが成熟の速度が均一ではないという現実だ。[1]\n\n同じ“AI推進”でも、現場では人材と組織の準備状況がボトルネックになりやすい。別ソースでは、中東の文脈だが、AccentureはAIプラットフォームの導入よりも「人間側の再設計」が次の競争力だとする考え方を示しており、AI時代の勝負がデジタル投資だけでは決まらないことを示唆している。[2]\n\n実際、AIの導入が進むほど、運用を支える人材育成は重要になる。アラブ首長国連邦ではNational Bank of FujairahがAccenture LearnVantageと連携し、AI対応の人材を育てる企業横断の取り組みを進めている。こうした動きは、単に技術を買うだけでは不十分で、現場のスキル刷新が欠かせないことを物語る。[3]\n\n一方で、導入スピードに対して統治やリスク管理が追いついていない例もある。Deloitteの調査を紹介したFinTech Magazineでは、金融機関の74%が自律型AIエージェントの導入を計画する一方で、成熟したリスク管理フレームワークを持つのは21%にとどまると報じた。AIの商用化が進むほど、欧州でも同様の「先行する実装、遅れる統制」という構図は無視できない。[4]\n\n北米との差をどう見るかも、今回のポイントだ。欧州企業はアジアより前に出ているが、依然としてグローバルリーダーである北米を追う立場にある。[1] これは、投資額や技術力だけでなく、企業の意思決定の速さ、データ活用の深さ、そしてAIを全社改革に結びつける実行力の差とも読める。\n\nまた、欧州のAI競争を支える外縁では、業界横断で「AI-ready」な人材を作る動きが広がっている。英国のチャリティー部門ではAI利用率が79%に達した一方、支援者や資金提供者に迅速な対応が求められているとされ、AIが一部の先進企業だけのものではなくなっていることが分かる。[5] こうした普及は市場の裾野を広げるが、同時に、導入済み組織と未整備組織の差も浮き彫りにする。\n\n総じて見ると、欧州のAIは「前進しているが、均質ではない」というのが現状だ。導入や活用の機運は確実に高まっているものの、北米との差を縮めるには、技術導入だけでなく、人材、ガバナンス、業務変革を束ねて進める必要がある。[1][3][4] 今後の焦点は、AIを入れた企業が増えることではなく、AIを使いこなす企業がどれだけ増えるかに移っていく。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Europe moves forward in AI race, but maturity is uneven and gaps remain - Consultancy.eu",
+              "url": "https://www.consultancy.eu/news/amp/14046/europe-moves-forward-in-ai-race-but-maturity-is-uneven-and-gaps-remain",
+              "source": "Consultancy.eu"
+            },
+            {
+              "id": 2,
+              "title": "Talent in the age of co-intelligence: Why the next competitive edge is human, not digital - Consultancy-me.com",
+              "url": "https://www.consultancy-me.com/news/amp/13842/talent-in-the-age-of-co-intelligence-why-the-next-competitive-edge-is-human-not-digital",
+              "source": "Consultancy-me.com"
+            },
+            {
+              "id": 3,
+              "title": "ZAWYA: National Bank of Fujairah collaborates with Accenture LearnVantage to advance an AI-ready workforce - TradingView",
+              "url": "https://www.tradingview.com/news/reuters.com,2026-07-08:newsml_Zaw9C4DrB:0-zawya-national-bank-of-fujairah-collaborates-with-accenture-learnvantage-to-advance-an-ai-ready-workforce/",
+              "source": "TradingView / Reuters.com"
+            },
+            {
+              "id": 4,
+              "title": "Deloitte: How Fintech Flips AI Pilots to Enterprise Scale - FinTech Magazine",
+              "url": "https://fintechmagazine.com/news/deloitte-how-fintech-flips-ai-pilots-to-enterprise-scale",
+              "source": "FinTech Magazine"
+            },
+            {
+              "id": 5,
+              "title": "Charity Digital Skills Report 2026: AI use hits 79% as funders urged to act fast - UK Fundraising",
+              "url": "https://fundraising.co.uk/2026/07/13/charity-digital-skills-report-2026-ai-use-hits-79-as-funders-urged-to-act-fast/",
+              "source": "UK Fundraising"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "global",
+          "title_highlights": [
+            "AI readiness",
+            "North America"
+          ],
+          "three_lines_highlights": [
+            "AI readiness",
+            "79%",
+            "risk management"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "欧州の産業AIに注目集まる、投資家は銀行・製造業の恩恵を見込む",
+          "summary_ja": "欧州株のAI物色は、巨大モデル開発よりも銀行や製造業など「実装で稼ぐ」領域に向かいつつある。J.P. Morgan Private BankやAmundiは、AI導入が企業のコスト判断そのものを変え、欧州の産業AIが米国並みの利益成長に近づく余地があるとみている。[1][2][4]",
+          "summary_en": "Investor attention in Europe’s AI trade is shifting from frontier model builders to banks and industrial companies that can monetize deployment. J.P. Morgan Private Bank and Amundi see industrial AI as a lever for earnings growth, while UBS and JP Morgan Asset Management argue the AI theme remains durable as markets broaden out and deployment becomes a CFO-level decision.[1][2][3][4]",
+          "three_lines": [
+            "欧州AI物色は銀行・製造業へ広がる",
+            "産業AIが利益成長を押し上げる余地",
+            "AI導入はCFO主導の投資判断になる"
+          ],
+          "body_ja": "欧州のAI関連投資では、巨大な基盤モデルや半導体だけでなく、銀行や製造業といった「実際に導入して効率を上げる企業」に視線が移っている。J.P. Morgan Private Bankは、欧州では銀行と産業株がAIトレードの恩恵を受けやすいとみており、米国や新興国に比べて相対的に慎重な姿勢を示しながらも、AIの波が欧州の実体経済に波及する可能性を示唆した[1]。Amundiも、欧州の産業AIに焦点を当てれば米国に近い利益成長率に迫れる可能性があるとしており、財政環境が厳しくても成長の起点は作れるとの見方だ[2]。\n\nこの見方の背景には、AIが単なる技術導入ではなく、投資対効果を厳しく問う経営課題になっていることがある。JP Morgan Asset ManagementのTai Hui氏は、AI導入は今やCTOだけでなくCFOの判断でもあると述べ、企業は導入コストとリターンを天秤にかけていると指摘した[4]。つまり、欧州で注目されているのは「AIを作る企業」よりも、「AIを使って生産性や収益性を改善できる企業」だ。銀行であれば業務効率化や顧客対応の自動化、製造業であれば設備運用や品質管理の高度化が、そのまま利益率の改善につながる期待がある[1][2][4]。\n\n一方で、AIトレード全体が失速しているわけではない。UBS Global Wealth Managementは、相場が広がりつつある中でもAIテーマはなお有効だとみている[3]。CNBCの別の報道では、投資家のAI嗜好の変化を受けて、恩恵を受けやすい銘柄を探る動きも続いている[5]。また、米銀大手では日常業務にデジタルアシスタントを取り込む動きが強まり、各社は人間の同僚や顧客との関係をどう設計するかを含めて導入競争を進めている[6]。欧州でも同様に、AIは研究開発の話題にとどまらず、金融と産業の現場で収益化の段階に入ったといえそうだ。\n\nただし、見通しは楽観一色ではない。今回の複数のコメントが示すのは、AIが広く普及するほど、利益を得る企業とそうでない企業の差が鮮明になるということだ。欧州では規制環境や投資余力の制約も無視できないが、それでも銀行や製造業のようにAIを業務改善へ落とし込める企業には、相対的な追い風が吹く可能性がある[1][2][4]。投資家にとっては、欧州AIの本命を「モデル開発」ではなく「産業実装」に置き直す局面が来ている。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Europe's banks and industrials to benefit most from AI trade: JPM Private Bank - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/10/europes-banks-industrials-to-benefit-from-ai-trade-jpm-private-bank.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 2,
+              "title": "Shifting focus to industrial AI can help Europe match U.S. earnings growth rate: Amundi - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/08/as-focus-shifts-europe-earnings-can-grow-as-quickly-as-the-us-amundi.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 3,
+              "title": "The markets are broadening out, but the AI trade still can do well: UBS GWM - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/07/markets-are-broadening-out-but-the-ai-trade-still-can-do-well-ubs.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "AI deployment is now as much of a CFO decision as a CTO one: JP Morgan - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/08/jitters-about-ai-led-borrowing-while-the-direction-of-travel-is-a-concern-the-magnitude-of-borrowing-is-not-high-relative-to.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 5,
+              "title": "Here are the Club stocks that can benefit from investors' AI appetite shift - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/11/here-are-the-club-stocks-that-can-benefit-from-investors-ai-appetite-shift.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 6,
+              "title": "Wall Street banks ramp up digital assistants in bid to win productivity race - KITCO",
+              "url": "https://www.kitco.com/news/off-the-wire/2026-07-13/wall-street-banks-ramp-digital-assistants-bid-win-productivity-race",
+              "source": "KITCO"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "global",
+          "title_highlights": [
+            "産業AI",
+            "銀行株",
+            "CFO"
+          ],
+          "three_lines_highlights": [
+            "銀行株",
+            "産業AI",
+            "CFO"
+          ],
+          "id": "global-2"
+        },
+        {
+          "title": "RAISE Summitで再燃するAI投資熱、焦点は独立系インフラとデータ主権",
+          "summary_ja": "パリで開かれたRAISE Summitは、企業向けAI導入とコード生成ツール、そして「neocloud」市場の拡大を映す場となった。マクロン仏大統領は欧州のAI主導権と、独立したAIインフラとデータ主権の重要性を訴えた。周辺では、製造業向けAI連携やGPUクラウド、AIインフラの資産化を示す動きも重なり、AI投資の関心はなお強い。[1][2][4][6][8]",
+          "summary_en": "At RAISE Summit in Paris, AI investment enthusiasm continued, with enterprise adoption, coding tools, and neocloud infrastructure in focus. Macron emphasized Europe’s need for independent AI infrastructure and data sovereignty, while adjacent deals and launches underscored growing demand for AI cloud and infrastructure assets.[1][2][4][6][8]",
+          "three_lines": [
+            "パリのRAISEでAI投資熱が続いた。",
+            "独立系インフラと主権が争点になった。",
+            "周辺ではGPUクラウド連携も広がった。"
+          ],
+          "body_ja": "パリで開かれたRAISE Summitは、欧州におけるAI投資の勢いがまだ失速していないことを示した。会場には9,000人が集まり、企業のAI導入、コーディング支援ツール、そして新興のneocloud市場が主要テーマになったという。[1] 単なる技術見本市ではなく、AIを動かすための計算資源やクラウド基盤そのものが、投資対象として強く意識されている点が特徴だ。[1][3][5]\n\n政治面では、マクロン仏大統領がフランスのAIリーダーシップを打ち出し、欧州には「独立したAIインフラ」と「データ主権」が必要だと訴えた。[1] このメッセージは、米国大手のクラウドやAIプラットフォームへの依存を抑え、自前の基盤を確保したい欧州の問題意識と重なる。AI活用が広がるほど、モデル性能だけでなく、どこで計算し、どこにデータを置くのかが競争力の源泉になるからだ。[1][6]\n\n周辺のニュースをみると、その構図はさらに鮮明になる。Naver CloudとMistral AIは、製造業向けAI市場を狙う提携を発表し、クラウド基盤と業界知見を組み合わせる方向性を示した。[2] また、ネパールではDataHubとHosted AIがGPUオーケストレーションやneocloud運用を含むAIクラウド「YetiCloud.ai」を立ち上げようとしている。[7] いずれも、AIの価値がソフトウェア単体ではなく、運用基盤や地域密着のクラウドに移っていることを示す例といえる。[2][7]\n\n資本市場の見方も同じだ。CNBCで紹介されたPlexo CapitalのLo Toney氏は、AIが「インフラの資産クラス」になったと語った。[3] 実際、Envirotech VehiclesはAzio AIとの合併を完了し、AIデータセンター事業への転換を進めている。[5] こうした動きは、AI需要の本丸がモデル開発だけでなく、電力、GPU、データセンター、運用ノウハウといった“土台”にあることを裏付ける。[3][5]\n\nさらに、AIが物理世界に入っていくにつれ、監視や運用の現場でも需要が増している。エネルギー分野では、ロボティクス、ドローン、AIを使ったインフラ監視が注目されており、AIは画面の中の対話だけでは終わらない段階に入っている。[4] 欧州でのデータ主権の議論は、この“現場に入るAI”を誰の基盤で、どの規制の下で回すのかという実務課題と直結する。[1][4][6]\n\n総じてRAISE Summitは、AIブームが単なるアプリ人気ではなく、インフラ投資と主権確保の競争へ移っていることを象徴した。欧州は規制対応を負担ではなく競争条件として捉え直し、独立系クラウドや業界特化AIの育成を急いでいる。今回のパリの熱気は、その路線がまだ投資家に受け入れられていることを示したと言える。[1][2][3][5][7]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Behind The AI Gold Rush At RAISE Summit Paris - Forbes",
+              "url": "https://www.forbes.com/sites/rscottraynovich/2026/07/09/behind-the-ai-gold-rush-at-raise-summit-paris/",
+              "source": "Forbes"
+            },
+            {
+              "id": 2,
+              "title": "Naver Cloud, Mistral AI Partner to Target Manufacturing AI Market - thelec.net",
+              "url": "https://www.thelec.net/news/articleView.html?idxno=12066",
+              "source": "thelec.net"
+            },
+            {
+              "id": 3,
+              "title": "AI has become an infrastructure asset class, says Plexo's Toney - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/07/ai-has-become-an-infrastructure-asset-class-says-plexos-toney.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "Robotics, Drones & AI For Monitoring Energy Infrastructure - Forbes",
+              "url": "https://www.forbes.com/sites/sabbirrangwala/2026/07/09/robotics-drones--ai-for-monitoring-energy-infrastructure/",
+              "source": "Forbes"
+            },
+            {
+              "id": 5,
+              "title": "Envirotech Vehicles (NASDAQ: EVTV) closes merger with Azio AI ahead of schedule, positioning combined company to capture $487 Billion 2026 AI infrastructure opportunity - TechCrunch",
+              "url": "https://techcrunch.com/press-release/envirotech-vehicles-nasdaq-evtv-closes-merger-with-azio-ai-ahead-of-schedule-positioning-combined-company-to-capture-487-billion-2026-ai-infrastructure-opportunity/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 6,
+              "title": "Ukraine Chooses Self-hosted AI Models for Government - Let's Data Science",
+              "url": "https://letsdatascience.com/news/ukraine-chooses-self-hosted-ai-models-for-government-33b79dad",
+              "source": "Let's Data Science"
+            },
+            {
+              "id": 7,
+              "title": "DataHub and Hosted AI plan AI cloud offering in Nepal - Developing Telecoms",
+              "url": "https://www.developingtelecoms.com/telecom-technology/telecom-cloud-virtualization/20498-datahub-and-hosted-ai-plan-ai-cloud-offering-in-nepal.html",
+              "source": "Developing Telecoms"
+            }
+          ],
+          "published_date": "2026-07-13",
+          "category": "global",
+          "title_highlights": [
+            "RAISE Summit",
+            "データ主権",
+            "neocloud"
+          ],
+          "three_lines_highlights": [
+            "RAISE Summit",
+            "データ主権",
+            "GPUクラウド"
+          ],
+          "id": "global-3"
+        }
+      ],
+      "summary": "欧州のAI活用は着実に前進しており、特に銀行や製造業など既存産業にAIを実装して収益化する動きが強まっている一方、北米との差や地域・業種間の成熟度のばらつきはなお大きい。あわせて、パリのRAISE Summitを軸に、独立系インフラやデータ主権を重視した欧州発のAI投資・基盤整備への関心が再燃しており、欧州は「大規模モデル競争」よりも実装力と主権確保で存在感を高めつつある。"
+    }
+  ]
+}
