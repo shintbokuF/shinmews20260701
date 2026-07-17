@@ -1,0 +1,691 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T23:54:19.953779+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "NTTドコモ・NEC・1FINITYら5社、総務省6G研究開発事業に採択　AIで複数周波数帯を最適制御する無線基盤へ",
+          "summary_ja": "NTTドコモ、NEC、富士通、1FINITY、NTTら5社が、総務省の6G向け研究開発事業に採択された。AIを活用して複数の周波数帯を最適制御し、2030年代の6G実現に向けた無線基盤の確立を狙う。研究期間は2026〜2029年度で、電波資源の高度利用と国産技術の競争力強化が焦点になる。",
+          "summary_en": "NTT Docomo, NEC, Fujitsu, 1FINITY, and NTT were selected for a Japanese MIC R&D program for 6G. The project aims to use AI to optimize control across multiple frequency bands and build a wireless foundation for 6G in the 2030s. The four-year effort runs from FY2026 to FY2029.",
+          "three_lines": [
+            "5社が総務省6G事業に採択された。",
+            "AIで複数周波数帯の制御を最適化する。",
+            "2026〜2029年度に実証を進める。"
+          ],
+          "body_ja": "総務省の6G研究開発事業に、NTTドコモ、NEC、富士通、1FINITY、NTTの5社が採択された。今回の狙いは、2030年代の6G実現に向けて、AIを使いながら複数の周波数帯をきめ細かく制御できる無線基盤をつくることにある[1][2]。\n\nポイントは、単に高速化を目指すのではなく、周波数帯をまたいだ電波資源の使い方そのものを賢くする点だ。6Gでは、通信品質やエリア、混雑状況が時間帯や場所によって大きく変わるため、人手中心の制御だけでは限界がある。そこでAIを組み込むことで、複数帯域の組み合わせを動的に最適化し、将来の通信インフラの基盤技術を固めようとしている[1][2]。\n\nこの採択は、国内通信大手とベンダーがそろって次世代通信の中核研究に入ることを意味する。総務省事業である以上、技術開発だけでなく、国として6Gの標準化や実装で主導権を取れるかどうかにもつながる。特に、AIを活用した無線制御は、電波資源の効率化に加えて、経済安全保障の観点からも重要性が高いテーマだといえる[1][2]。\n\n今後の焦点は、2026〜2029年度の研究期間でどこまで実用に近い成果を出せるかだ。2030年代の6Gをにらみ、複数周波数帯を前提にした制御技術を国内陣営が積み上げられるかが、次世代通信インフラの競争力を左右する[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "NTTドコモやNECら5社、6Gに向けAIで複数周波数帯を最適 ...",
+              "url": "https://monoist.itmedia.co.jp/mn/articles/2607/10/news031.html",
+              "source": "MONOist / ITmedia"
+            },
+            {
+              "id": 2,
+              "title": "NTT・富士通と共同で「電波資源拡大のための研究開発」に採択",
+              "url": "https://www.nikkei.com/article/DGXZRSP708845_T20C26A6000000/",
+              "source": "日本経済新聞"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "japan",
+          "title_highlights": [
+            "6G",
+            "AI",
+            "5社"
+          ],
+          "three_lines_highlights": [
+            "5社",
+            "複数周波数帯",
+            "2026〜2029年度"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "松山市が企業連携協定を締結、地域課題にデジタル活用を広げる",
+          "summary_ja": "松山市をめぐる企業連携の動きは、単なる実証実験にとどまらず、地域課題の解決を継続運用できる仕組みづくりへ広がっている。愛媛県では東大・松尾研との連携でAI人材の育成・定着を掲げ、四国全体でもAIやデジタルを使った課題解決の事例が増えている。国土交通省の離島向け実証など公的施策も重なり、自治体×企業×大学の連携が次の段階に入った。",
+          "summary_en": "Matsuyama City’s partnership with companies reflects a broader shift in Japan toward using digital technologies for local problem-solving. In Ehime, a collaboration with the University of Tokyo’s Matsuo Lab aims to cultivate and retain AI talent, while AI-driven regional use cases across Shikoku and government-backed pilot programs show the ecosystem is expanding from experiments to implementation.",
+          "three_lines": [
+            "松山市の協定で地域課題解決を加速する",
+            "愛媛県は東大松尾研とAI人材を育てる",
+            "四国の実証と国の施策が連携を後押しする"
+          ],
+          "body_ja": "松山市が企業連携協定を結んだ動きは、自治体がデジタル技術を「導入する」段階から、地域課題に合わせて「使いこなす」段階へ移りつつあることを示している。PPP/まちづくり分野では、企業・団体の関連発表としてAI活用の実証実験や市場調査が相次いでおり、自治体が民間の技術・知見を取り込んで公共サービスや地域運営を組み替える流れが見える[1][5]。 \n\n愛媛県では、東京大学大学院工学系研究科と松尾豊教授の研究室と連携協定を結び、AI人材の育成・定着を進める方針が打ち出された。県は先端技術を通じた地域産業の活性化を進めてきた経緯があり、今回の協定で「AI先進県」を目指す姿勢を明確にした点が大きい。松山市の企業連携協定も、こうした県全体のAI基盤づくりと接続する動きとして読むとわかりやすい[2]。 \n\n背景には、四国で「課題解決型テック」の実装が広がっていることがある。日本経済新聞は、AIによる真珠評価など、人手不足やコスト上昇で収益力が落ちる地域経済の課題を技術で解決しようとする動きが四国で広がっていると伝えた。観光・離島・水産・商店街といった地域ごとの事情に、個別のデジタル活用を重ねる発想が定着しつつある[4]。 \n\nさらに国の側でも、デジタル実証を後押しする施策が続いている。国土交通省は「スマートアイランド推進実証調査」を始動し、離島の課題解決に向けてデジタル技術などを活用した実証調査を行うとしている。松山市の協定が、こうした国の実証や他自治体の取り組みとつながれば、単発のPoCではなく、現場運用まで見据えた横展開がしやすくなる[3]。 \n\n自治体連携のもう一つの重要点は、人材と実装を同時に進められることだ。AI活用はツール導入だけでは定着せず、地域で使い続ける人材、制度、予算が必要になる。愛媛県の東大・松尾研との協定がAI人材育成を柱に据えたのは示唆的で、松山市の企業連携もまた、技術の実験に終わらせず、地域で回る運用モデルを作れるかが成否を分けるだろう[2][5]。 \n\n今後注目したいのは、松山市の協定がどの分野に具体化するかだ。行政窓口、観光、防災、福祉、交通、商業活性化など、自治体の課題は多岐にわたるが、四国の事例を見る限り、地域ごとの産業・生活課題に即したAI活用こそが成果に結びつきやすい。松山市の取り組みは、愛媛県のAI人材戦略や国の実証制度と重なりながら、地域DXの実装フェーズを押し広げる試金石になりそうだ[2][3][4]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "【PPP/まちづくり】企業・団体の関連発表より（2026年2月）",
+              "url": "https://project.nikkeibp.co.jp/atclppp/PPP/news/020904069",
+              "source": "project.nikkeibp.co.jp"
+            },
+            {
+              "id": 2,
+              "title": "愛媛県、東京大学・松尾豊研究室と連携協定　地域でAI人材の育成・定着 - 日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOCC226DR0S6A120C2000000",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 3,
+              "title": "【PPP/まちづくり】企業・団体の関連発表より（2026年6月）",
+              "url": "https://project.nikkeibp.co.jp/atclppp/PPP/news/061604157",
+              "source": "project.nikkeibp.co.jp"
+            },
+            {
+              "id": 4,
+              "title": "AIが真珠を判定、島の買い物「顔認証」で 四国の課題テックで ...",
+              "url": "https://www.nikkei.com/article/DGXZQOCC087630Y5A001C2000000",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 5,
+              "title": "【PPP/まちづくり】企業・団体の関連発表より（2026年3月）｜新・公民連携最前線｜PPPまちづくり",
+              "url": "https://project.nikkeibp.co.jp/atclppp/PPP/news/031104090",
+              "source": "project.nikkeibp.co.jp"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "japan",
+          "title_highlights": [
+            "AI",
+            "協定"
+          ],
+          "three_lines_highlights": [
+            "協定",
+            "AI人材",
+            "実証調査"
+          ],
+          "id": "japan-2"
+        }
+      ],
+      "summary": "国内では、6Gに向けた基盤技術の研究開発が本格化し、AIを使って複数周波数帯を最適制御するなど、通信インフラの高度化と国産技術の競争力強化が前面に出ています。あわせて、松山市の企業連携に見られるように、自治体・企業・大学が連携してデジタル技術を地域課題の“実装”へつなげる流れが広がっており、実証段階から継続運用・人材育成を含む定着フェーズへ移っています。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "中国Moonshot、Kimi K3を発表　OpenAI・Anthropic級に迫るオープンモデルとして存在感",
+          "summary_ja": "中国のMoonshot AIが公開したKimi K3は、OpenAIやAnthropicの最先端モデルに迫る性能をうたうオープンウェイト/オープンソース系モデルとして注目を集めた。複数報道によれば、Kimi K3は一部ベンチマークで米国勢に迫る、あるいは上回る結果を示しつつ、コスト面でも競争力があるとみられている。",
+          "summary_en": "Moonshot AI’s Kimi K3 has drawn attention as an open-source/open-weight model that claims performance close to frontier systems from OpenAI and Anthropic. Reports suggest it can match or exceed some U.S. rivals on select benchmarks while remaining comparatively low-cost.",
+          "three_lines": [
+            "MoonshotのKimi K3が高性能モデルとして登場した。",
+            "一部ベンチマークで米国勢に迫る結果が報じられた。",
+            "低コストなオープン路線が競争軸を広げた。"
+          ],
+          "body_ja": "中国のMoonshot AIが公開したKimi K3は、生成AIの勢力図に「オープンモデルでも最先端に迫れる」という新しい現実を突きつけた。New York Postは、同社がAnthropicやOpenAIに近い能力を持つオープンソースAIモデルを披露したと報じ、Bloombergもトップ級プラットフォームに「並ぶ」性能をうたうモデルとして伝えている[1][3]。\n\n注目を集めた理由は、単なる“中国発の新モデル”だからではない。Axiosは、Kimi K3が「米国の最良システムに匹敵するかもしれない」規模と性能を持ち、しかも「一部のコスト」で実現している点を強調した[2]。CoinDeskも、Kimi K3をオープンウェイトのコーディングモデルとして紹介し、フロントエンドのコーディング分野でClaudeやOpenAIを上回ったと伝えている[7]。性能競争が、推論や総合ベンチマークだけでなく、実務寄りの開発タスクにまで広がっていることがわかる。\n\nもっとも、Kimi K3がすべての面で米国勢を完全に凌駕したとみるのは早い。CNBCは、同モデルが総合性能ではAnthropicのClaude Fable 5やOpenAIのGPT 5.6 Solにまだ及ばないと報じており、差はなお残ると示唆した[5]。一方で、The Washington PostはKimi K3を「フロンティア級」に近い新しいオープンソースモデルと位置づけつつ、依然として限界があるとも指摘している[8]。つまり現時点の評価は、「全面的な勝利」ではなく、「選択的に上位勢へ肉薄した」と見るのが妥当だ。\n\nそれでも、今回の発表のインパクトは大きい。TechCrunchは、以前からKimiシリーズがAnthropicのOpus 4.8に迫る、あるいは上回る可能性があると報じており、Moonshotが継続してフロンティア競争に挑んできた流れの延長線上にKimi K3がある[4]。Forbesも、MoonshotがKimi K3を「世界最大級のオープンAIモデル」と位置づけ、OpenAIやAnthropicへの直接的な挑戦として紹介した[6]。要するにKimi K3は、単なる高性能モデルではなく、クローズドな最先端モデルに対して、オープンな配布形態でも十分に戦えることを示す象徴的な存在になりつつある。\n\nこの動きは、OpenAI、Anthropic、Google、Metaが主導してきた生成AIモデル競争に、価格・公開形態・地域競争という新たな変数を持ち込む。中国勢が「性能差を縮めた」という事実そのものが、今後のモデル開発の優先順位や、企業がどのモデルを採用するかの判断にも影響しそうだ。AIの主戦場は、もはや“誰が最初に作るか”だけでなく、“誰がより開かれた形で、十分実用的な最先端性能を提供できるか”へ移っている[1][2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Chinese AI firm Moonshot unveils powerful model with capabilities close to Anthropic, OpenAI - New York Post",
+              "url": "https://nypost.com/2026/07/17/business/chinese-ai-firm-moonshot-unveils-powerful-model-with-capabilities-close-to-anthropic-openai/",
+              "source": "New York Post"
+            },
+            {
+              "id": 2,
+              "title": "China's open-weight Kimi model stuns AI world with frontier-level results - Axios",
+              "url": "https://www.axios.com/2026/07/16/moonshot-kimi-ai-china-model-openai-anthropic",
+              "source": "Axios"
+            },
+            {
+              "id": 3,
+              "title": "China’s Powerful New Moonshot AI Model Closes Gap With US Rivals - Bloomberg.com",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals",
+              "source": "Bloomberg"
+            },
+            {
+              "id": 4,
+              "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8 - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 5,
+              "title": "Chinese startup Moonshot AI unveils Kimi model it says rivals OpenAI, Anthropic - CNBC",
+              "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 6,
+              "title": "Should You Try Kimi K3? Here’s How AI Model Compares With ChatGPT And Claude - Forbes",
+              "url": "https://www.forbes.com/sites/tylerroush/2026/07/17/chinese-ai-startup-moonshot-unveils-kimi-k3-model-will-it-challenge-openai-and-anthropic/",
+              "source": "Forbes"
+            },
+            {
+              "id": 7,
+              "title": "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark - CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/07/17/bitcoin-faces-fresh-headwinds-as-china-s-kimi-beats-claude-gpt-in-coding-benchmark",
+              "source": "CoinDesk"
+            },
+            {
+              "id": 8,
+              "title": "AI & Tech Brief: China’s Moonshot AI - The Washington Post",
+              "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/07/17/ai-tech-brief-chinas-moonshot-ai/",
+              "source": "The Washington Post"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "models",
+          "title_highlights": [
+            "Kimi K3",
+            "Moonshot",
+            "OpenAI"
+          ],
+          "three_lines_highlights": [
+            "Kimi K3",
+            "ベンチマーク",
+            "低コスト"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Google、Gemini 3.5 Proの遅延が鮮明に　コーディング性能改善で開発が長期化",
+          "summary_ja": "Googleは旗艦モデル「Gemini 3.5 Pro」を数カ月遅らせていると報じられた。背景には、特にコーディング性能を引き上げようとする調整の長期化や、社内の足並みの乱れがあるという。発表済みの製品群は前進する一方、最重要モデルの完成度を巡るプレッシャーが増している。",
+          "summary_en": "Google is reportedly months behind schedule on Gemini 3.5 Pro as it tries to improve the flagship model, especially for coding. The delay highlights internal friction and growing pressure from rivals in the AI race.",
+          "three_lines": [
+            "Gemini 3.5 Proの公開が数カ月遅れている。",
+            "改善優先で、特にコーディング強化が長引く。",
+            "社内混乱と競争圧力が遅延をさらに際立たせる。"
+          ],
+          "body_ja": "Googleの次期フラッグシップAIモデル「Gemini 3.5 Pro」が、当初の計画から数カ月遅れていることが報じられた。遅延の主因は、同社がモデルの能力向上に時間をかけており、なかでもコーディング性能を引き上げるための調整が続いているためだという [1][3]。\\n\\nこの遅れは、単なる開発スケジュールのズレではない。報道によれば、Google内部ではチーム間の衝突やエンジニアの不満もくすぶっており、開発現場の摩擦が長期化を招いているとみられる [1][7]。加えて、Gemini 3.5 ProはGoogleが5月に公表していた旗艦モデルであり、同社としても象徴的な位置づけが強い。だからこそ、発売を急いで性能が足りないまま出すより、完成度を高める判断を優先している構図がうかがえる [4]。\\n\\nただし、その慎重姿勢は市場では逆風として受け止められた。報道を受けてAlphabet株は下落し、時価総額ベースで大きな痛手になったと伝えられている [4][5]。投資家が敏感に反応したのは、Googleの遅延が単独の問題ではなく、OpenAI、Anthropic、Metaといった競合との競争で後れを取る懸念と直結しているからだ [6]。AIモデルは、公開日だけでなく、コード生成や実務適性のような“即戦力”の評価が勝敗を左右しやすい。\\n\\n一方で、GoogleはGemini関連の製品展開そのものを止めているわけではない。9to5Googleによれば、NotebookLMは「Gemini Notebook」へと名称変更され、AI Pro向けに「3.5」や「Antigravity」のアップグレードが予告された [8]。つまりGoogleは、製品群の刷新を進めつつ、最上位モデルの仕上げにはさらに時間をかけている。今回の遅延は、生成AI競争が“早く出すこと”から“本当に使える形に磨き上げること”へと比重を移しつつある現状を映している [1][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Inside Google’s Gemini delay: coding stumbles, clashing teams and frustrated engineers - Los Angeles Times",
+              "url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
+              "source": "Los Angeles Times"
+            },
+            {
+              "id": 2,
+              "title": "Google Gemini launch delayed as tech falls short of internal goals, Bloomberg News reports - Reuters",
+              "url": "https://www.reuters.com/business/google-gemini-launch-delayed-tech-falls-short-internal-goals-bloomberg-news-2026-07-16/",
+              "source": "Reuters"
+            },
+            {
+              "id": 3,
+              "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals - Yahoo Finance",
+              "url": "https://finance.yahoo.com/technology/ai/articles/google-gemini-launch-delayed-tech-180715298.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "id": 4,
+              "title": "Alphabet shares fall on report its most powerful AI model Gemini 3.5 Pro is delayed - CNBC",
+              "url": "https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 5,
+              "title": "Alphabet stock falls 4% on report of Gemini AI model delays - Yahoo Finance",
+              "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-stock-falls-report-gemini-184859374.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "id": 6,
+              "title": "Google’s Gemini delay adds to concerns it is falling behind in AI - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/17/googles-gemini-delay-adds-to-concerns-it-is-falling-behind-in-ai.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 7,
+              "title": "Alphabet’s stock falls as Gemini delays suggest Google is struggling to keep up in the AI race - MarketWatch",
+              "url": "https://www.marketwatch.com/story/alphabets-stock-falls-as-gemini-delays-suggest-google-is-struggling-to-keep-up-in-the-ai-race-4d821205",
+              "source": "MarketWatch"
+            },
+            {
+              "id": 8,
+              "title": "NotebookLM is now Gemini Notebook, with 3.5 + Antigravity upgrade coming to AI Pro - 9to5Google",
+              "url": "https://9to5google.com/2026/07/16/notebooklm-gemini-notebook/",
+              "source": "9to5Google"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 3.5 Pro",
+            "Google"
+          ],
+          "three_lines_highlights": [
+            "Gemini 3.5 Pro",
+            "コーディング",
+            "OpenAI"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Anthropic、Claude Fable 5の提供を再延長　OpenAI新モデル投入への対抗が続く",
+          "summary_ja": "Anthropicは、上位モデル「Claude Fable 5」を有料加入者向けに再び延長提供した。今回の延長は7月19日までで、利用枠の50%増強も伴う。背景には、OpenAIが新しいChatGPT系モデルを投入し、AIモデル競争が一段と激しくなっていることがある。",
+          "summary_en": "Anthropic has again extended access to Claude Fable 5 for paid subscribers, now through July 19, with a 50% rate-limit boost. The move comes as OpenAI rolls out a new flagship model, intensifying competition across the AI model market.",
+          "three_lines": [
+            "AnthropicはFable 5提供を7月19日まで再延長した。",
+            "有料ユーザー向けに利用枠も50%増やした。",
+            "OpenAI新モデル投入でモデル競争が一段と熱い。"
+          ],
+          "body_ja": "Anthropicは、上位モデル「Claude Fable 5」の有料会員向け提供を、再び7月19日まで延長した。今回の措置では、単なる延長にとどまらず、レート制限も50%引き上げられているという。[2][3]\n\nこの延長は、1週間のうちに2度目とみられ、ForbesはOpenAIの最新ChatGPTモデル投入への反応だと伝えている。OpenAI側は新モデルについて「新しい基準」を打ち立てると主張しており、Anthropicが短期の延長で対抗している構図が鮮明だ。[1]\n\n一方で、Fable 5の発表自体は順風満帆ではなかった。Forbesは、デビューが米政府との衝突でかき消されたと指摘しており、Anthropicにとっては性能競争だけでなく、話題の主導権をどう確保するかも課題になっている。[1]\n\n競争の激化は米国企業同士に限らない。7月17日には中国のMoonshot AIが新モデル「Kimi」を公開し、OpenAIやAnthropicに迫ると主張した。CNBCは、Kimi K3が総合性能ではなおClaude Fable 5やOpenAIのGPT 5.6 Solに及ばないとしつつ、差を縮めていると伝えた。[4] Bloombergも、Moonshotの新モデルが米企業とのギャップを狭めていると報じている。[5]\n\nOpenAI側でも足元は安泰ではない。Axiosによると、CEOのSam Altman氏は新旗艦モデルGPT-5.6 Solについて「hiccups（不具合）」の可能性に言及した。つまり、トップ企業が新モデルを打ち出しても、安定運用や市場評価をめぐる不確実性は残っている。[6]\n\n今回のAnthropicの延長は、単なる販促ではなく、顧客の利用体験をつなぎ止めるための時間稼ぎでもある。有料ユーザーに「今すぐ使える最上位モデル」を長めに開放しつつ、利用枠も増やすことで、OpenAIの新モデルに流れる関心を引き留めようとしているように見える。[2][3]\n\n同時に、モデル競争の焦点は「どちらが賢いか」だけでなく、「どれだけ安定して使えるか」「どれだけ多くのユーザーに開放できるか」に移っている。Anthropic、OpenAI、そして中国勢の動きは、2026年夏の生成AI市場が、機能発表だけでなく提供期間やアクセス条件を含めた総合戦になっていることを示している。[1][2][4][5][6]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Here’s Why Anthropic Extended Access To Claude Fable 5 Extended—Again - Forbes",
+              "url": "https://www.forbes.com/sites/tylerroush/2026/07/13/ai-model-wars-anthropic-extends-fable-access-again-after-openais-sol-release/",
+              "source": "Forbes"
+            },
+            {
+              "id": 2,
+              "title": "Claude Fable 5 Extends To July 19. 7 Days, 7 Power Moves - Forbes",
+              "url": "https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/",
+              "source": "Forbes"
+            },
+            {
+              "id": 3,
+              "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time - BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+              "source": "BleepingComputer"
+            },
+            {
+              "id": 4,
+              "title": "Chinese startup Moonshot AI unveils Kimi model it says rivals OpenAI, Anthropic - CNBC",
+              "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 5,
+              "title": "China’s Powerful New Moonshot AI Model Closes Gap With US Rivals - Bloomberg.com",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals",
+              "source": "Bloomberg"
+            },
+            {
+              "id": 6,
+              "title": "Altman warns of \"hiccups\" with new flagship Sol model - Axios",
+              "url": "https://www.axios.com/2026/07/14/sam-altman-chat-gpt-sol-ultra-warning",
+              "source": "Axios"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "models",
+          "title_highlights": [
+            "Claude Fable 5",
+            "OpenAI",
+            "7月19日"
+          ],
+          "three_lines_highlights": [
+            "Fable 5",
+            "50%",
+            "OpenAI"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AIモデル分野では、米中を含む各社の最上位モデル競争が一段と激化しており、性能だけでなくコストや提供形態でも差別化が進んでいます。中国MoonshotのKimi K3のような有力オープン系モデルの台頭に加え、GoogleはGeminiの強化に時間をかけ、AnthropicはClaudeの提供延長で対抗するなど、各社とも次世代旗艦モデルの完成度と実用性をめぐってしのぎを削る状況です。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "MetaがAnthropic向けにAI計算資源を貸し出し交渉、クラウド事業に踏み込む可能性",
+          "summary_ja": "MetaがAnthropicと、自社のAIインフラの一部を計算資源として貸し出す交渉を進めている。報道によれば、これはMetaがAmazon、Microsoft、Googleに並ぶクラウド事業の新たな競争相手になりうる動きだ。",
+          "summary_en": "Meta is reportedly in talks with Anthropic to lease part of its AI infrastructure, a move that could position Meta as a new competitor to Amazon, Microsoft, and Google in cloud computing.",
+          "three_lines": [
+            "MetaがAnthropic向けに計算資源を貸す交渉を進める。",
+            "巨額AIインフラが、クラウド事業へ転用されうる。",
+            "AI需要拡大で、計算資源の供給競争が強まる。"
+          ],
+          "body_ja": "Metaが、自社のAIインフラの一部をAnthropicに貸し出す方向で交渉していることが報じられた。CNNは、MetaがAnthropicと「computing capacity」をリースする話し合いをしていると伝え、これがAmazon、Microsoft、Googleに並ぶ新しいクラウド事業につながる可能性を指摘している[1]。CNBCも、Anthropic側がMetaから計算資源を借りる「very preliminary talks」の段階だと報じており、少なくとも現時点では初期協議にとどまる[2]。\n\n注目すべきは、この話が単なる設備の貸し借りにとどまらず、Metaの事業ポートフォリオそのものを広げうる点だ。Crypto Briefingは、MetaがAIモデル向けの「private cloud」提供に踏み込むことで、最大100億ドル規模に達する可能性があると報じた[3]。もし実現すれば、Metaは自社の巨大なAI投資を“コスト”ではなく“収益化できるインフラ”として再定義することになる。\n\n背景には、生成AIの競争軸が「モデルを作ること」だけではなく、「それを動かす計算資源をどう確保するか」へ移っている事情がある。Meta側では、AIエージェント時代に向けて基盤を作り直す必要性が語られており、VentureBeatはMetaのインフラ責任者が「We have maybe 20 months」と述べた講演を報じている[4]。またAnthropicは、外部の計算資源を使う動きをすでに広げており、CNBCは同社がSpaceXのColossus 1データセンターを使う類似合意を発表した直後だと伝えた[2]。TechCrunchも、AnthropicがBlackstoneとともに「implementation」に賭ける事業を進めていると報じており、モデル開発の先で実運用・導入支援まで含めた市場が膨らんでいることがうかがえる[6]。\n\nAWS、Azure、GCPが支配してきたクラウド市場に、AIネイティブ企業やAIプラットフォーム側の“自前インフラの外販”が割り込む構図も見えてきた。Reflections AIがNebiusと10億ドル規模の計算資源契約を結んだとTechCrunchが報じているように[5]、AIインフラは一部の大手クラウドだけが提供するものではなくなりつつある。MetaとAnthropicの交渉は、こうした潮流の中で、AI時代のクラウドが「GPUを持つ者が強い」市場へ再編される象徴的な一件と言える[1][2][3][5]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Meta in talks to rent some of its billions in AI infrastructure to Anthropic - CNN",
+              "url": "https://www.cnn.com/2026/07/17/tech/meta-anthropic-ai-cloud-computing",
+              "source": "CNN"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic in early talks with Meta to acquire compute power - CNBC",
+              "url": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 3,
+              "title": "Meta in talks to lease computing power to Anthropic in deal that may reach $10B - Crypto Briefing",
+              "url": "https://cryptobriefing.com/meta-anthropic-computing-deal-10-billion/",
+              "source": "Crypto Briefing"
+            },
+            {
+              "id": 4,
+              "title": "'We have maybe 20 months' to rebuild for AI agents, Meta's infrastructure VP tells VB Transform 2026 - VentureBeat",
+              "url": "https://venturebeat.com/data/we-have-maybe-20-months-to-rebuild-for-ai-agents-metas-infrastructure-vp-tells-vb-transform-2026",
+              "source": "VentureBeat"
+            },
+            {
+              "id": 5,
+              "title": "Reflection inks $1B compute deal with Nebius - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 6,
+              "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not models - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+              "source": "TechCrunch"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "cloud",
+          "title_highlights": [
+            "Meta",
+            "Anthropic",
+            "10B"
+          ],
+          "three_lines_highlights": [
+            "計算資源",
+            "AIインフラ",
+            "GPU"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "AWSの請求額が“数十億ドル”表示に、ビリング不具合をAmazonが修正中",
+          "summary_ja": "AWSの一部利用者に対し、実際には使っていないクラウドサービスの請求見積もりが「数十億ドル」や最大「1.5兆ドル」と表示される異常が発生した。Amazonは請求ポータルのバグを認め、修正対応を進めているという。",
+          "summary_en": "Amazon is fixing a billing portal bug that caused some AWS customers to see absurd bill estimates in the billions, and in some reports up to $1.5 trillion, despite not using those services.",
+          "three_lines": [
+            "AWS請求画面に異常額が表示された。",
+            "Amazonはビリング不具合の修正を進める。",
+            "実利用と無関係な金額で利用者が混乱した。"
+          ],
+          "body_ja": "AWSの請求画面で、利用者が思わず二度見するような高額表示が出た。TechCrunchによると、一部のAmazonクラウド顧客は、実際には使っていないサービスについて「数十億ドル」規模の見積もり請求を受け取ったように見えたという[1]。The Guardianは、請求額が最大1.5兆ドルに達したケースもあったと伝えており、桁外れの数字が広く混乱を招いたことがうかがえる[2]。\n\nAmazonはこの問題について、AWSのビリングポータルに不具合があり、修正に取り組んでいると認めた[1]。今回の件で重要なのは、クラウド利用そのものの値上げや新料金体系ではなく、請求表示の異常だという点だ。つまり、顧客が実際に負担すべき金額とは別に、表示系のバグが請求管理の信頼性を揺らした格好になる[1][2]。\n\nクラウド運用では、請求の正確性は可用性と同じくらい重要だ。とくにAWSのように利用量ベースで課金が積み上がるサービスでは、金額表示の乱れは予算管理や社内稟議、利用停止判断にまで影響しかねない。今回の不具合は、AIやデータ処理などでクラウド支出が増える局面ほど、請求・可視化・監査の仕組みを堅牢に保つ必要があることを改めて示した[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Amazon fixing bug that billed some AWS customers billions of dollars - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 2,
+              "title": "Amazon Web Services customers receive bills for up to $1.5tn after global glitch - The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/jul/17/amazon-web-services-customers-trillion-dollar-bills-global-glitch",
+              "source": "The Guardian"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "billions"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "修正中",
+            "1.5tn"
+          ],
+          "id": "cloud-2"
+        }
+      ],
+      "summary": "本日は、クラウド分野で「AIインフラの提供主体が広がる動き」と「既存大手の運用基盤の信頼性」が同時に注目されました。MetaがAnthropic向けに自社計算資源の貸し出しを交渉していることで、AI需要を背景にクラウド競争の裾野が一段と拡大しつつあります。一方でAWSでは請求表示の不具合が発生し、巨大な数字が出るトラブルをAmazonが修正中で、クラウド事業では供給力だけでなく請求・運用の安定性も重要性を増している流れが見えます。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "1PasswordがClaudeに“見せずに”ログインを許可、AIエージェント実用化の壁をひとつ越える",
+          "summary_ja": "1PasswordがClaude向けの新連携を発表し、AIがサイトにログインする際にパスワードや2要素認証コードを見せずに済む仕組みを提供した。人の承認を前提に、AIエージェントへ認証情報の実行権限だけを渡す設計が、開発者ツールやエージェント基盤の実用化を後押しする。",
+          "summary_en": "1Password announced a new Claude integration that lets the AI agent sign in to websites without exposing passwords or two-factor codes. By keeping human approval in the loop while granting execution rights, it removes a key barrier to practical AI agents.",
+          "three_lines": [
+            "1PasswordがClaudeの認証代行を可能にした。",
+            "パスワードと2要素コードは見せない設計だ。",
+            "AIエージェントの実用化が一段進んだ。"
+          ],
+          "body_ja": "AIエージェントに“仕事”を任せるとき、最後まで残る難所のひとつがログインだ。ブラウザ操作をこなせても、パスワードや2要素認証コードまでAIに渡すのはためらわれる。今回1PasswordがClaude向けに始めた連携は、その不安にかなり正面から答えた。[1][2]\n\n今回の仕組みでは、Claudeが1Passwordに保存された認証情報を使ってWebサイトへサインインできる。ただし、AI自身がパスワードや2要素認証コードを“見る”わけではない。必要な場面でユーザーの承認、あるいは生体認証の確認を挟みつつ、ログイン作業だけを委任できるのがポイントだ。[2][3]\n\nこの設計の意味は大きい。AIに個人アカウントの実操作を任せるとき、最大の論点は「どこまで権限を与えるか」だが、今回の連携は“秘密は見せないが実行は許す”という中間解を提示している。日常的なブラウザ業務の自動化、たとえば本人確認を伴うサイト操作や、複数ステップの手続き補助に向いた形だと言える。[1][4]\n\n一方で、認証情報の取り扱いをAIに広げる流れは、同時に新しい警戒も必要にする。Claude for Chromeをめぐっては、拡張機能がAIの権限を悪用し得る脆弱性が報じられており、AIエージェントの便利さがそのまま攻撃面の拡大にもつながることが示されていた。[5][6] つまり今回の1Password連携は、AIの実用性を押し上げる前進であると同時に、権限分離と承認フローの重要性を改めて浮き彫りにした動きでもある。\n\n開発者ツールやagentフレームワークの文脈で見れば、このニュースは単なるパスワード管理の話ではない。Claude Code、Cursor、GitHub Copilot、LangChainのようなエージェント系ツールが広げてきた自動化の射程が、ついに“安全にログインする”という現実的な壁へ踏み込んだことを意味する。AIが人の代わりに操作する世界は、能力だけでなく認可の設計が勝負になる。その意味で1Passwordの今回の連携は、AIエージェントの普及に向けた地味だが重要な一歩だ。[1][2][3]",
+          "references": [
+            {
+              "id": 1,
+              "title": "1Password for Claude Lets AI Log In Without Seeing Your Passwords - MacRumors",
+              "url": "https://www.macrumors.com/2026/07/16/1password-claude-integration/",
+              "source": "MacRumors"
+            },
+            {
+              "id": 2,
+              "title": "1Password now lets Claude sign in to websites without seeing your passwords - 9to5Mac",
+              "url": "https://9to5mac.com/2026/07/16/1password-now-lets-claude-sign-in-to-websites-without-seeing-your-passwords/",
+              "source": "9to5Mac"
+            },
+            {
+              "id": 3,
+              "title": "1Password Will Let You Allow Claude to Use Your Passwords, but Not See Them - CNET",
+              "url": "https://www.cnet.com/tech/services-and-software/1password-anthropic-claude-credential-access/",
+              "source": "CNET"
+            },
+            {
+              "id": 4,
+              "title": "You Can Now Grant Claude Access To Your 1Password Credentials - Engadget",
+              "url": "https://www.engadget.com/2216405/1password-anthropic-claude-integration/",
+              "source": "Engadget"
+            },
+            {
+              "id": 5,
+              "title": "Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar - SecurityWeek",
+              "url": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/",
+              "source": "SecurityWeek"
+            },
+            {
+              "id": 6,
+              "title": "New bugs in Claude for Chrome allow extensions to abuse AI privileges - csoonline.com",
+              "url": "https://www.csoonline.com/article/4197325/new-bugs-in-claude-for-chrome-allow-extensions-to-abuse-ai-privileges.html",
+              "source": "CSO Online"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "devtools",
+          "title_highlights": [
+            "1Password",
+            "Claude"
+          ],
+          "three_lines_highlights": [
+            "Claude",
+            "2要素",
+            "AIエージェント"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "Anthropic、教師向けClaudeを投入　教育特化AIの拡大とK-12向けプライバシー設計が焦点に",
+          "summary_ja": "Anthropicが教師向けのClaudeを公開し、K-12教育向けのAI市場に本格参入した。授業準備や教材づくりを支える機能に加え、教育現場で重視されるプライバシー保護も打ち出している。一方で、教育AIの拡大を歓迎する声がある半面、導入のあり方を慎重に見る向きも出ている。",
+          "summary_en": "Anthropic has launched Claude for Teachers, moving deeper into the K-12 education AI market. The offering combines teaching-oriented features with privacy protections designed for schools, while also drawing some criticism about how such tools should be introduced in classrooms.",
+          "three_lines": [
+            "Anthropicが教師向けClaudeを公開した。",
+            "授業支援とK-12配慮を両立した。",
+            "教育AI拡大に賛否が広がっている。"
+          ],
+          "body_ja": "Anthropicが教師向けの「Claude for Teachers」を投入した。教育向けAI機能とカリキュラム資源、さらにK-12向けのプライバシー保護を組み合わせた設計で、学校現場での利用を意識した動きだという。[2] 教育分野では大手AI企業が相次いで教育向け版を出しており、Anthropicもその流れに加わった形になる。[2]\n\nこの教師向け版は、少なくとも1年間は無料で使えるとされ、授業準備や教材作成の負担軽減を狙った提供内容になっている。[3] 単に一般向けClaudeをそのまま持ち込むのではなく、教員の実務に寄せた機能を前面に出している点が特徴だ。[3] つまりAnthropicは、汎用AIの延長ではなく、学校の運用に合わせた専用体験を作ろうとしている。[2][3]\n\n一方で、教育AIの導入をめぐっては慎重論もある。Education Weekは、Anthropicの動きがK-12教育向けにAIツールを売り込む最新例だとしつつ、批判的な見方があることも伝えている。[3] 具体的な懸念は抜粋だけでは細部まで追えないが、学校向けAIでは利便性だけでなく、児童生徒のデータをどう扱うかが常に焦点になる。[2][3]\n\n実際、GovTechはClaude for Teachersについて、カリキュラム資源とともにK-12プライバシー保護を備えていると報じている。[2] ここから見えるのは、Anthropicが教育現場での採用を目指すうえで、機能拡張と同じくらい「安全に使えること」を重視している点だ。教育AIは導入が進むほど、学習支援ツールであると同時に、保護設計を競う領域にもなっていく。[2][3]\n\n同時期にAnthropicは、既存のClaude系サービスでも利用拡大を進めている。ForbesとBleepingComputerは、支払いユーザー向けのClaude Fable 5アクセスが7月19日まで延長され、50%のレート制限ブーストも付くと報じた。[1][6] さらに1PasswordはClaude連携を発表し、AIがパスワードを見ずにサイトへサインインできるようにした。[4][5] こうした動きを並べると、Anthropicは教育、業務、認証支援の各面でClaudeの利用範囲を広げていることがわかる。[1][4][5][6]\n\n今回の教師向けClaudeは、その中でも教育という高い慎重性が求められる領域に踏み込んだ点が重要だ。AIの実用化は、モデル性能の競争だけではなく、用途ごとの設計や保護策がどこまで作り込まれているかで評価される段階に入っている。[2][3] Anthropicの狙いは、教師にとって使いやすいことと、学校にとって受け入れやすいことを同時に満たすことにあると言えそうだ。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claude Fable 5 Extends To July 19. 7 Days, 7 Power Moves - Forbes",
+              "url": "https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/",
+              "source": "Forbes"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic Releases Teacher-Focused Version of Claude - GovTech",
+              "url": "https://www.govtech.com/education/k-12/anthropic-releases-teacher-focused-version-of-claude",
+              "source": "GovTech"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic Launches Claude for Teachers. Why Some Critics Are Concerned - Education Week",
+              "url": "https://www.edweek.org/technology/anthropic-launches-claude-for-teachers-why-some-critics-are-concerned/2026/07",
+              "source": "Education Week"
+            },
+            {
+              "id": 4,
+              "title": "1Password now lets Claude sign in to websites without seeing your passwords - 9to5Mac",
+              "url": "https://9to5mac.com/2026/07/16/1password-now-lets-claude-sign-in-to-websites-without-seeing-your-passwords/",
+              "source": "9to5Mac"
+            },
+            {
+              "id": 5,
+              "title": "1Password for Claude Lets AI Log In Without Seeing Your Passwords - MacRumors",
+              "url": "https://www.macrumors.com/2026/07/16/1password-claude-integration/",
+              "source": "MacRumors"
+            },
+            {
+              "id": 6,
+              "title": "Claude Fable 5 stays free for paid users until July 19 as Anthropic buys more time - BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/",
+              "source": "BleepingComputer"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude",
+            "K-12",
+            "教師向け"
+          ],
+          "three_lines_highlights": [
+            "Claude",
+            "K-12",
+            "AI"
+          ],
+          "id": "devtools-2"
+        },
+        {
+          "title": "Cursorの未修正脆弱性、リポジトリを開くだけでRCE可能　AIコーディング環境の安全性に再び懸念",
+          "summary_ja": "AIコーディング環境のCursorで、リポジトリを開いただけで任意コード実行につながる脆弱性の詳細が公開された。研究者が12月に報告してから7か月たっても修正されておらず、poisoned repository攻撃で悪用できるとされる。[1][2]",
+          "summary_en": "A vulnerability in Cursor can lead to arbitrary code execution simply by opening a repository. Researchers say it was reported months ago but remains unfixed, renewing concerns about the security of AI coding tools.[1][2]",
+          "three_lines": [
+            "Cursorの脆弱性が7か月未修正で残る",
+            "リポジトリを開くだけでRCEに至りうる",
+            "AI開発ツール全般の安全性が問われる"
+          ],
+          "body_ja": "AIコーディング支援ツールのCursorで、Windows版に関わる深刻な脆弱性の詳細が公開された。ポイントは、利用者が「リポジトリを開く」だけで任意コード実行につながりうることだ。研究者側は12月に報告していたが、7か月後の現在も修正されていないという。[1][2]\n\n攻撃の筋書きは比較的シンプルだ。悪意ある攻撃者がリポジトリ内に偽の「git.exe」を仕込んでおき、開発者がそのリポジトリをCursorで開くと、意図しないコードが実行される可能性がある。つまり、明示的にプログラムを起動しなくても、開発作業の入口そのものが攻撃面になってしまう。[2]\n\nこの種の問題が厄介なのは、AI支援IDEやエージェント型開発環境が、従来のエディタよりも広い権限や自動化を前提にしている点にある。開発者の作業効率を上げる仕組みほど、ひとたび信頼境界を越えると被害が大きくなりやすい。Cursorの件は、便利さと安全性が常にトレードオフではないにせよ、設計段階での防御が不十分だと深刻なRCEにつながることを改めて示した。[1][2]\n\n同じくAI開発ツールの周辺では、Claude Code、GitHub Copilot、LangChainといった製品・フレームワークの利用も広がっている。今回のような事案は、単一製品の不具合にとどまらず、開発者ツール全体で「ローカルファイル」「外部リポジトリ」「自動実行」の組み合わせをどう制御するかという共通課題を突きつける。AIがコードを書く時代ほど、開く前の検査と権限分離の徹底が重要になる。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "A vulnerability in Cursor that allows arbitrary code execution simply by 'opening the repository' has not been fixed even 7 months after it was reported, and researchers have now published the full details. - GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20260715-cursor-0day-disclosure/",
+              "source": "GIGAZINE"
+            },
+            {
+              "id": 2,
+              "title": "Cursor IDE Auto-Executes Malicious Code in Poisoned Repos - Dark Reading",
+              "url": "https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos",
+              "source": "Dark Reading"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "devtools",
+          "title_highlights": [
+            "Cursor",
+            "RCE"
+          ],
+          "three_lines_highlights": [
+            "7か月",
+            "Cursor",
+            "AI開発"
+          ],
+          "id": "devtools-3"
+        }
+      ],
+      "summary": "AI開発ツールは、単なる生成支援から「実行権限を伴うエージェント基盤」へと進みつつあり、1PasswordとClaudeの連携のように認証や操作を人の承認前提で安全に委任する仕組みが注目されている。一方で、Anthropicの教育向け展開に見られるように用途別の実装が広がる中、Cursorの脆弱性が示すように、AIコーディング環境では依然としてリポジトリ由来の攻撃や権限管理の甘さが大きな課題として残っている。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "EU、GoogleにAndroidと検索データの開放を命令　DMA執行が具体化",
+          "summary_ja": "欧州委員会は、Googleに対してAndroid上の機能や検索データへの競争事業者のアクセスを広げるよう求めた。DMA（デジタル市場法）に基づく措置で、AIアシスタントや検索エンジンの競争条件を「Google本体並み」に近づける狙いがある。[1][2][4]",
+          "summary_en": "The European Commission has ordered Google to broaden rivals’ access to Android features and search data under the DMA, aiming to make competition closer to Google’s own services on AI assistants and search engines.[1][2][4]",
+          "three_lines": [
+            "EUがAndroid機能の開放を命じた。",
+            "検索データ共有で競争条件を揃える。",
+            "AI助手と検索の競争が本格化する。"
+          ],
+          "body_ja": "欧州委員会がGoogleに対し、Androidと検索データの一部を競合他社に開放するよう求めた。今回の措置は、デジタル市場法（DMA）に基づく執行の一環で、第三者の検索エンジンやAIアシスタントが、Googleのサービスに近いアクセスを得られるようにする狙いだ。[1][2][4]\n\nポイントは、単に「互換性を認める」というレベルではなく、競合のAIアシスタントや検索事業者が、Android上でより深く機能できるようにする点にある。The Vergeは、EUが「comparable access」を求めたと伝えており、Reutersも、OpenAIなどのAI競合や検索事業者がGoogleのサービスにアクセスするためのルールが示されたと報じている。[1][4]\n\nさらに今回の発表は、AI戦略と規制が一体で進むことを示している。Washington Postは、Android端末で競合AIボットを呼び出しやすくする狙いを指摘しており、MacRumorsは、第三者のAIサービスにもGeminiと同等のAndroidアクセスを与えるよう求められたと伝えた。つまりEUは、OSの入口とAIの入口を同時に押さえ、Googleの囲い込みを弱める方向に動いている。[3][5]\n\n検索領域でも、EUは競争促進のためにデータ開放を具体化した。Reutersは、Googleが検索データを共有するよう求められたと報じ、MediaPostも匿名化された検索データの共有に言及している。CNETやTelecomsも、第三者の検索エンジンがより多くの検索データにアクセスできるようになるとまとめており、検索品質や学習データの差が競争力を左右する生成AI時代に、EUがデータ優位の是正へ踏み込んだ形だ。[4][6][7][8]\n\nGoogleにとっては、Androidと検索という二つの巨大な入口で同時に制約が強まることになる。DMAの執行は、罰金よりも先に、プラットフォームの設計そのものを変えさせる段階に入ったと言える。欧州では今後、AIアシスタント、検索、モバイルOSの三つ巴の競争が、規制主導でより一段と具体的な形を取っていきそうだ。[1][2][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google ordered to open Android and Search to rivals in Europe - The Verge",
+              "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+              "source": "The Verge"
+            },
+            {
+              "id": 2,
+              "title": "It’s official: EU will force Google to share search data and open up AI on Android - Ars Technica",
+              "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+              "source": "Ars Technica"
+            },
+            {
+              "id": 3,
+              "title": "Europe tells Google it must open Android phones to rivals’ AI bots - The Washington Post",
+              "url": "https://www.washingtonpost.com/technology/2026/07/16/europe-tells-google-it-must-open-android-phones-rivals-ai-bots/",
+              "source": "The Washington Post"
+            },
+            {
+              "id": 4,
+              "title": "Google required to open up to AI, search engine rivals under EU-mandated changes - Reuters",
+              "url": "https://www.reuters.com/world/google-required-open-up-ai-search-engine-rivals-under-eu-mandated-changes-2026-07-16/",
+              "source": "Reuters"
+            },
+            {
+              "id": 5,
+              "title": "EU Orders Google to Give Rival AI Apps the Same Android Access as Gemini - MacRumors",
+              "url": "https://www.macrumors.com/2026/07/16/eu-google-ai-apps-android-access/",
+              "source": "MacRumors"
+            },
+            {
+              "id": 6,
+              "title": "Google Ordered By EU Commission To Share Anonymized Search Data 07/20/2026 - MediaPost",
+              "url": "https://www.mediapost.com/publications/article/416625/google-ordered-by-eu-commission-to-share-anonymize.html",
+              "source": "MediaPost"
+            },
+            {
+              "id": 7,
+              "title": "EU Orders Google to Open Android to AI Rivals and to Share Search Data - CNET",
+              "url": "https://www.cnet.com/tech/mobile/eu-dma-regulation-google-android-ai-search-data/",
+              "source": "CNET"
+            },
+            {
+              "id": 8,
+              "title": "EU orders Google to open up Android and share search data - Telecoms",
+              "url": "https://www.telecoms.com/regulation/eu-orders-google-to-open-up-android-and-share-search-data",
+              "source": "Telecoms"
+            }
+          ],
+          "published_date": "2026-07-17",
+          "category": "global",
+          "title_highlights": [
+            "Android",
+            "検索データ",
+            "DMA"
+          ],
+          "three_lines_highlights": [
+            "Android",
+            "検索データ",
+            "AI助手"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "EUはDMAの執行を具体化し、Googleに対してAndroid機能や検索データの競争事業者への開放を求めることで、巨大プラットフォームの優位を実質的に縮める段階に入った。AIアシスタントや検索エンジンを含む競争環境を「本体並み」に近づける狙いが鮮明で、欧州が米大手テックへの規制強化を主導している流れが改めて示された。"
+    }
+  ]
+}
