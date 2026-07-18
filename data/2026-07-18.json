@@ -1,0 +1,760 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T23:55:02.393379+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "プリファードのLLM「PLaMo2.0」、国産AIで性能と安全性を両立",
+          "summary_ja": "日本経済新聞社は、2025年「日経優秀製品・サービス賞」の最優秀賞に、プリファードネットワークスの大規模言語モデル「PLaMo2.0」を選出した。国産AIとしての性能と安全性が評価された形だ。",
+          "summary_en": "Nikkei selected Preferred Networks' large language model PLaMo2.0 as the top award winner in its 2025 Nikkei Excellent Products and Services Awards, highlighting the balance between performance and safety in a domestic AI model.",
+          "three_lines": [
+            "PLaMo2.0が最優秀賞に選ばれた。",
+            "国産AIとして性能と安全性が評価された。",
+            "国内LLM開発の存在感が高まった。"
+          ],
+          "body_ja": "日本経済新聞社は、2025年「日経優秀製品・サービス賞」の最優秀賞に、プリファードネットワークスの大規模言語モデル「PLaMo2.0」を選出した[1]。単なる“話題のAI”ではなく、国産AIとして性能と安全性を両立する取り組みが評価された点に意味がある。\n\n今回の選出は、日本企業が独自にLLMを開発し、実用レベルの競争力を示したことを示す材料だ[1]。海外の巨大モデルが市場を席巻するなかで、国内で開発・運用されるAIの価値は、性能だけでなく、データ管理や利用統制といった安全面でも大きい。経済安全保障や国内産業基盤の観点からも、国産LLMへの注目を押し上げる受賞といえる[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "プリファードの大規模言語モデル、「国産AI」で性能と安全性を両立",
+              "url": "https://www.nikkei.com/article/DGXZQOUC10BRL0Q6A210C2000000/",
+              "source": "日本経済新聞"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "japan",
+          "title_highlights": [
+            "PLaMo2.0",
+            "国産AI"
+          ],
+          "three_lines_highlights": [
+            "PLaMo2.0",
+            "国産AI",
+            "最優秀賞"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "国産AI、米中競争の「漁夫の利」生かせ　サカナAIのデビッド・ハCEO",
+          "summary_ja": "米中がAI覇権を争うなか、日本は基盤技術を海外任せにすると「技術面で支配されかねない」。サカナAIのデビッド・ハCEOは、国産AIを守りの投資ではなく、文化・安全保障・産業競争力を支える戦略資産として位置づけるべきだと訴える。政府の1兆円投資やASEANとの母国語AI開発など、日本が「漁夫の利」をどう取りにいくかが焦点になる。[1][3][5][6][7]",
+          "summary_en": "As the US and China compete for AI dominance, Japan risks becoming dependent on foreign technology unless it strengthens domestic AI. Sakana AI CEO David Ha argues that homegrown AI should be treated as a strategic asset for culture, security, and industrial competitiveness, alongside new government investment and regional language-AI initiatives.[1][3][5][6][7]",
+          "three_lines": [
+            "米中のAI覇権争いが日本の戦略を迫る。",
+            "政府は1兆円投資で国産化を後押しする。",
+            "サカナAIは規模より独自性で勝ち筋を探る。"
+          ],
+          "body_ja": "米中がAIの主導権を激しく争うなか、日本にとっての論点は「どちらに付くか」ではなく、「依存しすぎない土台を持てるか」に移っている。サカナAIのデビッド・ハCEOは、社会に浸透するAIを外国に頼れば、日本は技術面で支配されかねないと警鐘を鳴らす。[1][3][6]\n\nこの問題意識は、単なる産業競争の話にとどまらない。ハCEOは国産AIを、文化や伝統を守るうえでも重要だと位置づけている。言語や価値観を含む「使い勝手の差」は、海外製の巨大モデルをそのまま使うだけでは埋めにくく、日本社会向けに最適化されたAIの必要性を強めている。[6]\n\n一方で、サカナAI自身は米中のような“規模の競争”に真っ向から乗る戦略を取っていない。伊藤氏は、モデル開発で無制限な巨大化競争には加わらない姿勢を示しており、限られた資本と人材で勝てる領域に集中する考え方がうかがえる。[2] これは、基盤モデルの量産競争ではなく、独自の研究テーマや実装力で差別化する日本発AIの現実路線とも言える。\n\n政府側も、この流れを後押ししている。AI戦略本部は初の基本計画をまとめ、AIの活用と開発に向けて1兆円投資を掲げた。基盤モデルの国産化やフィジカルAIの実装を目指す方針は、海外依存を減らしつつ国内産業を底上げする狙いがある。[5]\n\nさらに日本政府は、ASEANと連携して現地語を学ぶAIの共同開発にも乗り出している。まずカンボジアでクメール語を使ったAIを進める構想は、対中国も念頭に置きつつ、日本が周辺地域で「言語インフラ」を支える役割を狙うものだ。[7] この動きは、国産AIを国内市場だけの保護策ではなく、外交や経済安全保障のカードとして使う発想を示している。\n\n実際、サカナAIは資金調達面でも存在感を高めている。約200億円の第三者割当増資では、国内外の金融機関に加え、米CIA系ともされる投資家が出資者に名を連ねた。金融や防衛用途への展開も視野に入る点から、同社の技術が商業利用だけでなく、より広い安全保障文脈でも評価されていることが分かる。[4]\n\n結局のところ、日本にとっての「漁夫の利」とは、米中の巨大資本競争を横目に、規模の勝負ではなく、用途特化・言語対応・安全保障・文化適合といった領域で独自の立ち位置を築くことだろう。国産AIは、守りのための国産化ではなく、日本が自前で選択肢を持つための国家インフラとして問われている。[1][3][5][6][7]",
+          "references": [
+            {
+              "id": 1,
+              "title": "国産AI、米中競争の「漁夫の利」生かせ サカナAIのデビッド・ハCEO",
+              "url": "https://www.nikkei.com/article/DGXZQOCB239D20T20C25A6000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 2,
+              "title": "サカナAI伊藤氏「モデル開発、規模の競争には加わらず」",
+              "url": "https://www.nikkei.com/article/DGXZQOUC022600S4A800C2000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 3,
+              "title": "デビッド・ハのニュース・発言など最新記事",
+              "url": "https://www.nikkei.com/topics/22A01811",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 4,
+              "title": "サカナAI、金融軸に防衛用途も開拓へ 米CIA系も技術力評価",
+              "url": "https://www.nikkei.com/article/DGXZQOUC147Z40U5A111C2000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 5,
+              "title": "政府、AIに1兆円投資へ 基盤モデル国産化やフィジカルAI実装めざす",
+              "url": "https://www.nikkei.com/article/DGXZQOUA194VB0Z11C25A2000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 6,
+              "title": "サカナAIのデビッド・ハCEO「国産AI、文化や伝統を守る上で重要」",
+              "url": "https://www.nikkei.com/article/DGXZQOUC263R60W6A220C2000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 7,
+              "title": "日本政府とASEANが母国語AI開発、まずカンボジア 対中国念頭",
+              "url": "https://www.nikkei.com/article/DGXZQOUA084SY0Y6A100C2000000/",
+              "source": "日本経済新聞"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "japan",
+          "title_highlights": [
+            "国産AI",
+            "1兆円",
+            "米中競争"
+          ],
+          "three_lines_highlights": [
+            "米中覇権",
+            "1兆円投資",
+            "規模競争"
+          ],
+          "id": "japan-2"
+        },
+        {
+          "title": "米国投資家がNVIDIAを世界一に押し上げた「AIスーパーサイクル」とは何か",
+          "summary_ja": "NVIDIAの時価総額が世界首位に上り詰めた背景には、単なる半導体需要ではなく「AIは長期で設備投資を生む」というナラティブがある。日本でも政府の情報集約や地域活性化DX、生成AI活用の広がりが進む一方、経済安全保障や認知戦への備えが政策課題として重みを増している。",
+          "summary_en": "The narrative behind Nvidia’s rise to the world’s top market capitalization is that AI will drive a prolonged capex cycle, not just chip demand. In Japan, AI adoption is expanding across government and businesses, while economic security and information resilience are becoming more important policy issues.",
+          "three_lines": [
+            "NVIDIA高騰の背景に、AI設備投資の長期化がある。",
+            "日本でも生成AI活用が進み、政策対応が急務だ。",
+            "情報戦と経済安保が、AI普及の前提になる。"
+          ],
+          "body_ja": "米国でNVIDIAを時価総額世界一へ押し上げた見方は、AIを一過性のブームではなく、クラウド、データセンター、電力、ネットワークまで巻き込む長い投資局面として捉えるナラティブだ。いわゆる「AIスーパーサイクル」は、生成AIの学習・推論需要が継続し、GPUや周辺インフラへの支出が連鎖的に膨らむという発想に基づく。単純な製品人気ではなく、企業や国家がAI導入を前提に予算を組み替えること自体が市場を押し上げる、という読みである。 [1]\n\nこの見方は日本の政策文脈にも接続する。日経の報道では、高市早苗政権が政府内のインテリジェンス機能を集約する「国家情報局」を創設する方針が示され、情報収集・分析や認知戦への対応が課題として語られている。AIが普及するほど、正確な情報の集約、偽情報対策、意思決定の高速化が重要になるため、AI投資は単なる効率化策ではなく、国家機能の強化策としても位置づけられやすい。 [1]\n\n民間側でも、生成AIを使った業務変革は着実に広がっている。ASCIIの過去記事一覧には、生成AIとノーコードCMSを組み合わせて進研ゼミのサイト制作期間とコストを圧縮した事例が見える。これは、AIが研究開発やチャットボットにとどまらず、実務の制作工程そのものを短縮する段階に入っていることを示す。スーパーサイクルの中核は、こうした現場導入が業種をまたいで増え、投資の正当性をさらに強める点にある。 [2]\n\nさらに、地域活性化や行政DXの領域でもAI・デジタル活用の動きが確認できる。ASCIIのアーカイブには、総務省の「地域活性化起業人」制度を活用して自治体と協定を結んだ事例が載っている。これはAIそのものの記事ではないが、国や自治体が外部人材や民間技術を取り込みながら地域課題を解く流れを示しており、AI導入の土台となるデジタル実装の広がりとして読める。 [3]\n\nでは、日本にとってこのナラティブは何を意味するのか。第一に、AI投資は「便利な新技術」ではなく、経済安全保障と表裏一体になってきたということだ。半導体、クラウド、データ、政府情報インフラのどこかが欠ければ、AIの恩恵は十分に享受できない。第二に、国産LLMや国内AI基盤の議論は、単なる技術競争ではなく、情報主権とサプライチェーンの確保の議論として見直される必要がある。第三に、企業導入はPoC止まりではなく、制作、営業、運用、セキュリティまで含めた実装競争へ移る。 [1][2][3]\n\n要するに、NVIDIAを頂点に押し上げた「AIスーパーサイクル」とは、AIの性能向上そのものよりも、AIを前提に世界中の資本支出と制度設計が変わるという期待の物語だ。日本でもこの物語は、政府の情報政策、企業の生産性改革、地域DX、そして安全保障対応を同時に動かす力として現れ始めている。今後の焦点は、AIを使うかどうかではなく、どのレイヤーを国内で持ち、どのレイヤーを国際連携で補うかという設計に移っていくだろう。 [1][2][3]",
+          "references": [
+            {
+              "id": 1,
+              "title": "政府インテリジェンス機関「情報サイクルが重要」「認知戦に対応を」",
+              "url": "https://www.nikkei.com/article/DGXZQOUA0464R0U6A300C2000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 2,
+              "title": "70ページ超の大自作特集を収録！ これ1冊で自作のすべてが分かる!",
+              "url": "https://ascii.jp/archive/top/202310/",
+              "source": "ASCII.jp"
+            },
+            {
+              "id": 3,
+              "title": "アーカイブページ",
+              "url": "https://ascii.jp/archive/top/202604/",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "japan",
+          "title_highlights": [
+            "NVIDIA",
+            "AIスーパーサイクル"
+          ],
+          "three_lines_highlights": [
+            "NVIDIA",
+            "生成AI",
+            "経済安保"
+          ],
+          "id": "japan-3"
+        }
+      ],
+      "summary": "日本国内では、国産AIの競争力と安全性をどう両立し、米中主導のAI覇権競争の中で自前の技術基盤を確保するかが大きな焦点になっています。PLaMo2.0の評価やサカナAIの提言が示すように、AIは単なる投資対象ではなく、文化・安全保障・産業競争力を支える戦略資産として位置づけ直されつつあります。あわせて、NVIDIAの台頭が映す「AIスーパーサイクル」の流れのなかで、日本でも生成AI活用と経済安全保障への備えを同時に進める必要性が強まっています。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "中国Moonshot、Kimi K3を発表　ClaudeやGPTに迫る性能で米AI勢に圧力",
+          "summary_ja": "中国のMoonshot AIが新モデルKimi K3を公開し、OpenAIやAnthropicの主力級モデルに近い性能をうたった。特にコード系ベンチマークでは一部で米勢を上回ったとされ、AI競争の重心がさらに中国側へ寄りつつあることを印象づけた。",
+          "summary_en": "Moonshot AI has unveiled Kimi K3, a new model that it says narrows the gap with top OpenAI and Anthropic systems. Some reports indicate it leads key coding benchmarks, adding fresh pressure on U.S. frontier AI companies.",
+          "three_lines": [
+            "MoonshotがKimi K3を公開し、米勢との差を縮めた。",
+            "一部のコーディング指標でClaudeやGPTを上回った。",
+            "中国AIの追い上げが、競争環境をさらに厳しくした。"
+          ],
+          "body_ja": "中国のMoonshot AIが新モデル「Kimi K3」を発表し、OpenAIやAnthropicの上位モデルにかなり近い性能を示すと主張した。[1][3][7] Bloombergは、Moonshotが同社モデルについて「米大手との差を縮めた」と説明していると伝え、CNBCもKimi K3が主要な米国製システムに迫る位置に来たと報じた。[1][3]\n\n注目を集めたのは、実用面での競争力だ。Cryptopolitanは、Kimi K3がFront-end Code Arenaのコーディング指標で中国モデルとして初めて首位に立ち、Claude Fable 5を抜いたと伝えている。[2] CoinDeskも、同モデルが重要なフロントエンド系ベンチマークでAnthropicとOpenAIを押しのけたと報じ、しかも無料で使えるオープンウェイト系モデルだと紹介した。[5]\n\n一方で、全面的に米勢を凌駕したわけではない。CNBCは、Kimi K3が総合性能ではAnthropicのClaude Fable 5やOpenAIのGPT 5.6 Solにまだ及ばないと指摘している。[3] つまり今回の発表は、「全方位での逆転」ではなく、「特定用途では米トップ級に肩を並べ、場合によっては上回る」段階に中国モデルが入ってきたことを示す出来事といえる。[1][3][4]\n\nこの発表が市場に与えたインパクトも小さくなかった。Axiosは、Kimi K3の登場が米国に対する即時的な脅威になり得るとし、中国のAI競争力が一段と鮮明になったと伝えた。[6] さらにBloombergやNew York Postも、Moonshotの新モデルが米主要プレイヤーに迫る能力を持つと報じており、米中の生成AI競争が、基盤モデルの性能だけでなく、価格、公開形態、開発者向け実用性まで含めた総合戦へ移っていることをうかがわせる。[1][7]",
+          "references": [
+            {
+              "id": 1,
+              "title": "China’s Powerful New Moonshot AI Model Closes Gap With US Rivals - Bloomberg.com",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals",
+              "source": "Bloomberg"
+            },
+            {
+              "id": 2,
+              "title": "Trump’s former AI czar David Sacks goes off as Chinese AI overtake US models - Cryptopolitan",
+              "url": "https://www.cryptopolitan.com/ai-czar-david-sacks-chinese-ai-overtake-us/",
+              "source": "Cryptopolitan"
+            },
+            {
+              "id": 3,
+              "title": "Chinese startup Moonshot AI unveils Kimi model it says rivals OpenAI, Anthropic - CNBC",
+              "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "China Just Dropped Another Bomb on America’s Frontier AI Companies - Gizmodo",
+              "url": "https://gizmodo.com/china-just-dropped-another-bomb-on-americas-frontier-ai-companies-2000786670",
+              "source": "Gizmodo"
+            },
+            {
+              "id": 5,
+              "title": "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark - CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/07/17/bitcoin-faces-fresh-headwinds-as-china-s-kimi-beats-claude-gpt-in-coding-benchmark",
+              "source": "CoinDesk"
+            },
+            {
+              "id": 6,
+              "title": "Kimi K3 shocked the world. These other AI models could be next - Axios",
+              "url": "https://www.axios.com/2026/07/18/kimi-k3-ai-models-china-us-japan",
+              "source": "Axios"
+            },
+            {
+              "id": 7,
+              "title": "Chinese AI firm Moonshot unveils powerful model with capabilities close to Anthropic, OpenAI - New York Post",
+              "url": "https://nypost.com/2026/07/17/business/chinese-ai-firm-moonshot-unveils-powerful-model-with-capabilities-close-to-anthropic-openai/",
+              "source": "New York Post"
+            },
+            {
+              "id": 8,
+              "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8 - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+              "source": "TechCrunch"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "models",
+          "title_highlights": [
+            "Kimi K3",
+            "Moonshot",
+            "Claude/GPT"
+          ],
+          "three_lines_highlights": [
+            "Kimi K3",
+            "Claude/GPT",
+            "中国AI"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Google、Gemini 3.5 Proの公開遅延が判明　コーディング改善を優先し旗艦モデル開発が長期化",
+          "summary_ja": "Googleは旗艦モデル「Gemini 3.5 Pro」の提供で数か月遅れている。内部目標とのずれが広がるなか、特にコーディング性能の底上げを優先していることが遅延の背景とされ、株価にも影響が出た。",
+          "summary_en": "Google is reportedly months behind on Gemini 3.5 Pro, its flagship model, as it spends more time improving capabilities—especially coding performance—causing a delay that has also weighed on Alphabet shares.",
+          "three_lines": [
+            "Gemini 3.5 Proの公開が数か月遅れた",
+            "Googleはコーディング性能の改善を優先した",
+            "遅延報道でAlphabet株は大きく下げた"
+          ],
+          "body_ja": "Googleの次期旗艦モデル「Gemini 3.5 Pro」は、当初想定より数か月遅れていることが報じられた。遅延の主因は、単なる日程管理ではなく、モデルの能力を引き上げるために追加の時間をかけている点にあるとされる。とりわけ、コーディング性能の改善が重点課題になっているという [1][2]。\n\n報道によれば、GoogleはGemini 3.5 Proの完成度を高めるため、内部目標に届くまで公開を先送りしてきた。この記事群では、コーディング面でのつまずきや、社内のチーム間の摩擦、エンジニアの不満まで指摘されており、開発の難しさが単なる「少し遅れている」レベルではないことがうかがえる [2][7]。さらに、Bloomberg報道を受けてAlphabet株は下落し、1日で時価総額が大きく目減りしたと伝えられた [4][6]。\n\nこの遅延は、Googleの生成AI戦略全体にも影響する可能性がある。CNBCは、GoogleがOpenAI、Anthropic、Metaとの競争圧力を受けるなかで、コーディングの失敗や内部のボトルネックが目立っていると報じた [8]。つまり、Gemini 3.5 Proの遅れは、単一モデルのスケジュール問題ではなく、主要AIプレーヤー間の競争でGoogleがどこまで先行できるかを占う試金石になっている。\n\n一方で、Googleが改善を優先している事実は、短期的な発売よりも、旗艦モデルとしての完成度を重視している姿勢の表れとも読める。とはいえ、AI競争では速度も重要だ。性能を磨くほど完成度は上がるが、そのぶん市場投入が遅れれば、先行する競合にユーザーや開発者を取られるリスクも増す。Gemini 3.5 Proの遅延は、Googleにとって「高性能化」と「投入タイミング」の綱引きが厳しくなっていることを示している [1][3][5]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals - Yahoo Finance",
+              "url": "https://finance.yahoo.com/technology/ai/articles/google-gemini-launch-delayed-tech-180715298.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "id": 2,
+              "title": "Inside Google’s Gemini delay: coding stumbles, clashing teams and frustrated engineers - Los Angeles Times",
+              "url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
+              "source": "Los Angeles Times"
+            },
+            {
+              "id": 3,
+              "title": "Google Gemini launch delayed as tech falls short of internal goals, Bloomberg News reports - Reuters",
+              "url": "https://www.reuters.com/business/google-gemini-launch-delayed-tech-falls-short-internal-goals-bloomberg-news-2026-07-16/",
+              "source": "Reuters"
+            },
+            {
+              "id": 4,
+              "title": "Alphabet stock falls 4% on report of Gemini AI model delays - Yahoo Finance",
+              "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-stock-falls-report-gemini-184859374.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "id": 5,
+              "title": "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals - Bloomberg.com",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
+              "source": "Bloomberg"
+            },
+            {
+              "id": 6,
+              "title": "Alphabet shares fall on report its most powerful AI model Gemini 3.5 Pro is delayed - CNBC",
+              "url": "https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 7,
+              "title": "Alphabet’s stock falls as Gemini delays suggest Google is struggling to keep up in the AI race - MarketWatch",
+              "url": "https://www.marketwatch.com/story/alphabets-stock-falls-as-gemini-delays-suggest-google-is-struggling-to-keep-up-in-the-ai-race-4d821205",
+              "source": "MarketWatch"
+            },
+            {
+              "id": 8,
+              "title": "Google’s Gemini delay adds to concerns it is falling behind in AI - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/17/googles-gemini-delay-adds-to-concerns-it-is-falling-behind-in-ai.html",
+              "source": "CNBC"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 3.5 Pro",
+            "Google",
+            "遅延"
+          ],
+          "three_lines_highlights": [
+            "Gemini 3.5 Pro",
+            "コーディング",
+            "Alphabet株"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Anthropicが法律業務向けAI市場に本格参入、大手ITの「legal agent」攻勢が加速",
+          "summary_ja": "法律業務向けAI市場で、主要テック企業の動きが一気に加速している。Bloomberg Lawによると、過去4カ月で6社の有力テック企業がこの分野に参入し、Microsoftは4月にWord向けの「legal agent」を投入、Anthropicも5月に動きを見せたという[1]。一方で、AIネイティブ企業は大手法律事務所の市場シェアをすぐに奪う段階ではないものの、不満を抱える弁護士の人材獲得では存在感を高めている[2]。",
+          "summary_en": "Big tech is rapidly expanding into legal AI, with Microsoft launching a Word-based legal agent in April and Anthropic entering the space in May, according to Bloomberg Law. AI-native firms are also drawing talent from Big Law, signaling a broader shift in how legal work is being organized and delivered.[1][2]",
+          "three_lines": [
+            "大手ITが法律AI市場へ一斉に踏み込んだ。",
+            "MicrosoftはWord向けlegal agentを出した。",
+            "AI企業は案件より人材争奪で存在感を増す。"
+          ],
+          "body_ja": "法律業務向けAI市場が、生成AIの次の主戦場として急速に熱を帯びている。Bloomberg Lawは、過去4カ月で6社の重要テック企業がこの領域に参入したと報じ、Microsoftが4月にWord向けの「legal agent」を発表し、Anthropicも5月にこの分野へ動いたと伝えた[1]。これまで法律AIは専業ベンダーやリーガルテック企業が中心だったが、いまや汎用AIモデルを持つ大手が、文書作成や実務支援の入口そのものを押さえに来ている格好だ[1]。\n\nこの流れは、単なる製品投入の競争ではない。Bloomberg Lawが別記事で指摘したように、AIネイティブ企業はBig Lawの市場シェアを直ちに奪うところまでは至っていない一方、採用面では不満を抱える弁護士を引き寄せている[2]。特に、AI導入の速度に不満を持つ「AI-forward attorneys」が、旧来型の組織文化や導入の遅さにしびれを切らしているという構図は、法律業務の変化がまず人材と働き方から進むことを示している[2]。\n\nさらにLaw.com系の報道でも、法律分野ではAI活用が各種業務の中で際立っており、GC（一般企業の法務責任者）による監督の重要性が高まっていることがうかがえる[4]。また、別のLaw.com記事群では、AI関連の論点が訴訟、ホワイトカラー犯罪、日々の業務効率化などへ広がっていることが示されており、法律実務そのものがAIを前提に再設計されつつある[5][6][7]。つまり今回のAnthropicの参入は、単発の新機能追加ではなく、OpenAI、Google、Meta、Microsoftを含む大手各社が、法律業務という高付加価値領域をめぐって競争軸を作り直し始めたサインと見るべきだ[1][4]。\n\n注目すべきは、法律業務では精度、説明可能性、責任分界が一般用途以上に厳しく問われる点だ。そうした環境で「legal agent」のような業務特化型UIや、文書編集ソフトへの直接統合は、ユーザー体験だけでなく、導入障壁の下げ方そのものを変える可能性がある[1]。今後は、誰が最も高性能なモデルを持つかだけでなく、どの企業が法務現場のワークフローに最も深く入り込めるかが勝負になるだろう[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Big Tech Advances Into Crowded Legal AI Arena as Next Frontier - Bloomberg Law News",
+              "url": "https://news.bloomberglaw.com/legal-ops-and-tech/big-tech-advances-into-crowded-legal-ai-arena-as-next-frontier",
+              "source": "Bloomberg Law News"
+            },
+            {
+              "id": 2,
+              "title": "AI-Native Firms Are Luring Frustrated Lawyers Away From Big Law - Bloomberg Law News",
+              "url": "https://news.bloomberglaw.com/business-and-practice/ai-native-firms-are-luring-frustrated-lawyers-away-from-big-law",
+              "source": "Bloomberg Law News"
+            },
+            {
+              "id": 3,
+              "title": "Legaltech Rundown: Reed Smith Legal Solutions Launches Aquarius Platform, Litera Announces Relaunch, and More - Law.com",
+              "url": "https://www.law.com/legaltechnews/2026/07/17/legaltech-rundown-reed-smith-legal-solutions-launches-aquarius-platform-litera-announces-relaunch-and-more-/",
+              "source": "Law.com"
+            },
+            {
+              "id": 4,
+              "title": "Legal Tops All Other Business Units in AI Use, Raising the Stakes for GC Oversight - Law.com",
+              "url": "https://www.law.com/corpcounsel/2026/07/16/legal-tops-all-other-business-units-in-ai-use-raising-the-stakes-for-gc-oversight/",
+              "source": "Law.com"
+            },
+            {
+              "id": 5,
+              "title": "7th Circuit Sends Wake-Up Call to TCPA Litigants. Is SCOTUS Next? - Law.com",
+              "url": "https://www.law.com/nationallawjournal/2026/07/17/7th-circuit-sends-wake-up-call-to-tcpa-litigants-is-scotus-next-/",
+              "source": "Law.com"
+            },
+            {
+              "id": 6,
+              "title": "Three Emerging AI-Related Issues in White Collar Criminal Investigations and Prosecutions - Law.com",
+              "url": "https://www.law.com/newyorklawjournal/2026/07/13/three-emerging-ai-related-issues-in-white-collar-criminal-investigations-and-prosecutions/",
+              "source": "Law.com"
+            },
+            {
+              "id": 7,
+              "title": "How to Use AI To Help Manage Never-Ending Emails - Law.com",
+              "url": "https://www.law.com/dailyreportonline/2026/07/13/how-to-use-ai-to-help-manage-never-ending-emails-/",
+              "source": "Law.com"
+            },
+            {
+              "id": 8,
+              "title": "The AI Value Gap: Law Firms Are Racing to Adopt AI But Clients Are Still Waiting to See the Value - Law.com",
+              "url": "https://www.law.com/international-edition/2026/07/15/the-ai-value-gap-law-firms-are-racing-to-adopt-ai-but-clients-are-still-waiting-to-see-the-value/",
+              "source": "Law.com"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "models",
+          "title_highlights": [
+            "Anthropic",
+            "legal agent"
+          ],
+          "three_lines_highlights": [
+            "大手IT",
+            "legal agent",
+            "人材争奪"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AIモデル分野では、米中の性能競争が一段と激化しており、中国勢の新モデルがコード性能を武器に米大手へ迫る一方、Googleは旗艦モデルの公開遅延からも分かるように、各社が「総合性能」より特定用途の強化に苦心している。あわせて、法律業務向けなどの実務特化AIでも大手IT各社の参入が加速し、汎用モデルの競争から、業界別の“実戦投入”へと戦線が広がっている。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "SpaceXが国防総省向け計算能力を協議、データセンター代替の新構図が浮上",
+          "summary_ja": "SpaceXが米国防総省に計算能力を提供する方向で協議していると報じられた。従来のクラウド大手やデータセンター事業者だけでなく、衛星・宇宙インフラを持つ企業がAI計算資源の供給側に回る可能性が見えてきた。",
+          "summary_en": "SpaceX is reportedly in talks to provide computing power to the U.S. Department of Defense, signaling a new model in which space infrastructure could complement or compete with traditional cloud and data center providers.",
+          "three_lines": [
+            "SpaceXが国防総省向け計算提供を協議した。",
+            "宇宙インフラがAI計算資源に近づいた。",
+            "MetaやAnthropicの大型案件も競争を映す。"
+          ],
+          "body_ja": "米メディアの報道を受け、SpaceXが米国防総省に計算能力を提供する協議に入っていることが明らかになった。報道では、協議はまだ初期段階だが、成立すれば「数十億ドル規模」の計算資源提供になり得るとされる[1][2]。\n\nこのニュースの意味は、単なる軍向け案件にとどまらない。AI向け計算需要が急増するなかで、データセンターを大量保有する従来型クラウドや、GPUクラスタを押さえるAIインフラ事業者だけでなく、SpaceXのような宇宙・通信インフラ企業まで計算供給のプレーヤーとして見られ始めたことを示している[1][2]。\n\nさらに、宇宙空間を使った計算インフラへの期待と冷静な見方が同時に浮上している。TechCrunchは、オービタル・データセンターでAI推論を行うという構想について、業界専門家の多くは「本格ビジネスにはまだ遠い」とみていると伝えている[3]。つまり、宇宙データセンターそのものがすぐに主流になるというより、現実の収容力を持つ事業者がどう計算需要を取り込むかが当面の焦点だ。\n\n同じ7月17日には、MetaがAnthropicに対して最大100億ドル規模の計算力リースを協議しているとReutersが報じた。CNBCも、AnthropicがMetaから計算能力を借りる初期協議に入っていると伝えており、生成AIの競争で「計算能力の確保」が戦略の中心にあることがわかる[4][5]。SpaceXの報道は、その延長線上で、誰がAI計算資源の供給者になれるのかという範囲をさらに広げた格好だ。\n\n加えて、SpaceXは7月16日にFalcon 9でペンタゴン向け低軌道データネットワークの衛星を21基追加しており、ネットワーク面でも国防分野との結びつきを深めている[6]。国防総省向けの通信・データネットワークと、計算能力の提供が並行して進めば、SpaceXはロケット企業というより、国家向けデジタル基盤の一部として位置づけられる可能性がある。\n\n一方で、市場ではこの話題がSpaceX株の短期的な材料にとどまるとの見方もある。Investing.comは、報道後に株価が一時的に持ち直したものの、その上昇は長続きしなかったと伝えた[7]。またReutersは、SpaceX株の下落で空売り筋が大きな利益を上げたと報じており、投資家の評価はなお割れている[8]。\n\nAWS、Azure、GCPといった大手クラウドの視点で見ると、この動きは「クラウド＝巨大データセンター」という前提が少しずつ揺らいでいることを示す。AI時代の計算資源は、地上のリージョンだけでなく、専用クラスタ、他企業とのリース契約、さらには宇宙インフラまで含めた広い供給網で争われる局面に入った。SpaceXの協議は、その境界線を押し広げる象徴的な一件と言える[1][2][3][4][5]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Musk's SpaceX in talks to supply the Pentagon with computing power, WSJ reports - Reuters",
+              "url": "https://www.reuters.com/business/media-telecom/musks-spacex-talks-provide-computing-power-pentagon-wsj-reports-2026-07-17/",
+              "source": "Reuters"
+            },
+            {
+              "id": 2,
+              "title": "SpaceX in discussions to provide computing to Pentagon: report (SPCX:NASDAQ) - Seeking Alpha",
+              "url": "https://seekingalpha.com/news/4615025-spacex-in-discussions-to-provide-computing-to-pentagon-report",
+              "source": "Seeking Alpha"
+            },
+            {
+              "id": 3,
+              "title": "Sam Altman’s space data center trash talk is what most experts already believe - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 4,
+              "title": "Meta, Anthropic in talks for potential $10 billion compute lease deal, source says - Reuters",
+              "url": "https://www.reuters.com/technology/meta-talks-10-billion-anthropic-compute-deal-nyt-reports-2026-07-17/",
+              "source": "Reuters"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic in early talks with Meta to acquire compute power - CNBC",
+              "url": "https://www.cnbc.com/2026/07/17/anthropic-meta-ai-compute.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 6,
+              "title": "On July 16, 2026, a Falcon 9 carried 21 more satellites into orbit for the Pentagon's first operational low Earth orbit data network, pushing the constellation to half its planned size, even as the optical laser mesh that is supposed to let those satellites talk to one another remains dark and unp... - Space Daily",
+              "url": "https://spacedaily.com/sd-on-july-16-2026-a-falcon-9-carried-21-more-satellites-into-orbit-for-the-pentagons-first-operational-low-earth-orbit-data-network-pushing-the-constellation-to-half-its-planned-size-even-as-th/",
+              "source": "Space Daily"
+            },
+            {
+              "id": 7,
+              "title": "SpaceX stock sees brief Pentagon AI bump, while CoreWeave slides on pricing threat - Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/spacex-stock-sees-brief-pentagon-ai-bump-while-coreweave-slides-on-pricing-threat-4798980",
+              "source": "Investing.com"
+            },
+            {
+              "id": 8,
+              "title": "Short sellers notch $8.7 bln profit as SpaceX shares dip to IPO price - Reuters",
+              "url": "https://www.reuters.com/business/media-telecom/short-sellers-rack-up-87-bln-profit-spacex-slips-below-ipo-price-ortex-2026-07-16/",
+              "source": "Reuters"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "cloud",
+          "title_highlights": [
+            "SpaceX",
+            "Pentagon",
+            "AI"
+          ],
+          "three_lines_highlights": [
+            "Pentagon",
+            "計算能力",
+            "10B"
+          ],
+          "id": "cloud-1"
+        }
+      ],
+      "summary": "クラウド分野では、従来の大手クラウドやデータセンターに加え、SpaceXのような宇宙インフラ企業が計算資源の供給側に入り得る動きが注目されています。AI需要の拡大を背景に、計算能力の調達先が多様化し、国家機関向けを含むインフラ競争がデータセンターの枠を超えて広がりつつあります。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Claude Codeの“サンドボックス”化が進む一方、開発者ツールの安全性と攻防が一段と先鋭化",
+          "summary_ja": "Claude Codeの新しいブラウザ連携や1Password統合で、AIエージェントは“ログインまで任せる”段階に入りつつあります。同時に、Cursorの未修正脆弱性や、Claude Code/DeepSeekを悪用したサイバー攻撃の報告が出ており、開発者ツールの便利さとリスクが同時に拡大しています。資金調達や製品投入の加速も含め、AIコーディング市場は機能競争から運用・防御競争へ移っています。",
+          "summary_en": "Claude Code is gaining browser and password-manager integrations that push AI agents closer to full login-capable workflows. At the same time, a lingering Cursor vulnerability and reports of attacks leveraging Claude Code and DeepSeek show that the developer-tool boom is also intensifying security risk. Funding and product launches continue to accelerate, but the market is increasingly being shaped by safety and operational trust.",
+          "three_lines": [
+            "Claude Codeはブラウザ連携を強めました。",
+            "Cursor脆弱性は未修正のまま残りました。",
+            "AIコーディング市場は安全性競争へ移ります。"
+          ],
+          "body_ja": "AI開発ツールの競争は、単なる“コード生成の速さ”から、実際の開発作業や認証処理までどこまで任せられるかへと軸足を移している。MediaPostによると、ClaudeはClaude Code向けに「sandbox」ブラウザを内蔵し、エージェントがより実務的にWebを扱える方向へ進んでいる[1]。さらに1Passwordは、Claudeがパスワードや2要素認証コードを見ずにWebサイトへサインインできる連携をMac向けに始めたとされ、AIエージェントの“ログイン代行”が現実味を帯びてきた[4]。  \n\n機能強化の一方で、開発者ツールの安全性はより厳しく問われている。GIGAZINEは、CursorのWindows版に「リポジトリを開くだけ」で任意コード実行につながる脆弱性があり、報告から7か月たっても修正されていないと伝えた[5]。これは、AI支援エディタが便利になるほど、プロジェクトを開くという日常操作そのものが攻撃面になりうることを示す。つまり、AIコーディング環境は“生産性の拡大”と“攻撃経路の拡大”を同時に抱え込んでいる。  \n\nさらに、Security Affairsは、2026年6月の侵入キャンペーンで中国系アクターがClaude CodeとDeepSeekを使って攻撃を自動化し、政府システムや金融機関を狙ったと報告した[6]。ここで重要なのは、AI開発ツールが防御側だけでなく攻撃側にも流用される点だ。Claude Codeのようなエージェント型ツールが、正規の開発フローを支えるほど、悪用時の自動化効果も大きくなる。  \n\n市場面では、AIコーディング分野への投資熱も続く。TechCrunchは、インドのAIコーディング新興Emergentが1.3億ドルを調達し、評価額15億ドルでユニコーン化したと報じた[3]。同記事の抜粋でも、Lovable、Replit、Cursorなどが巨額資金を集め、開発ツール競争が激化していることが示されている[3]。OpenAIもCodex向けの230ドルのキーボードを投入し、エージェント利用を囲い込む動きを見せた[7]。  \n\n加えて、AnthropicはClaude Fable 5の有料アクセスを7月19日まで延長し、レート制限を50%引き上げたという[2]。利用者側から見れば、こうした延長や増枠は歓迎材料だが、同時に“どのモデルを、どの権限で、どこまで業務に組み込むか”の設計が一段と重要になる。要するに2026年夏のAI開発ツール市場は、機能拡張の競争と、認証・権限・脆弱性・悪用対策を含む運用競争が表裏一体になった局面に入っている。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Advertisers Cannot Ignore The Disappearing AI Browser 07/13/2026 - MediaPost",
+              "url": "https://www.mediapost.com/publications/article/416470/",
+              "source": "MediaPost"
+            },
+            {
+              "id": 2,
+              "title": "Claude Fable 5 Extends To July 19. 7 Days, 7 Power Moves - Forbes",
+              "url": "https://www.forbes.com/sites/sandycarter/2026/07/13/claude-fable-5-extends-to-july-19-7-days-7-power-moves/",
+              "source": "Forbes"
+            },
+            {
+              "id": 3,
+              "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 4,
+              "title": "1Password now lets Claude sign in to websites without seeing your passwords - 9to5Mac",
+              "url": "https://9to5mac.com/2026/07/16/1password-now-lets-claude-sign-in-to-websites-without-seeing-your-passwords/",
+              "source": "9to5Mac"
+            },
+            {
+              "id": 5,
+              "title": "A vulnerability in Cursor that allows arbitrary code execution simply by 'opening the repository' has not been fixed even 7 months after it was reported, and researchers have now published the full details. - GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20260715-cursor-0day-disclosure/",
+              "source": "GIGAZINE"
+            },
+            {
+              "id": 6,
+              "title": "Claude Code and DeepSeek Powered Chinese Cyber Espionage Campaign - Security Affairs",
+              "url": "https://securityaffairs.com/195474/ai/claude-code-and-deepseek-powered-chinese-cyber-espionage-campaign.html",
+              "source": "Security Affairs"
+            },
+            {
+              "id": 7,
+              "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+              "source": "TechCrunch"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "Cursor",
+            "1Password"
+          ],
+          "three_lines_highlights": [
+            "Claude Code",
+            "Cursor",
+            "AIコーディング"
+          ],
+          "id": "devtools-1"
+        }
+      ],
+      "summary": "AI開発ツールは、コード生成だけでなくブラウザ操作や認証連携まで担う“実行エージェント”へ進化し、開発現場への浸透が一段と進んでいます。一方で、未修正脆弱性や悪用事例の増加が示す通り、便利さの拡大と同時に安全性・権限管理・防御設計が主要な競争軸になりつつあります。市場全体としては、機能追加の競争から、いかに安全に運用できるかを問う段階へ移行しています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "EU、GoogleにAndroidと検索データの開放を追加命令　AIアシスタント競争でDMA執行を具体化",
+          "summary_ja": "欧州委員会は、Googleに対してAndroid上の機能アクセスと検索データの共有を一段と求め、AIアシスタントや検索競争の「入口」を広げるDMA運用を明確化した。Geminiを含む自社サービスと同等の扱いを、第三者AIにも求める構図が鮮明になった。[1][2][4][6][7][8]",
+          "summary_en": "The European Commission has further clarified DMA enforcement by requiring Google to open Android feature access and share search data, aiming to broaden competition for AI assistants and search services in Europe.[1][2][4][6][7][8]",
+          "three_lines": [
+            "EUがGoogleのAndroid開放を追加命令した",
+            "検索データ共有で競争条件をそろえた",
+            "AIアシスタントの参入障壁を下げた"
+          ],
+          "body_ja": "欧州委員会は7月16日、Googleに対し、Android端末上で競合AIアシスタントが自社サービスと同等に機能へアクセスできるようにし、検索競争のために必要な一部データも第三者に開放するよう求めた。報道各社によれば、対象は「Androidの機能アクセス」と「検索データ」で、狙いはAIアシスタントと検索エンジンの競争条件をより公平にすることだという。[1][3][4][6][7][8]\n\n今回の措置で特に注目されるのは、DMA（デジタル市場法）の執行が、一般論からかなり具体的な運用ルールに踏み込んだ点だ。Reutersは、GoogleがOpenAIを含むAI競合や検索エンジン競争相手に対し、EUルールに沿ってサービスへのアクセスを支援する必要があると報じた。Ars Technicaも、数か月の検討を経て欧州委が新たなDMA措置を発表したと伝えており、EUが「相互運用性」と「競争」を実務レベルで押し出していることがうかがえる。[2][6]\n\nAndroid側では、第三者AIサービスがGeminiと同じ水準の端末機能アクセスを得るよう求められている点がポイントだ。Washington Postは、ユーザーが競合のAIアシスタントをより簡単に呼び出せるようにする狙いを示し、MacRumorsは「Geminiと同じアクセス」という表現で今回の要求を伝えた。つまりEUは、OSの機能をGoogleだけの差別化要素として固定化させず、他社AIにも開放する方向で競争政策を具体化している。[3][4]\n\n一方、検索データの開放は、Googleの検索優位を支える情報面へのテコ入れと言える。The Vergeは、競合検索エンジンとAIアシスタントがAndroidや一部検索データへ「比較可能なアクセス」を持つべきだと報じた。MediaPostも、今回の決定の中心は「第三者がサービスを改善するために必要なデータと機能へのアクセス方法の明確化」にあると説明している。[1][5]\n\nGoogleにとっては、Androidと検索を軸にしたAI戦略に対し、EUが“囲い込み”を許さない姿勢を強めた形だ。自社AIのGeminiをOSや検索に深く統合する一方で、競合にも同等の土台を与えよというのが今回のメッセージであり、欧州ではAIアシスタント競争が、アプリの出来栄えだけでなく、OSと検索のデータ・機能アクセスをめぐる制度設計の段階に入ったといえる。[1][2][6][7][8]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google ordered to open Android and Search to rivals in Europe - The Verge",
+              "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+              "source": "The Verge"
+            },
+            {
+              "id": 2,
+              "title": "It’s official: EU will force Google to share search data and open up AI on Android - Ars Technica",
+              "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+              "source": "Ars Technica"
+            },
+            {
+              "id": 3,
+              "title": "Europe tells Google it must open Android phones to rivals’ AI bots - The Washington Post",
+              "url": "https://www.washingtonpost.com/technology/2026/07/16/europe-tells-google-it-must-open-android-phones-rivals-ai-bots/",
+              "source": "The Washington Post"
+            },
+            {
+              "id": 4,
+              "title": "EU Orders Google to Give Rival AI Apps the Same Android Access as Gemini - MacRumors",
+              "url": "https://www.macrumors.com/2026/07/16/eu-google-ai-apps-android-access/",
+              "source": "MacRumors"
+            },
+            {
+              "id": 5,
+              "title": "Google Ordered By EU Commission To Share Anonymized Search Data 07/20/2026 - MediaPost",
+              "url": "https://www.mediapost.com/publications/article/416625/google-ordered-by-eu-commission-to-share-anonymize.html",
+              "source": "MediaPost"
+            },
+            {
+              "id": 6,
+              "title": "Google required to open up to AI, search engine rivals under EU-mandated changes - Reuters",
+              "url": "https://www.reuters.com/world/google-required-open-up-ai-search-engine-rivals-under-eu-mandated-changes-2026-07-16/",
+              "source": "Reuters"
+            },
+            {
+              "id": 7,
+              "title": "EU Orders Google to Open Android to AI Rivals and to Share Search Data - CNET",
+              "url": "https://www.cnet.com/tech/mobile/eu-dma-regulation-google-android-ai-search-data/",
+              "source": "CNET"
+            },
+            {
+              "id": 8,
+              "title": "EU orders Google to open up Android and share search data - Telecoms",
+              "url": "https://www.telecoms.com/regulation/eu-orders-google-to-open-up-android-and-share-search-data",
+              "source": "Telecoms"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "global",
+          "title_highlights": [
+            "Google",
+            "Android",
+            "検索データ",
+            "DMA"
+          ],
+          "three_lines_highlights": [
+            "Android",
+            "検索データ",
+            "AIアシスタント"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "欧州VCのAI集中がさらに鮮明に　資金の6割超がAIへ、メガラウンド偏重で投資先が絞り込み",
+          "summary_ja": "欧州のベンチャー投資で、AIへの資金集中が一段と進んでいる。PitchBookによると、2026年Q2の欧州VCでは取引額の6割超がAIに流れ、資金は前年よりも前倒しで集まっている一方、投資先は少数の有力案件に絞られつつある。[1][8]",
+          "summary_en": "European VC funding is concentrating sharply on AI. PitchBook says AI accounted for more than 60% of deal value in Europe in Q2 2026, with funding flowing into fewer companies and larger mega-rounds.[1][8]",
+          "three_lines": [
+            "欧州VC資金の6割超がAIに集中",
+            "大型調達が資金流入をさらに押し上げる",
+            "投資先は少数の有力AI社に絞られる"
+          ],
+          "body_ja": "欧州のベンチャー投資で、AIへの偏りが一段と強まっている。PitchBookは、2026年Q2の欧州VCについて、取引額の6割超がAIに向かったと指摘し、しかも資金はより少ない社数に集まっているという。[1] つまり、AIは「注目テーマ」から「資金の受け皿」へと完全に移った段階にある。\n\nこの動きの背景にあるのが、メガラウンド偏重だ。PitchBookは、欧州VCの資金調達が2025年を上回るペースで進む一方、より少ない案件数に集中していると説明している。[1] また、AI-native企業がVC資金を大きく吸収していることは、PitchBookの別集計でも確認できる。[4] 資金が集まりやすいのは、基盤モデルやAIインフラのようにスケールが見えやすい領域で、投資家は「勝ち筋」が見える企業により高い価格を払う局面に入っているとみられる。[4]\n\n欧州ではAI以外の分野でも、投資の選別が進んでいる。たとえばEコマースでは、投資家がAI-nativeや決済隣接の企業をより高く評価し、実績のあるモデルに資金を寄せている。[2] 防衛テックでも、Q2は大型案件とデュアルユース企業が存在感を増した。[3] こうした複数領域の動きは、欧州VC全体が「広く薄く」ではなく「狭く深く」へ移っていることを示している。[1][2][3]\n\nもっとも、資金集中が進むほど、欧州でのAI戦略は資本市場だけでなく規制対応とも切り離せない。EU AI Actの下では、AI開発・提供企業に対して透明性やリスク管理がより重く問われるため、投資家は技術力だけでなく、コンプライアンスを含めた事業実装力を見極める必要がある。検索結果そのものは規制の詳細を扱っていないが、少数の大型案件に資金が集まる現在の環境では、規制適合性が資金調達の成否を左右しやすい。[1][4]\n\n今後の欧州AI市場では、資金が集まる企業とそうでない企業の差がさらに広がりそうだ。研究面で有望なブレークスルーがあっても、商用化の道筋や大規模な計算資源へのアクセスがなければ、メガラウンドを呼び込むことは難しい。欧州VCの「AI集中」は、技術トレンドであると同時に、投資家が勝者選別を強めていることの表れでもある。[1][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "European VC funding narrows around a handful of AI bets - PitchBook",
+              "url": "https://pitchbook.com/news/articles/european-vc-funding-narrows-around-a-handful-of-ai-bets",
+              "source": "PitchBook"
+            },
+            {
+              "id": 2,
+              "title": "Q2 2026 E-Commerce VC First Look - PitchBook",
+              "url": "https://pitchbook.com/news/reports/q2-2026-e-commerce-vc-first-look",
+              "source": "PitchBook"
+            },
+            {
+              "id": 3,
+              "title": "Q2 2026 Defense Tech VC First Look - PitchBook",
+              "url": "https://pitchbook.com/news/reports/q2-2026-defense-tech-vc-first-look",
+              "source": "PitchBook"
+            },
+            {
+              "id": 4,
+              "title": "Venture Capital Funding Trends - PitchBook",
+              "url": "https://pitchbook.com/blog/venture-capital-funding-trends",
+              "source": "PitchBook"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "global",
+          "title_highlights": [
+            "AI",
+            "6割超",
+            "メガラウンド"
+          ],
+          "three_lines_highlights": [
+            "6割超",
+            "メガラウンド",
+            "AI-native"
+          ],
+          "id": "global-2"
+        },
+        {
+          "title": "EU、GoogleにAndroidのAI同等アクセスを要求　Siri対応にも波及",
+          "summary_ja": "EU欧州委員会は、Googleに対しAndroid上で第三者AIアシスタントへGemini同等のアクセスを認めるよう正式に命じた。カメラ、マイク、画面表示など端末機能への到達範囲が論点で、同時に検索データの開放も進む。AppleのSiriにも、AI機能を規制に合わせる圧力が及ぶ構図だ。",
+          "summary_en": "The European Commission has formally ordered Google to give rival AI services the same Android access as Gemini, covering device features such as the camera, microphone, and screen. The move is part of a broader DMA-driven push that also extends to search data, while Apple’s Siri faces related compliance pressure.",
+          "three_lines": [
+            "EUがGoogleに同等アクセスを義務付ける",
+            "Androidのカメラ・マイク等が開放対象になる",
+            "Apple SiriのAI対応にも規制圧力が波及する"
+          ],
+          "body_ja": "EUのデジタル市場法（DMA）が、生成AI時代の競争政策に一段と踏み込んだ。欧州委員会はGoogleに対し、同社のGeminiだけでなく第三者のAIサービスにも、Android端末機能への同等アクセスを認めるよう正式に命じた。[1][2][4][6][8]\n\n焦点は、AIアシスタントがスマートフォン上でどこまで「端末に触れられるか」だ。検索結果によれば、対象にはカメラ、マイク、画面上の情報、起動のためのウェイクワードなどが含まれる。つまりEUは、AIアシスタント同士の体験差が、OS側の囲い込みで不当に広がらないようにしようとしている。[2][4][7][8]\n\nこの判断は、GoogleのAI戦略にとって逆風に見える一方、規制対応の面ではむしろ「勝ち筋」でもある。The Vergeは、GoogleがAndroidの整合化に猶予を得た一方で、AppleはSiriをAI対応で規制適合させる必要があると指摘しており、欧州では両社の立場が単純な優劣ではなく、ルール適合の進み方で比較されつつある。[5]\n\nさらに今回の措置は、Androidの機能開放だけにとどまらない。EUはGoogleに対し、第三者がサービス改善に必要とする検索データへのアクセスも広げる方針を示しており、検索と端末の両面で「自社優遇」を狭める狙いが見える。[3][6][7][8]\n\n注目すべきは、EUの競争政策が「AIモデルの性能競争」ではなく、「配布経路と端末アクセスの公平性」を競争条件として定義し始めた点だ。AIサービスは学習・推論の優劣だけではなく、OS、検索、音声起動、画面参照といった実装層で差がつく。今回の決定は、欧州がその土台を“開かれた市場”として再設計しようとしていることを示している。[1][2][6][8]\n\n今後の焦点は、Googleがどこまで実装を受け入れるか、そしてAppleを含む他の大手が同様の規制圧力にどう対応するかだ。生成AIの競争は、モデル開発の競争であると同時に、EUではOSとデータのアクセス権をめぐる制度競争へと広がっている。[1][5][7]",
+          "references": [
+            {
+              "id": 1,
+              "title": "EU Orders Google to Give Rival AI Apps the Same Android Access as Gemini - MacRumors",
+              "url": "https://www.macrumors.com/2026/07/16/eu-google-ai-apps-android-access/",
+              "source": "MacRumors"
+            },
+            {
+              "id": 2,
+              "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants - The Hacker News",
+              "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+              "source": "The Hacker News"
+            },
+            {
+              "id": 3,
+              "title": "Google Ordered By EU Commission To Share Anonymized Search Data 07/20/2026 - MediaPost",
+              "url": "https://www.mediapost.com/publications/article/416625/google-ordered-by-eu-commission-to-share-anonymize.html",
+              "source": "MediaPost"
+            },
+            {
+              "id": 4,
+              "title": "Europe tells Google it must open Android phones to rivals’ AI bots - The Washington Post",
+              "url": "https://www.washingtonpost.com/technology/2026/07/16/europe-tells-google-it-must-open-android-phones-rivals-ai-bots/",
+              "source": "The Washington Post"
+            },
+            {
+              "id": 5,
+              "title": "Google is better at playing the AI regulations game - The Verge",
+              "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
+              "source": "The Verge"
+            },
+            {
+              "id": 6,
+              "title": "EU Orders Google to Open Android to AI Rivals and to Share Search Data - CNET",
+              "url": "https://www.cnet.com/tech/mobile/eu-dma-regulation-google-android-ai-search-data/",
+              "source": "CNET"
+            },
+            {
+              "id": 7,
+              "title": "Google ordered to open Android and Search to rivals in Europe - The Verge",
+              "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+              "source": "The Verge"
+            },
+            {
+              "id": 8,
+              "title": "EU orders Google to open up Android and share search data - Telecoms",
+              "url": "https://www.telecoms.com/regulation/eu-orders-google-to-open-up-android-and-share-search-data",
+              "source": "Telecoms"
+            }
+          ],
+          "published_date": "2026-07-18",
+          "category": "global",
+          "title_highlights": [
+            "Google",
+            "Android",
+            "Siri"
+          ],
+          "three_lines_highlights": [
+            "EU",
+            "Android",
+            "Siri"
+          ],
+          "id": "global-3"
+        }
+      ],
+      "summary": "欧州では、DMAを軸にGoogleへの規制運用が具体化し、Android上の機能アクセスや検索データ共有を通じて、Geminiだけでなく第三者AIにも同等の競争条件を求める流れが強まっている。あわせて、欧州VCではAIへの資金集中がさらに進み、投資額の大半が少数の有力案件に集まるなど、規制と資本の両面でAI市場の再編が一段と鮮明になっている。"
+    }
+  ]
+}
