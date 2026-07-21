@@ -1,0 +1,766 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T23:58:46.139738+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "日本の専守防衛でなぜパランティアなのか。防衛省・自衛隊がAI地政学分析に注目する理由",
+          "summary_ja": "防衛省・自衛隊がパランティア導入に動いている背景には、単なるAIブームではなく、地政学・経済安全保障・現場実装を同時に満たす分析基盤への期待がある。FDE型の実装力や、AIを国家戦略として見る文脈を踏まえると、日本の専守防衛においても「使えるAI」をどう現場に落とすかが焦点になる。",
+          "summary_en": "Japan’s defense sector is reportedly looking at Palantir not as a trendy AI vendor, but as an operational platform for geostrategic analysis and field deployment. The key issue is how to turn AI into usable, mission-ready infrastructure under Japan’s defensive doctrine and economic security constraints.",
+          "three_lines": [
+            "防衛省は実装型AIに注目を強めた。",
+            "パランティアは現場展開力を武器にする。",
+            "専守防衛では分析と運用の接続が要る。"
+          ],
+          "body_ja": "防衛省・自衛隊がパランティア導入に動いている、という報道を読み解くと、論点は単なる「海外の有名AI企業を採用するか」ではない。むしろ、地政学リスクの把握、経済安全保障の判断、そして現場で使える分析基盤をどう揃えるか、という実務の問題に近い。[1][3]\n\n手がかりの一つは、パランティアの強みが「営業」ではなく、顧客現場へ深く入り込んで導入を進めるFDE（Forward Deployed Engineer）にある点だ。売上成長率85%、調整後営業利益率60%という紹介とともに、その実装力が強調されている。[5] 防衛分野では、単なるソフトウェア提供よりも、制度・運用・データの違いを吸収しながら現場に定着させる力が重視されやすい。ここでFDE型の支援は、製品そのもの以上に価値を持つ。[5]\n\nもう一つは、AIを「国家戦略」として捉える視点である。関連カテゴリーとして「AI国家戦略」が掲げられ、NVIDIAのフィジカルAIが日本企業に時価総額面の事業機会をもたらすという文脈も示されている。[3][2] これは、AIが民間の業務効率化ツールにとどまらず、産業競争力や国家の政策判断に直結する段階へ入っていることを示す。防衛省・自衛隊がAI地政学分析に注目するのも、この延長線上にあると考えられる。[3][2]\n\n専守防衛の観点では、必要なのは攻撃的な自動化ではなく、脅威の把握、状況認識、資源配分の高度化だ。周辺情勢、物流、サイバー、供給網、同盟国動向などを横断的に見られる分析環境は、意思決定の速度と精度を左右する。パランティアへの関心は、こうした「情報を統合して判断に変える」仕組みへの期待として理解するとわかりやすい。[1][3]\n\nただし、導入の価値は派手さでは測れない。防衛組織は情報保全、運用の継続性、既存システムとの接続、そして日本の制度との整合性を同時に求める。FDEのような現場密着型の導入手法が評価されるのは、その複雑さに正面から向き合えるからだろう。[5] つまり注目点は「どのAIか」だけでなく、「どう組み込み、どう使い続けるか」にある。[5][1]\n\nまた、日本国内にはAIデータセンター建設や国産AI基盤への関心もある。韓国SKグループが日本にAIデータセンターを作る計画が報じられており、AIインフラの地政学的な重みは増している。[4] 防衛分野で外部プラットフォームをどう活用するかは、技術選定であると同時に、経済安全保障の設計問題でもある。[4][3]\n\n結局のところ、防衛省・自衛隊がパランティアに注目する理由は、AIが「賢い検索」ではなく「意思決定の土台」になりつつあるからだ。専守防衛を支えるには、戦うためのAIではなく、守るために状況を正確に掴み、素早く動けるAIが要る。その意味で、パランティアは日本の防衛AI議論を象徴する存在になっている。[1][5][3]",
+          "references": [
+            {
+              "id": 1,
+              "title": "日本の専守防衛のためのパランティア。なぜ防衛省・自衛隊はパランティア導入を決めるのか？",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/06/post_8695.html",
+              "source": "ITmedia Blog"
+            },
+            {
+              "id": 2,
+              "title": "経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔",
+              "url": "https://blogs.itmedia.co.jp/serial/",
+              "source": "ITmedia Blog"
+            },
+            {
+              "id": 3,
+              "title": "「AI国家戦略」カテゴリーの投稿：経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔",
+              "url": "https://blogs.itmedia.co.jp/serial/ai-7/",
+              "source": "ITmedia Blog"
+            },
+            {
+              "id": 4,
+              "title": "韓国財閥2位SKが日本に作るAIデータセンター計画。ちなみにSKハイニックスの時価総額は150兆円超",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/06/2skaisk150.html",
+              "source": "ITmedia Blog"
+            },
+            {
+              "id": 5,
+              "title": "パランティアの天才的な\"営業\"FDE。売上成長率85%、調整後営業利益率60%の秘密とは？",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/06/fdese.html",
+              "source": "ITmedia Blog"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "japan",
+          "title_highlights": [
+            "パランティア",
+            "AI地政学"
+          ],
+          "three_lines_highlights": [
+            "AI",
+            "FDE",
+            "専守防衛"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "国産AIの実装競争が加速、PLaMo2.0やサカナAIに見る性能・安全性・調達面の新局面",
+          "summary_ja": "国産LLMの実用化が、性能だけでなく安全性や調達の観点でも競争局面に入った。PLaMoの無料トライアルや商用利用可能な取り組みは、企業導入のハードルを下げる動きとして注目される。",
+          "summary_en": "Japan’s domestic LLM market is entering a new phase where performance, safety, and procurement considerations matter as much as model quality. Initiatives such as PLaMo’s free trial and commercial-use access are lowering barriers for enterprise adoption.",
+          "three_lines": [
+            "PLaMoの無料試行で導入検証が進む。",
+            "国産LLMは性能と安全性で競争が深まる。",
+            "調達面でも国内AI採用の追い風が強まる。"
+          ],
+          "body_ja": "国産AIをめぐる議論は、研究開発の成果を競う段階から、実際に企業や組織がどう使い、どう調達するかという実装競争へ移りつつある。今回のPLaMoは、Preferred Networks系のPreferred Elementsが開発する大規模言語モデルで、無料トライアルを開始し、その期間中は商用利用も可能だとされた。国産フルスクラッチのLLMとして、日本語精度を強みに打ち出す構図は、単なる性能競争にとどまらず、国内での実用導入を意識した展開として読める。[1]\n\n注目したいのは、こうした国産モデルの価値が「高性能」だけでは測れなくなっている点だ。企業や官公庁がAIを採用する際には、データの扱い、安全性、運用のしやすさ、そして調達上の説明責任が重くなる。PLaMoのように商用利用を含む形で試せるモデルは、PoCから本番導入までの距離を縮めやすい。結果として、海外製の汎用モデル一択ではなく、日本語業務に最適化された国産モデルを比較検討する余地が広がる。[1]\n\n一方で、国産AIの存在感が高まるほど、導入の判断軸はより現実的になる。どれだけ精度が高くても、実務で扱うデータの機微や、業務委託・購買の説明に耐えられなければ採用は進みにくい。逆に、国内ベンダーが安全性や商用条件を明確に打ち出せれば、企業側は調達しやすくなる。今回のPLaMoの動きは、国産LLMが「作る」競争から「入れる」競争へ移ったことを示す象徴的な一例といえる。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "GPT-4を超える日本語精度の国産フルスクラッチLLM「PLaMo」無料トライアル開始、期間中は商用利用も可能",
+              "url": "https://forest.watch.impress.co.jp/docs/news/1615727.html",
+              "source": "窓の杜"
+            },
+            {
+              "id": 2,
+              "title": "2025年3月の記事一覧",
+              "url": "https://forest.watch.impress.co.jp/backno/top/index202503.html",
+              "source": "窓の杜"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "japan",
+          "title_highlights": [
+            "PLaMo",
+            "国産LLM"
+          ],
+          "three_lines_highlights": [
+            "PLaMo",
+            "国産LLM",
+            "商用利用"
+          ],
+          "id": "japan-2"
+        }
+      ],
+      "summary": "日本国内では、AIを「研究成果」ではなく、防衛や行政、企業実装に直結する基盤技術としてどう使いこなすかが主題になっています。防衛分野では地政学分析や現場での運用まで見据えた実装力が重視され、民間では国産LLMが性能に加えて安全性や調達のしやすさで競争する段階に入りました。全体として、AIの価値がモデル性能だけでなく、国家戦略や現場適用まで含めた“使えるかどうか”へ移っている流れです。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Google、Gemini向け新サーバーチップを開発　推論効率を6〜10倍に引き上げへ",
+          "summary_ja": "Googleが、Gemini向けに最適化した新サーバーチップを開発していると報じられました。既存チップより6〜10倍効率的になる可能性があり、Geminiの推論コストや計算資源の負担を下げる狙いがあるとみられます。合わせてGoogleは、Gemini 3.6 Flashや3.5 Flash-Lite、3.5 Flash Cyberなど新モデル群も発表しており、モデル性能と計算効率の両面で攻勢を強めています。",
+          "summary_en": "Google is reportedly developing a new server chip optimized for Gemini, with the potential to be 6–10 times more efficient than its current chip. The move appears aimed at reducing inference cost and compute strain. At the same time, Google is rolling out new Gemini models, signaling a broader push to improve both model capability and infrastructure efficiency.",
+          "three_lines": [
+            "GoogleはGemini向け新チップを開発中だ。",
+            "推論効率は既存比6〜10倍を狙う。",
+            "新Gemini群で性能と効率を同時に強化する。"
+          ],
+          "body_ja": "Googleが、Gemini向けに新しいサーバーチップを設計していることが報じられた。狙いは、Googleの自社製AIモデルであるGeminiの処理効率を高めることだ。報道によれば、このチップは現行のGoogle製チップより6〜10倍効率的になる可能性があるという[1][2]。\n\nこの話題が注目を集めた背景には、AIモデルの性能向上が、そのまま巨大な計算コストの増大につながっている現状がある。CNBCは、AlphabetがGeminiをより効率よく動かすための専用サーバーチップを開発していると伝え、同社が計算資源の制約を和らげ、巨額のAI投資が成果につながっていることを示したい考えだと報じた[3][5]。別の報道では、チップは『Frozen v2』と呼ばれ、Geminiのアーキテクチャの一部をシリコンに恒久的に埋め込む設計だとされている[3]。\n\n重要なのは、Googleがここで単にモデル改良を進めているだけではない点だ。Ars TechnicaとTechCrunchによれば、Google DeepMindは同日、新たにGemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberを公開した[4][7]。3.6 Flashは、コーディング、知識作業、マルチモーダル性能の改善をうたいつつ、より軽量に動く“workhorse model”として位置づけられている[7]。一方で3.5 Flash Cyberは、ソフトウェア脆弱性の発見・修正を目的とするサイバーセキュリティ向けモデルで、当初は政府や信頼できるパートナーに限定される[6]。\n\nつまり今回のGoogleの動きは、モデルの性能向上と、それを支えるインフラの省電力・省コスト化を同時に進める戦略といえる。しかもGoogleは、3.5 Proをまだテスト中としつつ、さらにGemini 4の訓練も進めているとされる[4][7]。最先端モデルの競争が激化するなかで、AIの勝負は“どれだけ賢いか”だけでなく、“どれだけ安く速く回せるか”へと軸足を移しつつある。Googleの新チップ構想は、その転換を象徴する一手になりそうだ。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google is working on a new AI chip designed to make Gemini more efficient - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 2,
+              "title": "Google is working on developing a new AI chip to improve the efficiency of Gemini. - GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20260721-google-new-ai-chip-designed-gemini/",
+              "source": "GIGAZINE"
+            },
+            {
+              "id": 3,
+              "title": "Alphabet stock pops on report it's developing a more efficient AI chip - CNBC",
+              "url": "https://www.cnbc.com/2026/07/20/alphabet-googl-stock-ai-chip-report.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "Google reveals faster and cheaper Gemini 3.6 Flash, says 3.5 Pro is still in testing - Ars Technica",
+              "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+              "source": "Ars Technica"
+            },
+            {
+              "id": 5,
+              "title": "Google bets on custom AI chip to boost Gemini efficiency: Report - CNBC",
+              "url": "https://www.cnbc.com/video/2026/07/20/google-bets-on-custom-ai-chip-to-boost-gemini-efficiency-report.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 6,
+              "title": "Google expands Gemini lineup with cheaper models and new Mythos rival - CNBC",
+              "url": "https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 7,
+              "title": "Google releases three new Gemini models — but no 3.5 Pro - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+              "source": "TechCrunch"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "models",
+          "title_highlights": [
+            "Gemini",
+            "6〜10倍",
+            "Frozen v2"
+          ],
+          "three_lines_highlights": [
+            "Gemini",
+            "6〜10倍",
+            "3.6 Flash"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "MoonshotのKimi K3、Claude/GPT級と主張　中国発オープンモデルの競争が再加速",
+          "summary_ja": "中国のMoonshot AIが新モデル「Kimi K3」を公開し、OpenAIやAnthropicの上位モデルに迫る性能をうたった。複数報道によれば、Kimi K3は一部ベンチマークでClaudeやGPT系を上回り、特にコーディング分野で存在感を示したという。",
+          "summary_en": "Moonshot AI has unveiled Kimi K3, claiming performance close to top-tier OpenAI and Anthropic models. Multiple reports say it even outperformed some rivals on certain benchmarks, especially coding tasks.",
+          "three_lines": [
+            "MoonshotがKimi K3を公開し、上位AIに挑む。",
+            "一部ベンチマークでClaudeやGPT系を上回った。",
+            "中国のオープンモデル競争が再び加速した。"
+          ],
+          "body_ja": "中国のMoonshot AIが公開した「Kimi K3」は、生成AIの勢力図を揺さぶる存在として注目を集めている。Bloombergは、Moonshotが同モデルについてOpenAIやAnthropicの上位プラットフォームに「並ぶ」と主張したと伝え、Gizmodoは一部ベンチマークでClaudeとGPT系を破ったと報じた[2][1]。\n\nもっとも、評価は単純な「完全勝利」ではない。CNBCによると、Kimi K3は総合性能ではAnthropicのClaude Fable 5やOpenAIのGPT 5.6 Solにまだ及ばない一方、特定分野では競争力を示しているという[3]。つまり今回の発表は、最先端モデルの絶対優位を崩したというより、「用途次第では中国勢が十分に戦える」ことを示した出来事と見るべきだろう[3]。\n\n特に反響が大きいのは、Kimi K3がオープンモデル、あるいはオープンウェイトモデルとして打ち出されている点だ。New York Postは「オープンソースAIモデル」と表現し、CoinDeskは無料のオープンウェイト型コーディングモデルとして、Fronted Code ArenaでAnthropicやOpenAIを上回ったと伝えた[4][5]。さらにCoinDeskは、この動きが暗号資産市場にも波及したと報じ、実際の市場心理にまで影響を与えたことを示している[5]。\n\nまた、今回のKimi K3は単なる話題作ではなく、規模の面でも存在感が大きい。SCMPは、このモデルを2.8兆パラメータ級の大規模言語モデルとし、米中のAI格差を「数週間」の水準まで縮める可能性があるとするアナリスト見解を紹介した[8]。仮にこの見立てが広く共有されれば、フロンティアAIの競争軸は「米国のクローズド先行」から「中国のオープンモデル追撃」へと、さらに色合いを変えることになる[8]。\n\n総じてKimi K3のポイントは、性能だけではない。トップ級モデルに迫るとされる実力、コーディング分野での強さ、そしてオープンモデルとして配られるという戦略が重なり、米国勢が築いてきた優位に対して中国勢が新たな圧力をかけ始めた点にある[1][2][5]。今回の発表は、生成AI競争が「モデルの賢さ」だけでなく、「公開形態」「価格」「開発者コミュニティへの浸透」で勝負する段階に入ったことを印象づけた[4][7]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "China Just Dropped Another Bomb on America’s Frontier AI Companies - Gizmodo",
+              "url": "https://gizmodo.com/china-just-dropped-another-bomb-on-americas-frontier-ai-companies-2000786670",
+              "source": "Gizmodo"
+            },
+            {
+              "id": 2,
+              "title": "China’s Powerful New Moonshot AI Model Closes Gap With US Rivals - Bloomberg.com",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals",
+              "source": "Bloomberg"
+            },
+            {
+              "id": 3,
+              "title": "Chinese startup Moonshot AI unveils Kimi model it says rivals OpenAI, Anthropic - CNBC",
+              "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "Chinese AI firm Moonshot unveils powerful model with capabilities close to Anthropic, OpenAI - New York Post",
+              "url": "https://nypost.com/2026/07/17/business/chinese-ai-firm-moonshot-unveils-powerful-model-with-capabilities-close-to-anthropic-openai/",
+              "source": "New York Post"
+            },
+            {
+              "id": 5,
+              "title": "Bitcoin faces fresh headwinds as China’s Kimi beats Claude, GPT in coding benchmark - CoinDesk",
+              "url": "https://www.coindesk.com/markets/2026/07/17/bitcoin-faces-fresh-headwinds-as-china-s-kimi-beats-claude-gpt-in-coding-benchmark",
+              "source": "CoinDesk"
+            },
+            {
+              "id": 6,
+              "title": "Trump’s former AI czar David Sacks goes off as Chinese AI overtake US models - Cryptopolitan",
+              "url": "https://www.cryptopolitan.com/ai-czar-david-sacks-chinese-ai-overtake-us/",
+              "source": "Cryptopolitan"
+            },
+            {
+              "id": 7,
+              "title": "Should You Try Kimi K3? Here’s How AI Model Compares With ChatGPT And Claude - Forbes",
+              "url": "https://www.forbes.com/sites/tylerroush/2026/07/17/chinese-ai-startup-moonshot-unveils-kimi-k3-model-will-it-challenge-openai-and-anthropic/",
+              "source": "Forbes"
+            },
+            {
+              "id": 8,
+              "title": "Why China’s open-weight AI model Kimi K3 is sparking anxiety in Silicon Valley - South China Morning Post",
+              "url": "https://www.scmp.com/tech/tech-war/article/3361142/why-chinas-open-weight-ai-model-kimi-k3-sparking-anxiety-silicon-valley",
+              "source": "South China Morning Post"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "models",
+          "title_highlights": [
+            "Kimi K3",
+            "Claude/GPT",
+            "オープンモデル"
+          ],
+          "three_lines_highlights": [
+            "Kimi K3",
+            "Claude/GPT",
+            "オープンモデル"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Google、Gemini 3.6 Flashを発表　主力モデルの効率と派生版を強化",
+          "summary_ja": "GoogleはGemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberの3モデルを発表し、主力の“workhorse”モデルを効率面とマルチモーダル性能で底上げした。一方で、3.5 Proはまだ正式公開されず、Gemini 4の開発にも言及した。",
+          "summary_en": "Google announced Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, strengthening its workhorse model with better efficiency and multimodal performance. Meanwhile, 3.5 Pro remains unreleased, while Google also signaled work on Gemini 4.",
+          "three_lines": [
+            "GoogleがGemini 3.6 Flashを発表した。",
+            "低コスト版と防御版も同時に増やした。",
+            "3.5 Proは未公開で、次世代も示唆した。"
+          ],
+          "body_ja": "Google DeepMindが7月21日に打ち出したのは、旗艦級の単独大型モデルではなく、用途別に切り分けた3つのGemini新モデルだった。発表されたのは Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyber で、TechCrunch は 3.6 Flash を Google の “workhorse model” と表現し、コーディング、知識作業、マルチモーダル性能の改善がうたわれていると伝えた[1]。9to5Google も、3.6 Flash が前回の I/O 2026 でのリリースに続く更新であり、3.5 Flash と比べて性能と効率のバランスを高めたモデルだと紹介している[2]。\n\n今回の発表で目を引くのは、主力モデルの強化だけではない。Google はより安価な派生版として 3.5 Flash-Lite を加え、さらにセキュリティ用途に特化した 3.5 Flash Cyber を投入した。CNBC は、この Cyber 版がソフトウェア脆弱性の発見と修正を目的とし、当初は政府機関と信頼できるパートナーに限定されると報じている[3]。The Verge も、CodeMender への統合により脆弱性の特定とパッチ適用に使われるモデルだと説明し、Google がより安価なセキュリティAIの代替を打ち出した点を強調した[6]。つまり Google は、汎用性能を伸ばす 3.6 Flash と、用途を絞った低価格・高専門性モデルを同時に並べることで、モデル群全体の競争力を底上げしようとしている[1][3][6]。\n\n一方で、今回の発表は「次のフラッグシップがすぐ来る」という話ではなかった。TechCrunch は 3.5 Pro がまだ出ていないとし、Ars Technica も 3.5 Pro はなおテスト中だと伝えている[1][4]。それでも Google は、3.5 Pro への期待を残しつつ Gemini 4 の開発に触れており、9to5Google もその点を報じた[2]。CNET も、今回の3モデルは将来の旗艦候補に比べれば主役ではないが、それぞれに役割があるとまとめている[5]。今回のリリースは、単発の大型アップデートというより、Google が Gemini を「高性能な1本」ではなく、「用途別に最適化した製品群」として再設計している流れを示すものだ[1][2][5]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google releases three new Gemini models — but no 3.5 Pro - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 2,
+              "title": "Google launches Gemini 3.6 Flash and 3.5 Flash-Lite, teases Gemini 4 - 9to5Google",
+              "url": "https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/",
+              "source": "9to5Google"
+            },
+            {
+              "id": 3,
+              "title": "Google expands Gemini lineup with cheaper models and new Mythos rival - CNBC",
+              "url": "https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "Google reveals faster and cheaper Gemini 3.6 Flash, says 3.5 Pro is still in testing - Ars Technica",
+              "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+              "source": "Ars Technica"
+            },
+            {
+              "id": 5,
+              "title": "Google Releases 3 New Gemini Models, 3.5 Pro Still Not Available - CNET",
+              "url": "https://www.cnet.com/tech/services-and-software/google-releases-three-new-gemini-models-3-5-pro-still-not-available/",
+              "source": "CNET"
+            },
+            {
+              "id": 6,
+              "title": "Google launches a cheaper alternative to large AI security models like Mythos - The Verge",
+              "url": "https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model",
+              "source": "The Verge"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 3.6",
+            "Flash"
+          ],
+          "three_lines_highlights": [
+            "3.6 Flash",
+            "Flash-Lite",
+            "Flash Cyber"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "今日は、生成AIモデルの競争が「性能向上」だけでなく「推論効率の最適化」に大きく軸足を移している流れが目立ちました。GoogleはGemini向けの新チップやFlash系の新モデル群で計算効率と実用性能を同時に押し上げ、中国勢のMoonshotもKimi K3でClaude/GPT級への接近を打ち出し、上位モデル市場の競争が再加速しています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "MicrosoftがMistralの欧州AI拡張に巨額投資、Azure向け計算基盤の囲い込みを加速",
+          "summary_ja": "MicrosoftがMistralの欧州でのAI拡張に数十億ドル規模で資金を投じ、同時に欧州内の計算基盤を支える構図が浮かび上がった。Azure上でのAIインフラ需要を押さえ込みつつ、AMDの新AI基盤採用も重なり、Microsoftのクラウド戦略がハードウェアとモデルの両面で前進している。",
+          "summary_en": "Microsoft is reportedly committing billions to Mistral’s European AI expansion, reinforcing Azure-linked compute capacity in Europe. The move, alongside Azure’s adoption of AMD’s new Helios AI racks, highlights Microsoft’s push to secure both model and infrastructure layers of the AI cloud stack.",
+          "three_lines": [
+            "MicrosoftがMistral支援で欧州基盤を拡大する",
+            "AzureはAMDの新AIラック導入を進める",
+            "AI計算資源の囲い込み競争が強まる"
+          ],
+          "body_ja": "MicrosoftがMistralの欧州AI拡張に数十億ドル規模で関与する見通しだ。Reutersは、Microsoftが「billions of dollars」をMistralの欧州向け計算基盤に投じることで合意したと報じており、単なる出資というより、AIモデル企業の成長とクラウド基盤の確保を同時に進める動きとして読める[1]。\\n\\n注目すべきは、この案件が欧州という地域にフォーカスしている点だ。Mistralの拡張を支える計算資源が欧州に置かれるなら、MicrosoftにとってはAzureの存在感を地域内で高める材料になる。AIの競争はモデル性能だけでなく、学習・推論を回すためのGPUやデータセンター確保の勝負でもあり、クラウド各社はその供給先を押さえにいっている[1]。\\n\\n同じタイミングで、AzureがAMDの新しいラック規模AIシステム「Helios」を導入する流れも明らかになった。CNBCは、MicrosoftがAzureデータセンターでAMD Heliosラックを展開すると報じ、WhalesbookもAzureが2026年後半に導入を始める見込みだとしている[2][3]。これによりMicrosoftは、AI計算基盤の調達先を広げつつ、NVIDIA依存を和らげる選択肢も増やすことになる。\\n\\nこの二つの動きは、Microsoftのクラウド戦略が「モデル投資」と「インフラ調達」を一体で進めていることを示す。Mistralへの支援で欧州のAI需要を取り込み、Azure側ではAMDの新基盤を受け入れる。結果として、MicrosoftはAIスタートアップ、半導体ベンダー、そして自社クラウドを結びつける形で、AI時代の計算資源をより強く囲い込もうとしている[1][2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Microsoft to fund Mistral's European AI expansion in multibillion-dollar deal - Reuters",
+              "url": "https://www.reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21/",
+              "source": "Reuters"
+            },
+            {
+              "id": 2,
+              "title": "AMD Unveils Helios AI System; Microsoft Azure Joins Client List - Whalesbook",
+              "url": "https://www.whalesbook.com/news/English/technology/AMD-Unveils-Helios-AI-System-Microsoft-Azure-Joins-Client-List/6a5ef6b1fe1c9287f4784049",
+              "source": "Whalesbook"
+            },
+            {
+              "id": 3,
+              "title": "AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer - CNBC",
+              "url": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
+              "source": "CNBC"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "cloud",
+          "title_highlights": [
+            "Mistral",
+            "Azure",
+            "Helios"
+          ],
+          "three_lines_highlights": [
+            "Mistral",
+            "Helios",
+            "AI資源"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "AWS請求額が“数十億ドル”表示に、世界規模のビリング不具合でAmazonが修正対応",
+          "summary_ja": "AWSの請求ポータルで一部ユーザーに、実際には利用していないクラウド料金が“数十億ドル”規模で表示される不具合が発生した。Amazonはビリングポータルのバグを確認し、修正対応を進めている。[1][2]",
+          "summary_en": "A billing bug in AWS caused some customers worldwide to see absurdly large charges in the billions or even trillions of dollars. Amazon said it is working to fix the issue in the AWS billing portal.[1][2]",
+          "three_lines": [
+            "AWS請求画面に巨額表示の不具合が出た。[1][2]",
+            "Amazonはビリングポータルの修正を進めた。[2]",
+            "世界の利用者で誤請求が広がった。[1][4]"
+          ],
+          "body_ja": "AWSの請求画面で、実際には使っていないはずのクラウド料金が“数十億ドル”規模で表示される不具合が起きた。報道によれば、通常はコーヒー1杯より安い程度のサブスクリプションなのに、月額請求が最大で1.5兆ドル級に見えるケースまで出ており、利用者に強い動揺を与えたという。[1][6]\n\nAmazonはこの件について、AWSのビリングポータルにあるバグの解消に取り組んでいると認めた。TechCrunchによると、金曜日に一部顧客が「使っていないクラウドサービスに対し、数十億ドルを支払う」ような見積もり表示を受け取ったとされ、Amazonは修正中と説明した。[2] つまり、少なくとも現時点で問題は実際の利用増ではなく、請求表示の側にある。[2]\n\nこの障害は一地域の珍事ではなく、世界規模で広がったとみられる。The GuardianはBangaloreからBolsoverまで影響が及んだと伝え、Ynetnewsも世界中の顧客に7兆ドル超の偽の請求書が示されたと報じた。[1][4] さらにiTnewsも「astronomical bill estimates」としてこの話題を扱っており、クラウドの請求系トラブルが国際的な注目を集めたことがうかがえる。[3][5]\n\n今回の件が示すのは、クラウドの障害は計算資源やネットワークだけでなく、請求・課金の信頼性にも直結するということだ。AWSはエンタープライズ利用が多く、請求画面の異常表示だけでも運用担当者や経理部門を混乱させる。クラウド各社がAI機能や新サービスの拡充を急ぐ一方で、請求・可視化といった基盤機能の安定性が、改めて重要な競争力になっている。[2][5]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Amazon Web Services customers receive bills for up to $1.5tn after global glitch - The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/jul/17/amazon-web-services-customers-trillion-dollar-bills-global-glitch",
+              "source": "The Guardian"
+            },
+            {
+              "id": 2,
+              "title": "Amazon fixing bug that billed some AWS customers billions of dollars - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 3,
+              "title": "2026 Wasabi Global Cloud Storage Index - iTnews",
+              "url": "https://www.itnews.com.au/resource/2026-wasabi-global-cloud-storage-index-627417",
+              "source": "iTnews"
+            },
+            {
+              "id": 4,
+              "title": "'I skipped a few heartbeats': Israeli developer gets $500 million Amazon bill - Ynetnews",
+              "url": "https://www.ynetnews.com/tech-and-digital/article/r1djuw54fe",
+              "source": "Ynetnews"
+            },
+            {
+              "id": 5,
+              "title": "Shocked AWS customers receive astronomical bill estimates - iTnews",
+              "url": "https://www.itnews.com.au/news/shocked-aws-customers-receive-astronomical-bill-estimates-627470",
+              "source": "iTnews"
+            },
+            {
+              "id": 6,
+              "title": "‘My Soul Left My Body’: Amazon Accidentally Bills Users Billions of Times What They Owe - Gizmodo",
+              "url": "https://gizmodo.com/my-soul-left-my-body-amazon-accidentally-bills-users-billions-of-times-what-they-owe-2000787438",
+              "source": "Gizmodo"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "請求不具合",
+            "1.5兆ドル"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "ビリング",
+            "世界規模"
+          ],
+          "id": "cloud-2"
+        },
+        {
+          "title": "AMDがHelios AIシステムを発表、Microsoft Azureが採用へ　AIインフラの供給網が拡大",
+          "summary_ja": "AMDはラック規模のAIシステム「Helios」を発表し、Microsoft Azureが2026年後半から導入する。Nvidia優位が続くAIインフラ市場で、AMDはMeta、OpenAI、Oracleに続く供給先を広げた。",
+          "summary_en": "AMD unveiled its rack-scale AI system Helios, and Microsoft Azure will begin deployments in the second half of 2026. The move broadens AMD’s AI infrastructure reach, adding Azure alongside Meta, OpenAI, and Oracle.",
+          "three_lines": [
+            "AMDがHeliosを発表し、Azure導入が決まった。",
+            "MicrosoftはAzureデータセンターで展開するとした。",
+            "AIインフラの調達先がNvidia以外でも広がる。"
+          ],
+          "body_ja": "AMDが発表した「Helios」は、同社にとって初のラック規模AIシステムで、MicrosoftはAzureデータセンターで導入すると明らかにした。[1][2] 導入開始は2026年後半とされ、クラウド側のAI基盤調達が、GPU単体ではなくラック全体のシステム調達へと進んでいることを示す。[1][2]\n\n今回のポイントは、AMDが既存のMeta、OpenAI、Oracleに加えて、Azureという巨大クラウド事業者を早期顧客に取り込んだことだ。[1][2] これによりAMDのデータセンター向けハードウェア戦略は一段と広がり、AIインフラの供給網における選択肢が増える。[1] 競争相手としてはNvidiaが意識されており、Heliosはそのラックスケール領域に真正面から挑む位置づけといえる。[2][4]\n\n市場の反応も速かった。CNBCによると、MicrosoftはHeliosベースのシステムをAzure上で提供するとし、AMD株は取引時間中に約4%上昇、Microsoft株も小幅高となった。[3] さらに別報道では、AMDがHeliosの価格をNvidiaの次世代Rubinより40%高く設定しているとの見方もあり、AMDが性能だけでなくプレミアム価格でも勝負する姿勢がうかがえる。[5] つまり今回の発表は、単なる新製品投入ではなく、クラウド事業者がAI計算資源をどう確保するかという供給網の変化を映すニュースだ。[1][2][5]",
+          "references": [
+            {
+              "id": 1,
+              "title": "AMD Unveils Helios AI System; Microsoft Azure Joins Client List - Whalesbook",
+              "url": "https://www.whalesbook.com/news/English/technology/AMD-Unveils-Helios-AI-System-Microsoft-Azure-Joins-Client-List/6a5ef6b1fe1c9287f4784049",
+              "source": "Whalesbook"
+            },
+            {
+              "id": 2,
+              "title": "AMD launches Helios, its first rack AI system to rival Nvidia, adding Microsoft as newest buyer - CNBC",
+              "url": "https://www.cnbc.com/2026/07/20/amd-helios-microsoft-ai-nvidia.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 3,
+              "title": "Stocks making the biggest moves midday: AMD, Archer Aviation, SpaceX, Iren & more - CNBC",
+              "url": "https://www.cnbc.com/2026/07/20/stocks-making-the-biggest-moves-midday-amd-achr-spcx-iren.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "AMD Unveils Helios, Its Next-Gen AI Powerhouse With MI455X & 6th Gen EPYC, Challenging NVIDIA’s Rack-Scale Dominance - Wccftech",
+              "url": "https://wccftech.com/amd-helios-ai-rack-mi455x-6th-gen-epyc-challenging-nvidia/",
+              "source": "Wccftech"
+            },
+            {
+              "id": 5,
+              "title": "AMD Is Reportedly Pricing Its Helios Rack 40% Above NVIDIA’s Second-Gen Rubin, Confident That Customers Will Pay The Premium - Wccftech",
+              "url": "https://wccftech.com/amd-is-reportedly-pricing-its-helios-rack-40-above-nvidias-second-gen-rubin-confident-that-customers-will-pay-the-premium/",
+              "source": "Wccftech"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "cloud",
+          "title_highlights": [
+            "Helios",
+            "Azure",
+            "Nvidia"
+          ],
+          "three_lines_highlights": [
+            "Helios",
+            "Azure",
+            "40%"
+          ],
+          "id": "cloud-3"
+        }
+      ],
+      "summary": "今日のクラウド分野では、Microsoft/AzureがMistralへの大型投資やAMDの新AI基盤採用を通じて、欧州を含むAI計算資源の確保と供給網の拡大を一段と進めている流れが目立ちました。加えて、AWSの請求表示不具合は、巨大クラウド基盤でも運用・信頼性の重要性が改めて問われる出来事であり、各社が成長投資と基盤安定性の両立を迫られている状況が浮き彫りになっています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Wix HeadlessがAIコーディングツール連携を強化、生成フロントエンドを本番ビジネスへつなぐ",
+          "summary_ja": "Wixは、AI生成のフロントエンドをWixの管理下にあるホスティング、SEO、分析、業務ツールへ接続できる新機能を発表した。vibe codingやAIコーディングツールで作った見た目のよい画面を、そのまま“運用できる事業”へ引き上げる狙いがある。",
+          "summary_en": "Wix announced new Wix Headless capabilities that connect AI-generated frontends to Wix-managed hosting, SEO, analytics, and integrated business tools. The move aims to turn vibe-coded interfaces into operational businesses.",
+          "three_lines": [
+            "Wix Headlessが生成UIを事業基盤へ接続する",
+            "AIコーディングの試作を本番運用に近づける",
+            "vibe codingの実用化競争が一段進む"
+          ],
+          "body_ja": "Wixが打ち出したのは、AIで作ったフロントエンドを“見せるだけ”で終わらせず、Wixの管理するホスティング、SEO、分析、業務ツールまでまとめてつなぐ仕組みだ。発表資料では、これによりビルダーは「AI-generated frontends」を「fully operational businesses」に変えられるとしており、単なる画面生成から商用運用への橋渡しを明確に打ち出している[1]。\n\nこの動きの背景には、vibe codingが一気に広がり、開発の主役が“コードを書く人”から“AIを使って形にする人”へ移りつつある流れがある。Business Insiderは、vibe codersがアプリの立ち上げ方を変えつつあり、テック業界や雇用にも影響を与えていると伝えたほか、AI時代の開発者にはコーディング以外の能力が求められるとも報じている[2][3]。Wixの今回の発表は、こうした潮流に対して、生成されたUIをそのまま実ビジネスの運用基盤に載せる実装レイヤーを提供するものと読める。\n\n注目すべきは、Wix Headlessが単独の開発体験ではなく、運用の要素をまとめて抱き込んでいる点だ。Business Insiderの見出しが示す通り、今回の新機能はAI coding toolsやvibe platforms向けにWixのフルな事業インフラを持ち込む設計で、ホスティングやSEO、アナリティクスまで含めて“作って終わり”を防ぐ[1]。AIコーディング分野では、Emergentのようなvibe coding系スタートアップが大型調達やユニコーン化で存在感を増しており、AIで素早く作ること自体の価値はすでに証明されつつある[4][7]。しかし、その次の競争軸は、生成したアプリをどう運用し、どう収益化し、どう継続改善するかに移っている。\n\nさらに、生成AIによる高速な複製や模倣のリスクも無視できない。AIツールでインディーゲームのクローンが短期間に作られる事例が報じられているように、制作スピードの向上は、同時に差別化や防御の難しさも増している[6]。だからこそ、Wixが前面に出している「business infrastructure」は、単なる便利機能ではなく、AI時代の開発者に必要な“本番に耐える土台”として意味を持つ。\n\n要するに今回のWix Headlessの強化は、Claude CodeやCursor、GitHub Copilot、LangChainのような開発者ツール／agentフレームワークが生み出すフロントエンドを、実際の商用サービスへ接続するための最後の一段を埋める動きだ。AIが作る速度が上がるほど、ホスティング、SEO、分析、業務機能といった運用の中核が重要になる。Wixはその領域を握ることで、vibe codingを“デモの文化”から“ビジネス運用の文化”へ押し上げようとしている[1][2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Wix Headless Brings Wix’s Full Business Infrastructure to AI Coding Tools and Vibe Platforms - markets.businessinsider.com",
+              "url": "https://markets.businessinsider.com/news/stocks/wix-headless-brings-wix-s-full-business-infrastructure-to-ai-coding-tools-and-vibe-platforms-1036345942",
+              "source": "Business Insider Markets"
+            },
+            {
+              "id": 2,
+              "title": "Meet the vibe coders who want to be the 'MrBeast' of apps - Business Insider",
+              "url": "https://www.businessinsider.com/vibe-coders-danger-testing-los-marc-mrbeast-of-apps-2026-7",
+              "source": "Business Insider"
+            },
+            {
+              "id": 3,
+              "title": "Emergent's CEO shares what he looks for in developers in the AI era - Business Insider",
+              "url": "https://www.businessinsider.com/emergent-ceo-vibe-coding-software-engineer-ai-2026-7",
+              "source": "Business Insider"
+            },
+            {
+              "id": 4,
+              "title": "Catching up in the AI race? India gets its second AI unicorn in a month - CNBC",
+              "url": "https://www.cnbc.com/2026/07/16/catching-up-in-the-ai-race-india-gets-its-second-ai-unicorn-in-a-month.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 5,
+              "title": "An AI startup wants 'vibe directing' to become the new vibe coding - Business Insider",
+              "url": "https://www.businessinsider.com/openart-ai-launches-ad-campaign-amc-movie-theaters-2026-7",
+              "source": "Business Insider"
+            },
+            {
+              "id": 6,
+              "title": "People Are Quickly Cloning Indie Games Using AI Tools - Kotaku",
+              "url": "https://kotaku.com/people-are-using-ai-to-quickly-clone-games-before-the-indie-devs-can-release-them-2000716336",
+              "source": "Kotaku"
+            },
+            {
+              "id": 7,
+              "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+              "source": "TechCrunch"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "devtools",
+          "title_highlights": [
+            "Wix Headless",
+            "business infrastructure"
+          ],
+          "three_lines_highlights": [
+            "Wix Headless",
+            "vibe coding",
+            "fully operational businesses"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "Claude for Chromeの脆弱性が露呈、拡張機能経由でAI権限を悪用できる問題が継続",
+          "summary_ja": "Anthropicのブラウザ向けAI拡張「Claude for Chrome」で、悪意ある拡張機能がAIの特権操作を悪用できる脆弱性が続いている。報告から数か月たっても修正しきれておらず、GmailやDocsへのアクセスを含む権限が狙われる点が懸念されている。",
+          "summary_en": "Anthropic’s Claude for Chrome extension still has unresolved vulnerabilities that can let malicious extensions abuse privileged AI actions, including access to Gmail and Docs, months after disclosure.",
+          "three_lines": [
+            "Claude for Chromeの脆弱性が残存した",
+            "拡張機能がAI権限を悪用しうる",
+            "GmailやDocsへの操作も狙われる"
+          ],
+          "body_ja": "Anthropicの「Claude for Chrome」をめぐり、拡張機能経由でAIの特権を悪用できる脆弱性が、報告から数か月たってもなお利用可能な状態だと伝えられた。調査したManifold Securityによると、問題は少なくとも2件あり、悪意ある拡張機能がGmailやDocsなどへのアクセスを含む権限付きのAI操作を実行できる可能性があるという[1]。\n\nポイントは、単なるブラウザ拡張の不具合ではなく、「AIエージェントに与えた権限」が攻撃の踏み台になりうることだ。Claude for Chromeはブラウザ上での作業自動化を担うため、拡張機能の信頼境界が崩れると、ユーザーが意図していない操作までAIに実行させられる恐れがある[1]。つまり、AIの便利さがそのまま権限拡大につながる設計ほど、周辺拡張の安全性が重要になる。\n\nこの種のリスクはClaude固有の話にとどまらない。直近では、1PasswordがClaudeにウェブサイトへのサインインを任せつつ、パスワードや2要素認証コードをClaudeに見せない連携を発表しており、AIに認証作業を委ねる流れはさらに進んでいる[2]。一方で、別の研究ではClaude Desktopに「PromptFiction」と呼ばれる欠陥が見つかり、ユーザーの介入なしに悪意あるプロンプトを送れてしまう可能性が示された[3]。AIが実務に深く入り込むほど、入力・認証・権限の各層で新しい攻撃面が生まれることが分かる。\n\nさらに、Claude周辺の脅威は防御側だけの問題ではない。別報道では、攻撃者がClaude CodeやDeepSeekを使って侵入活動を自動化し、政府系システムや金融機関を標的にしたとされる[4]。開発者向けツールやエージェント系フレームワークが業務効率を押し上げる一方で、攻撃者にも同じ自動化能力を与えてしまう構図は、今後のAI開発ツール全般に共通する課題だ。\n\n今回のClaude for Chromeの件が示すのは、AI機能そのものの性能より、周辺エコシステムを含めた権限管理と監査が重要になっているという現実だ。Claude Code、Cursor、GitHub Copilot、LangChainのような開発者向けAIツールでも、便利な連携が増えるほど、拡張機能や外部接続がどこまでAIに権限を渡すのかを再点検する必要がある。",
+          "references": [
+            {
+              "id": 1,
+              "title": "New bugs in Claude for Chrome allow extensions to abuse AI privileges",
+              "url": "https://www.csoonline.com/article/4197325/new-bugs-in-claude-for-chrome-allow-extensions-to-abuse-ai-privileges.html",
+              "source": "CSO Online"
+            },
+            {
+              "id": 2,
+              "title": "1Password now lets Claude sign in to websites without seeing your passwords",
+              "url": "https://9to5mac.com/2026/07/16/1password-now-lets-claude-sign-in-to-websites-without-seeing-your-passwords/",
+              "source": "9to5Mac"
+            },
+            {
+              "id": 3,
+              "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
+              "url": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents",
+              "source": "Dark Reading"
+            },
+            {
+              "id": 4,
+              "title": "Claude Code and DeepSeek Powered Chinese Cyber Espionage Campaign",
+              "url": "https://securityaffairs.com/195474/ai/claude-code-and-deepseek-powered-chinese-cyber-espionage-campaign.html",
+              "source": "Security Affairs"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude for Chrome",
+            "AI権限",
+            "拡張機能"
+          ],
+          "three_lines_highlights": [
+            "Claude for Chrome",
+            "拡張機能",
+            "Gmail/Docs"
+          ],
+          "id": "devtools-2"
+        },
+        {
+          "title": "Claude Codeの作者が示す「AI投資の新しい測り方」――トークン消費より仕事完了へ",
+          "summary_ja": "Claude Codeの作者が、企業のAI投資効果は「何トークン使ったか」ではなく「何件の仕事を終えたか」で測るべきだと提起した。開発者ツールやエージェントの評価軸が、コスト消費から業務成果へ移りつつある流れを、複数の報道とあわせて整理する。",
+          "summary_en": "The creator of Claude Code argues that enterprises should measure AI ROI by completed work rather than tokens consumed. Recent reports suggest a broader shift in developer tools and agents toward task completion, value creation, and business outcomes.",
+          "three_lines": [
+            "AIの効果測定をトークン消費から切り替えるべきだと示した。",
+            "完成した仕事を基準にすると、モデルの順位が逆転しうる。",
+            "開発者ツールは、成果を出す設計へ一段進みつつある。"
+          ],
+          "body_ja": "AI投資の評価軸が、じわじわと変わり始めている。Claude Codeの作者として知られるBoris Cherny氏は、企業がAIにどれだけ投じたかを「トークン消費」で見るのではなく、「実際に完了した仕事」で測るべきだという考えを示した。[1] この発想は、単に安く大量に回せるモデルを評価するのではなく、どれだけ業務を前に進めたかを重視するものだ。\n\nこの見方は、AIを「生成コストの最適化問題」として捉える従来の発想と対照的だ。PitchBookは、買い手が欲しいのはトークンそのものではなく完成したタスクだと指摘し、仕事単位で価格を置き直すと、見かけの安さと実際の価値の順位が入れ替わると報じている。[4] つまり、モデル比較の主戦場は、トークン単価や使用量の少なさではなく、何をどれだけ終わらせられるかに移っている。\n\nこの流れは、開発者向けツールの世界でもはっきり見える。WixはAIコーディングツールやvibe platform向けに、自社の事業基盤をそのままつなげるWix Headlessを打ち出し、AIが生成したフロントエンドを実運用可能なビジネスに変える機能を前面に出した。[2] これは、コードを作るだけで終わらず、ホスティング、SEO、分析、業務ツールまで含めて「使える状態」に持っていく方向性だ。\n\n一方で、エージェントが本番の業務に深く入るほど、価値とリスクは表裏一体になる。1PasswordはClaude向けに、Claudeがパスワードや2要素認証コードを見ずにWebサイトへサインインできる連携を始めたとされる。[5] これは、エージェントが人の代わりに手続きを進める実用性を高める動きだが、同時に権限管理や安全設計の重要性も増す。\n\nさらに、Claude Codeを含む自動化ツールが悪用される事例も報じられている。Security Affairsは、Claude CodeとDeepSeekが中国系のサイバー諜報キャンペーンで攻撃の自動化に使われ、政府システム侵害や金融機関への標的化に利用されたと伝えた。[3] 開発支援の効率化がそのまま攻撃の効率化にもつながる以上、「どれだけ仕事を終えたか」という評価軸は、便利さの話にとどまらない。\n\n加えて、競争環境も評価基準の転換を後押ししている。CoinDeskは、MoonshotのKimi K3がフロントエンドコーディングのベンチマークでClaudeやOpenAIを上回り、しかも無料であると報じた。 ここでも問われているのは、単価の安さではなく、実際の作業でどのモデルが成果を出せるかだ。見栄えのよい指標より、完了した成果に価値を置く動きは強まっている。\n\nもっとも、その裏側では計算資源の確保も激しくなっている。AnthropicがMetaからAI計算資源を最大10億ドル規模でリースする交渉に入っているとされる報道は、最先端モデルの運用がいかにコストのかかる競争かを示している。[6] だからこそ企業側は、消費したトークン量より、投下したリソースがどれだけ成果に変わったかを見なければならない。\n\nClaude Codeの作者が投げかけたのは、単なる会計指標の話ではない。AI開発ツールやエージェントの価値を、消費から成果へ、モデル性能から業務完了へと読み替えることが、これからの導入判断の中心になるというメッセージだ。[1][4] 生成AIが「たくさん動いたか」ではなく「仕事を終えたか」で評価される時代が、現実味を帯びてきた。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claude Code’s creator offers a better way to measure AI success than token burn - Business Insider Africa",
+              "url": "https://africa.businessinsider.com/news/claude-codes-creator-offers-a-better-way-to-measure-ai-success-than-token-burn/8sdlv0l",
+              "source": "Business Insider Africa"
+            },
+            {
+              "id": 2,
+              "title": "Wix Headless Brings Wix’s Full Business Infrastructure to AI Coding Tools and Vibe Platforms - markets.businessinsider.com",
+              "url": "https://markets.businessinsider.com/news/stocks/wix-headless-brings-wix-s-full-business-infrastructure-to-ai-coding-tools-and-vibe-platforms-1036345942",
+              "source": "markets.businessinsider.com"
+            },
+            {
+              "id": 3,
+              "title": "Claude Code and DeepSeek Powered Chinese Cyber Espionage Campaign - Security Affairs",
+              "url": "https://securityaffairs.com/195474/ai/claude-code-and-deepseek-powered-chinese-cyber-espionage-campaign.html",
+              "source": "Security Affairs"
+            },
+            {
+              "id": 4,
+              "title": "Q3 2026 Anthropic Is Winning on Value, Not Price - PitchBook",
+              "url": "https://pitchbook.com/news/reports/q3-2026-anthropic-is-winning-on-value-not-price",
+              "source": "PitchBook"
+            },
+            {
+              "id": 5,
+              "title": "1Password now lets Claude sign in to websites without seeing your passwords - 9to5Mac",
+              "url": "https://9to5mac.com/2026/07/16/1password-now-lets-claude-sign-in-to-websites-without-seeing-your-passwords/",
+              "source": "9to5Mac"
+            },
+            {
+              "id": 6,
+              "title": "Anthropic is negotiating to lease AI compute from Meta, a deal that could reach $1 billion, paving the way for Meta to expand into the AI ​​cloud business - Money & Banking Magazine.",
+              "url": "https://moneyandbanking.co.th/en/2026/257308/",
+              "source": "Money & Banking Magazine."
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "トークン",
+            "仕事完了"
+          ],
+          "three_lines_highlights": [
+            "AI投資",
+            "完成タスク",
+            "業務完了"
+          ],
+          "id": "devtools-3"
+        }
+      ],
+      "summary": "今日の「AI開発ツール」は、AIが作ったものを“見た目だけ”で終わらせず、ホスティング・SEO・分析・業務機能までつないで本番運用に乗せる流れが強まっています。一方で、ブラウザ拡張の権限悪用のように、AIツールがより強い権限を持つほどセキュリティ課題も前面化しており、利便性と安全性の両立が焦点です。加えて、AI投資の評価軸もトークン消費から「どれだけ仕事を完了したか」へ移りつつあり、開発者向けAIはコスト管理より業務成果を直接生む段階に入っています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "EU、GoogleにAndroidと検索データの開放を追加命令　AIアシスタント競争でDMA執行が一段と具体化",
+          "summary_ja": "EUはDMAに基づき、Googleに対してAndroid上の機能アクセスと検索データの提供を競合企業にも広げるよう追加命令を出した。狙いは、検索エンジンだけでなくAIアシスタント市場でも、Googleの優位を和らげて競争条件を整えることにある。",
+          "summary_en": "The EU has issued additional DMA orders requiring Google to broaden competitors’ access to Android capabilities and search data. The move is meant to level competition not only in search, but also in the emerging AI assistant market.",
+          "three_lines": [
+            "EUがGoogleにAndroid機能の開放を命じた",
+            "検索データの共有で競争条件を整える",
+            "AIアシスタント市場でもDMA執行が進む"
+          ],
+          "body_ja": "欧州委員会がGoogleに突きつけた新たな義務は、単なる「規制強化」ではない。Androidの端末機能と検索データへのアクセスを、競合の検索エンジンやAIアシスタントにも広げるよう求め、デジタル市場法（DMA）の執行を具体的な製品・機能レベルまで落とし込んだ点に意味がある。[1][2][6]\n\n今回の焦点は、Googleの検索独占だけではない。EUは、Android端末でユーザーが競合AIアシスタントを呼び出しやすくすることや、Geminiに認められているのと同等のAndroidアクセスを第三者AIサービスにも認める方向を示したと報じられている。つまり、AIアシスタント競争を“アプリの出来”だけでなく、OSが持つ入口や権限の設計から是正しようとしている。[3][4][8]\n\n検索データの扱いも重要だ。ReutersやMediaPost、CNETは、EUがGoogleに匿名化された検索データの共有や、競合が自社サービスを改善するために必要なデータ・機能へのアクセスを求めていると伝えた。検索市場でのデータ優位がそのままAI製品の学習・改善力にもつながるため、EUは“検索の競争政策”を“AIの競争政策”へと拡張している格好だ。[5][6][7]\n\nこの動きが示すのは、DMAが大手プラットフォームに対して、抽象的な「相互運用性」を掲げる段階から、どの機能を誰に開放し、どのデータをどう提供するかを個別に詰める段階へ進んだことだ。The VergeやArs Technicaの報道が示す通り、EUはGoogleに対し、検索とAIの両面でライバルが参入しやすい環境を作るよう迫っている。[1][2]\n\n一方でGoogleは不満を示しており、今後は実装の範囲や安全性、プライバシー保護の線引きをめぐって摩擦が続く可能性が高い。とはいえ、AIアシスタントが次の主要な競争領域になるなかで、EUが先にルールを具体化した意味は大きい。欧州発のDMA運用が、今後の米欧テック規制の議論にも影響を与える可能性がある。[2][3][7]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google ordered to open Android and Search to rivals in Europe - The Verge",
+              "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+              "source": "The Verge"
+            },
+            {
+              "id": 2,
+              "title": "It’s official: EU will force Google to share search data and open up AI on Android - Ars Technica",
+              "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+              "source": "Ars Technica"
+            },
+            {
+              "id": 3,
+              "title": "Europe tells Google it must open Android phones to rivals’ AI bots - The Washington Post",
+              "url": "https://www.washingtonpost.com/technology/2026/07/16/europe-tells-google-it-must-open-android-phones-rivals-ai-bots/",
+              "source": "The Washington Post"
+            },
+            {
+              "id": 4,
+              "title": "EU Orders Google to Give Rival AI Apps the Same Android Access as Gemini - MacRumors",
+              "url": "https://www.macrumors.com/2026/07/16/eu-google-ai-apps-android-access/",
+              "source": "MacRumors"
+            },
+            {
+              "id": 5,
+              "title": "Google Ordered By EU Commission To Share Anonymized Search Data 07/20/2026 - MediaPost",
+              "url": "https://www.mediapost.com/publications/article/416625/google-ordered-by-eu-commission-to-share-anonymize.html",
+              "source": "MediaPost"
+            },
+            {
+              "id": 6,
+              "title": "EU Orders Google to Open Android to AI Rivals and to Share Search Data - CNET",
+              "url": "https://www.cnet.com/tech/mobile/eu-dma-regulation-google-android-ai-search-data/",
+              "source": "CNET"
+            },
+            {
+              "id": 7,
+              "title": "Google required to open up to AI, search engine rivals under EU-mandated changes - Reuters",
+              "url": "https://www.reuters.com/world/google-required-open-up-ai-search-engine-rivals-under-eu-mandated-changes-2026-07-16/",
+              "source": "Reuters"
+            },
+            {
+              "id": 8,
+              "title": "EU orders Google to open up Android and share search data - Telecoms",
+              "url": "https://www.telecoms.com/regulation/eu-orders-google-to-open-up-android-and-share-search-data",
+              "source": "Telecoms"
+            }
+          ],
+          "published_date": "2026-07-21",
+          "category": "global",
+          "title_highlights": [
+            "Google",
+            "Android",
+            "検索データ"
+          ],
+          "three_lines_highlights": [
+            "Android",
+            "検索データ",
+            "DMA"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "EUはDMAを軸に、GoogleのAndroid上の機能や検索データへのアクセスを競合にも広げるよう追加命令を出し、巨大プラットフォームの優位を検索分野だけでなくAIアシスタント市場にも及ぶ形で是正しようとしている。欧米では、データとOSの支配力を競争政策でどう制御するかが一段と具体化しており、規制当局が市場開放を実務レベルで迫る流れが鮮明になっている。"
+    }
+  ]
+}
