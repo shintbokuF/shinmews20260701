@@ -1,0 +1,796 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-23T00:02:31.218445+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "中国、政府調達で国産AI半導体を推奨　ファーウェイの自前主義が政策に接近",
+          "summary_ja": "中国が政府調達の場で国産AI半導体の採用を促し、米国製への依存をさらに下げようとしている。背景には、米輸出規制を受けても強さを増してきたファーウェイのような国産勢の存在がある。AI開発競争と経済安全保障が一体化する中で、中国はハードとソフトの両面で“自前化”を急いでいる。",
+          "summary_en": "China is encouraging the use of domestically produced AI chips in government procurement to further reduce reliance on U.S. technology. The move aligns with Huawei’s self-reliant strategy, which has helped the company grow despite U.S. export controls. It highlights how AI competition and economic security are increasingly converging.",
+          "three_lines": [
+            "中国は政府調達で国産AI半導体を後押しする",
+            "ファーウェイは米規制下でも自前主義を強めた",
+            "AI覇権は技術競争から経済安保へ広がっている"
+          ],
+          "body_ja": "中国が政府調達の現場で国産AI半導体の採用を後押しする動きは、単なる産業支援ではなく、米国依存を減らす経済安全保障策として読むべきだろう。米国の輸出規制を乗り越えてなお強さを増すファーウェイの歩みは、その象徴に近い。ファーウェイは「打たれてもはい上がる」企業として紹介され、創業期からの変身力と強烈な自前主義が今も競争力の源泉とされている[4][5]。\n\n足元では、ファーウェイが半導体の新設計思想を打ち出し、信号遅延の最小化を掲げるなど、単なる代替調達にとどまらない技術進化も進めている。これは、輸入や外部依存が難しくなるほど、国内で完結する設計・製造・運用の最適化が重要になることを示している[3]。政府調達で国産品を優先する方針は、こうした技術の実用化を市場側から支える役割を持つとみられる。\n\n同時に、中国AI企業の資金調達規模も拡大している。Moonshot AIはすでに55億ドルを調達し、評価額300億ドル規模とされる。こうした新興勢力の台頭は、国産LLMや関連インフラを育てる資本の厚みが増していることを示し、ハードウェアの国産化だけでなく、AIモデルやサービス層まで含めた国産エコシステム形成を後押しする[2]。\n\nファーウェイをめぐる報道では、任正非CEOが81歳になってもなお後継候補が見えないほど、同社の独自経営が続いている点も強調されている[1]。この“人に依存しない組織”のあり方は、半導体やAIのように地政学リスクの高い領域で、国家の政策意図と企業戦略が重なりやすいことを示唆する。\n\n日本にとっても、この動きは対岸の話ではない。AI半導体の調達制限、国産LLMの育成、重要インフラのサプライチェーン強靱化は、日本政府・省庁が直面する論点と重なる。中国の政府調達政策は、技術標準や市場形成を国家が主導するモデルの一例であり、日本側が補助金や調達ルール、セキュリティ要件をどう設計するかにも示唆を与える。AIをめぐる競争は、もはやモデルの性能競争だけではなく、誰が計算資源と半導体の供給網を押さえるかという実装力の競争へ移っている[2][3][4][5]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "ファーウェイの独自経営、創業者・任正非CEOは81歳　見えない後継候補",
+              "url": "https://business.nikkei.com/atcl/gen/19/00902/072200008",
+              "source": "日経ビジネス"
+            },
+            {
+              "id": 2,
+              "title": "中国Moonshot AIのKimi K3はどれだけすごいのか？ビジネスユースケース目線の評価（GPT-5.6 Solによる）",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/07/moonshot_aikimi_k3gpt-56_sol.html",
+              "source": "ITmedia オルタナティブ・ブログ"
+            },
+            {
+              "id": 3,
+              "title": "半導体、信号遅延を最小化　ファーウェイが新設計思想",
+              "url": "https://www.nikkei.com/article/DGXZQOSG0774J0X00C26A7000000",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 4,
+              "title": "世界揺るがすファーウェイの40年、創業者の任氏「蛇口とパイプを売る企業」",
+              "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03693/071600002",
+              "source": "日経クロステック"
+            },
+            {
+              "id": 5,
+              "title": "最強の黒子ファーウェイの40年 米制裁も乗り越えた強烈な自前主義",
+              "url": "https://business.nikkei.com/atcl/gen/19/00902/071500002",
+              "source": "日経ビジネス"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "japan",
+          "title_highlights": [
+            "国産AI半導体",
+            "ファーウェイ",
+            "経済安保"
+          ],
+          "three_lines_highlights": [
+            "国産AI半導体",
+            "ファーウェイ",
+            "経済安保"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "中国の国産優遇が外資を揺らす　レアアース磁石の教訓はIT調達にも波及",
+          "summary_ja": "中国政府が政府調達で国産品を優遇するルールを施行し、IT分野でもPCやプリンターに中国製部品・製品を求める流れが強まっている。レアアース磁石で外資が経験した「現地化しなければ市場に入れない」構図が、今度は情報機器やサプライチェーン全体に広がりつつある。",
+          "summary_en": "China has enforced new government procurement rules favoring domestic products, extending pressure on foreign firms in IT equipment such as PCs and printers. The pattern mirrors lessons from rare-earth magnets, where local content requirements forced companies to localize or risk exclusion from the market.",
+          "three_lines": [
+            "中国が政府調達で国産品優遇を施行した。",
+            "PCやプリンターにも国産要求が及んだ。",
+            "外資は現地化か撤退かを迫られている。"
+          ],
+          "body_ja": "中国政府が1日に施行した政府調達の国産品優遇ルールは、単なる購買条件の変更ではない。IT分野ではパソコンに加え、セキュリティー上の観点からプリンターにも中国製半導体チップ搭載が求められているとされ、外資企業に「中国市場で売るなら中国仕様に合わせよ」という圧力を強める。[1][2]\n\nこの動きは、かつてレアアース磁石をめぐって外資勢が経験した構図を思わせる。中国が重要素材や部材の供給網を握ると、海外企業は市場アクセスの維持のために現地化を進めざるを得なくなる。今回の国産優遇は、その対象が素材からIT機器へと広がった形で、しかも政府調達という強いレバーが使われている点に特徴がある。[1]\n\n日本企業にとっての含意は大きい。中国向けに製品や部材を供給する企業は、性能や価格だけでなく、調達条件や安全保障上の要件に左右される時代に入った。とりわけPCやプリンターのような汎用品でも、部品レベルで国産要件が入れば、設計、サプライチェーン、認証の見直しが必要になる。結果として、外資は「中国で売るための中国化」をどこまで受け入れるか、難しい判断を迫られる。[1][2]\n\n経済安全保障の観点でも、このルールは示唆的だ。中国は市場の大きさだけでなく、政府調達を通じて技術・部材の国産化を後押しし、外資の依存度を下げようとしている。日本側でも、調達先の多角化、重要部材の代替確保、そして公的調達や補助金設計を通じた国内供給網の強化が、より重要になるだろう。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "中国が国産要求、「ルビコン川」に立つ外資勢 レアアース磁石の教訓",
+              "url": "https://www.nikkei.com/article/DGXZQOGM210WN0R21C25A2000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 2,
+              "title": "小沢秀樹のニュース・発言など最新記事",
+              "url": "https://www.nikkei.com/persons/%E5%B0%8F%E6%B2%A2%E7%A7%80%E6%A8%B9",
+              "source": "日本経済新聞"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "japan",
+          "title_highlights": [
+            "国産優遇",
+            "レアアース",
+            "政府調達"
+          ],
+          "three_lines_highlights": [
+            "国産優遇",
+            "プリンター",
+            "外資勢"
+          ],
+          "id": "japan-2"
+        },
+        {
+          "title": "AI需要が吸い上げるメモリー、27年まで不足長期化へ",
+          "summary_ja": "AI向け需要の急拡大で、DRAMやNANDなどの半導体メモリー不足が2027年ごろまで続く見通しです。供給を担う米韓3社の増産ペースは需要に追いつかず、価格高騰がPCや車、周辺機器にまで波及し始めています。日本国内でも、生活インフラや防犯用途の小型メモリーにまで“AIのしわ寄せ”が及びつつあります。",
+          "summary_en": "Rising AI demand is expected to keep semiconductor memory shortages in place until around 2027. Supply increases by the three dominant U.S. and Korean players are lagging demand, pushing up prices and spilling over into PCs, cars, and even small consumer memory products in Japan.",
+          "three_lines": [
+            "AI向け需要でメモリー不足が27年まで続く",
+            "米韓3社の増産が需要に追いつかない",
+            "日本でもSDカード不足と高騰が広がる"
+          ],
+          "body_ja": "半導体メモリーの逼迫が、短期の需給変動ではなく「長期戦」になりつつあります。日本経済新聞は、AI向け需要の拡大を背景に、半導体メモリー不足が2027年ごろまで続く見通しだと伝えました。とくに一時記憶に使うDRAMでは、供給を握る米韓3社の増産ペースが、必要とされる需要の6割程度にとどまっているとされ、需給ギャップの解消には時間がかかりそうです [2]。\n\nこの問題の厄介さは、AIサーバー向けの話にとどまらない点にあります。AI投資がメモリーを“爆食”する一方で、しわ寄せはPCやスマートフォン、SSDやHDDにも及び、周辺市場まで値上がりと品薄が広がっています [5][6]。さらにTrendForceの調査を紹介した記事では、2026年後半にかけてDRAMとNANDの価格上昇率が鈍化する見方があるものの、これは高値圏での伸びがやや落ち着くという話であって、供給不足そのものが解消するという意味ではありません [7]。むしろ、AI需要の強さが続く限り、一般用途のメモリーにまで割り当てが回りにくい構図は変わりにくいとみられます [3][4]。\n\n日本国内では、この“AI優先”の影響が、意外なところにも現れています。ITmediaのブログ記事によれば、防犯カメラ助成のためにマイクロSDカードを買おうとしたところ、ダイソーの棚から商品が消え、Amazonでは2〜3倍に高騰していたといいます [1]。100円ショップの小物不足は一見すると末端の出来事ですが、裏側ではデータセンター向け需要がメモリー供給を吸い上げている、という大きな構造変化があるわけです [1][2]。\n\n国内政策の観点では、こうしたメモリー逼迫は単なる値上げではなく、AI基盤の安定供給や経済安全保障にも関わります。日本がAI活用を進めるほど、サーバー、ストレージ、端末、監視・防犯機器まで幅広い機器でメモリー需要が増えます。しかも供給の中心が海外大手に偏っている以上、価格変動や地政学的リスクが国内のAI導入コストに直結します [2][5]。国産LLMの開発や企業のAI導入を進めるうえでも、演算資源だけでなくメモリー調達まで含めた“供給網の設計”が重要になってきました。\n\n今後は、生成AIやエージェンティックAIの導入計画を立てる企業ほど、GPUの確保だけでなくDRAM・NAND・SSDの調達戦略を先に考える必要があります。単価上昇が続けば、AIプロジェクトのTCOは想定以上に膨らみ、導入時期の後ずれや構成見直しが起こり得ます。メモリー不足は、AIブームの副作用であると同時に、日本のデジタル投資全体のボトルネックにもなりつつあります [2][6][7]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "ダイソーからマイクロSDカードが消えた ― AIメモリ高騰の\"とばっちり\"が100円ショップの棚に届くまで",
+              "url": "https://blogs.itmedia.co.jp/agile/2026/07/daiso_microsd_shortage_ai_memory.html",
+              "source": "ITmedia Blogs"
+            },
+            {
+              "id": 2,
+              "title": "半導体メモリー27年まで不足 AI優先、米韓3社増産ペース追いつかず",
+              "url": "https://www.nikkei.com/article/DGXZQOUC082EG0Y6A300C2000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 3,
+              "title": "【2026年版】エージェンティックAIで急拡大するメモリ市場 ―― DRAM・NAND・HBM需要予測と価格動向を整理する",
+              "url": "https://blogs.itmedia.co.jp/business20/2026/06/2026ai_dramnandhbm.html",
+              "source": "ITmedia Blogs"
+            },
+            {
+              "id": 4,
+              "title": "DRAM最大63%、NAND最大75%の値上げ――メモリ価格高騰の構造的要因とは：『ビジネス2.0』の視点",
+              "url": "https://blogs.itmedia.co.jp/business20/2026/04/dram63nand75.html",
+              "source": "ITmedia Blogs"
+            },
+            {
+              "id": 5,
+              "title": "メモリー不足、半年で価格2倍超に 車業界「パニック買い」も",
+              "url": "https://www.nikkei.com/article/DGXZQOGN2100T0R20C26A1000000/",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 6,
+              "title": "【特集】 AI巡るメモリ争奪戦――2026年はPC、スマホに“冬”が到来",
+              "url": "https://pc.watch.impress.co.jp/docs/topic/feature/2073359.html",
+              "source": "PC Watch"
+            },
+            {
+              "id": 7,
+              "title": "メモリ価格の上昇、鈍化へ 26年3QはDRAMもNANDも10％台：TrendForce調べ",
+              "url": "https://eetimes.itmedia.co.jp/ee/articles/2607/07/news074.html",
+              "source": "EE Times Japan"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "japan",
+          "title_highlights": [
+            "AI",
+            "DRAM",
+            "NAND"
+          ],
+          "three_lines_highlights": [
+            "27年",
+            "米韓3社",
+            "マイクロSD"
+          ],
+          "id": "japan-3"
+        }
+      ],
+      "summary": "中国では、政府調達を梃子に国産AI半導体やIT製品の採用を進める「自前化」が一段と加速しており、経済安全保障の観点から外資依存を減らす流れが強まっています。こうした保護的な政策はレアアースに続いてIT調達にも広がり、グローバル企業に現地化の圧力をかける一方、AI需要の急拡大はメモリー不足を長期化させ、供給制約と価格上昇が周辺分野や日本国内にも波及しつつあります。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Google、Gemini 3.5 Pro遅延で新サーバーチップ開発　効率改善で巻き返しへ",
+          "summary_ja": "Googleは主力モデルGemini 3.5 Proの遅れが伝えられるなか、Gemini向けの新サーバーチップ開発を進めている。モデルの投入遅延と並行して、専用インフラの効率を高めることで競争力を立て直す狙いが見える。",
+          "summary_en": "Google is reportedly developing a new server chip for Gemini as delays hit Gemini 3.5 Pro. The move suggests Google wants to improve infrastructure efficiency while catching up in the generative AI race.",
+          "three_lines": [
+            "Gemini 3.5 Proの遅延が報じられた",
+            "GoogleはGemini向け新チップを開発する",
+            "効率改善でAI競争の巻き返しを狙う"
+          ],
+          "body_ja": "Googleの生成AI戦略は、モデル開発の遅れとインフラの立て直しが同時進行する局面に入っています。主力モデルと位置づけられるGemini 3.5 Proは、当初の想定よりも遅れていると報じられ、Alphabet株にも下押し圧力がかかりました [1][3]。MarketWatchは、こうした遅延がGoogleのAI競争力に対する懸念を強めていると伝えています [2]。\\n\\nその一方で、GoogleはGemini向けに新しいサーバーチップを設計していると報じられました。狙いは、Geminiサーバーの運用効率を上げることです [6][8]。TechCrunchによれば、このチップは既存のものより「6〜10倍」効率的になり得るとされ、単なる省電力ではなく、AI基盤全体のコストと処理効率を押し下げる可能性があります [8]。GIGAZINEも、Geminiが自社の専用サーバー上で動いている点を踏まえ、Googleがその運用効率改善を急いでいると伝えています [6]。\\n\\nGoogleがこのタイミングでインフラ強化に動くのは、モデルの遅れをソフトウェア側だけで挽回するのが難しいからでしょう。実際、Googleは7月下旬にGemini 3.6 Flashと3.5 Flash-Liteを発表し、さらにGemini 4も予告しています [5]。また、NotebookLMを「Gemini Notebook」に改称し、AI Pro向けのアップグレードも示しました [4]。加えて、Gemini 3.5 Flash Cyberのように、セキュリティ用途を強く意識したモデルも投入しています [7]。つまりGoogleは、上位モデルの遅れを抱えつつも、軽量モデルの投入、用途特化、そして専用チップによる効率改善を組み合わせて巻き返しを図っている、という構図です [5][7][8]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Alphabet shares fall on report its most powerful AI model Gemini 3.5 Pro is delayed - CNBC",
+              "url": "https://www.cnbc.com/2026/07/16/alphabet-stock-gemini-3-5-pro-ai.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 2,
+              "title": "Alphabet’s stock falls as Gemini delays suggest Google is struggling to keep up in the AI race - MarketWatch",
+              "url": "https://www.marketwatch.com/story/alphabets-stock-falls-as-gemini-delays-suggest-google-is-struggling-to-keep-up-in-the-ai-race-4d821205",
+              "source": "MarketWatch"
+            },
+            {
+              "id": 3,
+              "title": "Alphabet stock falls 4% on report of Gemini AI model delays - Yahoo Finance",
+              "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-stock-falls-report-gemini-184859374.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "id": 4,
+              "title": "NotebookLM is now Gemini Notebook, with 3.5 + Antigravity upgrade coming to AI Pro - 9to5Google",
+              "url": "https://9to5google.com/2026/07/16/notebooklm-gemini-notebook/",
+              "source": "9to5Google"
+            },
+            {
+              "id": 5,
+              "title": "Google launches Gemini 3.6 Flash and 3.5 Flash-Lite, teases Gemini 4 - 9to5Google",
+              "url": "https://9to5google.com/2026/07/21/gemini-3-6-flash-launch/",
+              "source": "9to5Google"
+            },
+            {
+              "id": 6,
+              "title": "Google is working on developing a new AI chip to improve the efficiency of Gemini. - GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20260721-google-new-ai-chip-designed-gemini/",
+              "source": "GIGAZINE"
+            },
+            {
+              "id": 7,
+              "title": "Google expands Gemini lineup with cheaper models and new Mythos rival - CNBC",
+              "url": "https://www.cnbc.com/2026/07/21/google-gemini-flash-ai-mythos-rival.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 8,
+              "title": "Google is working on a new AI chip designed to make Gemini more efficient - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+              "source": "TechCrunch"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 3.5 Pro",
+            "新サーバーチップ",
+            "効率改善"
+          ],
+          "three_lines_highlights": [
+            "Gemini 3.5 Pro",
+            "新チップ",
+            "巻き返し"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Moonshot AIがKimi K3を公開　中国勢が米大手に迫る理由",
+          "summary_ja": "中国のMoonshot AIが新モデルKimi K3を公開し、OpenAIやAnthropicに迫る性能をうたって注目を集めています。オープンウェイト戦略、競争力ある価格、そして急増する需要が、同社を“次の中国発AI本命”として押し上げています。",
+          "summary_en": "Moonshot AI has unveiled Kimi K3, drawing attention for its claim to rival leading U.S. AI systems. The model’s open-weight approach, aggressive pricing, and surging demand are fueling its rise as a major Chinese contender.",
+          "three_lines": [
+            "Moonshot AIがKimi K3を公開した。",
+            "中国勢は米大手との距離を縮めた。",
+            "需要急増でMoonshotは利用制限も実施した。"
+          ],
+          "body_ja": "中国のMoonshot AIが公開した新モデル「Kimi K3」は、生成AIの勢力図を改めて揺さぶっています。Business Insiderは、同社創業者でCEOの楊植麟氏がこのモデルでシリコンバレーの注目を集めたと伝え、オープンウェイト型である点が話題の中心になっていると報じました[1][2]。\\n\\n注目の理由は、単に新モデルが出たからではありません。Moonshot AIはKimi K3について、OpenAIやAnthropicの最上位モデルに挑む水準だと主張しており、BBCも「トップ米国勢に匹敵しうる」との同社の見立てを紹介しています[6]。CNBCも、Kimi K3が主要な米国システムとの差を縮める狙いで投入されたと伝えました[8]。もっとも、同時点では全体性能でAnthropicのClaude系やOpenAIのGPT系の一部上位モデルにはなお及ばないとされ、完全な逆転ではなく“射程圏に入った”段階という見方が妥当です[8]。\\n\\nそれでも市場の反応は大きく、Business InsiderはKimi K3が「3つの理由」でシリコンバレーをざわつかせていると指摘しました。背景には、性能面の評価に加えて、Moonshotがオープンウェイト路線を取っていること、そして価格面での競争力があることがあるとみられます[2]。オープンウェイトのモデルは、企業や開発者が利用しやすく、周辺のエコシステムを広げやすいのが強みです。中国発モデルが単なる“安価な代替品”ではなく、実用性でも米大手に迫る存在として受け止められ始めていることがうかがえます[2][6]。\\n\\n一方で、人気の高さはMoonshotにとって新たな課題も生んでいます。ReutersとBusiness Insider Africaは、同社が新規ユーザーの受け入れを制限し、Kimi関連のサブスクリプションを一時停止したと報じました[3][5]。理由は、急激な需要増でGPUへの負荷が高まったためです[3][5]。つまりKimi K3は、性能競争で話題をさらっただけでなく、実運用の需要が供給能力を超えるほど関心を集めたモデルでもあります。\\n\\nさらにBloombergは、Moonshotが3億ドル超とされる評価額で資金調達を詰めており、早ければ半年以内の香港上場も視野に入ると報じました[4]。同報道は、World AI ConferenceでKimi K3を見ようと人が集まったことにも触れ、中国がOpenAIやAnthropicとのギャップを縮めつつある象徴としてMoonshotが見られていると伝えています[4]。これらを総合すると、Kimi K3の本質は単なる新製品発表ではありません。中国勢が、性能、配布戦略、価格、事業規模のすべてを使って米国大手に迫る局面に入ったことを示す、ひとつの転換点といえます[2][4][6][8]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Meet Yang Zhilin, the CEO and founder behind China's buzzy new Kimi K3 AI model",
+              "url": "https://www.businessinsider.com/who-is-yang-zhilin-ceo-founder-moonshot-ai-kimi-k3-2026-7",
+              "source": "Business Insider"
+            },
+            {
+              "id": 2,
+              "title": "3 reasons China's Kimi K3 is turning heads in Silicon Valley",
+              "url": "https://www.businessinsider.com/kimi-k3-ai-model-moonshot-china-open-weights-benchmarks-pricing-2026-7",
+              "source": "Business Insider"
+            },
+            {
+              "id": 3,
+              "title": "Moonshot’s latest Kimi model is so popular that the company just gated new users",
+              "url": "https://africa.businessinsider.com/news/moonshots-latest-kimi-model-is-so-popular-that-the-company-just-gated-new-users/r5k3qbk",
+              "source": "Business Insider Africa"
+            },
+            {
+              "id": 4,
+              "title": "Chinese AI Sensation Moonshot’s Gamble on Big Models Pays Off",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-20/chinese-ai-sensation-moonshot-s-gamble-on-big-models-pays-off",
+              "source": "Bloomberg"
+            },
+            {
+              "id": 5,
+              "title": "China's Moonshot pauses Kimi subscriptions amid hot demand, IPO push",
+              "url": "https://www.reuters.com/legal/transactional/chinas-moonshot-pauses-kimi-subscriptions-amid-hot-demand-ipo-push-2026-07-20/",
+              "source": "Reuters"
+            },
+            {
+              "id": 6,
+              "title": "China's Moonshot AI claims Kimi K3 can rival OpenAI and Anthropic",
+              "url": "https://www.bbc.com/news/articles/cy9w4q8pgp0o",
+              "source": "BBC"
+            },
+            {
+              "id": 7,
+              "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+              "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 8,
+              "title": "Chinese startup Moonshot AI unveils Kimi model it says rivals OpenAI, Anthropic",
+              "url": "https://www.cnbc.com/2026/07/17/moonshot-ai-kimi-k3-model-openai-anthropic-china.html",
+              "source": "CNBC"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "models",
+          "title_highlights": [
+            "Kimi K3",
+            "Moonshot AI"
+          ],
+          "three_lines_highlights": [
+            "Kimi K3",
+            "米大手",
+            "需要急増"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Anthropic、Metaの計算資源を最大10億ドル規模で確保へ　“自前クラウド化”の布石か",
+          "summary_ja": "AnthropicがMetaの計算資源を借りる方向で交渉していると報じられ、規模は最大100億ドルに達する可能性がある。背景には、AI需要の急増で主要プレイヤーがGPUなどの計算資源を自前で抱え込むだけでなく、外部提供まで視野に入れ始めた構図がある。Alphabetのクラウド急拡大や、Hut 8の大規模AIデータセンター契約も重なり、AIインフラ市場は「モデル競争」から「計算資源競争」へと比重を移しつつある。[2][6][7][8]",
+          "summary_en": "Anthropic is reportedly in talks to lease compute from Meta in a deal that could reach up to $10 billion over two years. The move underscores how AI leaders are increasingly competing over and monetizing compute infrastructure, alongside strong cloud demand at Alphabet and large-scale AI data center deals elsewhere in the market.[2][6][7][8]",
+          "three_lines": [
+            "AnthropicはMeta計算資源を最大10億ドル規模で確保へ",
+            "AI需要拡大で、巨大クラウド投資が一段と加速している",
+            "モデル競争は、計算資源の囲い込み競争へ移った"
+          ],
+          "body_ja": "AnthropicがMetaの計算資源を借りる方向で交渉している。報道では、2年で最大100億ドルに達しうる大型契約が想定されており、AI企業同士が競争相手からインフラを調達する、かなり異例の構図が見えてきた。[6]\n\nこの話が示すのは、生成AIの主戦場が「どのモデルが賢いか」だけでなく、「どれだけ安定して大量の計算資源を確保できるか」へ移っていることだ。Forbesは、Anthropicが従来型クラウド一辺倒ではない計算基盤戦略へ動いていると指摘し、競合からのコンピュート調達が広がる可能性を報じている。[5]\n\n一方で、Meta側にとっては、この取引がAIクラウド事業への足がかりになる可能性がある。検索結果の別報道でも、Anthropicとの交渉はMetaがAIクラウド分野へ広げていく布石と位置づけられており、単なる設備貸しではなく、AIインフラを収益化する新しいモデルとして注目されている。[4]\n\n周辺環境を見ると、AI向け計算資源への投資はすでに加速している。Alphabetは2026年の設備投資見通しを1950億〜2050億ドルへ引き上げ、AI需要を理由に挙げたうえで、Google Cloudの売上が前年比82%増だったと伝えられている。[2] さらに、Hut 8もAIデータセンター向けに98億ドル規模の15年リースを結んだとされ、電力・土地・サーバーを押さえる動きが業界全体に広がっている。[1]\n\nAnthropic自身も、足元では知財面の重荷を抱えている。著作権訴訟をめぐる15億ドルの和解が最終承認されたと報じられており、法務コストを抱えながらも、次の成長局面に向けて計算資源をどう確保するかが重要な経営課題になっている。[3]\n\n要するに今回の報道は、AnthropicとMetaの個別交渉というより、AI業界全体が「モデル開発」から「計算資源の獲得・提供」へとビジネスの重心を移し始めたサインと見るべきだろう。クラウド大手だけでなく、AI企業同士、さらにはデータセンター事業者まで巻き込んだ“計算資源の争奪戦”が、今後の生成AI競争を左右しそうだ。[1][2][4][5][6]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Bitcoin Miner Hut 8 Shares Jump On $9.8 Billion AI Data Center Deal - Bitcoin Magazine",
+              "url": "https://bitcoinmagazine.com/news/bitcoin-miner-hut-8-shares-jump-on-ai-deal",
+              "source": "Bitcoin Magazine"
+            },
+            {
+              "id": 2,
+              "title": "Google earnings live updates: Alphabet's AI outlook, cloud growth in focus - CNBC",
+              "url": "https://www.cnbc.com/2026/07/22/google-earnings-q2-goog-live-updates.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic, Authors’ $1.5 Billion Deal Receives Final Approval - Bloomberg Law News",
+              "url": "https://news.bloomberglaw.com/ip-law/anthropic-authors-1-5-billion-deal-receives-final-approval",
+              "source": "Bloomberg Law News"
+            },
+            {
+              "id": 4,
+              "title": "Anthropic is negotiating to lease AI compute from Meta, a deal that could reach $1 billion, paving the way for Meta to expand into the AI cloud business - Money & Banking Magazine.",
+              "url": "https://moneyandbanking.co.th/en/2026/257308/",
+              "source": "Money & Banking Magazine"
+            },
+            {
+              "id": 5,
+              "title": "Frontier AI Labs Are Renting Compute From Their Competitors - Forbes",
+              "url": "https://www.forbes.com/sites/janakirammsv/2026/07/19/frontier-ai-labs-are-renting-compute-from-their-competitors/",
+              "source": "Forbes"
+            },
+            {
+              "id": 6,
+              "title": "Meta, Anthropic in talks for potential $10 billion compute lease deal, source says - Reuters",
+              "url": "https://www.reuters.com/technology/meta-talks-10-billion-anthropic-compute-deal-nyt-reports-2026-07-17/",
+              "source": "Reuters"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "models",
+          "title_highlights": [
+            "Anthropic",
+            "Meta",
+            "10億ドル"
+          ],
+          "three_lines_highlights": [
+            "Anthropic",
+            "AI需要",
+            "計算資源"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AIモデル分野では、モデル性能の競争に加えて、学習・推論を支える計算資源と専用インフラの確保が勝敗を左右する局面が鮮明になっています。GoogleやAnthropicの動きが示すように、大手は自社チップ開発や外部GPU活用で供給制約を乗り切ろうとしており、競争軸は「どのモデルが強いか」から「どれだけ安定して速く回せるか」へ移っています。加えて、Moonshot AIのような中国勢がオープンウェイトと価格競争力を武器に存在感を増し、米大手との距離を一段と縮めています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "AMDがHelios AIシステムを正式発表、Microsoft Azureが採用へ　クラウド向けAI基盤競争がさらに加速",
+          "summary_ja": "AMDが発表したラック規模のAIシステム「Helios」に、Microsoft Azureが2026年後半から導入する見通しとなった。半導体とクラウドの両面で、AIインフラの主導権争いが一段と激しくなっている。",
+          "summary_en": "AMD has announced its Helios rack-scale AI system, and Microsoft Azure plans to deploy it in the second half of 2026. The move underscores intensifying competition over AI infrastructure across chips and cloud platforms.",
+          "three_lines": [
+            "AMDのHeliosがAzure採用で存在感を増した",
+            "Microsoftは2026年後半の展開開始を示した",
+            "AI基盤競争は半導体からクラウドへ広がる"
+          ],
+          "body_ja": "AMDが正式に打ち出した「Helios」AIシステムは、単なる新製品の追加ではなく、クラウド向けAI基盤の競争図を塗り替える動きとして見るべきだ。今回の報道では、Microsoft AzureがHeliosベースのシステムを提供し、2026年後半に展開を始めると伝えられている[2][5]。Azure側の採用が具体化したことで、AMDはデータセンター向けハードウェア市場での足場を一段と強めることになる[5]。\n\n背景にあるのは、AI需要の拡大に伴って、クラウド事業者が自前のGPU/AIアクセラレータ戦略だけでなく、外部ベンダーとの組み合わせを急いでいることだ。Microsoftは直近でも、欧州でのAI計算基盤拡張に向けてMistral支援の大型契約を結ぶと報じられており、AI向け計算資源の確保を重要課題としていることがうかがえる[4]。さらにMicrosoft Marketplace上では、AIアプリの配信・導入を簡素化する動きも進んでおり、クラウド上でAIを使う導線づくりを広げている[3]。\n\nAMDにとってHeliosのAzure採用は、顧客獲得以上の意味を持つ。IBDはAMDとCerebrasが同日にAIチップ関連の提携を発表し、半導体株が上昇したと伝えた[1]。またCNBCも、MicrosoftがAMDのHeliosベースシステムをAzureで提供すると報じ、AMD株とMicrosoft株がそれぞれ反応したと説明している[2]。つまり今回の話題は、単なる製品発表ではなく、チップ供給・クラウド提供・AIワークロード需要が一体で動く局面を示している。\n\nクラウド3強の文脈で見ると、AWS、Azure、GCPはこれまでもAI向けに独自基盤やモデル連携を強めてきたが、今回のHelios採用は「どのクラウドがどのAIハードを選ぶか」が戦略の差別化要素になることを改めて示した。特にAzureは、モデル提供やアプリ配布だけでなく、基盤ハードの選択でも攻勢をかけているように見える[2][3][4]。今後は、価格競争だけでなく、推論性能、導入のしやすさ、パートナーエコシステムを含めた総合力が、クラウドのAI競争を左右しそうだ。",
+          "references": [
+            {
+              "id": 1,
+              "title": "AMD, Cerebras Strike AI Chip Deals - Investor's Business Daily",
+              "url": "https://www.investors.com/news/technology/amd-stock-cerebras-rise-ai-chip-deals/",
+              "source": "Investor's Business Daily"
+            },
+            {
+              "id": 2,
+              "title": "Stocks making the biggest moves midday: AMD, Archer Aviation, SpaceX, Iren & more - CNBC",
+              "url": "https://www.cnbc.com/2026/07/20/stocks-making-the-biggest-moves-midday-amd-achr-spcx-iren.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 3,
+              "title": "GW RhythmX Launches RhythmX Pulse Precision Care AI App on Microsoft Marketplace - HIT Consultant",
+              "url": "https://hitconsultant.net/2026/07/17/gw-rhythm-x-launches-rhythmx-pulse-microsoft-marketplace/",
+              "source": "HIT Consultant"
+            },
+            {
+              "id": 4,
+              "title": "Microsoft to fund Mistral's European AI expansion in multibillion-dollar deal - Reuters",
+              "url": "https://www.reuters.com/business/microsoft-fund-mistrals-european-ai-expansion-multibillion-dollar-deal-2026-07-21/",
+              "source": "Reuters"
+            },
+            {
+              "id": 5,
+              "title": "AMD Unveils Helios AI System; Microsoft Azure Joins Client List - Whalesbook",
+              "url": "https://www.whalesbook.com/news/English/technology/AMD-Unveils-Helios-AI-System-Microsoft-Azure-Joins-Client-List/6a5ef6b1fe1c9287f4784049",
+              "source": "Whalesbook"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "cloud",
+          "title_highlights": [
+            "Helios",
+            "Azure"
+          ],
+          "three_lines_highlights": [
+            "Helios",
+            "Azure",
+            "AI基盤"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "AWS、Sustainability Consoleに水使用量を追加　データセンターの水消費を見える化",
+          "summary_ja": "AWSがサステナビリティダッシュボードに水使用量データを追加し、地域やサービスごとの水消費を確認しやすくした。AIデータセンターへの投資拡大で水利用への関心が高まるなか、利用企業側にも説明責任を求める流れが強まっている。",
+          "summary_en": "AWS has added water withdrawal data to its sustainability dashboard, making regional and service-level water use easier to inspect. As scrutiny of AI data centers intensifies, the move reflects a broader push for transparency and accountability around resource consumption.",
+          "three_lines": [
+            "AWSが水使用量を可視化した。",
+            "AIデータセンターの水利用が注目される。",
+            "企業は地域別の影響を確認できる。"
+          ],
+          "body_ja": "AWSはSustainability Consoleに水使用量データを追加し、クラウド利用者が地域やサービスごとの水消費を把握できるようにした[7]。これまで同社のサステナビリティ関連の見える化は主に排出やエネルギーの文脈で語られてきたが、今回は「water withdrawal」の情報を前面に出した点が新しい[7]。\n\n背景には、データセンターの水利用をめぐる社会的な目線の厳しさがある。米国ではAIデータセンター計画の多くが、水使用や電力、騒音、料金を理由に地元の反発を受け、2026年第1四半期だけで75件、総額1300億ドル相当が遅延または却下されたとされる[4]。また、2026年7月には米南西部の主要貯水池が記録的低水位に沈み、広域の水供給そのものへの不安も強まっている[2]。こうした環境では、クラウド事業者が「どれだけ使っているか」を示すだけでも、顧客や自治体との対話材料になりうる[2][4]。\n\nAWSの今回の更新は、単なる環境報告の強化ではなく、クラウド基盤の運用をめぐる説明可能性の拡張と見るべきだろう。特に生成AIの普及でデータセンター増設が続くなか、電力に加えて水という資源制約まで管理対象に入ることで、企業は地域選定やワークロード配分をより現実的に検討しやすくなる[4][7]。同じ7月にはGoogleのデータセンター計画をめぐって地元の水使用懸念が取り上げられており、主要クラウド各社にとって水はもはや周辺論点ではない[8]。AWSがダッシュボードに水データを載せたことは、業界全体の透明性競争を一段押し上げる動きといえそうだ[7][8]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Residents file class action suit against Markley Lowell - Lowell Sun",
+              "url": "https://www.lowellsun.com/2026/07/19/residents-file-class-action-suit-against-markley-lowell/",
+              "source": "Lowell Sun"
+            },
+            {
+              "id": 2,
+              "title": "Crucial reservoirs in the Southwest reach record lows, threatening power and water for millions - CNN",
+              "url": "https://www.cnn.com/2026/07/22/climate/lake-mead-powell-record-low-water-colorado-river-drought?iid=cnn_buildContentRecirc_end_recirc&recs_exp=up-next-article-end&tenant_id=related.en",
+              "source": "CNN"
+            },
+            {
+              "id": 3,
+              "title": "5 dead in attempt to save a struggling swimmer in an Ohio river, sheriff says - The Sun Chronicle",
+              "url": "https://www.thesunchronicle.com/news/nation_world/5-dead-in-attempt-to-save-a-struggling-swimmer-in-an-ohio-river-sheriff-says/article_0982e02a-c17f-55e4-8b44-5a6e72c67f8f.html",
+              "source": "The Sun Chronicle"
+            },
+            {
+              "id": 4,
+              "title": "$130 Billion In AI Data Centers Stalled. The Bottleneck Is Consent - Forbes",
+              "url": "https://www.forbes.com/sites/robertszczerba/2026/07/22/130-billion-in-ai-data-centers-stalled-the-bottleneck-is-consent/",
+              "source": "Forbes"
+            },
+            {
+              "id": 5,
+              "title": "Imperial Valley Participates in National Data Center Protest Day - Calexico Chronicle",
+              "url": "https://calexicochronicle.com/2026/07/21/imperial-valley-participates-in-national-data-center-protest-day/",
+              "source": "Calexico Chronicle"
+            },
+            {
+              "id": 6,
+              "title": "Testing Tools to Gauge Snow Depth - NASA Earthdata (.gov)",
+              "url": "https://www.earthdata.nasa.gov/news/testing-tools-gauge-snow-depth",
+              "source": "NASA Earthdata"
+            },
+            {
+              "id": 7,
+              "title": "AWS adds water withdrawal reporting to sustainability dashboard as data center water use comes under scrutiny - waterworld.com",
+              "url": "https://www.waterworld.com/water-reuse/news/55392005/aws-adds-water-withdrawal-reporting-to-sustainability-dashboard-as-data-center-water-use-comes-under-scrutiny",
+              "source": "WaterWorld"
+            },
+            {
+              "id": 8,
+              "title": "Roanoke water company addresses Google data center water usage concerns - WDBJ7",
+              "url": "https://www.wdbj7.com/2026/07/20/roanoke-water-company-addresses-google-data-center/",
+              "source": "WDBJ7"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "water",
+            "Sustainability"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "water",
+            "130B"
+          ],
+          "id": "cloud-2"
+        }
+      ],
+      "summary": "本日のクラウド分野は、AIインフラ競争の激化と、それに伴う運用の透明性・持続可能性の強化が大きな流れでした。AMDのHelios採用を巡る動きに見られるように、クラウド各社はAI向け基盤の性能確保を急ぐ一方、AWSの水使用量可視化のように、データセンターの環境負荷を開示し説明責任を果たす方向にもシフトしています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Factory創業者が語る「ソフトウェアが自らを構築する」ダークファクトリー構想、AI開発ツールの自律化が加速",
+          "summary_ja": "NVIDIAが各地で「AI factory」を軸にした大型投資や提携を進める一方、開発の現場ではAIツールがコード生成を超えて“自律実行”へ向かっています。Factory創業者が描く「ソフトウェアが自らを構築する」ダークファクトリー構想は、Claude Code、Cursor、GitHub Copilot、LangChainのような開発者ツール群を、単なる補助から実務の主役へ押し上げる流れの象徴です。",
+          "summary_en": "NVIDIA is accelerating the “AI factory” model through major partnerships and infrastructure investments, while developer tooling is moving toward autonomous execution. Factory’s vision of a “dark factory” where software builds itself reflects the shift from code assistance to agentic software production, a trend shaping tools like Claude Code, Cursor, GitHub Copilot, and LangChain.",
+          "three_lines": [
+            "AI factory投資が開発基盤を押し上げる",
+            "ソフトウェア自走化が実装工程を変える",
+            "開発者ツールは補助から自律へ進む"
+          ],
+          "body_ja": "「AI factory」という言葉が、インフラ投資の文脈から開発現場の自動化を語るキーワードへ広がっている。NVIDIAは日本でのAI factory構想を進め、140メガワット規模のデータセンター容量や多数のVera CPU/GPUを組み合わせる計画が報じられたほか、Bristol Myers Squibbとも「life sciencesで最も強力なAI factory」を目指す提携を打ち出した[2][1][6]。さらにJensen Huang氏の日本訪問後には、国全体のAI factoryやエコシステム横断の提携が話題になっており、AIの計算資源を工業製品のように量産・配備する見方が強まっている[4]。\n\nこの流れを開発者ツールの側から見ると、Factory創業者が語る「ソフトウェアが自らを構築する」ダークファクトリー構想は、単なる比喩ではなくなりつつある。従来のAI支援は、コード補完や生成を手伝う“アシスタント”が中心だったが、今は開発タスクを分解し、実行し、修正を重ねる“エージェント”型の使い方へ重心が移っている。Business Insiderは、AI時代のソフトウェアエンジニアリングが再定義され、いわゆるvibe codingが仕事の進め方や採用観にも影響を与えていると伝えている[5]。これは、Claude Code、Cursor、GitHub Copilot、LangChainのようなツール群が、個別機能の競争から「どこまで自律的に開発工程を回せるか」という競争に入ったことを示唆する。\n\nセキュリティ面でも、この自律化は両義的だ。Dark Readingは、攻撃者が信頼されたAIツールやワークフローを“住処”のように悪用する「AI toolchain」上の脅威を指摘している[3]。つまり、開発の自動化が進むほど、正規のツールチェーンそのものが攻撃対象になり得る。ダークファクトリー構想が現実味を帯びるほど、認証、権限、監査ログ、実行サンドボックスといった基盤設計の重要性は増す。\n\n要するに、今起きているのはAI開発ツールの“賢さ”の向上ではない。AI factoryで大量の計算資源を確保し、その上で開発エージェントがコードを組み立てる――そんな二層の自律化が、ソフトウェア開発の標準モデルを塗り替え始めているのである[2][4][5]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "BMS expands AI footprint with Nvidia, aiming for ‘most powerful AI factory in life sciences’ - Fierce Biotech",
+              "url": "https://www.fiercebiotech.com/biotech/bms-expands-ai-footprint-nvidia-create-largest-drug-rd-supercomputer",
+              "source": "Fierce Biotech"
+            },
+            {
+              "id": 2,
+              "title": "Japan’s Planned AI Factory Will Share Models for Robot AI - Stock Titan",
+              "url": "https://www.stocktitan.net/news/NVDA/japan-government-industrial-leaders-and-nvidia-launch-the-world-s-2cd2er9zenkt.html",
+              "source": "Stock Titan"
+            },
+            {
+              "id": 3,
+              "title": "Attackers Are Learning to Live Off the AI Toolchain - Dark Reading",
+              "url": "https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain",
+              "source": "Dark Reading"
+            },
+            {
+              "id": 4,
+              "title": "What to watch for after Jensen Huang’s Japan visit - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 5,
+              "title": "The Great Coding Reset: How AI is changing software engineering - Business Insider",
+              "url": "https://www.businessinsider.com/great-coding-reset-ai-software-engineering-2026-7",
+              "source": "Business Insider"
+            },
+            {
+              "id": 6,
+              "title": "Bristol Myers Squibb, NVIDIA build AI factory for drug discovery - MobiHealthNews",
+              "url": "https://www.mobihealthnews.com/news/bristol-myers-squibb-nvidia-build-ai-factory-drug-discovery",
+              "source": "MobiHealthNews"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "devtools",
+          "title_highlights": [
+            "AI factory",
+            "Claude Code",
+            "Cursor"
+          ],
+          "three_lines_highlights": [
+            "AI factory",
+            "自律化",
+            "LangChain"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "Claude Code風の activity rail を備えた Vibe-Trading 公開、開発者エージェントの可視化UIが広がる",
+          "summary_ja": "Vibe-Trading が v0.1.11 で更新され、英語版・日本語版のREADMEでは Claude Code 風の activity rail による live agent 表示が打ち出されました。GitHub の更新履歴では、インド株バックテスト、PIT-safe なファクター層、16アダプターの通信層、定期実行研究など実用機能の拡充も示されています。[1][3]",
+          "summary_en": "Vibe-Trading’s latest release and README highlight a Claude Code-like activity rail for live agent visibility, while the GitHub changelog shows broader upgrades including Indian equity backtesting, a PIT-safe factor layer, a 16-adapter IM runtime, and scheduled research.[1][3]",
+          "three_lines": [
+            "Vibe-Tradingがactivity rail表示を前面に出した。",
+            "v0.1.11で実運用向け機能を大きく増やした。",
+            "開発者エージェントの可視化UI競争が進んだ。"
+          ],
+          "body_ja": "Vibe-Trading が新しい存在感を放っている。日本語READMEでは、Claude Code 風の activity rail により live agent の作業を見せる設計が明記されており、単なる自動実行ではなく「今なにをしているか」を追えるUIが前面に出ている。[2] これは、エージェントの出力そのものだけでなく、途中経過や判断の流れを可視化する方向に開発者ツールの関心が移っていることを示す。 \n\n同プロジェクトの GitHub 更新履歴では、2026-07-11 に v0.1.11 が公開され、NSE/BSE の first-class backtesting、PIT-safe な fundamental factor layer、16-adapter の IM channel runtime、scheduled research などが追加されたと説明されている。[1] つまり Vibe-Trading は見た目の刷新だけではなく、研究・検証・実行の一連の流れを強化している。UIでエージェントの動作を追えることと、裏側の処理系が厚くなることが同時に進んでいる点が興味深い。[1][2] \n\n今回のポイントは、Claude Code を連想させる activity rail が「便利な装飾」ではなく、開発者エージェントを扱う際の信頼性や理解性を上げるための中核要素として扱われていることだ。[2] Cursor や GitHub Copilot、LangChain 系の文脈でも、エージェントの提案や実行をどう見せるかは重要テーマになってきたが、Vibe-Trading はその流れを金融研究・自動売買の領域に持ち込んでいる。[1][2] これにより、AI エージェントの価値は「何ができるか」だけでなく、「どう動いているかを開発者が把握できるか」にも広がりつつある。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Vibe-Trading: Your Personal Trading Agent · GitHub",
+              "url": "https://github.com/HKUDS/Vibe-Trading",
+              "source": "GitHub"
+            },
+            {
+              "id": 2,
+              "title": "Vibe-Trading/README_ja.md at main",
+              "url": "https://github.com/HKUDS/Vibe-Trading/blob/main/README_ja.md",
+              "source": "GitHub"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "devtools",
+          "title_highlights": [
+            "Vibe-Trading",
+            "activity rail"
+          ],
+          "three_lines_highlights": [
+            "activity rail",
+            "v0.1.11",
+            "可視化UI"
+          ],
+          "id": "devtools-2"
+        },
+        {
+          "title": "Qwenのモデル群と料金体系を整理、開発者の選択肢が広がる",
+          "summary_ja": "中国発のオープンソース系モデル群としてQwenが存在感を強めるなか、開発者はChatGPTやClaudeだけでなく、用途別にモデルや基盤を使い分ける局面に入っています。中国のAIモデルはKimi、Deepseek、Qwenが有力とされ、Moonshotの新モデルやAlibaba/Baiduの動きも含め、競争は一段と激しくなっています。[4][8][2][5]",
+          "summary_en": "Qwen is gaining visibility as part of a broader wave of Chinese AI models, expanding developers’ choices beyond ChatGPT and Claude. Recent reports also show stronger competition across Chinese AI labs and growing ecosystem momentum around model deployment and integration.[4][8][2][5]",
+          "three_lines": [
+            "Qwen系の選択肢が開発現場で広がる。",
+            "料金や用途でモデル比較が進む。",
+            "ChatGPTやClaude以外の軸が増える。"
+          ],
+          "body_ja": "中国発のAIモデル群が、開発者向けの選択肢として一気に存在感を増している。Forbesは、中国のオープンソース系モデルとしてKimi、Deepseek、Qwenが「dominant AI tools」となっていると伝え、アメリカ勢の新興企業がそこに挑む構図を報じた。[4] さらにBloombergは、Moonshotの新モデルがOpenAIやAnthropicの一部プラットフォームに肩を並べる性能をうたっていると報じ、中国勢が米国勢との差を詰めつつあることを示した。[8]\n\nこの流れは、単に“高性能モデルが増えた”という話ではない。開発者にとっては、モデルの能力だけでなく、どの提供元を選ぶか、どうアプリやエージェントに組み込むかが重要になる。AI開発ツールやagentフレームワークの世界では、Claude CodeやCursor、GitHub Copilot、LangChainのような製品が、モデルそのものと同じくらい意思決定の対象になっている。そこへQwen系が加わることで、APIの使い勝手、組み込みやすさ、コストの考え方が比較の軸としてより前面に出てくる。[4][8]\n\n中国市場では、Apple Intelligenceの展開にAlibabaとBaiduが関わる動きも報じられており、AIモデルは単独の研究成果ではなく、配信・規制・提携まで含めたエコシステム競争になっている。[2][5] つまり、Qwenを含む中国発モデルは、ChatGPTやClaudeの代替候補というより、開発者が用途に応じて選ぶ“別の主戦場”として成熟しつつある。特に、社内ツールやエージェント基盤で複数モデルを使い分ける場合、性能だけでなく料金体系や導入制約まで含めて比較する必要があるだろう。[4][8][7]\n\n一方で、AIツールの利用拡大は運用面の注意も伴う。Infosecurity Magazineは、従業員によるAIツールの誤用がROIの測定を難しくし、データ漏えいリスクを高めうると指摘している。[7] 開発現場でモデルの選択肢が増えるほど、便利さの裏でガバナンスや利用ルールが重要になる。Qwenのような新たな候補が登場することは歓迎材料だが、導入判断は“安い・速い”だけでなく、権限管理、データ保持、組織内での使い分けまで含めて設計する必要がある。[7][4]\n\n総じて言えば、Qwenをめぐる注目は、単体モデルの話から開発者ツール全体の競争へと広がっている。ClaudeやChatGPTが依然として有力である一方、中国勢の台頭によって、開発者はより細かく用途別にモデルを選べるようになった。今後は、どのモデルが“最強”かよりも、どのモデルが自分のワークフロー、コスト、統制要件に最も合うかが問われる局面に入っている。[4][8][2][5]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claude Mythos FAQ: Capabilities, access, competitors, implications",
+              "url": "https://www.csoonline.com/article/4198019/claude-mythos-faq-capabilities-access-competitors-implications.html",
+              "source": "CSO Online"
+            },
+            {
+              "id": 2,
+              "title": "Alibaba and Baidu shares jump in Hong Kong on Apple AI partnership",
+              "url": "https://www.cnbc.com/2026/07/16/alibaba-baidu-shares-jump-apple-ai-partnership-.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 3,
+              "title": "How to Unblock and Use ChatGPT in Hong Kong?",
+              "url": "https://gizmodo.com/best-vpn/use-chatgpt-in-hong-kong",
+              "source": "Gizmodo"
+            },
+            {
+              "id": 4,
+              "title": "American Open-Source Labs Think They Can Beat China’s Best AI Startups",
+              "url": "https://www.forbes.com/sites/iainmartin/2026/07/21/american-open-source-labs-think-they-can-beat-chinas-best-ai-startups/",
+              "source": "Forbes"
+            },
+            {
+              "id": 5,
+              "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+              "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 6,
+              "title": "Nasdaq drops 1% after China’s latest AI breakthrough rattles tech stocks",
+              "url": "https://www.cnn.com/2026/07/17/investing/us-stocks-asia",
+              "source": "CNN"
+            },
+            {
+              "id": 7,
+              "title": "Employees Are Misusing AI tools at Work: Making ROI Hard to Measure and Risking Data Leaks",
+              "url": "https://www.infosecurity-magazine.com/opinions/employees-misusing-ai-tools/",
+              "source": "Infosecurity Magazine"
+            },
+            {
+              "id": 8,
+              "title": "China’s Powerful New Moonshot AI Model Closes Gap With US Rivals",
+              "url": "https://www.bloomberg.com/news/articles/2026-07-17/china-s-powerful-new-moonshot-ai-model-closes-gap-with-us-rivals",
+              "source": "Bloomberg"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "devtools",
+          "title_highlights": [
+            "Qwen",
+            "料金体系"
+          ],
+          "three_lines_highlights": [
+            "Qwen",
+            "料金",
+            "Claude"
+          ],
+          "id": "devtools-3"
+        }
+      ],
+      "summary": "AI開発ツールは、コード補助から「自律的に仕事を進めるエージェント」へと主戦場が移りつつあり、Factoryのような“ソフトウェアが自らを構築する”構想や、activity rail付きUIの普及がその流れを象徴しています。加えて、Claude/Cursor/CopilotだけでなくQwenやDeepSeekなど多様なモデルを用途別に使い分ける動きが強まり、開発現場では「どのツールを使うか」より「どう連携させて実務を回すか」が重要になっています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "監視付きADASが主戦場に　ロボタクシー偏重から収益化モデルが転換",
+          "summary_ja": "米国の自動運転市場では、完全無人のロボタクシーだけが成長物語ではなくなっている。Waymoのサンフランシスコでの一時停止や、市当局による規制強化の動きは、都市部の無人運行が社会インフラと衝突しやすいことを改めて示した。一方で、農業分野では既存トラクターを自律化する後付けキットが広がり、WeRideはUAE向け展開でAI事例として評価された。こうした流れは、自動運転の収益源が「遠い将来の完全自動運転」から、「監視付きADAS」や既存車両・既存産業への実装へと重心移動していることを示している。",
+          "summary_en": "The U.S. autonomous-driving market is shifting away from a robotaxi-only story. Waymo’s temporary pause in San Francisco and the city’s push for tighter rules highlight the friction between driverless operations and urban realities. At the same time, retrofit autonomy kits in agriculture and WeRide’s UAE deployment show that monetization is moving toward supervised ADAS and practical deployment models.",
+          "three_lines": [
+            "Waymo停止で無人運行の脆さが露呈した。",
+            "規制強化でロボタクシーの拡大が鈍った。",
+            "後付け自律化が収益化の軸に浮上した。"
+          ],
+          "body_ja": "米国の自動運転をめぐる議論は、ロボタクシーの華やかな実証から、より現実的な収益化モデルへと軸足を移しつつある。サンフランシスコでは、Waymoの車両が停電の影響を受けて一時的に停止し、別報道では交通混雑を受けた市長が規制強化を求めたほか、乗客が車内にいる状態で車両が襲われる事件も伝えられた[1][3][4][2]。こうした一連の出来事は、無人運行が技術デモの段階を超えつつある一方で、都市インフラや治安、行政対応と切り離せないことを示している。\n\n注目すべきは、この逆風が自動運転そのものの失速を意味しない点だ。むしろ、事業者は「完全無人」よりも、監視付きADASや限定環境での自律機能を通じて、より早く、より広い市場で回収を狙う方向に傾き始めている。農業分野では、既存のトラクターを自律化する後付けキット市場が拡大していると報じられており、新車を丸ごと置き換えるよりも、今ある資産に自動化を足すアプローチが現実的な選択肢として広がっている[5]。自動運転の「勝ち筋」が、ハイリスクなロボタクシー専業から、既存機体を活かす段階的導入へ移りつつあることを示す例だ。\n\n海外展開の文脈でも、同じ変化が見える。WeRideはUAEでの自動運転展開に関するAI事例として中国の上位10件に選ばれ、唯一の自動運転企業として認定されたと発表した。これは、単一都市の無人タクシーで大規模に勝負するより、各国の規制環境や用途に合わせて、実運用に耐えるサービスを積み上げる戦略が評価されていることを示唆する。自動運転の市場は、技術の完成度だけではなく、規制、保守、運用設計を含めた総合力で競う局面に入った。\n\n結果として、欧米の自動運転事業で主戦場になりつつあるのは、遠い未来の完全無人車ではなく、監視付きADASや後付け自律化のように、導入障壁を下げながら段階的に収益を生むモデルだ。Waymoの停止やサンフランシスコ市の規制見直しは、ロボタクシー偏重のリスクを浮き彫りにした[1][3][4][6]。一方で、農業の retrofit 市場や海外の実運用事例は、自動運転が「新しい車を売る事業」から「既存の車両・産業を自動化する事業」へと変わっていく可能性を示している[5]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Waymo Robotaxi Operations Temporarily Suspended in San Francisco - Zamin",
+              "url": "https://zamin.uz/en/technology/213157-waymo-robotaxi-operations-temporarily-suspended-in-san-francisco.html",
+              "source": "Zamin.uz"
+            },
+            {
+              "id": 2,
+              "title": "‘They’re going to kill me’: A Waymo rider was trapped inside as vandals smashed the robotaxi - San Francisco Chronicle",
+              "url": "https://www.sfchronicle.com/sf/article/waymo-attack-rider-trapped-inside-22348656.php",
+              "source": "San Francisco Chronicle"
+            },
+            {
+              "id": 3,
+              "title": "San Francisco Mayor tightens rules following traffic congestion caused by Waymo robotaxis - Zamin.uz",
+              "url": "https://zamin.uz/en/technology/212838-san-francisco-mayor-tightens-rules-following-traffic-congestion-caused-by-waymo-robotaxis.html",
+              "source": "Zamin.uz"
+            },
+            {
+              "id": 4,
+              "title": "Waymo appears to pause San Francisco service amidst power outage - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 5,
+              "title": "Retrofit or replace? Make your existing tractor autonomous, avoid new costs - Future Farming",
+              "url": "https://www.futurefarming.com/tech-in-focus/autonomous-semiauto-steering/retrofit-or-replace-why-the-market-for-autonomous-retrofit-kits-is-picking-up-speed/",
+              "source": "Future Farming"
+            },
+            {
+              "id": 6,
+              "title": "San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco - TechCrunch",
+              "url": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 7,
+              "title": "Tesla expands driverless robotaxi testing in Florida - Zamin.uz",
+              "url": "https://zamin.uz/en/technology/213675-tesla-expands-driverless-robotaxi-testing-in-florida.html",
+              "source": "Zamin.uz"
+            }
+          ],
+          "published_date": "2026-07-22",
+          "category": "global",
+          "title_highlights": [
+            "ADAS",
+            "Waymo",
+            "UAE"
+          ],
+          "three_lines_highlights": [
+            "Waymo",
+            "規制強化",
+            "後付けキット"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "米国の自動運転市場では、完全無人のロボタクシー一本足ではなく、規制や社会受容の壁を踏まえて「監視付きADAS」や既存車両への後付け自動化へ収益化の軸足が移りつつあります。Waymoの一時停止や都市規制の強化は無人運行の難しさを示す一方、農業や海外展開では既存産業に実装しやすい形の自動運転が現実的な成長領域として広がっています。"
+    }
+  ]
+}
