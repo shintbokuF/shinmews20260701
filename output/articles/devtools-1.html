@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GitHub Copilot app、ブラウザ検証と並列エージェント運用を正式提供へ | AI・クラウド ニュースダイジェスト</title>
+<title>Disney、GitHub Copilotを見直しOpenAI Codexへ　企業内AI開発ツールの選別が進む | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,21 +21,22 @@
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
     <span class="article-date">2026-08-01</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">GitHub Copilot</mark> app、<mark style="background:#8A3FE026">ブラウザ検証</mark>と<mark style="background:#8A3FE026">並列エージェント</mark>運用を正式提供へ</h1>
+  <h1 class="article-title">Disney、GitHub <mark style="background:#8A3FE026">Copilot</mark>を見直しOpenAI <mark style="background:#8A3FE026">Codex</mark>へ　企業内AI開発ツールの選別が進む</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Copilot app</mark>がブラウザ検証を正式化する</li><li><mark style="background:#8A3FE026">複数エージェント</mark>運用が実務機能になる</li><li>開発AIは速度と精度を同時に競う</li></ul>
+    <ul><li>Disneyが<mark style="background:#8A3FE026">Copilot</mark>を見直し<mark style="background:#8A3FE026">Codex</mark>へ切り替える</li><li>米国内の開発ツール選別が一気に進む</li><li>企業は生成品質と使い勝手をより重視する</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">GitHub Copilot appは、ブラウザを使った検証と複数エージェントの並列運用を前面に出し、開発者向けAIツールの競争を一段押し上げる。Google Antigravityが「複数エージェントを同時に回す管理面」と実ブラウザ制御を打ち出し、OpenAIも並列エージェントが精度と速度の両面で有効だと示したことで、エージェント運用は“試す段階”から“本番の設計要素”へ移りつつある。</p>
-    <p class="sum-en">GitHub Copilot app is moving toward official support for browser-based verification and parallel agent operations, reflecting a broader shift in developer AI tools. Google Antigravity emphasizes multi-agent management and real browser control, while OpenAI’s GPT-5.6 material highlights how parallel agents improve both quality and time-to-result.</p>
+    <p class="sum-ja">Disneyが米国内の開発チーム向けにGitHub CopilotなどのAIコーディングツールを見直し、OpenAIのCodexやClaude、Cursorへ切り替えると報じられた。背景には、Copilotの生成結果が「複雑すぎる」と受け止められ、利用率が伸びなかったことがあるとされる。企業がAI開発ツールを“導入”から“選別”へ移す流れを象徴する動きだ。</p>
+    <p class="sum-en">Disney is reportedly reconsidering GitHub Copilot for U.S. engineering teams and shifting toward OpenAI Codex, Claude, and Cursor. The move reflects a broader enterprise trend of selecting AI coding tools based on workflow fit and code quality rather than brand familiarity.</p>
   </div>
 
-  <div class="article-body"><p>GitHub Copilot appが、ブラウザを使った検証と並列エージェント運用を正式機能として前面に出す流れは、開発者向けAIツールの競争軸が変わりつつあることを示す。単なるコード補完から、実際のWeb操作や複数タスクの同時進行までを含めた“作業代行”へ、期待値が一段上がっている。Google Antigravityの紹介では、同製品の目玉として「Manager Surface for running multiple agents at once」と「real browser control」が挙げられており、複数エージェントをまとめて管理しながらブラウザ上の挙動まで確かめる設計が、すでに開発体験の中心になりつつあることがわかる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
-<p>この流れを後押しするのが、OpenAIのGPT-5.6関連の説明だ。そこでは、BrowseCompやSEC-Bench Proで16エージェント構成が使われ、並列エージェントを加えると「score-latency frontier」が改善すると示されている。要するに、エージェントを増やすと単に速くなるだけでなく、より良い結果を短時間で得やすくなる、という見立てだ<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。開発者視点では、これは“1つの賢いAI”より“役割分担する複数AI”のほうが、検証・調査・実行の各段で強い場面が増えることを意味する。</p>
-<p>今回の見出しが示すGitHub Copilot appの動きは、こうした潮流の延長線上にあると読める。ブラウザ検証が加われば、AIが生成した変更を人間の確認前に自動で試せる範囲が広がる。さらに並列エージェントが正式に扱えるなら、修正案の探索、テスト、ドキュメント更新といった処理を同時並行で回しやすくなる。Claude Code、Cursor、LangChain系の開発者ツールやagentフレームワークも、今後は“何ができるか”だけでなく、“何体までをどう安全に束ねられるか”が差別化の焦点になるだろう。</p></div>
+  <div class="article-body"><p>Disneyが、米国内の開発チーム向けにGitHub Copilotの運用を見直し、OpenAIのCodexへ軸足を移すと報じられた。さらにClaudeやCursorも採用候補として挙がっており、単一の“標準ツール”に寄せるのではなく、用途ごとにAI開発環境を組み替える動きが見えている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p>
+<p>注目したいのは、今回の話が「新しいAI機能の追加」ではなく、「既存ツールの選別」だという点だ。報道によれば、Disneyのエンジニアの一部はCopilotが“過度に複雑なコード”を生成すると不満を持っており、利用率の低さにつながっていたという<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。つまり、AIコーディング支援は、性能の高さだけでなく、実際の開発フローにどれだけ自然に溶け込むかが問われている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p>
+<p>CodexはOpenAIが2021年8月に初めて公開した技術で、もともとGitHub Copilotの基盤にもなったと説明されている<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。その“原点”に近い技術へ回帰するようにも見えるが、今回はMicrosoftのGitHub CopilotからOpenAIのCodexへと、企業利用の主導権が微妙に移る構図が興味深い<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。AI開発ツールの市場では、モデル名だけでなく、コード生成の癖、レビューのしやすさ、既存ワークフローとの相性が、採用判断を左右する段階に入ったと言えそうだ<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p>
+<p>今回の変更は米国内のチームが対象で、国際展開は含まれないとされる<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。それでも、Disneyのような大規模組織がツールを入れ替える動きは、他社にも影響を与えやすい。実際、報道や関連コメントでは、今回の動きがAIコーディング領域の競争激化を示すものとして受け止められている<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup>。Claude Code、Cursor、LangChainのような開発者向けツールやフレームワークも含め、企業は“どのAIを使うか”ではなく“どの工程で何を使うか”を細かく設計する局面に入っている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p></div>
 
   
   <div class="references">
@@ -43,13 +44,38 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://tech-insider.org/ca/how-to-set-up-google-antigravity-2026" target="_blank" rel="noopener noreferrer">How to Set Up Google Antigravity: 12 Steps, 70 Min [2026] – Tech Insider Canada</a>
-        <span class="ref-source">— Tech Insider Canada</span>
+        <a href="https://www.hokanews.com/2026/07/disney-moves-away-from-github-copilot.html" target="_blank" rel="noopener noreferrer">Disney Moves Away From GitHub Copilot as Company Adopts OpenAI Codex - HOKANEWS.COM</a>
+        <span class="ref-source">— HOKANEWS.COM</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://openai.com/index/gpt-5-6" target="_blank" rel="noopener noreferrer">GPT-5.6: Frontier intelligence that scales with your ambition</a>
-        <span class="ref-source">— OpenAI</span>
+        <a href="https://t.co/DUpYkNixrV" target="_blank" rel="noopener noreferrer">Mouse Trap: Disney Dumps Microsoft&#39;s AI Copilot for OpenAI and Claude</a>
+        <span class="ref-source">— t.co</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://cryptobriefing.com/disney-github-copilot-openai-codex" target="_blank" rel="noopener noreferrer">Disney reportedly planning to swap GitHub Copilot for OpenAI&#39;s Codex in AI coding shake-up</a>
+        <span class="ref-source">— Crypto Briefing</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.businessinsider.com/disney-microsoft-github-copilot-openai-codex-ai-tools-claude-cursor-2026-7" target="_blank" rel="noopener noreferrer">Disney is ditching Microsoft&#39;s GitHub Copilot and adding OpenAI&#39;s Codex</a>
+        <span class="ref-source">— Business Insider</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://timesofindia.indiatimes.com/technology/tech-news/satya-nadella-has-a-new-headache-microsofts-breakup-with-disney-as-mouse-house-dumps-/articleshow/132727976.cms" target="_blank" rel="noopener noreferrer">Satya Nadella has a new &#39;headache&#39;, Microsoft&#39;s &#39;breakup&#39; with Disney, as Mouse House dumps ... - The Times of India</a>
+        <span class="ref-source">— The Times of India</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://www.marketbeat.com/instant-alerts/filing-first-national-bank-of-hutchinson-sells-1943-shares-of-microsoft-corporation-msft-2026-07-30" target="_blank" rel="noopener noreferrer">First National Bank of Hutchinson Sells 1,943 Shares of Microsoft Corporation $MSFT</a>
+        <span class="ref-source">— MarketBeat</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://www.marketbeat.com/instant-alerts/filing-microsoft-corporation-msft-is-canal-insurance-cos-3rd-largest-position-2026-07-30" target="_blank" rel="noopener noreferrer">Microsoft Corporation $MSFT is Canal Insurance CO&#39;s 3rd Largest Position</a>
+        <span class="ref-source">— MarketBeat</span>
       </li>
       
     </ol>

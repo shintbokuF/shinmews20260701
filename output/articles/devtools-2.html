@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Claude Code向け日本語Skillsと実務ワークフロー、GitHubで広がる | AI・クラウド ニュースダイジェスト</title>
+<title>Claude Code生みの親が提言、「AIを細かく指示するな」　開発エージェント活用は“任せ方”の局面へ | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,21 +21,22 @@
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
     <span class="article-date">2026-08-01</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">Claude Code</mark>向け日本語Skillsと実務ワークフロー、<mark style="background:#8A3FE026">GitHub</mark>で広がる</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Claude Code</mark>生みの親が提言、「<mark style="background:#8A3FE026">AI</mark>を細かく指示するな」　開発エージェント活用は“<mark style="background:#8A3FE026">任せ方</mark>”の局面へ</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Claude Code</mark>向け<mark style="background:#8A3FE026">Skills</mark>が<mark style="background:#8A3FE026">GitHub</mark>で公開拡大</li><li>研究・翻訳・実務手順をそのまま再利用</li><li>VS CodeやCLIで技能管理を簡単にする</li></ul>
+    <ul><li>AIへの<mark style="background:#8A3FE026">細かい指示</mark>は減らすべきだと提言した。</li><li><mark style="background:#8A3FE026">Claude Code</mark>ユーザーは能力を見積もり過小にしがちだ。</li><li>Karpathy流の長文メモ活用とも重なる潮流だ。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Claude Codeの周辺では、技能パッケージを共有する流れと、実務で使えるワークフローを整える流れが同時に進んでいる。GitHub上にはコピーライティングやSEO、研究、翻訳、そしてVS Codeからの管理まで、エージェント活用を前提にした公開資産が増えてきた。</p>
-    <p class="sum-en">Around Claude Code, two trends are converging: shareable skill packages and practical workflows for real work. On GitHub, public assets now cover copywriting, SEO, research, translation, and even VS Code-based management for agent-style development.</p>
+    <p class="sum-ja">Claude Codeの生みの親Boris Chernyが、AIには逐一の手順指定よりも目的を渡して任せるべきだと提言した。背景には、最新モデルの処理能力をユーザーが過小評価しがちだという問題意識がある。[2][1]</p>
+    <p class="sum-en">Boris Cherny, creator of Claude Code, argues users should stop micromanaging AI and instead delegate goals, noting that people often underestimate what newer models can handle.[2][1]</p>
   </div>
 
-  <div class="article-body"><p>Claude Codeをめぐる最近のGitHub公開物を見ると、単なる“便利なスニペット集”ではなく、作業の流れそのものを部品化しようとする動きが目立つ。たとえば `skills` リポジトリでは、コピーライティングやSEOに加え、Webサイトを動画構成へ変換するような用途まで含む技能群が並び、エージェントに渡す前提の実務タスクが整理されている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。同じく Claude Code 向けの `academic-research-skills` は、research → write → review → revise → finalize という研究ワークフローを明示しており、学術用途でも反復しやすい手順設計が意識されている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
-<p>この潮流は、Skill自体の中身だけでなく、運用方法にも広がっている。`claude-code-settings` には英日テック文書を自然な中国語へ翻訳する Skill が置かれ、特定の言語ペアに最適化した役割定義が確認できる<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。また `vscode-agent-skill-ninja` は、GitHub Copilot や Claude Code などのエージェント向け Skill を検索・導入・管理する VS Code 拡張として公開されており、Skill を“書く”だけでなく“入れ替えながら使う”前提の運用へ寄せている<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。さらに `learn-claude-code` は、bash だけで動く小さな agent harness として、`agent_loop` や `tool_use` のような教材・実験単位を並べている点が興味深い<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。</p>
-<p>つまり今の Claude Code 周辺では、Skill はプロンプトの補助ではなく、開発や調査の標準手順を再配布する単位になりつつある。CLI の使いこなしガイドをまとめたリポジトリも含め、実務で必要な“型”を GitHub で共有し、VS Code やエージェント実装に接続していく流れが見えてきた<sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。この変化は Claude Code だけでなく、Cursor や GitHub Copilot、LangChain 系の agent フレームワークにも波及しやすく、今後は「どのモデルを使うか」だけでなく「どんな技能と手順を載せるか」が開発体験を左右しそうだ<sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#8A3FE0">[8]</a></sup>。</p></div>
+  <div class="article-body"><p>AI開発ツールの現場で、プロンプトの“細かさ”よりも“任せ方”が問われ始めている。Claude Codeの生みの親として知られるBoris Chernyは、Y Combinatorのイベントで、ユーザーがモデルの能力を過小評価し、手順を一から一つずつ指示しすぎる傾向があると指摘した。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> つまり、AIに対して人間が作業の分解図を作り込みすぎるより、達成したい目的と制約を渡して動かしたほうが、最新モデルの力を引き出しやすいという考え方だ。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>この見方は、開発者向けAIツールの使い方が、従来の“プロンプト職人芸”から、よりエージェント的な運用へ移っていることを示している。Business Insiderの抜粋では、Chernyが「ユーザーは詳細なステップ・バイ・ステップの指示を与えすぎる」と述べており、問題はAIの性能不足ではなく、使い手の認識ズレにあることがうかがえる。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> News18も、彼の助言の要点を「over-specifying every step」と要約しており、複数ソースが同じ論点を伝えている。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup></p>
+<p>さらに、この潮流はClaude Codeに限らない。AI研究者のAndrej Karpathyも、LLMには10分間の“総合的にまとまっていないメモ”を投げても有用な応答が返ると語っており、必ずしも整った短文の指示だけが正解ではないことを示している。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup> こうした発想は、開発者ツールやagentフレームワークの実務でも重要だ。細かな手順を人間が握るのではなく、モデルの推論力と自律性に余地を与え、必要なときだけガードレールを置く。その設計思想が、Claude Codeや関連するAI開発ツールの使い方をじわりと変えつつある。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p>
+<p>要するに今回の話題は、「AIに何をさせるか」だけでなく、「どこまで人間が管理するか」を見直せ、という提言だ。開発現場では、Copilot系の補助的な利用から、LangChainのようなオーケストレーション、そしてClaude Codeのようなエージェント実行へと関心が広がっているが、その中心にあるのは“細かく命令するより、意図を渡す”という運用原則になりつつある。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p></div>
 
   
   <div class="references">
@@ -43,43 +44,23 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://github.com/boraoztunc/skills" target="_blank" rel="noopener noreferrer">GitHub - boraoztunc/skills: Claude Code skills for copywriting, SEO, design, and more</a>
-        <span class="ref-source">— GitHub</span>
+        <a href="https://www.aol.com/articles/creator-anthropics-claude-code-wants-220802000.html" target="_blank" rel="noopener noreferrer">Creator of Anthropic&#39;s Claude Code wants you to stop micromanaging your AI - AOL</a>
+        <span class="ref-source">— AOL</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://github.com/imbad0202/academic-research-skills" target="_blank" rel="noopener noreferrer">GitHub - Imbad0202/academic-research-skills: Academic Research Skills for Claude Code: research → write → review → revise → finalize</a>
-        <span class="ref-source">— GitHub</span>
+        <a href="https://www.businessinsider.com/anthropic-claude-code-prompting-tips-boris-cherny-micromanaging-ai-2026-7" target="_blank" rel="noopener noreferrer">Claude Code Creator Wants You to Stop Micromanaging Your AI - Business Insider</a>
+        <span class="ref-source">— Business Insider</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://github.com/feiskyer/claude-code-settings/blob/main/skills/translate/SKILL.md" target="_blank" rel="noopener noreferrer">claude-code-settings/skills/translate/SKILL.md at main · feiskyer/claude-code-settings</a>
-        <span class="ref-source">— GitHub</span>
+        <a href="https://www.news18.com/tech/person-who-created-claude-code-reveals-the-biggest-mistake-users-are-doing-10241916.html" target="_blank" rel="noopener noreferrer">Person Who Created Claude Code Reveals The Biggest Mistake Users Are Doing</a>
+        <span class="ref-source">— News18</span>
       </li>
       
       <li id="ref-4">
-        <a href="https://github.com/aktsmm/vscode-agent-skill-ninja" target="_blank" rel="noopener noreferrer">GitHub - aktsmm/vscode-agent-skill-ninja: VS Code Extension for searching, installing and managing Agent Skills (SKILL.md) for GitHub Copilot, Claude Code and AI coding assistants</a>
-        <span class="ref-source">— GitHub</span>
-      </li>
-      
-      <li id="ref-5">
-        <a href="https://github.com/shareAI-lab/learn-claude-code" target="_blank" rel="noopener noreferrer">shareAI-lab/learn-claude-code: Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1</a>
-        <span class="ref-source">— GitHub</span>
-      </li>
-      
-      <li id="ref-6">
-        <a href="https://github.com/Cranot/claude-code-guide" target="_blank" rel="noopener noreferrer">The Complete Claude Code CLI Guide</a>
-        <span class="ref-source">— GitHub</span>
-      </li>
-      
-      <li id="ref-7">
-        <a href="https://www.linkedin.com/posts/alexwang2911_monthly-book-review-agentic-coding-with-activity-7487380502685827072-Twp6" target="_blank" rel="noopener noreferrer">Agentic Coding with Claude Code Review</a>
-        <span class="ref-source">— LinkedIn</span>
-      </li>
-      
-      <li id="ref-8">
-        <a href="https://medium.com/@mohit15856/15-claude-skills-that-feel-like-cheating-53e893166b68" target="_blank" rel="noopener noreferrer">Medium</a>
-        <span class="ref-source">— Medium</span>
+        <a href="https://www.aol.ca/articles/andrej-karpathy-trick-getting-better-093901000.html" target="_blank" rel="noopener noreferrer">Andrej Karpathy’s trick for getting better answers from AI: Just ramble at it for 10 minutes</a>
+        <span class="ref-source">— AOL Canada</span>
       </li>
       
     </ol>

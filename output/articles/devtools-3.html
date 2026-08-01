@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KDDIアイレットの社内開発AI Stack公開　Copilot、Claude Code、Amazon Q Developer、Cursor、Gemini Codeを並列採用 | AI・クラウド ニュースダイジェスト</title>
+<title>PerplexityがNumbatをオープンソース化　AIコーディングエージェントを企業端末で監視・制御する新アプローチ | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,22 +21,23 @@
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
     <span class="article-date">2026-08-01</span>
   </div>
-  <h1 class="article-title">KDDIアイレットの社内開発AI Stack公開　<mark style="background:#8A3FE026">Copilot</mark>、<mark style="background:#8A3FE026">Claude Code</mark>、Amazon Q Developer、<mark style="background:#8A3FE026">Cursor</mark>、Gemini Codeを並列採用</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Perplexity</mark>が<mark style="background:#8A3FE026">Numbat</mark>をオープンソース化　AIコーディングエージェントを企業端末で監視・制御する新アプローチ</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li>KDDIアイレットが<mark style="background:#8A3FE026">AI Stack</mark>を公開した。</li><li><mark style="background:#8A3FE026">Copilot</mark>など5種を開発に並列採用した。</li><li>複数AIを用途別に使い分ける構成だ。</li></ul>
+    <ul><li><mark style="background:#8A3FE026">Perplexity</mark>が<mark style="background:#8A3FE026">Numbat</mark>を公開した。</li><li>企業端末の<mark style="background:#8A3FE026">AIエージェント</mark>を監視する。</li><li>危険動作は検知・調査・遮断できる。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">KDDIアイレットの社内向け開発求人情報から、AI駆動開発の「AI Stack」にGitHub Copilot、Claude Code、Amazon Q Developer、Cursor、Gemini Codeが並んでいることが確認できる。単独ツールの導入ではなく、複数の開発者AIを用途別に組み合わせる前提が見えるのが特徴だ。</p>
-    <p class="sum-en">KDDI iret’s internal development posting shows an AI Stack that combines GitHub Copilot, Claude Code, Amazon Q Developer, Cursor, and Gemini Code. The notable point is not a single-tool adoption, but a multi-tool setup organized by use case.</p>
+    <p class="sum-ja">Perplexityは、企業の端末上で動くAIコーディングエージェントの挙動を監視・保護する軽量レイヤー「Numbat」をオープンソース化した。macOS、Linux、Windowsに対応し、危険な振る舞いの検知、調査、必要に応じたブロックまで担う。Claude CodeやCursor、GitHub Copilotのような開発者向けAIツールの社内利用が広がる中、企業が安全運用を進めるための実務的な選択肢として注目される。</p>
+    <p class="sum-en">Perplexity has open-sourced Numbat, a lightweight security layer for monitoring and protecting AI coding agents on enterprise endpoints. Supporting macOS, Linux, and Windows, it can detect, investigate, and optionally block risky behavior. As developer AI tools spread in workplaces, Numbat offers a practical path toward safer enterprise adoption.</p>
   </div>
 
-  <div class="article-body"><p>KDDIアイレットの社内向けWebシステム開発エンジニア求人には、フレームワークやDB、クラウド基盤に加えて「AI Stack」としてGitHub Copilot、Claude Code、Amazon Q Developer、Cursor、Gemini Codeが並記されている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。別の掲載情報でも同じ5ツールに加え、CLI系としてGemini CLIやKiroの記載が見え、社内開発で複数のAI支援ツールを組み合わせる運用がうかがえる<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
-<p>今回注目したいのは、1つの“万能AI”を選ぶのではなく、開発者ツールを重ねて使う前提が前面に出ている点だ。とくにCursorやClaude Codeのようなコード編集・対話型のAI支援、GitHub CopilotやAmazon Q Developerのような既存IDE/クラウド開発との親和性が高いツールを同列に置いているため、業務の局面ごとに最適な補助を選ぶ構図が読み取れる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
-<p>また、求人票の記載範囲だけでも、Laravel、Spring、Ruby on Rails、FastAPI、React.js、Node.js、Vue.js、Nuxt.js、AWS、Google Cloud、Azure、Oracle Cloudなど、技術スタックがかなり広い<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。この広い基盤に対してAI Stackを載せるということは、単なる試験導入ではなく、複数言語・複数クラウドを横断する開発現場で、生産性向上のために開発者AIを実戦投入している姿とみるのが自然だ<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
-<p>なお、外部の比較情報では、Cursor、GitHub Copilot、Claude Code、ChatGPT、Codeiumなどを組み合わせる“developer AI stack”が一般論として語られており、用途に応じて複数のAIを併用する考え方自体は業界トレンドになりつつある<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。KDDIアイレットの事例は、その潮流を社内開発の現場に持ち込んだ例として読むと分かりやすい<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。</p></div>
+  <div class="article-body"><p>Perplexityがオープンソース化した「Numbat」は、AIコーディングエージェントを端末側で見張るための軽量な検知・対応レイヤーだという。公開は7月29〜30日にかけて伝えられ、Apache 2.0ライセンスで提供される点も含め、企業が採用しやすい形にしているのが特徴だ<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
+<p>ポイントは、モデル本体を置き換えるのではなく、エージェントの振る舞いを運用面から制御する設計にある。Forbesの報道によれば、Numbatは従業員のノートPCやワークステーション上で動くAIコーディングエージェントを監視し、危険な挙動を「detects, investigates, and can optionally block」できる。対応OSはmacOS、Linux、Windowsで、実運用の現場を強く意識した作りだ<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
+<p>この動きは、Claude CodeやCursor、GitHub Copilot、LangChain系のエージェント利用が広がる中で、企業が直面しやすい「便利だが、どこまで任せてよいのか」という課題に対する答えでもある。開発支援の自動化が進むほど、コード生成そのものより、どのファイルに触れたか、どんな操作を試みたか、社内ポリシーに反していないかといった監視の重要性が増す。Numbatは、そのギャップを埋めるための外付けセキュリティ層として位置づけられる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
+<p>また、NumbatはOpen Secure AI Allianceへの貢献として紹介されており、Perplexity単独の製品戦略にとどまらず、エージェント安全性の標準化や共有基盤づくりの文脈でも読める。オープンソースであることは、社内のセキュリティ要件に合わせて検証しやすいだけでなく、他のAI開発ツールやagentフレームワークにも横展開しやすいという利点がある<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
+<p>企業にとって重要なのは、AIエージェントを禁止することではなく、安全に使える境界を作ることだ。Numbatは、その境界線を端末レベルで可視化し、必要なら止めるという発想を具体化した。開発現場でAIアシスタントを本格導入する企業ほど、今後は「どのツールを使うか」だけでなく、「どう監視し、どう止めるか」まで含めた運用設計が問われていきそうだ<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p></div>
 
   
   <div class="references">
@@ -44,18 +45,13 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://www.openwork.jp/a0C1000000qqbwh/recruit?j=b4b738cac809cc26" target="_blank" rel="noopener noreferrer">KDDIアイレット（旧 - 社内向けWebシステム開発エンジニア</a>
-        <span class="ref-source">— OpenWork</span>
+        <a href="https://www.opensourceforu.com/2026/07/perplexity-open-sources-numbat-to-secure-local-ai-coding-agents" target="_blank" rel="noopener noreferrer">Perplexity Open Sources Numbat To Secure Local AI Coding Agents - Open Source For You</a>
+        <span class="ref-source">— Open Source For You</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://xn--pckua2a7gp15o89zb.com/Amazon-%E9%85%8D%E9%80%81%E3%81%AE%E4%BB%95%E4%BA%8B-%E9%A6%99%E5%B7%9D%E7%9C%8C" target="_blank" rel="noopener noreferrer">Amazon 配送の仕事・求人 - 香川県</a>
-        <span class="ref-source">— 求人検索サイト</span>
-      </li>
-      
-      <li id="ref-3">
-        <a href="https://aicost.ai/ai-cost-guides/calc/dev-stack-calculator" target="_blank" rel="noopener noreferrer">Developer AI Stack - Cursor + Copilot + Claude + ChatGPT</a>
-        <span class="ref-source">— aicost.ai</span>
+        <a href="https://www.forbes.com/sites/janakirammsv/2026/07/30/perplexity-open-sources-numbat-to-monitor-risky-ai-coding-agents" target="_blank" rel="noopener noreferrer">Perplexity Open Sources Numbat To Monitor Risky AI Coding Agents</a>
+        <span class="ref-source">— Forbes</span>
       </li>
       
     </ol>
