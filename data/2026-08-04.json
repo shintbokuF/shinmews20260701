@@ -1,0 +1,843 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T00:11:48.662110+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "さくらインターネット、ガバメントクラウド正式認定――国産クラウド唯一の座と生成AI向けGPU基盤の相乗効果",
+          "summary_ja": "さくらインターネットがガバメントクラウドで正式認定を得たことで、日本の公的IT基盤における「国産クラウド唯一」の立場が現実味を帯びてきた。背景には、米国法規制の影響を受けにくい主権性への期待と、生成AI向けGPUクラウド「高火力」との二本柱による成長戦略がある。",
+          "summary_en": "Sakura Internet’s formal certification for Japan’s Government Cloud strengthens its position as the only domestic cloud provider in the framework. The move also links sovereign cloud demand with its GPU cloud business for generative AI.",
+          "three_lines": [
+            "さくらはガバメントクラウド正式認定を得た。",
+            "国産唯一の立場が主権性需要を押し上げる。",
+            "GPU基盤「高火力」との相乗効果が期待される。"
+          ],
+          "body_ja": "さくらインターネットがガバメントクラウドで正式認定を得たことは、単なる一社の採用実績にとどまらない。日本の行政ITで、海外大手クラウドが広く使われる一方、国内データセンターがあっても米国法規制の影響を受けうるという問題意識が指摘されてきたからだ。[2] その文脈で、国産クラウドとしてのさくらの存在感は、経済安全保障やデータ主権を重視する政策環境と強く結びつく。\n\n日経クロステックは、さくらのクラウドがデジタル庁から条件付き認定を受けてきた経緯を踏まえつつ、2026年4月以降の動きに触れている。[2] つまり今回の正式認定は、政府調達の“入口”を越える意味を持つ。官公庁・自治体向けの採用が本格化すれば、単発の案件獲得だけでなく、周辺のSIer、運用事業者、ソフトウェアベンダーを巻き込むエコシステム形成が次の焦点になる。[1] 制度面で「国産」であることが一定の加点要因になりうる以上、パートナー企業にとっても参入の動機は増していく。\n\nさらに注目したいのは、さくらがガバメントクラウドだけでなく、生成AI向けGPUクラウド「高火力」シリーズも同時に伸ばしている点だ。[1] 石狩データセンターに構築したGPU基盤は、NVIDIA H100を含むハイエンドGPUの活用を前提にした事業として示されており、行政向けの堅牢なクラウドと、民間向けのAI計算基盤を両輪にする戦略が見えてくる。[1] これは、国内でAI開発を進めたい企業や研究機関にとって、クラウドと計算資源を一体で確保できる選択肢の拡大を意味する。[2]\n\nこの構図が重要なのは、政府のAI・クラウド政策が「安全保障」と「実装加速」の両方を求めているからだ。ガバメントクラウドの認定は、国の基幹システムを支える信頼性の証明である一方、GPUクラウドの拡充は国産LLMや業務AIの学習・推論コストを下げる武器になる。つまりさくらは、行政DXの受け皿と生成AIの計算基盤を結びつけることで、国内AIインフラのハブになろうとしている。[1][2]\n\nただし、認定の獲得がそのまま市場拡大を保証するわけではない。実際の採用を左右するのは、正式認定後にどれだけ迅速に周辺サービスや導入実績を積み上げられるかだと、記事は示唆している。[1] 競争相手には海外大手が並び、調達要件・セキュリティ・運用体制・価格のすべてで比較される。だからこそ、さくらにとっての勝負は「認定を取った」ことではなく、「認定を起点にどこまで国産クラウドの実用圏を広げられるか」に移る。",
+          "references": [
+            {
+              "id": 1,
+              "title": "さくらインターネット、ガバメントクラウド正式認定----国産クラウド唯一の座が意味すること：『ビジネス2.0』の視点",
+              "url": "https://blogs.itmedia.co.jp/business20/2026/03/----.html",
+              "source": "ITmedia Blogs"
+            },
+            {
+              "id": 2,
+              "title": "日本国内における4つの「主権」を確保 AI開発を加速する国産クラウドの挑戦 - 日経クロステック Special",
+              "url": "https://special.nikkeibp.co.jp/atclh/NXT/26/it_infrastructure_summit0331/p8",
+              "source": "日経クロステック"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "japan",
+          "title_highlights": [
+            "ガバメントクラウド",
+            "高火力"
+          ],
+          "three_lines_highlights": [
+            "正式認定",
+            "国産唯一",
+            "GPU基盤"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "2026年の企業を襲う「地政学リスク」と「国内コスト増」――高市政権下での危機管理投資とAI/半導体政策の行方",
+          "summary_ja": "2026年の企業経営では、対中リスクを軸にした地政学リスクと、インフレ・賃上げに伴う国内コスト増が同時進行している。高市政権はAI・半導体・サイバーなどへの「危機管理投資」を掲げる一方、先端技術投資の不確実性や財源確保の難しさも残る。",
+          "summary_en": "In 2026, Japanese companies face a dual squeeze: rising geopolitical risk—especially China-related concerns—and persistent domestic cost increases from inflation and wage pressure. Under the Takaichi administration, “crisis-management investment” in AI, semiconductors, cyber, and other strategic areas is emphasized, but uncertainty over returns and fiscal funding remains a major challenge.",
+          "three_lines": [
+            "対中リスクが経営課題の中心に据わる。",
+            "高市政権は危機管理投資を広げていく。",
+            "AI・半導体は追い風でも不確実性が残る。"
+          ],
+          "body_ja": "2026年の企業経営を読むうえで、いま最も重要なのは「外から来る不確実性」と「国内で積み上がるコスト」の同時進行だ。企業アンケートでは、地政学リスクが最優先課題として意識され、その中でも「チャイナリスク」が74.8％と突出して高い[1]。台湾情勢や日中関係の悪化、レアアース輸出制限のような具体的な懸念が、サプライチェーンや調達、販売の現場に直結するリスクとして受け止められている[1]。\n\nこの見方は、政権側の政策運営にも重なる。高市政権では「責任ある積極財政」を掲げつつ、AI・半導体・造船・量子・バイオ・航空・宇宙・サイバーセキュリティといった領域を含む「危機管理投資」が想定されている[2]。狙いは、安全保障や国土強靱化の文脈で、供給チェーン強化、地理的分散、国内回帰、インフラ更新、防災、エネルギー構造改革を進めることにある[2]。つまり、単なる成長投資ではなく、外部ショックを受けにくい経済構造への組み替えを国主導で後押しする構図だ。\n\nただし、投資の方向性が見えたとしても、成否は別問題である。先端技術への大規模投資は「宝くじのようなもの」と指摘されるように、不確実性が非常に大きい[3]。期待値を高めるための投資先選定はできても、AIや半導体のように技術変化が速く、競争環境も政策環境も動きやすい分野では、成果が出るまでの時間差と失敗コストをどう吸収するかが重い論点になる[3]。\n\nこの不確実性は、企業の資金配分にも影を落とす。高市政権では財政出動を含む積極姿勢がうたわれる一方で、どうやって財源を確保するかはなお難題として残る[2]。加えて、2026年の企業は地政学リスクだけでなく、インフレ定着と賃上げ圧力にも向き合わねばならない。結果として、企業は成長投資を増やしたいのに、国内コスト増で守りの支出も膨らむという二重苦に陥りやすい[1]。\n\nその意味で、2026年の政策と企業戦略の接点は明快だ。政府が掲げる危機管理投資は、AIや半導体、サイバーセキュリティのような戦略領域に資金を呼び込みやすくする一方、企業側には「どのリスクに備え、どの技術に賭けるか」をより厳しく選別する力が求められる[2][3]。対中依存の見直し、調達先の分散、国内生産や代替技術の確保は、もはやコスト削減の話ではなく、事業継続そのものの条件になりつつある[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "2026年、企業を襲う「地政学リスク」と「国内コスト増」の二重苦：『ビジネス2.0』の視点",
+              "url": "https://blogs.itmedia.co.jp/business20/2026/02/2026.html",
+              "source": "blogs.itmedia.co.jp"
+            },
+            {
+              "id": 2,
+              "title": "【AI調査術】高市首相の「危機管理投資」日本最速のまとめ：経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔",
+              "url": "https://blogs.itmedia.co.jp/serial/2025/10/ai_2031.html",
+              "source": "blogs.itmedia.co.jp"
+            },
+            {
+              "id": 3,
+              "title": "第2次高市政権が始動　危機管理・成長投資は「宝くじ」みずほ証券小林氏：日経ビジネス電子版",
+              "url": "https://business.nikkei.com/atcl/gen/19/00840/021800004",
+              "source": "business.nikkei.com"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "japan",
+          "title_highlights": [
+            "74.8%",
+            "危機管理投資",
+            "AI・半導体"
+          ],
+          "three_lines_highlights": [
+            "74.8%",
+            "危機管理投資",
+            "AI・半導体"
+          ],
+          "id": "japan-2"
+        },
+        {
+          "title": "高市早苗内閣の衆院2/3超えでIT政策はどう変わるか――予算・法案・経済安全保障への影響を整理",
+          "summary_ja": "高市早苗内閣が衆院で2/3超の議席を確保した前提では、IT政策は「通りやすくなる法案」と「前倒しされやすい予算」の両面で動きやすくなる。一方で、過去の自治体DXのように政治主導の期限設定がコスト増を招いた例もあり、経済安全保障や国産技術育成を急ぐほど、制度設計の精度が問われる。",
+          "summary_en": "With a two-thirds majority in the House of Representatives, the Sanae Takaichi cabinet could move IT policy faster through legislation and budget allocation. But Japan’s past local government DX experience suggests political deadlines can raise costs, making careful design crucial as economic security and domestic AI development are accelerated.",
+          "three_lines": [
+            "衆院2/3超えで法案審議は進めやすくなる",
+            "予算は前倒し配分が増え、IT政策が動きやすい",
+            "ただしDXは期限主導でコスト増の懸念も残る"
+          ],
+          "body_ja": "高市早苗内閣が衆院で2/3を超える議席を持つという前提は、IT政策の「速度」を大きく変える可能性があります。まず効いてくるのは法案です。衆院での安定多数は、規制改正や新制度の立ち上げを押し進めやすくし、AI政策、経済安全保障、自治体DXのような分野で、政府が描く制度変更を国会で通しやすくします[2][6]。\n\n次に予算です。高市首相は「補正を前提とした予算編成と決別し、可能な限り当初で措置する」と述べたとされ、後出しの予算計上を減らす方向を示しています[7]。これはIT分野では、AI基盤、セキュリティ、政府システム更新、国産LLMの開発支援などに対して、年度当初から資金を厚く配分する発想につながりやすい。2026年度予算・税制改正の特集でも、骨太方針や金利上昇懸念が並んでおり、財政運営全体の制約は無視できませんが、それでも政治の意志が強ければ優先順位ははっきりします[4]。\n\nもっとも、政治主導が強まれば強まるほど、現場の設計力が試されます。日本経済新聞は、自治体ITシステム改革について「政治主導の期限設定があだに」と報じ、改革が膨らむコストを招いたと指摘しています[5]。つまり、号令だけでDXを急ぐと、移行費用やベンダー再編、運用負荷が想定以上に増えるおそれがあります。国や自治体のIT刷新では、単に早さを競うのではなく、移行計画や標準化の詰めが必要です[5]。\n\n経済安全保障の観点では、政策の重心が「海外依存の低減」と「国内技術の底上げ」に寄る可能性があります。高市政権が安定多数を背景に制度面を押し切れるなら、重要データの管理、供給網の見直し、政府調達の要件強化などを通じて、クラウドやAIの調達方針に影響を与えるでしょう[2][6]。一方で、その設計を誤ると、国内調達を優先するあまりコストが上がり、導入の遅れが出るリスクもあります[5]。\n\n今回の注目点は、衆院2/3超えが「何をやれるか」を広げる一方で、「どうやるか」の責任も重くすることです。IT政策は、法案を通しやすく、予算も付けやすい局面に入るかもしれません。しかし、自治体DXの教訓が示すように、期限ありきの政治判断は失敗の芽にもなります[5]。高市内閣のIT政策を占ううえでは、予算の量よりも、AI・セキュリティ・国産基盤をどこまで実装可能な制度に落とし込めるかが本当の勝負になります。",
+          "references": [
+            {
+              "id": 1,
+              "title": "日本経済新聞 - ニュース・速報 最新情報",
+              "url": "https://www.nikkei.com",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 2,
+              "title": "高市早苗内閣 衆議院の2/3議席獲得でIT政策はどうなるか？走り書き的なメモ",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/02/23it.html",
+              "source": "オルタナティブ・ブログ"
+            },
+            {
+              "id": 3,
+              "title": "日経ビジュアルデータ：日本経済新聞",
+              "url": "https://vdata.nikkei.com",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 4,
+              "title": "2026年度予算・税制改正　最新ニュースと解説 - 日本経済新聞",
+              "url": "https://www.nikkei.com/topics/22110101",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 5,
+              "title": "自治体ITシステム改革、膨らむコスト　政治主導の期限設定があだに - 日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOCD177NP0X10C25A9000000",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 6,
+              "title": "高市首相、進退かけ衆院解散 「選挙後に政界再編第2幕も」中央大・中北教授",
+              "url": "https://business.nikkei.com/atcl/gen/19/00138/012100126",
+              "source": "日経ビジネス"
+            },
+            {
+              "id": 7,
+              "title": "後出しの予算計上「決別」は多難 25年度補正、常連政策2割",
+              "url": "https://www.nikkei.com/article/DGXZQOUE209WC0Q6A120C2000000",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 8,
+              "title": "【境家史郎】投稿一覧",
+              "url": "https://www.nikkei.com/topics/EVP01210",
+              "source": "日本経済新聞"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "japan",
+          "title_highlights": [
+            "2/3",
+            "予算",
+            "DX"
+          ],
+          "three_lines_highlights": [
+            "2/3",
+            "予算",
+            "期限設定"
+          ],
+          "id": "japan-3"
+        }
+      ],
+      "summary": "今日の日本国内分野は、国産クラウドやAI・半導体を軸にした「経済安全保障型のIT政策」が一段と前進する一方、地政学リスクや国内コスト増に備える危機管理投資が本格化する流れが中心でした。特に、さくらインターネットのガバメントクラウド正式認定は、主権性の高い公的IT基盤づくりと生成AI基盤の拡大をつなぐ象徴的な動きです。高市政権下では法案・予算が通りやすくなる反面、拙速な制度設計や投資の不確実性も課題となり、政策実行力と精度の両立が問われています。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "OpenAIが文字起こしAI「GPT Transcribe」「GPT Live Transcribe」を公開　専門用語・多言語・ノイズ環境の認識精度を向上",
+          "summary_ja": "OpenAIはAPI向け文字起こしモデルを用途別に2分割し、非同期処理向けのGPT Transcribeと、リアルタイム向けのGPT Live Transcribeを公開した。専門用語、多言語、ノイズ環境での認識精度を高めた一方、ライブ用は非同期用より高単価で、用途に応じた使い分けが前提になる。[1][2]",
+          "summary_en": "OpenAI has split its transcription API into two purpose-built models: GPT Transcribe for async workflows and GPT Live Transcribe for real-time use. The update improves recognition in technical terminology, multilingual speech, and noisy environments, while introducing different pricing tiers depending on latency requirements.[1][2]",
+          "three_lines": [
+            "OpenAIが文字起こしAPIを用途別に分けた",
+            "GPT Live Transcribeはリアルタイム処理を担う",
+            "専門用語・多言語・雑音への強さを高めた"
+          ],
+          "body_ja": "OpenAIがAPI向け文字起こしを、録音後にまとめて処理する非同期用と、音声が流れるそばから結果を返すライブ用に分けた。今回公開されたのは「GPT Transcribe」と「GPT Live Transcribe」で、1つのモデルを万能に使うのではなく、遅延と処理方式に応じて役割を明確に切り分けたのが特徴だ。[1][2]\n\n注目したいのは、単にモデル名が増えたことではない。OpenAIは、専門用語、多言語、ノイズ環境での認識精度向上を打ち出しており、会議録や問い合わせ窓口、現場音声のような“聞き取りにくい実務音声”を意識した設計だと読める。とくに実運用では、話者のかぶりや雑音、業界固有の言い回しが精度を左右しやすく、この改善は文字起こしの導入障壁を下げる可能性がある。[2]\n\n一方で、価格は用途の違いをはっきり反映している。報道によると、ライブ用は1分あたり0.017ドル、非同期用は0.0045ドルで、ライブ用のほうが約3.8倍高い。[1] リアルタイム性を求めるならコストが上がり、後処理でよいなら安価に使える構図で、開発者や企業は「即時性」と「コスト」のどちらを優先するかを選ぶことになる。\n\n生成AI市場全体で見ると、OpenAIは音声を含む実務向け機能を着実に細分化している。文字起こしでも、単なる精度競争から、用途ごとの製品設計と価格設計へと軸足が移ってきたと言える。[1][2] 今後は、ChatGPTのような対話AIだけでなく、音声入力や議事録作成、コールセンター支援などの業務フローに、こうした専用モデルがどう組み込まれるかが焦点になりそうだ。",
+          "references": [
+            {
+              "id": 1,
+              "title": "OpenAIが文字起こしAPIを用途で2分割。ライブ用は非同期用の約3.8倍の単価",
+              "url": "https://tech-noisy.com/2026/07/29/openai-gpt-transcribe-live-transcribe-api",
+              "source": "tech-noisy.com"
+            },
+            {
+              "id": 2,
+              "title": "OpenAI、文字起こしAI「GPT Transcribe」「GPT Live Transcribe」公開 専門用語・多言語・ノイズ環境の認識精度を向上",
+              "url": "https://ledge.ai/articles/openai_gpt_transcribe_live_transcribe",
+              "source": "Ledge.ai"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "models",
+          "title_highlights": [
+            "GPT Transcribe",
+            "GPT Live Transcribe",
+            "3.8倍"
+          ],
+          "three_lines_highlights": [
+            "用途別",
+            "GPT Live",
+            "専門用語"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Google DeepMind、ロボット向けAI「Gemini Robotics ER 2」を公開――全身制御の次は“推論と協調”へ",
+          "summary_ja": "Google DeepMindはロボット向けAIモデル群「Gemini Robotics 2」を発表し、なかでもER 2は動画理解、タスクのオーケストレーション、複数ロボットの協調を担う推論モデルとして位置づけられた。開発者向けには2026年7月31日からGoogle AI StudioとGemini APIで順次提供が始まり、モデル文字列は「gemini-robotics-er-2-preview」とされる。一方で、VLAモデルとOn-Device 2は引き続き早期アクセス中心で、ロボットAIを一般開放しつつも段階的に広げる戦略が見える。",
+          "summary_en": "Google DeepMind unveiled the Gemini Robotics 2 model family, with ER 2 positioned as a reasoning model for video understanding, task orchestration, and multi-robot collaboration. Developers can access ER 2 via Google AI Studio and the Gemini API starting July 31, 2026, under the model string \"gemini-robotics-er-2-preview.\" Other components, including the VLA and On-Device 2 models, remain limited to early-access pathways, underscoring Google’s phased rollout strategy.",
+          "three_lines": [
+            "Gemini Robotics ER 2の提供を段階的に始めた。",
+            "開発者はAPI経由でER 2をすぐ試せる。",
+            "全身制御から協調作業まで拡張を狙う。"
+          ],
+          "body_ja": "Google DeepMindがロボット向けAIモデル群「Gemini Robotics 2」を発表した。今回のポイントは、単に“ロボットを動かす”だけでなく、動画の理解、作業の段取りづくり、複数ロボットの連携までを見据えたER 2の位置づけにある。Google自身はER 2を、物理世界でより役立つロボットを支える基盤として説明している。[6][8]\n\nGemini Robotics 2は、視覚と言語の入力を行動に変換するVLA（Vision-Language-Action）モデルを含むモデル群として整理されている。ITmediaによると、この系統はヒューマノイドを足先から指先まで制御する用途を想定しており、歩行や姿勢制御、細かな物体操作を統合的に扱えるのが特徴だという。[8] 一方で、Googleが公開したER 2の説明では、動画理解やタスクのオーケストレーション、複数ロボット協調が前面に出されており、運動制御そのものというより、ロボット群の“頭脳”側を担う役割が強い。[6]\n\n重要なのは、提供方法が一律ではない点だ。財経新聞によれば、ER 2推論モデルは2026年7月31日からGoogle AI StudioとGemini APIを通じてすべての開発者が利用可能になり、モデル文字列は「gemini-robotics-er-2-preview」とされる。[1] ただし、VLAモデルとOn-Device 2の利用にはTrusted Tester Programへの申請と早期アクセスパートナーとしての参加が必要で、最先端機能ほどクローズドに運用されている。[1] Googleは“まず推論を広く、実機制御は慎重に”という順番で市場に出していると読める。\n\nロボスタも、Gemini Robotics 2がヒューマノイド向けAIの最新版として、全身制御と高度な器用さを実現すると伝えている。[2] GIGAZINEやXenoSpectrumも、歩行から両手の細かな作業までを統合し、卓上作業から長い行動系列を伴うタスクへ広げる方向性を示している。[3][7] さらにMogura VR Newsは、安全性の観点から、人が近くにいる状況を検知して処理を変える機能の強化にも触れている。[5]\n\n背景として注目したいのは、GoogleがロボットAIを「単一作業の自動化」から「より幅広い作業に対応するプラットフォーム」へ押し上げようとしていることだ。[5] そのために、実際の動作を担うモデルと、高位の理解・計画を担うモデルを分け、提供範囲も段階的に制御している。ロボット向け生成AIの競争が、言語や画像の生成だけでなく、現実世界での安全な実行へと軸足を移していることを示す発表と言える。[1][6][8]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google DeepMind、単一AIでヒューマノイド全身を制御する「Gemini Robotics 2」 | 財経新聞",
+              "url": "https://www.zaikei.co.jp/article/20260801/863937.html",
+              "source": "財経新聞"
+            },
+            {
+              "id": 2,
+              "title": "Google DeepMind、ヒューマノイド向けAIモデル「Gemini Robotics 2」発表 全身制御と高度な器用さを実現 | ロボスタ - ロボット･AI情報WEBマガジン",
+              "url": "https://robotstart.info/article/2026/07/31/382220.html",
+              "source": "ロボスタ"
+            },
+            {
+              "id": 3,
+              "title": "Google DeepMindがロボット向けAIモデル「Gemini Robotics 2」を発表、歩行から両手の細かな作業まで全身を制御可能に",
+              "url": "https://gigazine.net/news/20260731-google-deepmind-gemini-robotics-2",
+              "source": "GIGAZINE"
+            },
+            {
+              "id": 4,
+              "title": "ロボット用AI「Gemini Robotics 2」が全身制御へ、電球をねじ込む成功率は36% - FabScene（ファブシーン）",
+              "url": "https://fabscene.com/new/news/google-deepmind-gemini-robotics-2",
+              "source": "FabScene"
+            },
+            {
+              "id": 5,
+              "title": "Google、Gemini Robotics 2を発表 ロボットの全身制御や協調作業に対応 - Mogura VR News",
+              "url": "https://www.moguravr.com/gemini-robotics-2-whole-body-control",
+              "source": "Mogura VR News"
+            },
+            {
+              "id": 6,
+              "title": "Introducing Gemini Robotics ER 2",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2",
+              "source": "Google Blog"
+            },
+            {
+              "id": 7,
+              "title": "Google「Gemini Robotics 2」、卓上作業からヒューマノイド全身制御へ | XenoSpectrum",
+              "url": "https://xenospectrum.com/gemini-robotics-2-whole-body-control",
+              "source": "XenoSpectrum"
+            },
+            {
+              "id": 8,
+              "title": "Google、ロボット向けAI「Gemini Robotics 2」発表　ヒューマノイドの全身制御や指先作業を実現 - ITmedia AI＋",
+              "url": "https://www.itmedia.co.jp/aiplus/article/2607/31/2000000320",
+              "source": "ITmedia AI＋"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "models",
+          "title_highlights": [
+            "Gemini Robotics ER 2"
+          ],
+          "three_lines_highlights": [
+            "ER 2",
+            "API",
+            "全身制御"
+          ],
+          "id": "models-2"
+        }
+      ],
+      "summary": "本日は、生成AIモデルが「汎用生成」から、用途ごとに最適化された実用プロダクトへさらに細分化・高度化する流れが目立ちました。OpenAIは文字起こしを非同期／リアルタイムで分けて精度とコストを使い分ける方向を示し、Google DeepMindはロボット分野で“動かすモデル”から“理解し、段取りし、協調するモデル”へと役割を広げています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "GKEの概要を再確認: Google CloudのマネージドKubernetes基盤はAI時代にどう使うか",
+          "summary_ja": "Google Kubernetes Engine（GKE）は、Kubernetesの運用をGoogle Cloud側で大きく肩代わりするマネージド基盤だ。公式ドキュメントでは、AI/ML運用や大規模データ処理などの用途に加え、Cloud Build・Cloud Deploy・Artifact Registryを組み合わせたCI/CD構成が推奨されており、AI時代のアプリ配備の土台としての位置づけがはっきりしている。[1][2]",
+          "summary_en": "Google Kubernetes Engine (GKE) is Google Cloud's managed Kubernetes platform. The official docs position it as a foundation for AI/ML operations, large-scale data processing, and CI/CD with Cloud Build, Cloud Deploy, and Artifact Registry.[1][2]",
+          "three_lines": [
+            "GKEはAI/ML運用の土台として使える。",
+            "CI/CDはCloud Build連携で整える。",
+            "イメージ管理はArtifact Registryで固める。"
+          ],
+          "body_ja": "Google CloudのGKEは、Kubernetesを自前運用する負担を減らしながら、コンテナ基盤を標準化したい企業に向いたマネージドサービスだ。公式概要では、ロボティクス、医療、小売、教育、ゲーム、金融サービスなど幅広い業界で使われるとされ、用途としては「AI と ML の運用」や「大規模なデータ処理」が明示されている。[1] つまりGKEは、単なるWebアプリの実行環境ではなく、AI時代に増えがちな学習・推論周辺のコンテナ実行基盤としても想定されている。\n\n注目したいのは、Google CloudがGKE運用のベストプラクティスとして、Cloud Build、Cloud Deploy、Artifact Registryの組み合わせを挙げている点だ。[1][2] これは、ソースコードのビルドからデプロイ、イメージ保管までをマネージドなサービスでつなぎ、セキュリティ、スケール、シンプルさを最適化する考え方だ。AIワークロードでは、モデル推論用のサービス更新や、複数環境への安全な展開が頻繁に起こるため、こうしたCI/CDの標準化は運用負荷を抑えるうえで重要になる。[1][2]\n\nさらにセキュリティ面でも、Google Cloudの文書はコンテナイメージやパッケージをArtifact Registryへ入れる前にスキャンし、開発・ステージング・本番を通じて同じコンテナイメージを昇格させることを推奨している。[3] GKE自体の概要文と合わせて読むと、AIアプリをGKE上で動かす際は、計算資源の確保だけでなく、イメージの固定化や改ざん防止まで含めて設計するのが基本線だと分かる。[1][3]\n\n周辺のGoogle Cloudドキュメントも、この見方を補強する。Cloud ShellにはGKEアプリをデプロイするクイックスタートがあり、WorkflowsにはAI APIやVM、データウェアハウスなどを含む20以上のプロダクトを組み合わせる導線が示されている。[4][5] つまり、GKEは単体で完結するサービスではなく、開発環境、デプロイ、自動化、他サービス連携をまとめて組み合わせる中核として使うのが現実的だ。AI時代にGKEを使う価値は、Kubernetesを動かすことそのものより、モデルやデータ処理を含むアプリの更新・保護・拡張を標準化できる点にある。[1][3][4][5]",
+          "references": [
+            {
+              "id": 1,
+              "title": "GKE の概要 | Google Kubernetes Engine (GKE)",
+              "url": "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview?hl=ja",
+              "source": "Google Cloud Documentation"
+            },
+            {
+              "id": 2,
+              "title": "GKE 總覽| Google Kubernetes Engine (GKE)",
+              "url": "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview?hl=zh-tw",
+              "source": "Google Cloud Documentation"
+            },
+            {
+              "id": 3,
+              "title": "Vulnerability management with AI  |  Security  |  Google Cloud Documentation",
+              "url": "https://docs.cloud.google.com/docs/security/vuln-management-ai",
+              "source": "Google Cloud Documentation"
+            },
+            {
+              "id": 4,
+              "title": "Cloud Shell documentation  |  Google Cloud Documentation",
+              "url": "https://docs.cloud.google.com/shell/docs",
+              "source": "Google Cloud Documentation"
+            },
+            {
+              "id": 5,
+              "title": "Workflows のドキュメント  |  Google Cloud Documentation",
+              "url": "https://docs.cloud.google.com/workflows/docs?hl=ja",
+              "source": "Google Cloud Documentation"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "cloud",
+          "title_highlights": [
+            "GKE",
+            "Kubernetes",
+            "AI/ML"
+          ],
+          "three_lines_highlights": [
+            "GKE",
+            "Cloud Build",
+            "Artifact Registry"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "AWS、AIサービス約20件をメンテナンスモード化　Kendra・Q Business・Bedrock Agentsも対象",
+          "summary_ja": "AWSが、KendraやQ Business、Bedrock Agentsを含む約20のAI関連サービスをメンテナンスモードに移行し、企業導入向けの実装基盤へ軸足を移していることが明らかになった。AGI研究部門の人員削減も同日に伝えられており、フロンティアAI研究よりも企業展開を優先する姿勢が鮮明になっている。[1]",
+          "summary_en": "AWS has reportedly moved around 20 AI services, including Kendra, Q Business, and Bedrock Agents, into maintenance mode, signaling a stronger push toward enterprise deployment over frontier AI research. The shift comes alongside job cuts in Amazon's AGI research unit.[1]",
+          "three_lines": [
+            "AWSはAI約20製品を保守運用へ移した",
+            "KendraやQ Businessなどが対象になった",
+            "研究より企業導入を優先する姿勢が鮮明だ"
+          ],
+          "body_ja": "AWSがAI関連サービスの整理を一段と進めている。報道によると、同社はKendra、Q Business、Bedrock Agentsを含む約20のAWS AIサービスをメンテナンスモードに移行した。[1] これは、近年AWSが打ち出してきたAI機能群のうち、役割が重複するものや展開優先度が下がったものを絞り込む動きと読める。\n\n注目すべきは、この動きが単なる製品整理ではなく、戦略の重心移動として示されている点だ。検索結果の抜粋では、7月22日にAGI研究部門での人員削減があり、AWSの姿勢がフロンティアAI研究から企業導入向けプラットフォームへ向かっているとされている。[1] つまり、先端研究の成果を競うよりも、企業が実際に導入しやすい形でAIを提供することに経営資源を振り向ける構図である。\n\nAWSのAI戦略は、機能の量を増やす局面から、運用しやすい製品群に再編する局面へ入った可能性がある。特にKendraやQ Businessのような業務検索・社内活用系、Bedrock Agentsのようなエージェント系機能が対象になったことは、AWSが生成AI周辺のサービス群を棚卸しし、Enterprise向けの中核サービスに集中しようとしていることを示唆する。[1] 競争が激しいAIクラウド市場では、すべてを維持するより、投資対象を絞る判断が加速しているとも言える。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Amazon just killed 20 AWS AI services it launched two years ago to chase enterprise deployment",
+              "url": "https://startupfortune.com/amazon-just-killed-20-aws-ai-services-it-launched-two-years-ago-to-chase-enterprise-deployment",
+              "source": "Startup Fortune"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "Kendra",
+            "Q Business",
+            "Bedrock Agents"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "Kendra",
+            "20"
+          ],
+          "id": "cloud-2"
+        },
+        {
+          "title": "Microsoft、四半期売上高900億ドルを突破　Azure成長と有料AIユーザー増が業績を押し上げる",
+          "summary_ja": "Microsoftは2026年度第4四半期に売上高900億ドルを超え、Azureの急成長とCopilotなどAI有料ユーザーの拡大が業績をけん引した。クラウド需要の強さが確認される一方、同社はAI需要に合わせて投資を続ける姿勢も示した。",
+          "summary_en": "Microsoft surpassed $90 billion in quarterly revenue in fiscal Q4 2026, driven by strong Azure growth and rising paid AI usage. The results underscore durable cloud demand and continued AI-led infrastructure investment.",
+          "three_lines": [
+            "Azureの伸長で売上高900億ドルを突破した。",
+            "Copilot利用拡大がAI需要の強さを示した。",
+            "Microsoftは投資継続で需要取り込みを狙う。"
+          ],
+          "body_ja": "Microsoftの2026年度第4四半期決算は、同社の“AIとクラウドの掛け算”が本格的に業績へ効いていることを示す内容だった。売上高は900億ドルに達し、前年同期比で18%増。クラウド需要の拡大、AI採用の加速、そしてインフラ効率の改善が、主要事業の成長を押し上げたという。[1][2]\n\n特に目を引くのはAzureだ。報道によると、Azureの年間売上高は初めて1000億ドルを超え、通期では41%増と大きく伸びた。四半期ベースでも、Intelligent Cloud部門は393.1億ドルと市場予想を上回っており、依然としてMicrosoftの成長エンジンであることが確認できる。[3][4] ただし、規模ではAmazon Web Servicesがなお先行し、Google Cloudよりは大きい構図だとされる。[4]\n\nAIの商用化も数字に表れ始めた。Copilotの有料ユーザーは3000万に達したと報じられ、さらに1ユーザー当たりの会話数は前年比でほぼ倍増したという。[3][6] 単に“AI機能がある”段階ではなく、実際に日常業務の中で使われるサービスとして定着しつつある点が重要だ。Microsoftは、CopilotがTeamsやOutlookと同じくらい使われている感覚を示しており、生成AIがオフィスソフト群の利用習慣を塗り替え始めていることがうかがえる。[6]\n\n一方で、今回の決算は“AI投資のピークアウト”を示すものではない。Microsoftは需要シグナルを踏まえて、今後も設備投資を増やす方針を示したとされる。[5] そのうえで、同社はAI支出をめぐる投資姿勢を維持しつつも、インフラ投資のコントロールには一定の慎重さを見せている。[2][7] つまり、AzureやAIサービスの需要を取りこぼさないための積極投資と、収益性を損なわないためのバランス取りを同時に進めている格好だ。\n\nクラウド競争の観点では、今回の決算はMicrosoftがAWS追撃を続ける中で、AIを“付加価値”ではなく“成長の主軸”に据えていることを再確認させる材料になった。GCPとの比較でも規模優位を保ちつつ、Azureの成長率とCopilotの有料化が、Microsoftのクラウド戦略を一段押し上げている。[3][4] 今後は、AI需要の強さが設備投資の拡大とどう両立するか、そしてその投資がどこまで売上と利益率に結びつくかが焦点になる。",
+          "references": [
+            {
+              "id": 1,
+              "title": "MSFT Q4 Earnings Call Highlights Azure Momentum and AI Demand - The Globe and Mail",
+              "url": "https://www.theglobeandmail.com/investing/markets/stocks/MSFT-Q/pressreleases/3555180/msft-q4-earnings-call-highlights-azure-momentum-and-ai-demand",
+              "source": "The Globe and Mail"
+            },
+            {
+              "id": 2,
+              "title": "Microsoft holds the line on AI spending plans",
+              "url": "https://www.cfodive.com/news/microsoft-holds-line-ai-spending-plans/826648",
+              "source": "CFO Dive"
+            },
+            {
+              "id": 3,
+              "title": "Azure Tops $100B, Copilot Paid Seats Jump to 30M in Microsoft Blowout ...",
+              "url": "https://www.techtimes.com/articles/322143/20260729/azure-tops-100b-copilot-paid-seats-jump-30m-microsoft-blowout-quarter.htm",
+              "source": "TechTimes"
+            },
+            {
+              "id": 4,
+              "title": "Microsoft jumps 8% as it boosts capital spending plans, citing demand",
+              "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 5,
+              "title": "Microsoft's stock rises 9% on strong Azure revenue growth and steady capex spending - SiliconANGLE",
+              "url": "https://siliconangle.com/2026/07/29/microsofts-stock-rises-9-strong-azure-revenue-growth-steady-capex-spending",
+              "source": "SiliconANGLE"
+            },
+            {
+              "id": 6,
+              "title": "Microsoft Says Workers Are Now Using Copilot AI as Much as Teams and Outlook",
+              "url": "https://www.cnet.com/tech/services-and-software/microsoft-fiscal-year-2026-q4-earnings-agentic-ai-work",
+              "source": "CNET"
+            },
+            {
+              "id": 7,
+              "title": "Microsoft holds the line on infrastructure spending | CIO Dive",
+              "url": "https://www.ciodive.com/news/Microsoft-infrastructure-cloud-growth/826658",
+              "source": "CIO Dive"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "cloud",
+          "title_highlights": [
+            "Azure",
+            "900億ドル",
+            "Copilot"
+          ],
+          "three_lines_highlights": [
+            "Azure",
+            "Copilot",
+            "900億ドル"
+          ],
+          "id": "cloud-3"
+        }
+      ],
+      "summary": "今日のクラウド分野は、AI活用を前提にした「実運用の基盤整備」が主軸でした。GKEのようなマネージドKubernetesやAzureの成長が示す通り、企業はAIアプリを素早く安全に動かすためのクラウド基盤を強化しており、一方でAWSは研究色の強いAIサービスを整理して企業向け実装へ重点を移しています。つまり、クラウド各社はAIそのものの競争から、AIを本番導入するための運用・配備・収益化の土台づくりへと戦略を寄せている流れです。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Microsoft IQの4層を読み解く——Work/Web/Foundry/FabricとMCP・RAGの関係",
+          "summary_ja": "MicrosoftのAI機能は、日常業務のCopilot、Web体験、FoundryのマルチエージェントRAG、Fabricのデータ基盤という4層で整理すると理解しやすい。公開情報を見ると、各層は「会話で使うAI」から「データを取り込み、推論し、業務に埋め込むAI」へと役割分担が進んでいる。",
+          "summary_en": "Microsoft’s AI stack can be understood as four layers: Work, Web, Foundry, and Fabric. The available sources suggest a progression from conversational AI in daily work to data ingestion, multi-agent RAG, and embedded enterprise insights.",
+          "three_lines": [
+            "Copilotの更新で業務AIはさらに日常化する。",
+            "Foundryは多エージェントRAGで情報を統合する。",
+            "FabricはAI前提の取り込みと分析を支える。"
+          ],
+          "body_ja": "MicrosoftのAI戦略を追うと、単体製品の追加というより、役割の異なる層を積み重ねて「使う場所」を広げていることが見えてくる。今回の検索結果からは、Work、Web、Foundry、Fabricという4層で捉えると、Microsoft IQの全体像がかなり整理しやすい。[4][3][1][2]\n\nまずWork層では、Microsoft 365 Copilotの更新が象徴的だ。リリースノートには、Microsoft 365 Copilot Chatで「AI-powered skill inferencing」がE3/E5ユーザー向けに拡張されたとある。つまり、ユーザーの行動や文脈をAIがより深く推定し、日々の業務フローに自然に入り込む方向が強まっている。[4]\n\nWeb層は、ユーザーが情報を探し、要約し、次の行動に移る入り口としてのAI体験だと考えられる。検索結果そのものは詳細を多く語っていないが、Copilot Chatのような対話型UIの強化は、Web上での探索や質問応答をより滑らかにする流れの一部として読める。[4]\n\nFoundry層では、より明確に「AIエージェントの実行基盤」という色が濃い。検索結果には、Microsoft Foundryで「multi agent RAG」をオーケストレーションし、分散した企業ソースから情報を取得・統合して、不正検知などの用途に活かす説明がある。ここで重要なのは、RAGが単なる検索補助ではなく、複数エージェントが役割分担しながら情報を集め、要約し、判断材料へ変える仕組みとして扱われている点だ。[3]\n\nFabric層は、その上流にあるデータの入口と土台を担う。YouTubeの解説では、Microsoft Fabricで「Metadata-Driven Ingestion with AI」を使い、手作業のデータパイプライン構築を減らす流れが紹介されている。また別の解説では、Fabric内のAI機能が自然言語を即時のインサイトに変え、データアクセスを広げるとされている。つまりFabricは、AIが働くためのデータ整備を自動化し、分析と利用の敷居を下げる層だといえる。[1][2]\n\nこの4層をMCPやRAGとの関係で見ると、役割分担がさらに明快になる。RAGはFoundry層で企業データを引き出し、複数ソースを統合して推論するための中核技術として現れている。[3] 一方、FabricはそのRAGが参照しやすい形でデータを集め、整える役回りを担う。[1][2] そしてWork層のCopilotは、そうした裏側の知能をユーザーの業務画面に届ける接点になる。[4]\n\n開発者視点では、Claude Code、Cursor、GitHub Copilot、LangChainのようなツールやフレームワークが注目される中で、Microsoftは「エージェントを作る場所」「データを用意する場所」「業務に出す場所」を分けて設計しているように見える。つまり、AI機能の競争は単なるチャット性能ではなく、データ基盤から推論オーケストレーション、日常業務への埋め込みまでを一気通貫で提供できるかに移っている。[1][2][3][4]\n\n結論として、Microsoft IQの4層は、Workで使い、Webで探し、Foundryで推論し、Fabricで整える構造として理解すると分かりやすい。今回の公開情報だけでも、Microsoftが「会話するAI」から「業務とデータを動かすAI」へ重心を移していることは十分読み取れる。[1][2][3][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Microsoft Fabric: Metadata-Driven Ingestion with AI",
+              "url": "https://www.youtube.com/watch?v=gItW5RRsSs4",
+              "source": "TheBiMasters"
+            },
+            {
+              "id": 2,
+              "title": "Microsoft Fabric AI Skills: stop drowning in data and use ...",
+              "url": "https://www.youtube.com/watch?v=8k_pIcruonw",
+              "source": "YouTube"
+            },
+            {
+              "id": 3,
+              "title": "Microsoft Research introduces Magentic-One, a multi- ...",
+              "url": "https://www.facebook.com/groups/868876935222403/posts/1375007344609357",
+              "source": "Facebook"
+            },
+            {
+              "id": 4,
+              "title": "Release Notes for Microsoft 365 Copilot",
+              "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes",
+              "source": "Microsoft Learn"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "devtools",
+          "title_highlights": [
+            "Microsoft IQ",
+            "MCP",
+            "RAG"
+          ],
+          "three_lines_highlights": [
+            "Copilot",
+            "Foundry",
+            "Fabric"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "MicrosoftのVS Code拡張「AI Engineer Coach」が、AIコーディングの“習慣”を可視化する",
+          "summary_ja": "MicrosoftのVS Code向け「AI Engineer Coach」は、AIで書くコードそのものだけでなく、どんな使い方をしているかという“習慣”に目を向けさせる動きとして読むと面白い。周辺では、Claude CodeやCursor、GitHub Copilot、LangChain系の開発体験が急速に多様化しており、コーディング支援は「生成」から「運用の型づくり」へ重心を移しつつある。",
+          "summary_en": "Microsoft’s VS Code extension AI Engineer Coach is best understood as a tool that visualizes not only AI-generated code, but also the developer’s usage habits. In a landscape where Claude Code, Cursor, GitHub Copilot, and LangChain-style tooling are rapidly diversifying, developer assistance is shifting from pure generation toward workflow and operational discipline.",
+          "three_lines": [
+            "AIコーディングの使い方を可視化する",
+            "Claude CodeやCursorの文脈で読む",
+            "習慣管理が開発ツールの価値を変える"
+          ],
+          "body_ja": "MicrosoftのVS Code拡張「AI Engineer Coach」は、AIにコードを書かせること自体よりも、その使い方をどう“習慣化”しているかを見える化する点に特徴がある、と捉えると分かりやすい。近年の開発者ツールは、単なる補完から、作業の流れや意思決定のパターンまで含めて支える方向に進んでおり、この拡張もその延長線上にある。[4][5]\n\n今回の見出しを周辺の動きと合わせて見ると、開発支援の主戦場が「どのモデルを使うか」だけでなく、「どう組み合わせ、どう運用するか」に移っていることが見えてくる。たとえば、オープンソースのハーネス系リストでは、MicrosoftのConductorがClaudeやCopilotをまたいだ決定論的なマルチエージェント運用をうたっており、ワークフローをバージョン管理・差分管理できる点が強調されている。[1]\n\nまた、エージェント系の周辺ツールでは、Claude CodeやCursor、Codexを前提にしたローカルAIエージェント型のHTML編集環境が紹介されており、単一のIDE拡張ではなく、複数のAIツールを前提にした作業設計が広がっている。[2] つまり、AI Engineer Coachの価値は“賢い自動化”そのものより、AI支援の使い方をチームや個人の作法として定着させるところにある。\n\nさらに、AIエージェントの数が増えるほど、通信経路や責任分界が複雑になるという指摘もある。これは、エージェントを足せば足すほど運用が単純になるわけではなく、むしろ管理の設計が重要になるという意味だ。[5] AI Engineer Coachのような可視化ツールは、こうした複雑さに対して、開発者が自分のAI活用を振り返るための“鏡”として機能する可能性がある。\n\nただし、AI活用の高度化には別のリスクもある。AIが読む前提のHTMLや表示の隙を突いて、ユーザーをだますような攻撃が報告されており、AI支援ツールの利用環境そのものが安全性を問われている。[3] だからこそ、AIコーディングの未来は、生成精度だけでなく、習慣、運用、ガバナンスまで含めて整える方向に進むはずだ。Microsoftの新しい拡張は、その流れを象徴する小さな一歩といえる。",
+          "references": [
+            {
+              "id": 1,
+              "title": "ai-boost/awesome-harness-engineering",
+              "url": "https://github.com/ai-boost/awesome-harness-engineering",
+              "source": "GitHub"
+            },
+            {
+              "id": 2,
+              "title": "Open Source Radar | Niched",
+              "url": "https://niched.dev/open-source",
+              "source": "Niched"
+            },
+            {
+              "id": 3,
+              "title": "Telefonica Tech · Blog",
+              "url": "https://telefonicatech.com/en/blog/author/telefonicatech",
+              "source": "Telefonica Tech"
+            },
+            {
+              "id": 4,
+              "title": "TechArena Forum | AI, Cloud & Innovation Community ...",
+              "url": "https://techarena.ai/forum",
+              "source": "TechArena"
+            },
+            {
+              "id": 5,
+              "title": "The Mythical Man-Agent. AI agent governance in practice",
+              "url": "https://medium.com/@adnanmasood/the-mythical-man-agent-2eb7dc105610",
+              "source": "Medium"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "devtools",
+          "title_highlights": [
+            "AI Engineer Coach",
+            "VS Code"
+          ],
+          "three_lines_highlights": [
+            "AI習慣",
+            "Claude Code",
+            "習慣管理"
+          ],
+          "id": "devtools-2"
+        },
+        {
+          "title": "CodeGraph OSSがClaude Code/Cursor/Codex CLIのMCP知識層に浮上、開発AIの“会話コスト”を削る",
+          "summary_ja": "CodeGraph系のOSS MCPサーバーが、コードベースを知識グラフ化して開発AIの再読込とトークン消費を減らす“知識層”として注目されている。Claude CodeやCodex CLI向けの接続例、99% fewer tokens、ms単位の索引化といった訴求が複数ソースで確認できる。",
+          "summary_en": "Open-source code-graph MCP servers are emerging as a knowledge layer for dev AI, reducing rereads and token usage. Multiple sources highlight Claude Code and Codex CLI integrations, persistent graphs, and claims such as millisecond indexing and 99% fewer tokens.",
+          "three_lines": [
+            "CodeGraph OSSが会話コストを削る",
+            "Claude CodeやCodex CLIへ広がる",
+            "知識グラフで再読込を減らす"
+          ],
+          "body_ja": "開発AIの使い勝手を左右するのは、モデルの賢さだけではない。実際には、同じコードを何度も読み直し、会話のたびに必要な文脈を“取りに行く”コストが大きい。そこで浮上しているのが、コードベースを知識グラフとして持ち、MCP経由でエージェントに渡すOSS群だ。こうした仕組みは、Claude Codeのようなツールに対して、より少ないトークンでプロジェクト全体を把握させる発想に近い[1][6]。\n\n今回の検索結果で目立つのは、CodeGraph系のMCPサーバーが単なる索引ではなく、「永続的な知識層」として扱われ始めている点だ。GitHub上の codebase-memory-mcp は、リポジトリを永続的な knowledge graph に変換し、平均的なリポジトリをミリ秒単位で扱えると説明している。さらに 158言語対応、サブmsクエリ、99% fewer tokens といった、開発AIの会話コストを直接下げる数字を前面に出している[3]。\n\n接続先の広がりも見逃せない。同リポジトリの説明では、Claude Code への検出・連携に加え、Codex CLI についても activation の記述があり、MCP設定や永続コンテキストの扱いまで具体化している。つまり、これは単独のチャット補助ではなく、エージェント実行の前段で“何を知っておくべきか”を差し込むためのレイヤーになりつつある[3]。\n\nコミュニティ発の紹介も、この方向性を裏づける。Instagram上の投稿では、「free MCP server」がコードベース全体の knowledge graph を作り、Claude がプロジェクトをより速く、少ない tokens で理解できるとされている。別の投稿でも、MCP群が Claude Code を大きく変えるとして、ライブWebアクセスやブラウザ制御などの拡張と並べて紹介されていたが、今回の本質は“外部機能の追加”よりも、コード理解の土台を作り直すことにある[1][5]。\n\nFacebook上のコメントでも、AI coding agents が同じファイルを繰り返し読むことで大量の tokens を浪費する、という問題意識が先に示されている。codebase-memory-mcp はその無駄を knowledge graph で解消し、関数探索や呼び出し連鎖の追跡を助けると説明されている。ここから見えてくるのは、MCPが単なる“プラグインの接続規格”ではなく、エージェントの記憶と探索を外付けする共通層として使われ始めているということだ[6]。\n\nもう一つの関連事例として、Wenlan MCP Server の紹介では、Claude Code や Codex 向けのプラグインファイルを含む一式が Apache-2.0 で公開されていると明記されていた。細部は異なるが、こちらもローカル実行・CLI・MCPサーバーをまとめて提供する構成で、開発AIを“モデル単体”ではなく“知識と実行環境のセット”として配布する流れに乗っている[2]。\n\n総じて、CodeGraph OSSの台頭は、Claude Code/Cursor/Codex CLI のような開発AIに対して、会話のたびにコードを読み直させる時代から、あらかじめ構造化された知識を参照させる時代への移行を示している。今後の競争軸は、回答の自然さだけでなく、いかに少ない再読込で素早く正しい文脈に到達できるか、へと移っていきそうだ[3][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Comment \"Repo\" and I'll send you the link. Claude Code is ...",
+              "url": "https://www.instagram.com/reel/DbcpgxNFee1",
+              "source": "Instagram"
+            },
+            {
+              "id": 2,
+              "title": "Wenlan MCP Server | Awesome MCP Servers",
+              "url": "https://mcpservers.org/servers/7xuanlu/wenlan",
+              "source": "mcpservers.org"
+            },
+            {
+              "id": 3,
+              "title": "GitHub - DeusData/codebase-memory-mcp: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies. · GitHub",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub"
+            },
+            {
+              "id": 4,
+              "title": "My Claude Code kept rereading the same repo instead of ...",
+              "url": "https://www.reddit.com/r/LLMDevs/comments/1vcrgyz/my_claude_code_kept_rereading_the_same_repo",
+              "source": "Reddit"
+            },
+            {
+              "id": 5,
+              "title": "Comment “MCP” and I'll send the full stack. These MCPs ...",
+              "url": "https://www.instagram.com/reel/DbgMGhKjiXT",
+              "source": "Instagram"
+            },
+            {
+              "id": 6,
+              "title": "Linux Inside - AI coding agents often waste thousands of...",
+              "url": "https://www.facebook.com/TecMint/posts/ai-coding-agents-often-waste-thousands-of-tokens-re-reading-the-same-files-to-an/1485921666898750",
+              "source": "Facebook"
+            },
+            {
+              "id": 7,
+              "title": "AI News, Volume 36: Open Source Builds the Missing Layers",
+              "url": "https://medium.com/@richardhightower/ai-news-volume-36-open-source-builds-the-missing-layers-32175cd2a74e",
+              "source": "Medium"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "devtools",
+          "title_highlights": [
+            "CodeGraph OSS",
+            "Claude Code",
+            "MCP"
+          ],
+          "three_lines_highlights": [
+            "CodeGraph OSS",
+            "Claude Code",
+            "99% fewer tokens"
+          ],
+          "id": "devtools-3"
+        }
+      ],
+      "summary": "今日の「AI開発ツール」は、AIを単なるコード生成機能としてではなく、業務・Web・開発基盤・データ基盤まで含む“層”として設計し直す流れが鮮明でした。MicrosoftはCopilot、Foundry、FabricをつないでAIの役割分担を整理し、開発現場ではAI Engineer Coachが「どう使うか」という習慣を可視化し、CodeGraph系MCPはコード理解の再読込やトークン消費を減らす知識層として効率化を進めています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "AIブームの裏で膨らむ巨額投資と負債リスク、欧米ビッグテックの戦略を再点検",
+          "summary_ja": "生成AI需要はなお強い一方で、欧米ビッグテックの設備投資は過熱感を増し、データセンターやAIインフラを巡る資金調達の複雑化が金融リスクとして意識され始めている。最新の決算・報道では、MetaやMicrosoft、Alphabetが巨額のcapexを維持・増額する一方、NVIDIAを中心に“循環的なAI取引”や信用リスクへの警戒も強まっている。規制面ではEU AI Actのような枠組みも睨みつつ、AI競争は研究開発だけでなく、財務戦略と資本市場の健全性を問う段階に入った。",
+          "summary_en": "Generative AI demand remains strong, but Big Tech’s capex surge is raising concerns about debt and circular financing in AI infrastructure. Recent reports show Meta, Microsoft and Alphabet maintaining or increasing spending, while scrutiny grows over Nvidia-linked deals and financial stability risks. The AI race is now testing not only product strategy and research, but also balance-sheet discipline and market resilience.",
+          "three_lines": [
+            "Meta、Microsoft、AlphabetがAI投資を維持・増額した。",
+            "循環的な資金調達が金融安定を脅かし始めた。",
+            "NVIDIA周辺の取引拡大で負債懸念が強まった。"
+          ],
+          "body_ja": "欧米のAI投資は、まだ減速の気配を見せていない。Meta Platformsは2026年のcapex下限を引き上げ、年間で1300億〜1450億ドルを見込む。Microsoftも投資計画を据え置き、2027年度第1四半期に約500億ドル、2026暦年に約1750億ドルの支出を示している。Alphabetも2026年の設備投資見通しを1950億〜2050億ドルへ引き上げたとされ、AI需要の強さが企業の財布のひもを緩め続けている [1][7]。\n\nただし、この投資ラッシュは単なる成長物語ではない。国際決済銀行（BIS）は2026年年次報告で、AIインフラを巡る循環的な資金調達を、AI capexバブルや政府債務の脆弱性と並ぶ世界金融安定の主要リスクの一つに挙げた。データセンター建設やGPU調達のために、売上見込み、リース、担保、出資が複雑に絡み合うほど、実需よりも資金の回転で拡大する構図が生まれやすい [2]。\n\nこの文脈で注目されているのがNVIDIA周辺の大型案件だ。報道では、NVIDIAがOpenAIのデータセンターリースに対して最大2500億ドル規模の融資保証を検討しているとされる。さらに7月には、SK Groupとの5000億ドル規模の提携、Naverへの10億ドル投資、そしてソフトバンク関連のAIインフラ案件など、NVIDIAを軸にした取引網が急速に広がったと伝えられている。投資家が気にしているのは、こうした関係が本当に需要主導なのか、それとも相互依存の取引が積み上がっているだけなのか、という点だ [3][4][5][6]。\n\n市場の反応も敏感だ。NVIDIAのCDS（信用保証）急騰が報じられ、AI関連の債務が一気に顕在化する可能性に警戒が集まった。もちろん、AI需要そのものはまだ強い。Microsoftのクラウド伸長やAlphabetの受注残の積み上がりが示すように、企業向けAI導入は現実の売上に結びつき始めている [1][7]。だが、売上の拡大速度と、それを支えるインフラ投資・借入・保証の増え方が釣り合わなくなれば、次に問題になるのは技術ではなく財務だろう。\n\n今後の焦点は、欧米ビッグテックがAI戦略を「モデル競争」から「資本配分競争」へどう移せるかにある。規制面ではEU AI Actのような枠組みがAIの使い方を縛る一方、資本市場では投資回収と信用リスクへの目線が厳しくなっている。AIブームは続くが、その裏側では、巨額投資を支える負債と循環取引の持続性が、次の主要論点になっている [2][3][4]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "NVIDIA Under Pressure But AI Spending Isn't Slowing: Buy the Dip?",
+              "url": "https://www.tradingview.com/news/zacks:5a2a357be094b:0-nvidia-under-pressure-but-ai-spending-isn-t-slowing-buy-the-dip",
+              "source": "TradingView News"
+            },
+            {
+              "id": 2,
+              "title": "Circular Financing in AI Infrastructure Poses New Risks for Data Centres",
+              "url": "https://datacenters.economictimes.indiatimes.com/news/ai-compute-infrastructure/circular-financing-in-ai-infrastructure-poses-new-risks-for-data-centres/132674132",
+              "source": "ETDatacenters"
+            },
+            {
+              "id": 3,
+              "title": "NVIDIA credit default swap spikes, is AI debt about to blow up?",
+              "url": "https://www.odaily.news/th/post/5212174",
+              "source": "Odaily"
+            },
+            {
+              "id": 4,
+              "title": "Nvidia's Credit Default Swaps Surge: Is the AI Debt Bubble About to Burst?",
+              "url": "https://www.odaily.news/en/post/5212174",
+              "source": "Odaily"
+            },
+            {
+              "id": 5,
+              "title": "Nvidia's growing web of AI deals has investors asking an uncomfortable question",
+              "url": "https://africa.businessinsider.com/markets/nvidias-growing-web-of-ai-deals-has-investors-asking-an-uncomfortable-question/qh2c6nk",
+              "source": "Business Insider Africa"
+            },
+            {
+              "id": 6,
+              "title": "Nvidia's Circular Web of AI Deals Has Investors Questioning Jensen Huang",
+              "url": "https://www.businessinsider.com/nvidias-circular-ai-deals-investor-stock-cds-price-jensen-huang-2026-7",
+              "source": "Business Insider"
+            },
+            {
+              "id": 7,
+              "title": "AI Revenue Just Hit $100 Billion From Zero Two Years Ago. Wall Street Warns of a Massive SaaS Trap.",
+              "url": "https://www.aol.com/articles/ai-revenue-just-hit-100-191529000.html",
+              "source": "AOL"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "global",
+          "title_highlights": [
+            "Meta",
+            "NVIDIA",
+            "capex"
+          ],
+          "three_lines_highlights": [
+            "Meta",
+            "循環融資",
+            "CDS"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "EU AI Actの実装フェーズが始動　米欧の規制差で企業のAI対応が本格化",
+          "summary_ja": "EUのAI Actは2026年8月2日から、汎用AIモデル（GPAI）をめぐる欧州委員会の執行権限が本格化し、企業は「モデルを使えるか」ではなく「どこまで証拠を示せるか」を問われる局面に入った。透明性、技術文書、表示義務の実務化が進む一方、米国は州・業界ごとの断片的な規制が中心で、欧米大手のAI戦略とコンプライアンス設計の差が一段と鮮明になっている。",
+          "summary_en": "The EU AI Act has entered an enforcement phase as of August 2, 2026, giving the European Commission stronger powers over GPAI providers. Enterprises now face a compliance shift toward evidence, documentation, and transparency, highlighting a widening contrast with the more fragmented U.S. regulatory landscape.",
+          "three_lines": [
+            "EU AI Actの執行が8月2日に始動した。",
+            "企業はGPAIの証拠提示を求められる。",
+            "米欧の規制差がAI戦略を左右する。"
+          ],
+          "body_ja": "EUのAI規制が、ついに「適用準備」から「執行」の段階へ入った。2026年8月2日、欧州委員会は欧州AI Officeを通じて、汎用AIモデル（GPAI）提供者に課された義務について、調査・執行権限を正式に行使できるようになった。[1] これにより、企業が気にすべき論点は、単にAIサービスを導入するかどうかではなく、使っているモデルの技術文書や透明性情報を、監督当局や取引先にどこまで示せるかへ移っている。[2][3]\n\n注目すべきは、今回の動きが「高リスクAI」の話だけにとどまらない点だ。GPAIモデルは、チャットボットや検索、AIエージェントのような幅広い用途の土台になっており、その提供者には技術文書の保持や、規制当局に対する情報提供などが求められる。[3] さらに、AI生成・改変コンテンツの表示やディープフェイクのラベル付けといった透明性ルールも前面に出てきた。[4] つまり、モデル性能の競争だけでなく、「何を学習し、どう使われ、どんな制約があるのか」を説明できるかが、企業評価の新しい軸になりつつある。[1][4]\n\n企業対応が難しくなるのは、AIを自社開発していない場合でも同じだ。TechTargetが指摘するように、第三者のAIモデルを使う企業では、次の焦点はベンダーが「準拠しているか」ではなく、「どのような証拠を実際に出せるか」に移る。[2] そのため、調達部門、法務、セキュリティ、事業部門が横断で、モデルの来歴、文書、出力の透明性、利用制限を確認する必要がある。金融分野では、信用力評価や保険の引受・料率設定に使うAIが高リスク領域に含まれるため、影響はさらに大きい。[6]\n\n一方で、欧州側のルール整備は、権利保護を強める反面、運用の厳しさという課題も残す。CDTは、GPAIコードの実装について、権利面の盲点があると評価しており、公開重みモデルでは、重みが公開された後や下流で微調整された後に、規制上の追跡や執行が難しくなると指摘した。[5][7] これは、オープンウェイト戦略を採る事業者にとって、透明性と拡散性の両立が今後の難題になることを示している。[5][7]\n\n米国との比較でも、EUの特徴は際立つ。今回の検索結果が示すのは、EUがGPAIに対して、文書化・開示・表示を含む包括的な枠組みを実装しつつある一方、企業側には「証跡を残せる運用体制」が必須になっているという点だ。[1][2][3] 米国のように一枚岩の連邦ルールでなく、欧州は統一市場の中で強い規制を一気に実装する。その結果、欧米大手は、同じAI製品でも地域ごとに設計、説明責任、契約条件を分ける必要に迫られる。AIを競争力の源泉とみる企業ほど、今後はモデル性能だけでなく、規制適合性そのものが製品価値を左右することになりそうだ。[1][2][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "EU AI Act Enforcement Phase Begins",
+              "url": "https://www.wsgr.com/en/insights/eu-ai-act-enforcement-phase-begins.html",
+              "source": "Wilson Sonsini"
+            },
+            {
+              "id": 2,
+              "title": "EU AI Act compliance deadline is here: What to watch",
+              "url": "https://www.techtarget.com/searchenterpriseai/news/366646620/EU-AI-Act-compliance-deadline-is-here-What-to-watch",
+              "source": "TechTarget"
+            },
+            {
+              "id": 3,
+              "title": "AI Act enforcement begins as EU introduces new transparency rules for artificial intelligence",
+              "url": "https://www.innovationnewsnetwork.com/ai-act-enforcement-begins-across-the-eu/72227",
+              "source": "Innovation News Network"
+            },
+            {
+              "id": 4,
+              "title": "EU Begins Enforcement of Landmark AI Act Rules",
+              "url": "https://impakter.com/eu-enforcement-landmark-ai-act-rules",
+              "source": "Impakter"
+            },
+            {
+              "id": 5,
+              "title": "General-purpose AI Code of Practice Implementation",
+              "url": "https://cdt.org/insights/general-purpose-ai-code-of-practice-implementation-a-rights-blindspot",
+              "source": "CDT"
+            },
+            {
+              "id": 6,
+              "title": "EU AI Act Transparency Rules Put FIs on Compliance Front Line",
+              "url": "https://www.pymnts.com/news/artificial-intelligence/2026/eu-ai-act-transparency-rules-put-financial-institutions-on-compliance-front-line",
+              "source": "PYMNTS"
+            },
+            {
+              "id": 7,
+              "title": "EU AI Act Transparency Rules Are Now In Effect. Was It A Missed Opportunity?",
+              "url": "https://techpolicy.press/eu-ai-act-transparency-rules-are-now-in-effect-was-it-a-missed-opportunity",
+              "source": "Tech Policy Press"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "global",
+          "title_highlights": [
+            "EU AI Act",
+            "GPAI",
+            "8月2日"
+          ],
+          "three_lines_highlights": [
+            "EU AI Act",
+            "GPAI",
+            "規制差"
+          ],
+          "id": "global-2"
+        },
+        {
+          "title": "DeepSeek、自社AIチップと巨大インフラで「内製化」へ　米欧大手の競争軸にも変化",
+          "summary_ja": "DeepSeekが推論向けの自社AIチップ開発に動き、同時に内モンゴルで1GW級データセンターの整備を進めている。訓練コストを抑えつつ推論基盤を自前化する戦略は、NVIDIA依存の米欧勢とは異なる競争軸を示す。",
+          "summary_en": "DeepSeek is reportedly developing its own inference-focused AI chip while building a 1GW data center in Inner Mongolia. The move signals a shift toward vertically integrated AI infrastructure and a different competitive axis from U.S. and European leaders reliant on Nvidia GPUs.",
+          "three_lines": [
+            "DeepSeekは推論向け自社チップを開発する。",
+            "内モンゴルで1GW級DC整備を進める。",
+            "AI競争はモデルから基盤内製へ移る。"
+          ],
+          "body_ja": "DeepSeekが、自社AIチップの開発に踏み出した。報道ベースの情報では、そのチップは学習用ではなく、学習済みモデルを効率よく動かす推論向けとされる[1][2]。つまり、最先端GPUを大量投入してモデルを学習する路線ではなく、運用段階の計算効率を自前で詰める方向だ。\n\nこの動きが注目されるのは、DeepSeekがすでに「学習コストを抑える」実績を持つからだ。Reuters転載の投稿では、同社は旧世代のNVIDIAチップを活用し、V3モデルの学習コストを大幅に圧縮したと紹介されている[5]。そこに自社チップが加われば、学習と推論の両面で調達依存を減らし、AIサービス全体の原価構造をコントロールしやすくなる。\n\nさらに同社は、内モンゴルで1ギガワット規模のデータセンター建設を計画しているとされ、2028年までのAI開発を支える計算資源の確保を急いでいる[4]。チップを自前化し、電力とデータセンターも押さえるという構図は、もはや単なるモデル開発ではなく、AIインフラの垂直統合そのものだ。\n\nこの戦略は、米欧大手との競争の見え方も変える。LinkedIn投稿では、NVIDIAが依然としてAIチップ市場の大きなシェアを握ると指摘されており[3]、足元ではGPU調達力が競争力の中心にある。ただ、DeepSeekのように推論基盤を内製化する企業が増えれば、競争軸は「どれだけ高性能なGPUを確保できるか」から、「どこまで自社で効率化し、運用コストを削れるか」へ広がる。\n\n欧米勢にとっても示唆は大きい。資金調達やM&Aで計算資源を押さえる動き、規制対応を織り込んだデータセンター立地戦略、さらに研究ブレークスルーを収益化に結びつけるためのインフラ投資など、AI競争はモデル精度だけでは勝てない段階に入っている。DeepSeekの動きは、その変化を分かりやすく映す事例といえる。",
+          "references": [
+            {
+              "id": 1,
+              "title": "AI #DeepSeek #GoodRevenue",
+              "url": "https://www.threads.com/@goodrevenuenews/post/DadtcyxgaEC",
+              "source": "Threads / GoodRevenueNews"
+            },
+            {
+              "id": 2,
+              "title": "South Korean artificial-intelligence chip designer DeepX ...",
+              "url": "https://www.instagram.com/p/Dbk-emAFnY_",
+              "source": "Instagram"
+            },
+            {
+              "id": 3,
+              "title": "DeepSeek's AI Chip Gap and Semiconductor Supply Chain ...",
+              "url": "https://www.linkedin.com/posts/emily-qiao-1a896b40_ai-deepseek-semiconductor-activity-7487710182425272320-N_Eb",
+              "source": "LinkedIn"
+            },
+            {
+              "id": 4,
+              "title": "AI news - daily snacks for builders - SevenLab",
+              "url": "https://www.sevenlab.ai/ai-news",
+              "source": "SevenLab"
+            },
+            {
+              "id": 5,
+              "title": "DeepSeek's new AI model is by far the cheapest of well",
+              "url": "https://www.facebook.com/Reuters/posts/deepseeks-new-ai-model-is-by-far-the-cheapest-of-well-known-models-to-run-resear/1628655045791888",
+              "source": "Facebook / Reuters"
+            }
+          ],
+          "published_date": "2026-08-04",
+          "category": "global",
+          "title_highlights": [
+            "DeepSeek",
+            "自社チップ",
+            "1GW"
+          ],
+          "three_lines_highlights": [
+            "推論向け",
+            "1GW DC",
+            "内製化"
+          ],
+          "id": "global-3"
+        }
+      ],
+      "summary": "欧米のAI競争は、技術開発そのものよりも、巨額の設備投資・資金調達・負債管理まで含めた「財務戦争」の色合いを強めており、ビッグテックのcapex拡大に対する過熱感や循環取引への警戒が高まっている。加えてEU AI Actの実装が進むことで、欧州では透明性や説明責任を前提にしたAI運用が不可避となり、米国との規制差が企業戦略の分岐点になりつつある。こうした中でDeepSeekの内製化路線は、NVIDIA依存モデルに対抗する新たな競争軸として、AIインフラの主導権争いを一段と複雑化させている。"
+    }
+  ]
+}
