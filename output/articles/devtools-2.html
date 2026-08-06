@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sentrux徹底解説：AIエージェント時代の「コード品質センサー」、Rust製OSSでClaude Codeと連携 | AI・クラウド ニュースダイジェスト</title>
+<title>CodeGraph完全解説｜Claude Codeのツールコール71%削減・コスト35%節約を狙うローカル知識グラフOSS | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,23 +21,23 @@
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
     <span class="article-date">2026-08-05</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">Sentrux</mark>徹底解説：AIエージェント時代の「コード品質センサー」、Rust製OSSで<mark style="background:#8A3FE026">Claude Code</mark>と連携</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">CodeGraph</mark>完全解説｜<mark style="background:#8A3FE026">Claude Code</mark>のツールコール<mark style="background:#8A3FE026">71%</mark>削減・コスト35%節約を狙うローカル知識グラフOSS</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Sentrux</mark>は構造劣化を検知して可視化する。</li><li><mark style="background:#8A3FE026">MCP</mark>経由でエージェントへ品質信号を返す。</li><li>`<mark style="background:#8A3FE026">gate</mark>`運用でCI回帰検知にも使える。</li></ul>
+    <ul><li><mark style="background:#8A3FE026">CodeGraph</mark>がコード探索をグラフ化して効率化する。</li><li><mark style="background:#8A3FE026">Claude Code</mark>のツール呼び出し削減を狙う。</li><li>依存関係や影響範囲を素早く追跡できる。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Sentruxは、コードベースを走査して構造健全性を数値化し、劣化をMCP経由でエージェントへ返すことで、AI開発の“出しっぱなし”を防ぐOSSです。Claude Codeまわりの実践知でも取り上げられており、`gate --save` と `gate` の組み合わせで、CIに組み込みやすい回帰検知を狙える点が注目されています。[1][2]</p>
-    <p class="sum-en">Sentrux is an OSS “code quality sensor” for AI coding agents. It scans codebases, scores structural health, and feeds degradation signals back through MCP so agents can self-correct, with a CI-friendly `gate --save` / `gate` workflow highlighted in community references.[1][2]</p>
+    <p class="sum-ja">CodeGraphは、Claude Code向けにコードベースをローカルの知識グラフとして扱い、探索や影響分析を効率化するMCP系ツールです。GitHub上の実装説明では、シンボル検索や呼び出し関係のたどり方、HTTPルート追跡、影響分析に対応し、Tree-sitterで10言語を自動インデックス化するとされています。[1][2] さらに関連するClaude Code Skill群でも、コード構造や依存関係をグラフ化して、複雑なリポジトリの理解を助ける位置づけが明確です。[4][5][6]</p>
+    <p class="sum-en">CodeGraph is a local knowledge-graph style tool for Claude Code that improves repository exploration and impact analysis. According to the GitHub and skill listings, it supports semantic search, call-graph traversal, HTTP route tracing, and auto-indexing across 10 languages via Tree-sitter.[1][2][4][5][6]</p>
   </div>
 
-  <div class="article-body"><p>AIエージェントがコードを生成する時代に、次の課題は「書けるか」ではなく「壊さずに続けられるか」になってきました。Sentruxは、その問いに対して“リアルタイムのアーキテクチャセンサー”という形で応えるOSSです。要するに、コードベースを走査して構造の健全性を点数化し、劣化を検出したらMCP経由でエージェントに返すことで、AI側が自分で修正へ戻れるようにする仕組みです。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>注目すべきは、Sentruxが単なる静的解析ツールではなく、エージェントの反復作業に“フィードバックループ”を組み込もうとしている点です。検索結果では「close the feedback loop」や「self-correct」といった説明が見え、生成→確認→修正を自動化しやすい設計思想が示されています。Claude Codeまわりの実践ガイドでもSentruxが並び、Claude Code、hooks、skills、MCP serversといった開発者向けの運用文脈に自然に入っているのが分かります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>実運用の観点では、`gate --save` と `gate` のペアが重要です。検索結果では、この組み合わせが「architectural regression detection CI-friendly」とされており、現状を保存しておいて、後続の変更で構造が崩れたかを比較しやすくする発想だと読めます。つまりSentruxは、AIエージェントの“試行錯誤”を許しつつ、最後は品質ゲートで止めるという、開発現場に馴染みやすい守り方を提供します。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>技術スタックとしてはRust製のOSSであることも見逃せません。検索結果自体は性能や安全性を詳述していませんが、少なくともコード品質の監視という常時稼働寄りの役割には、Rust系ツールが持つ軽量さや安定性のイメージは相性がよいでしょう。さらにMCP対応は、Claude Codeのようなエージェント基盤に接続しやすいことを意味します。個別ツールの強みをつなぎ、AIが見落としがちな“構造の崩れ”を検出する――Sentruxの価値はここにあります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>AI開発ツールの競争は、生成精度だけでなく、生成後の品質制御へと広がっています。CursorやGitHub Copilot、LangChain系の開発でも、今後は「何を作ったか」だけでなく「どこが劣化したか」を機械が理解して戻せることが差別化要因になっていくはずです。Sentruxは、その潮流の中で、エージェント時代の“コード品質センサー”として早くも存在感を示していると言えます。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p></div>
+  <div class="article-body"><p>Claude Codeまわりで、リポジトリ理解を“検索”から“グラフ探索”へ寄せる流れが強まっています。その代表格がCodeGraphです。GitHub上の説明では、CodeGraphはASTベースのknowledge graph MCP serverとして位置づけられ、semantic search、call graph traversal、HTTP route tracing、impact analysisをまとめて扱えるとされています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> つまり、単にファイルを探すのではなく、シンボル同士の関係をたどりながら、変更の影響を見にいく設計です。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>注目したいのは、Claude Codeとの相性の良さです。GitHubの別リポジトリ説明では、Claude Codeが“Explore sub-agent”を挟まずCodeGraphツールを直接呼び出す図が示されており、エージェントの往復を減らす思想が読み取れます。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> また、別の実装説明では、コード関連のプロンプトに対してCLI出力を小さく注入する仕組みや、Grep + Read + Globの従来手法とのベンチマークが紹介されています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> 検索結果の抜粋だけでも、33ファイル規模のRustプロジェクトでASTノードを使った比較を行っていることが確認でき、単なる“雰囲気の便利ツール”ではなく、探索コストを定量的に下げる方向を志向しているとわかります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>MCP/Skill市場でも、CodeGraphに近い発想のツールが増えています。mcpmarketの掲載では、CodeGraphは「ローカルのグラフを構築して複雑なコードベースをナビゲートする」ためのClaude Code Skillとして説明され、別ページでも「コード依存関係をマップし、バグを追跡し、アーキテクチャを分析する」用途が打ち出されています。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup> さらに、Code Review Graphの掲載でも、関数・クラス・依存関係をsemantic knowledge graphへ落とし込むとされ、ローカルファーストの分析体験が共通テーマになっています。<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup> これらは、LangChain系のエージェント設計やCursor/GitHub Copilotの補完体験と比べても、単発の生成より“プロジェクト全体の関係把握”を重視する潮流を示しています。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup></p>
+<p>では、見出しにある「ツールコール71%削減・コスト35%節約」という数字はどう見るべきでしょうか。今回の検索結果内では、その数値自体を裏づける一次情報は確認できません。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> ただし、CodeGraphの構造を見ると、従来のようにGrep、Read、Globを何度も回すより、最初からグラフを使って関連箇所へ絞り込めるため、ツール呼び出しやコンテキストの無駄が減る、という主張には筋があります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> つまり重要なのは個別の数字よりも、“ローカル知識グラフで探索を先に圧縮し、LLMの往復を減らす”というアーキテクチャの方向性です。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup></p>
+<p>開発現場へのインパクトは大きいでしょう。巨大なコードベースでは、AIに質問しても、周辺ファイルの読み込みでトークンが膨らみやすく、答えが出るまでの試行錯誤も増えがちです。CodeGraphはそこを、シンボル・呼び出し・ルート・依存関係という“構造”で先に整理します。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup> その結果、Claude Codeのようなエージェントは、探索より判断に集中しやすくなる。ローカルで完結する知識グラフは、クラウド依存を減らしたいチームや、レガシーな大規模リポジトリを抱える組織にとって、実用的な選択肢になりそうです。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup></p></div>
 
   
   <div class="references">
@@ -45,13 +45,33 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://olud.ai/mcp" target="_blank" rel="noopener noreferrer">MCP Servers — 681 Model Context Protocol ...</a>
-        <span class="ref-source">— olud.ai</span>
+        <a href="https://github.com/sdsrss/code-graph-mcp" target="_blank" rel="noopener noreferrer">GitHub - sdsrss/code-graph-mcp: AST knowledge graph MCP server for Claude Code — semantic search, call graph traversal, HTTP route tracing, impact analysis. Auto-indexes 10 languages via Tree-sitter. · GitHub</a>
+        <span class="ref-source">— GitHub</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://github.com/ai-boost/awesome-harness-engineering" target="_blank" rel="noopener noreferrer">ai-boost/awesome-harness-engineering</a>
+        <a href="https://github.com/colbymchenry/codegraph?ref=creativeainews.com" target="_blank" rel="noopener noreferrer">GitHub - colbymchenry/codegraph at creativeainews.com · GitHub</a>
         <span class="ref-source">— GitHub</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://github.com/tirth8205/code-review-graph" target="_blank" rel="noopener noreferrer">tirth8205/code-review-graph: Local-first ...</a>
+        <span class="ref-source">— GitHub</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://mcpmarket.com/tools/skills/codegraph-navigation-impact-analysis" target="_blank" rel="noopener noreferrer">CodeGraph Navigation &amp; Impact Analysis | Claude Code Skill</a>
+        <span class="ref-source">— mcpmarket.com</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://mcpmarket.com/tools/skills/code-review-graph" target="_blank" rel="noopener noreferrer">Code Review Graph Claude Code Skill</a>
+        <span class="ref-source">— mcpmarket.com</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://mcpmarket.com/tools/skills/codegraph-analysis" target="_blank" rel="noopener noreferrer">CodeGraph: Advanced Codebase Analysis Claude Code ...</a>
+        <span class="ref-source">— mcpmarket.com</span>
       </li>
       
     </ol>

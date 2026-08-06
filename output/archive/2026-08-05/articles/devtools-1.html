@@ -21,23 +21,27 @@
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
     <span class="article-date">2026-08-05</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">Microsoft IQ</mark>の4層を読み解く——<mark style="background:#8A3FE026">Work/Web</mark>/<mark style="background:#8A3FE026">Foundry/Fabric</mark>とMCP・RAGの関係</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Microsoft IQ</mark>の4層を読み解く——Work/Web/Foundry/Fabricと<mark style="background:#8A3FE026">MCP</mark>・<mark style="background:#8A3FE026">RAG</mark>の関係</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Microsoft IQ</mark>は4層でAI体験を整理する。</li><li><mark style="background:#8A3FE026">Fabric</mark>はRAGとベクター対応を強化する。</li><li>開発者は<mark style="background:#8A3FE026">MCP</mark>接続を実装設計の軸に置く。</li></ul>
+    <ul><li>Work・Web・Foundry・Fabricの4層で整理する</li><li><mark style="background:#8A3FE026">MCP</mark>でエージェント接続を標準化する</li><li><mark style="background:#8A3FE026">RAG</mark>で知識取得の経路を制御する</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Microsoft IQは、Work・Web・Foundry・Fabricという4層でAI体験を整理し、開発者向けにはMCPやRAG、Fabricのデータ基盤をどうつなぐかが焦点になる。Microsoft Fabricの最新情報では、SQLデータベースのAI活用に向けてベクター型やRAG対応アーキテクチャ、LangChain、Semantic Kernel、プラットフォーム統合が前進している。</p>
-    <p class="sum-en">Microsoft IQ frames AI experiences in four layers—Work, Web, Foundry, and Fabric—while highlighting how MCP, RAG, and Fabric’s data stack fit together for developers. Recent Fabric updates point to vector data types, RAG-ready architectures, LangChain, Semantic Kernel, and broader platform integration for AI apps.</p>
+    <p class="sum-ja">Microsoft IQは、Work・Web・Foundry・Fabricという4つの文脈レイヤーで、AIエージェントに与える情報の出どころと扱い方を整理する考え方です。MCPやRAGと組み合わせることで、開発者は「どの知識を、どこから、どう安全に引くか」を設計しやすくなります。</p>
+    <p class="sum-en">Microsoft IQ is a four-layer framework—Work, Web, Foundry, and Fabric—that organizes the source and handling of context for AI agents. Combined with MCP and RAG, it helps developers design where knowledge comes from and how it is safely retrieved.</p>
   </div>
 
-  <div class="article-body"><p>Microsoft IQを4層で捉える見方は、単なる製品一覧ではなく、AIを「どこで使うか」と「どうつなぐか」を分けて考える視点を与えてくれる。Workは業務の現場、Webはオンラインの広域な情報面、FoundryはAIを組み立てる開発・実行基盤、Fabricはデータと分析の土台という整理で読むと、各レイヤーの役割が見えやすい。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
-<p>この構図で重要なのが、MCPとRAGの関係だ。MCPは外部ツールやデータソースをAIに結びつけるための接続の考え方として語られやすく、一方のRAGは検索した情報を応答に取り込む実装パターンとして使われる。つまり、MCPが「何につなぐか」を広げ、RAGが「どう回答に生かすか」を具体化する、という役回りで理解すると筋が通る。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
-<p>Fabric側の最新情報を見ると、この考え方を支える部品が実際に増えている。2026年6月の更新では、AIアプリケーションでのSQLデータベース活用に向けて、ネイティブなベクター型やベクタースカラー関数、RAG対応アーキテクチャ、LangChainやSemantic Kernel、さらにFabricプラットフォーム統合が取り上げられている。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> これは、データベースを単なる保存先ではなく、検索・埋め込み・推論の土台として使う流れが強まっていることを示す。</p>
-<p>開発者ツールの観点では、この動きはClaude CodeやCursor、GitHub Copilot、LangChainのようなAIコーディング／agentフレームワークの設計にも影響する。エージェントを作るとき、モデルそのものの性能だけではなく、どの接続方式で社内データや外部サービスに触れさせるか、どの基盤でベクター検索やRAGを回すかが重要になるからだ。Microsoft IQの4層は、その設計を「体験」「接続」「実装」「データ基盤」に分解して見せる読み替えとして有効だろう。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>要するに、Microsoft IQの4層はAI機能の見取り図であり、MCPとRAGはその中を流れる配線のようなものだ。Fabricのアップデートが示すように、その配線を支えるためのベクターやRAG関連機能は着実に整備されつつある。AI開発者にとっては、モデル選び以上に「どの層をどう接続するか」が競争力を左右する局面に入っている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p></div>
+  <div class="article-body"><p>Microsoft IQは、AIエージェントに与えるコンテキストを「Work」「Web」「Foundry」「Fabric」の4層で捉える見方として整理すると理解しやすい。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> ざっくり言えば、社内の働き方、外部Web、企業内の知識基盤、そして業務データのライブ状態を、それぞれ別の役割として切り分ける発想だ。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>まずWork IQは、Microsoft 365の中で人がどう協働し、仕事がどう流れるかを表す文脈を提供する。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> これは単なる文書検索ではなく、メール、会議、共有作業のような“仕事の進み方”をAIが理解するための土台になる。開発者ツールの観点では、エージェントが「誰が何をしているか」を把握するコンテキスト層として見ておくとわかりやすい。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>Web IQは、Bing groundingに代表されるように、外部Webの情報をライブに参照する層として説明できる。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> ここで重要なのは、検索結果の抜粋にある通り、リモートソースは事前に取り込まず、取得時にライブで問い合わせる点だ。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> つまり、外の情報を“保存して持つ”のではなく、“その場で引く”という設計に寄っている。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup></p>
+<p>Foundry IQは、企業の方針や手順など、制度化された知識をエージェントに渡すための層と読める。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> 検索結果では、Foundry IQが「governed knowledge」や「curated institutional knowledge」として説明されており、単なる全文検索ではなく、統制された知識を扱う点が強調されている。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> さらに、SharePoint 連携の例では、コンテンツがSharePointの外に出ず、権限もSharePoint側で維持されるとされている。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> ここはRAGの実装と相性がよく、必要な文書だけを安全に引く設計として理解できる。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup></p>
+<p>Fabric IQは、データの“今”を扱う層だ。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> 検索結果では、business dataのライブ状態、つまりエンティティ、メトリクス、関係、ルール、アクションを提供するとされている。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> これはAIに「過去の知識」だけでなく、「現在の業務状態」を見せる役割を持つため、運用系のエージェントや分析系の自動化で効いてくる。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>この4層をMCPと並べて見ると、役割分担が見えてくる。MCPはモデルから外部ツールやサーバーへ接続するための共通化レイヤーとして使われ、Foundry側の案内では、エージェントにMCPサーバーのツールを追加する手順が示されている。<sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup> つまり、MCPは“どの知識層にどうつなぐか”を実装する接続口になりうる。<sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup></p>
+<p>一方RAGは、検索結果をもとに必要な知識を引いて応答に反映する仕組みだが、Microsoft IQの4層と重ねると、何を検索対象にするかを設計しやすくなる。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> たとえば、社内文書はFoundry IQ、現在の業務データはFabric IQ、外部情報はWeb IQ、仕事の流れはWork IQというように、知識の種類ごとに取り回しを分けられる。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup></p>
+<p>開発者ツールやagentフレームワークの現場では、この整理がかなり実務的だ。Claude Code、Cursor、GitHub Copilot、LangChainのようなツールは、モデルそのものよりも「どんなコンテキストを、どの経路で、どの権限で与えるか」で体験が大きく変わる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup> Microsoft IQの4層は、その設計図をかなり素直に言語化していると言える。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>要するに、Microsoft IQは“AIに何を覚えさせるか”ではなく、“どの情報を、どの境界で、どのタイミングで使わせるか”を整理する枠組みだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> MCPは接続、RAGは取得、IQの4層は情報の分類と統制。これらを組み合わせることで、エージェント開発はより安全に、より説明可能に進めやすくなる。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup></p></div>
 
   
   <div class="references">
@@ -50,13 +54,33 @@
       </li>
       
       <li id="ref-2">
-        <a href="https://learn.microsoft.com/ja-jp/fabric/fundamentals/whats-new" target="_blank" rel="noopener noreferrer">新着情報は何ですか？ - Microsoft Fabric | Microsoft Learn</a>
-        <span class="ref-source">— Microsoft Learn</span>
+        <a href="https://www.emergentsoftware.net/resources/insights/foundry-iq-explained-building-governed-knowledge-for-enterprise-ai-agents" target="_blank" rel="noopener noreferrer">Foundry IQ Explained: Governed Knowledge for Enterprise AI Agents</a>
+        <span class="ref-source">— Emergent Software</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://www.youtube.com/watch?v=-NXqrshS3zo" target="_blank" rel="noopener noreferrer">How to Use Microsoft Fabric MCP and Fabric Skills: Get AI ...</a>
-        <span class="ref-source">— YouTube</span>
+        <a href="https://jannikreinhard.com/foundry-iq-knowledge-bases" target="_blank" rel="noopener noreferrer">Foundry IQ Deep Dive: Knowledge Bases for AI Agents</a>
+        <span class="ref-source">— jannikreinhard.com</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://learn.microsoft.com/en-us/fabric/data-science/ai-services/ai-services-overview" target="_blank" rel="noopener noreferrer">Use Foundry Tools in Fabric - Microsoft Fabric | Microsoft Learn</a>
+        <span class="ref-source">— Microsoft Learn</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://www.instagram.com/p/Dbk3pJVju4q" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span class="ref-source">— Instagram</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/tools/model-context-protocol" target="_blank" rel="noopener noreferrer">Connect to MCP Server Endpoints for agents</a>
+        <span class="ref-source">— Microsoft Learn</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://www.instagram.com/p/Dbckq0Wjz1k" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span class="ref-source">— Instagram</span>
       </li>
       
     </ol>

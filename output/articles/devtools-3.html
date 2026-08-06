@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>拡散言語モデル（dLLM）とは？ 仕組み、主要モデル、料金感まで整理 | AI・クラウド ニュースダイジェスト</title>
+<title>Claude Codeコマンド完全リファレンス2026｜CLI・スラッシュ・Skills・MCP・Hooksを整理 | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,24 +21,25 @@
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
     <span class="article-date">2026-08-05</span>
   </div>
-  <h1 class="article-title">拡散言語モデル（<mark style="background:#8A3FE026">dLLM</mark>）とは？ 仕組み、主要モデル、料金感まで整理</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Claude Code</mark>コマンド完全リファレンス2026｜<mark style="background:#8A3FE026">CLI</mark>・スラッシュ・Skills・MCP・Hooksを整理</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">dLLM</mark>は従来型LLMの制約を揺さぶる</li><li>Mercury 2が<mark style="background:#8A3FE026">1,009トークン/秒</mark>を記録</li><li>開発者ツールにも波及し始めている</li></ul>
+    <ul><li>Claude Codeは<mark style="background:#8A3FE026">CLI</mark>操作をショートカットで素早く切り替えられる。</li><li>スラッシュ、<mark style="background:#8A3FE026">Skills</mark>、<mark style="background:#8A3FE026">MCP</mark>、Hooksを一枚で把握しやすい。</li><li>安全モードや診断で設定由来の問題も切り分けられる。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">dLLM（拡散言語モデル）は、従来の自己回帰型LLMとは異なる生成手法として注目されており、Claude CodeやCursor、Codexなどの開発者向けエージェントにも波及し始めています。2025〜2026年にかけてLLaDAやMercury Coder、Mercury 2などが登場し、速度やスループット面で従来型を上回る例も出てきました。[2]</p>
-    <p class="sum-en">Diffusion language models (dLLMs) are emerging as an alternative to traditional autoregressive LLMs, with spillover into developer tools such as Claude Code, Cursor, and Codex. Between 2025 and 2026, models like LLaDA, Mercury Coder, and Mercury 2 appeared, including reports of major throughput gains over conventional speed-optimized models.[2]</p>
+    <p class="sum-ja">Claude Codeは、対話中に使うスラッシュコマンド、CLIショートカット、SkillsやMCP、Hooksまで含めて“作業の流れ”を短縮する方向に進化しています。2026年時点では、印刷用チートシートやフル参照、隠しコマンドの解説も増え、基本操作と拡張機能をまとめて把握する需要が高まっています。</p>
+    <p class="sum-en">Claude Code is evolving into a workflow-shortening tool that spans slash commands, CLI shortcuts, Skills, MCP, and Hooks. By 2026, printable cheat sheets, full references, and guides to hidden commands are helping developers understand both the basics and the extensibility in one place.</p>
   </div>
 
-  <div class="article-body"><p>拡散言語モデル（dLLM）は、単なる「高速なLLM」ではなく、従来の自己回帰型LLMが持つ構造的な制約に対する別アーキテクチャの提案として見られています。要するに、次の単語を一つずつ積み上げるやり方とは違う発想で、言語生成のボトルネックを外そうとする流れです。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>この潮流が開発者ツール側にまで広がっている点も重要です。検索結果では、Claude Code、Cursor、Codex、さらに各種agentワークフローが、dLLMの文脈で言及されています。つまりdLLMは研究室内の新奇技術ではなく、コード生成やタスク自動化の現場で試される候補として認識され始めています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
-<p>主要モデルの動きとしては、2025年2月にLLaDAとMercury Coderが公開され、その後も関連モデルが続いています。特に2026年2月公開のMercury 2は、NVIDIA Blackwell GPU上で1,009トークン/秒を記録し、同じ速度最適化系のGPT-5 MiniやClaude 4.5 Haikuと比べて10倍以上のスループットを示したとされています。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> この数字は、dLLMが「理論上の代替案」から「実運用で速度優位を狙える選択肢」へ近づいていることを示唆します。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>一方で、dLLMの価値を速度だけで捉えるのは不十分です。むしろ、生成プロセスの設計を変えることで、学習・評価・デプロイを一体化しやすくする方向に意味があります。関連するテスト/運用文脈では、LoRA、DeepSpeed、FSDPを含むスケーラブルな訓練基盤をまとめて扱う流れも示されており、dLLMの実用化にはモデル単体ではなく周辺ツール群の整備が欠かせません。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup></p>
-<p>では料金はどう考えるべきか。今回の検索結果だけでは、dLLMそのものの明確な価格表は確認できませんでした。ただし、開発者向けツールやagentフレームワークとの接続が進むほど、実際のコストは「モデル利用料」だけでなく、推論速度、GPU効率、ワークフロー全体の実行回数で決まる比重が大きくなります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> そのため、dLLMの料金比較では、単価よりもスループットと運用効率を含めた総コストで見るのが現実的です。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>現時点での見方をまとめると、dLLMは「LLMの新しい生成方式」であり、さらに「開発者ツールとagent運用を再設計する可能性を持つ基盤技術」です。Claude CodeやCursor、Codexのような実務ツールと結びつくことで、今後は速度・品質・コストの最適点を巡る競争が一段と激しくなりそうです。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p></div>
+  <div class="article-body"><p>Claude Codeを使い込むほど、知っているかどうかで作業速度が大きく変わるのがコマンド体系です。2026年に出回っている参照情報を見ると、単なるチャットUIではなく、対話中のスラッシュコマンド、CLIショートカット、そしてSkillsやMCP、Hooksまで含めた“開発ワークフローの操作盤”として整理されつつあります<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。</p>
+<p>まず基本の入り口はCLIです。参照情報では、作業を止めずに戻るための `claude -c`、直前の編集に戻る `claude -r`、プリントモードの `claude -p`、終了の `Ctrl+D`、キャンセルの `Ctrl+C` といった短い操作がまとめられています。さらに、`mcp list` のように接続状況を確認する流れも見え、日常運用では“対話を続ける・やり直す・出力だけ取る・抜ける”を素早く扱うのが重要だと分かります<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
+<p>次に、Claude Codeの特徴として目立つのがスラッシュコマンドです。検索結果では、対話セッションの中で `/hooks` や `/permissions`、`/load` といったコマンドが使えることが示されており、特に `/load` はタスクの切り替えを素早く行う用途として紹介されています。つまり、会話の流れを壊さずに設定・権限・作業対象を操作できるため、長いタスクを並行させる開発者にはかなり実用的です<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
+<p>一方で、機能が増えるほど“何が影響しているのか”を切り分ける視点も欠かせません。Hiddenコマンド系の解説では、Safe mode が CLAUDE.md、skills、plugins、hooks、MCP servers、custom commands、output styles、keybindings、auto-memory を無効化しつつ、認証やモデル選択、組み込みツールはそのまま動くとされています。これは、挙動がおかしいときに「ツール本体の問題か、設定や拡張の問題か」を見分けるための強力な手段です<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。</p>
+<p>こうした流れは、Claude Codeが単体のAIチャットから、設定・拡張・連携を含む開発支援基盤へ寄っていることを示しています。Instagram上でも、Claude.md、Skills、Subagents、MCP、Hooksをまとめて理解したいという反応が見られ、情報の中心は“どう使うか”から“どう組み合わせるか”へ移っています<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。</p>
+<p>さらに、印刷用のチートシートが用意されている点も象徴的です。フル検索リストではなく、よく使うコマンド、ショートカット、ファイル、ワークフローの覚え書きを一枚にまとめる発想は、日々の実務で参照負荷を下げるのに向いています。つまり2026年のClaude Codeは、機能追加だけでなく、現場で迷わず使える“運用の見える化”まで含めて成熟してきたと言えます<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p>
+<p>総じて、Claude Codeのコマンド完全リファレンスを押さえる価値は、単に暗記することではありません。CLIで素早く操作し、スラッシュで文脈内の設定を切り替え、SkillsやMCP、Hooksで自動化を広げ、問題が起きたらSafe modeで切り分ける——この一連の流れを理解することが、開発者ツールとしてのClaude Codeを使いこなす近道です<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。</p></div>
 
   
   <div class="references">
@@ -46,18 +47,28 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://www.instagram.com/aiera.id/reel/DbmqO6mj12V" target="_blank" rel="noopener noreferrer">Era baru AI mulai bergeser dari LLM tradisional ke ...</a>
-        <span class="ref-source">— Instagram / aiera.id</span>
+        <a href="https://www.facebook.com/groups/claudecowork/posts/1382039909972507" target="_blank" rel="noopener noreferrer">Claude Code CLI Cheat Sheet: Essential Commands and ...</a>
+        <span class="ref-source">— facebook.com</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://www.ai-souken.com/article/what-is-diffusion-language-model" target="_blank" rel="noopener noreferrer">拡散言語モデル（dLLM）とは？仕組みや主要モデル、料金を ...</a>
-        <span class="ref-source">— AI総研</span>
+        <a href="https://www.agensi.io/learn/claude-code-commands-reference" target="_blank" rel="noopener noreferrer">Claude Code Commands 2026: Full Slash Command Reference</a>
+        <span class="ref-source">— agensi.io</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://www.instagram.com/reel/DbgZEEmMdvh" target="_blank" rel="noopener noreferrer">.md file. #QATesting #genai #softwaretesting ...</a>
-        <span class="ref-source">— Instagram</span>
+        <a href="https://www.analyticsvidhya.com/blog/2026/07/hidden-claude-code-cli-commands" target="_blank" rel="noopener noreferrer">5 Hidden Claude Code CLI Commands You Need to Know</a>
+        <span class="ref-source">— analyticsvidhya.com</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://claude.nagdy.me/reference" target="_blank" rel="noopener noreferrer">Cheat Sheet — claude.nagdy.me</a>
+        <span class="ref-source">— claude.nagdy.me</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://www.instagram.com/reel/DbdoC4Cj0qw" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span class="ref-source">— instagram.com</span>
       </li>
       
     </ol>
