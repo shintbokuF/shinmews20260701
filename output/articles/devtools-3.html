@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CodeGraph OSS、Claude CodeやCursor向けの“ローカル知識グラフ”MCPサーバーとして存在感を拡大 | AI・クラウド ニュースダイジェスト</title>
+<title>Microsoft IQの4層を読み解く——Work/Web/Foundry/FabricとMCP・RAGの関係 | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,22 +21,25 @@
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
     <span class="article-date">2026-08-07</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">CodeGraph</mark> OSS、<mark style="background:#8A3FE026">Claude Code</mark>や<mark style="background:#8A3FE026">Cursor</mark>向けの“ローカル知識グラフ”MCPサーバーとして存在感を拡大</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Microsoft IQ</mark>の4層を読み解く——<mark style="background:#8A3FE026">Work/Web/Foundry/Fabric</mark>とMCP・RAGの関係</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">CodeGraph</mark>は、コードを事前に索引化する。</li><li><mark style="background:#8A3FE026">Claude Code</mark>やCursorへ<mark style="background:#8A3FE026">MCP</mark>で接続する。</li><li>ローカル完結で、探索コストを減らす。</li></ul>
+    <ul><li>Microsoft IQは<mark style="background:#8A3FE026">4層</mark>で知識層を再編する。</li><li>Foundry IQは<mark style="background:#8A3FE026">MCP</mark>越しに知識を提供する。</li><li>Fabricは分析基盤から実装基盤へ広がる。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">CodeGraphは、ローカル完結でコードベースを解析し、AIエージェントが参照できる知識グラフをMCP経由で提供するOSSとして広がっている。Claude Code、Cursor、Codex CLIなどの開発者ツールに接続し、ファイルを毎回なめる代わりに、事前に索引化された構造情報を使わせるのが特徴だ。</p>
-    <p class="sum-en">CodeGraph is expanding as a local-first MCP server that exposes a pre-indexed code knowledge graph to AI coding agents such as Claude Code, Cursor, and Codex CLI, reducing manual file scanning and token usage.</p>
+    <p class="sum-ja">Microsoft Build 2026で、MicrosoftはM365、Copilot Studio、Azure Foundry、Fabricにまたがる新しいエージェント向けコンテキスト層を「Microsoft IQ」として整理した。Work/Web/Foundry/Fabricの4層で見ると、同社は“どこから知識を取るか”と“どう接続するか”をMCPとRAGの組み合わせで統一しようとしている。[1][8]</p>
+    <p class="sum-en">At Microsoft Build 2026, Microsoft reframed its agent-context stack across M365, Copilot Studio, Azure Foundry, and Fabric as “Microsoft IQ.” Viewed through the four layers of Work, Web, Foundry, and Fabric, the company appears to be standardizing how agents retrieve and connect knowledge via MCP and RAG.[1][8]</p>
   </div>
 
-  <div class="article-body"><p>AI開発ツールの周辺で、CodeGraphというOSSが「コードを読むAI」の補助装置として存在感を増している。GitHub上の説明では、CodeGraphはローカルファーストのコードインテリジェンスライブラリ、CLI、MCPサーバーとして設計され、tree-sitterでコードベースを解析し、SQLite（FTS5）にシンボルやエッジ、ファイル情報を保存するという <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。要するに、AIエージェントが毎回ソースを総当たりで読むのではなく、あらかじめ整えた知識グラフを問い合わせる形だ。 <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
-<p>この設計が刺さっている理由は、Claude CodeやCursor、Codex CLIのような開発者向けエージェントが、実装の文脈を素早く掴む必要に迫られているからだ。CodeGraphの説明には、これらのツールに対してMCP経由で知識グラフを公開するとあり、プロジェクトごとのデータはローカルの `.codegraph` 配下に置かれると読める <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。つまり、クラウドにコードを預ける前提ではなく、手元のリポジトリをそのまま“地図化”して使う発想だ。 <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
-<p>SNS上でも、CodeGraphは「pre-indexed code knowledge graph」や「100% local」といった言い回しで紹介されており、Claude Code、Codex、Gemini、Cursor、OpenCodeなど複数のAIコーディング環境に対応するツールとして受け止められている <sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。別の投稿では、Claude Codeがセッションごとに文脈を再構築してしまう問題に触れつつ、CodeGraphがコードベース全体の知識グラフを作ることで、より少ないトークンで理解を助けると説明されている <sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。さらに、別動画では、編集の前に「map」を与えるという表現で、symbols、routes、callers、impact pathsをクエリできる点が強調されている <sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。</p>
-<p>この流れをまとめると、CodeGraphの価値は“AIにコードを読ませる”こと自体ではなく、“AIが迷わないように先に構造を渡す”ことにある。特に、Claude Codeのような対話型コーディング支援や、Cursorのようなエディタ統合型の体験では、検索・参照・影響範囲の把握が短時間でできるほど、修正提案の質が上がりやすい <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。CodeGraphはそのためのローカルMCPレイヤーとして、AI開発ワークフローの裏方に入り込もうとしている。</p></div>
+  <div class="article-body"><p>Microsoft Build 2026で目立ったのは、個別機能の追加ではなく、それらを束ねる「Microsoft IQ」という見せ方だった。AI Heartlandの整理によれば、Microsoft IQはM365、Copilot Studio、Azure Foundry、Fabricにまたがるエージェント向けのコンテキスト層であり、Work/Web/Foundry/Fabricの4層として理解すると全体像がつかみやすい<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。つまり、Microsoftは“各製品にAI機能を足す”段階から、“エージェントが参照する知識の入口を揃える”段階へ進めている。</p>
+<p>この4層のうち、最も分かりやすい起点はWorkだ。M365やCopilot Studioの文脈では、社内のドキュメント、会話、業務手順といった仕事の知識を、エージェントが扱える形にまとめることが中心になる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。一方でWebは、社内外をまたぐ検索や外部情報の取得を担う層として読める。Microsoftが開発者向けに示している「foundry-toolboxes」には、Web SearchやAI Search、Code Interpreter、File Searchなどを束ねたMCP互換の単一エンドポイントという考え方が含まれており、外部ツールと知識源をエージェントに共通の接続面で渡そうとしていることがうかがえる<sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。</p>
+<p>Foundry層は、今回の話の中核だ。Microsoft Learnの記述では、Azure AI SearchはFoundry IQを下支えする管理された知識レイヤーとして位置づけられ、企業コンテンツを再利用可能で権限制御されたナレッジベースに変える役割を持つ<sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup>。さらに別ソースでは、Foundry IQは2026年6月に一般提供されたとされ、個別のソース種別やSDK、MCP統合、API、認証方式は別のプレビュー状態の可能性があるため、本番利用前に公式ドキュメント確認が必要だと注意が付いている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。この点は、見た目の“GA”と、実運用で使う周辺機能の成熟度が必ずしも一致しないことを示している。</p>
+<p>しかもMicrosoftは、Foundry IQを単なる検索機能としてではなく、MCPで外部に開く方向に振っている。ある解説では、知識が特定プラットフォーム内の機能ではなく、あらゆるエージェントが呼べるエンドポイントになることが強調されている<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。これは、LangChainのようなフレームワークや、Claude Code、Cursor、GitHub Copilotのような開発者ツールにとっても意味が大きい。なぜなら、各ツールが独自の検索やRAG実装を抱え込むのではなく、MCP対応の知識サービスに接続するだけで、共通の知識面を使える構図が見えてくるからだ<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。</p>
+<p>Fabric層は、こうした知識活用を分析と運用の側から支える。Microsoft Learnでは、Fabric内でFoundry Toolsを使う案内が示されており、容量メトリクス上でもCopilotとAIメーター経由でAI ServicesやAI Functionsの消費が把握できる<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。これは、AIを“作って終わり”ではなく、どれだけ使われ、どこでコストが発生しているかまで含めて管理する発想だ。さらに8月のMicrosoftイベント一覧でも、FabricにおけるAI計画や、Copilot StudioとAzure AI Foundry、RAGを使った社内アシスタント構築、エージェントのスケールに関するハンズオンが並んでおり、MicrosoftがFabricをエージェント実装の現場へ近づけていることが分かる<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。</p>
+<p>では、MCPとRAGはどう役割分担するのか。今回の文脈では、RAGは「知識を引いてくる方法論」、MCPは「その知識やツールをエージェントに渡す接続規格」と整理すると理解しやすい<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup>。Foundry IQは、Azure AI Searchを使った権限制御付きの知識ベースを持ちながら、それをMCP経由で利用可能にすることで、検索の中身と接続の仕方を切り分けているように見える<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup>。この分離は、社内データ、Web情報、業務ツール、コード実行といった異なるソースを、同じエージェント基盤に載せたい企業にとって重要だ。</p>
+<p>開発者目線で見ると、Microsoft IQの本質は「知識のサイロを、エージェントが使える境界に変えること」だと言える。Workで社内情報、Webで外部情報、Foundryで企業ナレッジ、Fabricで分析と運用をつなぎ、それをMCPとRAGで横断させる。結果として、Copilot系の体験だけでなく、Claude CodeやCursor、LangChain系の独自エージェントでも、共通の知識インフラを取り込みやすくなる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup>。Microsoft IQは新しい単機能ではなく、AI開発の接続面を再設計するためのラベルと見るのが近い。</p></div>
 
   
   <div class="references">
@@ -44,28 +47,38 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://github.com/colbymchenry/codegraph/blob/main/CLAUDE.md" target="_blank" rel="noopener noreferrer">CLAUDE.md - colbymchenry/codegraph</a>
-        <span class="ref-source">— GitHub</span>
+        <a href="https://ai-heartland.com/explain/microsoft-iq-build-2026" target="_blank" rel="noopener noreferrer">Microsoft IQの4層を読み解く——Work/Web/Foundry/Fabric ...</a>
+        <span class="ref-source">— AI Heartland</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://www.instagram.com/reel/DbfBBJjsGcz" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <span class="ref-source">— Instagram</span>
+        <a href="https://www.emergentsoftware.net/resources/insights/foundry-iq-explained-building-governed-knowledge-for-enterprise-ai-agents" target="_blank" rel="noopener noreferrer">Foundry IQ Explained: Governed Knowledge for Enterprise AI Agents</a>
+        <span class="ref-source">— Emergent Software</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://www.threads.com/@heon_yun/post/DbfWZNJEuNU/%EC%93%B8%EB%A7%8C%ED%95%9C%EA%B1%B4%EA%B0%80httpsgithubcomcolbymchenrycodegraph" target="_blank" rel="noopener noreferrer">쓸만한건가? https://github.com/colbymchenry/codegraph</a>
-        <span class="ref-source">— Threads</span>
+        <a href="https://berberich.dev/august-2026-free-microsoft-events-training-and-workshops" target="_blank" rel="noopener noreferrer">August 2026 Free Microsoft Events, Training, and Workshops</a>
+        <span class="ref-source">— berberich.dev</span>
       </li>
       
       <li id="ref-4">
-        <a href="https://www.instagram.com/reel/DbcpgxNFee1" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <span class="ref-source">— Instagram</span>
+        <a href="https://learn.microsoft.com/en-us/fabric/data-science/ai-services/ai-services-overview" target="_blank" rel="noopener noreferrer">Use Foundry Tools in Fabric - Microsoft Fabric | Microsoft Learn</a>
+        <span class="ref-source">— Microsoft Learn</span>
       </li>
       
       <li id="ref-5">
-        <a href="https://www.instagram.com/reel/Dbcu4YRiMYi" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <span class="ref-source">— Instagram</span>
+        <a href="https://jannikreinhard.com/foundry-iq-knowledge-bases" target="_blank" rel="noopener noreferrer">Foundry IQ Deep Dive: Knowledge Bases for AI Agents</a>
+        <span class="ref-source">— Jannik Reinhard</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://github.com/microsoft/skills" target="_blank" rel="noopener noreferrer">GitHub - microsoft/skills: Skills, MCP servers, Custom Agents ...</a>
+        <span class="ref-source">— GitHub</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://learn.microsoft.com/en-us/azure/search/search-what-is-azure-search" target="_blank" rel="noopener noreferrer">Introduction to Azure AI Search - Azure AI Search | Microsoft Learn</a>
+        <span class="ref-source">— Microsoft Learn</span>
       </li>
       
     </ol>

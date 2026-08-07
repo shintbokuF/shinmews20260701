@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Microsoftが「AI Engineer Coach」をOSS公開、VS CodeでAIコーディングの習慣を可視化・改善 | AI・クラウド ニュースダイジェスト</title>
+<title>AIエージェント設定の共通フォーマット「Agent Plugins」が公開 | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,22 +21,23 @@
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
     <span class="article-date">2026-08-07</span>
   </div>
-  <h1 class="article-title">Microsoftが「<mark style="background:#8A3FE026">AI Engineer Coach</mark>」を<mark style="background:#8A3FE026">OSS</mark>公開、<mark style="background:#8A3FE026">VS Code</mark>でAIコーディングの習慣を可視化・改善</h1>
+  <h1 class="article-title">AIエージェント設定の共通フォーマット「<mark style="background:#8A3FE026">Agent Plugins</mark>」が公開</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">VS Code</mark>上のAI習慣を可視化する</li><li><mark style="background:#8A3FE026">ローカルファースト</mark>で分析を進める</li><li>開発者の改善行動へつなげる</li></ul>
+    <ul><li><mark style="background:#8A3FE026">Agent Plugins</mark> 1.0.0が公開されました。</li><li>技能と<mark style="background:#8A3FE026">MCP</mark>サーバーを共通形式で配れます。</li><li><mark style="background:#8A3FE026">Google</mark>参加で標準化が一段と進みます。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">MicrosoftがAI Engineer Coachをオープンソースで公開した。VS Code上のAIコーディングをローカルファーストで分析し、プロンプトの使い方や開発習慣を見える化して改善につなげる狙いだ。</p>
-    <p class="sum-en">Microsoft has open-sourced AI Engineer Coach. It analyzes AI coding behavior in VS Code in a local-first way, aiming to visualize and improve prompting habits and developer workflows.</p>
+    <p class="sum-ja">OpenAI、Microsoft、Amazon、Cursor、Vercelらが関わる新標準「Agent Plugins 1.0.0」が公開され、AIエージェントの技能やMCPサーバーを“持ち運べる”形で配布できるようになります。Googleもコアメンテナーに加わり、Claude CodeやCursor、GitHub Copilot、LangChain系の開発現場でも相互運用性の議論が一段と進みそうです。</p>
+    <p class="sum-en">Agent Plugins 1.0.0 is a vendor-neutral standard for packaging Agent Skills and MCP servers into portable plugins. Backed by Amazon, Cursor, Microsoft, OpenAI, Vercel, and now Google as a core maintainer, it aims to make agent extensions reusable across clients and tools.</p>
   </div>
 
-  <div class="article-body"><p>Microsoftが公開した「AI Engineer Coach」は、VS CodeでのAIコーディングをただ支援するだけでなく、開発者の使い方そのものを振り返らせる点が特徴だ。検索結果からは、ローカルファーストでプロンプト分析を行い、AIとのやり取りを可視化する設計であることが読み取れる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
-<p>この種のツールは、Claude CodeやCursor、GitHub Copilot、LangChain系のエージェント開発が広がるなかで、「速く書ける」だけではなく「どう使うと再現性が上がるか」を支える役割を持つ。AIを前提にした開発では、入力する指示の粒度や流れ、反復の仕方が成果を左右しやすく、習慣の見える化はその改善に直結する<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。</p>
-<p>注目したいのは、OSS公開である点だ。クローズドな個人向けアドバイスではなく、拡張や検証がしやすい形で配布されれば、チーム単位での導入や独自運用にもつなげやすい。オープンソースを広く取り込む開発現場では、こうした支援ツールもまたOSSとして育てる方が、現場に合わせた改善を回しやすい<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。</p>
-<p>今回のAI Engineer Coachは、生成AIコーディングの主戦場が「コード生成」から「開発者の振る舞い最適化」へ移っていることを示す動きとも言える。VS Codeを起点に、AIとの協働を定量・定性の両面から見直す流れは、今後の開発者ツール競争でも重要な差別化ポイントになりそうだ<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。</p></div>
+  <div class="article-body"><p>AIエージェント開発で、また一つ“共通語”が増えました。公開された「Agent Plugins 1.0.0」は、Agent SkillsとMCPサーバーをポータブルなプラグインとしてまとめるための、ベンダー中立な仕様です。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup></p>
+<p>この標準のポイントは、単なる新しいランタイムではなく、拡張機能の“梱包形式”を揃えることにあります。これまでMCPサーバーやエージェント用スキルは、利用先ごとにパッケージングを調整し直す必要がありましたが、Agent Pluginsはそれを共通化し、作った拡張を別のクライアントでも再利用しやすくします。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup></p>
+<p>推進体制も注目です。仕様はAmazon、Cursor、Microsoft、OpenAI、Vercelのコアメンテナーで構成されるTSCによって公開され、Googleもそのグループに加わると発表しました。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#8A3FE0">[8]</a></sup> つまり、単独企業の囲い込みではなく、主要プレイヤーが足並みをそろえた形での公開だといえます。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>開発者ツールへの影響も大きそうです。検索結果では、ChatGPT、Copilot、Cursorなど複数クライアントで使える方向性が示されており、VS Code系の文脈でもクロスクライアント対応の流れとして紹介されています。<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#8A3FE0">[8]</a></sup> Claude Code、Cursor、GitHub Copilot、LangChainのようなエージェント基盤や開発支援ツールにとっては、拡張の移植性が上がることで、プラグイン配布や運用の手間を下げる追い風になりそうです。<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup></p>
+<p>もっとも、今回の発表は“実装の完全統一”ではなく、“共通の入れ物”を用意するものです。各社のエージェント体験そのものが即座に同じになるわけではありませんが、少なくとも拡張機能の配布と再利用のコストは下がります。AIエージェントが本格的に業務へ入り込むほど、こうした地味だが重要な標準化の価値は大きくなっていくはずです。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup></p></div>
 
   
   <div class="references">
@@ -44,28 +45,43 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://www.instagram.com/autopilotengineer/reel/DbjwuF9CYX6" target="_blank" rel="noopener noreferrer">Instagram: Autopilot Engineer reel (August 02, 2026)</a>
-        <span class="ref-source">— Instagram</span>
+        <a href="https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more" target="_blank" rel="noopener noreferrer">Agent Plugins package your skills, tools, and more</a>
+        <span class="ref-source">— Google Developers Blog</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://www.star-history.com" target="_blank" rel="noopener noreferrer">GitHub Star History — Track &amp; Compare Open Source Star ...</a>
-        <span class="ref-source">— Star History</span>
+        <a href="https://the-decoder.com/amazon-cursor-microsoft-openai-and-vercel-unite-on-a-shared-standard-for-ai-agent-plugins" target="_blank" rel="noopener noreferrer">Amazon, Cursor, Microsoft, OpenAI, and Vercel unite on a shared standard for AI agent plugins</a>
+        <span class="ref-source">— The Decoder</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://medium.com/@adnanmasood/the-mythical-man-agent-2eb7dc105610" target="_blank" rel="noopener noreferrer">The Mythical Man-Agent. AI agent governance in practice</a>
-        <span class="ref-source">— Medium</span>
+        <a href="https://aws.amazon.com/blogs/opensource/aws-supports-agent-plugins-an-open-standard-for-portable-agent-extensions" target="_blank" rel="noopener noreferrer">AWS Supports Agent Plugins: An Open Standard for Portable Agent Extensions</a>
+        <span class="ref-source">— AWS Open Source Blog</span>
       </li>
       
       <li id="ref-4">
-        <a href="https://www.stocktitan.net/sec-filings/COUR/10-q-coursera-inc-quarterly-earnings-report-fbca3ca84723.html" target="_blank" rel="noopener noreferrer">Coursera (NYSE: COUR) posts $298.6M Q2 revenue after Udemy deal</a>
-        <span class="ref-source">— StockTitan</span>
+        <a href="https://9to5mac.com/2026/08/06/gpt-5-turning-one-as-openai-shares-new-agent-plugins-standard" target="_blank" rel="noopener noreferrer">GPT-5 turning one as OpenAI shares new Agent Plugins standard</a>
+        <span class="ref-source">— 9to5Mac</span>
       </li>
       
       <li id="ref-5">
-        <a href="https://github.com/Chat2AnyLLM/awesome-claude-skills" target="_blank" rel="noopener noreferrer">Chat2AnyLLM/awesome-claude-skills</a>
-        <span class="ref-source">— GitHub</span>
+        <a href="https://thenextweb.com/news/openai-agent-plugins-open-standard-skills-mcp" target="_blank" rel="noopener noreferrer">OpenAI and rivals agree on a standard for AI agents</a>
+        <span class="ref-source">— The Next Web</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://virtualizationreview.com/articles/2026/08/06/cloud-giants-back-agent-plugins-for-cross-client-ai.aspx" target="_blank" rel="noopener noreferrer">Cloud Giants Back &#39;Agent Plugins&#39; for Cross-Client AI</a>
+        <span class="ref-source">— Virtualization Review</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://gigazine.net/gsc_news/en/20260807-agent-plugins" target="_blank" rel="noopener noreferrer">Google joins &#39;Agent Plugins,&#39; a platform that allows AI agents to carry their skills and MCP servers with them, in collaboration with OpenAI, Microsoft, Amazon, and others.</a>
+        <span class="ref-source">— GIGAZINE</span>
+      </li>
+      
+      <li id="ref-8">
+        <a href="https://visualstudiomagazine.com/articles/2026/08/06/vs-code-agent-plugins-go-cross-client-with-new-open-standard.aspx" target="_blank" rel="noopener noreferrer">VS Code Agent Plugins Go Cross-Client with New Open Standard</a>
+        <span class="ref-source">— Visual Studio Magazine</span>
       </li>
       
     </ol>
