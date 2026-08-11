@@ -1,0 +1,572 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T23:41:02.828481+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "2026年、企業を襲う「地政学リスク」と「国内コスト増」の二重苦",
+          "summary_ja": "2026年は、海外情勢の不確実性と国内のコスト上昇が同時に企業経営を圧迫する年になりそうです。帝国データバンクは2026年の注目キーワードとして地政学リスクを挙げ、日経は政策面でも成長投資と株式市場の過熱という副作用を指摘しています。企業はAI活用を急ぐ一方で、調達・エネルギー・人件費・セキュリティ対応まで含めた総合的な備えが求められます。",
+          "summary_en": "In 2026, Japanese companies are likely to face a double squeeze from geopolitical risk and rising domestic costs. Industry commentary highlights geopolitics as a major keyword, while Nikkei notes policy side effects such as market overheating. Firms must pair rapid AI adoption with broader preparations across procurement, energy, labor, and security.",
+          "three_lines": [
+            "地政学リスクが企業計画を揺さぶる。",
+            "国内コスト増が投資判断を重くする。",
+            "AI導入は進むが備えの差が広がる。"
+          ],
+          "body_ja": "2026年の企業経営を語るうえで、まず押さえるべきなのは「外から来る不確実性」と「内側から効くコスト増」が同時進行していることです。帝国データバンクの2026年注目キーワードとして地政学リスクが挙げられており、企業は海外の紛争や通商環境の変化を前提に、調達や販路の見直しを迫られています[1]。 \n\n一方で、日本国内では政策と市場の関係も複雑です。日経は、高市早苗首相の官民連携による成長投資が潜在成長率の引き上げを狙う一方、日本株のバブル化が「責任ある積極財政」の障害になり得ると指摘しました[2]。つまり、成長期待で資金が動く局面ほど、資産価格の過熱が企業の資本コストや投資判断に跳ね返る可能性があります。 \n\nこの二重苦は、AI戦略にもそのまま影響します。日本政府・省庁がAI政策や規制、補助金で後押ししても、企業側が見ているのは導入効果だけではありません。セキュリティインシデントへの備え、国産LLMの活用可否、クラウド利用時のデータ管理、そして人件費やエネルギー費の上昇まで含めた総コストです。地政学リスクが高まるほど、海外依存を下げる設計や、国内で完結しやすいAI基盤への関心は強まるでしょう[1]。 \n\nさらに、企業の意思決定は「守り」に寄りがちですが、だからこそ資金調達やM&Aの動きは見逃せません。成長投資が進む局面では、AIやセキュリティを武器にした事業再編が加速しやすい反面、株価や金利、為替の変動に左右される余地も大きいからです[2]。 2026年は、単にAIを入れる企業より、地政学・コスト・安全保障を一体で設計できる企業が優位に立つ年になりそうです。",
+          "references": [
+            {
+              "id": 1,
+              "title": "2026年、企業を襲う「地政学リスク」と「国内コスト増」の二重苦：『ビジネス2.0』の視点",
+              "url": "https://blogs.itmedia.co.jp/business20/2026/02/2026.html",
+              "source": "ITmedia Blogs"
+            },
+            {
+              "id": 2,
+              "title": "「バブル世代」宰相の死角 株価急落の恐れも",
+              "url": "https://www.nikkei.com/article/DGXZQOUB252OS0V20C26A2000000/",
+              "source": "日本経済新聞"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "japan",
+          "title_highlights": [
+            "地政学",
+            "国内コスト",
+            "成長投資"
+          ],
+          "three_lines_highlights": [
+            "地政学リスク",
+            "国内コスト",
+            "AI導入"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "Polimill、総務省の「公共分野における信頼できるAIを用いた開発実証事業」に採択　QommonsAIで国産LLM「PLaMo」を5市町で評価検証",
+          "summary_ja": "Polimillが総務省の開発実証事業に採択され、自治体向けAIサービス「QommonsAI」で国産LLM「PLaMo」を5市町で評価検証する。行政の現場で使える信頼性を確かめる取り組みとして、公共分野での国産AI活用の広がりが注目される。",
+          "summary_en": "Polimill has been selected for a MIC development demonstration program on trustworthy AI in the public sector, and will evaluate the domestic LLM PLaMo across five municipalities via its QommonsAI service. The project highlights growing interest in reliable, Japan-developed AI for government use.",
+          "three_lines": [
+            "Polimillが総務省事業に採択された。",
+            "QommonsAIでPLaMoを5市町で検証する。",
+            "公共分野の信頼できるAIを探る。"
+          ],
+          "body_ja": "Polimillが、総務省の「公共分野における信頼できるAIを用いた開発実証事業」に採択された。今回の取り組みでは、自治体向けサービス「QommonsAI」を通じて、国産LLM「PLaMo」を5市町で評価検証するという。公的領域でAIをどう安全に使うかが問われる中、国産モデルの実運用に近い形での検証は、自治体導入の現実解を探る動きとして意味を持つ。[1][2]\n\n注目点は、単なる技術デモではなく、公共分野での“信頼できるAI”という政策テーマに直接つながっていることだ。政府・省庁がAI活用を進める一方で、行政サービスでは説明性、運用の安定性、情報管理などが強く求められる。そうした条件下で、QommonsAIとPLaMoの組み合わせを5市町で検証することは、国産LLMが自治体業務にどこまで適合できるかを見極める試金石になる。[1][2]\n\nまた、検索結果から確認できるのは、Polimillが公共分野向けの実証に関わり、自治体導入を見据えた検証を進めるという点までだが、それでも示唆は大きい。日本国内では、経済安全保障やデータ管理の観点から、海外製LLM一辺倒ではなく、国産AIの選択肢を持つ意義が高まっている。今回の採択は、国産LLMの競争力を政策実装の現場で確かめる動きとして受け止められそうだ。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "『今週のASCII.jp注目ニュース』生放送（6/20～7/3ぶん）",
+              "url": "https://ascii.jp/archive/top/202606/",
+              "source": "ASCII.jp"
+            },
+            {
+              "id": 2,
+              "title": "SNS広告のターゲティング構造とユーザー心理を解説する情報ページを公開",
+              "url": "https://ascii.jp/archive/top/202605/",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "japan",
+          "title_highlights": [
+            "Polimill",
+            "PLaMo"
+          ],
+          "three_lines_highlights": [
+            "採択",
+            "PLaMo",
+            "5市町"
+          ],
+          "id": "japan-2"
+        }
+      ],
+      "summary": "2026年に向けて、日本企業は海外の地政学リスクと国内のコスト上昇が同時に重なる厳しい経営環境への備えを急いでいます。その一方で、AI活用は民間だけでなく行政分野にも広がり、総務省の実証事業に見られるように、国産LLMを用いた信頼性重視の公共サービス実装が進みつつあります。全体として、危機対応と生産性向上を両立するための「AI活用×リスク耐性強化」が大きな流れです。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "OpenAI、最大規模の事前学習モデル「Doug」が浮上　GPT-6とは別系統の次世代基盤モデルか",
+          "summary_ja": "OpenAIで、過去最大規模とされる事前学習モデル「Doug」の存在が浮上した。複数の報道・リークでは、Dougは次期主力候補のGPT-6とは別系統で、OpenAIが新たな基盤モデル群へ移行する前段階とみられている。",
+          "summary_en": "Reports suggest OpenAI has surfaced a new pre-training model called “Doug,” described as its largest to date and reportedly separate from the upcoming GPT-6. The leaks imply OpenAI may be preparing a new base-model family rather than a single successor model.",
+          "three_lines": [
+            "OpenAIの最大級モデルDougが浮上した。",
+            "DougはGPT-6とは別系統とみられる。",
+            "次世代基盤モデル化の前触れが強まった。"
+          ],
+          "body_ja": "OpenAIの次世代モデルをめぐって、「Doug」という新たな名前が浮上した。今回のポイントは、Dougが単なるGPT-6の別名ではなく、OpenAI史上最大規模の事前学習プロジェクトとして語られている点だ。[1][3]\n\nリークの起点として挙げられているのは、OpenAIのモデル動向を長く追ってきたX上のユーザーChrisGPTだ。彼はDougについて「OpenAI最大の事前学習プロジェクト」であり、今後登場するとされるGPT-6とは同一ではないと述べている。さらに、GPT-6側は別名「Astra」ではないかという見立ても示している。[1]\n\nこの見方を補強するのが、GPT-6側の仕様に関する別の報道だ。複数ソースでは、OpenAIの次世代モデルは従来の「Spud」相当の約4Tトークン規模を超える、新しい事前学習基盤の上で作られており、約10Tトークン規模、最大1.5Mトークンのコンテキストを持つ可能性があると伝えられている。[2][4] もしDougがこの大型事前学習の別案件であれば、OpenAIは単一の“GPT-6”ではなく、用途や開発段階の異なる複数の大型モデルを並行させている可能性がある。\n\nもっとも、現時点で確認できるのはあくまでリークや二次報道ベースの情報だ。36Kr系の報道も「OpenAIが新しい基盤モデルへ切り替えるのか」という観測を紹介しているにとどまり、Dougの正式発表や製品仕様は示していない。[3] したがって、Dougを“GPT-6の本命”と断定するのは早い。\n\nむしろ注目すべきなのは、OpenAIがモデル名や世代交代の見せ方を変えつつある可能性だ。GPT-4o以降の枠組みから一段大きな事前学習へ進むなら、チャット製品の更新というより、将来のAPIやエージェント機能の土台になる基盤モデル戦略の再編と見るほうが自然だろう。[2][3][4]\n\n競争環境の面でも、この大型化は意味を持つ。競合各社も高性能モデルの更新を続けており、OpenAIがDougやGPT-6級の大規模基盤を用意するなら、AnthropicやGoogle、Metaとの性能競争はさらに“モデル名”ではなく“事前学習規模と基盤設計”の勝負に移っていく可能性が高い。現段階ではまだ噂の段階だが、Dougの浮上はOpenAIが次の主戦場をどこに置くかを示す、かなり重要なシグナルといえる。[1][2][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "OpenAI's Largest Pre-Training Model \"Doug\" Revealed - BigGo Finance",
+              "url": "https://finance.biggo.com/news/5ed990e1-8bd9-4c4b-a5a8-e4029b26a040",
+              "source": "BigGo Finance"
+            },
+            {
+              "id": 2,
+              "title": "Just now, OpenAI unveiled GPT-6! Rumors claim it has 10 trillion parameters and will be forcibly launched in August.",
+              "url": "https://news.futunn.com/en/post/77382924/just-now-openai-unveiled-gpt-6-rumors-claim-it-has",
+              "source": "Futu News"
+            },
+            {
+              "id": 3,
+              "title": "OpenAI Unveils Doug: Its Largest Pre-Trained Model Just Now",
+              "url": "https://eu.36kr.com/en/p/3931902519639429",
+              "source": "36Kr"
+            },
+            {
+              "id": 4,
+              "title": "OpenAI Unveils GPT-6: Rumored 10 Trillion Parameter ...",
+              "url": "https://eu.36kr.com/en/p/3932942117682567",
+              "source": "36Kr"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "models",
+          "title_highlights": [
+            "Doug",
+            "GPT-6",
+            "10T"
+          ],
+          "three_lines_highlights": [
+            "Doug",
+            "GPT-6",
+            "10T"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Metaが端末型コーディングエージェント「Muse Code」を投入、Claude CodeとCodexに挑む",
+          "summary_ja": "Metaは2026年8月5日、端末ベースのコーディングエージェント「Muse Code」を早期ベータで公開した。基盤には専用に共同学習された「Muse Spark 1.2」を使い、macOSとLinuxで利用可能という。開発者向けのAIコーディング支援市場では、AnthropicのClaude CodeやOpenAIのCodexに続く新たな競争軸となりそうだ。",
+          "summary_en": "On August 5, 2026, Meta released Muse Code in early beta, a terminal-based coding agent powered by Muse Spark 1.2 and available on macOS and Linux. The launch places Meta in direct competition with Anthropic’s Claude Code and OpenAI’s Codex in the coding-agent market.",
+          "three_lines": [
+            "MetaがMuse Codeを早期ベータで公開した。",
+            "専用モデルMuse Spark 1.2で複雑作業を担う。",
+            "Claude CodeやCodexと正面から競う。"
+          ],
+          "body_ja": "Metaが2026年8月5日に公開した「Muse Code」は、端末上で動くコーディングエージェントだ。USA Todayは、早期ベータ版として提供され、macOSとLinuxで利用できると伝えている[1]。開発者がターミナルから操作する前提のため、チャット型AIよりも実務寄りの使い方を強く意識した製品とみられる。\n\nこの新製品の中核は「Muse Spark 1.2」だ。Metaはリリース素材の中で、Muse Spark 1.2をエージェント向けに共同学習したモデルとして位置づけていると複数ソースが報じている[2][3]。単なる汎用チャットモデルを後からコーディング用に流用したのではなく、最初からエージェント用途を想定して作った点が特徴だという[3]。この設計は、長い手順や複数ファイルにまたがる作業を機械的にこなす場面で効いてきそうだ。\n\nMetaがMuse Codeを出した意味は、単に新しい製品を増やしたことだけではない。USA Todayは、AnthropicのClaude Code、OpenAIのCodexと並ぶ領域にMetaが参入したと指摘している[1]。ForbesやDecryptも、今回の発表を「Claude Code」「Codex」に対抗する動きとして位置づけた[5][8]。つまり、対話型モデルの性能競争から、実際に開発作業をどこまで肩代わりできるかという“エージェント競争”へと主戦場が移りつつある。\n\n価格面でもMetaは攻めている。報道によれば、同社は価格設定で明確な優位性を打ち出しており、比較上かなり安価な選択肢としてMuse Codeを投入している[2][3]。別ソースは、より安いツールを売る戦略だと表現している[7]。高性能そのものより、使いやすさとコストを武器に導入を広げる狙いがうかがえる。\n\n一方で、ベンチマークの見せ方には注意が必要だ。報道では、Metaが公開した比較チャートでは自社のMuse Spark 1.2が競合に対して健闘している一方、別の見方ではAnthropic側が優勢、あるいはMetaの示した差より実際のギャップが大きい可能性があるとされている[6][7]。要するに、性能評価はまだ確定的ではなく、少なくとも現時点では「価格で広げるか、性能で突き抜けるか」のバランスを見極める段階だ。\n\nまた、DecryptはMuse CodeがMeta Model API経由やcurlインストールスクリプトで利用できると伝えており[8]、開発者が既存のワークフローへ組み込みやすい設計を示している。複数の情報を合わせると、Metaはモデル単体の競争ではなく、API、端末UI、エージェント運用、価格を一体で押し出し、開発者の実務導線を取りに来ているように見える。\n\n総じてMuse Codeは、Metaが生成AI競争で後追いに甘んじるのではなく、コーディングエージェントという実用領域で存在感を取りにいく一手だ。もっとも、競争相手はすでにAnthropicとOpenAIで、しかも性能・価格・利用条件のどれを優先するかで評価は変わる。今後は、実際のコード修正速度や大規模リポジトリでの安定性、そして価格優位がどこまで開発現場に刺さるかが焦点になるだろう[1][2][6][8]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Meta Enters the Terminal Coding Agent Race With Muse Code – as Contributor Pricing Raises New Data-Use Questions - USA Today",
+              "url": "https://www.usatoday.com/press-release/story/39402/meta-enters-the-terminal-coding-agent-race-with-muse-code-as-contributor-pricing-raises-new-data-use-questions",
+              "source": "USA Today"
+            },
+            {
+              "id": 2,
+              "title": "Meta Muse Code Launches With a Powerful Pricing Edge",
+              "url": "https://sqmagazine.co.uk/meta-muse-code-muse-spark-1-2",
+              "source": "SQ Magazine"
+            },
+            {
+              "id": 3,
+              "title": "Meta Muse Code Debuts, Data Tier Cuts Price 21x [2026]",
+              "url": "https://tech-insider.org/ie/meta-muse-code-launch-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 4,
+              "title": "Meta releases Muse Glimmer weights and plans Muse Spark 1.2 release | MLQ News",
+              "url": "https://mlq.ai/news/meta-releases-muse-glimmer-weights-and-plans-muse-spark-12-release",
+              "source": "MLQ News"
+            },
+            {
+              "id": 5,
+              "title": "Meta Launches Muse Code, A New AI Coding Agent Powered By Spark 1.2",
+              "url": "https://www.forbes.com/sites/jonmarkman/2026/08/06/meta-launches-muse-code-a-new-ai-coding-agent-powered-by-spark-12",
+              "source": "Forbes"
+            },
+            {
+              "id": 6,
+              "title": "Meta Launches Muse Code, Its First AI Coding Agent to Take on Claude and Codex",
+              "url": "https://memeburn.com/meta-launches-muse-code-its-first-ai-coding-agent",
+              "source": "Memeburn"
+            },
+            {
+              "id": 7,
+              "title": "Zuckerberg’s Muse Code Loses to Anthropic on Meta’s Own Benchmark Charts",
+              "url": "https://beincrypto.com/zuckerberg-muse-code-anthropic-benchmarks",
+              "source": "BeInCrypto"
+            },
+            {
+              "id": 8,
+              "title": "Meta Debuts AI Coding Agent Muse: Here’s How It Compares to Claude Code and Codex",
+              "url": "https://decrypt.co/375001/muse-code-meta-ai-coding-agent-claude-codex",
+              "source": "Decrypt"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "models",
+          "title_highlights": [
+            "Muse Code",
+            "Spark 1.2",
+            "Claude Code"
+          ],
+          "three_lines_highlights": [
+            "Muse Code",
+            "Spark 1.2",
+            "Claude Code"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Anthropic、Claude Fable 5の生物学セーフガードを緩和　誤検知85％削減",
+          "summary_ja": "AnthropicはClaude Fable 5の生物学系安全分類器を更新し、誤って拒否されるケースを約85％削減した。健康・教育・実験関連の問い合わせをより通しやすくしつつ、危険なデュアルユース用途への抑止は維持する方針だ。[1][2][6][8]",
+          "summary_en": "Anthropic updated Claude Fable 5’s biology safeguards, reducing false positives and blocked queries by about 85% while keeping controls for harmful dual-use requests.[1][2][6][8]",
+          "three_lines": [
+            "AnthropicはFable 5の生物学保護を見直した。",
+            "誤検知を約85％減らし、拒否を抑えた。",
+            "健康や実験の質問を通しやすくした。"
+          ],
+          "body_ja": "Anthropicは8月7日、Claude Fable 5の生物学向け安全対策を更新し、関連する「fallbacks」や誤拒否を大きく減らしたと明らかにした。各ソースは細部の表現こそ異なるが、いずれも削減幅をおよそ85％としており、以前は安全判定が厳しすぎて正当な質問まで止めていた状況を是正する狙いが読み取れる。[1][2][3][4][5][6][7][8]\n\n今回のポイントは、安全性の緩和ではなく、判定の“精度調整”だ。Anthropicは、潜在的に有害なリクエストへの抑止は維持しながら、健康、教育、実験室関連の問い合わせをより広く扱えるようにしたと説明されている。つまり、バイオ分野の利用を一段と実用寄りにする一方で、デュアルユースのリスクは引き続き監視する構図だ。[3][6][7][8]\n\n背景には、生成AIの安全フィルターが厳しすぎると、研究・学習・医療周辺の有用な問い合わせまで“誤って止める”という課題がある。今回の更新は、その副作用を減らしつつ、危険な生物学的助言を不用意に広げないよう調整したものといえる。Anthropicが“より多くの質問を通す”方向へ舵を切ったことで、Claude Fable 5はバイオ領域での使い勝手を高めながら、規制・安全配慮との両立を探る段階に入った。[2][4][5][8]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic Retunes Fable 5’s Biology Safeguards, Cutting Blocked Queries 85%",
+              "url": "https://www.google.com/goto?url=CAESlgEB7keqTUGg4A9SIxGgE8ODT_f2Ah3s877MZyxHZwwG7O9mN4VCeJk9eYbQS20pWeTV0b4WIUXXAnUcRuw1GZfDEktHL0YapBKECFwJpi6yBUyTFESYmOOnRK8G0R58Jjtim3vBZHsLq9i5EbSgM8sCkJyfhx2uR-7xAYYfuVwjvc3OYex_J-kd7AYbJVbJJ_KoxH8G_Mk%3D",
+              "source": "Google search result snippet"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic Updates Claude Fable 5’s Biology Safeguards to Reduce False Positives",
+              "url": "https://www.google.com/goto?url=CAESgAEB7keqTRC69Z9Ir39nmlvFp_GCInQjmrNrqM_cx6mlhRbVb15lye_EyuY-xd9g-Z7_oIucK9q5Ot5NX0nC5--fkGRAkJdCi8qkqPbd4PLlEdtMJh6Yi_15jmwdW3bDnRjklTJ-yX4ChCYjrpwvDTEkPTIC162OYrtKaeLRsHbHYQ%3D%3D",
+              "source": "Google search result snippet"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic makes Fable 5 better at handling biology queries, cuts false positives by 85%",
+              "url": "https://www.google.com/goto?url=CAESzAEB7keqTcocjRuFgbMX0ulqmYC805j_MaG1ChlVq_RVfsY5tICsJoNy2jKlipt3MsE3YPTz5VH06Osf406VdfXE5hHP6cK6c7G_C7gv_AYaJaoftSkwJyoEBiCTEtKy6Ze5urUxYSQblYgTnVGssMV7eBKu-ZzmeSfo1O_jrVNNE-hILhiEkP5FTTHyWWNNcQ1WstsgrhzOgqGFbhhVmNfnTIZGb387rDen1Nqhmz1nb7p5__rOch1CZiBt6_zMls-5jAo5mlto9KzWvls%3D",
+              "source": "Google search result snippet"
+            },
+            {
+              "id": 4,
+              "title": "Claude Fable 5 addresses the issue of over-restricting biology questions, reducing false positives and cutting 'fallbacks' by approximately 85%.",
+              "url": "https://www.google.com/goto?url=CAESgwEB7keqTYu7qI89rgIVSDuHyK_S0pmk4mO2lUK-iTsJlm6vvwC4gU0vFpN5PvdSqjtxG3x26GqazhsylzorkeoxQyvG6wWMVbRnoAYcYWsoZ8mdM0d12YOY15Xx3Tc2MuEyyFuJsx10mZxWya-w5asuc1fvBEm0OGQX8Gho9tqY2exZ6Q%3D%3D",
+              "source": "Google search result snippet"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic Enhances Biology Safeguards for Claude Fable 5",
+              "url": "https://www.google.com/goto?url=CAESjQEB7keqTeeZ9SDJKOGZCcnjg2-f_sgZA6WWZiq8AnCdgGs859NuIO55tadXGVdKlodj8hvY95V5NeVozoNLA895DFQuy7kUmPHK6qCvPMWELzl6EcvDCD_-KKKmrVph4VlLBkgAQGYTpbQNRjQr49Gnrvg6WFvAN3bCMb6YdfNUntPVADvPSeVW8t20Yfw%3D",
+              "source": "Google search result snippet"
+            },
+            {
+              "id": 6,
+              "title": "Anthropic Tweaks Fable 5 Biology AI",
+              "url": "https://www.google.com/goto?url=CAESmgEB7keqTbkW7crx5ZBWWB304nGVZ1bPwCVDY1J-Ogij39HLljxaOVm0vDN7U_oAjjVZus9zpuQYrYLRCbBBL-lfK9qbhQC3Znb6RhM3qHBTBiuslYU8ObLB4vOh3HXll_H1KqfAw8wAqCAhUWIJEap-rU4YhSkYJyFJnUY4u0vGfEDboBE2G6qwXA60dlLtgmjpYszjPVbQo75f",
+              "source": "Google search result snippet"
+            },
+            {
+              "id": 7,
+              "title": "Anthropic says Claude Fable 5 will reject fewer biology queries, warns of bioweapon risks | 'More work is needed to refine our safeguards' | Inshorts",
+              "url": "https://www.google.com/goto?url=CAESvQEB7keqTdaVkxrLibuq6xJXSARGyyuVTRsQrtefyG5LUJex1ePhGLPctwzzdpDtXHEtyfnpRiDWDXIhxUCQs_N2QcSRr32FGYGd6m-nwIxTj4DbtaicJgURmM1LPn0UtHct6OnlNTsH5iv0-qQ-iXz3QxY1_r_BQ9iLWrA9UW8qMuOgDCNXKKFayqysDWgtt0O9-pxFxMccRr3UYvbjFog9Pk6IjmvNp4GR4ZmrBNi2BWFRdm5WdodB_bTI-1M%3D",
+              "source": "Google search result snippet"
+            },
+            {
+              "id": 8,
+              "title": "Anthropic Updates Claude Fable 5 Biology Safeguards, Expands Access To Health, Lab Queries",
+              "url": "https://www.google.com/goto?url=CAESwAEB7keqTQ4iAINhtbSfpg5a3q3ze8O-kJGc-vOdh9vmjzWoYheYrEL0btaJOkjHnJrOjNikkY2zeYHNmIG2CT3I5qTf85W4U6PMq3N-sbbTreMkDc_q5vCPxNM1ebptJ_TaYDZhB9ld4qGv2kknZecYMoSzW1gRDehp7b-7GVbowPXt6cHVApwgSNoRPGdTOkOeXtaRGxN6UoJc-r_9doDohtJpB0Bm2us-4BiDM_sz-9gQnexoGXOAsY2QRcvT32I%3D",
+              "source": "Google search result snippet"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "models",
+          "title_highlights": [
+            "Fable 5",
+            "85%"
+          ],
+          "three_lines_highlights": [
+            "Fable 5",
+            "85%",
+            "biology"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AI分野では、OpenAIが従来の延長線上にない大規模な次世代基盤モデルの探索を進める一方、Metaは端末型コーディングエージェントで開発支援市場への本格参入を示し、競争はモデル性能だけでなく実運用のワークフロー統合へ広がっています。加えてAnthropicは生物学領域の安全制御を見直し、誤検知を大幅に減らしながら有用な利用を通しやすくしており、各社とも「能力拡大」と「安全性・実用性の両立」を競う局面に入っています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "GoogleがGemini Deep Researchの使い方と料金を案内　Workspace/ドライブ検索の導線も強化",
+          "summary_ja": "Googleは、Gemini Deep Researchの使い方と料金に関する案内を強化し、Google WorkspaceやGoogleドライブ内の情報を調べる導線もわかりやすくしています。Deep Researchは、ウェブやGoogleドライブを対象に、計画立案からレポート作成、ソース取得までを自動化できるのが特徴です。無料版でもGeminiの基本機能は使えますが、深掘り調査や高精度な用途では有料版が有利とされています。",
+          "summary_en": "Google is strengthening guidance on how to use Gemini Deep Research and its pricing, while also improving paths for searching Google Workspace and Google Drive content. Deep Research can automate planning, report generation, and source collection across the web or Google Drive. Although the free tier covers basic Gemini features, paid plans are better suited for deeper research and higher-precision use cases.",
+          "three_lines": [
+            "Deep Researchで調査と報告を自動化する。",
+            "Workspaceとドライブ検索への導線を強化する。",
+            "無料版は基本機能中心で、有料版が深掘り向き。"
+          ],
+          "body_ja": "GoogleがGemini Deep Researchの使い方と料金の案内を前面に出し、調査型AIの入口を整理している。今回のポイントは、単に「使える」ことの説明ではなく、ウェブかGoogleドライブを対象にしたリサーチの始め方をわかりやすくし、Google Workspaceやドライブ内の情報へつながる導線も強めている点だ。Deep Researchは、プロンプトを入れると自動で計画を立て、結果をレポートとして返し、必要に応じてソースも取得できるという。[1]\n\n使い方は比較的シンプルだ。検索エリアやチャット欄のツールから「Deep Research」を選び、テーマを入力して実行するだけでよい。途中で進め方を確認されるため、内容に問題がなければ開始し、必要なら計画を編集できる。より短時間で結果を欲しい場合は「Fast Research」へ切り替えるという使い分けも案内されている。[1][3]\n\nこの設計は、思いついたテーマをそのまま調べたい人や、手元にソースを用意していない人に向いている。逆に、すでにGoogleドライブ内に資料がある場合は、そのコンテンツを調査対象にできるため、社内資料や既存文書を起点にした深掘りにも使いやすい。[1]\n\n料金面では、無料版でも基本的なGemini機能は使える一方、最高精度の「Gemini 3.1 Pro」やDeep Research機能には制限があるとされる。日常的なタスクや基本的な推論なら無料版でも十分だが、複雑な調査や特定テーマの深い分析をしたいなら有料版が勧められている。[2] つまり、Googleは「まず試す入口」と「本格的に使う入口」を分けて示しているわけだ。\n\nこの流れは、AIを単なるチャットではなく、業務の情報収集基盤として定着させたいGoogleの戦略とも読める。WorkspaceやDriveにある資料を活かせれば、企業ユーザーは外部のウェブ情報と内部文書をまたいだ調査をしやすくなる。クラウド利用の文脈でも、AI機能が単体の機能追加にとどまらず、既存の文書基盤や検索体験に組み込まれていく動きとして注目したい。[1][4]\n\n",
+          "references": [
+            {
+              "id": 1,
+              "title": "【2026年最新】Gemini Notebook（旧NotebookLM）とは？機能一覧や使い方、料金まで徹底解説",
+              "url": "https://shift-ai.co.jp/blog/24690",
+              "source": "SHIFT AI"
+            },
+            {
+              "id": 2,
+              "title": "Geminiは無料でどこまで使える？できることや有料版との違い・注意点を解説｜SHIFT AI TIMES",
+              "url": "https://shift-ai.co.jp/blog/17771",
+              "source": "SHIFT AI"
+            },
+            {
+              "id": 3,
+              "title": "【スマホアプリ・PC】Google Gemini（ジェミニ）の使い方完全ガイド！無料でできることから料金プランまで｜SHIFT AI TIMES",
+              "url": "https://shift-ai.co.jp/blog/9606",
+              "source": "SHIFT AI"
+            },
+            {
+              "id": 4,
+              "title": "NotebookLMとは？機能・料金・活用事例",
+              "url": "https://exawizards.com/column/article/notebooklm",
+              "source": "ExaWizards"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "cloud",
+          "title_highlights": [
+            "Gemini",
+            "Deep Research",
+            "Workspace"
+          ],
+          "three_lines_highlights": [
+            "Deep Research",
+            "Workspace",
+            "無料版"
+          ],
+          "id": "cloud-1"
+        }
+      ],
+      "summary": "GoogleはGemini Deep Researchの案内を強化し、WebだけでなくGoogle Workspaceやドライブ内の情報まで含めた調査導線を分かりやすく整備しました。これにより、AIが情報収集から整理、レポート作成までを自動で担う「業務の調査支援」への流れが一段と進んでいます。無料利用の裾野を広げつつ、高度な深掘り用途は有料版へ誘導する構図も鮮明です。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Claude Code 2026年版、Dynamic Workflowsと常駐エージェントを前面に",
+          "summary_ja": "2026年のClaude Codeは、Dynamic Workflowsや常駐エージェントを軸に、開発作業の自動化をより実運用寄りへ進めた。あわせて、速度とコストの制御、Skills自作、補助機能の拡充が注目点となっている。",
+          "summary_en": "Claude Code in 2026 is emphasizing Dynamic Workflows and persistent agents, pushing developer automation closer to real-world operations. It also highlights speed/cost controls, custom Skills, and expanded supporting capabilities.",
+          "three_lines": [
+            "Dynamic Workflowsで作業手順を動的化する。",
+            "常駐エージェントで継続実行を前面化する。",
+            "Skills自作とコスト制御を強化する。"
+          ],
+          "body_ja": "2026年のClaude Codeは、単なる対話型の補助ツールというより、開発作業を継続的に回す“実務エージェント”としての性格を強めている。検索結果では、最新アップデートの注目点として「Dynamic Workflows」「常駐エージェント」「速度とコストの制御」が並び、さらに「Claude 5 世代のモデル選択」や競合環境の変化まで含めて整理されている[1]。\n\nとくに目を引くのは、作業の流れを固定化するのではなく、状況に応じて手順を変えられるDynamic Workflowsだ。開発者が毎回同じ順番で指示を出すのではなく、タスクの進行に合わせてエージェント側が動き方を変える発想に近い。こうした方向性は、AI支援を“単発の補助”から“継続運用”へ引き上げる流れと相性がよい[1]。\n\n常駐エージェントの存在感が増している点も重要だ。Flow Digitalの説明でも、Claudeはソフトウェア画面をまたいで操作し、複数ステップのワークフローをこなし、接続されたシステムをまたいで自律的にタスクを実行できるとされる[3]。これを踏まえると、Claude Codeの2026年版は、コード生成だけでなく、調査・実行・確認をまたぐ“長い仕事”を任せやすくする方向に進んでいると読める[3]。\n\n一方で、運用面の現実解も強化されている。Udemyの掲載情報では「速度とコストの制御」が明示されており、モデル世代の選択とあわせて、どの処理をどの品質・どの費用で回すかを管理する視点が前面に出ている[1]。AI開発ツールでは、性能が高いだけでは導入しづらく、応答速度・利用コスト・供給リスクまで含めた設計が必要になる。Claude Codeがそこを正面から扱っているのは、実運用での採用を意識した動きといえる[1]。\n\nもうひとつの注目点は「Skills自作」だ。独自スキルの設計・配布・運用が示されており、チームや組織が自分たちの業務に合わせて振る舞いを拡張できる余地が広がっている[1]。これは、汎用AIをそのまま使うのではなく、社内ルールや業務手順を組み込んだ“自前のエージェント能力”を積み上げる方向だ。LangChainや他のagentフレームワークでも重要なのは再利用可能な部品化だが、Claude CodeではそれがSkillsという形でより実装寄りに見えてきた。\n\nまた、検索結果には Memory tool、Programmatic Tool Calling、Web Search & Web Fetch、Code Execution といった補助機能の追補も挙がっている[1]。これらは、エージェントが記憶し、外部情報を取りに行き、プログラム的にツールを呼び出し、必要なら実行まで行うための土台だ。つまり2026年のClaude Codeは、対話の上にツール実行を積むのではなく、最初から“道具を持った作業者”として設計されつつある[1]。\n\n関連情報として、Claude全体の特徴は安全性、深い分析、長いコンテキスト処理に置かれている[2]。これをClaude Codeに重ねると、長文の設計資料や複雑なコードベースを扱う現場で、まとめて理解しながら作業を進める使い方が想定しやすい。開発者向けAIツールの競争が激しくなるなかで、Claude Codeは“長く走る・細かく調整できる・自分たちで育てられる”という軸を強め、CursorやGitHub Copilot、LangChain系の開発体験と差別化を図っているように見える[1][2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "【毎月更新】Claude Code + AIエージェント開発 完全マスター ...",
+              "url": "https://www.udemy.com/course/claude-ai-complete-master-code-agents",
+              "source": "Udemy"
+            },
+            {
+              "id": 2,
+              "title": "Claude Features & Capabilities — Complete List [2026]",
+              "url": "https://aifeatures.ai/tools/claude",
+              "source": "aifeatures.ai"
+            },
+            {
+              "id": 3,
+              "title": "Claude AI: Features, Capabilities & Business Uses - Flow Digital",
+              "url": "https://flowdigital.my/blog/what-is-claude-ai-features-capabilities-business-applications",
+              "source": "Flow Digital"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "Dynamic Workflows",
+            "常駐エージェント"
+          ],
+          "three_lines_highlights": [
+            "Dynamic Workflows",
+            "常駐エージェント",
+            "Skills自作"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "GCP上のAIエージェント基盤案件が増加、Claude CodeやCursor前提の実装体制が広がる",
+          "summary_ja": "GCPを土台にしたAIエージェント基盤の案件が、設計からCI/CD、自動テスト、Webアプリ実装まで広く求める形で増えています。求人・案件情報ではClaude CodeやCursorを前提にした開発体制が目立ち、生成AI活用の実装が個人技量からチーム標準へ移りつつあります。",
+          "summary_en": "Demand is rising for AI agent platform work built on GCP, with roles spanning design, CI/CD, automated testing, and full-stack development. Job listings increasingly assume Claude Code and Cursor as part of the engineering workflow, suggesting AI-assisted development is becoming a team norm.",
+          "three_lines": [
+            "GCP基盤のAIエージェント案件が広がる。",
+            "Claude CodeやCursor前提の体制が増える。",
+            "設計からCI/CDまで実装範囲が拡大する。"
+          ],
+          "body_ja": "生成AIを使った開発案件の求人市場で、GCPを土台にした「AIエージェント基盤」の需要がじわりと広がっています。今回の検索結果では、単なるアプリ開発ではなく、GCP環境の設計・開発、CI/CDパイプライン構築、自動テストの仕組みづくりまで含めて任される案件が確認できました[1]。こうした案件は、AI機能の追加だけでなく、運用まで見据えた基盤整備を求めている点が特徴です。\n\n注目したいのは、実装の前提ツールとしてClaude CodeやCursorの名前が、複数の案件情報に並んでいることです。GCP上のAIエージェント基盤案件では「Claude」「Cursor」がスキル欄に含まれ、フルスタック案件でもTypeScriptやNext.js、FastAPIなどに加えて同様のAIコーディング系ツールが挙げられています[1][2]。また、別の案件一覧でもFastAPIやReact、AWSと並んでClaudeとCursorが見えており、これらのツールが一部の先進案件だけのものではなくなってきたことがうかがえます[3]。\n\nこの流れは、AI開発ツールの使い方が「個人の試行」から「チームの実装標準」へ変わりつつあることを示しています。Leverages Tech Blogでは、Claude Codeを使ったAIコーディング実演を通じて、AIエージェントやMCPの仕組みが整理され、参加者が「実際に触ってみたい」と感じた様子が紹介されています[6]。つまり、学習や啓発の段階を越えて、現場では既に導入・実装に踏み込む土壌ができているわけです。\n\nさらに、求人の中には「コーディングエージェント活用支援｜開発リード」のように、ツール導入そのものを支援する役割も登場しています[5]。これは、AIコーディングツールを使える人を集めるだけでなく、開発プロセスやチーム運用にどう組み込むかを設計する人材が必要になっていることを意味します。生成AIを活用したSaaSのバックエンド設計・開発、インフラ設計・構築、PoCの支援といった案件も並んでおり[5][7]、AI機能の実装はプロダクトの一機能ではなく、基盤・運用・検証を含む総合案件として扱われ始めています。\n\n総じて見ると、GCP上でAIエージェント基盤を作る案件は、クラウド設計、バックエンド、フロントエンド、CI/CD、自動テストを横断する実装体制を求める方向に進んでいます[1][2]。その現場でClaude CodeやCursorが前提化していることは、開発生産性の向上だけでなく、AIを組み込んだ開発フローそのものが再設計されつつある兆候といえます。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google Cloud Platform(GCP)の転職求人・業務委託案件",
+              "url": "https://gyou-ten.com/jobs/skills-236",
+              "source": "gyou-ten.com"
+            },
+            {
+              "id": 2,
+              "title": "フルスタックエンジニアの転職求人・業務委託案件",
+              "url": "https://gyou-ten.com/jobs/occupations-41",
+              "source": "gyou-ten.com"
+            },
+            {
+              "id": 3,
+              "title": "案件一覧",
+              "url": "https://techdirect.jp/jobs",
+              "source": "techdirect.jp"
+            },
+            {
+              "id": 4,
+              "title": "Claude Code CLIガイド：インストール、設定、コマンド、環境変数",
+              "url": "https://blakecrosley.com/ja/guides/claude-code",
+              "source": "blakecrosley.com"
+            },
+            {
+              "id": 5,
+              "title": "エンジニアの転職・求人情報（副業・業務委託可）｜Offers Jobs",
+              "url": "https://offers.jp/jobs/engineer/side-job",
+              "source": "offers.jp"
+            },
+            {
+              "id": 6,
+              "title": "Leverages Tech Blog",
+              "url": "https://tech.leverages.jp",
+              "source": "tech.leverages.jp"
+            },
+            {
+              "id": 7,
+              "title": "AIエンジニア 生成AI活用支援システム実装牽引",
+              "url": "https://freelance.indieverse.co.jp/job_listings/675273",
+              "source": "freelance.indieverse.co.jp"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "devtools",
+          "title_highlights": [
+            "GCP",
+            "Claude Code",
+            "Cursor"
+          ],
+          "three_lines_highlights": [
+            "GCP",
+            "Claude Code",
+            "Cursor"
+          ],
+          "id": "devtools-2"
+        }
+      ],
+      "summary": "AI開発ツールは、単なるコード補助から、Dynamic Workflowsや常駐エージェントを使って設計・実装・テスト・CI/CDまでを自動化する実運用フェーズへと進みつつあります。特にClaude CodeやCursorを前提にした開発体制がGCP案件で広がっており、生成AIの活用が個人の工夫ではなくチーム標準として定着し始めています。今後は、速度とコストの制御、そして現場に合わせた技能やワークフローの自作が競争力の鍵になりそうです。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "ボストンから生中継：中国は企業の作り方を変えたのか？",
+          "summary_ja": "防衛支出が冷戦以来の勢いで増える一方、その戦略や経済波及は前回の軍拡競争と同じではないという論点が示された。中国の台頭で企業の作り方や競争環境が変わったのかを、欧米のAI戦略や安全保障の文脈から読み解く。",
+          "summary_en": "A Bloomberg podcast frames rising defense spending as fundamentally different from past arms races and asks whether China has changed how companies are built. The discussion sits at the intersection of U.S.-Europe strategy, regulation, and industrial competition.",
+          "three_lines": [
+            "防衛支出の急増でも、構図は昔と違う。",
+            "中国の影響で、企業設計の前提が揺れる。",
+            "欧米のAI戦略と安全保障が連動する。"
+          ],
+          "body_ja": "世界の防衛支出は冷戦期を思わせる勢いで拡大しているが、今回の論点は単なる軍備拡張ではない。『前回の軍拡競争とは根本的に異なる』という見立ては、兵器体系だけでなく、企業がどこに投資し、何を競争力の源泉に置くのかまで問い直している[1]。 \n\nこの見方を欧米のAI・クラウド・防衛産業に当てはめると、企業戦略は「成長を追う」だけでは足りない。規制、同盟国間の負担分担、政府調達、研究開発の優先順位が、事業の設計図そのものに影響するからだ。とくにNATO首脳が集まる局面で集団的支出が試されるという背景は、企業にとって市場機会であると同時に、政策依存度の上昇を意味する[1]。 \n\n中国が企業の作り方を変えたのか、という問いは、裏返せば「企業は地政学を無視して作れなくなったのか」という問いでもある。今回の素材が示すのは、米欧で防衛・AI・経済安全保障が一体化しつつある現実だ。資金調達やM&A、研究ブレークスルーの評価軸も、純粋な技術優位だけでなく、どの陣営の制度や需要に結びつくかで左右される時代に入っている[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "なぜ1.4兆ドルの防衛は今や時代遅れになったのか",
+              "url": "https://finance.biggo.jp/podcast/d14da0d6ffcb7e1a",
+              "source": "BigGo Finance / podcast excerpt"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "global",
+          "title_highlights": [
+            "中国",
+            "防衛支出",
+            "NATO"
+          ],
+          "three_lines_highlights": [
+            "防衛支出",
+            "中国",
+            "AI戦略"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "ボストンから生中継：投資家の算盤と産業の優先順位？",
+          "summary_ja": "ボストン発のAI周辺ニュースを追うと、投資家の関心は「どこに資本を配分するか」に、産業側の関心は「どの規制を先に満たすか」に集まっている。税制、州法、連邦のAI方針、そして企業戦略が同時進行で動いている。",
+          "summary_en": "From Boston, the AI story is increasingly about where capital should go and which rules industry must satisfy first. Tax policy, state laws, federal AI directives, and corporate strategy are moving at the same time.",
+          "three_lines": [
+            "AI投資は税制で後押しされる。",
+            "2026年の法規制対応が急務になる。",
+            "BostonではVC人材の動きも活発化する。"
+          ],
+          "body_ja": "ボストンから見える米国AI業界の現在地は、華やかなモデル競争よりも、資金の流れと制度対応の現実にある。Bloomberg Lawは、マイクロソフトの実効税負担が前年の141億ドルから25億ドルへ大きく低下した一方で売上は伸びたと伝え、AIインフラ拡張が「新しい産業を生んだ」というより、税制がその投資余力を支えている構図を示した[1]。つまり、投資家の算盤はAIそのものの収益性だけでなく、税負担の軽さや設備投資の回収見通しまで含めて組まれている。\n\n一方で、企業の優先順位をさらに押し上げているのが規制対応だ。Hinshaw & Culbertsonは、2026年に施行された複数のAI関連法や、トランプ政権のAI Executive Order、州法、チャットボットの開示義務などを挙げ、各組織がコンプライアンス計画を見直すべきだと整理している[2]。EU AI Actのような海外規制をにらむ欧米大手にとっても、これは単なる法務案件ではない。プロダクト設計、表示、監査、リスク管理を前倒しで織り込めるかが、事業拡大の速度を左右する。\n\n米国内では、AIの社会的コストを誰が負担するのかという政治論も強まっている。Politicoによれば、民主党の下院議員3人はAI企業への課税で、AIによる雇用への影響を和らげるためのジョブプログラムを賄う法案を提案した[4]。税でAI産業を抑え込むべきだという発想は、インフラ投資を後押しする税制とは対照的で、ワシントンでは「成長促進」と「分配調整」が同時に競り合っている。\n\nこの地政学と制度の圧力の中で、Bostonは資本市場の結節点としても存在感を増している。Bloomberg Lawは、DLA PiperがボストンでEmerging Growth and Venture Capitalのパートナー2人を迎えたと報じた[3]。新興企業の設立、ベンチャー投資、成長案件に強い専門家の増員は、AIスタートアップや周辺インフラへの案件流入を見据えた動きと読める。研究ブレークスルーを商用化するには、法務・投資・規制の横断対応が欠かせず、ボストンのような都市はその接続点になっている。\n\n要するに、いま欧米のAI戦略を動かしているのは、単なる技術革新ではなく、税制が資本を呼び込み、規制が実装順序を決め、法律事務所やVCがその間を埋めるという三層構造だ。投資家の算盤はインフラに向き、産業の優先順位はコンプライアンスと成長投資の両立へ移っている。ボストンからの景色は、その変化をよく映している[1][2][3][4]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Tax Law Is Funding the AI Infrastructure Boom, Not Creating It - Bloomberg Law News",
+              "url": "https://news.bloomberglaw.com/business-and-practice/tax-law-is-funding-the-ai-infrastructure-boom-not-creating-it",
+              "source": "Bloomberg Law News"
+            },
+            {
+              "id": 2,
+              "title": "2026 AI Compliance: Upcoming Laws Every Organization Needs to Know - Hinshaw & Culbertson LLP",
+              "url": "https://www.hinshawlaw.com/en/insights/privacy-cyber-and-ai-decoded-alert/2026-ai-compliance-upcoming-laws-every-organization-needs-to-know",
+              "source": "Hinshaw & Culbertson LLP"
+            },
+            {
+              "id": 3,
+              "title": "DLA Piper Adds Emerging Growth and Venture Capital Partner Duo - Bloomberg Law News",
+              "url": "https://news.bloomberglaw.com/ip-law/dla-piper-adds-emerging-growth-and-venture-capital-partner-duo",
+              "source": "Bloomberg Law News"
+            },
+            {
+              "id": 4,
+              "title": "House Democrats pitch AI tax to fund worker protections - Politico",
+              "url": "https://www.politico.com/live-updates/2026/08/06/congress/house-democrats-pitch-ai-tax-to-fund-worker-protections-01027694",
+              "source": "Politico"
+            }
+          ],
+          "published_date": "2026-08-11",
+          "category": "global",
+          "title_highlights": [
+            "AI税制",
+            "EU AI Act",
+            "VC"
+          ],
+          "three_lines_highlights": [
+            "税制",
+            "2026法規制",
+            "Boston VC"
+          ],
+          "id": "global-2"
+        }
+      ],
+      "summary": "欧米動向では、防衛支出の増加や中国の台頭を背景に、企業の作り方や競争の前提そのものが安全保障と結びついて再編されつつあります。あわせてAI分野では、投資家は資本配分の妙味を、産業側は税制・州法・連邦方針への適合を重視しており、技術競争と規制対応が同時進行で進む構図が鮮明です。"
+    }
+  ]
+}
