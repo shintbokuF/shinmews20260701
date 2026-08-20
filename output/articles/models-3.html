@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claudeの“見えない透かし”はどう機能するのか、Anthropicが仕組みを公開 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+    <span class="article-date">2026-08-20</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#0E8A8726">Claude</mark>の“見えない透かし”はどう機能するのか、<mark style="background:#0E8A8726">Anthropic</mark>が仕組みを公開</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#0E8A8726">Claude</mark>の<mark style="background:#0E8A8726">透かし</mark>は単語選びで埋める</li><li><mark style="background:#0E8A8726">EU AI Act</mark>対応で8月から適用する</li><li>読者には見えず後から検出できる</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Anthropicが、Claudeの生成テキストに入れる“見えない透かし”の仕組みを詳しく説明した。見た目の記号を足すのではなく、文脈に応じた単語選択の偏りを使って統計的なパターンを埋め込み、後から検出できるようにする方式だ。EU AI Act対応を背景に、対象モデルでは8月2日以降の出力へ順次適用し、公開時点ではグローバル展開も含めた運用になる。[1][2][3][4][5][7][8]</p>
+    <p class="sum-en">Anthropic has explained how Claude’s invisible text watermark works. Instead of adding visible markers, it encodes a statistical pattern through word-choice decisions so the text can later be detected, with the rollout driven by EU AI Act transparency requirements.[1][2][3][4][5][7][8]</p>
+  </div>
+
+  <div class="article-body"><p>AnthropicがClaudeの生成テキストに導入したのは、いわゆる「見えない透かし」だ。だが、その実体は画像や動画で見るような明示的なマークではない。会社の説明によると、テキスト生成時に候補となる複数の語の中から、文脈を崩さない範囲で特定の選び方を積み重ね、統計的なパターンを文中に残す方式だという。読者からは見えないが、後で検出キーを使えばその痕跡を拾える設計になっている。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#0E8A87">[8]</a></sup></p>
+<p>ポイントは、本文に余計な文字を差し込むのではなく、モデルの「選択の癖」を利用していることだ。Anthropicの説明では、Claudeが文章を作る際には自然に成立する単語候補が複数ある場面が多く、その分岐を秘密鍵とすでに書かれた語列に基づいて決めることで、一定の規則性を持つ出力にする。このため、見た目の文章品質を大きく変えずに、生成物であることを示す痕跡を持たせられるとされる。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#0E8A87">[6]</a></sup></p>
+<p>導入の背景には、EU AI Actへの対応がある。Anthropicは、他の主要AIプロバイダーとともに2026年7月にEUのAI生成コンテンツ透明性コードへ署名しており、AIシステム提供者には「マーク付け」や識別可能性を高める仕組みが求められる。報道によれば、Claudeのこの更新は2026年8月2日以降に提供されたモデルから順次適用され、初期段階ではグローバルに展開される見込みだという。現時点でAnthropicは、地域ごとに完全に切り分ける恒久的な方法を持っていないためだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#0E8A87">[5]</a></sup></p>
+<p>実運用の観点では、この仕組みには限界もある。透かしはあくまで統計的なもので、コピー＆ペーストされた本文に痕跡が残る一方、改変や再生成で崩れる可能性があるとみられる。また、すでに透かし除去をうたうツールが出回り始めており、可視化されない設計であっても、対抗策がすぐに生まれることがうかがえる。<sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#0E8A87">[8]</a></sup></p>
+<p>それでも、Anthropicが今回の方式を採った意義は大きい。AI生成文の識別は、利用者保護や表示義務だけでなく、情報の出どころをたどるための基盤にもなる。しかも、文面に余計なタグを付けないため、読みやすさや創造性への影響を抑えやすい。関連報道では、Google DeepMindのGeminiでも同系統のアプローチが試され、ユーザー評価や創造性への悪影響は限定的だったとされる。Claudeの透かしも同じ発想に立ちながら、規制対応と実用性の両立を狙ったものといえる。<sup class="cite"><a id="cite-6" href="#ref-6" style="color:#0E8A87">[6]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#0E8A87">[8]</a></sup></p>
+<p>要するに、Anthropicの「見えない透かし」は、文章の外側に印を貼るのではなく、文章の中身そのものの選び方に仕掛けを埋め込む技術だ。生成AIの透明性を高める一方で、万能ではなく、除去や回避とのいたちごっこも始まっている。今後はClaudeだけでなく、OpenAIやGoogle、Metaを含む主要モデル各社が、どこまで識別性とユーザー体験を両立できるかが焦点になりそうだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#0E8A87">[6]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#0E8A87">[8]</a></sup></p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://www.socialsamosa.com/news-2/anthropic-more-details-watermark-update-12267187" target="_blank" rel="noopener noreferrer">Anthropic shares more details on Claude watermark update</a>
+        <span class="ref-source">— Social Samosa</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://gagadget.com/en/722312-anthropics-invisible-watermark-for-claude-text-is-here-with-limits" target="_blank" rel="noopener noreferrer">Anthropic&#39;s invisible watermark for Claude text is here — with limits</a>
+        <span class="ref-source">— Gagadget</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://www.bhaskarenglish.in/tech-science/news/anthropic-claude-invisible-ai-watermark-transparency-eu-ai-act-138743081.html" target="_blank" rel="noopener noreferrer">Anthropic Adds Invisible AI Watermark to Claude | EU AI Act Compliance</a>
+        <span class="ref-source">— Bhaskar English</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.anthropic.com/news/claude-text-watermark" target="_blank" rel="noopener noreferrer">How Claude&#39;s text watermarking works</a>
+        <span class="ref-source">— Anthropic</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://www.firstpost.com/tech/anthropic-claude-watermark-explained-can-ai-generated-text-be-made-untraceable-14038645.html" target="_blank" rel="noopener noreferrer">Anthropic Claude watermark explained: Can AI-generated text be made untraceable?</a>
+        <span class="ref-source">— Firstpost</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://easternherald.com/2026/08/16/anthropic-claude-watermark-eu-ai-transparency-law" target="_blank" rel="noopener noreferrer">Anthropic Watermarks Claude AI Text to Comply With EU AI Act</a>
+        <span class="ref-source">— Eastern Herald</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://thenextweb.com/news/anthropic-watermark-remover-tools-backlash" target="_blank" rel="noopener noreferrer">Anthropic’s AI watermark has already spawned tools to remove it</a>
+        <span class="ref-source">— The Next Web</span>
+      </li>
+      
+      <li id="ref-8">
+        <a href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work" target="_blank" rel="noopener noreferrer">Anthropic shares more details about how Claude&#39;s new ...</a>
+        <span class="ref-source">— TechCrunch</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
