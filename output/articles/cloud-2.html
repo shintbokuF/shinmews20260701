@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAI、前線モデルのスケーリングを一時減速　一部APIにゼロデータ保持を拡大 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-08-23</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#3654D626">OpenAI</mark>、前線モデルのスケーリングを一時減速　一部APIにゼロデータ保持を拡大</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li>OpenAIは前線学習を一時減速した。</li><li>一部APIで<mark style="background:#3654D626">ZDR</mark>提供を広げた。</li><li><mark style="background:#3654D626">安全性</mark>とデータ管理を同時に見直す。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">OpenAIは、前線モデルの開発ペースを一時的に落とす一方で、対象API顧客向けにゼロデータ保持（ZDR）を拡大した。モデルの安全性・監視体制と、企業利用で重視されるデータ取り扱いの両面を同時に見直す動きとして注目される。</p>
+    <p class="sum-en">OpenAI is temporarily slowing frontier scaling while expanding zero data retention (ZDR) for selected API customers, signaling a parallel push on model safety and enterprise data handling.</p>
+  </div>
+
+  <div class="article-body"><p>OpenAIは2026年8月、前線モデルの開発について「一時的にスケーリングのペースを落とした」と明らかにした。報道ベースの要約によれば、対象になったのは最新モデルのRL（強化学習）訓練で、すでに完了した約2週間の停止に加え、最大規模として計画していた前線RLの実行も引き続き保留されているという<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#3654D6">[3]</a></sup>。背景には、能力の伸びが安全性や監視体制の確認速度を上回りうるという認識がある<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#3654D6">[4]</a></sup>。</p>
+<p>この判断は、クラウドやAPIを通じてAIを提供する事業者にとっても示唆が大きい。モデル性能の競争だけでなく、どの段階で訓練や展開を止めるか、どこまで監視可能性を確保するかが、実運用の品質を左右するからだ。OpenAIの今回の動きは、単なる開発遅延ではなく、前線モデルを商用提供する際の安全設計を再調整する局面とみるべきだろう<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#3654D6">[4]</a></sup>。</p>
+<p>同じタイミングでOpenAIは、Zero Data Retention（ZDR）の適用拡大も発表した。ZDRは、処理完了後にプロンプトや応答のコピーを保持しない構成で、対象はchat completionsやResponses系のエンドポイントを含むとされる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。別ソースでも、適格なAPI顧客に対して「prompts and model responses are not retained」という保証を与える仕組みとして説明されている<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#3654D6">[5]</a></sup>。企業ユーザーにとっては、機密情報を扱うワークロードで導入しやすくなる一方、ログ保存や監査の設計は自社側でより慎重に考える必要がある。</p>
+<p>今回の2つの発表を合わせて見ると、OpenAIは前線モデルの供給をただ加速するのではなく、開発速度、安全性、データ保持ポリシーのバランスを取りにいっている。クラウド上でAIを使う企業にとっては、性能比較だけでなく、保持データの有無や安全審査の進め方まで含めてベンダー選定を見直す材料になる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#3654D6">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#3654D6">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#3654D6">[5]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://maxassistant.app/en" target="_blank" rel="noopener noreferrer">MaxAssistant | Artificial intelligence news and analysis</a>
+        <span class="ref-source">— MaxAssistant</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://explainx.ai/blog/openai-pacing-frontier-rl-astra-cyber-critical-august-2026" target="_blank" rel="noopener noreferrer">OpenAI Pauses Frontier Training — Astra Cyber Risk</a>
+        <span class="ref-source">— Astra Cyber Risk / explainx.ai</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://elephas.app/resources/openai-pauses-frontier-training-misalignment" target="_blank" rel="noopener noreferrer">OpenAI Paused Frontier Training Over Misalignment. Here ...</a>
+        <span class="ref-source">— Elephas</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.linkedin.com/pulse/ai-agent-report-rakesh-gohel-kfhbc" target="_blank" rel="noopener noreferrer">The AI Agent Report</a>
+        <span class="ref-source">— LinkedIn</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://www.facebook.com/Annielytics/posts/openais-zero-data-retention-zdr-option-gives-eligible-api-customers-a-guarantee-/1566385361954777" target="_blank" rel="noopener noreferrer">Annielytics - OpenAI&#39;s Zero Data Retention (ZDR) option...</a>
+        <span class="ref-source">— Facebook</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
