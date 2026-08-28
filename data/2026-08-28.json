@@ -1,0 +1,584 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T06:49:25.195656+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "トランプ政権が中国製ヒューマノイドを輸入禁止へ。日本政府に突きつけられる経済安保の現実",
+          "summary_ja": "米政府が中国製ヒューマノイドの輸入禁止に動くという見方が現実になり、日本でも経済安全保障の観点からサプライチェーンや調達方針の見直し圧力が強まりそうです。今回の論点はロボット単体の話にとどまらず、AI時代の重要機器をどこまで海外依存にするかという政策判断そのものです。",
+          "summary_en": "The U.S. move toward banning imports of Chinese humanoid robots underscores a broader economic-security challenge for Japan: how far to rely on overseas supply chains for critical AI-era hardware.",
+          "three_lines": [
+            "米国が中国製ヒューマノイド規制に踏み切る",
+            "日本でも経済安保の調達見直しが迫られる",
+            "AI時代の機器依存先を問う議論が強まる"
+          ],
+          "body_ja": "米政府が中国製ヒューマノイドの輸入禁止に向かう、という見方が現実になった。今回のポイントは、単なる対中制裁ではなく、AIとロボティクスが一体化する時代に、重要機器の供給網をどこまで海外に頼るのかという経済安全保障の問いだ。[1]\n\n日本にとっても他人事ではない。ヒューマノイドは、センサー、制御半導体、通信、学習用ソフトウェアなど、複数の技術要素が絡むため、ひとたび輸入制限や規制強化が起きると、調達コストや開発計画に波及しやすい。政府・省庁が進めるAI政策や補助金も、今後は『どの国のどの部材に依存するのか』という視点をより強く織り込む必要がある。[1]\n\nまた、こうした動きは国産LLMや国内AIインフラの議論ともつながる。ソフトウェアだけを国産化しても、現場で動かすロボットや端末、実装基盤が海外依存のままでは、政策の実効性は限定されるからだ。経済安保が単なるスローガンで終わらず、企業のAI導入、調達基準、官公需のルールにまで落ちてくる局面に入ったとみるべきだろう。[1]\n\nさらに、こうした輸入規制の先には、相手国の報復や市場分断の可能性もある。日本企業が中国製ハードウェアを前提にしたAI活用を進めている場合、地政学リスクがそのまま事業リスクになる。今回のニュースは、ロボットの輸入可否という一件に見えて、実際には日本のAI・クラウド・製造業政策を横断する『依存の再設計』を迫るシグナルだ。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "トランプ政権が中国製ヒューマノイドを輸入禁止へ。日本政府 ...",
+              "url": "https://blogs.itmedia.co.jp/serial/2026/07/post_8696.html",
+              "source": "ITmedia Blogs"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "japan",
+          "title_highlights": [
+            "中国製",
+            "ヒューマノイド"
+          ],
+          "three_lines_highlights": [
+            "中国製",
+            "ヒューマノイド",
+            "経済安保"
+          ],
+          "id": "japan-1"
+        }
+      ],
+      "summary": "米国が中国製ヒューマノイドの輸入禁止に動くとの見方を受け、日本でもロボットや関連部材・AI基盤を含む重要機器の海外依存をどう抑えるかが、経済安全保障の主要論点として強まっています。単なる貿易摩擦ではなく、サプライチェーンの再点検や調達先の分散、国内供給網の強化を迫る流れが鮮明になっています。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Anthropic、元Google TPU責任者を計算基盤チームに迎え入れ　独自AIチップ体制を強化",
+          "summary_ja": "Anthropicが、GoogleのカスタムAIチップ「TPU」立ち上げに関わったAmir Salek氏を計算基盤チームに迎え入れた。直近ではNscaleから約45億ドル規模の計算資源を調達する大型契約や、MatXの買収検討と撤回が報じられており、Claude拡大に向けて“買う・作る・握る”を同時に進める構図が鮮明になっている。",
+          "summary_en": "Anthropic has brought in Amir Salek, a veteran of Google’s custom TPU program, to strengthen its compute team. The move comes alongside a roughly $45 billion compute deal with Nscale and reports that Anthropic considered, then abandoned, a MatX acquisition—showing a dual strategy of securing near-term capacity while pursuing longer-term chip control for Claude scaling.",
+          "three_lines": [
+            "元Google TPU責任者を計算基盤に迎えた。",
+            "Nscaleから約45億ドル分の計算資源を確保した。",
+            "買収検討の撤回後も独自チップ路線を進める。"
+          ],
+          "body_ja": "Anthropicが計算基盤の強化を急いでいる。Crypto Briefingによれば、GoogleでカスタムAIチップ計画の立ち上げと運営に関わったAmir Salek氏を、同社の計算基盤チームに迎え入れたという。[1] 目的は、Claudeを大規模展開するために必要なコンピュートを、外部調達だけに頼らず、より自前でコントロールできる体制を整えることにあると読める。[1]\n\nこの動きは、Anthropicがすでに進めている大規模な計算資源確保ともつながる。TechCrunchとCNBCは、同社が英国のAIインフラ企業Nscaleと、約45億ドル規模のクラウド契約を結んだと伝えた。[2][3] CNBCによると、対象は約460メガワットの計算能力で、Nscaleの米ウェストバージニア州におけるデータセンター開発に紐づく。[3] The Next Webも、6年契約で約460メガワットをカバーし、NscaleのMonarchキャンパスに関係する取引だと報じている。[7] つまりAnthropicは、当面の需要を埋めるための“買い付け”を一気に拡大している段階だ。[2][3][7]\n\n一方で、同社は将来的なコスト圧縮と供給安定化を狙って、チップの内製化やそれに近い戦略も模索している。Reutersは、Anthropicがチップ新興MatXの買収を7億ドル規模で検討したものの、最終的に見送ったと報じた。[4] さらに別ソースは、同社がMatXとの協議を通じてカスタムAIチップ設計の加速とコスト削減を目指していたと伝えている。[5] ここから見えてくるのは、Anthropicが単にGPUを借りるだけでなく、将来の自社最適化をにらんでチップ戦略を本気で磨いているという点だ。[4][5]\n\n背景には、AI計算需要が供給を上回りやすい市場環境がある。CNBCに登場した元Nvidia幹部のコメントでも、AI計算やサービス需要は供給を上回っており、勝つのはより多くの資本を集め、より多くの計算資源を確保する企業だと指摘されていた。[6] Anthropicの一連の動きは、まさにその勝ち筋を体現している。近未来の拡張性をNscaleで確保しつつ、中長期ではGoogle出身のチップ人材やMatX級の知見を取り込み、独自の計算基盤を強化する――そんな二段構えが鮮明になってきた。[1][2][3][4][5][6]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Ex-Google executive Amir Salek joins Anthropic’s compute team - Crypto Briefing",
+              "url": "https://cryptobriefing.com/ex-google-amir-salek-joins-anthropic/",
+              "source": "Crypto Briefing"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic continues compute-gobbling streak in $45 billion deal with Nscale - TechCrunch",
+              "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic and Nscale strike $45 billion cloud deal, sources say - CNBC",
+              "url": "https://www.cnbc.com/2026/08/26/anthropic-and-nscale-strike-45-billion-cloud-deal-sources-say.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "EXCLUSIVE: Anthropic planned, then abandoned $7 billion purchase of MatX, sources say - Reuters",
+              "url": "https://www.reuters.com/business/finance/anthropic-planned-then-abandoned-7-billion-purchase-matx-sources-say-2026-08-27/",
+              "source": "Reuters"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic Dropped $7B MatX Acquisition, Plans Custom AI Chips - Global Banking & Finance Review",
+              "url": "https://www.globalbankingandfinance.com/exclusive-anthropic-planned-abandoned-7-billion-purchase/",
+              "source": "Global Banking & Finance Review"
+            },
+            {
+              "id": 6,
+              "title": "Rising memory price issue likely won't ease anytime soon: Former Nvidia Executive - CNBC",
+              "url": "https://www.cnbc.com/video/2026/08/27/rising-memory-cost-nvidia-earnings-chips-ai-data-center-chipmaker.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 7,
+              "title": "Anthropic signs $45B compute deal with Britain’s Nscale - The Next Web",
+              "url": "https://thenextweb.com/news/anthropic-nscale-45b-compute-deal-london-ipo",
+              "source": "The Next Web"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "models",
+          "title_highlights": [
+            "Anthropic",
+            "TPU",
+            "45億ドル"
+          ],
+          "three_lines_highlights": [
+            "TPU",
+            "45億ドル",
+            "MatX"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Anthropic、Claudeのセキュリティ機能を拡張　Mythos 5の提供拡大と3500万ドル基金を新設",
+          "summary_ja": "Anthropicは、サイバー防御向けの高度AI機能をより広く提供するため、Claude Securityの更新、パートナー連携、オープンソース支援基金、そしてCyber Verification Programの拡大計画を打ち出した。さらに、OpenAIやGoogleなど100社超がAI起点のサイバー脅威への備えを求める流れもあり、生成AIの競争軸が「性能」だけでなく「防御」へ広がっている。",
+          "summary_en": "Anthropic is broadening access to its cybersecurity-focused AI capabilities through an updated Claude Security offering, partner integrations, a new open source funding program, and plans to expand its Cyber Verification Program. The move comes amid a wider industry push by OpenAI, Google, and over 100 companies to strengthen defenses against AI-driven cyber threats.",
+          "three_lines": [
+            "AnthropicがClaudeの防御機能を拡張した。",
+            "3500万ドル基金でOSS支援も始める。",
+            "業界全体でAI防御の連携が進む。"
+          ],
+          "body_ja": "Anthropicは、サイバーセキュリティ用途のAI機能を前面に押し出すかたちで、Claude系の防御機能を広げた。SecurityWeekによれば、同社は高度AIモデルのサイバー防御能力を、パートナー連携、更新版のClaude Security、新たなオープンソース支援プログラム、そしてCyber Verification Programの拡大計画を組み合わせて提供していくという[1]。\n\n今回の動きで注目されるのは、単に「強いモデルを出す」のではなく、攻撃側への悪用を抑えるための制御もセットで前に出している点だ。CUTodayは、AnthropicがClaude Mythos 5を含むサイバー機能へのアクセスを広げつつ、攻撃者に悪用されないようにするコントロールを併用していると伝えている[2]。つまり、企業や防御側が使える範囲を広げながら、危険な利用を抑える二重の設計を採っているわけだ[2]。\n\n同社はまた、オープンソースコミュニティ向けの資金支援にも踏み込んだ。SecurityWeekは、新たに3500万ドル規模のオープンソース基金を設けたと報じており[1]、防御技術や関連エコシステムの底上げを狙う姿勢がうかがえる。生成AIの競争がモデル性能だけでなく、周辺の開発者基盤やセキュリティ実装へと広がっていることを示す動きだ[1]。\n\nさらに、こうした個社の取り組みは、業界全体の危機感とも重なっている。TechCrunchによると、OpenAI、Anthropic、Google、Microsoftを含む100社超が、AI関連のサイバー脅威に対して官民で備えるよう求める公開書簡に署名した[3]。各社は、病院や公共サービスなど社会インフラが依存するシステムを守る必要性を訴えており[3]、AIの主戦場が「何が作れるか」から「どう守るか」へ移りつつあることを示している。\n\nその意味で今回のAnthropicの発表は、単なる製品拡張ではない。Claude Mythos 5を含む防御機能の提供拡大、更新版Claude Security、3500万ドルのオープンソース基金、そして検証プログラムの拡張は、AI企業が自ら防御インフラの一部になろうとする流れの象徴といえる[1][2]。一方で、AI活用が進むほど悪用リスクも増すため、モデルの高度化と同じ速度で安全対策を組み込めるかが、今後の競争力を左右しそうだ[3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund - SecurityWeek",
+              "url": "https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/",
+              "source": "SecurityWeek"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic Expands Access To Mythos 5 Cybersecurity Capabilities - CUToday",
+              "url": "https://www.cutoday.info/Fresh-Today/Anthropic-Expands-Access-To-Mythos-5-Cybersecurity-Capabilities",
+              "source": "CUToday"
+            },
+            {
+              "id": 3,
+              "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI - TechCrunch",
+              "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+              "source": "TechCrunch"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "models",
+          "title_highlights": [
+            "Claude",
+            "Mythos 5",
+            "3500万ドル"
+          ],
+          "three_lines_highlights": [
+            "Claude",
+            "3500万ドル",
+            "AI防御"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "OpenAIら116社超がAIサイバー攻撃急増に警鐘、国際的な防衛強化を要請",
+          "summary_ja": "OpenAI、Anthropic、Google、Microsoftなど100社超が、AIによるサイバー攻撃が今後数カ月で急速に高度化するとして、各国政府と企業に防衛強化を求める公開書簡を出した。いまは対策を底上げできる「限られた時間」だと訴え、官民での連携を急ぐ必要性を強調している。",
+          "summary_en": "More than 100 companies, including OpenAI, Anthropic, and Google, have urged governments and businesses to strengthen cyber defenses as AI-powered attacks are expected to escalate rapidly in the coming months. The letter frames the current moment as a limited window to act before defenses are outpaced.",
+          "three_lines": [
+            "OpenAIら116社超が防衛強化を要請した。",
+            "AI攻撃の拡大前に対策を急ぐべきだと訴えた。",
+            "官民連携で国際的な防御網を築く。"
+          ],
+          "body_ja": "OpenAI、Anthropic、Google、Microsoftなどを含む116社・団体以上が、AIを悪用したサイバー攻撃の急増に備えるよう求める公開書簡に名を連ねた。CNBCは、少なくとも100社が参加したと伝え、企業や公的機関が直面する脅威が、生成AIの高度化で大きく変わったと報じている[1][2]。\n\n書簡の核心は、「守る側の時間が限られている」という危機感だ。BBCは、AIが十分に強力になれば既存の防御を上回りうるとして、各国と組織に防御体制の底上げを促していると伝えた。Politicoも、現状のセキュリティでは不十分だという認識が共有されていると報じている[3][6]。\n\nCyberScoopは、OpenAI、Anthropic、Google、Microsoft、AWSなどが、攻撃側の手口がより巧妙になる前に「defenders’ window」を使って対策を強化する必要があると指摘したと報じた。GizmodoやBusiness Insiderも、今後数カ月でAI主導の攻撃がより広がるとの警告を紹介しており、今回の呼びかけが一過性の声明ではなく、国際的な防衛体制の再設計を迫る合図だと分かる[4][5][7]。\n\n今回の動きで注目すべきは、OpenAIやGoogle、AnthropicといったAIモデル開発の当事者が、能力競争だけでなく防衛責任も前面に出した点だ。生成AIは業務効率化の恩恵を広げる一方、攻撃の自動化や高度化にもつながりうるため、モデルの進化と同時に、認証、監視、インシデント対応、情報共有といった基盤対策を各国で強化する流れが一段と強まりそうだ[2][4][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "'We have a limited window': 116 companies, entities sign on to major AI cyber defense push - CNBC",
+              "url": "https://www.cnbc.com/2026/08/27/ai-cyber-defense-letter.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 2,
+              "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI - TechCrunch",
+              "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 3,
+              "title": "OpenAI, Google join dozens of tech companies to call for urgent action against AI-powered threats - Politico",
+              "url": "https://www.politico.com/news/2026/08/27/openai-anthropic-google-ai-cyber-letter-01052839",
+              "source": "Politico"
+            },
+            {
+              "id": 4,
+              "title": "100-plus companies call for ‘global surge’ in AI-powered cyber defense - CyberScoop",
+              "url": "https://cyberscoop.com/ai-cyber-defense-global-surge/",
+              "source": "CyberScoop"
+            },
+            {
+              "id": 5,
+              "title": "Google, OpenAI and Over 100 Companies Call for More Action on AI-Driven Cyberattacks - Gizmodo",
+              "url": "https://gizmodo.com/google-openai-and-over-100-companies-call-for-more-action-on-ai-driven-cyberattacks-2000804091",
+              "source": "Gizmodo"
+            },
+            {
+              "id": 6,
+              "title": "Google, Microsoft and OpenAI among 100 firms calling for better cyber defences - BBC",
+              "url": "https://www.bbc.com/news/articles/cwyz11475l1o",
+              "source": "BBC"
+            },
+            {
+              "id": 7,
+              "title": "OpenAI issues call for 'collective action' on cyber defense: 'We have a limited window' - Business Insider",
+              "url": "https://www.businessinsider.com/openai-collective-action-cyber-defense-anthropic-hugging-face-hack-2026-8",
+              "source": "Business Insider"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "models",
+          "title_highlights": [
+            "OpenAI",
+            "116社",
+            "AIサイバー攻撃"
+          ],
+          "three_lines_highlights": [
+            "OpenAI",
+            "防衛強化",
+            "国際連携"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AI分野では、Anthropicが計算基盤の強化とセキュリティ機能の拡充を同時に進めるなど、各社が「モデル性能の競争」から「推論基盤の確保」と「安全性・防御力の強化」へ重点を広げています。背景には、AIを悪用したサイバー攻撃の高度化への危機感があり、OpenAIやGoogleなど業界横断で防衛強化を急ぐ動きが鮮明です。つまり今日は、生成AIの競争軸が“より強いモデル”から“より強い基盤と守り”へ移りつつある流れが際立った一日でした。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "Cloudreach、移行後のFinOpsと運用自動化を武器にクラウド変革需要を取り込みへ",
+          "summary_ja": "Cloudreachは、AWS/Azure/GCPの移行そのものだけでなく、移行中からコスト統制を組み込み、運用自動化まで含めたクラウド変革支援を前面に出す流れが強まっています。複数クラウドをまたぐFinOps最適化とゼロダウンタイム移行の需要が、ミッドマーケットでも重要テーマになっています。",
+          "summary_en": "Cloudreach is increasingly positioned to capture demand for cloud transformation by combining AWS/Azure/GCP migration with FinOps and operational automation. The underlying need is shifting toward cost discipline during migration and multi-cloud optimization, even in the mid-market.",
+          "three_lines": [
+            "移行中からFinOpsを組み込む流れが強まる",
+            "マルチクラウド運用自動化の需要が拡大する",
+            "ゼロダウンタイム移行が差別化の軸になる"
+          ],
+          "body_ja": "Cloudreachが狙うのは、単なるクラウド移行ではない。AWS、Azure、GCPをまたぐ移行を進めながら、同時にコスト管理と運用の仕組みを整える「変革そのもの」の需要だ。ミッドマーケット向けの移行では、最初の請求で驚く前に、移行の段階からコストのガードレールを設けるべきだとされており、タグ付け、予算設定、毎週の支出確認を最初から仕込む考え方が示されている[2]。\n\nこの点で重要なのは、FinOpsを後付けではなく移行の成果物として扱う発想だ。移行が終わってから費用を見直すのでは遅く、最も安くコスト規律を作れるのは移行の途中だという整理は、クラウド変革支援の価値を大きく変える[2]。Cloudreachのような移行支援企業にとっては、ワークロードをどの順番で動かすかだけでなく、どの時点でコスト責任を持たせるかまで設計できるかが競争力になる。\n\nさらに、需要は「移す」から「安定して最適化する」へ広がっている。複数クラウドを前提にしたFinOps最適化のキャリアロードマップでは、ゼロダウンタイム移行と継続的な最適化が一体のスキル領域として描かれている[1]。これは、移行プロジェクトの成功条件が単発の切り替えではなく、その後の運用コスト、可用性、継続改善まで含むようになっていることを示す。\n\nその結果、AWS/Azure/GCPの各種新機能や価格改定、障害対応といったクラウド固有の変化も、個別に追うだけでは不十分になっている。企業側は、複数クラウドを横断して見える化し、運用を自動化し、費用のブレを抑えるパートナーを求める。Cloudreachが拡大を狙う余地は、まさにこの「移行＋FinOps＋運用自動化」を束ねた需要の増加にある[1][2]。\n\n要するに、クラウド変革の主戦場は、移行の完了ではなく、その後の経済性と運用性をどう作るかに移っている。Cloudreachにとって追い風なのは、企業の関心が「どのクラウドに載せるか」から、「いかにムダなく、止めずに、継続運用するか」へ変わっていることだ。",
+          "references": [
+            {
+              "id": 1,
+              "title": "2026 Mid-Level Multi-Cloud FinOps Optimization Lead (Zero ...",
+              "url": "https://helloaihub.vercel.app/roadmaps/mid-level-multi-cloud-finops-optimization-lead-zero-downtime-migration-2026",
+              "source": "helloaihub.vercel.app"
+            },
+            {
+              "id": 2,
+              "title": "Cloud Migration for Mid-Market: A Practical Modernization Roadmap",
+              "url": "https://ontracsolutions.net/en/news/cloud-migration-mid-market-roadmap",
+              "source": "ontracsolutions.net"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "cloud",
+          "title_highlights": [
+            "Cloudreach",
+            "FinOps"
+          ],
+          "three_lines_highlights": [
+            "FinOps",
+            "運用自動化",
+            "ゼロダウンタイム"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "Google Cloudの料金シミュレーション再燃、AWS・Azure比較でAIコスト最適化が加速",
+          "summary_ja": "生成AIの普及で、クラウド利用者は「どのモデルをどの課金体系で使うか」をより細かく見比べる局面に入った。GoogleはAIやエージェント向けのコストを抑える方向の料金設計を打ち出し、AWSやAzureでもAIインフラ需要は強い一方で、データセンター制約や投資負担が重くなっている。結果として、企業側では単純な性能比較ではなく、料金シミュレーションと費用対効果の再計算が一段と重要になっている。",
+          "summary_en": "As generative AI adoption spreads, cloud buyers are increasingly comparing not just models but billing structures. Google is emphasizing budget-friendly pricing and flexible billing for AI and agents, while AWS and Azure still face strong demand alongside data-center constraints and heavy investment burdens. The result is a renewed focus on cost simulation and ROI-driven cloud optimization.",
+          "three_lines": [
+            "GoogleがAI料金を見直し、費用比較を促す",
+            "AWSとAzureは需要強いが投資負担も重い",
+            "企業はシミュレーションで最適構成を探る"
+          ],
+          "body_ja": "生成AI時代のクラウド競争は、性能や機能だけでなく「いくらで使えるか」が前面に出てきた。Googleは、AI向けの“budget-friendly AI pricing”を打ち出してAnthropicやMicrosoftに対抗する構図が報じられており、価格面を武器に利用拡大を狙っている[3]。さらにGoogleは、AIやエージェントのコスト増大に対応するため“flexible billing”を導入したとされ、従量課金の設計や使い方の工夫で負担をならす方向に動いている[5]。\n\nこの流れは、企業ユーザーの意思決定にも変化を与える。AIモデルの利用料や推論コストは、開発段階では見えにくくても、本番運用が始まると膨らみやすい。そこで、Google Cloud・AWS・Azureの各サービスを横断して費用を見積もり、どのワークロードをどこに置くかを再検討する需要が強まっていると考えられる。Moonshot AIがKimi K3の収益分配をめぐってAzure、AWS、Google Cloudと協議しているという報道も、AIサービス提供側が複数クラウドをまたいで収益とコストを最適化する時代に入ったことを示す[2]。\n\n一方で、AWSとAzureもAI需要の中心にあり続けている。AmazonはAWS成長がテック不安を上回ったとして株価が上昇したと報じられ、クラウド事業の強さが改めて意識された[1]。また、Microsoftも依然としてAzureを軸にAI投資を進めているが、株価面では高値からの調整が続き、重い投資負担が意識される局面もある[6]。つまり、各社ともAIインフラを拡張しているものの、利用企業から見れば「性能に加えて総保有コストをどう抑えるか」がより重要になっている。\n\nさらに、AIインフラの増設そのものにも逆風がある。米国では300以上の自治体で大型データセンターへの禁止や一時停止が進み、64億ドル規模の案件が停滞しているとされる[4]。こうした供給制約は、クラウド事業者にとってもコスト増や提供計画の見直しにつながりやすい。需要は強いのに、物理的な増強が思うように進まない状況では、価格戦略とリソース配分の巧拙が一層重要になる。\n\n結局のところ、Google Cloudの料金シミュレーション需要が再燃している背景には、AI導入が“試す段階”から“継続運用して採算を合わせる段階”へ移ったことがある。Googleは柔軟な課金でコスト最適化を後押しし[5]、AWSは成長の強さを維持し[1]、AzureもAI基盤の主戦場にいる[2][6]。そのなかでユーザー企業は、単一クラウドへの固定ではなく、サービス単価、推論コスト、運用負荷を比較しながら、最も費用対効果の高い構成を選ぶ動きを強めていきそうだ。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Amazon Jumps 1.8% as AWS Growth Overpowers Tech Anxiety - Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-jumps-1-8-aws-194722757.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "id": 2,
+              "title": "EXCLUSIVE: China's Moonshot in talks with Microsoft, Amazon, Google over K3 revenue sharing, sources say - Reuters",
+              "url": "https://www.reuters.com/business/retail-consumer/chinas-moonshot-talks-with-microsoft-amazon-google-over-k3-revenue-sharing-2026-08-26/",
+              "source": "Reuters"
+            },
+            {
+              "id": 3,
+              "title": "Google takes am at Anthropic, Microsoft with budget-friendly AI pricing - CNBC",
+              "url": "https://www.cnbc.com/video/2026/08/27/google-takes-am-at-anthropic-microsoft-with-budget-friendly-ai-pricing.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "Hyperscalers blindsided by anti-data center movement as $64B in projects stall - Crypto Briefing",
+              "url": "https://cryptobriefing.com/hyperscalers-anti-data-center-movement/",
+              "source": "Crypto Briefing"
+            },
+            {
+              "id": 5,
+              "title": "Google Launches Flexible Billing To Manage Exploding Costs For AI, Agents 08/26/2026 - MediaPost",
+              "url": "https://www.mediapost.com/publications/article/417486/google-launches-flexible-billing-to-manage-explodi.html",
+              "source": "MediaPost"
+            },
+            {
+              "id": 6,
+              "title": "Microsoft Stock Dropped 30% From Its All-Time High: 2 Reasons It Could Double by 2030 - Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-dropped-30-time-114400595.html",
+              "source": "Yahoo Finance"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "cloud",
+          "title_highlights": [
+            "Google Cloud",
+            "AWS",
+            "Azure",
+            "AI pricing",
+            "flexible billing"
+          ],
+          "three_lines_highlights": [
+            "AI pricing",
+            "AWS/Azure",
+            "cost simulation"
+          ],
+          "id": "cloud-2"
+        },
+        {
+          "title": "クラウド型DDoS防御はAIとCDNを束ねる防御基盤へ、AWS/Azure/GCP横断の運用が前進",
+          "summary_ja": "クラウド型DDoS防御は、単独の遮断機能から、AIによる挙動分析やWAF、CDN、ゼロトラスト系の制御と組み合わせる「統合防御」へ軸足を移しつつあります。今回の検索結果では、AWS・Azure・GCPにまたがる展開、AI駆動のリアルタイム検知、そしてDDoS mitigation を含むネットワーク防御の自動化が、各社の共通テーマとして浮かび上がりました。[1][2][3][4][6][7]",
+          "summary_en": "Cloud DDoS defense is evolving from a standalone filtering function into an integrated stack that combines AI-driven analytics, WAF, CDN-like delivery workflows, and centralized cloud security operations. The search results point to a common direction across AWS, Azure, and GCP: multi-cloud deployment, real-time behavioral detection, and automation for DDoS mitigation and broader network protection.[1][2][3][4][6][7]",
+          "three_lines": [
+            "AWS/Azure/GCP対応の統合防御が広がる",
+            "AI分析でDDoSとWAFを同時に強化する",
+            "マルチクラウド運用へ防御基盤が進化する"
+          ],
+          "body_ja": "クラウド型DDoS防御は、もはや「大量トラフィックを止める専用機能」だけでは語れません。今回の検索結果から見えるのは、AIによる挙動分析、WAF、クラウドファイアウォール、そして運用の一元化を束ねた“統合セキュリティ”への移行です。F5のAI Security Platformは、AWS・Azure・GCPでの展開をうたい、既存のクラウド基盤やワークフローに滑らかに組み込める点を前面に出しています。[1]\n\nこの流れを支えるのが、静的ルールではなくAIを使ったリアルタイム検知です。ProphazeのWAF関連情報では、AI-powered behavioral analysis により「sophisticated threats」を即時に検知・遮断するとされ、さらにCloud WAF、On-Premises WAF、Hybrid WAF、Kubernetes WAFを、基盤の変化に合わせて同一の考え方で選べるとされています。[3] これは、DDoS対策が単体の境界防御ではなく、アプリ層の保護や配信経路全体の制御と一体化していることを示しています。[3]\n\n運用面でも、変化ははっきりしています。LinkedIn上のセキュリティ予測では、ネットワークセキュリティの領域として traffic inspection、DDoS mitigation、dynamic firewall rules、deep packet inspection の自動化が挙げられており、AI detection や workload protection と並んで、判断と制御を機械に寄せる方向が示されています。[4] つまり、DDoSのようなピーク型の攻撃も、単に手動で閾値を調整する時代から、学習と自動応答を組み合わせる時代に入ったということです。[4]\n\nマルチクラウド対応も、今回のトピックの重要な柱です。PeerSpotの比較情報では、Check Point Cloud Firewall（旧CloudGuard Network Security）が Azure と AWS を含む複数のプラットフォームで robust cloud security を提供するとされ、中央管理やVPN機能を備える点が強調されています。[2] Check Pointの別資料でも、Cloud Firewalls、WAF、DDoS Protection が同じ資産群の中で並列に整理されており、防御機能が個別製品から統合ポートフォリオへ寄っていることが読み取れます。[5]\n\nGoogle Cloud側でも、サービス理解と選択をわかりやすくする流れが確認できます。検索結果には、AWS、Cloudflare、Azure と並べて GCP を比較しながら、無料枠やトライアル、サービスカードを見やすく整理する案内があり、クラウド選定の障壁を下げる方向性が示されています。[6] 直接DDoS専用の新発表ではないものの、複数クラウドを横断して最適な防御・配信・運用を選びやすくする基盤整備の一環と捉えられます。[6]\n\n総じて今回の動きは、クラウド型DDoS防御が「CDNの外側で止める」発想から、「AIで脅威を見極め、WAFやクラウドファイアウォールと連携し、AWS/Azure/GCPを横断して守る」発想へ進んだことを示しています。企業にとっての論点は、どの製品が最も強いかではなく、どの運用モデルならマルチクラウドの変化に追随しながら、DDoS・アプリ防御・ネットワーク制御を一体で回せるかに移っています。[1][2][3][4][5][6]",
+          "references": [
+            {
+              "id": 1,
+              "title": "F5 AI Security Platform | AppDeliveryWorks.com",
+              "url": "https://www.appdeliveryworks.com/ai-security-platform.asp",
+              "source": "AppDeliveryWorks.com"
+            },
+            {
+              "id": 2,
+              "title": "Amazon EKS vs Check Point Cloud Firewall (formerly CloudGuard Network Security) (2026)",
+              "url": "https://www.peerspot.com/products/comparisons/amazon-eks_vs_check-point-cloud-firewall-formerly-cloudguard-network-security",
+              "source": "PeerSpot"
+            },
+            {
+              "id": 3,
+              "title": "Top 5 WAF Solutions in Saudi Arabia (2026) | NCA & SAMA Compliant",
+              "url": "https://www.prophaze.com/waf-solutions-in-saudi-arabia",
+              "source": "Prophaze"
+            },
+            {
+              "id": 4,
+              "title": "Transforming SOC with AI for Strategic Oversight",
+              "url": "https://www.linkedin.com/posts/bryanschwartztx_5-security-predictions-that-will-redefine-activity-7496953437788639232-2_gd",
+              "source": "LinkedIn"
+            },
+            {
+              "id": 5,
+              "title": "Datasheet | SD-WAN",
+              "url": "https://www.checkpoint.com/resources/all-assets-460c/datasheet-sd-wan",
+              "source": "Check Point"
+            },
+            {
+              "id": 6,
+              "title": "Google Cloud Made Clear — How To Move The Needle",
+              "url": "https://google.howtomovetheneedle.com",
+              "source": "Google Cloud Made Clear"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "cloud",
+          "title_highlights": [
+            "AI Security Platform",
+            "Cloud Firewall",
+            "GCP"
+          ],
+          "three_lines_highlights": [
+            "AWS/Azure/GCP",
+            "AI分析",
+            "マルチクラウド"
+          ],
+          "id": "cloud-3"
+        }
+      ],
+      "summary": "クラウド分野では、単なる移行支援から一歩進み、移行中のコスト統制・運用自動化・FinOpsまで含めた「継続最適化」が主戦場になっています。加えて生成AIの普及で、AWS/Azure/GCP間の料金シミュレーションやAI利用コストの比較検討が一段と重要になり、企業は性能だけでなく費用対効果でクラウド選定を見直しています。セキュリティ面でも、DDoS防御はAI分析やWAF/CDNと統合した横断運用へ進み、マルチクラウド時代の防御基盤として高度化が進んでいます。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Sourcegraph対談で注目、AIエージェント向けスキャンを「非同期フック」にしてトークン消費を抑える実装",
+          "summary_ja": "Sourcegraph系の対談で、AIエージェントの実行後に走るセキュリティスキャンを同期処理から非同期フックへ寄せる考え方が注目された。待ち時間、トークン消費、ルール無視という三つの課題を、開発体験を崩さずにどう減らすかが論点だ。",
+          "summary_en": "A Sourcegraph-related discussion highlighted moving security scans for AI agents from synchronous checks to asynchronous hooks to reduce latency and token usage. The key question is how to keep developer experience smooth while mitigating rule noncompliance, wait time, and scan cost.",
+          "three_lines": [
+            "非同期フックで待ち時間を減らす",
+            "スキャンのトークン消費を抑える",
+            "エージェントのルール逸脱を補う"
+          ],
+          "body_ja": "AI開発ツールの文脈で、Sourcegraph系の対談が示したポイントはかなり実務的だ。AIエージェントにセキュリティスキャンを組み込むと、従来は実行の最後で結果を待つため、エージェントの進行が止まりがちだった。さらに、各スキャンがトークンを消費し、処理全体を重くするという問題もあった[1]。\n\n今回注目されたのは、そのスキャンを“非同期フック”へ移す発想だ。エージェントの主処理を止めずに後段でチェックを走らせることで、待ち時間を減らしつつ、無駄なトークン消費も抑えられる。つまり、セキュリティ確認を厳しくするほど開発体験が鈍る、というAI開発ツール特有のトレードオフを、実装側でいかに緩和するかが焦点になっている[1]。\n\nまた、同じ抜粋では、エージェントがルールファイルを無視することもあるとされており、自然言語の指示だけに頼った順守は再現性が低いことが示されている。Claude Code、Cursor、GitHub Copilot、LangChainのようにエージェント的な挙動を前提にしたツールが広がるほど、ポリシーを“読ませる”だけでは不十分で、実行時のフックやスキャンをどう設計するかが重要になる[1]。\n\n要するに今回の論点は、AIエージェントの安全性を高めるためのスキャンを、開発者の体感速度やコストを犠牲にしない形へ再設計できるか、という一点に集約される。非同期化は地味だが、実際の現場ではかなり効く改善になりうる[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "The Death of Developer Advocates — Stephanie Jarmak, Sourcegraph｜AI Engineer — BigGo Finance",
+              "url": "https://finance.biggo.com/podcast/5b8fa5bd3e06feac",
+              "source": "BigGo Finance"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "devtools",
+          "title_highlights": [
+            "Sourcegraph",
+            "非同期フック"
+          ],
+          "three_lines_highlights": [
+            "非同期フック",
+            "トークン消費",
+            "ルール無視"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "Claude Code / Copilot CLIで“エディタを開かない開発”がさらに一般化、CLI並列運用の実務が広がる",
+          "summary_ja": "Claude周辺の動きは、単なる高性能モデル競争から、エージェントを業務にどう組み込むかという実装競争へ移っている。会話の記憶統合、Google Workspace連携、朝の自動要約のような機能強化は、開発者がエディタ外のCLIや業務ツールをまたいでAIを並列運用する前提を強めている。",
+          "summary_en": "Claude’s latest moves suggest the race is shifting from bigger models to practical agent workflows. Memory unification, deeper Google Workspace integration, and automated briefings make CLI-first, multi-tool development more operationally normal.",
+          "three_lines": [
+            "Claudeの記憶統合で再説明の手間が減る",
+            "Workspace連携が業務横断の自動化を広げる",
+            "CLI中心の並列開発が実務として定着する"
+          ],
+          "body_ja": "Anthropicまわりの最近の動きは、AI開発ツールの主戦場が「どれだけ賢いモデルか」から「どう使い回せるエージェントか」へ移っていることを示している。Forbesは、Anthropicが“bigger models”の先を見据え、Claude ScienceやAI agents、ガバナンス機能を軸に企業向けAI競争を戦おうとしていると伝えた[1]。この文脈では、開発者がエディタに張りつくより、CLIや各種業務ツールをまたいで指示を流し込む働き方が自然になる。\n\nその変化を実務レベルで後押ししているのが、Claudeの記憶システム統合だ。TechCrunchによれば、AnthropicはチャットとClaude Coworkで別々だった記憶を統合し、AIに何度も同じ前提を“再ブリーフ”しなくて済む方向へ進めた[2]。エージェント運用で地味に効くのは、この「前回までの文脈」を保持できるかどうかだ。CLIから複数タスクを並列で回すとき、毎回設定や制約を言い直すコストが減れば、エディタを開かずに作業を進める心理的ハードルも下がる。\n\nさらにForbesの別報道では、ClaudeはGoogle Workspaceとの統合を強化し、GmailやGoogle Driveに直接触れられるようになったほか、Claude Coworkのモバイルアクセスも広がっている[3]。Crypto Briefingは、Maxプラン向けの一部ユーザーに対して、メールやカレンダー、仕事用ツールを材料にした“Morning Brief”のような自動要約機能が展開されていると報じた[4]。要するにClaudeは、会話AIの枠を越えて、日々の業務フローに常駐する前提へ近づいている。\n\nこの流れは、開発者向けの周辺ツールにも波及しやすい。たとえばCLI型の開発支援は、エディタ内完結ではなく、ターミナル上でコード生成、修正、確認、資料参照を同時並行で回す運用と相性がよい。記憶の継続、外部ツール連携、自動ブリーフの3点がそろうと、AIは「都度呼び出す補助」ではなく「常駐する作業相棒」になる。結果として、Claude CodeやGitHub Copilot CLIのような“エディタを開かない開発”が、特殊な使い方ではなく実務の標準パターンに寄っていく。\n\nもちろん、こうしたエージェント化が進むほど、どこまでをAIに任せ、どこからを人間が確認するかという線引きは重要になる。The Next Webが紹介したDaniel Dinesの見立ても、「agents propose, people decide, deterministic software executes」という分業の考え方だった[5]。Anthropicが企業向けのガバナンスを重視しているとされる点も[1]、この分業を現場に持ち込むための土台づくりと読める。今後の焦点は、AIがコードを書くかどうかではなく、開発者がCLIと各種サービスをまたいでAIを並列運用し、レビュー可能な形で仕事を流せるかにある。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Inside Anthropic: Moving Beyond Bigger AI Models To Win The Enterprise AI Race - Forbes",
+              "url": "https://www.forbes.com/sites/victordey/2026/08/25/inside-anthropic-moving-beyond-bigger-ai-models-to-win-the-enterprise-ai-race/",
+              "source": "Forbes"
+            },
+            {
+              "id": 2,
+              "title": "Claude Cowork finally remembers what you told the app in chat - TechCrunch",
+              "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 3,
+              "title": "Claude Has More Google Workspace Integrations...And Other Business Technology News This Week - Forbes",
+              "url": "https://www.forbes.com/sites/quickerbettertech/2026/08/23/claude-has-more-google-workspace-integrationsand-other-business-technology-news-this-week/",
+              "source": "Forbes"
+            },
+            {
+              "id": 4,
+              "title": "Claude rolls out Morning Brief feature to select users - Crypto Briefing",
+              "url": "https://cryptobriefing.com/claude-morning-brief-feature-rollout/",
+              "source": "Crypto Briefing"
+            },
+            {
+              "id": 5,
+              "title": "UiPath founder Daniel Dines has written a book that dares readers to prove it wrong by 2028 - The Next Web",
+              "url": "https://thenextweb.com/news/daniel-dines-the-work-that-remains-book-uipath-2028-prediction",
+              "source": "The Next Web"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude",
+            "CLI"
+          ],
+          "three_lines_highlights": [
+            "記憶統合",
+            "Workspace",
+            "CLI"
+          ],
+          "id": "devtools-2"
+        }
+      ],
+      "summary": "AI開発ツールの流れは、モデル性能の競争から「開発フローにどう自然に埋め込むか」という実装競争へ明確に移っています。特に、AIエージェント後段のスキャンや要約を非同期化して待ち時間・トークン消費・ルール逸脱を減らす工夫と、CLIや業務ツールをまたいでエディタ外でも並列運用できる環境整備が、実務定着の鍵として注目されています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "ジェネンテックの肥満症契約とFDA長官指名で、米バイオM&Aと薬事政策の先行きに緊張感",
+          "summary_ja": "ジェネンテックが韓美製薬の肥満症候補HM17321を最大23億ドル規模で獲得し、肥満症市場への大型投資を再加速させた。一方で、米HHSがFDAに技術・医薬それぞれの副長官職を新設する方針が伝えられ、薬事行政の変化が業界のM&Aや開発戦略にどう影響するか注目されている。",
+          "summary_en": "Genentech’s up to $2.3 billion licensing deal for Hanmi’s obesity candidate HM17321 underscores the intensity of the obesity market. At the same time, reported FDA leadership changes aimed at technology and drugs are adding uncertainty to US biopharma dealmaking and regulatory strategy.",
+          "three_lines": [
+            "ジェネンテックが肥満症候補を最大23億ドルで取得",
+            "FDAに技術・医薬の新役職が浮上",
+            "大型提携と規制再編が市場心理を揺らす"
+          ],
+          "body_ja": "ジェネンテックが韓美製薬の肥満症候補HM17321を対象に、最大23億ドル規模の独占ライセンス契約を結んだ。HM17321はUCN2（ウロコルチン2）アナログとして開発されており、慢性的な体重管理や肥満関連の適応が想定されているという。肥満症領域では、既存大手が先行する一方で、他社も市場参入を急いでおり、巨大市場を巡る競争が一段と激しくなっていることがうかがえる[1][2][4]。\n\nこの契約の意味は、単なる新薬候補の追加にとどまらない。報道によれば、ジェネンテックは筋肉量を保てる治療法の探索を進めており、減量効果だけでなく「体組成」まで含めた次世代肥満症薬の方向性を示している[2]。肥満症市場は短期間で急拡大し、今後も大きな売上機会が見込まれるため、研究資産の確保に向けた大型ディールが続きやすい構図だ[4]。製薬大手にとっては、自社開発だけでなく、外部資産の獲得が成長戦略の中心にあることを改めて示した案件といえる[1][2]。\n\n同時に、米国の薬事行政を巡る変化も、業界の先行きに別の緊張感を与えている。HHSがFDAに技術担当と医薬担当の副長官職を新設する計画が伝えられており、FDAの意思決定や組織運営に新たな軸が加わる可能性がある[3]。さらに、FDA長官候補としてヘイディ・オーバートン氏をめぐる論点も浮上しており、政策面の不確実性が意識されている[6][7]。開発企業にとっては、肥満症のような大型市場で攻めの提携を進める一方、規制当局の体制変更を織り込んだ戦略調整が必要になりそうだ[3][6][7]。\n\nこの流れは、M&Aや資金調達の温度感にも波及し得る。肥満症を含むバイオ分野では大型提携が市場を押し上げる材料になる一方、米バイオ業界では雇用環境の弱さも指摘されており、案件の質と当局対応力がこれまで以上に重視される局面に入っている[5]。ジェネンテックの動きは、成長分野への資本集中を象徴する一方で、FDAの体制見直しはその成長を支えるルール作りがなお流動的であることを示している。今後は、肥満症薬の競争だけでなく、薬事政策の変化がディール成立や上市時期にどこまで影響するかが焦点になりそうだ[1][2][3][4]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Hanmi Pharm Signs Exclusive Licensing Deal with Genentech for Novel Obesity Therapy - BioSpace",
+              "url": "https://www.biospace.com/press-releases/hanmi-pharm-signs-exclusive-licensing-deal-with-genentech-for-novel-obesity-therapy",
+              "source": "BioSpace"
+            },
+            {
+              "id": 2,
+              "title": "Roche’s Genentech strikes $2.3bn deal for Hanmi obesity drug HM17321 - pharmaphorum",
+              "url": "https://pharmaphorum.com/news/roches-genentech-strikes-23bn-deal-hanmi-obesity-drug-hm17321",
+              "source": "pharmaphorum"
+            },
+            {
+              "id": 3,
+              "title": "HHS plans new FDA deputy commissioner roles for technology and drugs, sources say - CNBC",
+              "url": "https://www.cnbc.com/2026/08/25/hhs-fda-leadership-roles-technology-drugs.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 4,
+              "title": "Myriad catalysts on deck for obesity’s brightest stars as market continues to accelerate - BioSpace",
+              "url": "https://www.biospace.com/drug-development/myriad-catalysts-on-deck-for-obesitys-brightest-stars-as-market-continues-to-accelerate",
+              "source": "BioSpace"
+            },
+            {
+              "id": 5,
+              "title": "Biotech jobs dropped for the first time in 2025. Can rebounding VC, M&A bring them back? - The Business Journals",
+              "url": "https://www.bizjournals.com/boston/news/2026/08/25/massbio-2026-report-workforce-turnaround.html",
+              "source": "The Business Journals"
+            },
+            {
+              "id": 6,
+              "title": "The questions facing FDA pick Heidi Overton - Politico",
+              "url": "https://www.politico.com/newsletters/prescription-pulse/2026/08/21/the-questions-facing-fda-pick-heidi-overton-01044224",
+              "source": "Politico"
+            },
+            {
+              "id": 7,
+              "title": "Capricor’s DMD therapy still alive, Merck/Moderna’s cancer vax shines, FDA’s future revealed - BioSpace",
+              "url": "https://www.biospace.com/fda/capricors-dmd-therapy-still-alive-merck-modernas-cancer-vax-shines-fdas-future-revealed",
+              "source": "BioSpace"
+            }
+          ],
+          "published_date": "2026-08-28",
+          "category": "global",
+          "title_highlights": [
+            "HM17321",
+            "23億ドル",
+            "FDA"
+          ],
+          "three_lines_highlights": [
+            "23億ドル",
+            "FDA",
+            "肥満症"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "米バイオ業界では、肥満症を軸にした大型提携・M&Aへの関心が再び強まり、ジェネンテックの韓美製薬候補獲得は有望領域への資金流入継続を示している。一方で、FDA長官指名やHHSによる薬事行政体制の見直し観測が、承認プロセスや規制運営の変化を通じて今後の開発・買収戦略に影響しうるとの緊張感を高めている。"
+    }
+  ]
+}
