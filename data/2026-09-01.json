@@ -1,0 +1,557 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T01:42:38.769649+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "ソブリンAIでは日本のメーカーの「モノ」が売れる①――富士通が始めた「国産AIサーバー」は巨大市場の入口",
+          "summary_ja": "富士通がAI事業戦略の説明会を開き、生成AIの研究開発も含めた取り組みを示した。ソブリンAIの広がりの中で、国産ベンダーの強みはソフトだけでなく「AIを動かすモノ」にも及ぶ可能性がある。",
+          "summary_en": "Fujitsu held a briefing on its AI business strategy and R&D for generative AI. In the rise of sovereign AI, Japanese vendors may gain not only in software but also in the hardware that runs AI.",
+          "three_lines": [
+            "富士通はAI事業戦略の説明会を開いた。",
+            "生成AIの研究開発方針も示した。",
+            "国産AIサーバー市場の入口が見えてきた。"
+          ],
+          "body_ja": "富士通が「AI事業戦略」と生成AIの研究開発に関する説明会を開いたことは、日本企業のAIビジネスが、クラウド上のソフトウェア競争だけでなく、計算基盤そのものをどう確保するかという段階に入っていることを示唆する。[1]\n\nとりわけ注目したいのは、ソブリンAIの文脈だ。各国・各組織が、自国のデータや業務を自前の統制下で扱えるAI基盤を求めるほど、GPUやサーバー、ネットワーク機器、保守まで含めた「AIを動かすモノ」の需要が強まる。日本のメーカーにとっては、ここが単なる受託開発ではなく、国産ハードウェアを売り込む巨大市場の入口になり得る。[1]\n\nもちろん、今回の公開情報だけで富士通の個別製品の優位性や受注規模まで断定はできない。それでも、AI戦略を前面に出した説明会を行った事実は、同社が生成AIを研究テーマにとどめず、事業化の射程に入れていることの表れだ。ソブリンAIが日本で本格化すれば、国産LLMだけでなく、それを載せる国産AIサーバーや周辺機器まで含めた産業政策の議論が現実味を帯びるだろう。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "製造ITニュース - MONOist - ITmedia",
+              "url": "https://monoist.itmedia.co.jp/mn/series/1652/",
+              "source": "MONOist - ITmedia"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "japan",
+          "title_highlights": [
+            "ソブリンAI",
+            "国産AIサーバー"
+          ],
+          "three_lines_highlights": [
+            "AI事業戦略",
+            "生成AI",
+            "国産AIサーバー"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "日本のソブリンAIは「国産AI」から「AIスタック」へ：国内メーカーに広がる調達・供給網の商機",
+          "summary_ja": "日本国内で議論されるソブリンAIは、単体の国産AIモデル競争だけでなく、産業実装を支える基盤や供給網まで含む「AIスタック」へと視点が広がっている。今回の検索結果で確認できる範囲では、MONOistはIBMの技術・ソリューション提供を軸に、企業向けAI活用の文脈を示しており、国内メーカーにはソフトウェア、運用、連携基盤まで含む調達機会が広がることを示唆する。[1]",
+          "summary_en": "Japan’s sovereign AI debate is shifting from a “domestic model” race to an “AI stack” perspective that includes the infrastructure and supply chain needed for real-world deployment. Based on the search result available here, MONOist highlights IBM’s technology and solution provisioning in an enterprise AI context, suggesting broader procurement opportunities for Japanese manufacturers across software, operations, and integration layers.[1]",
+          "three_lines": [
+            "国産AI競争は、基盤整備へ広がる。",
+            "国内メーカーは、AI供給網で商機を得る。",
+            "企業導入の成否は、AIスタックで決まる。"
+          ],
+          "body_ja": "日本のソブリンAIをめぐる論点は、もはや「国産の大規模モデルを持つかどうか」だけではない。実際の産業利用では、モデル本体に加えて、開発・運用・連携・保守までを束ねるAIスタックが必要になる。今回の検索結果で確認できるMONOistの記事断片は、IBMが企業向けにAI関連技術やソリューションを提供している文脈を示しており、AIは単体製品ではなく、周辺の仕組み込みで導入されることが読み取れる。[1]\n\nこの見方に立つと、日本国内メーカーにとっての商機も変わる。これまでの国産AI議論では、LLMそのものの性能や日本語対応が注目されがちだったが、実際に需要が立ち上がるのは、計算基盤、データ連携、セキュリティ、運用自動化、顧客システム接続など、複数層から成るAIスタックの部分である。つまり、国内事業者は「自前のモデルを作る側」だけでなく、「政府・大企業向けに調達される部材やサービスを供給する側」としても入り込める余地が大きい。[1]\n\n経済安全保障の観点でも、この構図は重要だ。ソブリンAIは、技術主権を掲げるだけでは成立せず、実装時にどの国のどのベンダーの要素を組み合わせるかが問われる。検索結果から直接確認できる範囲では、企業向けのAI提供はすでにソリューション統合の形で進んでおり、国内メーカーにとっては、ハードウェア、組み込み、ミドルウェア、保守運用といった既存の強みをAI向けに再編集する局面に入っているといえる。[1]\n\n要するに、日本のソブリンAIは「国産AIを持つこと」から、「国内で調達し、国内で組み、国内で回すAIスタックを整えること」へと重心が移っている。今回の検索結果だけでも、その変化が企業向けAIの実装現場に表れ始めていることがうかがえる。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "製造ITニュース - MONOist - ITmedia",
+              "url": "https://monoist.itmedia.co.jp/mn/series/1652",
+              "source": "MONOist"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "japan",
+          "title_highlights": [
+            "ソブリンAI",
+            "AIスタック"
+          ],
+          "three_lines_highlights": [
+            "国産AI",
+            "供給網",
+            "AIスタック"
+          ],
+          "id": "japan-2"
+        },
+        {
+          "title": "米国の中国製ヒューマノイド輸入禁止は、日本の経済安保に何を迫るのか",
+          "summary_ja": "米国がヒューマノイドの新規モデル輸入を禁じる流れは、単なる対中摩擦ではなく、ロボット調達・供給網・規制対応を日本企業にも突きつける。中国の対抗措置としてドローン関連部材の輸出統制強化も起きており、経済安保は相互報復型の局面に入った。[1] 一方で日本国内では、官公庁や企業の「丸投げ」体質を改め、ソブリンAIや内製化をどう進めるかという課題も残る。[2]",
+          "summary_en": "The U.S. move to ban imports of new Chinese humanoid models is more than a bilateral spat: it pressures Japanese firms to rethink robot sourcing, supply chains, and compliance. China has already retaliated by tightening export controls on drone-related components, underscoring the reciprocal nature of economic security risks.[1] In Japan, the issue also connects to the broader push for sovereign AI, in-house development, and governance reform across government and enterprises.[2]",
+          "three_lines": [
+            "米国の輸入禁止で調達網の再編が進む。[1]",
+            "中国の対抗措置で報復連鎖が現実化した。[1]",
+            "日本も内製化と経済安保対応を迫られる。[2]"
+          ],
+          "body_ja": "米国が中国製ヒューマノイドの新規モデル輸入を禁じる動きは、ロボット市場の競争政策に見えて、実際には経済安全保障の話として日本にも跳ね返ってくる。検索結果が示す通り、中国側はすでに2026年8月に軍民両用のドローン関連部材について対米輸出統制を大幅に強化しており、米中の応酬はサプライチェーンの再編圧力をさらに強めている。[1] つまり、ヒューマノイド本体の輸入可否だけでなく、部材、制御ソフト、学習データ、保守体制まで含めた「どこに依存するか」が問われる局面に入った。日本企業にとっては、安価な調達先の話では済まず、代替調達の確保や輸入規制への適合、停止時の業務継続計画まで見直す必要がある。[1]\n\nこの問題は、ロボット単体の規制にとどまらない。別ソースでは、官公庁や日本企業がシステムを外部に丸投げし、IT主権やソブリンAIの議論が空洞化している実態が指摘されている。[2] もし重要なAIやロボティクスの基盤を海外の特定ベンダーに依存したままなら、輸入禁止や輸出統制のような地政学リスクが、そのまま国内の業務停止リスクになる。経済安保の観点では、ハードの調達とソフトの主権を切り離せない。[2]\n\nさらに、経済安全保障推進法で特定重要物資に指定される領域があることからも分かるように、日本では「重要技術・重要物資をどう守るか」を制度面で捉える発想が進んでいる。[3] ヒューマノイドや周辺部材が同様の重要領域に近づけば、政府は補助金や標準化支援だけでなく、サプライチェーン可視化、セキュリティ要求、調達基準の厳格化を迫られるだろう。今回の米国の措置は、日本に対して、ロボット産業を単なる成長産業としてではなく、経済安保の対象として扱う準備があるかを試している。[1][3]",
+          "references": [
+            {
+              "id": 1,
+              "title": "米国がヒューマノイド新規モデルの輸入禁止、ツケを支払うのは ...",
+              "url": "https://xtech.nikkei.com/atcl/nxt/column/18/01268/00161/?P=2",
+              "source": "日経クロステック"
+            },
+            {
+              "id": 2,
+              "title": "「IT主権」捨てた日本企業と官公庁、丸投げでソブリンAIとは ...",
+              "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00148/081800449/",
+              "source": "日経クロステック"
+            },
+            {
+              "id": 3,
+              "title": "政府の新蓄電池戦略が掲げる「総合的な蓄電ソリューション」は ...",
+              "url": "https://xtech.nikkei.com/atcl/nxt/column/18/02421/072800128/?P=6",
+              "source": "日経クロステック"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "japan",
+          "title_highlights": [
+            "ヒューマノイド",
+            "経済安保"
+          ],
+          "three_lines_highlights": [
+            "輸入禁止",
+            "対抗措置",
+            "内製化"
+          ],
+          "id": "japan-3"
+        }
+      ],
+      "summary": "日本国内では、ソブリンAIの議論が「国産AIモデルを作るか」から、「AIを動かすサーバー、基盤ソフト、運用、供給網まで含むAIスタックをどう国産で押さえるか」へ広がっています。富士通の国産AIサーバーのように、メーカーにとってはソフトだけでなくハードや周辺基盤も新たな商機となりつつあります。  \n同時に、米国の対中規制や中国の報復措置が示すように、AI・ロボット領域は経済安保の問題でもあり、日本企業には調達先の見直しと内製化・自立化を急ぐ流れが強まっています。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Anthropicの新モデル「Claude Sonnet 5」とは？料金や使い方、試した事例を徹底解説！",
+          "summary_ja": "Claude Sonnet 5は、Anthropicの現行デフォルトモデルとして6月30日に登場し、1Mトークン級の長文処理と低めのAPI料金で注目を集めています。上位のOpus 5や下位のFable 5と役割分担する新しい3層構成の一角で、用途に応じて使い分けやすいのが特徴です。",
+          "summary_en": "Claude Sonnet 5 is Anthropic’s current default model, launched on June 30, 2026, with a 1M-token context window and aggressive API pricing. It sits in a new three-tier Claude 5 lineup, making it easier to choose the right model by task.",
+          "three_lines": [
+            "Claude Sonnet 5は1Mトークン対応で登場した",
+            "API料金は入力100万トークン2ドルで始まる",
+            "Opus 5やFable 5と役割分担して使える"
+          ],
+          "body_ja": "Anthropicの「Claude Sonnet 5」は、2026年6月30日に登場した同社の現行デフォルトモデルで、1百万トークン級のコンテキストウィンドウを備えています。長文の資料読解、コードベースの横断、複数ドキュメントをまたぐ要約のような用途で、従来よりも「1回でまとめて扱える量」が大きくなったのが大きな変化です[1][3]。\n\n気になる料金は、入力100万トークンあたり2ドル、出力100万トークンあたり10ドルという設定です。検索結果によれば、この価格は一時的な割引ではなく、Anthropicが恒久レートとして案内しているもので、Sonnet 5の魅力はスペックだけでなくコスト面にもあります[1][3]。\n\nClaude 5系は、旧来の「単一フラッグシップ」ではなく、用途別の3層構成に整理されました。上位のOpus 5はプロ向け・エージェント用途の“near-frontier”ワークホースとして位置づけられ、Sonnet 5はその中核、Fable 5は別の旗艦層として役割分担しています。つまり、最高性能だけを追うのではなく、処理の重さや予算に応じて選びやすい設計です[2][5]。\n\n実務での見方を整理すると、Sonnet 5は「広い文脈を一気に読ませたいが、最上位モデルほどのコストは避けたい」ケースに向いています。たとえば、長い仕様書と会話履歴を同時に渡してレビューさせる、複数ファイルの差分をまとめて確認させる、といった使い方が想定しやすいでしょう。1Mトークン級のウィンドウは、同じく長文対応を掲げる競合モデルとも比較されており、Anthropicがこの領域で存在感を高めていることがうかがえます[3][6]。\n\nまた、Anthropicの新モデルはAPIだけでなく、Claude API、AWS Bedrock、Google Cloud Vertex AI、Microsoft Foundryといった複数の提供面で同日利用可能になる形で案内される流れが示されています。実際の導入では、どのクラウド上で既にAI基盤を持っているかによって、接続先を選べる点が実装上の利点になります[7]。\n\n総じてClaude Sonnet 5は、「長文に強い」「価格が読みやすい」「上位・下位モデルとの住み分けが明確」という3点で理解するとわかりやすいモデルです。OpenAIやGoogleの最新フラッグシップと競合するなかで、AnthropicはSonnet 5を“使いやすい主力”として押し出している、というのが今回の更新の本質だと言えます[2][3][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claude vs Perplexity: 5x Context Window Gap [2026]",
+              "url": "https://tech-insider.org/claude-vs-perplexity-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 2,
+              "title": "Claude Opus 5 vs Sonnet 5 vs Fable 5: 5x Price Gap [2026]",
+              "url": "https://tech-insider.org/ca/claude-opus-5-vs-sonnet-5-vs-fable-5-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 3,
+              "title": "Claude Sonnet 5 vs GPT-5.6 Sol vs Kimi K3: $20 Gap [2026]",
+              "url": "https://tech-insider.org/ca/claude-sonnet-5-vs-gpt-5-6-sol-vs-kimi-k3-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 4,
+              "title": "Claude Opus 5 vs Mythos 5 vs Gemini 3.1 Pro - Tech Insider",
+              "url": "https://tech-insider.org/claude-opus-5-vs-mythos-5-vs-gemini-3-1-pro-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 5,
+              "title": "Claude Fable 5 vs Opus 5 vs GPT-5.6 Sol: $1,125 Gap [2026]",
+              "url": "https://tech-insider.org/claude-fable-5-vs-opus-5-vs-gpt-5-6-sol-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 6,
+              "title": "ChatGPT vs Claude vs Gemini: EU AI Act 15M Fine Risk [2026]",
+              "url": "https://tech-insider.org/ie/chatgpt-vs-claude-vs-gemini-eu-ai-act-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 7,
+              "title": "Two Claude Models Leak as Anthropic Eyes $100B IPO [2026]",
+              "url": "https://tech-insider.org/two-claude-models-leak-anthropic-100b-ipo-2026",
+              "source": "Tech Insider"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "models",
+          "title_highlights": [
+            "Claude Sonnet 5",
+            "1M",
+            "$2"
+          ],
+          "three_lines_highlights": [
+            "Sonnet 5",
+            "1M",
+            "Opus 5"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Google、Gemini 3.8 Flashを内部テスト　前回リリースから数週間で次世代版を前倒し",
+          "summary_ja": "Googleが、Gemini 3.7 Flashの公開からわずか数週間で、次の試験版とされる「Gemini 3.8 Flash」の社内テストを始めたと報じられた。テスト先は社内のJetskiコーディング基盤で、重点はコーディング支援、ツール実行の効率化、そして幻覚の抑制に置かれている。[1][2][3]",
+          "summary_en": "Google is reportedly testing Gemini 3.8 Flash internally only weeks after releasing Gemini 3.7 Flash. The preview is said to target coding, tool execution efficiency, and reduced hallucinations on the company’s internal Jetski platform.[1][2][3]",
+          "three_lines": [
+            "GoogleがGemini 3.8 Flashを社内で試験している",
+            "狙いはコーディング強化と幻覚の抑制だ",
+            "前回版から数週間で更新を急いでいる"
+          ],
+          "body_ja": "Googleは、Gemini 3.7 Flashの公開からまだ数週間しかたっていない段階で、次の試験版とされるGemini 3.8 Flashの内部テストに入ったとみられる。[1][3] こうした動きは、生成AIモデルの更新サイクルがさらに短くなっている現状を映している。\n\n今回のテスト先は、社内のJetskiコーディング基盤だと報じられている。[2][3] 抜粋によれば、Gemini 3.8 Flash Previewは「agentic reasoning」や「vibe coding」、さらにツール実行の最適化と低遅延を意識した設計が示唆されており、単なる会話性能よりも開発用途の使い勝手を重視しているようだ。[2]\n\nまた、今回の焦点としては、コーディング能力の強化とAIの幻覚を減らすことが挙げられている。[1] これは、実務で使う際に重要な「コードの正確さ」と「出力の信頼性」を高めようとする狙いと読める。\n\nBigGoの要約では、この迅速な反復はOpenAIやAnthropicとの競争圧力を受けたものだとされ、さらにGoogleの旗艦級モデルであるGemini 3.5 Proがまだ公開されていない点も背景として挙げられている。[3] つまりGoogleは、上位モデルの正式投入を待つ間にも、Flash系で更新を重ねて競争力を保とうとしている可能性がある。\n\n見方を変えると、今回の話は「新モデル発表」のニュースというより、Googleが内部で次の製品候補を高速で磨き込んでいる段階を示す材料だ。[1][2][3] 生成AI市場では、性能向上だけでなく、低遅延・ツール連携・コード生成の安定性といった実装面の改善が、差別化の中心になりつつある。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Gemini 3.8 Flash Starts Testing Google, Focuses on Coding and Reduces AI Hallucinations",
+              "url": "https://voi.id/en/amp/591935",
+              "source": "VOI"
+            },
+            {
+              "id": 2,
+              "title": "Google Testing Gemini 3.8 Flash Preview Internally on Jetski",
+              "url": "https://nokiapoweruser.com/google-gemini-3-8-flash-preview-internal-testing",
+              "source": "Nokia Power User"
+            },
+            {
+              "id": 3,
+              "title": "Google Staff Test Gemini 3.8 Flash Weeks After Last Release",
+              "url": "https://finance.biggo.com/news/c496b9d1-a325-4039-8083-3f37865c63d4",
+              "source": "BigGo Finance"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 3.8",
+            "Flash",
+            "Google"
+          ],
+          "three_lines_highlights": [
+            "Gemini 3.8",
+            "幻覚抑制",
+            "数週間"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Google Cloud、金融・法務向け「Gemini Enterprise」をプレビュー公開　50超の金融スキルとMCP連携で業務AIを本格化",
+          "summary_ja": "Google Cloudが、金融サービス向けと法務向けの2つの「Gemini Enterprise」を2026年8月25日にプレビュー提供しました。金融版は50以上の専門スキルとGoogle管理のFinancial Research agentを備え、法務版は契約・調査・ワークフロー自動化を軸に、iManageやDocuSign、Thomson Reuters HighQなどの法律系システムとMCPでつなげる設計です。両製品とも、汎用モデルの性能競争ではなく、業界特化の業務実装とガバナンスを前面に出した点が特徴です。",
+          "summary_en": "Google Cloud previewed two vertical editions of Gemini Enterprise on August 25, 2026: one for financial services and one for legal. The financial version includes more than 50 specialized skills and a Google-managed Financial Research agent, while the legal version focuses on contract and research workflows plus MCP-based links to legal systems such as iManage, DocuSign, and Thomson Reuters HighQ. The launch underscores Google’s move from general-purpose AI toward governed, industry-specific enterprise deployment.",
+          "three_lines": [
+            "金融・法務向けGemini Enterpriseを公開した",
+            "金融版は50超のスキルで業務特化した",
+            "法務版はMCP連携で契約業務を結ぶ"
+          ],
+          "body_ja": "Google Cloudが、生成AIの次の主戦場を「業界特化」に置き始めた。2026年8月25日、同社はGemini Enterpriseブランドの下で、金融サービス向けと法務向けの2製品を相次いでプレビュー提供した [1][2][7]。いずれも汎用チャットボットではなく、現場の業務フローに合わせて使えるエージェント型AIとして設計されている点が共通している [2][4][7]。\n\n金融サービス向けのGemini Enterprise for Financial Servicesは、金融専門家向けに作られたエージェント型AIソリューションとして発表された。特徴は、Google管理のFinancial Research agentに加え、50以上の新しいスキルを備えることだ [2]。さらに、Morningstarとその子会社PitchBookが、プレビュー段階のローンチパートナーとしてMCP連携を提供することも示された [3]。つまり、AIが単独で動くのではなく、金融データや調査ワークフローと接続しながら使う前提が最初から組み込まれている [3][8]。\n\n法務向けのGemini Enterprise for Legalも同日プレビュー公開された [1][4]。こちらは、法務向けスキル、エージェント、各種コネクタ、集中管理のガバナンスを組み合わせた構成で、契約レビューや法務調査、ワークフロー自動化に使う狙いが見える [1][4][6]。Google Cloudは、研究結果を「モデル学習データだけ」でなく一次法源に基づいて根拠づけると説明しており、法務用途で重要な説明責任を意識した設計になっている [3]。\n\nこの法務版では、iManage、NetDocuments、DocuSign、Everlaw、RelativityOne、Thomson Reuters HighQ、さらに専門AIサービスのHarveyなどとMCPコネクタでつなぐ構想が示された [6]。実際にDocuSignは、同社のIntelligent Agreement ManagementプラットフォームがGemini Enterprise for Legal内で利用可能になったと発表している [5]。これにより、契約の作成・承認・管理をまたぐ一連の業務を、AIと既存SaaSの間で滑らかに回せる可能性が高まる [5][6]。\n\n今回の2製品で目立つのは、Google Cloudが「モデルの賢さ」そのものよりも、業界別のスキル、外部システム接続、中央ガバナンスを前面に出していることだ [1][7][8]。Futurum Groupは、今回の垂直AIアプリの初弾がまさにその方向性を示していると指摘している [7]。Cloud Warsも、MCPコネクタを通じた金融ソフトウェアやデータソースとの接続を強調しており、Googleが標準化された接続層を軸にエコシステムを広げようとしていることがうかがえる [8]。\n\n要するに、Gemini Enterpriseの新展開は、Googleが生成AIを「汎用対話」から「業務実装」へ押し上げる動きだと言える。金融では調査とデータ接続、法務では契約と証拠性の担保が焦点になっており、どちらも企業導入で最も重い要件を先に取りにいっている [2][3][5][6]。今後は、これらのプレビューがどこまで本番導入に進み、競合のOpenAIやAnthropicに対してどれだけ業界特化の差別化を築けるかが注目点になる。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Gemini Enterprise for Legal Launches in Preview",
+              "url": "https://quasa.io/insights/gemini-enterprise-for-legal-arrives-permissions-travel-through-mcp",
+              "source": "quasa.io"
+            },
+            {
+              "id": 2,
+              "title": "Google Cloud Launches Gemini Enterprise for Financial Services",
+              "url": "https://www.googlecloudpresscorner.com/2026-08-25-Google-Cloud-Launches-Gemini-Enterprise-for-Financial-Services",
+              "source": "Google Cloud Press Corner"
+            },
+            {
+              "id": 3,
+              "title": "Google Cloud rolls out Gemini Enterprise for Legal in preview",
+              "url": "https://tech.yahoo.com/ai/gemini/articles/google-cloud-rolls-gemini-enterprise-090220861.html",
+              "source": "Yahoo Tech"
+            },
+            {
+              "id": 4,
+              "title": "Google Launches Gemini Enterprise for Legal",
+              "url": "https://www.artificiallawyer.com/2026/08/25/google-launches-gemini-enterprise-for-legal",
+              "source": "Artificial Lawyer"
+            },
+            {
+              "id": 5,
+              "title": "Docusign Integrates With Gemini Enterprise for Legal",
+              "url": "https://www.stocktitan.net/news/DOCU/docusign-brings-trusted-agreement-intelligence-to-google-cloud-s-9ergzl343hvl.html",
+              "source": "StockTitan / PRNewswire"
+            },
+            {
+              "id": 6,
+              "title": "Google launches Gemini for legal work to automate contracts and research",
+              "url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research",
+              "source": "The Decoder"
+            },
+            {
+              "id": 7,
+              "title": "Google's Vertical AI Bet: Governance Matters More Than ...",
+              "url": "https://futurumgroup.com/insights/googles-vertical-ai-bet-governance-matters-more-than-models",
+              "source": "Futurum Group"
+            },
+            {
+              "id": 8,
+              "title": "Google Cloud Taps Customers, Partners to Fine-Tune ...",
+              "url": "https://cloudwars.com/ai/google-cloud-taps-ecosystem-of-customers-partners-to-fine-tune-financial-services-ai-suite",
+              "source": "Cloud Wars"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "models",
+          "title_highlights": [
+            "Gemini Enterprise",
+            "金融・法務",
+            "50以上"
+          ],
+          "three_lines_highlights": [
+            "Gemini Enterprise",
+            "50超",
+            "MCP"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AIモデル分野では、汎用モデルの単純な性能競争から、長文処理・低コスト・用途別最適化を備えた実務向け設計へと重心が移っています。AnthropicはClaude Sonnet 5で中核モデルの使い勝手を磨き、GoogleはGeminiの次世代試験版を急ピッチで検証しつつ、金融・法務など業界特化のGemini Enterpriseで業務実装とガバナンスを前面に押し出しています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "GKE の概要公開、Google Cloud のマネージド Kubernetes が再整理されコンテナ基盤の選択肢を強化",
+          "summary_ja": "Google Kubernetes Engine（GKE）は、Kubernetes のクラスタ運用を Google Cloud 側で自動化するマネージド基盤です。今回の概要整理では、コントロール プレーンとワーカーノードの自動アップグレードを前面に出し、更新・保守の負担を下げながら最新機能とセキュリティ修正を取り込みやすい点が示されています。",
+          "summary_en": "Google Kubernetes Engine (GKE) is Google Cloud's managed Kubernetes platform. The overview emphasizes automatic upgrades for the control plane and worker nodes, helping teams adopt new features and security fixes with less operational burden.",
+          "three_lines": [
+            "GKE は自動更新で運用負荷を下げる。",
+            "コントロール プレーンとノードを保守しやすくする。",
+            "最新機能と修正を取り込みやすくする。"
+          ],
+          "body_ja": "Google Cloud の GKE は、Kubernetes クラスタのコントロール プレーンとワーカーノードを新しいバージョンへ自動でアップグレードする仕組みを持ち、クラスタに新機能やバグ修正、セキュリティ改善を取り込みやすくします。[1] つまり GKE は、Kubernetes を“自前で面倒を見る基盤”から“更新管理を含めて任せやすい基盤”へと引き上げる存在であり、運用の標準化を進めたい企業にとって選びやすい選択肢です。[1]\n\n今回の「概要公開」は、GKE の役割をあらためて整理し、Google Cloud のマネージド Kubernetes を基盤として捉え直す動きと読めます。特に、コンテナ基盤ではバージョン更新の追従が継続課題になりやすいため、自動アップグレードを明示することは、安定運用と機能追従の両立を重視するユーザーにとって分かりやすい訴求です。[1] AWS や Azure も含めてクラウド各社がマネージド基盤の利便性を競う中で、GKE は“管理をどこまで任せられるか”を前面に出し、コンテナ運用の選択肢を強化していると言えます。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "GKE の概要 | Google Kubernetes Engine (GKE)",
+              "url": "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview?hl=ja",
+              "source": "Google Cloud"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "cloud",
+          "title_highlights": [
+            "GKE",
+            "Google Cloud"
+          ],
+          "three_lines_highlights": [
+            "GKE",
+            "Kubernetes",
+            "Google Cloud"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "AWS・Azure・GCPで進む「エージェント実行基盤」競争、AIの焦点はステートフル運用へ",
+          "summary_ja": "生成AIの競争軸は、モデルの性能だけでなく、会話の文脈を保持しながら動くAIエージェントをどこで、どう安全に動かすかへ移っています。NavanのRoberto Milev氏は、エージェントは本質的にステートフルであり、従来のAPIサービスやマイクロサービスの作法とは合わないと指摘します。AWS、GCP、Azureはいずれも関連機能を出していますが、今後は「エージェントを動かすクラウド基盤」の使い勝手が差別化要因になりそうです。",
+          "summary_en": "The center of competition in generative AI is shifting from model quality to where and how stateful AI agents can be run safely. Roberto Milev of Navan argues that agents are inherently stateful and do not fit the operating model of traditional API services or microservices. AWS, GCP, and Azure have all shipped related capabilities, and the ease of running agents on cloud infrastructure is becoming a key differentiator.",
+          "three_lines": [
+            "AIエージェントの基盤競争が本格化する。",
+            "会話と記憶を持つ運用が焦点になる。",
+            "AWS、Azure、GCPの差が問われる。"
+          ],
+          "body_ja": "AIエージェントをめぐるクラウド競争は、モデルの賢さだけでは決着しなくなってきた。NavanのRoberto Milev氏は、2015年のマイクロサービス拡大期になぞらえつつ、いまのエージェントは「stateful」であり、会話を保持し、文脈を覚え、世界のモデルを段階的に作る存在だと整理する。[1][2]\n\nこの見方の重要点は、エージェントの難しさが推論そのものより、実行基盤にあることだ。従来のマイクロサービスは「statelessに拡張する」発想で作られてきたが、エージェントは継続セッション、分離された実行環境、そして標準的なAPIサービスとは噛み合わないライフサイクルを必要とする。[1][2]\n\nそのため、AWS、GCP、Azureの各クラウドが関連機能を次々に出していることは、単なる周辺機能の追加ではない。背景にあるのは、AIアプリの主役がチャットUIから、記憶と状態を持つ自律的な実行体へ移りつつあるという構造変化だ。クラウド各社にとっては、GPUやモデル提供だけでなく、エージェントを安全に常駐させ、状態を扱い、複数ステップの作業を回せるかが競争軸になる。[1][2]\n\n特に注目すべきは、クラウド戦略が「AIモデルを呼び出す場所」から「AIが働き続ける場所」へ変わる点だ。エージェントは一回の応答で完結しないため、セッション管理、隔離、状態保持、再開処理など、運用の設計がそのまま製品価値になる。つまり今後は、どのクラウドが最も高性能なモデルを持つかより、どのクラウドが最も自然にエージェントを実運用へ載せられるかが、導入判断を左右しやすくなる。[1][2]\n\n2015年のマイクロサービスが「いかに小さく分けて、どう水平に伸ばすか」の競争を生んだように、2026年のAIインフラは「いかに状態を持つエージェントを安全に回し続けるか」の競争に入った。AWS・Azure・GCPの比較が進むほど、クラウドの評価軸は従来のサーバー管理から、AIエージェントのライフサイクル管理へと移っていくだろう。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Agents Are Where Microservices Were in 2015 — Roberto Milev & Uday Kanagala, Navan｜AI Engineer",
+              "url": "https://finance.biggo.com/podcast/288ffd87c30147ec",
+              "source": "AI Engineer"
+            },
+            {
+              "id": 2,
+              "title": "Navan's Roberto Milev: AI Agents Today Are Where Microservices Were in 2015 — BigGo Finance",
+              "url": "https://finance.biggo.com/news/288ffd87c30147ec",
+              "source": "BigGo Finance"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "Azure",
+            "GCP",
+            "AIエージェント"
+          ],
+          "three_lines_highlights": [
+            "AIエージェント",
+            "stateful",
+            "AWS・Azure・GCP"
+          ],
+          "id": "cloud-2"
+        }
+      ],
+      "summary": "本日のクラウド分野では、Google Cloud の GKE 再整理に見られるように、Kubernetes などの基盤運用をより自動化・標準化していく流れが強まっています。あわせて、AI の中心はモデル単体の性能競争から、状態を保持しながら安全に動くエージェントをどのクラウド上で実行・管理するかという「実行基盤」の競争へ移りつつあります。つまり、クラウドは単なるインフラ提供から、更新運用の省力化と AI ワークロードの実行しやすさを両立する“運用基盤”としての価値が一段と問われています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "AI駆動開発のセキュリティリスクを実事件ベースで整理、5大リスクと9項目チェックリストを提示",
+          "summary_ja": "Claude CodeやCursor、GitHub Copilot、LangChainのようなAI開発ツールが普及する一方、開発現場では「速く作れること」と「安全に作れること」の両立が課題になっています。本件は、実際の事件や事故を手がかりに5つの主要リスクを整理し、開発者が確認すべき9項目のチェックリストへ落とし込んだ点がポイントです。さらに、採用や開発体制の可視化を進める企業事例も踏まえると、AI活用はツール導入だけでなく運用設計まで含めて問われる段階に入っています。",
+          "summary_en": "AI-assisted development tools such as Claude Code, Cursor, GitHub Copilot, and LangChain are accelerating software delivery, but security governance is becoming equally important. This article organizes five major risks based on real incidents and turns them into a nine-item checklist for developers. It also suggests that transparency in hiring and execution, as seen in company pitch materials, is part of the broader operational discipline required for safe AI adoption.",
+          "three_lines": [
+            "実事件ベースで5大リスクを整理する。",
+            "開発者向けに9項目チェックを提示する。",
+            "AI導入は運用設計まで見直して進める。"
+          ],
+          "body_ja": "AI駆動開発は、Claude CodeやCursor、GitHub Copilot、LangChainのようなツールやフレームワークの登場で一気に身近になりました。コード生成、テスト作成、実装補助、エージェント化された作業分担まで、開発のスピードは確実に上がっています。一方で、速さの裏側では、設計ミスや権限設定の甘さ、生成物の検証不足がそのまま事故につながるリスクも増しています。こうした状況を受け、2026年版では実事件を踏まえてAI駆動開発のセキュリティリスクを整理し、現場で使える形に落とし込む動きが目立ちます。[1]\n\n今回のポイントは、抽象的な注意喚起ではなく、起きた事象からリスクを類型化していることです。AIが生成したコードや提案をそのまま採用するだけでは、意図しない実装や不要な依存、レビュー漏れが入り込みやすくなります。とくに開発者ツールが「考える」「書く」「つなぐ」を肩代わりするほど、入力データ、接続先、権限、ログ、成果物の各段階で確認を挟まないと、被害が広がりやすい構造になります。だからこそ、5つのリスクと9項目のチェックリストという形で整理する意義があります。[1]\n\n現場への示唆としては、AIを使うかどうかではなく、どこまでを自動化し、どこからを人が承認するのかを明確にすることです。たとえば、生成コードの静的解析、秘密情報の混入検査、依存関係のレビュー、エージェントに与える権限の最小化などは、AI開発の基本動作に近づいています。開発速度を上げるほど、責任の境界線をはっきりさせる必要がある、というのがこのテーマの本質でしょう。[1]\n\nまた、AI活用を前提にした企業の情報発信のあり方にも注目です。採用ピッチ資料の事例では、Ubieが職種ごとに資料を分けて公開し、うるるがITやAIを活用したDX推進を打ち出すなど、事業や職種の情報を見える化する動きが紹介されています。これは採用広報の話に見えますが、実際には「何をどう進めているか」を外部に示す姿勢そのものが、AI導入後の運用透明性にもつながります。[2]\n\nAI開発ツールは、今後もClaude Code、Cursor、GitHub Copilot、LangChainのような実装支援の拡張が続くはずです。ただし、機能が増えるほど、開発者は便利さの恩恵だけでなく、接続範囲、データ取り扱い、承認フローまで含めて管理する必要があります。2026年版の整理が示すのは、AIを使う開発では「作れること」以上に「守れること」が競争力になる、という現実です。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "はてなアンテナ - ISDNのアンテナ",
+              "url": "https://a.hatena.ne.jp/ISDN?sa=U&ei=nSkUU4m-JcHpoATzy4KgDA&ved=0CDUQFjAF&usg=AFQjCNGSGuCp-C6Q7HnvaQMEp8qInT468g",
+              "source": "検索結果抜粋"
+            },
+            {
+              "id": 2,
+              "title": "採用ピッチ資料の事例160選【業界別・2026年8月版】",
+              "url": "https://www.hear.co.jp/recruit/saiyoupitch-100sen",
+              "source": "検索結果抜粋"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "Cursor",
+            "GitHub Copilot",
+            "LangChain",
+            "2026"
+          ],
+          "three_lines_highlights": [
+            "5大リスク",
+            "9項目",
+            "AI開発"
+          ],
+          "id": "devtools-1"
+        }
+      ],
+      "summary": "AI駆動開発では、Claude CodeやCursor、GitHub Copilot、LangChainなどの普及で開発効率が高まる一方、実事件を踏まえたセキュリティリスクの整理が進み、「速さ」と「安全性」を両立する運用設計の重要性が強く意識される流れが見えています。特に、5大リスクと9項目チェックリストのように、導入後の監査・権限管理・検証体制まで含めて具体化する動きが目立ち、AI活用はツール選定から組織的なガバナンスへと論点が移っています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "欧州、390百万ユーロでAI計算基盤を増強　Bull発注で主権クラウド整備が前進",
+          "summary_ja": "欧州がBull向けの新たなAIスーパーコンピューティング案件を通じ、約3.9億ユーロ規模で計算基盤を拡張する。Reuters報道によれば、LUMI-AIやEuroHPCの流れの延長線上で、AIの学習・推論に使う欧州内の計算力を厚くし、主権クラウド/AIインフラの整備を加速させる狙いがある。",
+          "summary_en": "Europe is expanding its AI compute base by roughly €390 million through a new Bull-related supercomputing order. Reuters reports the move builds on efforts such as LUMI-AI and EuroHPC funding to strengthen Europe-based capacity for AI training and inference, accelerating sovereign cloud and AI infrastructure plans.",
+          "three_lines": [
+            "欧州はBull発注でAI計算力を拡張する。",
+            "LUMI-AI軸に学習・推論基盤を強化する。",
+            "主権クラウド整備がEUで一段と進む。"
+          ],
+          "body_ja": "欧州がAIインフラの主導権を自前で確保しようとする動きが、再び前に進んだ。Reuters報道を元にした今回の案件では、Bull関連の発注を通じて約3.9億ユーロ規模でAIスーパーコンピューティング網を拡張し、欧州内の計算資源を厚くする。[1]\n\n注目点は単なるサーバー増設ではない。検索結果の見出しや抜粋からは、この案件が「AI training and inference」に対応する計算基盤の整備であり、LUMI-AIやEuroHPC fundingの文脈に連なるものだと分かる。つまり、研究機関や企業がAIモデルを学習させ、運用時の推論まで欧州域内で回せるようにする狙いがある。[1]\n\n背景には、欧州がAI時代の要所を外部依存しすぎないようにする政策的な意図がある。主権クラウドや主権AIインフラの議論は、規制対応だけでなく、計算資源・データ・運用の管理権を欧州内に置くという意味合いが強い。今回の拡張は、その考え方を実装へ移す一歩といえる。[1]\n\nまた、見出しにあるAMD AI chipsという手がかりからも分かる通り、欧州の基盤強化は単独の政策ではなく、半導体やクラウド供給網を含む産業連携の中で進んでいる。EU AI Actのような規制整備が進むほど、データ主権や説明責任を担保しやすい計算基盤への需要は高まる。今回の案件は、その需要に応えるインフラ投資として位置づけられる。[1]\n\n要するに、欧州はAI競争を「モデル開発」だけでなく「計算資源の確保」から捉え直している。Bull発注による390百万ユーロ規模の拡張は、欧州のAI戦略が研究用途から実運用へ、そして主権インフラ整備へと広がっていることを示すシグナルだ。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Europe Invests €388 Million in AI Supercomputing",
+              "url": "https://cio.economictimes.indiatimes.com/news/data-center/europe-expands-ai-supercomputing-network-with-388-million-lumi-ai-system/133646605",
+              "source": "Reuters via The Economic Times CIO"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "global",
+          "title_highlights": [
+            "Bull",
+            "390百万ユーロ",
+            "LUMI-AI"
+          ],
+          "three_lines_highlights": [
+            "Bull",
+            "LUMI-AI",
+            "主権クラウド"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "EU、AIと生物学研究の連携を本格化へ　戦略的調整を提言",
+          "summary_ja": "EUでAIを生物学研究に活用する動きが、分野横断の戦略調整を要する段階に入った。データの不足や人材面の課題を踏まえ、研究・産業・政策をつなぐ設計が焦点になっている。",
+          "summary_en": "The EU is moving toward more coordinated use of AI in biology research. The discussion now centers on closing data gaps and securing the talent needed to make that strategy work.",
+          "three_lines": [
+            "EUはAI×生物学の連携を強化する。",
+            "データ不足と人材確保が焦点となる。",
+            "研究と政策の戦略調整が求められる。"
+          ],
+          "body_ja": "EUでは、AIを生物学研究にどう組み込むかが、単なる技術導入ではなく戦略課題として扱われ始めている。Research Professional Newsは、AIの生物学への利用には「strategic coordination」が必要だとするEU側の問題意識を伝えており、研究分野ごとに個別最適で進めるのではなく、横断的に整える必要があることを示している[1]。\n\n今回の論点は、AIモデルの精度競争そのものより、研究に使えるデータをどう確保し、どう連携させるかにある。生物学は実験条件やデータ形式が多様で、AIの学習基盤をそろえにくい。だからこそEUは、研究機関や資金提供者、政策当局の足並みをそろえ、データの断片化を放置しない設計を急ぐ必要がある、という読み方ができる[1]。\n\nもう一つの焦点は人材だ。AIと生命科学の両方に通じた人材は限られ、研究現場だけで完結する取り組みでは継続性が弱い。EUが本格化させようとしているのは、研究テーマの設定だけでなく、教育・育成、共同研究、資金配分を含むエコシステム全体の調整だといえる[1]。\n\n欧米のAI戦略を広く見ると、基盤モデルや計算資源の競争に注目が集まりやすい一方、今回のようなテーマは「AIをどの産業・学術領域で実装するか」という第二段階の競争を映している。EUが生物学研究を先行領域の一つとして整理できるかどうかは、AI規制の整備だけでなく、研究の成果を社会実装へつなげる推進力を持てるかにかかっている[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Use of AI for biology ‘requires strategic coordination’ from EU - Research Professional News",
+              "url": "https://www.researchprofessionalnews.com/rr-news-europe-innovation-2026-8-use-of-ai-for-biology-requires-strategic-coordination-from-eu",
+              "source": "Research Professional News"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "global",
+          "title_highlights": [
+            "AI",
+            "EU"
+          ],
+          "three_lines_highlights": [
+            "AI",
+            "データ",
+            "人材"
+          ],
+          "id": "global-2"
+        },
+        {
+          "title": "TechBBQで再燃した欧州AIの論点は「誰が制御するのか」",
+          "summary_ja": "コペンハーゲンのTechBBQでは、欧州AIをめぐる議論が「誰が実際にコントロールするのか」という一点に収れんした。投資家と創業者は、AIの性能競争だけでなく、主権、支配権、そして欧州がどこまで自前で握れるのかを改めて問い直している。[1][2]",
+          "summary_en": "At TechBBQ in Copenhagen, Europe’s AI debate converged on one question: who is actually in control? Investors and founders revisited not only model competition, but also sovereignty, control, and how much of AI Europe can truly keep in-house.[1][2]",
+          "three_lines": [
+            "欧州AIの主権論が再び前面に出た。",
+            "TechBBQで支配権の所在が問われた。",
+            "創業者と投資家が制御を議論した。"
+          ],
+          "body_ja": "デンマーク・コペンハーゲンで開かれたTechBBQでは、欧州のAI議論が「誰が実際に制御しているのか」という問いに何度も戻っていった。[1][2] これは単なる技術トレンドの話ではなく、欧州がAIをどこまで自前で持ち、どこを外部に委ねるのかという、主権と支配権の問題として受け止められている。 \n\nTechCrunchの報道では、会場のAI会話がこの“who’s actually in control”へ繰り返し収束したことが強調されている。[1] UA.NEWSも同じイベントを取り上げ、欧州のAIコントロールがカンファレンスの中心テーマになったと伝えた。[2] 2つの報道を重ねると、議論の焦点はモデル性能や導入スピードだけではなく、意思決定の主導権を欧州が確保できるのかという点にあることが見えてくる。 \n\nこの流れは、欧州のAI戦略が「利用する側」から「統制する側」へ移れるのか、という問いにもつながる。規制面ではEU AI Actのような枠組みが存在感を増す一方で、実際の運用や基盤技術、資本の源泉が域外に偏れば、形式的な規制だけでは支配権を握れない。TechBBQで主権が語られたのは、まさにその現実を踏まえた危機感の表れだと言える。[1][2] \n\nまた、会場ではStability AIの共同創業者でIntelligent InternetのEmad Mostaqueがパネルに登壇したことも報じられた。[1][2] 生成AIの次の段階として、エージェントが働く“agentic workforce”のような構想が語られるなかで、誰がその労働力を設計し、制御し、利益配分を決めるのかという論点は一段と重みを増す。欧州の投資家や創業者がいま問うているのは、AIを作れるかではなく、AIのルールと権限を誰が握るのか、ということだ。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+              "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 2,
+              "title": "Europe’s control over AI discussed at TechBBQ in Copenhagen",
+              "url": "https://ua.news/en/technologies/na-techbbq-u-kopengageni-obgovorili-kontrol-evropi-nad-shi",
+              "source": "UA.NEWS"
+            }
+          ],
+          "published_date": "2026-09-01",
+          "category": "global",
+          "title_highlights": [
+            "control",
+            "TechBBQ"
+          ],
+          "three_lines_highlights": [
+            "主権",
+            "TechBBQ",
+            "制御"
+          ],
+          "id": "global-3"
+        }
+      ],
+      "summary": "欧州のAI政策・産業は、単なる性能向上競争から、計算資源・データ・制御権を域内でどう確保するかという「主権AI」路線へと明確に軸足を移している。390百万ユーロ規模の計算基盤増強やEUのAI×生物学連携強化は、そのための基盤整備と研究実装を同時に進める動きであり、TechBBQでも焦点は「誰がAIを支配するのか」という統治の問題に集約されている。"
+    }
+  ]
+}

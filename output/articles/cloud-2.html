@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AWS・Azure・GCPで進む「エージェント実行基盤」競争、AIの焦点はステートフル運用へ | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-09-01</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#3654D626">AWS</mark>・<mark style="background:#3654D626">Azure</mark>・<mark style="background:#3654D626">GCP</mark>で進む「エージェント実行基盤」競争、AIの焦点はステートフル運用へ</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#3654D626">AIエージェント</mark>の基盤競争が本格化する。</li><li>会話と記憶を持つ運用が焦点になる。</li><li>AWS、Azure、GCPの差が問われる。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">生成AIの競争軸は、モデルの性能だけでなく、会話の文脈を保持しながら動くAIエージェントをどこで、どう安全に動かすかへ移っています。NavanのRoberto Milev氏は、エージェントは本質的にステートフルであり、従来のAPIサービスやマイクロサービスの作法とは合わないと指摘します。AWS、GCP、Azureはいずれも関連機能を出していますが、今後は「エージェントを動かすクラウド基盤」の使い勝手が差別化要因になりそうです。</p>
+    <p class="sum-en">The center of competition in generative AI is shifting from model quality to where and how stateful AI agents can be run safely. Roberto Milev of Navan argues that agents are inherently stateful and do not fit the operating model of traditional API services or microservices. AWS, GCP, and Azure have all shipped related capabilities, and the ease of running agents on cloud infrastructure is becoming a key differentiator.</p>
+  </div>
+
+  <div class="article-body"><p>AIエージェントをめぐるクラウド競争は、モデルの賢さだけでは決着しなくなってきた。NavanのRoberto Milev氏は、2015年のマイクロサービス拡大期になぞらえつつ、いまのエージェントは「stateful」であり、会話を保持し、文脈を覚え、世界のモデルを段階的に作る存在だと整理する。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p>
+<p>この見方の重要点は、エージェントの難しさが推論そのものより、実行基盤にあることだ。従来のマイクロサービスは「statelessに拡張する」発想で作られてきたが、エージェントは継続セッション、分離された実行環境、そして標準的なAPIサービスとは噛み合わないライフサイクルを必要とする。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p>
+<p>そのため、AWS、GCP、Azureの各クラウドが関連機能を次々に出していることは、単なる周辺機能の追加ではない。背景にあるのは、AIアプリの主役がチャットUIから、記憶と状態を持つ自律的な実行体へ移りつつあるという構造変化だ。クラウド各社にとっては、GPUやモデル提供だけでなく、エージェントを安全に常駐させ、状態を扱い、複数ステップの作業を回せるかが競争軸になる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p>
+<p>特に注目すべきは、クラウド戦略が「AIモデルを呼び出す場所」から「AIが働き続ける場所」へ変わる点だ。エージェントは一回の応答で完結しないため、セッション管理、隔離、状態保持、再開処理など、運用の設計がそのまま製品価値になる。つまり今後は、どのクラウドが最も高性能なモデルを持つかより、どのクラウドが最も自然にエージェントを実運用へ載せられるかが、導入判断を左右しやすくなる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p>
+<p>2015年のマイクロサービスが「いかに小さく分けて、どう水平に伸ばすか」の競争を生んだように、2026年のAIインフラは「いかに状態を持つエージェントを安全に回し続けるか」の競争に入った。AWS・Azure・GCPの比較が進むほど、クラウドの評価軸は従来のサーバー管理から、AIエージェントのライフサイクル管理へと移っていくだろう。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://finance.biggo.com/podcast/288ffd87c30147ec" target="_blank" rel="noopener noreferrer">Agents Are Where Microservices Were in 2015 — Roberto Milev &amp; Uday Kanagala, Navan｜AI Engineer</a>
+        <span class="ref-source">— AI Engineer</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://finance.biggo.com/news/288ffd87c30147ec" target="_blank" rel="noopener noreferrer">Navan&#39;s Roberto Milev: AI Agents Today Are Where Microservices Were in 2015 — BigGo Finance</a>
+        <span class="ref-source">— BigGo Finance</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
