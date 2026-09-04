@@ -1,0 +1,583 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T00:51:33.865850+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "内閣府、経済安保予算5割増を要求　軍民両用技術の支援拡大へ",
+          "summary_ja": "内閣府が2027年度予算の概算要求で、経済安全保障関連の予算を大幅に積み増す方向で調整している。日経の報道では、軍民両用技術の支援拡大や、長期・短期の両面で技術開発を支える制度改革が焦点になっている。[1][4]",
+          "summary_en": "Japan's Cabinet Office is seeking a roughly 50% increase in its economic security budget request for FY2027. The focus is on expanding support for dual-use technologies and reforming funding schemes to better back long-term and short-term R&D, while also aiming to attract private capital.[1][4]",
+          "three_lines": [
+            "経済安保予算を5割増で要求した。",
+            "軍民両用技術への支援拡大を狙う。",
+            "長期支援改革で民間資金も呼び込む。"
+          ],
+          "body_ja": "内閣府が2027年度予算の概算要求で、経済安全保障関連の予算を大きく上積みする方針を打ち出した。日経の報道では、要求額は前年度から5割増となる見込みで、軍民両用技術の支援を広げることが主眼とされる。[1]\n\nこの動きは、単なる補助金拡大ではない。別報道では、内閣府が経済安全保障の技術開発支援について、5年を超える長期支援や短期集中型の支援を柔軟に使い分ける制度改革を進め、民間資金を呼び込む構えだと伝えられている。[4] つまり、政府が全額を負担するのではなく、事業化まで時間のかかる技術と、早期に成果を求める技術の双方に対応できる資金の設計へ移るということだ。\n\n今回の注目点は、経済安保が「守り」の政策にとどまらず、産業政策としての色彩を強めていることにある。軍民両用技術は、防衛用途だけでなく、宇宙、材料、ロボティクス、通信、AIなど幅広い分野に波及しうる。支援の厚みが増せば、国産技術の育成やサプライチェーンの強化、さらには海外依存の高い領域での代替手段の確保につながる可能性がある。[1][4]\n\nすでに内閣府は、AIの産業利用促進に向けて1000億円規模の予算を打ち出すなど、先端技術への支援姿勢を強めてきた。[2][3] また、経済安保の技術開発支援を長期化・柔軟化する方針も示されており、今回の予算要求はその延長線上にあるとみられる。[4] 企業側から見れば、AIや関連基盤技術の開発は、研究費の確保だけでなく、政府の支援枠や制度設計をどう取り込むかが競争力を左右する局面に入ってきた。\n\n今後は、どの分野が優先支援の対象になるのか、また民間投資をどこまで呼び込めるかが焦点になる。経済安保を軸にした予算拡大は、日本の技術政策が「研究支援」から「実装と自立性の確保」へと比重を移しつつあることを示している。[1][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "内閣府、経済安保予算5割増を要求　軍民両用技術の支援拡大へ - 日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOUA275UU0X20C26A8000000",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 2,
+              "title": "AIの産業利用促進へ1000億円　内閣府概算要求 - 日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGKKZO98354390U6A820C2EP0000",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 3,
+              "title": "AIの産業利用促進へ1000億円 内閣府の概算要求、活用リスクを評価 - 日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOUA246MW0U6A820C2000000",
+              "source": "日本経済新聞"
+            },
+            {
+              "id": 4,
+              "title": "南鳥島レアアース採掘に数千億円視野 内閣府、長期支援へ改革方針 - 日本経済新聞",
+              "url": "https://www.nikkei.com/article/DGXZQOUA2456D0U6A820C2000000",
+              "source": "日本経済新聞"
+            }
+          ],
+          "published_date": "2026-09-04",
+          "category": "japan",
+          "title_highlights": [
+            "5割増",
+            "軍民両用",
+            "1000億円"
+          ],
+          "three_lines_highlights": [
+            "5割増",
+            "軍民両用",
+            "民間資金"
+          ],
+          "id": "japan-1"
+        }
+      ],
+      "summary": "日本国内では、経済安全保障をめぐる政策強化が一段と進み、内閣府が関連予算を大幅増額する方向で調整しています。軍民両用技術の支援拡大や、短期・長期の両面で技術開発を下支えする制度整備が焦点となっており、産業政策と安全保障を一体で進める流れが鮮明です。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Anthropic、最上位AI「Claude Fable 5.1」「Mythos 5.1」発表　同一基盤で安全対策を分けた2系統",
+          "summary_ja": "Anthropicは2026年9月1日、最上位モデルClaude Fable 5.1とClaude Mythos 5.1を発表した。両者は同一の基盤モデルを共有しつつ、安全対策の設定を変えて提供されるのが特徴で、Fable 5.1は広く利用可能、Mythos 5.1はより厳格な扱いとなる。[1][5] 価格面ではcache-readの大幅値下げが報じられ、開発者向けの実用性も強く押し出された。[2][3]",
+          "summary_en": "Anthropic announced Claude Fable 5.1 and Claude Mythos 5.1 on September 1, 2026. The two flagship models share the same underlying weights but differ in safeguard settings, with Fable 5.1 broadly available and Mythos 5.1 handled more restrictively.[1][5] Reports also say Anthropic cut cache-read pricing sharply, making the launch significant for both capability and cost.[2][3]",
+          "three_lines": [
+            "Fable 5.1とMythos 5.1を同時発表",
+            "同一基盤でも安全設定を分けて提供",
+            "cache-read価格を75%引き下げ"
+          ],
+          "body_ja": "Anthropicが2026年9月1日に発表したClaude Fable 5.1とClaude Mythos 5.1は、同社の現行ラインアップで最上位に位置づけられる新モデルだ。[1][5] 重要なのは、2つが別々の新基盤ではなく、同じ重みを共有しながら、安全対策の設定だけを変えている点にある。[1][8]\n\nこの設計は、性能と統制を切り分けて運用したいAnthropicの意図を示している。公開情報では、Fable 5.1は一般ユーザー向けに広く提供される一方、Mythos 5.1はより限定的な扱いとなっている。[1][8] つまり、モデルの中身は共通でも、提供ポリシーを変えることで用途別に使い分ける戦略だ。[1][5]\n\n能力面では、Anthropic自身がFable 5.1とMythos 5.1を「coding and knowledge work」のための最も先進的なモデルと位置づけている。[5] 複数の報道では、コーディング、研究、長時間にわたる問題解決での強さが強調されており、従来モデルの延長ではなく、エージェント型タスクにより踏み込んだ世代として扱われている。[4][7][8] また、知識カットオフは2026年6月とされ、比較的新しい情報まで見込んだ知識作業への適性も示されている。[4]\n\n一方で、今回の発表は性能向上だけでは終わらない。VentureBeatやTech Insider系の報道では、cache-read価格が75%引き下げられたことが大きなニュースとして取り上げられた。[2][3] The Decoderも、コスト削減が最大45%に及ぶ可能性を指摘しており、推論性能の競争に加えて、実運用コストの改善を強く打ち出した格好だ。[8]\n\n安全対策も今回の見どころだ。ITProはFable 5.1向けに新しい安全策が導入されたと報じ、TNWは2026年8月2日以降のモデル出力に透かしや検出機構が関わる点を伝えている。[6][7] こうした動きは、AIの能力を引き上げるほど、出力の透明性や悪用対策の整備が欠かせないという現実を映している。[6][7]\n\n総じて、Claude Fable 5.1とMythos 5.1は、Anthropicが「高性能化」「価格競争力」「安全統制」を同時に進めるための象徴的なリリースと言える。[1][2][5] 生成AI市場が、単なるベンチマーク競争から、運用コストとガバナンスを含む総合競争へ移りつつあることを示す発表でもある。[2][6][8]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claude Fable 5.1 and Mythos 5.1: Anthropic's New AI Frontier",
+              "url": "https://www.intelligentliving.co/claude-fable-mythos-5-1-anthropic",
+              "source": "Intelligent Living"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic Fable 5.1, Mythos 5.1 Cut Cache Cost 75%",
+              "url": "https://tech-insider.org/anthropic-claude-fable-5-1-mythos-5-1-launch-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads",
+              "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+              "source": "VentureBeat"
+            },
+            {
+              "id": 4,
+              "title": "Anthropic Releases Claude Fable 5.1 and Mythos ...",
+              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262145687-anthropic-claude-fable-mythos-performance-cache-reduction-tradingkey",
+              "source": "TradingKey"
+            },
+            {
+              "id": 5,
+              "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 \\ Anthropic \\ Anthropic",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+              "source": "Anthropic"
+            },
+            {
+              "id": 6,
+              "title": "Anthropic releases Claude Fable 5.1 and Mythos ...",
+              "url": "https://thenextweb.com/news/claude-fable-mythos-5-1-eu-ai-act-watermark-detection-api-private-preview",
+              "source": "The Next Web"
+            },
+            {
+              "id": 7,
+              "title": "Anthropic says Claude Fable 5.1 ‘sets a new standard for coding, knowledge work, and long-running problem-solving tasks’",
+              "url": "https://www.itpro.com/technology/artificial-intelligence/anthropic-says-claude-fable-5-1-sets-a-new-standard-for-coding-knowledge-work-and-long-running-problem-solving-tasks",
+              "source": "ITPro"
+            },
+            {
+              "id": 8,
+              "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
+              "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less",
+              "source": "The Decoder"
+            }
+          ],
+          "published_date": "2026-09-04",
+          "category": "models",
+          "title_highlights": [
+            "Fable 5.1",
+            "Mythos 5.1",
+            "75%"
+          ],
+          "three_lines_highlights": [
+            "Fable 5.1",
+            "Mythos 5.1",
+            "75%"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "OrcaRouterが主要フロンティアモデルを一括提供、Gemini 3.8 FlashやClaude Fable 5.1もAPI統合",
+          "summary_ja": "OrcaRouterは、Googleの「Gemini 3.8 Flash」、Alibabaの「Qwen3.8 Max」、Anthropicの「Claude Fable 5.1」というフロンティアモデルを、1つのOpenAI互換APIから扱えるようにした。3モデルはいずれも100万トークンの長文処理に対応し、料金は各プロバイダーの定価のまま手数料なしで利用できる。さらに、自動ルーティング機能により、用途に応じたモデル選定も任せられる。[1]",
+          "summary_en": "OrcaRouter now provides access to Google’s Gemini 3.8 Flash, Alibaba’s Qwen3.8 Max, and Anthropic’s Claude Fable 5.1 through a single OpenAI-compatible API. All three support 1 million tokens of long-context processing, are billed at the providers’ list prices without additional fees, and can be selected automatically via routing.[1]",
+          "three_lines": [
+            "OrcaRouterが3社の新モデルを統合提供する。[1]",
+            "3モデルとも100万トークンに対応する。[1]",
+            "定価課金のまま自動ルーティングも使える。[1]"
+          ],
+          "body_ja": "OrcaRouterが、主要AIベンダーの最新フロンティアモデルをまとめて使える窓口として存在感を強めている。今回提供が始まったのは、Googleの「Gemini 3.8 Flash」、Alibabaの「Qwen3.8 Max」、Anthropicの「Claude Fable 5.1」で、いずれも1つのOpenAI互換APIから利用できるという。[1]\n\n注目したいのは、単なる“対応モデルの追加”ではなく、企業や開発者が複数の最先端モデルを横断的に試しやすくした点だ。3モデルすべてが100万トークンの長文処理に対応しており、長い文書の要約、複雑な会話、コードや資料の大容量処理など、コンテキストを深く使う用途で比較・使い分けしやすい。[1]\n\n価格面でも特徴がある。OrcaRouter経由でも料金は各プロバイダーの定価のままで、追加手数料がかからないとしている。たとえば「Claude Fable 5.1」は入力10.00米ドル、出力50.00米ドルを100万トークンあたりで利用する想定だ。[1] 価格が上乗せされないことで、複数モデルを同じ条件で評価しやすく、コスト最適化の観点でも導入しやすい。\n\nまた、モデル選定を自動ルーティングの「orcarouter/auto」に任せられる点も実務向きだ。会話の難易度やタスク内容に応じて適切なモデルへ振り分けることで、精度とコストのバランスを取りやすくなる。フロンティアモデルの競争が激しくなるほど、個別モデルの性能差だけでなく、どう使い分けるかを支えるレイヤーの価値が高まる。OrcaRouterの今回の動きは、その代表例と言える。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "OrcaRouter、Google「Gemini 3.8 Flash」、Alibaba「Qwen3.8 Max」、Anthropic「Claude Fable 5.1」のフロンティアモデルを提供開始",
+              "url": "https://prtimes.jp/main/html/rd/p/000000078.000138449.html",
+              "source": "PR TIMES"
+            }
+          ],
+          "published_date": "2026-09-04",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 3.8 Flash",
+            "Qwen3.8 Max",
+            "Claude Fable 5.1"
+          ],
+          "three_lines_highlights": [
+            "3モデル",
+            "100万トークン",
+            "定価課金"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Metaが「Muse Spark 1.3」を発表、プログラミング性能でGPT-5.6 Solに迫る",
+          "summary_ja": "Metaは2026年9月2日に最新モデル「Muse Spark 1.3」を公開し、コード生成や長文コンテキスト処理で大きく性能を伸ばした。複数の報道によると、同モデルは一部ベンチマークでOpenAIのGPT-5.6 Solを上回り、Anthropicの上位モデルにも並ぶ水準に到達したという。[1][3][4][7]",
+          "summary_en": "Meta unveiled Muse Spark 1.3 on September 2, 2026, with notable gains in coding and long-context tasks. Multiple reports say it now rivals or beats top models from OpenAI and Anthropic on selected benchmarks.[1][3][4][7]",
+          "three_lines": [
+            "Muse Spark 1.3がコード性能を大きく引き上げた",
+            "一部ベンチマークでGPT-5.6 Sol超えを示した",
+            "Metaは更新を加速し競争軸を効率へ移した"
+          ],
+          "body_ja": "Metaが2026年9月2日に公開した「Muse Spark 1.3」は、同社のモデル群で4回目の更新にあたり、短期間で改良を重ねてきた流れの集大成として位置づけられている。報道では、公開版が主要な分析指標で高いスコアを示し、Anthropicの主力モデルに“届く距離”まで来たとされる。[1][3]\n\n今回の注目点は、単なる総合性能の更新ではなく、プログラミングとエージェント用途での実戦力が強調されていることだ。複数ソースは、Meta幹部がこのモデルについてOpenAIのGPT-5.6 Solをコード能力で上回り、AnthropicのClaude Fable 5.1と肩を並べると述べたと伝えている。[4][7] さらに、長い文脈を扱うテストやコーディング評価ではトップ級の結果が出たとの見方もある。[7]\n\n性能向上の裏側として、効率面の改善も重要だ。ある報道では、Muse Spark 1.3はトークン消費を25%削減しつつ、長時間タスクやエージェント処理での能力を伸ばしたとされる。[4][8] これは、より高性能なだけでなく、実運用でのコストや応答効率を意識した設計にMetaが舵を切っていることを示す。[4]\n\n市場環境の面では、今回の発表はかなり攻撃的なタイミングだった。報道によれば、Metaの公開はGoogleの新モデル発表の直後で、Anthropicの新モデル群の登場からも間もない時期に重なっており、いまの競争が“コーディングとエージェント性能”を軸にした三つ巴になっていることがうかがえる。[5] そのなかでMetaは、単に追随するのではなく、価格対性能や効率を前面に出して存在感を高めようとしている。[3][6]\n\n総じてMuse Spark 1.3は、Metaが生成AI競争で「追いかける側」から「主要プレイヤーの一角」へ移るための重要な一手だ。現時点で報じられているのはベンチマーク中心の評価だが、コード生成、長文処理、エージェント効率という実務寄りの指標で伸びを見せたことは、今後の製品競争に大きな意味を持つ。[1][4][7][8]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Muse Spark 1.3 Jumps 16 Points on DeepSWE: How Meta Training ...",
+              "url": "https://www.techtimes.com/articles/326417/20260903/muse-spark-13-jumps-16-points-deepswe-how-meta-training-loop-closed-gap.htm",
+              "source": "Tech Times"
+            },
+            {
+              "id": 2,
+              "title": "Meta Releases Muse Spark 1.3 to Challenge GPT-5.6 in the Coding ...",
+              "url": "https://startupfortune.com/meta-releases-muse-spark-13-to-challenge-gpt-56-in-the-coding-wars",
+              "source": "Startup Fortune"
+            },
+            {
+              "id": 3,
+              "title": "Meta Releases Muse Spark 1.3, Beats Opus 5, GPT Sol 5.6 On Some Benchmarks",
+              "url": "https://officechai.com/ai/muse-spark-1-3-benchmarks",
+              "source": "OfficeChai"
+            },
+            {
+              "id": 4,
+              "title": "Meta Unveils Its Most Powerful Model Yet, Muse Spark 1.3, with Coding Capabilities Surpassing GPT-5.6 Sol",
+              "url": "https://finance.biggo.com/news/2fefcab6-3089-4bc9-a92a-c71f7c51e99f",
+              "source": "BigGo Finance"
+            },
+            {
+              "id": 5,
+              "title": "Meta Muse Spark 1.3 Matches Opus 5 Power for Pennies",
+              "url": "https://www.intelligentliving.co/muse-spark-matches-opus-power-pennies",
+              "source": "Intelligent Living"
+            },
+            {
+              "id": 6,
+              "title": "Meta says Muse Spark 1.3 has frontier performance",
+              "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+              "source": "VentureBeat"
+            },
+            {
+              "id": 7,
+              "title": "Meta has announced 'Muse Spark 1.3,' finally achieving performance that catches up to the cutting edge models from Anthropic and OpenAI. - GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20260903-meta-muse-spark-1-3",
+              "source": "GIGAZINE"
+            },
+            {
+              "id": 8,
+              "title": "Muse Spark 1.3 Released: Meta Supercharges AI Agent Efficiency with New Performance Boosts",
+              "url": "https://eu.36kr.com/en/p/3967796330082819",
+              "source": "36Kr"
+            }
+          ],
+          "published_date": "2026-09-04",
+          "category": "models",
+          "title_highlights": [
+            "Muse Spark 1.3",
+            "GPT-5.6 Sol"
+          ],
+          "three_lines_highlights": [
+            "Muse Spark 1.3",
+            "GPT-5.6 Sol",
+            "25%"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "本日は、主要フロンティアモデルの更新が相次ぎ、性能競争に加えて「安全性の出し分け」と「実運用しやすさ」が一段と重視される流れが鮮明です。Anthropicは同一基盤から安全設定の異なる2系統を出し、Metaはコード性能と長文処理を強化した新モデルで追撃、同時にOrcaRouterのような統合APIも広がり、開発者が複数モデルを横断的に使い分ける時代が進んでいます。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "Microsoft Foundryの新UIでFAQエージェントを検証、MCP経由でAWS/Azure/GCP公式ドキュメントを参照する実践例が登場",
+          "summary_ja": "MicrosoftのAI開発基盤であるFoundryをめぐり、エージェント活用の実践が一段と現実味を帯びています。関連する報道では、MicrosoftがAzureの収益を四半期ベースで開示し始めるなど、クラウド事業の見せ方を再設計していることも明らかになりました。さらにMCPの採用は、外部データや社内データをAIエージェントが扱うための“つなぎ方”として、クラウド各社の公式情報を横断参照する運用を後押ししています。[1][7][8]",
+          "summary_en": "Microsoft’s Foundry and Azure are moving toward a more agent-centric cloud story. New MCP-based examples show how AI agents can be connected to governed data and official documentation across cloud vendors, while Microsoft’s latest financial reporting changes make Azure’s scale more visible.[1][7][8]",
+          "three_lines": [
+            "Foundry新UIでFAQエージェントを試せる。",
+            "MCP接続で公式ドキュメントを横断参照する。",
+            "Azure売上開示でMicrosoftの姿が見えやすくなる。"
+          ],
+          "body_ja": "Microsoftのクラウド戦略を読むうえで、2026年9月の注目点は「AIエージェント」と「Azureの見せ方」の2つです。前者では、BeelineがMCPを組み込んだエージェントAIを打ち出し、AIエージェントやアシスタントが“管理された接続”を通じて業務データに働きかける構図が示されました。[1] こうした流れは、Microsoft Foundryの新しいUIでFAQエージェントを検証し、MCP経由でAWS・Azure・GCPの公式ドキュメントを参照する、といった実践例と相性が良いといえます。要するに、AIに「何かを答えさせる」段階から、「どの文書を根拠に答えさせるか」を設計する段階へ進んでいるわけです。[1]\n\n一方でMicrosoft自身は、Azureの位置づけをより明確にし始めています。The VergeとCNBC、Reutersは、Microsoftが財務報告の区分を見直し、Azureの四半期売上をドル建てで開示すると報じました。[3][5][6] Bloombergも、直近四半期のAzure売上が294億ドル規模に伸びたと伝えています。[4] これは単なる会計ルール変更ではなく、Azureを「消費ベースのインフラ事業」としてよりはっきり示す動きでもあります。[2][5] これまで投資家から見えにくかったクラウドの実力を、Microsoftが数字で語り直し始めた、というのが大きな意味合いです。[3][4][6]\n\nこの2つを重ねて見ると、Microsoftの狙いが見えてきます。1つは、AIエージェントが外部の公式情報や社内データを安全に扱えるようにする“接続の標準化”。もう1つは、AzureをAI時代の基盤として、より直接的な数字で示すことです。[1][2][5] 競合するAWSやGCPもAI関連クラウド機能を強化していますが、今後はモデルの性能だけでなく、どれだけ信頼できる情報源につながり、運用できるかが差別化の軸になりそうです。Foundryの新UIでのFAQエージェント検証は、その変化を象徴する動きと言えるでしょう。[1][5][6]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Beeline Pioneers Agentic AI for the Extended Workforce with Beeline MCP",
+              "url": "https://www.prnewswire.com/news-releases/beeline-pioneers-agentic-ai-for-the-extended-workforce-with-beeline-mcp-302867169.html",
+              "source": "PR Newswire"
+            },
+            {
+              "id": 2,
+              "title": "Microsoft finally puts a dollar figure on Azure, and narrows what Azure means",
+              "url": "https://thenextweb.com/news/microsoft-azure-quarterly-revenue-disclosure-agents-and-infra-segment-dma-gatekeeper-designation",
+              "source": "The Next Web"
+            },
+            {
+              "id": 3,
+              "title": "Microsoft discloses Azure revenue as part of major financial reporting changes",
+              "url": "https://www.theverge.com/news/989102/microsoft-earnings-changes-azure-revenue",
+              "source": "The Verge"
+            },
+            {
+              "id": 4,
+              "title": "Microsoft to Disclose Azure Sales After Years of Investor Gripes",
+              "url": "https://www.bloomberg.com/news/articles/2026-09-02/microsoft-to-disclose-azure-sales-after-years-of-investor-gripes",
+              "source": "Bloomberg"
+            },
+            {
+              "id": 5,
+              "title": "Microsoft to start disclosing Azure quarterly revenue as company consolidates business units",
+              "url": "https://www.cnbc.com/2026/09/02/microsoft-to-disclose-azure-revenue-as-part-of-segment-changes.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 6,
+              "title": "Microsoft reveals Azure cloud sales in financial reporting shift",
+              "url": "https://www.reuters.com/business/retail-consumer/microsoft-reveal-azure-cloud-sales-financial-reporting-shift-2026-09-02/",
+              "source": "Reuters"
+            }
+          ],
+          "published_date": "2026-09-04",
+          "category": "cloud",
+          "title_highlights": [
+            "Foundry",
+            "MCP",
+            "Azure"
+          ],
+          "three_lines_highlights": [
+            "Foundry",
+            "MCP",
+            "Azure"
+          ],
+          "id": "cloud-1"
+        }
+      ],
+      "summary": "クラウド分野では、Microsoft Foundryを軸にAIエージェントの実運用が一段進み、MCPを介してAWS・Azure・GCPの公式ドキュメントを横断参照するような“使える検証”が目立ち始めています。あわせてMicrosoftがAzure収益の開示方法を四半期ベースに変える動きもあり、クラウド各社は単なる基盤提供から、AI活用と事業の見え方を含めた戦略再設計へと軸足を移しつつあります。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "AnthropicがClaude Fable 5.1/ Mythos 5.1を投入、キャッシュ料金75%削減と企業向け新プライバシー保護も追加",
+          "summary_ja": "Anthropicは2026年9月1日、Claude Fable 5.1とClaude Mythos 5.1を発表し、キャッシュ関連コストの大幅な見直しと、企業向けの新しいプライバシー保護策を打ち出した。開発者ツールやagent用途では、価格・性能・ガバナンスを同時に再設計する動きとして注目される。",
+          "summary_en": "Anthropic announced Claude Fable 5.1 and Claude Mythos 5.1 on September 1, 2026, pairing a major cache-cost reduction with new enterprise privacy protections. The move matters for developer tools and agent workflows because it rebalances price, capability, and governance at the same time.",
+          "three_lines": [
+            "Claude Fable 5.1が登場し、コスト構造を見直した。",
+            "キャッシュ読み取り料金を75%下げ、利用負担を抑えた。",
+            "企業向け新保護で、プライバシー訴求を強めた。"
+          ],
+          "body_ja": "Anthropicは2026年9月1日、Claude Fable 5.1とClaude Mythos 5.1を公開した。今回の発表は単なるモデル更新ではなく、開発者向けの利用コストと企業向けの安心材料を同時に積み上げる構成になっている。とくにキャッシュ読み取り料金の75%削減は、長文コンテキストや反復呼び出しが多い開発ワークロードで効いてくるため、Claude Codeのようなコーディング支援やagent系の運用コストに直結しやすい。[1][2][7]\n\n複数の報道は、この2モデルをコード作成や知識作業向けの上位モデルとして位置づけている。モデル名や性能面の細部は各社で表現に差があるものの、共通しているのは「より高性能なモデル」と「より安い利用単価」をセットで示している点だ。これにより、Cursorのような開発支援IDEや、LangChainのようなagentフレームワークで、推論回数を増やしてもコストが膨らみにくい設計がしやすくなる。[2][4][6][7]\n\n一方でAnthropicは、企業利用の不安を和らげるための新しい保護策も追加した。Enterprise Frontier Safeguards（EFS）は段階的に提供される予定で、企業向けに「完全なプライバシー」に近い訴求を打ち出していると報じられている。さらに、Anthropic自身の説明では、特定の出力に対して検出用の透かしを入れる仕組みもあり、モデル由来コンテンツの扱いを巡る統制を強めていることがうかがえる。[1][3][8]\n\n今回の発表を開発者ツールの文脈で見ると、Anthropicは「高性能なモデルを安く使える」だけでなく、「企業が採用しやすい条件」を揃えにきたと読める。AI開発ツール市場では、モデル品質だけでなく、コスト、監査性、データ保護が導入判断を左右する。Claude Code、Cursor、GitHub Copilot、LangChainのような周辺エコシステムにとっても、今回の変更は単なるモデル更新ではなく、実運用の設計思想を変える材料になりそうだ。[1][2][6][7]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic’s September 1 Triple Release Is a $2 Trillion IPO Playbook",
+              "url": "https://forkast.news/anthropics-september-1-triple-release-is-a-2-trillion-ipo-playbook",
+              "source": "Forkast News"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic Fable 5.1, Mythos 5.1 Cut Cache Cost 75%",
+              "url": "https://tech-insider.org/anthropic-claude-fable-5-1-mythos-5-1-launch-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 3,
+              "title": "Claude Fable 5.1 Anti-Distillation: What Changed [2026]",
+              "url": "https://tech-insider.org/claude-fable-5-1-anti-distillation-mechanisms-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 4,
+              "title": "Anthropic Releases Claude Fable 5.1 and Mythos ...",
+              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262145687-anthropic-claude-fable-mythos-performance-cache-reduction-tradingkey",
+              "source": "TradingKey"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic's New Claude Fable 5.1 and Mythos 5.1 Update: What's New?",
+              "url": "https://www.blockchain-council.org/claude-ai/anthropics-new-claude-fable-5-1-and-mythos-5-1-update",
+              "source": "Blockchain Council"
+            },
+            {
+              "id": 6,
+              "title": "Anthropic AI Models Slash Costs by Up to 45% With Fable 5.1",
+              "url": "https://en.cryptonomist.ch/2026/09/02/anthropic-ai-models-claude-fable",
+              "source": "Cryptonomist"
+            },
+            {
+              "id": 7,
+              "title": "Anthropic releases new models, cuts agent costs",
+              "url": "https://www.axios.com/2026/09/01/anthropic-releases-new-models-cost-structures-and-safeguards",
+              "source": "Axios"
+            },
+            {
+              "id": 8,
+              "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 \\ Anthropic \\ Anthropic",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+              "source": "Anthropic"
+            }
+          ],
+          "published_date": "2026-09-04",
+          "category": "devtools",
+          "title_highlights": [
+            "Fable 5.1",
+            "Mythos 5.1",
+            "75%"
+          ],
+          "three_lines_highlights": [
+            "Fable 5.1",
+            "75%",
+            "EFS"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "OpenClaw 2.0公開、AIエージェント導入を簡素化し“multiplayer”共同開発を強化",
+          "summary_ja": "OpenClaw 2.0は、個人向けのAIハーネスをチーム導入しやすい形へ進化させた大型アップデートです。インストールやブラウザUI、メモリ、スキル、オートメーション、プラグイン、セキュリティ、共同作業機能まで広く見直され、企業利用を意識した構成が前面に出ています。[1][2][3][4]",
+          "summary_en": "OpenClaw 2.0 is a major update that makes the AI agent harness easier to deploy for teams and adds stronger collaborative “multiplayer” coding capabilities. The release overhauls installation, browser UI, memory, skills, automations, plugins, security, and collaboration, while also signaling a more enterprise-oriented direction.[1][2][3][4]",
+          "three_lines": [
+            "OpenClaw 2.0が導入を簡素化した。",
+            "共同開発向けmultiplayer機能を強化した。",
+            "企業利用を意識した構成へ進化した。"
+          ],
+          "body_ja": "OpenClaw 2.0が公開され、個人がローカルで使うAIエージェント用ハーネスから、組織全体で展開しやすい基盤へと性格を変えた。今回の更新は2026.8.1として案内され、インストール手順やブラウザUI、メモリ、スキル、オートメーション、プラグイン、セキュリティ、コラボレーション機能まで広く手が入っている。[1][2] つまり、単なる機能追加ではなく、導入のしやすさと運用のしやすさを同時に底上げするリリースだと言える。\n\n特に目を引くのは、共有型の“multiplayer”クラウドセッションだ。複数人で同じ作業文脈を共有しながらAIエージェントを使う方向が打ち出されており、個人の補助ツールというより、チーム開発の協働レイヤーに近づいている。[3] ブラウザアプリの再構築やセッション保存の移行も示されており、体験面と基盤面の両方を作り直した印象が強い。[3]\n\nこの更新が注目されるもう一つの理由は、企業導入を明確に意識している点だ。報道では、今回の版が組織全体への展開を想定した作りに変わったこと、そしてエンタープライズ向けの要素が強まったことが指摘されている。[1][3][4] AI開発ツールの文脈では、Claude CodeやCursor、GitHub Copilot、LangChainのような製品やフレームワークが「個人の生産性向上」から「チームでの標準化」へ軸足を移しつつあるが、OpenClaw 2.0もその流れに沿っている。\n\n公開規模の大きさも見逃せない。今回のリリースには933人の貢献者が関わり、そのうち569人が初参加だったとされる。[3][4] また、1万6000件超のプルリクエストが含まれ、プロジェクト史上マージされたPRのおよそ半分に相当するという。[4] こうした開発コミュニティの厚みは、OpenClawが単発の話題作ではなく、AIエージェント運用の実用基盤として成熟しつつあることを示している。\n\n総じてOpenClaw 2.0は、「AIエージェントを使える」段階から「AIエージェントをチームで回せる」段階へ進むためのアップデートだ。導入容易化、共同作業、企業向けの作り込みが一体で進んだことで、開発者ツール市場の競争軸にも影響を与える可能性がある。[1][2][3][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "OpenClaw 2.0 Could Change How Your Whole Team Codes With AI",
+              "url": "https://www.techjuice.pk/openclaw-2-0-enterprise-ai-coding",
+              "source": "TechJuice"
+            },
+            {
+              "id": 2,
+              "title": "OpenClaw 2.0 Releases with Simplified Setup and Collaborative Agents - InfoQ",
+              "url": "https://www.infoq.com/news/2026/09/openclaw-2-release",
+              "source": "InfoQ"
+            },
+            {
+              "id": 3,
+              "title": "OpenClaw 2.0 Is Here: What Changed, Why It Took Two ...",
+              "url": "https://decrypt.co/377135/openclaw-2-0-is-here-whats-new",
+              "source": "Decrypt"
+            },
+            {
+              "id": 4,
+              "title": "OpenClaw 2.0 is here: What it means for enterprises",
+              "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
+              "source": "VentureBeat"
+            }
+          ],
+          "published_date": "2026-09-04",
+          "category": "devtools",
+          "title_highlights": [
+            "OpenClaw",
+            "2.0",
+            "multiplayer"
+          ],
+          "three_lines_highlights": [
+            "OpenClaw 2.0",
+            "multiplayer",
+            "933"
+          ],
+          "id": "devtools-2"
+        },
+        {
+          "title": "XがAdvertiser MCPを公開、GrokやClaude Codeから広告運用を直接実行可能に",
+          "summary_ja": "XがAdvertiser MCPを公開し、第三者AIや開発者ツールから広告キャンペーンを作成・編集できる環境を整えた。検索結果によると、この流れはSnapやMeta、Googleなどが進めてきた「広告アカウントをAIエージェントに開く」潮流の延長線上にある。Xの特徴は、単なる読み取りではなく書き込みまで許す点で、GrokやClaude Codeのような外部エージェントが実運用に踏み込めることだ。[1][4]",
+          "summary_en": "X has released Advertiser MCP, enabling third-party AI agents and developer tools to create and edit ad campaigns directly. The move follows a broader industry trend in which major platforms are opening ad accounts to agents through MCP-based integrations, but X stands out for allowing write access rather than read-only use.[1][4]",
+          "three_lines": [
+            "XがAdvertiser MCPを公開し運用まで開いた",
+            "Claude CodeやGrokが広告編集に入れる",
+            "MCP競争は広告プラットフォーム全体に広がる"
+          ],
+          "body_ja": "XがAdvertiser MCPを公開したことで、広告運用の主導権は人手中心の管理画面から、外部AIエージェントを含む「実行可能なツール群」へと一段進んだ。検索結果では、X AdsのMCPサーバーは23のツールを持ち、そのうち一部は読み取り専用ではなく、キャンペーンの作成や編集に使える書き込み権限を伴うとされる。[1][3] つまり、Claude CodeやGrokのような第三者AIが、分析だけでなく広告アクションそのものを実行する前提が整った形だ。[3][4]\n\nこの動きは単独の新機能というより、広告業界で進むMCP採用の加速を示している。Model Context ProtocolはAnthropicが2024年11月に公開したオープン標準で、検索結果では「モデルが所有していないツールを発見し呼び出す」ための仕組みとして説明されている。[5] すでにGoogleはAds API向けのMCPサーバーを公開し、Amazonは制約付きのクローズドベータを開始、Snapも第三者エージェントに広告プラットフォームを開放していた。[4] Xはその中間ではなく、書き込み可能な方向に大きく振った点で存在感がある。[1][4]\n\n重要なのは、XのAdvertiser MCPが「AIに広告を読ませる」段階を超えたことだ。検索結果では、外部エージェントが「create and edit campaigns directly」できるとされ、これは運用自動化の射程がレポート生成や提案作成ではなく、入稿・修正・最適化の領域に入ったことを意味する。[1] 一方で、こうした開放は誤操作や不正変更のリスクも増やすため、実運用では権限設計や監査ログ、承認フローがより重要になる。広告プラットフォームが開くのはAPIだけではなく、AI時代の運用責任そのものだと言える。[1][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Dreamdata adds MCP server so Claude and ChatGPT cannot alter its B2B numbers",
+              "url": "https://ppc.land/dreamdata-adds-mcp-server-so-claude-and-chatgpt-cannot-alter-its-b2b-numbers",
+              "source": "PPC Land"
+            },
+            {
+              "id": 2,
+              "title": "Salesforce puts 37 prebuilt sales skills inside Claude for pilot customers",
+              "url": "https://ppc.land/salesforce-puts-37-prebuilt-sales-skills-inside-claude-for-pilot-customers",
+              "source": "PPC Land"
+            },
+            {
+              "id": 3,
+              "title": "OpenAI drops 25,000-user floor for ChatGPT ad exclusion audiences",
+              "url": "https://ppc.land/openai-drops-25-000-user-floor-for-chatgpt-ad-exclusion-audiences",
+              "source": "PPC Land"
+            },
+            {
+              "id": 4,
+              "title": "The week AI agents got the ad account and Meta got a two-hour clock",
+              "url": "https://ppc.land/the-week-ai-agents-got-the-ad-account-and-meta-got-a-two-hour-clock",
+              "source": "PPC Land"
+            },
+            {
+              "id": 5,
+              "title": "OS Data Solutions drops Virtual Minds DMP for its own OSDX platform",
+              "url": "https://ppc.land/os-data-solutions-drops-virtual-minds-dmp-for-its-own-osdx-platform",
+              "source": "PPC Land"
+            },
+            {
+              "id": 6,
+              "title": "Semrush gains native Claude connector covering 28.8 billion keywords",
+              "url": "https://ppc.land/semrush-gains-native-claude-connector-covering-28-8-billion-keywords",
+              "source": "PPC Land"
+            },
+            {
+              "id": 7,
+              "title": "Snap cuts app acquisition cost 26% in beta as Unified Attribution goes global",
+              "url": "https://ppc.land/snap-cuts-app-acquisition-cost-26-in-beta-as-unified-attribution-goes-global",
+              "source": "PPC Land"
+            },
+            {
+              "id": 8,
+              "title": "OS Data Solutions launches OSDX as a data infrastructure for the Agentic Era – The Trade Desk is the first integration partner | STRÖER",
+              "url": "https://www.stroeer.de/en/newsroom/press/os-data-solutions-launcht-osdx-als-dateninfrastruktur-fuer-die-agentic-era-the-trade-desk-erster-integrationspartner",
+              "source": "STRÖER"
+            }
+          ],
+          "published_date": "2026-09-04",
+          "category": "devtools",
+          "title_highlights": [
+            "X",
+            "MCP",
+            "Claude Code"
+          ],
+          "three_lines_highlights": [
+            "Advertiser MCP",
+            "Claude Code",
+            "23 tools"
+          ],
+          "id": "devtools-3"
+        }
+      ],
+      "summary": "本日は、AI開発ツールが「個人向けの便利機能」から「企業の実務を動かす基盤」へ一段進んだ日でした。モデル側ではAnthropicが価格・キャッシュ・プライバシーを再設計して導入障壁を下げる一方、OpenClawやXのMCP公開は、エージェントをチーム運用や広告運用などの実業務に直接つなぐ流れを強めています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "中国の低価格AI攻勢が米ビッグテックを揺らす、AppleはエッジAIで対抗へ",
+          "summary_ja": "中国発の低価格AIモデルが開発・運用コストの常識を崩し、シリコンバレーに価格圧力をかけている。そうした中でAppleは、次期高性能チップで大容量メモリを武器に、クラウド依存を減らすローカル実行型のAI戦略を前面に出しつつある。[1][2]",
+          "summary_en": "China’s low-cost AI models are pressuring Silicon Valley by rewriting expectations for development and inference costs. In response, Apple appears to be leaning into an edge-AI strategy centered on large-memory local execution on its next high-end chip.[1][2]",
+          "three_lines": [
+            "中国の低価格AIが米AI市場の価格を押し下げる",
+            "Appleは大容量メモリ搭載チップで端末内AIを強化する",
+            "ローカル実行モデル競争が米大手の戦略を変える"
+          ],
+          "body_ja": "中国発の低価格AIモデルが、生成AIの競争軸を「性能」だけでなく「いかに安く動かすか」へと広げている。検索結果で確認できる範囲では、シリコンバレー側はこの価格圧力を無視できず、AIをクラウド中心で提供する前提そのものを見直し始めている。[1][2]\n\nその文脈で注目されるのがAppleのエッジAI戦略だ。抜粋では、Mark Gurmanの報道として次期M7 Ultraが最大1.5TBのユニファイドメモリに対応するとされており、これは現行のMac Studio世代の約2倍に相当するという。[1][2] 大容量メモリは、端末側でより大きなモデルを保持しやすくし、クラウドに送らずローカルで処理する余地を広げる。つまりAppleは、推論コストやレイテンシを下げる方向で、AIの実行場所そのものを再設計しようとしていると読める。[1][2]\n\nこの動きの重要性は、単なる製品スペック競争にとどまらない。中国勢の低価格攻勢が示すのは、モデルの賢さだけでなく、計算資源と運用コストをどこまで圧縮できるかが勝負になっていることだ。Appleのようにハードウェア統合力を持つ企業は、端末内で完結するローカル実行モデルを磨くことで、価格競争と体験向上を同時に狙える。逆に、クラウド依存が強い企業ほど、低価格モデルの普及で収益化の難易度が上がる可能性がある。[1][2]\n\nもっとも、今回の検索結果から確実に言えるのは、Appleの高性能チップ構想とローカル実行志向が、AI市場の低価格化トレンドと強く噛み合っていることだ。欧米大手のAI戦略は、巨大クラウドから端末側へと重心を移す局面に入りつつあり、今後はEU AI Actのような規制環境も含めて、AIを「どこで、いくらで、どの程度安全に動かすか」が競争の中心になっていく。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Redefining Chip Architecture with Arm CEO Rene Haas｜No Priors",
+              "url": "https://finance.biggo.com/podcast/277237ff2b357a79",
+              "source": "BigGo Finance"
+            },
+            {
+              "id": 2,
+              "title": "The problem with Suno and AI music | The Vergecast - BigGo Finance",
+              "url": "https://finance.biggo.com/podcast/da56fc3a5c23d88b",
+              "source": "BigGo Finance"
+            }
+          ],
+          "published_date": "2026-09-04",
+          "category": "global",
+          "title_highlights": [
+            "低価格AI",
+            "Apple",
+            "M7 Ultra"
+          ],
+          "three_lines_highlights": [
+            "価格圧力",
+            "1.5TB",
+            "ローカル実行"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "中国発の低価格AIモデルが、AI開発・運用のコスト構造を崩して米ビッグテックに強い価格圧力をかけ始めています。これに対しAppleは、クラウド依存を減らして端末側で高性能AIを動かすエッジAI路線を強化し、性能だけでなく「低コスト・省電力・ローカル処理」を競争軸に押し出そうとしています。"
+    }
+  ]
+}
