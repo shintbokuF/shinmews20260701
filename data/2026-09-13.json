@@ -1,0 +1,403 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T00:39:15.261280+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [],
+      "summary": ""
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Anthropic、Claude向けコマースAIの開発ひな型を公開　買い物・店舗運営の2エージェントをGitHubで提供",
+          "summary_ja": "Anthropicが、Claudeを使ったコマース向けAIの開発ひな型を公開した。買い物支援と店舗運営の2系統を参考実装として示し、企業が独自のエージェント型商取引を短期間で組み込めるようにする狙いだ。",
+          "summary_en": "Anthropic has released a blueprint for building commerce AI with Claude. It provides two reference agent designs for shopping and store operations, aiming to help companies adapt agentic commerce faster.",
+          "three_lines": [
+            "Claude向けコマースひな型を公開した。",
+            "買い物と店舗運営の2エージェントを示した。",
+            "VisaやMastercardとも連携を広げる。"
+          ],
+          "body_ja": "Anthropicが公開したのは、完成済みの店舗システムではなく、Claudeを使ったコマースAIを作るための「ひな型」だ。Fintech Singaporeによれば、同社はAccenture、Mastercard、Visaと連携し、加盟店ネットワークや顧客企業での採用を後押ししているという[1]。Crowdfund Insiderも、今回の提供物を“blueprint”として位置づけ、エンジニアが数日単位で応用できる再利用可能なパターン、安全制約、サンプルコードの集合だと伝えている[2]。\n\n注目点は、2種類の参考設計が用意されていることだ。買い物支援と店舗運営の両面を分けて示すことで、ユーザー向けの購買体験から、事業者側の運営フローまでを一続きの実装として考えやすくしている。AI Multipleが整理するように、エージェントはWebページを巡回し、フォーム入力や編集作業をこなすことができる[3]。この一般的なエージェント能力を、Claudeのコマース用途に落とし込むのが今回の骨子とみられる。\n\n今回の動きは、生成AIの競争が「高性能モデルの公開」から「実務でそのまま使える実装テンプレートの提供」へ移っていることを示す。Anthropicは自前で閉じた完成品を売るよりも、決済・小売・旅行などの既存業務に入りやすい形でClaudeの利用を広げようとしている。Shopifyがこのフレームワークをもとに参考ストアフロントを開発し、PricelineがAI旅行アシスタントPennyの最新版にClaudeを使っているとされる点も、同社の狙いが単なる実験ではなく、実運用への浸透にあることを物語る[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic Launches Agentic AI Commerce Blueprint for Claude - Fintech Singapore",
+              "url": "https://fintechnews.sg/136783/ai/anthropic-claude-agentic-ai-commerce-blueprint",
+              "source": "Fintech Singapore"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic Unveils Claude Commerce Agents, Partners With Visa And Mastercard | Crowdfund Insider",
+              "url": "https://www.crowdfundinsider.com/2026/09/306341-anthropic-unveils-claude-commerce-agents-partners-with-visa-and-mastercard",
+              "source": "Crowdfund Insider"
+            },
+            {
+              "id": 3,
+              "title": "40+ Agentic AI Use Cases with Real-life Examples",
+              "url": "https://aimultiple.com/agentic-ai",
+              "source": "AI Multiple"
+            }
+          ],
+          "published_date": "2026-09-13",
+          "category": "models",
+          "title_highlights": [
+            "Claude",
+            "2エージェント",
+            "Visa/Mastercard"
+          ],
+          "three_lines_highlights": [
+            "Claude",
+            "2エージェント",
+            "Visa/Mastercard"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "OrcaRouter、OpenAIのフラッグシップモデル「GPT-6 Astra」の提供を開始",
+          "summary_ja": "OrcaRouterが、OpenAIの最上位モデル「GPT-6 Astra」をOpenAI互換APIから利用できる形で提供開始した。最大105万トークンの長文コンテキストに対応し、分析・開発・調査・文書作成のような長時間の高度作業に向く。開始を記念して、入金額と同額を追加付与する100%入金マッチキャンペーンも実施する。",
+          "summary_en": "OrcaRouter has begun offering OpenAI’s flagship model GPT-6 Astra through a single OpenAI-compatible API. The model supports up to 1.05 million tokens of long context and is positioned for extended, high-end tasks such as analysis, development, research, and writing. A 100% deposit match campaign is also being launched to mark the rollout.",
+          "three_lines": [
+            "OrcaRouterがGPT-6 Astraの提供を開始",
+            "最大105万トークンの長文処理に対応",
+            "100%入金マッチキャンペーンも実施"
+          ],
+          "body_ja": "OrcaRouterが、OpenAIのフラッグシップモデル「GPT-6 Astra」の提供を開始した[1]。今回のポイントは、OpenAI互換の1つのAPIからこの最上位モデルを利用できることにある[1]。モデルの切り替えや接続先の分散を意識せずに使えるため、生成AI導入を進める開発現場では、実装や運用のハードルを下げる選択肢になりそうだ。\n\n「GPT-6 Astra」は、OpenAIが2026年9月3日（米国時間）に発表した最上位モデルで、分析、ソフトウェア開発、深い調査、研究、文書作成といった、長時間にわたる一気通貫の作業を得意とするという[1]。さらに最大105万トークンの長文コンテキストに対応しており、長い資料や複数文書をまたぐタスクでも扱いやすいのが特徴だ[1]。要するに、短い応答を高速に返す用途だけでなく、文脈を保ったまま大きな情報塊を処理する“長距離走型”のモデルとして位置づけられる。\n\nまたOrcaRouterは、提供開始を記念して、アカウントへの入金と同額を追加で付与する「100%入金マッチキャンペーン」も打ち出した[1]。モデル提供とあわせて利用開始の障壁を下げる施策を用意した形で、開発者や企業ユーザーにとっては、まず試してみる動機づけになりやすい。生成AIモデル競争では、性能だけでなく、APIの使いやすさや導入支援の設計まで含めた総合力が存在感を左右しており、今回の動きもその流れを反映している。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "OrcaRouter、OpenAIのフラッグシップモデル「GPT-6 Astra」の提供を開始",
+              "url": "https://prtimes.jp/main/html/rd/p/000000079.000138449.html",
+              "source": "PR TIMES"
+            }
+          ],
+          "published_date": "2026-09-13",
+          "category": "models",
+          "title_highlights": [
+            "GPT-6 Astra",
+            "105万トークン"
+          ],
+          "three_lines_highlights": [
+            "GPT-6 Astra",
+            "105万トークン",
+            "100%入金"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Google「Gemini 3.8 Flash」、Meta「Muse Spark 1.3」相次ぎ投入　Googleは画像生成・編集の「Google Pics」も開始",
+          "summary_ja": "GoogleとMetaが、生成AIの中核モデルを相次いで更新した。GoogleはGemini 3.8 Flashと派生版の3.8 Flash Cyberを公開し、MetaはMuse Spark 1.3をリリース。さらにGoogleは画像生成・編集ツール「Google Pics」も提供開始したとされる。",
+          "summary_en": "Google and Meta rolled out new flagship generative AI models in the same period, while Google also launched a new image generation/editing tool called Google Pics.",
+          "three_lines": [
+            "GoogleとMetaが新モデルを相次ぎ投入した。",
+            "Gemini 3.8 FlashとMuse Spark 1.3が焦点だ。",
+            "Googleは画像生成・編集のPicsも開始した。"
+          ],
+          "body_ja": "生成AIの主要プレイヤーが、また一段と更新を急いでいる。今回の注目は、Googleの「Gemini 3.8 Flash」とMetaの「Muse Spark 1.3」。どちらも新世代の中核モデルとして扱われており、同時期に複数の大型アップデートが重なったことで、市場の関心は一段と高まっている。[1][3]\n\nMetaのMuse Spark 1.3は、長い文脈をまたぐエージェント的な作業やコーディング用途を意識した改良がポイントだ。The Sequenceによると、このモデルはすでにMuse CodeとMeta Model APIで利用可能になっており、さらにオープンウェイト化もロードマップに入っている。[1] つまりMetaは、単なる性能向上だけでなく、開発者が実運用へ組み込みやすい提供形態まで含めて押し出している。[1]\n\n一方のGoogleは、Gemini 3.8 Flashに加えて「3.8 Flash Cyber」も展開したと伝えられている。[1] さらに別ソースでは、GoogleがAI画像生成・編集ツール「Google Pics」も開始したとされ、テキスト生成だけでなく画像領域でも製品面の拡張を進めていることがうかがえる。[1][4] 生成AI競争がモデル単体の能力勝負から、編集・制作ワークフロー全体を押さえる方向に広がっている構図だ。[1][4]\n\nもっとも、こうした“新モデルラッシュ”は、ベンチマーク競争の激化も示している。Semi Analysis を引用した報道では、Gemini 3.8 FlashとMuse Spark 1.3はいずれも性能の落ち込みが指摘され、特にGoogle側は他社より大きな劣化幅があるとされた。[2] ただし、この種の指標は評価環境や使い方で見え方が変わるため、実際には「何が得意か」「どの用途で使うか」を見極めることが重要になる。[2]\n\n総じて見ると、今回の動きはGoogleとMetaが、基盤モデルの改良と実用ツールの同時展開で存在感を競っている局面を示している。Gemini 3.8 FlashはGoogleの最新の推進力として、Muse Spark 1.3はMetaの開発者向けエージェント戦略として、それぞれ意味を持つ。[1][3] そしてGoogle Picsの登場は、生成AIの主戦場が「会話」から「制作」へさらに広がりつつあることを印象づける。[1][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "The Sequence Radar - Issue 927: Last Week in AI: Model Madness: The Frontier Has a Refresh Button",
+              "url": "https://thesequence.substack.com/p/the-sequence-radar-issue-927-last",
+              "source": "The Sequence"
+            },
+            {
+              "id": 2,
+              "title": "Gemini 3.8 Flash, Muse Spark 1.3 Most 'Benchmaxxed' Models: Semi Analysis",
+              "url": "https://officechai.com/ai/gemini-3-8-flash-muse-spark-1-3-most-benchmaxxed-models-semi-analysis",
+              "source": "OfficeChai"
+            },
+            {
+              "id": 3,
+              "title": "Gemini 3.8 Flash vs. Claude Fable 5.1 vs. GPT-6 Astra vs. Muse Spark 1.3 - Memeburn",
+              "url": "https://memeburn.com/gemini-flash-claude-fable-muse-spark-gpt-astra-comparison",
+              "source": "Memeburn"
+            },
+            {
+              "id": 4,
+              "title": "The Sequence Learning Loop - Issue 929: Learn About Meta Muse Spark, World Labs’ Atlas and Gemini 3.8 Flash",
+              "url": "https://thesequence.substack.com/p/the-sequence-learning-loop-issue-0fd",
+              "source": "The Sequence"
+            }
+          ],
+          "published_date": "2026-09-13",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 3.8",
+            "Muse Spark",
+            "Google Pics"
+          ],
+          "three_lines_highlights": [
+            "Gemini 3.8",
+            "Muse Spark",
+            "Google Pics"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "本日は、生成AIが「汎用チャット」から、商取引・調査・開発などの実務に直接組み込まれる“業務エージェント基盤”へ一段進んだ流れが目立ちました。Anthropicのコマース向けひな型公開に加え、長文コンテキストを持つ高性能モデルの提供拡大や、Google・Metaによる中核モデルと画像生成/編集ツールの更新が相次ぎ、各社が性能向上と用途特化の両面で競争を強めています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "Oracle Q1好決算でクラウド需要の伸びを再加速　AWS・Azure超えの成長期待が浮上",
+          "summary_ja": "Oracleの2027年度第1四半期決算は、売上・利益とも市場予想を上回り、クラウド事業の伸びが改めて注目された。特にOCIはAIワークロードの受け皿として存在感を強め、AzureとAWSのマルチクラウド拡張も進んだことで、クラウド競争の見方が一段と変わりつつある。",
+          "summary_en": "Oracle’s Q1 FY2027 results beat expectations and reignited attention on cloud demand. OCI is gaining as an AI workload destination, while expanded Azure and AWS multi-cloud reach is reshaping the cloud competition narrative.",
+          "three_lines": [
+            "OCIの成長でOracle決算が上振れした",
+            "AWS・Azure連携拡大で顧客基盤を広げた",
+            "AI需要を追い風にクラウド期待が強まった"
+          ],
+          "body_ja": "Oracleの2027年度第1四半期決算は、同社のクラウド戦略が単なる補助輪ではなく、成長エンジンそのものになりつつあることを示した。売上高は193.5億ドル、非GAAPベースのEPSは1.92ドルとなり、いずれも市場予想を上回った。[4] さらに、クラウドインフラは売上高が74億ドル超へと拡大し、会社全体の伸びを牽引した。[3][4]\n\n今回のポイントは、Oracle Cloud Infrastructure（OCI）の勢いがAI需要と結び付いていることだ。Oracleはもともと「企業のAIワークロードをどこで動かすか」という需要を取り込む文脈で評価されてきたが、2026年度第4四半期にはOCI売上が前年比93%増の58億ドルに達していた。[1] その流れを受け、今回の決算でもクラウド事業の加速が再確認された形だ。[1][4]\n\n加えて、Oracleはマルチクラウド面でも存在感を高めている。決算説明では、AzureとAWS向けの地域拡張を完了し、70のマルチクラウドデータベースリージョンと119のアベイラビリティゾーンに到達したと説明された。[3] これは、Oracleが自社クラウド単独で勝負するのではなく、AWSやAzureの既存顧客基盤に入り込む戦略を強めていることを示す。結果として、Oracleは“第3勢力”というより、AWS・Azureの周辺でAI時代のデータベース／インフラ層を押さえるプレイヤーとして見られ始めている。[3]\n\n市場がOracleに強気なのは、決算数字だけでなく、AIインフラ需要の受け皿としてのポジションが見えてきたためだ。OCIはAIを動かす計算基盤として評価され、クラウド売上の加速がそのまま将来の大型案件や長期契約の積み上がり期待につながっている。[1][3] こうした構図は、AWSやAzureが提供する汎用クラウドの成長ストーリーとは少し異なり、OracleがAI特化の需要を取り込んで高成長を維持できるかどうかが焦点になっている。[1][4]\n\n一方で、今回の情報から読み取れるのはOracleの攻勢だけではない。AWSとAzureをまたぐマルチクラウド展開が進んでいることは、顧客が単一クラウドに閉じず、最適なワークロード配置を求めていることの裏返しでもある。[3] Oracleはその流れに乗り、データベースとAIインフラの接点を押さえることで、クラウド市場の“再編”を狙っている。決算をきっかけに、Oracleはもはやソフトウェア専業の延長ではなく、AI時代のクラウド競争でAWS・Azureに挑む本命候補として再評価されつつある。[1][3][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Oracle Earnings Preview: Q1 FY2027 Date, Estimates and Stock Outlook",
+              "url": "https://www.tastylive.com/news-insights/oracle-earnings-preview-q1-fy2027-date-estimates-and-stock-outlook",
+              "source": "tastylive"
+            },
+            {
+              "id": 2,
+              "title": "Oracle (ORCL) Q1 2027 Earnings Call Transcript | The Motley Fool",
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/09/11/oracle-orcl-q1-2027-earnings-call-transcript",
+              "source": "The Motley Fool"
+            },
+            {
+              "id": 3,
+              "title": "ORCL Stock Soars 7% After-Hours — Oracle Cloud Surge Powers Q1 Beat As AI Demand Fuels Record Backlog",
+              "url": "https://stocktwits.com/news-articles/markets/equity/orcl-stock-soars-7-after-hours-oracle-cloud-surge-powers-q1-beat-as-ai-demand-fuels-record-backlog/cZta8a8RJ6n",
+              "source": "Stocktwits"
+            },
+            {
+              "id": 4,
+              "title": "From Selling Software to Selling AI Computing Power, the ...",
+              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262162952-",
+              "source": "TradingKey"
+            },
+            {
+              "id": 5,
+              "title": "Oracle: The $28B CapEx Illusion And The Reality Of Software Cannibalization (NYSE:ORCL)",
+              "url": "https://seekingalpha.com/article/4945664-oracle-the-28b-capex-illusion-and-the-reality-of-software-cannibalization",
+              "source": "Seeking Alpha"
+            },
+            {
+              "id": 6,
+              "title": "Oracle Q1 2027 Earnings Call Transcript - Fortune",
+              "url": "https://fortune.com/company/oracle/earnings/q1-2027",
+              "source": "Fortune"
+            }
+          ],
+          "published_date": "2026-09-13",
+          "category": "cloud",
+          "title_highlights": [
+            "OCI",
+            "AI",
+            "AWS/Azure"
+          ],
+          "three_lines_highlights": [
+            "OCI",
+            "AWS/Azure",
+            "AI"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "Amazon、AWSのクラウドサービスをジャマイカで拡大　現地パートナーと企業向け提供を強化",
+          "summary_ja": "Amazon Web Services（AWS）がジャマイカで現地パートナー企業と組み、クラウド提供を広げる。企業向けの導入支援を強め、同国でのAWS利用を後押しする動きだ。",
+          "summary_en": "Amazon Web Services (AWS) is expanding cloud services in Jamaica through a local partner, strengthening enterprise-facing delivery and adoption support in the country.",
+          "three_lines": [
+            "AWSがジャマイカで提供体制を拡大する。",
+            "Liberty Businessが現地展開を支える。",
+            "企業向けクラウド導入を後押しする。"
+          ],
+          "body_ja": "Amazon Web Services（AWS）は、ジャマイカでのクラウドサービス拡大に向けて、現地企業のLiberty Businessと提携した。[1] これにより、同国でのAWSサービス提供をより身近にし、企業向けの導入や利用を進めやすくする狙いがあるとみられる。[1]\n\n今回のポイントは、単なる販路拡大ではなく、現地パートナーを通じてクラウドを届ける体制を強めていることだ。[1] インフラや運用の相談先が現地に近い形で整うことで、企業はAWSの活用を検討しやすくなる。[1] とくに新興市場では、パートナー網の整備がクラウド普及の速度を左右するため、AWSにとっても重要な一手といえる。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Liberty Business partners with AWS to expand cloud services in Jamaica",
+              "url": "https://developingtelecoms.com/telecom-technology/telecom-cloud-virtualization/20814-liberty-business-partners-with-aws-to-expand-cloud-services-in-jamaica.html",
+              "source": "Developing Telecoms"
+            }
+          ],
+          "published_date": "2026-09-13",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "ジャマイカ",
+            "Liberty Business"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "ジャマイカ",
+            "Liberty Business"
+          ],
+          "id": "cloud-2"
+        }
+      ],
+      "summary": "本日のクラウド分野では、Oracleの好決算をきっかけにOCIがAIワークロード需要の受け皿として再評価され、AWSやAzureを含む競争環境にも変化の兆しが見えました。あわせてAWSはジャマイカで現地パートナーとの連携を強化し、地域ごとの導入支援を通じて利用基盤の拡大を進めており、クラウド各社が成長余地のある市場とAI需要を取り込みにいく流れが鮮明です。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "ローカルで動くAIエージェントが見える時代へ：Agent 365が示す“管理される開発ツール”の新常識",
+          "summary_ja": "Microsoft Agent 365の一般提供で、端末上で動くローカルエージェントまでテナント管理の対象に入り始めました。Claude Code、Cursor、GitHub Copilot、LangChain系の開発者ツールは、便利さだけでなく“組織にどう見えるか”が問われる局面に入っています。",
+          "summary_en": "With Microsoft Agent 365 now generally available, even local agents running on endpoints are becoming manageable tenant assets. Developer tools such as Claude Code, Cursor, GitHub Copilot, and LangChain are increasingly defined not only by capability but also by how they are governed inside organizations.",
+          "three_lines": [
+            "Agent 365がローカルエージェントを把握し始めた。",
+            "Claude Codeなどは個人導入から統制対象へ近づく。",
+            "開発者ツールは機能だけでなく可視性が差になる。"
+          ],
+          "body_ja": "Microsoftが2026年5月1日に一般提供を始めた Agent 365 は、組織内で動くAIエージェントを数え上げ、IDを付け、ポリシーを当てるための管理製品だという。[1] もともと管理者向けの道具であり、開発者が直接触る“コーディング支援ツール”ではない。ところが一般提供と同時に、端末上で動くローカルエージェントまで把握する機能が加わったことで、これまで見えにくかった手元のCLIやローカル実行のAIも、企業テナントの統制範囲に入る流れがはっきりした。[1]\n\nこの変化は、Claude CodeのようなCLI型のコーディングエージェントにとって特に象徴的だ。個人向けAIエージェントの比較では、Claude Codeは「CLI型のコーディングエージェント」と位置づけられ、GitHub Copilot はコード補完系の代表、Cursor はAI特化エディタとして並べられている。[2] つまり、開発者が“手元で速く使える”ことを重視して選ぶツール群が、今や管理の観点でも評価される対象になってきたということだ。[2]\n\nさらに、実務の現場ではこれらのツール名が単独で語られるより、LangChain や LangGraph といったLLMアプリ開発の基盤スキルと一緒に扱われている。[4] あるいは、VS Code に Claude Code、Codex、Cline、GitHub Copilot を入れる、もしくは Cursor のようなAI特化エディタを使うことが“推奨”として語られており、開発体験そのものがAI前提へ寄っている様子が見える。[5]\n\nここで重要なのは、開発者ツールの競争軸が「どれだけ賢いか」だけではなくなった点だ。AimanaVoの分析記事は、Claude Code、Cursor、Codex といった主要なAIコーディングエージェントを比較しつつ、ツール選択の一致率が高くないこと、そしてエージェントの振る舞いは毎月変わるため、単発の数字より揺れ方の構造を見るべきだと指摘している。[3] これは、機能差だけでなく、運用での安定性や一貫性が選定理由になることを示唆する。[3]\n\n一方で、個人向け比較記事では Claude Code が月20ドルからのCLI型ツールとして紹介され、GitHub Copilot や Cursor も比較対象に入っている。[2] こうした“すぐ試せる”開発支援ツールは、個人開発の速度を上げるだけでなく、企業の中では「誰がどの端末で何を動かしているか」を管理する必要性を強める。Agent 365 のローカルエージェント把握は、その現実を製品機能として露出させた格好だ。[1]\n\n結局のところ、Claude Code / Cursor / GitHub Copilot / LangChain 系の開発者ツールは、今後ますます「使い勝手」と「管理されやすさ」の両面で選ばれる。手元のCLIやエディタ内のAIは、もはや個人の秘密兵器ではなく、組織の可視化と統制の網に入る。開発現場は、どのツールを使うかだけでなく、どう見えるかまで含めて設計する時代に入ったと言える。[1][2][4][5]",
+          "references": [
+            {
+              "id": 1,
+              "title": "55. 手元のCLIはもう見えている",
+              "url": "https://zenn.dev/yamada_ai_dev/articles/agent365-local-agent-discovery",
+              "source": "Zenn"
+            },
+            {
+              "id": 2,
+              "title": "個人向けAIエージェントおすすめ比較【無料・最強】",
+              "url": "https://re-study.jp/ai-agent-tools",
+              "source": "Re:ST（リスタ）"
+            },
+            {
+              "id": 3,
+              "title": "3大AIコーディングエージェント、選ぶツールが一致するのは4割でした",
+              "url": "https://aimanavo.com/c/morphox_ai/a/IvjkPSXtrj3YpA",
+              "source": "AimanaVo"
+            },
+            {
+              "id": 4,
+              "title": "プロンプト設計の経験を活かせる案件一覧",
+              "url": "https://remogu.jp/D23",
+              "source": "Remogu（リモグ）"
+            },
+            {
+              "id": 5,
+              "title": "DRF × Vue.js 実践講座【第二講】環境構築と生成AI時代にコードを学ぶ意味",
+              "url": "https://qiita.com/mashikokoutaro1019/items/a99a018288eb942b1903",
+              "source": "Qiita"
+            }
+          ],
+          "published_date": "2026-09-13",
+          "category": "devtools",
+          "title_highlights": [
+            "Agent 365",
+            "Claude Code",
+            "Cursor"
+          ],
+          "three_lines_highlights": [
+            "Agent 365",
+            "Claude Code",
+            "Cursor"
+          ],
+          "id": "devtools-1"
+        }
+      ],
+      "summary": "AI開発ツールは、単なる個人向けの生産性向上ツールから、企業のテナント管理や可視化の対象となる“管理された開発基盤”へと移りつつあります。特にローカルで動くAIエージェントまで統制の枠に入る流れは、Claude CodeやCursor、GitHub Copilot、LangChain系ツールにも「何ができるか」だけでなく「組織からどう見え、どう統制されるか」が重要になることを示しています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "a16zが描く“AI輸出地図”に注目　米国モデルの価値観と各国の採用戦略をどう両立させるか",
+          "summary_ja": "AIの競争軸は、モデル性能だけでなく「どの国が、どの基盤を、どこまで自前で持つか」に移っています。CohereのAidan Gomez氏は、国家がAIの制御権を失うと「切られる」リスクがあると警鐘を鳴らし、UAEは巨大AIデータセンター計画を地政学リスクを踏まえて再設計しています。a16zが描く“AI輸出地図”も、米国発モデルの価値観を保ちつつ、各国の採用戦略とどう両立するかが焦点です。",
+          "summary_en": "The AI race is shifting from model quality alone to control over infrastructure, data, and national adoption strategies. Cohere CEO Aidan Gomez warns that countries fear being “switched off” if they lose control of AI, while the UAE is revising its massive AI data-center plan amid geopolitical risk. a16z’s imagined “AI export map” highlights the challenge of aligning U.S. model values with each country’s local adoption strategy.",
+          "three_lines": [
+            "AI主権が、輸出戦略の軸になる。",
+            "UAEは巨大DC計画を組み替える。",
+            "米国モデルは価値観の両立が鍵。"
+          ],
+          "body_ja": "AIの輸出競争は、単に「どのモデルが強いか」では終わらなくなった。いま問われているのは、モデルを誰が運用し、データをどこに置き、国家や企業がどこまで自前で制御できるのかという、より政治的な設計だ。CohereのAidan Gomez氏が「切られる」不安を語ったのは、まさにその文脈である[5]。\n\nGomez氏は、企業と政府の双方が、データの行き先やAI基盤の支配権を気にしていると指摘した。要するに、AIはソフトウェア製品であると同時に、インフラと統治の問題になっている。米国モデルを世界に広げるうえでも、性能だけで押し切るのではなく、各国が「自国の手綱を残せる」と感じる設計が必要になる[5]。\n\nこの視点を地政学の側から補強するのが、UAEのAIデータセンター計画の見直しだ。Reutersによれば、同国は当初、アブダビの10平方マイル規模のキャンパスとして構想していた5ギガワット級のAIデータセンター計画を、UAE全土に分散したネットワーク型へと再設計している[6]。背景には、イランによる攻撃を受けた後の安全保障リスクがあるとされる[6]。\n\nここで見えてくるのは、AI輸出の勝敗が「一極集中の巨大拠点」だけでは決まらないという現実だ。大規模な集中投資は効率的に見える一方、地政学リスクが高まれば脆弱にもなる。UAEのように分散型へ振り直す動きは、AIを国家インフラとして持つときの典型的なリスク管理の姿といえる[6]。\n\n米国側の難しさは、世界に広げたい価値観と、各国が求める主権の間に緊張があることだ。米国発のAIは、透明性や安全性、自由なイノベーションの価値を掲げやすい。しかし実際の採用現場では、規制対応、データ所在、停止時の代替手段といった現実的な要求が前面に出る。FinTech Futuresが伝える金融規制とイノベーションをめぐる議論も、AIの採用がコンプライアンスと不可分になっていることを示している[1]。\n\nその意味で、a16zが描く“AI輸出地図”を読むときのポイントは、どの国が米国モデルを採るかではない。どの国が、米国モデルを受け入れながらも、自国の規制や安全保障の条件に合わせて再配置するかである。Cohereの警告[5]とUAEの再設計[6]を重ねると、AIの世界展開は「輸出」よりも「共同設計」に近づいている。\n\nそしてこの流れは、欧米のAI戦略にも跳ね返る。EU AI Actのような規制環境が厳しくなるほど、モデル提供側は説明責任や運用設計を問われる。逆に言えば、米国のAI企業が海外で勝つには、単なる高性能モデルでは足りず、各国が安心して採用できる統治モデルをセットで提示できるかが決定打になる。AI輸出の本当の競争軸は、性能ではなく「信頼を輸出できるか」に移りつつある[1][5][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Podcast: Demystifying AI regulation & innovation with Colin Payne - FinTech Futures",
+              "url": "https://www.fintechfutures.com/regulations-compliance/demystify-podcast-demystifying-ai-regulation-innovation-and-the-future-of-financial-services-with-colin-payne",
+              "source": "FinTech Futures"
+            },
+            {
+              "id": 2,
+              "title": "UAE revises AI data center plan after Iranian attacks, sources say - The Jerusalem Post",
+              "url": "https://www.jpost.com/business-and-innovation/article-908379",
+              "source": "The Jerusalem Post"
+            },
+            {
+              "id": 3,
+              "title": "Trump posts map with American flag emblazoned over Canada, Greenland, Mexico - Ground News",
+              "url": "https://ground.news/article/trump-posts-map-with-american-flag-emblazoned-over-canada-greenland-mexico",
+              "source": "Ground News"
+            },
+            {
+              "id": 4,
+              "title": "Denmark's Jyske Bank buys asset manager Formuepleje - FinTech Futures",
+              "url": "https://www.fintechfutures.com/m-a/jyske-bank-acquires-formuepleje",
+              "source": "FinTech Futures"
+            },
+            {
+              "id": 5,
+              "title": "Cohere CEO says countries need more control over AI to avoid being ‘switched off’ - CNBC",
+              "url": "https://www.cnbc.com/video/2026/09/10/cohere-ceo-aidan-gomez-china-closing-ai-gap.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 6,
+              "title": "EXCLUSIVE: UAE revises AI data center plan after Iranian attacks, sources say - Reuters",
+              "url": "https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/",
+              "source": "Reuters"
+            },
+            {
+              "id": 7,
+              "title": "LSEG recruits Jonathan Lofthouse as CIO of data and analytics - FinTech Futures",
+              "url": "https://www.fintechfutures.com/job-cuts-new-hires/lseg-recruits-jonathan-lofthouse-as-cio-of-data-and-analytics",
+              "source": "FinTech Futures"
+            },
+            {
+              "id": 8,
+              "title": "Transcript: Will US debt burst the AI bubble? With Ruchir Sharma - Financial Times",
+              "url": "https://www.ft.com/content/2980df94-8968-48b5-89f8-05ffaed20a7b?syn-25a6b1a6=1",
+              "source": "Financial Times"
+            }
+          ],
+          "published_date": "2026-09-13",
+          "category": "global",
+          "title_highlights": [
+            "a16z",
+            "AI輸出"
+          ],
+          "three_lines_highlights": [
+            "AI主権",
+            "UAE 5GW",
+            "米国モデル"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "AIをめぐる競争は、モデルの性能競争から「どの国がAI基盤をどこまで自前で持ち、主権や安全保障をどう確保するか」という国家戦略の段階に移っています。米国発モデルの価値観を保ちながら各国にどう普及させるかが焦点となり、各国側もデータセンターや採用戦略を地政学リスク込みで再設計する流れが強まっています。"
+    }
+  ]
+}
