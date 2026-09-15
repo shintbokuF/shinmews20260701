@@ -1,0 +1,611 @@
+{
+  "date": "2026-09-15",
+  "generated_at": "2026-09-15T01:13:12.252484+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [],
+      "summary": ""
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "OpenAIの未公開AIがナビエ・ストークス方程式の証明生成、ただし数学界は「先取り」と反発",
+          "summary_ja": "OpenAIが、開発中の未公開AIモデルでナビエ・ストークス方程式の一部解決につながる証明を生成したと発表しました。ただし、同問題はクレイ数学研究所でなお未解決扱いで、先行研究の扱いをめぐって数学者側から異議が出ています。",
+          "summary_en": "OpenAI says an internal unreleased AI model generated a proof that partially resolves the Navier–Stokes existence and smoothness problem, but mathematicians dispute the handling of prior research and the problem remains officially unsolved.",
+          "three_lines": [
+            "OpenAIが未公開AIの証明生成を発表",
+            "数学者は先行研究の扱いに異議を唱えた",
+            "ナビエ・ストークスはなお未解決として残る"
+          ],
+          "body_ja": "OpenAIは2026年9月8日、社内開発中の未公開AIモデルを使って、ミレニアム懸賞問題の一つであるナビエ・ストークス方程式の「解の存在と滑らかさ」に関する問題について、少なくとも一部を解く証明を生成したと発表した[1][3]。同方程式は流体の運動を記述する基本式で、航空機設計や天気予報の土台にもなるとされる[1]。\n\n今回のポイントは、AIが単に数式を並べたのではなく、滑らかな外力を与えた条件下で、3次元流体の速度が有限時間内に無限大へ発散する特異点が起こり得ることを示したとされる点だ[1][6]。OpenAI側は、これがナビエ・ストークス問題への突破口になると位置づけたが、問題そのものの公式ステータスは変わっていない[6]。\n\n一方で、数学界の反応は好意一色ではない。Ledge.aiは、先行研究の扱いをめぐって数学者が異議を唱えていると伝え、SBbitもニューヨーク大教授による「横取り」疑惑を報じた[3][6]。特に、クレイ数学研究所は9月9日時点でもこの問題を未解決のまま維持しており、正式な認定には公表後の検証と数学界での受容が必要だという[6]。OpenAIも賞金は請求しないとしており、現時点では「解いた」と断言するより、「有望な証明案を示した」という段階に近い[6]。\n\n生成AIモデルの競争という観点では、今回の発表は能力の話題性が突出している。Ledge.aiの関連見出しでは、OpenAIの新モデル「GPT-6 Astra」や、Googleの「Gemini 3.8 Flash」、Metaの「Muse Spark 1.3」など、主要陣営の新モデル・新機能の動きも並んでいる[5]。OpenAIは前線のモデル競争と並行して、研究開発の深い領域でも存在感を示した格好だが、今回はその成果の真偽・先行研究の扱いをめぐる検証が、技術的インパクトと同じくらい重要になっている[3][6]。\n\n要するに、今回のニュースは「AIが数学の難問に踏み込んだ」という点で象徴的だが、学術成果としてはまだ評価保留だ。生成AIが高度な証明探索に役立つことを示した一方で、学術的な再現性、引用の適切さ、未公表研究との境界といった論点が、今後のAI研究発表の標準を左右しそうだ[1][3][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "OpenAIが数学の「ミレニアム懸賞問題」の証明発表も、Anthropic数学者ら反発（ビジネス＋IT）",
+              "url": "https://news.yahoo.co.jp/articles/414c39d10b7cbf10a7755a6db4ccbcf3db7555ba",
+              "source": "Yahoo!ニュース"
+            },
+            {
+              "id": 2,
+              "title": "ナビエ–ストークス問題を巡り数理研究者がOpenAIを批判 未公表成果の「先回り」疑惑",
+              "url": "https://yellow.com/ja/news/%E6%9C%AA%E5%85%AC%E9%96%8B%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A7%E3%83%8A%E3%83%93%E3%82%A8%E3%83%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%82%B9%E5%95%8F%E9%A1%8C%E3%80%8C%E8%A7%A3%E6%B1%BA%E3%80%8D-%E6%95%B0%E5%AD%A6%E8%80%85%E3%82%89%E3%80%81openai%E3%81%AB%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%E2%80%9C%E5%85%88%E5%8F%96%E3%82%8A%E2%80%9D%E3%81%A8%E7%95%B0%E8%AD%B0",
+              "source": "Yellow.com"
+            },
+            {
+              "id": 3,
+              "title": "OpenAI、GPT-6 Astra超えの未公開AIが現代数学の七大難問「ナビエ・ストークス方程式」の解決証明を生成 先行研究の扱いに数学者が異議も",
+              "url": "https://ledge.ai/articles/openai_navier_stokes_ai_proof",
+              "source": "Ledge.ai"
+            },
+            {
+              "id": 4,
+              "title": "Yellow.com",
+              "url": "https://yellow.com/ja/news/openai%E3%81%8C%E3%80%8C1%E4%B8%87%E3%81%AEai%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%A7%E3%83%8A%E3%83%93%E3%82%A8%E2%80%93%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%82%B9%E5%95%8F%E9%A1%8C%E3%82%92%E8%A7%A3%E6%B1%BA%E3%80%8D%E3%81%A8%E4%B8%BB%E5%BC%B5%E3%80%81-%E6%95%B0%E5%AD%A6%E8%80%85%E5%81%B4%E3%81%AF%E7%9C%9F%E3%81%A3%E5%90%91%E3%81%8B%E3%82%89%E7%95%B0%E8%AD%B0",
+              "source": "Yellow.com"
+            },
+            {
+              "id": 5,
+              "title": "AnthropicのAI事前学習研究者が退職、「自己改善する超知能」競争を批判　同調する現職のAIアライメント研究者も「10年以内の人類滅亡10％超」 | Ledge.ai",
+              "url": "https://ledge.ai/articles/anthropic_researcher_resigns_superintelligence_risk",
+              "source": "Ledge.ai"
+            },
+            {
+              "id": 6,
+              "title": "オープンAI、数学の難問で“横取り”疑惑？ ニューヨーク大教授が異議",
+              "url": "https://www.sbbit.jp/article/cont1/186874",
+              "source": "SBbit"
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "models",
+          "title_highlights": [
+            "OpenAI",
+            "ナビエ・ストークス",
+            "GPT-6 Astra"
+          ],
+          "three_lines_highlights": [
+            "OpenAI",
+            "数学者",
+            "未解決"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Meta、個人向けAIエージェント「Muse」を米国で提供開始　メール送信や買い物を代行",
+          "summary_ja": "Metaは、日常の作業をユーザーの代わりにこなす個人向けAIエージェント「Muse」を発表し、米国で提供を始めた。チャット形式で指示すると、タスクの計画立案から外部アプリの操作、購入やメール送信のような承認付き操作まで担う。[1][2][6][7]",
+          "summary_en": "Meta has launched Muse, a personal AI agent available in the U.S. that can plan tasks, access apps, and carry out actions such as email sending and online shopping with user authorization.[1][2][6][7]",
+          "three_lines": [
+            "Museは日常タスクを代行する",
+            "米国で専用アプリ提供を始めた",
+            "承認後に送信や購入も進める"
+          ],
+          "body_ja": "Metaが発表した「Muse」は、単なる会話型チャットボットではなく、ユーザーの許可した範囲で実際の作業を進める“個人向けAIエージェント”だ。メール返信やオンライン購入、予定や買い物の管理といった日常業務を代行し、ユーザーは専用アプリで対話しながら指示できる。[1][4][5]\n\nこのMuseの特徴は、依頼を受けたあとにタスクの計画を立て、必要なリソースを調整し、状況が変われば動きを修正できる点にある。途中で送信や購入のような重要操作が必要になった場合は、最終的にユーザーへ確認を求める仕組みで、完全自動ではなく“承認付き自動化”を基本にしている。[2]\n\n提供開始時点では米国のみで、専用のMuseアプリのほか、WhatsApp経由でも利用できると報じられている。Metaは、将来的にスマートグラスへもMuseを載せる計画を示しており、日常の対話AIをスマートフォンの枠から外へ広げようとしている。[4]\n\nまた、Metaは2026年後半に「Muse Confidential VM」を導入する計画も示した。これは仮想マシン全体を暗号化し、鍵をユーザーだけが持つ設計で、Meta自身も内容にアクセスできないようにするという。AIエージェントが個人のメールや買い物情報に触れる以上、利便性だけでなくプライバシー保護をどこまで担保できるかが普及の鍵になる。[3]\n\n今回の発表は、Metaが生成AIを“作るAI”から“動かすAI”へ広げようとしていることを示す。OpenAI、Anthropic、Googleがモデル性能やAPI強化で競うなか、Metaは自社サービスとの接続性と実行力を前面に出し、日常生活に入り込むエージェント型AIで差別化を狙っているといえる。[1][4][6]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Meta Launches a Personal AI Agent Designed to Be Easy to Use",
+              "url": "https://www.wsj.com/tech/ai/meta-launches-a-personal-ai-agent-designed-to-be-easy-to-use-3eb5cfac",
+              "source": "WSJ"
+            },
+            {
+              "id": 2,
+              "title": "Meta launches Muse AI in US: What the new personal agent can do for users",
+              "url": "https://americanbazaaronline.com/2026/09/09/meta-launches-muse-ai-in-us-487815",
+              "source": "American Bazaar Online"
+            },
+            {
+              "id": 3,
+              "title": "Meta launches Muse personal AI agent in the US",
+              "url": "https://technode.global/2026/09/09/meta-launches-muse-personal-ai-agent-us",
+              "source": "TechNode Global"
+            },
+            {
+              "id": 4,
+              "title": "Meta launches AI agent that can access other apps to send emails ...",
+              "url": "https://www.reuters.com/business/meta-launches-ai-agent-that-can-access-other-apps-send-emails-make-payments-2026-09-08",
+              "source": "Reuters"
+            },
+            {
+              "id": 5,
+              "title": "Meta launches personal AI agent, Muse, to help with everyday tasks",
+              "url": "https://www.pbs.org/newshour/nation/meta-launches-personal-ai-agent-muse-to-help-with-everyday-tasks",
+              "source": "PBS"
+            },
+            {
+              "id": 6,
+              "title": "Meta Introduces Muse, an A.I. Agent That Can Send Your Emails ...",
+              "url": "https://www.nytimes.com/2026/09/08/technology/meta-muse-ai-agent.html",
+              "source": "The New York Times"
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "models",
+          "title_highlights": [
+            "Muse",
+            "Meta"
+          ],
+          "three_lines_highlights": [
+            "Muse",
+            "米国",
+            "承認"
+          ],
+          "id": "models-2"
+        }
+      ],
+      "summary": "本日は、生成AIが「対話や文章生成」を超えて、専門研究の最前線や実務代行へ一段と踏み込む流れが目立ちました。OpenAIの未公開モデルは高度な数学・物理領域での証明生成を巡って注目を集める一方、Metaの「Muse」はメール送信や買い物まで担う個人向けエージェントとして、AIがユーザーの代理で動く実用段階に近づいています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "Oracle、Q1好決算でクラウド需要の伸びを再加速　OCIの高成長がAWS・Azure・GCP超え期待を押し上げる",
+          "summary_ja": "Oracleは2027年度第1四半期決算で、売上高・OCI・受注残のいずれも強さを示し、AI向けクラウド需要の取り込みが一段と鮮明になった。AWS、Azure、Google Cloudとの競争軸は、汎用クラウドよりもAI計算資源と契約済み需要の積み上がりへ移っている。",
+          "summary_en": "Oracle's strong Q1 FY2027 results highlighted accelerating cloud demand, with OCI growth and a massive backlog reinforcing expectations that it can gain share in AI workloads versus AWS, Azure, and Google Cloud.",
+          "three_lines": [
+            "OCIの急成長でAI需要の強さが鮮明になった。",
+            "受注残の積み上がりが成長継続の根拠になった。",
+            "AWS・Azure・GCPとの競争はAI計算資源で激化した。"
+          ],
+          "body_ja": "Oracleの2027年度第1四半期決算は、同社のクラウド事業が「大型顧客の将来期待」ではなく、すでに契約済みの需要を着実に売上へ変え始めていることを示した。売上高は前年同期比30%増の193.5億ドルとなり、OCI（Oracle Cloud Infrastructure）は121%増と突出した伸びを記録した。[2] さらに、クラウドインフラ売上は74億ドル規模まで拡大し、AI関連の計算需要を取り込むエンジンとして存在感を強めた。[3]\n\n市場が最も注目したのは、受注残に相当するremaining performance obligations（RPO）が6640億ドルに達した点だ。[2] これは単なるパイプラインではなく、将来売上として積み上がった契約ベースの需要だという見方が強く、Oracleの強気シナリオの中核になっている。[1] 前四半期時点でもRPOは6380億ドルまで膨らんでおり、増加トレンドが続いていることが確認できる。[4] この積み上がりが、AI向けクラウド案件の長期化と大型化を裏づけている。[2][4]\n\n競争環境という意味では、OracleはAWS、Azure、Google Cloudに対して「一般的なクラウド機能」ではなく、AIワークロード向けの実行力で勝負している。[1] たとえば、同社はAWSとAzure向けのリージョン展開を計画通り拡張し、マルチクラウドDBリージョン70、アベイラビリティゾーン119まで到達したと説明した。[3] これは、他社クラウド上でもOracleのデータベースを使いやすくする戦略であり、顧客の乗り換えコストを下げつつ、AI案件の受け皿を広げる狙いが透ける。[3]\n\n一方で、今回の材料はOracle単独の好調さにとどまらない。投資家の関心は、AWS・Azure・GCPのようなハイパースケーラーがAI基盤整備を急ぐ中で、Oracleが「クラウドの後発」から「AI計算資源の有力供給者」へと立ち位置を変えられるかに移っている。[1][2] 売上の伸び、OCIの急拡大、そして異例の受注残拡大がそろったことで、Oracleはクラウド市場の成長ペースを再加速させる存在として再評価されている。[2][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Oracle Earnings Preview: Q1 FY2027 Date, Estimates and Stock Outlook",
+              "url": "https://www.tastylive.com/news-insights/oracle-earnings-preview-q1-fy2027-date-estimates-and-stock-outlook",
+              "source": "tastylive"
+            },
+            {
+              "id": 2,
+              "title": "From Selling Software to Selling AI Computing Power, the Biggest ...",
+              "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262162952-",
+              "source": "TradingKey"
+            },
+            {
+              "id": 3,
+              "title": "ORCL Stock Soars 7% After-Hours — Oracle Cloud Surge Powers ...",
+              "url": "https://stocktwits.com/news-articles/markets/equity/orcl-stock-soars-7-after-hours-oracle-cloud-surge-powers-q1-beat-as-ai-demand-fuels-record-backlog/cZta8a8RJ6n",
+              "source": "Stocktwits"
+            },
+            {
+              "id": 4,
+              "title": "Oracle Stock: Wall Street Sees Massive Upside. Here’s My Price Target",
+              "url": "https://247wallst.com/investing/2026/09/09/oracle-stock-wall-street-sees-massive-upside-heres-my-price-target",
+              "source": "24/7 Wall St."
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "cloud",
+          "title_highlights": [
+            "OCI",
+            "RPO",
+            "AI"
+          ],
+          "three_lines_highlights": [
+            "OCI",
+            "RPO",
+            "AWS/Azure/GCP"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "Amazon、AWSのクラウドサービスをジャマイカで拡大　現地パートナー経由で企業・官公庁向け提供を強化",
+          "summary_ja": "Amazon Web Services（AWS）がジャマイカでの事業展開を、現地通信・法人向け事業者のLiberty Businessとの提携で広げます。企業や政府機関は、同社のネットワークやデータセンター、サポート体制を通じてAWSを利用できるようになり、ローカルに根ざしたクラウド導入が進みそうです。",
+          "summary_en": "Amazon Web Services (AWS) is expanding its presence in Jamaica through a partnership with Liberty Business, enabling local companies and government agencies to access AWS cloud services via the provider’s network, data centers and support teams. The move aims to make cloud adoption more local and practical for enterprise and public-sector customers.",
+          "three_lines": [
+            "AWSがジャマイカで提供網を広げます。",
+            "Liberty Business経由で利用を簡素化します。",
+            "企業と政府機関の導入を後押しします。"
+          ],
+          "body_ja": "Amazon Web Services（AWS）は、ジャマイカでのクラウド提供を現地パートナー経由で広げます。Liberty BusinessはAWSとの提携を発表し、同国内の企業や政府機関が、通信事業者のネットワーク、データセンター、サポートチームを通じてAWSクラウドサービスへアクセスできるようにしました[2]。\n\nこの動きは、Liberty Latin America（LLA）とAWSの間で進む「5年」の戦略的な協業の一部とされています。Developing Telecomsは、Liberty CaribbeanがFlow、Liberty Business、バハマのBTCを運営していることにも触れており、地域横断でクラウド提供を強化する布石だと読めます[1]。つまり今回のジャマイカ展開は、単発の販売提携というより、カリブ地域全体でAWSの到達範囲を広げる戦略の一環です[1]。\n\nポイントは、AWSが直接売り込むのではなく、既存の通信事業者の顧客接点や運用基盤を使って導入障壁を下げていることです。ジャマイカ・グリーナーの抜粋では、Liberty Businessが「自社のネットワーク、データセンター、サポートチーム」を前面に出しているとされ、ローカル企業や官公庁にとっては、クラウドの契約・運用・相談窓口が身近になる可能性があります[2]。一方で現時点の検索結果では、AI専用機能、新料金、障害対応といった詳細は示されていません。したがって今回のニュースの核心は、AWSの最新AI機能そのものではなく、現地パートナーを使った販路拡大と、企業・公共部門への浸透強化にあります[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Liberty Business partners with AWS to expand cloud services in Jamaica - Developing Telecoms",
+              "url": "https://developingtelecoms.com/telecom-technology/telecom-cloud-virtualization/20814-liberty-business-partners-with-aws-to-expand-cloud-services-in-jamaica.html",
+              "source": "Developing Telecoms"
+            },
+            {
+              "id": 2,
+              "title": "Liberty Business launches AWS cloud partnership in Jamaica | Business | Jamaica Gleaner",
+              "url": "http://jamaica-gleaner.com/article/business/20260913/liberty-business-launches-aws-cloud-partnership-jamaica",
+              "source": "Jamaica Gleaner"
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "ジャマイカ",
+            "Liberty Business"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "Liberty Business",
+            "企業・政府機関"
+          ],
+          "id": "cloud-2"
+        },
+        {
+          "title": "Pentagon、次期大型クラウド契約の第1弾入札を公表　JWCC再編でハイパースケーラーに再び商機",
+          "summary_ja": "米国防総省が次期「Joint Warfighter Cloud Capability（JWCC）」の再契約に向け、最初の2本の入札のうち1本を公表した。今回はハイパースケーラー向け部分を先行して募集し、残る領域は別契約でカバーする構えだ。AWS、Azure、GCPを含む大手クラウド各社に、前回同様の大型案件を取りにいく機会が再び開く。",
+          "summary_en": "The Pentagon has released the first of two final solicitations for the next JWCC recompete, opening a new bidding round for hyperscalers. A separate contract will cover the remaining scope, creating another opportunity for major cloud providers.",
+          "three_lines": [
+            "国防総省がJWCC再契約の入札を始めた",
+            "ハイパースケーラー向け部分を先行募集した",
+            "残りの範囲は別契約でカバーする"
+          ],
+          "body_ja": "米国防総省が、次期大型クラウド契約「Joint Warfighter Cloud Capability（JWCC）」の再契約に向けた最初の入札を公表した。今回は「二つの最終提案依頼」のうちの第1弾で、ハイパースケーラーは自分たちの担当領域について提案作業を始められる一方、その他の要件は別の契約枠で扱われる見通しだという。[1]\n\nこの動きの重要点は、単に既存契約を更新するのではなく、調達の切り分け方そのものを見直していることにある。検索結果によれば、国防総省は次のJWCCで「ハイパースケーラー向けの部分」と「それ以外」を分ける構成を採用しており、AWS、Azure、GCPのような大手クラウドにとっては、前回に続く大規模案件で再び存在感を示す機会になる。[1]\n\nJWCCは軍向けのクラウド基盤として、ミッション要件に応じた柔軟な調達が重視される案件だ。今回の公表内容からは、Pentagonが単一の巨大契約に頼るのではなく、責任範囲を整理しながら再編を進めていることがうかがえる。これは、各ベンダーにとっては競争条件の把握がしやすくなる一方、提案の完成度や価格、運用面での差別化がより厳しく問われる局面でもある。[1]\n\nクラウド各社の観点では、今回の焦点は新サービス発表や値下げではなく、政府向けの大型案件をどう取りにいくかにある。ただ、近年のハイパースケーラーはAI関連機能を含むクラウド基盤の拡充を加速しており、防衛分野でもその実装力が評価材料になりやすい。JWCC再編の第1弾が出たことで、AWS、Azure、GCPは次の提案戦略を具体化する段階に入ったとみてよさそうだ。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Pentagon unveils first of two solicitations for its next big cloud contract - Washington Technology",
+              "url": "https://www.washingtontechnology.com/contracts/2026/09/pentagon-unveils-first-two-solicitations-its-next-big-cloud-contract/415839/",
+              "source": "Washington Technology"
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "cloud",
+          "title_highlights": [
+            "JWCC",
+            "ハイパースケーラー"
+          ],
+          "three_lines_highlights": [
+            "JWCC",
+            "ハイパースケーラー",
+            "別契約"
+          ],
+          "id": "cloud-3"
+        }
+      ],
+      "summary": "本日のクラウド分野は、生成AI需要を背景にした基盤インフラ争奪が一段と鮮明になり、Oracleの好決算が示すように各社の勝負軸が「汎用クラウド」から「AI向け計算資源と受注残」に移っています。あわせてAWSはジャマイカでの展開拡大や、米国防総省の次期JWCC再編など、地域展開と大型官公庁案件の両面で商機を広げており、ハイパースケーラー間の競争は需要拡大を背景にさらに加速しています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Weaviate v1.35の「Agents」表記を訂正、開発者向けAIエージェント機能の境界がより明確に",
+          "summary_ja": "Weaviate v1.35で示されていた「Agents」関連の記述が訂正され、Query/Transformation/Personalization AgentはWeaviate本体の新機能ではなく別製品群に属することが明確になった。周辺では、AIエージェントが業務データを直接扱う製品や、企業向けのagentic AI基盤が相次いで登場しており、開発者ツールでも「何を本体が担い、何を別製品に分けるか」が重要になっている。",
+          "summary_en": "Weaviate has corrected its v1.35 “Agents” wording, clarifying that Query, Transformation, and Personalization Agents belong to separate product lines, with some planned for sunset. The move comes amid a broader 2026 wave of AI agent products that query data directly, act on workflows, and emphasize governance and product boundaries.",
+          "three_lines": [
+            "WeaviateはAgents表記を訂正した。",
+            "別製品群との境界が明確になった。",
+            "周辺市場はエージェント競争が加速する。"
+          ],
+          "body_ja": "Weaviate v1.35で注目を集めた「Agents」機能の説明が、後から整理されました。今回のポイントは、Query Agent、Transformation Agent、Personalization Agentといった名前が、Weaviate本体に新搭載された単一の機能群ではなく、別の製品群として扱われるという点です。さらに、一部は将来的にSunset、つまり提供終了の対象になることも示されています。AI開発ツールの文脈では、こうした表記の修正は小さく見えても重要です。エージェント機能は、チャットUIだけでなく、データ検索、データ変換、個別最適化まで広く期待されがちです。そのため、製品境界が曖昧だと、導入側は「どこまでがコア機能で、どこからが別製品なのか」を誤解しやすくなります。[3][7]\n\n2026年の市場全体を見ても、エージェントは単なる流行語ではなく、実際に業務へ入り込む方向に進んでいます。たとえばHubstaffは、AIエージェントがワークフォースデータを直接問い合わせ、即座に答えを返せるようにするデータ層を打ち出しました。[2] Prophecyは、AIエージェントの出力を業務に使う前に人間が確認できるAIデータ準備ツールを発表し、精度だけでなく信頼性の担保に踏み込んでいます。[3] さらにNeuroWattは、ガバナンスやマルチモデルルーティング、オンプレミス基盤を含む企業向けのエージェント人材ならぬ「Agentic AI Workforce」を前面に出しました。[7]\n\nこうした流れを踏まえると、Weaviateの訂正は単なる用語修正ではありません。Claude Code、Cursor、GitHub Copilot、LangChainのような開発者向けツールやフレームワークを使う現場では、エージェントがどの層で動くのかが導入判断を左右します。検索、変換、パーソナライズ、実行といった役割を分けて設計しないと、期待値だけが先行し、運用コストや保守負荷が増えかねません。Weaviateが機能の線引きを明確化したのは、エージェント時代の製品設計では「できること」より「どこまで責任を持つか」が問われているからだと言えます。[1][2][3][7]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Meta’s New AI Agent Wants to Get Personal With You - CNET",
+              "url": "https://www.cnet.com/tech/services-and-software/meta-muse-ai-agent-personal-computer-2026-news/",
+              "source": "CNET"
+            },
+            {
+              "id": 2,
+              "title": "Hubstaff Launches AI-Ready Workforce Data Layer; Enabling AI Agents to Query and Act on Workforce Data Directly - PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/hubstaff-launches-ai-ready-workforce-data-layer-enabling-ai-agents-to-query-and-act-on-workforce-data-directly-302875574.html",
+              "source": "PR Newswire"
+            },
+            {
+              "id": 3,
+              "title": "Prophecy Launches AI Data Prep Tools to Close the Gap Between AI Investment and AI Results - markets.businessinsider.com",
+              "url": "https://markets.businessinsider.com/news/stocks/prophecy-launches-ai-data-prep-tools-to-close-the-gap-between-ai-investment-and-ai-results-1036527467",
+              "source": "markets.businessinsider.com"
+            },
+            {
+              "id": 4,
+              "title": "AI Agent Startups in 2026: The Companies Building the Next Generation of Autonomous Software - BBN Times",
+              "url": "https://www.bbntimes.com/technology/ai-agent-startups-in-2026-the-companies-building-the-next-generation-of-autonomous-software",
+              "source": "BBN Times"
+            },
+            {
+              "id": 5,
+              "title": "'Selling Sunset' Star Christine Quinn’s Ex Lists $5.5 Million L.A. Home as Bitter Divorce Battle Rages On - Realtor.com",
+              "url": "https://www.realtor.com/news/reality-tv/selling-sunset-christine-quinn-ex-husband-divorce-los-angeles-home-for-sale/",
+              "source": "Realtor.com"
+            },
+            {
+              "id": 6,
+              "title": "Meta Acquires Swedish AI Startup To Boost Automated Business Messaging 09/10/2026 - MediaPost",
+              "url": "https://www.mediapost.com/publications/article/417764/meta-acquires-swedish-ai-startup-to-boost-automate.html",
+              "source": "MediaPost"
+            },
+            {
+              "id": 7,
+              "title": "NeuroWatt Launches NeuroTeam, an Enterprise-Grade Agentic AI Workforce to Accelerate AI Agent Adoption - Macau Business",
+              "url": "https://macaubusiness.com/neurowatt-launches-neuroteam-an-enterprise-grade-agentic-ai-workforce-to-accelerate-ai-agent-adoption/",
+              "source": "Macau Business"
+            },
+            {
+              "id": 8,
+              "title": "Gant Travel Expands Gant360 Self-Service Platform With Agentic AI Assistant - wboc.com",
+              "url": "https://www.wboc.com/online_features/press_releases/gant-travel-expands-gant360-self-service-platform-with-agentic-ai-assistant/article_e8699495-4830-5f8c-b4ec-6ce0270b93aa.html",
+              "source": "WBOC"
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "devtools",
+          "title_highlights": [
+            "Weaviate",
+            "Agents"
+          ],
+          "three_lines_highlights": [
+            "訂正",
+            "別製品群",
+            "エージェント競争"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "AI駆動開発の求人要件にClaude Code・Cursor・GitHub Copilotが定着、業務委託でもLangChain/LangGraphとLLM運用が前面に",
+          "summary_ja": "AI駆動開発の現場では、Claude CodeやCursor、GitHub Copilotといった開発者向けAIツールの利用が、もはや「使えたら歓迎」ではなく、求人要件として明示される段階に入っている。加えて業務委託案件でも、LangChainやLangGraphを使った実装、LLMの運用・安全性への理解まで求める募集が目立つようになっている。",
+          "summary_en": "AI-assisted development jobs are increasingly specifying tools such as Claude Code, Cursor, and GitHub Copilot as explicit requirements, not optional nice-to-haves. Contract work is also putting LangChain, LangGraph, and practical LLM operations front and center.",
+          "three_lines": [
+            "Claude Codeなどが求人要件に定着した。",
+            "業務委託でもLangChain/LangGraphが求められる。",
+            "LLM実運用と安全性の視点が重視される。"
+          ],
+          "body_ja": "AI駆動開発の求人票を読むと、いまやClaude Code、Cursor、GitHub Copilotの名前が「使えると望ましい」ではなく、実務上の前提として並ぶケースが増えている。Anthropic側でも、Claude Codeを含む新機能群を継続的に押し出しており、内部では少人数チームが2週間ごとに見直しを行い、Claude CodeやMCP、Claude Designのような成果物を生み出していることが示されている。こうした背景から、開発現場での生成AIは試用フェーズを越え、日常的な制作環境の一部になったとみてよいだろう[2][5]。\n\n採用市場で注目すべきは、単一ツールの習熟だけでなく、ワークフロー全体をAI前提で組み立てられるかが見られている点だ。たとえばClaude Codeは、開発者がコード生成・修正を対話的に進めるための代表的な選択肢として扱われ、CursorやGitHub Copilotも同じ文脈で並列に比較されやすい。求人側がこれらを明記するのは、AI補助を一時的な効率化ではなく、設計・実装・レビューをまたぐ常用プロセスとして期待しているからだろう[2][3][7]。\n\nさらに業務委託案件では、フロントエンドやバックエンドの実装経験だけでなく、LangChainやLangGraphといったagentフレームワークの実戦投入が前面に出てきた。これは、単なるチャットボット構築ではなく、外部ツール呼び出し、状態管理、複数ステップの推論や実行を伴うアプリケーション開発が増えていることを示す。LLMを「呼べる」だけでは足りず、どこで失敗しやすいか、どのように監視し、安全に止めるかまで含めた運用設計が問われるようになっている[4][6]。\n\nその意味で、採用要件の変化は技術トレンドというより、AI活用の成熟度の反映に近い。Anthropic自身が、Claudeのモデルがミサイル関連やサイバー侵入の悪用に使われたとする報告を公表し、モデルの悪用リスクを強く意識していることも象徴的だ。開発者は、便利な生成AIツールを扱うだけでなく、出力の品質、誤作動、悪用可能性まで視野に入れた責任ある実装が必要になっている[1][4][6]。\n\n結果として、Claude Code、Cursor、GitHub Copilotは「導入済みの補助ツール」から「人材評価の基準」へと位置づけを変えつつある。LangChainやLangGraphが案件の前面に出るのも、AIエージェント化した開発の実装力が、もはや周辺技能ではなく中核スキルになったからだ。AI駆動開発の求人市場は、いまツール名の列挙を通じて、開発者に“AIを使う”ではなく“AIを組み込んで運用する”能力を求め始めている[2][5][7]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Iran-backed rebels in Yemen tried using Anthropic's Claude to build guided missiles, alarming report finds - New York Post",
+              "url": "https://nypost.com/2026/09/11/business/iran-backed-rebels-in-yemen-tried-using-anthropics-claude-to-build-guided-missiles-alarming-report-finds/",
+              "source": "New York Post"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic Labs: 20-member team, biweekly reviews, 20–30% success rate - KuCoin",
+              "url": "https://www.kucoin.com/news/flash/anthropic-labs-20-member-team-2-week-reviews-20-30-success-rate",
+              "source": "KuCoin"
+            },
+            {
+              "id": 3,
+              "title": "A developer emailed Claude Code's creator about AI slop. Boris Cherny wrote back. - Business Insider",
+              "url": "https://www.businessinsider.com/claude-codes-creator-email-ai-slop-reply-2026-9",
+              "source": "Business Insider"
+            },
+            {
+              "id": 4,
+              "title": "Anthropic claims Claude AI used for missile projects, global espionage - Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage",
+              "source": "Al Jazeera"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic Labs Uncovered: 20-Person Team, Biweekly Retention or Departure Decisions, 80% Idea Failure Permitted - 36Kr",
+              "url": "https://eu.36kr.com/en/p/3974128653464067",
+              "source": "36Kr"
+            },
+            {
+              "id": 6,
+              "title": "Anthropic Reveals Four Times AI Went Rogue and Attacked Real World Systems - Newsweek",
+              "url": "https://www.newsweek.com/anthropic-reveals-4-cases-claude-interferes-real-systems-12424430",
+              "source": "Newsweek"
+            },
+            {
+              "id": 7,
+              "title": "Google Finally Lets All Engineers Use Anthropic's Claude - Business Insider",
+              "url": "https://www.businessinsider.com/google-finally-lets-all-engineers-use-anthropics-claude-2026-9",
+              "source": "Business Insider"
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "Cursor",
+            "Copilot"
+          ],
+          "three_lines_highlights": [
+            "Claude Code",
+            "LangChain/LangGraph",
+            "LLM運用"
+          ],
+          "id": "devtools-2"
+        }
+      ],
+      "summary": "AI開発ツール分野では、エージェント機能が「基盤製品の中核」なのか「別製品・周辺機能」なのかを切り分ける動きが進み、実装範囲や責任境界を明確にすることの重要性が増しています。同時に、Claude CodeやCursor、GitHub Copilot、LangChain/LangGraphのような開発者向けAIツールは、現場導入の実験段階を越えて、求人要件や業務委託の前提スキルとして定着しつつあります。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "欧州、AI供給網から取り残されるリスクが現実化　ラガルドECB総裁が警告",
+          "summary_ja": "ECBのラガルド総裁は、欧州がAI技術の「生産者」にならなければ、自律性と生産性の両面で不利になると警告した。欧州企業はAIに投資している一方で、依然として技術の輸入依存が強いとされ、供給網から外れるリスクが現実味を帯びている。",
+          "summary_en": "ECB President Christine Lagarde warned that Europe must become a producer of AI technology to preserve autonomy and productivity, as European firms still rely heavily on imported technology despite AI investment.",
+          "three_lines": [
+            "欧州はAI生産国にならねばならないとECB総裁が警告した。",
+            "企業投資は進むが、技術の多くは域外依存が残る。",
+            "自律性と生産性を守るには供給網の内製化が急務だ。"
+          ],
+          "body_ja": "欧州のAI戦略をめぐり、ECBのクリスティーヌ・ラガルド総裁が警鐘を鳴らした。総裁は、欧州が人工知能技術の「生産者」にならなければ、自らの自律性を守れず、生活水準を支える効率改善も取りこぼす恐れがあると指摘した[1]。単なるAIの利用者にとどまるのではなく、基盤技術を持つ側に回る必要がある、という危機感がにじむ。\\n\\n背景には、欧州企業がAIに投資している一方で、技術の大半を輸入しているという構図がある[1]。この状態が続けば、AI供給網の主導権は域外に握られ、欧州は製品・サービスの高度化や生産性向上の果実を十分に取り込めない。さらに、AIをめぐる規制や産業政策を強めても、肝心の技術基盤が弱ければ競争力の底上げには限界がある、という示唆も読み取れる。\\n\\n今回の発言は、欧州が規制先行で慎重姿勢を保つだけでは不十分で、研究開発、資金調達、M&Aを含む産業面のテコ入れが必要だという問題意識を示すものだ。AI Actのようなルール整備が進む一方で、欧州が実際にAIを「作る側」へ転じられるかどうかが、今後の欧米間の技術格差を左右する焦点になりそうだ[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Europe facing unprecedented risk of being cut off from AI, Lagarde warns",
+              "url": "https://m.economictimes.com/tech/technology/europe-facing-unprecedented-risk-of-being-cut-off-from-ai-lagarde-warns/articleshow/134246747.cms",
+              "source": "The Economic Times"
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "global",
+          "title_highlights": [
+            "AI供給網",
+            "ラガルド"
+          ],
+          "three_lines_highlights": [
+            "AI供給網",
+            "域外依存",
+            "自律性"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "EUがAI企業に安全性証明を要求、加速派との綱引きが再燃",
+          "summary_ja": "EUがAI企業に対し、安全性の証明なしでは域内での事業継続を認めない姿勢を強めている。背景には、Anthropicのダリオ・アモデイCEOらがAI開発の減速を求め、各社に安全対策を先行させるべきだと訴えていることがある。規制強化と開発加速の対立は、欧米のAI戦略と市場心理の両方に影響を広げている。",
+          "summary_en": "The EU is tightening its stance by requiring AI firms to prove safety compliance to operate in the region. This comes as Anthropic CEO Dario Amodei and other tech leaders call for slowing AI development so safety can catch up. The renewed clash between regulation and acceleration is shaping both European AI policy and market sentiment.",
+          "three_lines": [
+            "EUがAI企業に安全性証明を求めた。",
+            "Anthropic CEOは開発減速を主張した。",
+            "規制強化で欧米AI戦略の対立が深まった。"
+          ],
+          "body_ja": "EUがAI企業に対して、安全性とコンプライアンスを証明しなければ域内で事業できないと迫り、AIの“速さ”をめぐる議論が再び前面に出てきた。今回の動きは、単なる新ルールの告知ではなく、AIの能力向上を優先する陣営と、まず安全性を固めるべきだとする陣営の対立を、欧州の規制当局が制度面から後押しした形でもある。[1][2]\n\n議論を再燃させた直接の引き金は、Anthropicのダリオ・アモデイCEOが、AI業界はモデル改善のペースを落とすべきだと公に訴えたことだ。抜粋によれば、同氏は第三者評価者の組み込みや、競合他社が安全性で協調するための法的な余地まで求めている。つまり、AI開発はもはや競争だけで進める段階ではなく、外部検証と安全設計を前提にした“統治された競争”へ移るべきだという問題提起である。[2]\n\nさらに、別報道では、アモデイ氏は今後6〜12カ月のうちに、AIがインターネット全体を支配し得るエージェント群を統率できる可能性に言及し、安全策が追いつくまで速度を落とす必要があると警告している。The Atlanticも、Anthropicの研究者が職を辞して「責任ある行動」を欠くと批判した直後に、同社CEOがほぼ同調するかたちで危機感を示したと伝えており、企業内部と経営トップの間でも安全性への圧力が高まっていることがうかがえる。[3][7][8]\n\nこの問題はEUだけの話ではない。CNBCは、アモデイ氏の減速要請と他の大手テック幹部の支持を受け、AI関連株が下落したと報じた。欧州の半導体やAI関連銘柄にも売りが波及したという点は、規制や安全性の話が研究室の議論にとどまらず、投資家が想定する成長率や時間軸に直接跳ね返っていることを示す。[4]\n\n要するに、EUの安全性証明要求は、AIに対する社会的な不安を制度に落とし込む一方で、アモデイ氏らの“開発を急ぎすぎるな”というメッセージとも響き合っている。今後の焦点は、EU AI Actのような規制の枠内で、どこまで第三者評価や共同安全策を実装できるか、そしてその負担が欧米のAI戦略、資金調達、M&A、研究開発の速度にどれほど影響するかだ。[1][2][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "EU demands proof of safety from AI firms amid debate over development speed - The Jerusalem Post",
+              "url": "https://www.jpost.com/international/article-908533",
+              "source": "The Jerusalem Post"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic’s Dario Amodei says the AI industry must slow down - The Next Web",
+              "url": "https://thenextweb.com/news/amodei-pacing-frontier-eu-rules",
+              "source": "The Next Web"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic Says ‘We Owe It to Humanity’ to Slow Down AI - The Atlantic",
+              "url": "https://www.theatlantic.com/technology/2026/09/dario-amodei-slow-down-ai-save-humanity/688610/",
+              "source": "The Atlantic"
+            },
+            {
+              "id": 4,
+              "title": "AI stocks slide after major CEOs unite to urge slowdown - CNBC",
+              "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic CEO urges AI companies to slow model development amid fears over misuse - reuters.com",
+              "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/",
+              "source": "Reuters"
+            },
+            {
+              "id": 6,
+              "title": "AI CEOs demand industry ‘slow the pace’ of advancements after ex-Anthropic employee warned tech may ‘kill us all’ - New York Post",
+              "url": "https://nypost.com/2026/09/12/us-news/ai-ceos-demand-the-industry-slow-the-pace-of-advancements/",
+              "source": "New York Post"
+            },
+            {
+              "id": 7,
+              "title": "Anthropic chief Dario Amodei says AI industry needs to slow down for safety - Los Angeles Times",
+              "url": "https://www.latimes.com/world-nation/story/2026-09-12/anthropic-chief-amodei-says-ai-industry-needs-to-slow-down-for-safety",
+              "source": "Los Angeles Times"
+            },
+            {
+              "id": 8,
+              "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up - SecurityWeek",
+              "url": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+              "source": "SecurityWeek"
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "global",
+          "title_highlights": [
+            "EU",
+            "AI",
+            "Anthropic"
+          ],
+          "three_lines_highlights": [
+            "EU",
+            "Anthropic",
+            "AI株"
+          ],
+          "id": "global-2"
+        },
+        {
+          "title": "サンダース上院議員、AI危険性で非公開ブリーフィング　米議会で安全論争が再燃",
+          "summary_ja": "米上院のサンダース議員が、AIの急速な進化がもたらす危険性を議論する非公開の超党派ブリーフィングを9月16日に開催する。会合にはジェフリー・ヒントン氏、マックス・テグマーク氏、アジェヤ・コトラ氏が参加し、ワシントンでAI安全をめぐる警戒感が一段と強まっている。[1][2][6]",
+          "summary_en": "Sen. Bernie Sanders is hosting a private bipartisan Senate briefing on September 16 to discuss the dangers of rapidly advancing AI, with Geoffrey Hinton, Max Tegmark, and Ajeya Cotra set to brief lawmakers. The move highlights renewed concern in Washington over AI safety and possible regulatory action.[1][2][6]",
+          "three_lines": [
+            "サンダース氏がAI危険性を議論へ招集",
+            "ヒントン氏らが上院議員へ非公開説明",
+            "米議会でAI安全論争が再び強まる"
+          ],
+          "body_ja": "米上院で、AIの安全性をめぐる議論が再び熱を帯びている。サンダース上院議員は9月16日、上院議員向けの非公開・超党派ブリーフィングを開き、AIの急速な発展に伴うリスクを取り上げる予定だという。[1][2][3]\n\n会合には、AI研究の第一人者として知られるジェフリー・ヒントン氏、Future of Life Institute共同創設者のマックス・テグマーク氏、独立研究者のアジェヤ・コトラ氏が招かれている。[1][2][5][6] いずれもAIの安全性や長期的リスクを強く問題視してきた人物で、議員側に「現場の危機感」を直接伝える狙いがうかがえる。[1][2][6]\n\n今回の動きが注目されるのは、単なる勉強会ではなく、政策議論を次の段階へ進める前触れだからだ。報道によれば、サンダース氏は高度AIの開発を一時停止する法案を追求する意向にも言及しており、AI開発の加速に対して立法で歯止めをかけるべきだという問題意識がにじむ。[4] 共和党のアンナ・パウリナ・ルナ下院議員もAIをめぐる特別な議会対応を求めており、危機感は党派をまたいで広がっている。[4]\n\nAxiosは、この再燃の背景として、AIシステムに関する「rogue AI incidents」や、モデル開発に関わる当事者自身から発せられる厳しい警告が、ワシントンの不安を強めていると伝えている。[6] つまり、問題は研究者の抽象的な懸念ではなく、実運用での逸脱や予測不能性が政治課題になりつつある点にある。[6]\n\n欧州ではEU AI Actが先行する一方、米国では包括規制の枠組みがなお固まっていない。そうした中で、今回の非公開ブリーフィングは、米議会がAI規制を本格化させる入口になり得る。大手AI企業にとっては、技術競争だけでなく、政策当局との距離感や説明責任がこれまで以上に重要になる局面だ。[4][6]\n\n直近の論点は、AIの性能向上をどこまで許容し、どの段階で安全担保を義務づけるかに移っている。今回の会合が、議員の認識をそろえるだけでなく、今後の法案提出や監督強化につながるのかが最大の焦点となる。[1][4][6]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Sanders brings AI risk researchers to a closed Senate briefing on AI danger",
+              "url": "https://www.nationofchange.org/2026/09/10/sanders-brings-ai-risk-researchers-to-a-closed-senate-briefing-on-ai-danger",
+              "source": "NationofChange"
+            },
+            {
+              "id": 2,
+              "title": "Bernie Sanders convenes a private Senate briefing on AI dangers",
+              "url": "https://thenextweb.com/news/sanders-senate-ai-briefing-hinton-tegmark-cotra",
+              "source": "The Next Web"
+            },
+            {
+              "id": 3,
+              "title": "Sanders Sets Briefing on ‘Extraordinary Dangers’ Posed by Breakneck AI Development",
+              "url": "https://www.newsgram.com/america/2026/09/11/sanders-senate-ai-briefing-extraordinary-dangers",
+              "source": "NewsGram"
+            },
+            {
+              "id": 4,
+              "title": "Anthropic Resignation: Crisis Communications Lessons for PR",
+              "url": "https://www.contentgrip.com/anthropic-resignation-crisis-communications",
+              "source": "ContentGrip"
+            },
+            {
+              "id": 5,
+              "title": "Bernie Sanders Calls Emergency Senate Briefing on 'Extraordinary Dangers' of AI | Times Now",
+              "url": "https://www.timesnownews.com/world/us/us-news/bernie-sanders-calls-emergency-senate-briefing-on-extraordinary-dangers-of-ai-article-156129113",
+              "source": "Times Now"
+            },
+            {
+              "id": 6,
+              "title": "Scoop: Sanders convenes senators for AI briefing amid mounting alarm",
+              "url": "https://www.axios.com/2026/09/09/sanders-senators-ai-briefing",
+              "source": "Axios"
+            },
+            {
+              "id": 7,
+              "title": "Bernie Sanders calls for a Senate briefing on AI dangers",
+              "url": "https://www.wonderwall.com/politics/bernie-sanders-ai-agent-risks-senate",
+              "source": "Wonderwall"
+            }
+          ],
+          "published_date": "2026-09-15",
+          "category": "global",
+          "title_highlights": [
+            "AI安全",
+            "米上院",
+            "サンダース"
+          ],
+          "three_lines_highlights": [
+            "AI危険性",
+            "非公開ブリーフィング",
+            "米議会"
+          ],
+          "id": "global-3"
+        }
+      ],
+      "summary": "欧米では、AIを単なる成長分野ではなく「供給網・安全保障・産業競争力」の中核とみなす動きが一段と強まり、欧州では自前の技術基盤を持てないことへの危機感が高まっています。同時に、EUや米議会ではAIの安全性を先に担保すべきだという規制・警戒の流れが再燃しており、開発加速と安全確保の主導権争いが市場心理にも影響を与えています。"
+    }
+  ]
+}
