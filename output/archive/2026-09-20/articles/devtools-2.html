@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI開発ツールは「賢く作る」から「統制する」へ――AgentCore、Jira、MCP周辺で進む開発基盤の再設計 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+    <span class="article-date">2026-09-20</span>
+  </div>
+  <h1 class="article-title">AI開発ツールは「賢く作る」から「統制する」へ――<mark style="background:#8A3FE026">AgentCore</mark>、<mark style="background:#8A3FE026">Jira</mark>、<mark style="background:#8A3FE026">MCP</mark>周辺で進む開発基盤の再設計</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li>AWSが<mark style="background:#8A3FE026">AgentCore</mark>で挙動とコストを統制する</li><li>Atlassianが<mark style="background:#8A3FE026">Jira</mark>でAIエージェント運用を最適化する</li><li><mark style="background:#8A3FE026">MCP</mark>周辺でベンダー横断の標準化が進む</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">2026年秋のAI開発ツール界隈では、Claude CodeやCursorのような“書くためのAI”だけでなく、エージェントの行動をどう統制し、どう業務フローに組み込むかが主戦場になりつつある。AWSはエージェントの時系列ポリシーとレート制限を前面に出し、AtlassianはJiraでAIエージェントを制御・最適化する機能群を打ち出した。さらにMCPを軸に、ベンダー横断の接続性や標準化を巡る議論も進んでいる。</p>
+    <p class="sum-en">In the AI developer tools space, the focus is shifting from “helping developers write code” to governing and integrating autonomous agents. AWS is adding temporal policy and rate limiting for agents, Atlassian is rolling out controls for AI agents in Jira, and MCP-related discussions are pushing interoperability and standardization across vendors.</p>
+  </div>
+
+  <div class="article-body"><p>AI開発ツールの進化は、いま「コードを書く支援」から「エージェントをどう管理するか」へ重心を移し始めている。今回の検索結果を総合すると、個々のタスクをこなすAIそのものよりも、複数の処理を連ねる自律型エージェントを安全に動かすための統制機能、そして異なるAI基盤をつなぐ接続層が、2026年後半の重要テーマになっていることが見えてくる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p>
+<p>AWSは週刊生成AIの中で、エージェントの各アクションが単体では妥当でも、全体の実行経路として見ると危険になり得る点を強調した。そのうえで、アクションの連なりを評価してポリシー違反を止める時系列ポリシーと、ゲートウェイでのレート制限をAmazon Bedrock AgentCoreの新機能として紹介している。ここで重要なのは、エージェント側のコードをいじらずに、インフラ側から振る舞いとコストの上限を決められる点だ。つまり、AIエージェントを“作る”段階だけでなく、“野放しにしない”段階に製品価値が広がっている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>同じく統制の流れは、Atlassianの動きにも表れている。JiraやAtlassian DXに追加された新機能は、AIネイティブなSDLCの中で、人間とAIエージェントの役割分担を見直し、開発ライフサイクル全体を最適化する狙いがある。要するに、エージェントを単独の“便利な下請け”として置くのではなく、開発プロセスに組み込まれた参加者として監督・調整する発想だ。Claude CodeやGitHub Copilot、Cursorのような開発者向けAIが浸透するほど、最後は個別機能の優秀さより、チケット管理や品質統制の仕組みと噛み合うかが効いてくる。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p>
+<p>一方で、MCPをめぐる議論は、こうしたツール群を横断する“接続の共通語”をめざしている。Publickeyの報道では、AnthropicのMCP共同作者による講演を起点に、OpenAIやAnthropicなどベンダーごとのAPI差異を吸収して統合する「Agent Router」が、Linux Foundation傘下で業界標準を目指す流れとして紹介された。これは、特定のAIモデルやエージェント実装に依存せず、ツールや基盤を差し替えやすくする方向性を示している。開発者にとっては、モデル選定よりも“どう接続し、どう乗り換えるか”が設計課題になりつつある。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>この変化は、2025年がAIエージェントの「利用元年」だったとする見方ともつながる。CodeZineの記事では、2026年は「構築元年」になるのかという問いが提示されており、実際、検索結果に並ぶ各社の動きは、単なる利用拡大ではなく、運用ルールや役割分担、標準化の整備へ進んでいることを裏づけている。AI開発ツールの競争は、機能の多さだけでなく、どれだけ安全に、どれだけ他製品と接続しながら、どれだけ継続運用できるかの勝負へ移ったと言えそうだ。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p>
+<p>もっとも、AIエージェントの“統制”は、技術だけで完結しない。横浜ゴムとdotDataの共同開発事例が示すように、AIは専門家の判断を置き換えるのではなく、技術者が提示内容を解釈し、自分の経験と照らし合わせて思考を広げるための補助線として使われている。開発現場でも同じで、エージェントを増やすほど、人間側の判断軸やレビュー責任、運用ルールの整備が重要になる。AI開発ツールの次の競争軸は、生成性能そのものより、開発組織に“信頼して預けられるか”に移っている。<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup></p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://aws.amazon.com/jp/blogs/news/weekly-genai-20260907" target="_blank" rel="noopener noreferrer">週刊生成AI with AWS – 2026/9/7週</a>
+        <span class="ref-source">— AWS</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://www.publickey1.jp/blog/26/anthropicmcpmcpagntconmcpcon_japan_2026.html" target="_blank" rel="noopener noreferrer">AnthropicのMCP共同作者が来日、基調講演で語るこれからのMCP注力領域。AGNTCon＋MCPCon Japan 2026 － Publickey</a>
+        <span class="ref-source">— Publickey</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://codezine.jp/article/detail/29684" target="_blank" rel="noopener noreferrer">「あなたの仕事を奪うのはAIじゃない」 御田稔（みのるん）氏が語る、仕事を奪わせない、越境するエンジニアの流儀</a>
+        <span class="ref-source">— CodeZine</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://enterprisezine.jp/news/detail/25080" target="_blank" rel="noopener noreferrer">アトラシアン、JiraなどでAIエージェント開発を統制・最適化する新機能群ローンチへ</a>
+        <span class="ref-source">— EnterpriseZine</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://news.infoseek.co.jp/article/prtimes_000000072_000053039" target="_blank" rel="noopener noreferrer">横浜ゴムとdotData、製造R&amp;Dを支援するAIエージェントの共同開発を開始｜Infoseekニュース</a>
+        <span class="ref-source">— Infoseekニュース</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
