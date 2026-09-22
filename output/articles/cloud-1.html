@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Azure AI FoundryのCVSS 10.0脆弱性と、AIクラウドの“守り”が主戦場に | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-09-22</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#3654D626">Azure AI Foundry</mark>の<mark style="background:#3654D626">CVSS 10.0</mark>脆弱性と、AIクラウドの“守り”が主戦場に</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#3654D626">Azure AI Foundry</mark>の重大欠陥を修正した。</li><li>AzureとAI製品で<mark style="background:#3654D626">18件</mark>をまとめて対処した。</li><li>AIクラウドは機能競争から防御競争へ移る。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">MicrosoftはAzure AI Foundryの重大脆弱性を修正し、同時にAzureやAI系製品群で18件の欠陥に対処しました。AI機能の拡張が進む一方で、権限昇格を含む基盤セキュリティの弱点が、クラウド戦略の重要論点になっています。</p>
+    <p class="sum-en">Microsoft patched a critical Azure AI Foundry flaw and 18 vulnerabilities across Azure and AI products, underscoring how security is becoming central to cloud AI strategy.</p>
+  </div>
+
+  <div class="article-body"><p>MicrosoftがAzure AI FoundryのCVSS 10.0級の脆弱性を修正したことは、AIクラウドの競争軸が「何ができるか」だけでなく、「どこまで安全に使えるか」に移っていることを示しています。報道によると、この欠陥は「重要機能の認証不足」が関係し、不正な権限昇格につながり得るものでした <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。クラウド上でAI開発・運用の中核を担うサービスだけに、影響が大きいタイプの問題です。</p>
+<p>さらにMicrosoftは、AzureとAIブランドの製品群にまたがる18件の脆弱性にも対処しました。その大半が権限昇格に関するものだったとされており、個別サービスの不具合というより、AIクラウド全体の防御面をまとめて引き締める局面に入っていることがうかがえます <sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。AI機能の追加が加速するほど、認証・認可・権限管理の基本設計が問われる構図です。</p>
+<p>今回の動きは、AWSやGCPを含むクラウド各社にも共通する示唆を持ちます。AI機能は差別化の主戦場ですが、実運用ではモデル性能や開発体験だけでなく、権限昇格や設定ミスをどう防ぐかが導入判断を左右します。特に企業向けでは、生成AIやエージェント系機能を安全に本番へ載せられるかが、クラウド採用の成否を分けるポイントになりつつあります <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html" target="_blank" rel="noopener noreferrer">Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation - The Hacker News</a>
+        <span class="ref-source">— The Hacker News</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/" target="_blank" rel="noopener noreferrer">Microsoft Patches 18 Vulnerabilities in AI, Cloud Products - SecurityWeek</a>
+        <span class="ref-source">— SecurityWeek</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
