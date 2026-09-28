@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amazon CloudWatch OmniがGA、AIエージェント観測を一元化 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+    <span class="article-date">2026-09-28</span>
+  </div>
+  <h1 class="article-title">Amazon <mark style="background:#8A3FE026">CloudWatch Omni</mark>が<mark style="background:#8A3FE026">GA</mark>、AIエージェント観測を一元化</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li>CloudWatch <mark style="background:#8A3FE026">Omni</mark>が<mark style="background:#8A3FE026">GA</mark>になり、AI観測を統合した</li><li>主要agent基盤を横断し、実行経路を追跡できる</li><li>チーム単位の運用視点で監視を再設計した</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">AWSはCloudWatch Omniを一般提供開始し、AIエージェントの観測体験をCloudWatchに統合した。OpenAI Agents SDK、LangGraph、CrewAI、Vercel AI SDKなどに対応し、PromptからModel Call、Tool実行までを追跡できる点が注目される。</p>
+    <p class="sum-en">AWS has launched CloudWatch Omni in general availability, bringing AI-agent observability into CloudWatch. It supports OpenAI Agents SDK, LangGraph, CrewAI, and Vercel AI SDK, and traces the flow from prompt to model calls and tool execution.</p>
+  </div>
+
+  <div class="article-body"><p>AWSのCloudWatch Omniが一般提供開始となった。今回のポイントは、従来の監視をAIエージェント向けに拡張し、CloudWatchの中で観測体験を完結させる方向に踏み込んだことだ。検索結果では、CloudWatch Omniは「AI-powered observability experience」であり、チームとアプリケーションを軸に整理されると説明されている<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。さらに、Weeklyまとめでも「Amazon CloudWatch Omni AI-first observability launch」として主要トピックに挙がっており、AWSがこの領域を重要テーマとして押し出していることがわかる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
+<p>実務上の意味は、AIエージェントの挙動を単なるログではなく、PromptからModel Call、Tool実行までの流れでたどれる点にある。X上の投稿では、OpenAI Agents SDK、LangGraph、CrewAI、Vercel AI SDKなどに対応し、Prompt→Model Call→Tool実行までを統合して観測できると要約されている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。これは、Claude CodeやCursor、GitHub Copilot、LangChain系の周辺で増えてきた「エージェントが何を判断し、どのツールを呼んだのか」を、開発・運用の共通言語で見られる方向性といえる<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
+<p>AWSがこのタイミングで観測基盤を前面に出してきた背景には、エージェント開発の複雑化がある。AgentCore GatewayやMCPに関する参照設計の話題も同じ週に出ており、複数アカウントや外部ツールをまたぐ構成が現実味を帯びてきた<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。こうした環境では、モデル単体の性能よりも、どのエージェントがどの権限で何を実行したかを追えることが重要になる。CloudWatch Omniは、その運用課題に対して、既存のCloudWatchをAIエージェント観測のハブへ拡張する一手とみるのが自然だ<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
+<p>開発者にとっての実利は3つある。第一に、異なるagentフレームワークをまたいで観測方法を揃えやすくなること。第二に、障害調査や品質改善で、プロンプト、推論、ツール実行のどこで問題が起きたかを切り分けやすくなること。第三に、運用チームと開発チームが同じ画面・同じ概念でAIアプリを扱えるため、監視が「後付けの補助」ではなく、設計段階から組み込む前提に変わることだ<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。AI開発ツールの競争がモデル機能だけでなく、観測・制御・運用まで含む総合力へ移っていることを象徴する発表といえる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://www.originbrief.app/en/reports/developer-tools-platforms/2026-09-28/weekly" target="_blank" rel="noopener noreferrer">Developer Tools &amp; Platforms — September 28, 2026 Weekly</a>
+        <span class="ref-source">— OriginBrief</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://x.com/i17s_inc/status/2102990555336806555" target="_blank" rel="noopener noreferrer">Investment Companies Inc. 公式</a>
+        <span class="ref-source">— X</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://note.com/aitrendlab/n/ndd28d2361597?hl=en" target="_blank" rel="noopener noreferrer">The Design of AWS &#39;AgentCore Gateway + MCP&#39; - AI</a>
+        <span class="ref-source">— note.com</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.linkedin.com/posts/yevhenii-sharapov-254942243_while-i-was-busy-attending-aws-dach-event-activity-7507708027563675649--u68" target="_blank" rel="noopener noreferrer">Yevhenii Sharapov&#39;s Post</a>
+        <span class="ref-source">— LinkedIn</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
