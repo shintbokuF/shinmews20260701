@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AWS／Azure／Google CloudでHSM as a Service競争が鮮明に、KMAC未対応が示す現実 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-10-06</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#3654D626">AWS</mark>／<mark style="background:#3654D626">Azure</mark>／Google Cloudで<mark style="background:#3654D626">HSM</mark> as a Service競争が鮮明に、KMAC未対応が示す現実</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#3654D626">AWS</mark>・Azure・GCPは<mark style="background:#3654D626">HMAC</mark>を標準提供する</li><li>3社のKMSは<mark style="background:#3654D626">KMAC</mark>をネイティブ公開しない</li><li>AI時代は鍵管理の演算差が設計を左右する</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">2026年時点の公開ドキュメントを手がかりに見ると、AWS KMS、Google Cloud KMS、Azure Key VaultはいずれもHMACを明示的に提供する一方、KMACはネイティブには公開していない。暗号APIの差は一見小さく見えても、AI時代のクラウド設計では認証・整合性・鍵管理の実装方針に影響する。HSM as a Serviceの競争は、単なる機能の有無ではなく、どの演算を標準で使わせるかという設計思想の競争へ移っている。</p>
+    <p class="sum-en">Based on documentation reviewed in 2026, AWS KMS, Google Cloud KMS, and Azure Key Vault explicitly support HMAC, but none natively expose KMAC. That small API gap matters more than it looks, because it shapes how teams design authentication and key-management layers in AI-era cloud systems. The HSM-as-a-Service race is increasingly about which cryptographic primitives are exposed by default.</p>
+  </div>
+
+  <div class="article-body"><p>2026年時点の公開ドキュメントを読み解くと、AWS KMS、Google Cloud KMS、Azure Key Vaultの3大クラウド鍵管理サービスは、いずれもHMACを明示的にサポートしています。一方で、KMACについては3社ともネイティブな操作としては公開していません<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。この差は単なる暗号アルゴリズムの好みではなく、クラウド上でどの認証方式や整合性検証を標準化できるかという実装上の前提に直結します。</p>
+<p>とくにAI関連のクラウド機能が増えるほど、データの送受信、モデル呼び出し、ジョブ実行、メタデータ保護など、鍵管理サービスに求められる役割は広がります。ここで重要なのは、見栄えのよい機能追加よりも、どの暗号プリミティブを“そのまま使えるか”です。検索結果の示す通り、主要3社は少なくともHMACを揃えており、クラウド利用者はベーシックなメッセージ認証では大きなギャップを意識せずに済みます<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。</p>
+<p>しかし、KMACがネイティブにないことは、設計者が追加実装や別レイヤーを検討する可能性を意味します。HSM as a Serviceの市場は、ハードウェアの安全性をサービス化する段階から、利用者がどの暗号操作をどれだけ素直に呼び出せるかを競う段階へ進んでいるといえます。AWS、Azure、Google Cloudの競争は、機能数の多さだけではなく、標準機能の選択がクラウドの使い勝手と移植性を左右する局面に入っています<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://shattered.io/hmac-vs-kmac-2026" target="_blank" rel="noopener noreferrer">HMAC vs KMAC: One Pass Beats Two, 3.3x Faster [2026]</a>
+        <span class="ref-source">— shattered.io</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
