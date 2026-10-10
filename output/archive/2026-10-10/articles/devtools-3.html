@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Subconscious、長時間実行エージェント向けのオープンモデル運用基盤を拡充 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+    <span class="article-date">2026-10-10</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Subconscious</mark>、長時間実行エージェント向けのオープンモデル運用基盤を拡充</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#8A3FE026">Subconscious</mark>が長時間エージェント向け基盤を拡充した。</li><li><mark style="background:#8A3FE026">OpenAI/Anthropic</mark>互換の設定導線を用意した。</li><li>Coding agentやframeworkへの導入をしやすくした。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Subconsciousが、長時間動くエージェント向けにオープンモデルを使いやすくする運用基盤を前面に出してきた。OpenAIとAnthropic互換のセットアップを用意し、開発者が既存のagentハーネスやフレームワークに組み込みやすい形を示している。</p>
+    <p class="sum-en">Subconscious is expanding its operating layer for long-running agents, making open models easier to use with OpenAI- and Anthropic-compatible setups. The company is positioning the service as infrastructure for coding agents and frameworks that need sustained inference.</p>
+  </div>
+
+  <div class="article-body"><p>Subconsciousは、長時間実行するエージェント向けにオープンモデルを運用しやすくする基盤を前面に押し出した。公式の案内では、同社のAPIPer-token inferenceを「long-running agents」向けと位置づけ、OpenAIとAnthropicに互換なセットアップを提供するとしている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。これにより、Claude CodeやCursor、GitHub Copilot系の開発体験に近い“つなぎ込みやすさ”を、別のモデル基盤でも取り込みやすくなる狙いが見える<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
+<p>注目点は、単なるモデル提供ではなく、エージェント運用のための実務的な周辺機能まで揃えていることだ。Subconsciousは「Coding Plans」として、coding agentやharness向けの日次トークン割り当てを提示し、さらにEnterprise向けにはオンプレミスまたは自社クラウドでの提供をうたっている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。長時間走るエージェントでは、タスクの途中でモデルを切り替えると推論の連続性が崩れやすく、キャッシュ済みトークンも活かしにくい。そのため、短時間の問い合わせ最適化とは別に、実行を途切れさせない設計が重要になるが、Techstrong TVの紹介でも、Subconsciousはその課題に合わせて推論エンジンを組んでいると説明されている<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。</p>
+<p>今回のメッセージは、開発者ツール市場の文脈でも分かりやすい。Claude CodeやCursor、LangChainのようなagent frameworkは、モデルそのものだけでなく、認証、接続先、トークン管理、実行環境の整備まで含めて“すぐ使えるか”が評価軸になる。SubconsciousはIntegrationsの中で「Setup guides for your agent, harness or framework」と案内し、実装者が既存のワークフローに載せやすいことを強調している<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。つまり、オープンモデルを「研究用の選択肢」から「日常の開発基盤」に近づけるための、運用寄りの打ち手だと言える<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
+<p>背景には、長時間エージェントの普及で、推論コストと安定性の両立がより重要になっている事情がある。短いタスクなら安価なモデルへルーティングする手法も有効だが、長時間の推論では途中切り替えが逆効果になりやすい、という指摘が紹介されている<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。Subconsciousは、まさにその“切り替えにくさ”を前提に、OpenAI/Anthropic互換の入り口と、長時間実行向けの課金・提供形態を組み合わせることで、エージェント基盤としての存在感を高めようとしている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://www.subconscious.dev/integrations" target="_blank" rel="noopener noreferrer">Run AI Agents on Open Models: Setup Guides | Subconscious</a>
+        <span class="ref-source">— Subconscious</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://www.subconscious.dev/solutions/finance" target="_blank" rel="noopener noreferrer">AI Research Agents for Hedge Funds | Subconscious</a>
+        <span class="ref-source">— Subconscious</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://techstrong.tv/videos/interviews/agent-optimized-inference-ai-token-costs" target="_blank" rel="noopener noreferrer">AI Token Costs and Long-Running Agents | Techstrong TV | Techstrong.tv</a>
+        <span class="ref-source">— Techstrong TV</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
