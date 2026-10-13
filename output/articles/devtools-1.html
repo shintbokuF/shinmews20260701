@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ADE（Agentic Development Environment）で再編する開発基盤論：Claude Code、OpenCode、Aider、Cline、Copilotの立ち位置を見直す | AI・クラウド ニュースダイジェスト</title>
+<title>DatabricksがClaude CodeとCursor向けAgent Skillsを公開、開発AIからデータ基盤操作を直接実行可能に | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,21 +19,24 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-10-12</span>
+    <span class="article-date">2026-10-13</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">ADE</mark>（Agentic Development Environment）で再編する開発基盤論：<mark style="background:#8A3FE026">Claude Code</mark>、OpenCode、Aider、Cline、<mark style="background:#8A3FE026">Copilot</mark>の立ち位置を見直す</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Databricks</mark>が<mark style="background:#8A3FE026">Claude Code</mark>と<mark style="background:#8A3FE026">Cursor</mark>向けAgent Skillsを公開、開発AIからデータ基盤操作を直接実行可能に</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li>IDE補完は<mark style="background:#8A3FE026">Copilot</mark>とCursorが主役になる。</li><li>端末主導では<mark style="background:#8A3FE026">Aider</mark>とCodex CLIが強い。</li><li>作業様式で<mark style="background:#8A3FE026">ADE</mark>の役割分担を見直す。</li></ul>
+    <ul><li>Databricksが<mark style="background:#8A3FE026">Agent Skills</mark>を公開した。[1]</li><li><mark style="background:#8A3FE026">Claude Code</mark>とCursorで直接使える。[1]</li><li><mark style="background:#8A3FE026">MCP</mark>接続も開発AIの標準に近づく。[2]</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">開発者向けAIツールは、IDE内の補完からターミナル主導のエージェント作業まで、用途で役割分担が進んでいます。検索結果では、GitHub CopilotとCursorはIDE内のオートコンプリートとチャット、AiderとCodex CLIはターミナル中心の作業に強いと整理されており、ADEという見方で各ツールの位置づけを捉え直す流れがうかがえます。</p>
-    <p class="sum-en">AI developer tools are being reclassified by workflow: IDE-native copilots, terminal-first agents, and VS Code–style agent workflows. The search result highlights GitHub Copilot and Cursor for in-IDE autocomplete/chat, while Aider and Codex CLI fit terminal-first work, suggesting a renewed ADE-oriented framework for understanding the tool landscape.</p>
+    <p class="sum-ja">Databricksは、AIコーディング支援ツール向けのAgent Skillsを公開し、Claude CodeとCursorのマーケットプレイスにプラグインとして提供している。これにより、開発者はDatabricks CLIを経由せず、エージェント内からDatabricksの機能を使えるようになる。[1] さらにMicrosoft Learnでは、開発エージェント向けのネイティブツール接続としてMCPの利用が案内されており、ツール連携の標準化が進みつつあることがうかがえる。[2]</p>
+    <p class="sum-en">Databricks has released Agent Skills for AI coding assistants and published them as marketplace plugins for Claude Code and Cursor. This lets coding agents access Databricks capabilities directly from within the agent, without going through the Databricks CLI.[1] Microsoft’s documentation also points to MCP connections as the native tool path for coding agents, highlighting the growing standardization of agent-to-tool integrations.[2]</p>
   </div>
 
-  <div class="article-body"><p>AI開発ツールの競争軸は、もはや「どれだけ賢いか」だけではありません。検索結果の整理に沿うと、いま重要なのは、どの作業様式に最適化されているかです。IDEの中でコード補完やチャットを使いたいならGitHub CopilotとCursorの無料枠が有力で、ターミナルを起点に進めるならAiderやCodex CLIのようなオープンソース系が合う、という切り分けが示されています<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。\n\nこの見方は、ADE（Agentic Development Environment）という発想と相性がいいです。つまり、単一の「万能AI開発環境」を探すのではなく、開発の流れに応じて、IDE内の補完・会話、端末ベースのエージェント操作、VS Code系のエージェント的拡張などを役割分担として捉える考え方です。検索結果では、GitHub CopilotとCursorはインIDEのオートコンプリートとチャット、AiderとCodex CLIはターミナルファーストのワークフロー向けとされており<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>、この整理だけでも従来の「コード補完ツール」から「作業環境の設計」へと話題が移っていることが分かります。\n\nここで再定義されるのが、Claude Code、OpenCode、Aider、Cline、Copilotといった名前の並びです。個々の製品名を機能の優劣で横並びに比較するより、どの入口から開発を始め、どこまでをエージェントに任せるかで見るほうが実態に近い、というのがADE的な整理です。たとえば、日常的な補完と対話はCopilotやCursor、より手を動かしながら進める端末中心の反復作業はAiderのような選択が考えやすくなります<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。\n\nこの流れで重要なのは、開発者がツールを「置き換えられる存在」ではなく「作業導線を設計する部品」として選ぶようになることです。IDEに常駐するAI、ターミナルでコマンドを受けるAI、VS Code上でエージェント的に振る舞うAIは、同じ生成AIでも得意分野が違います。結果として、ADEという言葉は、AI開発ツール市場を製品単位ではなく、開発プロセス単位で再編していくためのラベルとして機能し始めています<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p></div>
+  <div class="article-body"><p>Databricksは、AIコーディング支援ツール向けのAgent Skillsを公開し、Claude CodeとCursorのマーケットプレイスにプラグインとして掲載した。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> ここで重要なのは、インストール後はコーディングエージェントがDatabricksのskillsへエージェント内からアクセスでき、従来のようにDatabricks CLIを経由しなくてよい点だ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>この動きは、開発者がコード生成や修正だけでなく、データ基盤側の操作も会話の流れのまま進められることを意味する。AI支援ツールの使い方が、単なる「コードを書く補助」から「外部サービスを動かす実行口」へ広がっている、という見方ができる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>またMicrosoft Learnでは、Python agent向けのSDKやtoolkitとは別に、coding agentsのネイティブツールとしてMCP connectionを使う案内が示されている。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> Databricksのプラグイン提供と合わせると、Claude CodeやCursorのような開発AIと、クラウド上のデータ／運用機能をつなぐ方法が、CLI中心からエージェント連携中心へ移っていく流れが見える。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>今回のポイントは、Databricksが単にAI機能を追加したのではなく、開発者が普段使うAIエディタやコーディングエージェントの中に、データ基盤操作の入口を組み込んだことだ。これにより、開発の文脈から離れずにDatabricksの機能へ触れられるため、AI開発ツールとデータ基盤の距離はさらに縮まりそうだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p></div>
 
   
   <div class="references">
@@ -41,8 +44,13 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://agentic.ai/best/free-coding-agents" target="_blank" rel="noopener noreferrer">17 Best Free AI Coding Agents in 2026 | Agentic.ai</a>
-        <span class="ref-source">— Agentic.ai</span>
+        <a href="https://docs.databricks.com/aws/en/agent-skills" target="_blank" rel="noopener noreferrer">Agent skills for AI coding assistants | Databricks on AWS</a>
+        <span class="ref-source">— Databricks docs</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://learn.microsoft.com/en-us/azure/databricks/agents/mcp-tools/built-in-mcp-services" target="_blank" rel="noopener noreferrer">Databricks-provided MCPs - Azure Databricks | Microsoft Learn</a>
+        <span class="ref-source">— Microsoft Learn</span>
       </li>
       
     </ol>
