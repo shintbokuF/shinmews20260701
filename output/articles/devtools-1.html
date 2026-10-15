@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Microsoft Docs/Learn MCP Serverが主要AI開発ツールへURL登録だけで接続可能に | AI・クラウド ニュースダイジェスト</title>
+<title>Claude CodeのHTMLプレビュー脆弱性で秘密情報漏えいの恐れ、開発者ツールの“便利機能”が新たな攻撃面に | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,25 +19,23 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-10-14</span>
+    <span class="article-date">2026-10-15</span>
   </div>
-  <h1 class="article-title">Microsoft Docs/Learn <mark style="background:#8A3FE026">MCP Server</mark>が主要AI開発ツールへURL登録だけで接続可能に</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Claude Code</mark>のHTMLプレビュー脆弱性で秘密情報漏えいの恐れ、開発者ツールの“便利機能”が新たな攻撃面に</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li>Microsoft Docs/Learn <mark style="background:#8A3FE026">MCP Server</mark>がURL登録で接続できる。</li><li>VS CodeやGitHub Copilot、Claude、<mark style="background:#8A3FE026">Cursor</mark>に広がる。</li><li><mark style="background:#8A3FE026">Claude Code</mark>やエージェント開発の実務導入が進む。</li></ul>
+    <ul><li><mark style="background:#8A3FE026">Claude Code</mark>の<mark style="background:#8A3FE026">HTML</mark>プレビューに重大欠陥が見つかった。</li><li>悪意あるJavaScriptがローカル秘密情報へ触れ得る。</li><li><mark style="background:#8A3FE026">AI開発ツール</mark>の安全設計が改めて問われている。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Microsoft Docs/LearnのMCP Serverが、VS CodeやGitHub Copilot、Claude、Cursorなどの開発者向けAIツールから、URLを登録するだけで接続できるようになった。従来のドキュメント参照を、エージェントが使う外部知識ソースとして扱いやすくする動きとして注目される。[1]</p>
-    <p class="sum-en">Microsoft Docs/Learn’s MCP Server can now be connected to major AI dev tools such as VS Code, GitHub Copilot, Claude, and Cursor by simply registering a URL. This makes documentation easier to consume as an external knowledge source for agentic workflows.[1]</p>
+    <p class="sum-ja">AnthropicのClaude Code Desktopに、HTMLプレビューを悪用して開発者の秘密情報を盗める重大な脆弱性が見つかった。SSH秘密鍵やAWS認証情報、ClaudeのOAuthトークンまで流出しうるとされ、AI開発ツールの安全設計が改めて問われている。</p>
+    <p class="sum-en">A critical flaw in Anthropic’s Claude Code Desktop could let attackers steal developers’ secrets via the HTML preview pane. The issue highlights how AI developer tools can create new attack surfaces if preview and file-access features are not tightly sandboxed.</p>
   </div>
 
-  <div class="article-body"><p>Microsoft Docs/LearnのMCP Serverが、VS Code、GitHub Copilot、Claude、Cursorなどの開発ツールから「URLを登録するだけ」で接続できるようになった、というのが今回のポイントだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> つまり、ドキュメントを参照するための接続手順がかなり軽くなり、日常の開発環境に組み込みやすくなったと読める。</p>
-<p>この変化は、エージェント型の開発環境が広がる流れとも相性がよい。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> 近年は、IDE拡張やターミナル型のツールを起点に、リポジトリをまたいで自律的に動く開発スタイルが注目されており、Claude CodeやGitHub Copilotのようなツールがその中心にある。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> そこにMicrosoft Docs/LearnのMCP Serverが“URLひとつ”で繋がるなら、AIが参照する公式情報の導線はさらにシンプルになる。</p>
-<p>一方で、Claude Code側でも、対話モードを使わずに結果だけを返す`-p`、1回で終える`--max-turns 1`、設定ソースを`project`に限定する`--setting-sources project`といったオプションが整理されており、エージェント実行を再現しやすくする工夫が進んでいる。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> こうした“実行を制御しやすい”流れの中で、外部知識源であるDocs/LearnをMCP経由で接続できることは、ツールチェーン全体の扱いやすさを押し上げる材料になりそうだ。</p>
-<p>加えて、エージェント開発環境の整理では、外部連携・エコシステムが重要な軸として扱われている。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> その観点では、Microsoft Docs/Learn MCP Serverの対応先にVS Code、GitHub Copilot、Claude、Cursorが並ぶ意味は大きい。単なる“ドキュメント配信”ではなく、AI開発ツール群が共通の知識基盤にアクセスするための入口として機能し始めているからだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup></p>
-<p>実務的には、開発者は各ツールごとに個別の参照実装を探すより、まずURLを登録して接続し、そこからドキュメント参照を自分のワークフローに組み込む発想へ移りやすくなる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> これは、Claude CodeやCursorのようなエージェント/IDE系ツールを使う現場で、公式情報にすばやく到達したいニーズに合っている。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> 今回の動きは、MCPが“AIに外部知識をつなぐ標準的な橋渡し役”として定着していく流れを、改めて示したと言えそうだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup></p></div>
+  <div class="article-body"><p>Anthropicの開発者向けツール「Claude Code」に、HTMLプレビュー経由で秘密情報を抜き取られ得る重大な脆弱性が見つかった。Dark Readingは、この不具合により開発者のSSH秘密鍵やAWS認証情報、ClaudeのOAuthトークンなどが静かに盗まれる可能性があると報じている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。CSO Onlineも同様に、HTMLプレビューの仕組みに欠陥があり、悪意あるJavaScriptがローカルファイルへアクセスしてクラウド認証情報を持ち出せると伝えた<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
+<p>ポイントは、攻撃にユーザー操作がほとんど要らないとみられることだ。Dark Readingは「no prompt, no click」と表現しており、気づかないうちに漏えいが進む“ゼロクリック”系の危険として警戒を促している<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。CSO Onlineの説明では、単にClaude CodeにHTMLファイルのレビューを依頼するだけで、攻撃者が開発者端末やクラウド資格情報、開発環境へ近づけてしまう可能性があるという<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
+<p>この件は、AI開発ツールやエージェント系フレームワークが便利になるほど、プレビュー表示・ファイル参照・ローカル連携といった機能が新しい攻撃面になることを示している。Anthropicの他のAI関連の動きとしては、高リスク評価に使う内部AIモデルをインターネットから切り離したとBleepingComputerが報じており、AIシステムの外部接続や安全境界をどう設計するかが業界全体の論点になっている<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。さらに、開発者向けAIツール自体を狙う攻撃や偽装配布も観測されており、Security Boulevardは偽Claudeインストールページがマルウェア配布に使われた事例を紹介している<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。開発現場では、AIにコードを見せるだけでなく、プレビューや権限、認証情報の扱いまで含めて見直す必要がありそうだ。</p></div>
 
   
   <div class="references">
@@ -45,18 +43,23 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://www.issoh.co.jp/tech/details/7269" target="_blank" rel="noopener noreferrer">Microsoft Docs/Learn MCP Serverとは？機能と接続方法を解説</a>
-        <span class="ref-source">— issoh.co.jp</span>
+        <a href="https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat" target="_blank" rel="noopener noreferrer">Anthropic &#39;SneakPeek&#39; Flaw Is a Silent Zero-Click Threat - Dark Reading</a>
+        <span class="ref-source">— Dark Reading</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://dev.classmethod.jp/articles/20261009-cc-updates-v2-1-295" target="_blank" rel="noopener noreferrer">Claude Code v2.1.294〜v2.1.295 の主要アップデート - hooks の onFailure: &#34;block&#34; 追加と OSC 7501 対応 | DevelopersIO</a>
-        <span class="ref-source">— dev.classmethod.jp</span>
+        <a href="https://www.csoonline.com/article/4235139/how-claude-codes-256kb-blind-spot-put-developers-secrets-in-the-preview-pane.html" target="_blank" rel="noopener noreferrer">How Claude Code’s 256KB blind spot put developers’ secrets in the preview pane - CSO Online</a>
+        <span class="ref-source">— CSO Online</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://ts0818.hatenablog.com/entry/2026/10/09/001419" target="_blank" rel="noopener noreferrer">エージェント開発環境（ADE：Agentic Development Environment）という概念 - ts0818のブログ</a>
-        <span class="ref-source">— ts0818.hatenablog.com</span>
+        <a href="https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/" target="_blank" rel="noopener noreferrer">Anthropic takes risky AI tests offline after models breach govt sites - BleepingComputer</a>
+        <span class="ref-source">— BleepingComputer</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://securityboulevard.com/2026/10/ai-security-incident-case-fake-claude-installation-page-delivered-malware-via-clickfix/" target="_blank" rel="noopener noreferrer">AI Security Incident Case: Fake Claude Installation Page Delivered Malware via ClickFix - Security Boulevard</a>
+        <span class="ref-source">— Security Boulevard</span>
       </li>
       
     </ol>
