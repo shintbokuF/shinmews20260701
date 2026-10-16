@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Claude CodeのHTMLプレビュー脆弱性で秘密情報漏えいの恐れ、開発者ツールの“便利機能”が新たな攻撃面に | AI・クラウド ニュースダイジェスト</title>
+<title>Cloudflareが「cloudflare/skills」を公開、Claude CodeやCursor向けにWorkers・Agents開発の型を配布 | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,23 +19,24 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-10-15</span>
+    <span class="article-date">2026-10-16</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">Claude Code</mark>のHTMLプレビュー脆弱性で秘密情報漏えいの恐れ、開発者ツールの“便利機能”が新たな攻撃面に</h1>
+  <h1 class="article-title">Cloudflareが「<mark style="background:#8A3FE026">cloudflare/skills</mark>」を公開、<mark style="background:#8A3FE026">Claude Code</mark>やCursor向けにWorkers・Agents開発の型を配布</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Claude Code</mark>の<mark style="background:#8A3FE026">HTML</mark>プレビューに重大欠陥が見つかった。</li><li>悪意あるJavaScriptがローカル秘密情報へ触れ得る。</li><li><mark style="background:#8A3FE026">AI開発ツール</mark>の安全設計が改めて問われている。</li></ul>
+    <ul><li>Cloudflareが<mark style="background:#8A3FE026">Skills集</mark>を公開し、開発手順を配布する。</li><li>Claude Codeはskillsの読み込み仕様を拡張する。</li><li><mark style="background:#8A3FE026">AIエージェント</mark>開発は、ツール横断の型が重要になる。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">AnthropicのClaude Code Desktopに、HTMLプレビューを悪用して開発者の秘密情報を盗める重大な脆弱性が見つかった。SSH秘密鍵やAWS認証情報、ClaudeのOAuthトークンまで流出しうるとされ、AI開発ツールの安全設計が改めて問われている。</p>
-    <p class="sum-en">A critical flaw in Anthropic’s Claude Code Desktop could let attackers steal developers’ secrets via the HTML preview pane. The issue highlights how AI developer tools can create new attack surfaces if preview and file-access features are not tightly sandboxed.</p>
+    <p class="sum-ja">Cloudflareは、Claude CodeやCursorなどの開発者ツールから使いやすい形で、WorkersやAgents開発のベストプラクティスをまとめた「cloudflare/skills」を公開した。周辺では、Claude Code側でskillsの扱いが拡張されており、開発エージェントに“知識の持たせ方”を整える動きが進んでいる。</p>
+    <p class="sum-en">Cloudflare has released cloudflare/skills, packaging best practices for Workers and Agents development so they can be reused from tools like Claude Code and Cursor. Around it, Claude Code is also evolving how it loads and uses skills, highlighting the growing importance of how developer agents are informed.</p>
   </div>
 
-  <div class="article-body"><p>Anthropicの開発者向けツール「Claude Code」に、HTMLプレビュー経由で秘密情報を抜き取られ得る重大な脆弱性が見つかった。Dark Readingは、この不具合により開発者のSSH秘密鍵やAWS認証情報、ClaudeのOAuthトークンなどが静かに盗まれる可能性があると報じている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。CSO Onlineも同様に、HTMLプレビューの仕組みに欠陥があり、悪意あるJavaScriptがローカルファイルへアクセスしてクラウド認証情報を持ち出せると伝えた<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
-<p>ポイントは、攻撃にユーザー操作がほとんど要らないとみられることだ。Dark Readingは「no prompt, no click」と表現しており、気づかないうちに漏えいが進む“ゼロクリック”系の危険として警戒を促している<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。CSO Onlineの説明では、単にClaude CodeにHTMLファイルのレビューを依頼するだけで、攻撃者が開発者端末やクラウド資格情報、開発環境へ近づけてしまう可能性があるという<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
-<p>この件は、AI開発ツールやエージェント系フレームワークが便利になるほど、プレビュー表示・ファイル参照・ローカル連携といった機能が新しい攻撃面になることを示している。Anthropicの他のAI関連の動きとしては、高リスク評価に使う内部AIモデルをインターネットから切り離したとBleepingComputerが報じており、AIシステムの外部接続や安全境界をどう設計するかが業界全体の論点になっている<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。さらに、開発者向けAIツール自体を狙う攻撃や偽装配布も観測されており、Security Boulevardは偽Claudeインストールページがマルウェア配布に使われた事例を紹介している<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。開発現場では、AIにコードを見せるだけでなく、プレビューや権限、認証情報の扱いまで含めて見直す必要がありそうだ。</p></div>
+  <div class="article-body"><p>Cloudflareが公開した「cloudflare/skills」は、WorkersやAgentsをどう作るかという実務的な知見を、Claude CodeやCursorのような開発者向けAIツールで扱いやすい形に寄せた取り組みだ。個別の実装ノウハウを都度プロンプトで説明するのではなく、再利用できる“技能”としてまとめる発想が前面に出ている。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>この動きが興味深いのは、AI支援開発が単なるコード補完から、チームやツール間で共有できる作法の配布へ進んでいる点だ。開発者は、モデルに毎回長い指示を与えるよりも、定義済みのskillsを読み込ませることで、Cloudflareの推奨する進め方を参照しやすくなる。結果として、WorkersやAgentsのように設計上の前提が多い領域で、実装のばらつきを抑えやすくなる。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>周辺の変化として、Claude Code v2.1.294〜v2.1.295では、subagentがskillsフィールドから最大32個のskillを事前読み込みする仕様が示されている。さらに、Skill toolを使うsubagentは残りのskillsも呼び出せるため、単純な“読み込み数の制限”ではなく、どのskillを先に持たせるかが設計上の論点になっている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>つまり、Cloudflareの公開したskillsは、個々のプロンプト集というより、AIエージェントにどう判断させるかを標準化するための実装ガイドに近い。Claude Codeのような環境でskillsを前提にしたワークフローが進めば、Cursorや他の開発支援ツールでも、同じ知見を横展開しやすくなる。開発現場では今後、モデルの性能差だけでなく、“何をどの順で覚えさせるか”が生産性を左右する要素になりそうだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p></div>
 
   
   <div class="references">
@@ -43,23 +44,13 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat" target="_blank" rel="noopener noreferrer">Anthropic &#39;SneakPeek&#39; Flaw Is a Silent Zero-Click Threat - Dark Reading</a>
-        <span class="ref-source">— Dark Reading</span>
+        <a href="https://dev.classmethod.jp/en/articles/20261009-cc-updates-v2-1-295" target="_blank" rel="noopener noreferrer">Major Updates in Claude Code v2.1.294~v2.1.295 - Addition of hooks onFailure: &#34;block&#34; and OSC 7501 Support | DevelopersIO</a>
+        <span class="ref-source">— DevelopersIO</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://www.csoonline.com/article/4235139/how-claude-codes-256kb-blind-spot-put-developers-secrets-in-the-preview-pane.html" target="_blank" rel="noopener noreferrer">How Claude Code’s 256KB blind spot put developers’ secrets in the preview pane - CSO Online</a>
-        <span class="ref-source">— CSO Online</span>
-      </li>
-      
-      <li id="ref-3">
-        <a href="https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/" target="_blank" rel="noopener noreferrer">Anthropic takes risky AI tests offline after models breach govt sites - BleepingComputer</a>
-        <span class="ref-source">— BleepingComputer</span>
-      </li>
-      
-      <li id="ref-4">
-        <a href="https://securityboulevard.com/2026/10/ai-security-incident-case-fake-claude-installation-page-delivered-malware-via-clickfix/" target="_blank" rel="noopener noreferrer">AI Security Incident Case: Fake Claude Installation Page Delivered Malware via ClickFix - Security Boulevard</a>
-        <span class="ref-source">— Security Boulevard</span>
+        <a href="https://webdesigning.book.mynavi.jp/article/36215" target="_blank" rel="noopener noreferrer">SHARE SUMMIT 2026、AIと共有の未来像を議論 - Web Designing</a>
+        <span class="ref-source">— Web Designing</span>
       </li>
       
     </ol>
