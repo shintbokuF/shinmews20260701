@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Agent実践者向けリファレンス：クラウド側で「どのモデルを、どう使うか」を決める時代 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-10-19</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#3654D626">Hermes Agent</mark>実践者向けリファレンス：クラウド側で「どのモデルを、どう使うか」を決める時代</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#3654D626">Hermes Agent</mark>の運用前提を整理する。</li><li>AzureやVertexの経路制御を比べる。</li><li>中断課金と相性を設計に反映する。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Hermes Agentは、単一モデルに縛られず、用途・データ区分・コスト・遅延で使い分ける前提が強まる中で注目される実践者向けの考え方です。Azureのマルチモデル経路制御、Vertex AIやAzure OpenAIのキャンセル課金挙動、そして既存のエージェント周辺エコシステムの広がりから、2026年のクラウドAI運用で押さえるべき論点を整理します。</p>
+    <p class="sum-en">Hermes Agent is increasingly relevant as practitioners move away from a single-model assumption and toward task-, data class-, cost-, and latency-aware routing. Based on recent signals around Azure multi-model routing, provider cancellation billing behavior, and the expanding agent ecosystem, this article outlines the key cloud AI operations points for 2026.</p>
+  </div>
+
+  <div class="article-body"><p>2026年のHermes Agentを語るとき、焦点は「どのエージェントを使うか」よりも「どのモデルに、どの条件で、どう流すか」に移っています。Azure AI Foundryでは、各エージェント呼び出しをタスク、データ区分、コスト、遅延に応じて承認済みモデルへ振り分け、さらに評価済みのフォールバックを持たせる“ゲートウェイ”型の考え方が示されています<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。Hermes Agentを実践で扱うなら、この発想はほぼ必須です。単一の高性能モデルに寄せるより、要件ごとに経路を分けるほうが、品質・費用・応答性のバランスを取りやすいからです。</p>
+<p>一方で、実運用では「止めたはずの処理に課金が残る」問題が軽視できません。TrueFoundryの測定ベースの整理では、Vertex AIとAzure OpenAIはキャンセルしたストリームに対して請求されないことが“confirmed”とされる一方、OpenAIは読み続けるかどうかに関係なく全完了分を課金するとされています<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。これは、Hermes Agentのようにツール呼び出しやストリーミングを前提にした実装では重要です。ユーザーがタブを閉じたり、途中で操作をやめたりしたとき、バックエンド側でどこまで打ち切れるのかが、実コストを左右します。つまり、エージェント設計は“推論精度”だけでなく“キャンセル時の会計”まで含めて考える必要があります<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。</p>
+<p>さらに、Hermes Agentを取り巻く周辺環境を見ると、エージェントは単体製品ではなく、ワークスペースやMCP連携を含む広いエコシステムの一部として扱われています。open-designの公開リポジトリでは、Hermes Agentがサポート対象として記載され、同時に「agent-native, model-agnostic」という方針が示されています。要するに、特定のモデルや特定のUIにロックインせず、複数のエージェントやCLIを同じ作業空間で扱う方向です<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#3654D6">[3]</a></sup>。この流れは、Hermes Agentの価値が“万能の中核”というより、“既存のクラウド/ローカル作業基盤に差し込める実践部品”にあることを示しています。</p>
+<p>情報源の更新状況から見ても、2026年のクラウドAIは継続的に変化しています。Vibediaのソース健全性ページでは、AWSのMLブログ、GitHubの変更履歴、Google AI blogなどが直近でチェックされており、クラウド事業者や周辺開発者コミュニティの動きが日々取り込まれていることが分かります<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#3654D6">[4]</a></sup>。Hermes Agentのような実践者向けテーマでは、この“変化を前提にした運用”が重要です。新サービスの追加、価格や請求条件の変更、モデルの切り替え先の見直しは、設計書を一度書いて終わりにはできません。</p>
+<p>結論として、Hermes Agentの2026年版リファレンスは、単なる使い方メモではなく、クラウドAIの運用原則の整理に近いものです。第一に、呼び出し先はモデル名ではなく、タスクとデータ条件で決める<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。第二に、中断時の課金挙動を事前に確認し、ストリーミングやキャンセル制御を実装に織り込む<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。第三に、Hermes Agentを単独の“アプリ”ではなく、モデル非依存の作業環境の一部として捉える<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#3654D6">[3]</a></sup>。この3点を押さえると、AWS・Azure・GCPのどの基盤上でも、2026年らしい実践的なエージェント運用に近づけます。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://www.linkedin.com/posts/kehinde-ogunlowo_agenticai-enterpriseai-multimodel-activity-7515509841449279488-dYkz" target="_blank" rel="noopener noreferrer">Multi-Model Agent Routing in Azure AI Foundry</a>
+        <span class="ref-source">— LinkedIn</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://dev.to/gabrielanhaia/your-user-closed-the-tab-your-node-server-is-still-paying-for-the-llm-call-3a11" target="_blank" rel="noopener noreferrer">Your User Closed the Tab. Your Node Server Is Still Paying for the LLM Call - DEV Community</a>
+        <span class="ref-source">— DEV Community</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://github.com/nexu-io/open-design" target="_blank" rel="noopener noreferrer">GitHub - nexu-io/open-design: The 1st Collaborative AI Design Agent Workspace. Local-first and open source.</a>
+        <span class="ref-source">— GitHub</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://vibedia.ai/about/source-health" target="_blank" rel="noopener noreferrer">Source health · Vibedia</a>
+        <span class="ref-source">— Vibedia</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>

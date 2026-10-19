@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude Code Desktopの「SneakPeek」脆弱性、ゼロクリックで開発者の鍵やAWS認証情報が漏えいする恐れ | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+    <span class="article-date">2026-10-19</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Claude Code</mark> Desktopの「<mark style="background:#8A3FE026">SneakPeek</mark>」脆弱性、ゼロクリックで開発者の鍵やAWS認証情報が漏えいする恐れ</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#8A3FE026">Claude Code</mark> Desktopの表示機能に脆弱性が見つかった。</li><li>悪意あるHTMLだけで秘密情報が盗まれうる。</li><li>エージェントログでは追跡しにくい点が問題だ。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Claude Code Desktopのプレビュー表示機能に起因する「SneakPeek」脆弱性が報告され、悪意あるHTMLだけでSSH秘密鍵やAWS認証情報などが盗まれる可能性があるとされています。[1][2] エージェントが実行した操作ではなくプレビュー描画の問題であるため、従来のエージェントログでは検知しにくい点も懸念されています。[2]</p>
+    <p class="sum-en">A reported “SneakPeek” flaw in Claude Code Desktop’s preview pane may let attackers steal SSH private keys, AWS credentials, and other secrets through malicious HTML alone, with limited visibility in agent-level logs.[1][2]</p>
+  </div>
+
+  <div class="article-body"><p>Claude Code Desktopのプレビュー表示に関する「SneakPeek」脆弱性が、開発者向けツールの安全性に改めて注意を促しています。報道によれば、この不具合はプレビュー・ペインの描画処理に入り込む形で悪用され、SSH秘密鍵やAWS認証情報などの機密情報を、開発者が気づかないうちに抜き取られる恐れがあります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>ポイントは、これが“ゼロクリック”型の脅威として扱われていることです。つまり、ユーザーが明示的に危険な操作をしなくても、表示されたコンテンツそのものをきっかけに情報漏えいが起こりうるということです。Dark Readingは、Claude Code Desktopのプレビュー・ペインにあるバグが、開発者の認証情報を静かに盗ませる可能性を指摘しています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>また、検知の難しさも見逃せません。Hackreadは、このスクリプトがエージェントの判断や実行ではなく、プレビュー・ペインのレンダリング処理で動いたため、エージェントレベルのログには通常現れないと説明しています。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> つまり、AIエージェントの挙動だけを監視していても、今回のような表示系の攻撃は見逃される可能性があります。</p>
+<p>開発者ツールやAIエージェントの利用が広がるなかで、利便性と同時に「どの層で何が実行されるのか」を意識する必要があります。Claude Codeのような開発支援ツールは、コード生成や自動化を加速する一方で、プレビューや外部入力の取り扱いが弱点になると、認証情報の流出という直接的な被害につながりかねません。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> 今回の件は、AI開発ツールのセキュリティが、モデルの性能だけでなく表示機構や実行環境まで含めた全体設計で問われる段階に入っていることを示しています。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat" target="_blank" rel="noopener noreferrer">Anthropic &#39;SneakPeek&#39; Flaw Is a Silent Zero-Click Threat</a>
+        <span class="ref-source">— Dark Reading</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://hackread.com/claude-code-desktop-flaw-html-steal-credentials" target="_blank" rel="noopener noreferrer">Claude Code Desktop Flaw Let Malicious HTML Steal Developer Credentials</a>
+        <span class="ref-source">— Hackread</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>

@@ -1,0 +1,632 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T00:52:28.956145+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "Artivation、5分の業務ヒアリングで業界別AI業務パッケージ「AAP」開発へ",
+          "summary_ja": "Artivationは、広告・不動産・建設・卸売を対象に、AIへ5分で答えるだけの「業務ヒアリング」を開始し、業界別AI業務パッケージ「AAP」の開発を進める。あわせてコーポレートサイトも全面刷新した。",
+          "summary_en": "Artivation has launched a five-minute AI-based business interview for companies in advertising, real estate, construction, and wholesale as it develops its industry-specific AI business package, AAP, alongside a full website refresh.",
+          "three_lines": [
+            "5分の業務ヒアリングで課題把握を進める。",
+            "広告・不動産・建設・卸売を重点対象にする。",
+            "業界別AI業務パッケージAAPの開発を急ぐ。"
+          ],
+          "body_ja": "Artivationが始めたのは、企業の担当者がAIに約5分で答えていく「業務ヒアリング」を通じて、現場の業務課題を整理し、その結果をもとに業界別のAI業務パッケージ「AAP」へつなげる取り組みだ。対象業界は広告・不動産・建設・卸売で、単なる汎用AIの提案ではなく、業界ごとの仕事の流れに寄せた実装を狙っている点が特徴といえる[1]。\n\n生成AIの導入が進む一方で、企業側には「どこから手を付けるか」「自社の業務にどう落とすか」という初期設計の負担が残る。今回のヒアリングは、その入口を短時間化し、課題の棚卸しから導入像の具体化までを一気通貫で進めるための仕組みとみられる。ASCII.jpの報道では、Artivationがこの施策と同時にコーポレートサイトを全面刷新したことも伝えており、事業の打ち出し方を含めて本格展開を意識した動きがうかがえる[1]。\n\n日本国内のAI活用では、汎用的なチャット利用から、業界特化の業務支援へと関心が移りつつある。ArtivationのAAPはその流れの中で、短いヒアリングを起点に企業ごとの業務設計へ踏み込む点に意味がある。今後、実際にどの業界でどこまで業務を標準化できるかが、AAPの競争力を左右しそうだ[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/biz/202610",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "japan",
+          "title_highlights": [
+            "Artivation",
+            "AAP"
+          ],
+          "three_lines_highlights": [
+            "5分",
+            "広告・不動産",
+            "AAP"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "「LLMOチェキ」提供開始、AI Overviewと競合依存の“見え方”を可視化",
+          "summary_ja": "日本の検索・生成AI活用で、AI Overviewに何が語られ、どの領域が競合サイトだけに依拠しているのかを切り分ける「LLMOチェキ」が登場した。検索結果の断片からは、AI時代の情報設計やSEOの次段階を見据えた計測ニーズが強まっていることがうかがえる。",
+          "summary_en": "LLMO Cheki has started offering a function that distinguishes what AI Overview is talking about from areas supported only by competitors. The search-result snippets suggest growing demand for measurement tools in the next phase of AI-era information design and SEO.",
+          "three_lines": [
+            "「LLMOチェキ」がAI要約の話題領域を見える化する。",
+            "競合だけが根拠の領域を切り分けて把握できる。",
+            "生成AI時代の集客設計が次の段階に入る。"
+          ],
+          "body_ja": "検索結果から確認できる範囲では、「LLMOチェキ」は、AI Overviewがどのテーマを語っているのか、そして自社ではなく競合側の情報だけが根拠として参照されている領域はどこか、を特定する機能の提供を始めた。要するに、検索結果の“見え方”を、従来の順位チェックより一歩進めて把握するための道具だといえる。[1]\n\nこの種の機能が注目される背景には、生成AIが検索結果の入口として存在感を強めるなかで、単純なキーワード順位だけでは、実際にユーザーへ届く情報の構図を読み切れなくなっている事情がある。AI Overviewに拾われる話題と、競合だけが引用・参照される領域を分けて見られれば、企業側はコンテンツの不足点や、どの論点で情報発信を強化すべきかを判断しやすい。[1]\n\n今回の検索結果には、同じ10月の国内IT・スタートアップ文脈として、AIやデータ活用、業務システム連携をうたう話題が並んでいる。たとえば、ASCII.jpのアーカイブには、AI OCRとSAP HANAを「シームレスかつセキュア」に連携する導入パッケージの掲載が見える。こうした企業向けAI導入の案件が増えるほど、導入前の比較検討や導入後の認知獲得において、「AIがどの企業を情報源として扱っているか」を把握する重要性は増していく。[1]\n\nつまり「LLMOチェキ」は、生成AI検索が普及した現在の日本市場で、SEOやLLMO対策を“勘”ではなく観測可能な状態に近づける動きといえる。特に、競合だけが根拠にされる領域を可視化できる点は、コンテンツ戦略の改善だけでなく、企業のAI導入事例や製品情報がAI側にどう解釈されるかを点検する用途にもつながりそうだ。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/biz/202610",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "japan",
+          "title_highlights": [
+            "LLMOチェキ",
+            "AI Overview"
+          ],
+          "three_lines_highlights": [
+            "LLMOチェキ",
+            "AI Overview",
+            "競合依存"
+          ],
+          "id": "japan-2"
+        },
+        {
+          "title": "福岡発の“感覚AI”が始動　甘さや香ばしさを可視化する生成AI基盤へ",
+          "summary_ja": "福岡発のスタートアップが、甘さ・香ばしさなどの感覚をデータ化する「感覚特化型AIプラットフォーム」の実証実験を開始した。ASCII.jpのアーカイブ掲載からは、同プロジェクトが生成AIを活用したデータ基盤づくりに向けた取り組みとして紹介されていることが分かる。[1]",
+          "summary_en": "A Fukuoka-based startup has begun a proof-of-concept for a sensation-focused AI platform. According to the ASCII.jp archive, the project aims to build a generative-AI data foundation that visualizes sensory attributes such as sweetness and aroma.[1]",
+          "three_lines": [
+            "福岡発の感覚AIが実証実験を開始した。",
+            "甘さや香ばしさを可視化する基盤を構築する。",
+            "生成AIで感覚データの活用領域を広げる。"
+          ],
+          "body_ja": "ASCII.jpの2026年10月のアーカイブには、「福岡発『感覚に特化したAIプラットフォーム』の実証実験を開始。甘さ・香ばしさなど感覚を可視化する生成AIデータ基盤の構築へ」とする記事が掲載されている。[1] ここから読み取れるのは、今回の取り組みが単なるAIのデモではなく、味や香りのように言語化しにくい感覚を、生成AIを使って扱えるデータへと変換しようとする点だ。\n\nポイントは、「感覚を可視化する」という発想にある。[1] 企業のR&Dや商品開発では、これまで人の主観に頼りやすかった評価を、蓄積・比較可能なデータに落とし込めるかどうかが大きな差になる。甘さ、香ばしさといった表現をAIが整理できれば、試作品の比較、嗜好の傾向把握、社内での共通言語づくりに応用しやすい。\n\n一方で、ASCII.jpの抜粋だけでは、対象業界や実験規模、技術的な詳細までは分からない。[1] それでも、同じ10月の同アーカイブには業務パッケージ開発に向けたAIヒアリング開始や、AI Overviewの根拠特定機能の提供開始といった、AIを“使う”だけでなく“業務に組み込む”“情報の根拠を確かめる”方向の動きが並んでいる。[1] 今回の感覚AIも、その流れにある「現場の判断材料をデータ化するAI活用」の一例と見てよいだろう。\n\n国内では生成AIの導入が進む一方、現場で本当に使えるかどうかは、入力しやすいデータ設計と、評価の再現性をどう確保するかにかかっている。福岡発のこの実証は、感覚という曖昧な領域にAIを持ち込み、将来的に製品開発や品質評価のデータ基盤へ育てる挑戦だと言える。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/biz/202610",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "japan",
+          "title_highlights": [
+            "感覚AI",
+            "生成AI"
+          ],
+          "three_lines_highlights": [
+            "感覚AI",
+            "可視化",
+            "生成AI"
+          ],
+          "id": "japan-3"
+        }
+      ],
+      "summary": "日本国内では、業界特化のAI実装が「導入支援」から「業務パッケージ化」「計測・最適化」へと進みつつあり、現場にすぐ使える形でのAI活用が強まっています。検索や情報設計の領域では、AI Overview時代に対応した可視化・分析ニーズが高まり、同時に食品や感覚のような曖昧な領域をデータ化する基盤づくりも始まっており、AIの適用範囲がより実務寄り・多様化している流れが見て取れます。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Googleの新モデル「Gemini 4 Argon」一般提供開始　使えるプランとAPI価格を整理",
+          "summary_ja": "Googleが旗艦級モデル「Gemini 4 Argon」を公開し、Geminiアプリや検索での利用と、開発者向けAPI提供を開始した。注目点は、一般ユーザー向けの利用可否と、APIの導入価格が11月末までの期間限定であることだ。",
+          "summary_en": "Google has launched Gemini 4 Argon as a flagship model, expanding access in the Gemini app and Search while also opening developer API access. The key points are which plans can use it and that the introductory API price is temporary until the end of November.",
+          "three_lines": [
+            "Gemini 4 Argonが一般提供されました。",
+            "APIは2ドルからで、11月末に値上げします。",
+            "利用可否はプラン別に分かれます。"
+          ],
+          "body_ja": "Googleが新しい旗艦モデル「Gemini 4 Argon」を一般提供し、生成AI競争の新たな焦点をつくっています。報道によると、このモデルはコーディング、調査、文章作成のような複雑な作業を狙ったもので、金融、法律、サイバーセキュリティ、科学といった“深い作業”にも強みをうたっています[3]。また、インスタグラム上の紹介では、開発者や企業向けに世界展開したとされ、業界ベンチマークでも高い性能を示すと説明されています[2]。\n\nユーザー側で重要なのは、どのプランで使えるかです。APIdogのまとめでは、Googleの価格ページに「Gemini 4 Argon is not available on the Free tier or on the Google AI Pro plan.」という記述があり、これはAPIのプランを指すとされています[1]。つまり、個人向けサブスクのPro加入者でも、APIキーとしての利用とは別で考える必要があります。一方、同じ抜粋では、Pro加入者はGeminiアプリとSearchではArgonを使えるとされ、アプリ利用とAPI利用で提供範囲が分かれていることが読み取れます[1]。テルグ語の週次まとめでも、ProとUltraユーザー向けにGeminiアプリで使える一方、GoogleのコーディングアプリAntigravityでは無料Proトライアルでは使えないと案内されています[7]。\n\n価格面では、導入期のAPI料金がかなり明確です。Reutersベースの報道では、API価格は入力100万トークンあたり2ドル、出力100万トークンあたり10ドルから始まり、11月30日以降は倍の4ドル、20ドルに上がるとされています[3]。Latent Spaceも同じ料金体系を確認しつつ、キャッシュ済み入力は95％割引になると補足しています[4]。別の解説でも、11月30日までの“導入価格”であり、12月1日からは値上げされるため、実運用の予算試算は引き上げ後の単価で考えるべきだと指摘されています[5]。\n\n今回のArgonで見えてくるのは、Googleが「高性能モデルを広く見せつつ、APIは段階的に収益化する」という設計です。アプリではPro/Ultra向けに体験を広げ、検索でも使える一方で、APIは無料枠ではなく有料導入が前提で、しかも低価格は期間限定です[1][7]。そのため、個人の試用と企業の本格導入では、同じ“Gemini 4 Argon”でも見えるコストがかなり違ってきます[3][4]。競合のOpenAIやAnthropicとの比較でも、性能だけでなく、こうした提供形態と価格の設計が導入判断を左右しそうです。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Gemini 4 Argon is OUT",
+              "url": "https://apidog.com/blog/gemini-4-argon-release-date",
+              "source": "APIdog"
+            },
+            {
+              "id": 2,
+              "title": "Instagram",
+              "url": "https://www.instagram.com/p/Def9-S-IDdA",
+              "source": "Instagram"
+            },
+            {
+              "id": 3,
+              "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses",
+              "url": "https://www.galvnews.com/news_reuters/business/google-launches-flagship-ai-model-gemini-4-argon-for-developers-businesses/article_884d80ce-3e8d-5be6-855f-8b91c6aeeaa6.html",
+              "source": "Reuters via Galvnews"
+            },
+            {
+              "id": 4,
+              "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+              "url": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+              "source": "Latent Space"
+            },
+            {
+              "id": 5,
+              "title": "Google finally shipped its new frontier model. Why Gemini 4 Argon matters for law firms.",
+              "url": "https://www.smithstephen.com/p/google-finally-shipped-its-new-frontier",
+              "source": "Smith Stephen"
+            },
+            {
+              "id": 6,
+              "title": "Gemini 4 Argon Wins 13 of 19 Benchmarks. Here’s What I’d Actually Test First",
+              "url": "https://medium.com/@yousafrazaravian/gemini-4-argon-wins-13-of-19-benchmarks-heres-what-i-d-actually-test-first-ed511a0f82fe",
+              "source": "Medium"
+            },
+            {
+              "id": 7,
+              "title": "Instagram",
+              "url": "https://www.instagram.com/reel/DepVmRfDUl3",
+              "source": "Instagram"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 4 Argon",
+            "2ドル",
+            "11月末"
+          ],
+          "three_lines_highlights": [
+            "Gemini 4 Argon",
+            "2ドル",
+            "Pro/Ultra"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "【2026年10月版】生成AI主要8サービス料金早見表――GPT-6 AstraやGemini 4 Argon登場で“安さ”と“性能”の基準が揺れる",
+          "summary_ja": "2026年10月中旬時点で、生成AIの最前線は「性能の頭打ち」ではなく「価格と提供条件の再編」に入った。Gemini 4 Argonは高性能帯でGPT-6 AstraやClaude Fable 5.1と同水準の指標を示しつつ、投入時は競争力のある価格で登場した。一方で、GPT-6 Astraの価格は公開情報が見当たらず、OpenAI側はGPT-6.1 Solへと移行したとされ、各社の料金比較は以前より難しくなっている。",
+          "summary_en": "As of mid-October 2026, the frontier of generative AI is shifting less around raw capability and more around pricing and access conditions. Gemini 4 Argon appears in the high-performance tier alongside GPT-6 Astra and Claude Fable 5.1, while launch pricing was competitive. Meanwhile, publicly available pricing for GPT-6 Astra could not be confirmed in the sources reviewed, and OpenAI is reported to have moved to GPT-6.1 Sol, making price comparisons harder than before.",
+          "three_lines": [
+            "Gemini 4 Argonが高性能帯に食い込んだ。",
+            "GPT-6 Astraは価格非公開で比較が難しい。",
+            "料金競争は10月中旬に再び動いた。"
+          ],
+          "body_ja": "2026年10月版の生成AI料金比較でまず目立つのは、「どのモデルが強いか」よりも「いくらで使えるか」「いつまでその価格か」が競争軸になっている点だ。GoogleのGemini 4 Argonは、Artificial Analysisの指標でGPT-6 AstraやClaude Fable 5.1と同じ53点に並び、上位モデル群にしっかり入ってきたとされる [1][3]。\n\n価格面では、Gemini 4 Argonの投入時価格が注目される。複数のソースで、少なくとも2026年11月末までは入力100万トークンあたり2ドル、出力100万トークンあたり10ドルとされ、Claude Opus 5.5の4ドル/20ドルに対して“半額”水準だったと報じられている [4]。ただし、2026年12月1日以降は4ドル/20ドルへ引き上げられ、Opus 5.5と同じ水準になる見通しだ [4]。つまり、Argonは恒常的な低価格モデルというより、立ち上がり局面で利用者を集めるための期間限定の価格優位を持っている。\n\n一方で、比較表を難しくしているのがOpenAI側の情報不足だ。ある比較記事では、GPT-6 Astraのトークン単価は確認できず、コスト感を正確に並べにくいと明記している [2]。さらに別ソースでは、GPT-6 AstraがGPT-6.1 Solに置き換えられたとも伝えられており、前線の基準モデル自体が短期間で入れ替わっている [5]。このため、2026年10月版の料金表は単なる価格一覧ではなく、「公開されている価格だけを比較しても、もう全体像は見えない」ことを示す資料になっている。\n\n性能面の位置づけも重要だ。Gemini 4 Argonは高性能帯の53点で、GPT-6 Astra、Claude Fable 5.1、そしてMuse Wonderより上位の一角とされる [1][3]。ただし、最上位はClaude Opus 5.5の58点で、ArgonやAstraとの差はまだある [3]。つまり10月中旬時点では、「最強モデル」はClaude Opus 5.5に残りつつ、Gemini 4 ArgonとGPT-6系がその直下で激しく競っている構図だと読める。\n\n公開時期も、競争の激しさを物語る。YouTubeの解説では、Gemini 4 Argonは9月30日に発表され、限定テスター向け期間を経て10月13日に一般公開されたとされる [6]。別ソースでも10月13日時点でモデルページが確認されたとあり、少なくとも10月中旬には実運用の比較対象として定着し始めている [1]。短い期間で「発表→限定提供→一般公開」まで進んだことは、各社が能力だけでなく市場投入の速さでも競っていることを示す。\n\n今回の料金早見表をニュースとして読むなら、結論はシンプルだ。第一に、Gemini 4 Argonは高性能帯に入り込みつつ、導入初期の価格でユーザー獲得を狙っている [1][4]。第二に、GPT-6 Astraは性能比較では名前が挙がる一方、価格情報が見えず、OpenAIの製品世代移行もあって比較の土台が揺れている [2][5]。第三に、主要モデルの差は「ベンチマークの点差」だけでなく、「誰がいつ、どんな価格で出すか」によっても大きく変わる段階に入った [3][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Gemini 4 Argon: Access, Pricing, Benchmarks | Coursiv Blog",
+              "url": "https://coursiv.io/blog/gemini-4-argon",
+              "source": "Coursiv Blog"
+            },
+            {
+              "id": 2,
+              "title": "Claude Opus 5.5 vs GPT-6 Astra vs Gemini 4 Argon",
+              "url": "https://shattered.io/claude-opus-5-5-vs-gpt-6-astra-terminal-bench-2026",
+              "source": "Shattered.io"
+            },
+            {
+              "id": 3,
+              "title": "Gemini 4 Argon vs GPT-6 Astra: Benchmarks, Cost, and Access | Lindy",
+              "url": "https://www.lindy.ai/blog/gemini-4-argon-vs-gpt-6-astra",
+              "source": "Lindy"
+            },
+            {
+              "id": 4,
+              "title": "Gemini 4 Argon vs Claude Opus 5.5: Benchmarks, Pricing, and a Hands-On Test",
+              "url": "https://www.datacamp.com/blog/gemini-4-argon-vs-claude-opus-5-5",
+              "source": "DataCamp"
+            },
+            {
+              "id": 5,
+              "title": "Claude Opus 5.5 vs Gemini 4 Argon: 2x Price Gap",
+              "url": "https://tech-insider.org/claude-opus-5-5-vs-gemini-4-argon-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 6,
+              "title": "I tested Gemini 4 Argon - does it beat Opus 5.5 and Astra?",
+              "url": "https://www.youtube.com/watch?v=GrDBdBIJeF8",
+              "source": "YouTube"
+            },
+            {
+              "id": 7,
+              "title": "Claude Opus 5.5 vs Gemini 4 Argon: Benchmarks & Cost",
+              "url": "https://benchlm.ai/compare/claude-opus-5-5-vs-gemini-4-argon",
+              "source": "BenchLM"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "models",
+          "title_highlights": [
+            "GPT-6 Astra",
+            "Gemini 4 Argon",
+            "Claude Opus 5.5"
+          ],
+          "three_lines_highlights": [
+            "Argon",
+            "GPT-6 Astra",
+            "価格競争"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "【視点】メタはAI競争の「後発」から主役に化けるのか？",
+          "summary_ja": "Metaは、主要モデルの性能指標と料金設計の両面で存在感を強めつつある。Muse WonderのAPI提供とMuse Codeでの展開、さらにランキング上のスコアを見ると、Metaは「追う側」から「競る側」へ移りつつある。",
+          "summary_en": "Meta is increasingly visible on both performance and pricing fronts in the AI model race. With Muse Wonder’s API availability and Muse Code distribution, plus benchmark scores, Meta appears to be shifting from a follower to a contender.",
+          "three_lines": [
+            "Muse WonderがAPIと製品で存在感を強める。",
+            "性能指標ではClaudeやGPTと接近してきた。",
+            "価格と配布戦略が競争力を左右しそうだ。"
+          ],
+          "body_ja": "Metaの生成AI戦略は、いまや「後発の追い上げ」というより、正面から競争に食い込む段階に入ったように見える。10月12日発表の一次ソース検証レポートでは、Muse WonderがMeta Model APIのpreviewとして提供され、入力$4、cached $0.20、出力$20/100万トークンという料金が示された。さらにFull版はMuse Codeの有料登録者限定で、API提供はされていない。つまりMetaは、モデル単体の解放ではなく、提供経路を分けて利用者を囲い込む設計を取っていることが分かる。[1]\n\n性能面でも、Metaは単なる“実験枠”ではない。Artificial Analysis Intelligence Index v4.3では、Muse WonderのFullが56、Wonderが52、Muse Spark 1.3が48とされ、Claude Sonnet 5.5の56、GPT-6 Astraの53にかなり近い位置にいる。特にFull版が56で並ぶのは象徴的で、少なくとも一部のベンチマークではトップ層と肩を並べ始めたと読める。[1]\n\n一方で、コード用途ではさらに強さが目立つ。レポートではCoding Agents IndexのFullが68とされ、汎用対話だけでなく、実務寄りのエージェント利用でも競争力を示している。生成AI市場では、単に“賢いモデル”であるだけでは差別化が難しく、API価格、提供形態、エージェント性能の三つ巴で評価される。Metaはこの三点を同時に押しにいっているようだ。[1]\n\nもっとも、主役化は簡単ではない。今回の情報だけでも、Metaの戦い方はオープンなAPIで広く使わせるというより、Muse Codeや限定公開で利用導線を制御する色合いが強い。これは導入を急ぐ企業には分かりやすい一方、開発者コミュニティの広がり方ではOpenAI、Anthropic、Googleとは違う圧力を受ける可能性がある。とはいえ、少なくとも性能指標と価格の両面で“後発”の印象は薄れつつあり、Metaが生成AI競争の主役候補に浮上してきた、というのが現時点の妥当な見立てだ。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "AIサービス料金の一次ソース検証レポート2026",
+              "url": "https://aipicks.jp/research/price-watch",
+              "source": "AI Picks"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "models",
+          "title_highlights": [
+            "Meta",
+            "Muse Wonder",
+            "GPT-6 Astra"
+          ],
+          "three_lines_highlights": [
+            "Muse Wonder",
+            "Claude Sonnet 5.5",
+            "Coding Agents Index"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AIモデル分野では、性能競争そのものよりも「誰がどの条件で、どれだけ使いやすい価格で出すか」が主戦場になっており、GoogleのGemini 4 Argonはその象徴として一般提供とAPI価格で存在感を示しています。あわせて、主要各社の料金体系や提供条件は再編が進み、比較の軸は単純なベンチマーク優位から、実運用でのコスト・提供範囲・移行先まで含めた総合判断へ移っています。MetaもAPI展開や評価指標の面で追い上げを強めており、勢力図は「一強」ではなく多極化の様相を帯びています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "生成AIゲートウェイが企業の“中枢神経系”に　監視と最適化でAI導入を支える新層",
+          "summary_ja": "生成AIゲートウェイは、LLMリクエストのルーティングやオーケストレーションだけでなく、企業内のAI利用を横断的に観測・統制する基盤として存在感を高めている。MicrosoftはOpenTelemetryを使った標準化されたテレメトリ収集を推奨し、A10 Networksも速度とコスト効率の両立を掲げるなど、AIゲートウェイは“中枢神経系”としての役割を強めつつある。",
+          "summary_en": "AI gateways are becoming a foundational enterprise layer for routing, orchestration, monitoring, and cost control across generative AI use. Microsoft recommends telemetry standardization with OpenTelemetry, while A10 Networks emphasizes speed and cost efficiency in LLM routing.",
+          "three_lines": [
+            "生成AIゲートウェイが利用状況を一元把握する。",
+            "OpenTelemetryで監視データを標準化する。",
+            "LLM経路を最適化しコストも抑える。"
+          ],
+          "body_ja": "生成AIの社内利用が広がるほど、個々のアプリや部門が勝手にモデルを呼び出すだけでは統制が難しくなる。そこで注目されているのが、各リクエストの入口に立ち、ルーティングやオーケストレーション、可観測性をまとめて担う「生成AIゲートウェイ」だ。Microsoftは、カスタムのゲートウェイやオーケストレーション層ではOpenTelemetryを用いて、トレース、メトリクス、ログを相関づけて出すことを勧めている。さらに、モデル名、デプロイ先、トークン利用量、レイテンシー、許可済みのクライアントやテナント属性を一貫して持たせることで、AI利用の実態を監視しやすくする考え方を示した[1]。\n\nこの発想は、AIゲートウェイを単なる中継装置ではなく、企業のAI運用を支える“神経系”として捉え直すものだ。どの部署がどのモデルをどれだけ使い、どこで遅延やコスト増が起きているのかを追えるようになれば、ガバナンス、課金管理、性能改善を同じレイヤーで扱える。Microsoftの提案は、とりわけ「可視化の標準化」が要点であり、AIの利用状況を後から寄せ集めるのではなく、最初から追跡可能な形で流す設計を重視している[1]。\n\n一方で、A10 NetworksもAI gatewayをLLM routingの基盤として位置づけ、ユーザーやチーム向けのリクエストをスピードとコスト効率を両立しながら振り分ける存在だと強調している。これは、性能だけでなく運用費や利用制御まで含めて最適化する流れが、実運用の必須要件になっていることを示す。企業にとっては、生成AIを導入するほど、モデルそのものよりも“どの経路で、どう測り、どう守るか”が競争力を左右する時代に入ったと言える[2]。\n\n結果として、生成AIゲートウェイは、AI時代の新しいインフラ層として定着しつつある。AIの入口を一本化し、観測データを標準化し、ルーティングを最適化することで、企業は拡大する生成AI利用を統制可能な形で運用できる。今後は、クラウド各社やネットワークベンダーがこの領域をどうサービス化し、既存の監視・セキュリティ・コスト管理とどう接続するかが、AI基盤戦略の焦点になりそうだ。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Implement Advanced Monitoring for Foundry Models Through a Gateway - Azure Architecture Center | Microsoft Learn",
+              "url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/generative-ai-gateway-monitoring",
+              "source": "Microsoft Learn"
+            },
+            {
+              "id": 2,
+              "title": "A10 AI gateway for LLM routing and cost efficiency",
+              "url": "https://www.facebook.com/a10networks/posts/ai-adoption-is-making-ai-gateways-a-critical-foundational-component-of-enterpris/1862829118468360",
+              "source": "A10 Networks"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "cloud",
+          "title_highlights": [
+            "AI gateway",
+            "OpenTelemetry"
+          ],
+          "three_lines_highlights": [
+            "AI gateway",
+            "OpenTelemetry",
+            "LLM routing"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "AIゲートウェイのレート制限は「件数」だけでなく「トークン」「並列数」も見る時代へ",
+          "summary_ja": "AWSの提供例では、AI向けサービスを無料・標準・プロの3段階に分け、リクエスト数、同時実行数、月間上限、質問数、待機期限、画像数まで細かく制御しています。一方、Tykはクォータをプロキシ全体に適用し、個別ツールにはレート制限、LLMトークンの支出管理には別の予算機能を使う設計を示しています。AIゲートウェイの制限は、単純な回数制限から、利用単位ごとに最適化する運用へ進んでいます。",
+          "summary_en": "AWS shows a tiered AI service model that limits requests, concurrency, monthly volume, questions per request, queue deadlines, and images. Tyk, by contrast, applies quotas to the proxy as a whole, uses per-tool rate limits for individual tools, and relies on AI Studio budgets for token spend control. AI gateway limiting is evolving from simple request counting to multi-dimensional operational control.",
+          "three_lines": [
+            "AWSはAI利用を3段階に制限する",
+            "Tykは件数とトークンを分けて管理する",
+            "AIゲートウェイは多軸制御へ進化する"
+          ],
+          "body_ja": "AIゲートウェイのレート制限は、いまや「1分に何回呼べるか」だけでは足りません。AWSの事例では、AI向けサービスをFree、Standard、Proの3階層に分け、Requests/min、Concurrency、Decisions/month、Max questions/request、Queue deadline、Imagesまで明示しています[1]。Freeは毎分10回・同時1・月2,000回、Standardは毎分100回・同時4・月5万回、Proは毎分300回・同時4・月50万回という設計で、単なるアクセス制限ではなく、利用体験とコストをまとめて調整する発想が見えます[1]。\n\nこの設計が示すポイントは、AIでは「件数」と「負荷」が切り離せないことです。質問数が増えれば1回のリクエストの重さも変わり、画像の有無や待機期限まで挙動に影響します。AWSの例は、AIサービスを段階課金・段階制御に落とし込むことで、無料利用から本格利用までを滑らかにつなぐモデルだと読めます[1]。\n\n一方、Tykのドキュメントは、ゲートウェイ側の制御思想を別の角度から整理しています。Tykではクォータは「proxy as a whole」に適用され、特定のツールだけをクォータで縛ることはできません。その代わり、ツール単位で止めたいなら per-tool rate limit を使い、LLMトークンの支出上限は Tyk AI Studio budgets で管理する、と明確に役割分担しています[2]。さらに、Tyk Gateway が数えるのは requests であり、tokens ではない点も重要です[2]。つまり、AI運用では「呼び出し回数の制御」と「トークン消費の制御」を別レイヤーで設計する必要があるということです[2]。\n\n2つのソースを並べると、AIゲートウェイのレート制限は、単純なRPS制御から、多次元のガバナンスへ移っています。AWSのように利用階層ごとに上限を細かく変える方法と、Tykのようにクォータ・レート制限・予算管理を分離する方法はアプローチが違いますが、狙いは同じです。AIの利用は、回数だけでなく、同時実行、質問の深さ、画像などのマルチモーダル要素、そして最終的なトークンコストまで含めて制御しなければならない、という現実が前提になっています[1][2]。\n\n実務的には、AIゲートウェイを導入する際に「どこまでをゲートウェイで止め、どこからを予算や請求で抑えるか」を先に決めることが重要です。件数上限だけを置くと、少ない回数でも重いリクエストでコストが膨らむ可能性があります。逆にトークンだけを管理しても、瞬間的な集中アクセスは防げません。今回の2つの事例は、AI時代のレート制限が、アクセス制御ではなくサービス設計そのものになっていることを示しています[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Strands Decider 2B, hosted: 1.6 million tokens served to 100+ builders, 2,000 free decisions a month, and a zero-downtime fix on air | AWS Builder Center",
+              "url": "https://builder.aws.com/content/3Ks9uHwd7uxGglJbLXmzB7l6Xed/strands-decider-2b-hosted-16-million-tokens-served-to-100-builders-2000-free-decisions-a-month-and-a-zero-downtime-fix-on-air",
+              "source": "AWS Builder Center"
+            },
+            {
+              "id": 2,
+              "title": "How do I give each AI agent its own API key and quota? - Tyk Documentation",
+              "url": "https://tyk.io/docs/ai-management/agents/per-agent-credentials-and-quotas",
+              "source": "Tyk Documentation"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "cloud",
+          "title_highlights": [
+            "AIゲートウェイ",
+            "レート制限"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "Tyk",
+            "多軸"
+          ],
+          "id": "cloud-2"
+        },
+        {
+          "title": "Hermes Agent実践者向けリファレンス：クラウド側で「どのモデルを、どう使うか」を決める時代",
+          "summary_ja": "Hermes Agentは、単一モデルに縛られず、用途・データ区分・コスト・遅延で使い分ける前提が強まる中で注目される実践者向けの考え方です。Azureのマルチモデル経路制御、Vertex AIやAzure OpenAIのキャンセル課金挙動、そして既存のエージェント周辺エコシステムの広がりから、2026年のクラウドAI運用で押さえるべき論点を整理します。",
+          "summary_en": "Hermes Agent is increasingly relevant as practitioners move away from a single-model assumption and toward task-, data class-, cost-, and latency-aware routing. Based on recent signals around Azure multi-model routing, provider cancellation billing behavior, and the expanding agent ecosystem, this article outlines the key cloud AI operations points for 2026.",
+          "three_lines": [
+            "Hermes Agentの運用前提を整理する。",
+            "AzureやVertexの経路制御を比べる。",
+            "中断課金と相性を設計に反映する。"
+          ],
+          "body_ja": "2026年のHermes Agentを語るとき、焦点は「どのエージェントを使うか」よりも「どのモデルに、どの条件で、どう流すか」に移っています。Azure AI Foundryでは、各エージェント呼び出しをタスク、データ区分、コスト、遅延に応じて承認済みモデルへ振り分け、さらに評価済みのフォールバックを持たせる“ゲートウェイ”型の考え方が示されています[1]。Hermes Agentを実践で扱うなら、この発想はほぼ必須です。単一の高性能モデルに寄せるより、要件ごとに経路を分けるほうが、品質・費用・応答性のバランスを取りやすいからです。\n\n一方で、実運用では「止めたはずの処理に課金が残る」問題が軽視できません。TrueFoundryの測定ベースの整理では、Vertex AIとAzure OpenAIはキャンセルしたストリームに対して請求されないことが“confirmed”とされる一方、OpenAIは読み続けるかどうかに関係なく全完了分を課金するとされています[2]。これは、Hermes Agentのようにツール呼び出しやストリーミングを前提にした実装では重要です。ユーザーがタブを閉じたり、途中で操作をやめたりしたとき、バックエンド側でどこまで打ち切れるのかが、実コストを左右します。つまり、エージェント設計は“推論精度”だけでなく“キャンセル時の会計”まで含めて考える必要があります[2]。\n\nさらに、Hermes Agentを取り巻く周辺環境を見ると、エージェントは単体製品ではなく、ワークスペースやMCP連携を含む広いエコシステムの一部として扱われています。open-designの公開リポジトリでは、Hermes Agentがサポート対象として記載され、同時に「agent-native, model-agnostic」という方針が示されています。要するに、特定のモデルや特定のUIにロックインせず、複数のエージェントやCLIを同じ作業空間で扱う方向です[3]。この流れは、Hermes Agentの価値が“万能の中核”というより、“既存のクラウド/ローカル作業基盤に差し込める実践部品”にあることを示しています。\n\n情報源の更新状況から見ても、2026年のクラウドAIは継続的に変化しています。Vibediaのソース健全性ページでは、AWSのMLブログ、GitHubの変更履歴、Google AI blogなどが直近でチェックされており、クラウド事業者や周辺開発者コミュニティの動きが日々取り込まれていることが分かります[4]。Hermes Agentのような実践者向けテーマでは、この“変化を前提にした運用”が重要です。新サービスの追加、価格や請求条件の変更、モデルの切り替え先の見直しは、設計書を一度書いて終わりにはできません。\n\n結論として、Hermes Agentの2026年版リファレンスは、単なる使い方メモではなく、クラウドAIの運用原則の整理に近いものです。第一に、呼び出し先はモデル名ではなく、タスクとデータ条件で決める[1]。第二に、中断時の課金挙動を事前に確認し、ストリーミングやキャンセル制御を実装に織り込む[2]。第三に、Hermes Agentを単独の“アプリ”ではなく、モデル非依存の作業環境の一部として捉える[3]。この3点を押さえると、AWS・Azure・GCPのどの基盤上でも、2026年らしい実践的なエージェント運用に近づけます。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Multi-Model Agent Routing in Azure AI Foundry",
+              "url": "https://www.linkedin.com/posts/kehinde-ogunlowo_agenticai-enterpriseai-multimodel-activity-7515509841449279488-dYkz",
+              "source": "LinkedIn"
+            },
+            {
+              "id": 2,
+              "title": "Your User Closed the Tab. Your Node Server Is Still Paying for the LLM Call - DEV Community",
+              "url": "https://dev.to/gabrielanhaia/your-user-closed-the-tab-your-node-server-is-still-paying-for-the-llm-call-3a11",
+              "source": "DEV Community"
+            },
+            {
+              "id": 3,
+              "title": "GitHub - nexu-io/open-design: The 1st Collaborative AI Design Agent Workspace. Local-first and open source.",
+              "url": "https://github.com/nexu-io/open-design",
+              "source": "GitHub"
+            },
+            {
+              "id": 4,
+              "title": "Source health · Vibedia",
+              "url": "https://vibedia.ai/about/source-health",
+              "source": "Vibedia"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "cloud",
+          "title_highlights": [
+            "Hermes Agent",
+            "Azure AI Foundry"
+          ],
+          "three_lines_highlights": [
+            "Hermes Agent",
+            "Azure AI Foundry",
+            "Azure OpenAI"
+          ],
+          "id": "cloud-3"
+        }
+      ],
+      "summary": "クラウド分野では、生成AIを「使えるようにする」段階から一歩進み、ゲートウェイを中心に監視・統制・最適化まで含めた運用基盤を整える流れが強まっています。特にレート制限や課金管理は、件数だけでなくトークン、同時実行数、待機時間など利用実態に応じたきめ細かな制御へ移行しており、企業はモデルを固定せず用途やコスト、データ区分に応じて動的に使い分ける方向に向かっています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Claude Code Desktopの「SneakPeek」脆弱性、ゼロクリックで開発者の鍵やAWS認証情報が漏えいする恐れ",
+          "summary_ja": "Claude Code Desktopのプレビュー表示機能に起因する「SneakPeek」脆弱性が報告され、悪意あるHTMLだけでSSH秘密鍵やAWS認証情報などが盗まれる可能性があるとされています。[1][2] エージェントが実行した操作ではなくプレビュー描画の問題であるため、従来のエージェントログでは検知しにくい点も懸念されています。[2]",
+          "summary_en": "A reported “SneakPeek” flaw in Claude Code Desktop’s preview pane may let attackers steal SSH private keys, AWS credentials, and other secrets through malicious HTML alone, with limited visibility in agent-level logs.[1][2]",
+          "three_lines": [
+            "Claude Code Desktopの表示機能に脆弱性が見つかった。",
+            "悪意あるHTMLだけで秘密情報が盗まれうる。",
+            "エージェントログでは追跡しにくい点が問題だ。"
+          ],
+          "body_ja": "Claude Code Desktopのプレビュー表示に関する「SneakPeek」脆弱性が、開発者向けツールの安全性に改めて注意を促しています。報道によれば、この不具合はプレビュー・ペインの描画処理に入り込む形で悪用され、SSH秘密鍵やAWS認証情報などの機密情報を、開発者が気づかないうちに抜き取られる恐れがあります。[1][2]\n\nポイントは、これが“ゼロクリック”型の脅威として扱われていることです。つまり、ユーザーが明示的に危険な操作をしなくても、表示されたコンテンツそのものをきっかけに情報漏えいが起こりうるということです。Dark Readingは、Claude Code Desktopのプレビュー・ペインにあるバグが、開発者の認証情報を静かに盗ませる可能性を指摘しています。[1]\n\nまた、検知の難しさも見逃せません。Hackreadは、このスクリプトがエージェントの判断や実行ではなく、プレビュー・ペインのレンダリング処理で動いたため、エージェントレベルのログには通常現れないと説明しています。[2] つまり、AIエージェントの挙動だけを監視していても、今回のような表示系の攻撃は見逃される可能性があります。\n\n開発者ツールやAIエージェントの利用が広がるなかで、利便性と同時に「どの層で何が実行されるのか」を意識する必要があります。Claude Codeのような開発支援ツールは、コード生成や自動化を加速する一方で、プレビューや外部入力の取り扱いが弱点になると、認証情報の流出という直接的な被害につながりかねません。[1][2] 今回の件は、AI開発ツールのセキュリティが、モデルの性能だけでなく表示機構や実行環境まで含めた全体設計で問われる段階に入っていることを示しています。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+              "url": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+              "source": "Dark Reading"
+            },
+            {
+              "id": 2,
+              "title": "Claude Code Desktop Flaw Let Malicious HTML Steal Developer Credentials",
+              "url": "https://hackread.com/claude-code-desktop-flaw-html-steal-credentials",
+              "source": "Hackread"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "SneakPeek"
+          ],
+          "three_lines_highlights": [
+            "Claude Code",
+            "ゼロクリック",
+            "SSH鍵"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "Aoki系インフォスティーラー、Claude CodeやCursorなどAI開発ツールの認証情報を狙う",
+          "summary_ja": "新たに観測されたAoki系インフォスティーラーが、従来のブラウザや暗号資産ウォレット情報に加え、ClaudeやCursorなどAIコーディング支援ツールの認証・セッション情報を収集対象に広げている。開発者のアカウントや接続先サービスにまで被害が及ぶ可能性があり、AI開発環境の“ログイン状態”そのものが新たな攻撃対象になりつつある。",
+          "summary_en": "Aoki infostealer has expanded from browser and crypto-wallet theft to target credentials and session files used by AI coding assistants such as Claude and Cursor, increasing the risk to developer accounts and connected services.",
+          "three_lines": [
+            "Aoki系がAI開発ツールの認証情報を狙う。",
+            "ClaudeやCursorのセッションも盗まれる。",
+            "開発者アカウント全体へ被害が広がる。"
+          ],
+          "body_ja": "Symantecの分析で、Aoki（Aokigaharaとも表記される）系インフォスティーラーの新しい版が、AIコーディング支援ツールの認証情報とセッションファイルを狙い始めたことが明らかになった。対象にはClaude、OpenAIのCodex、Cursor、Codeium、Geminiが含まれ、従来のブラウザや暗号資産ウォレット、パスワード管理データ中心の盗難から一段踏み込んだ動きといえる[3][4][5][6]。\n\nポイントは、盗まれるのが単なるパスワードではなく、OAuthやセッション・トークンのような“すでにログイン済み”を前提にした情報だという点だ。こうした情報が悪用されると、攻撃者は正規ユーザーになりすましてAIツールや関連サービスへ入り込める可能性がある[4][5]。GBHackersはClaude、ChatGPT、Cursorを挙げて警告し、Security.comやThe Hacker NewsもClaude、Codex、Cursor、Codeium、Geminiへの拡大を伝えている[2][4][5]。\n\nInfosecurity Magazineは、Aokiが2026年初頭に初観測された比較的新しい、文書化の少ないインフォスティーラーだとしつつ、AI関連ファイルを盗む能力が最近になって拡大していると報じた[1]。SC Mediaも、今回の変化は従来の盗難対象からの“重要な発展”だと整理している[3]。つまり、AI開発ツールの利用が広がるほど、攻撃者にとっては開発者のブラウザや秘密鍵だけでなく、各種AIアシスタントの接続状態そのものが価値ある標的になっている。\n\n実務上の含意は大きい。Claude CodeやCursor、GitHub CopilotのようなAI支援機能は、開発効率を上げる一方で、認証トークンやセッションを端末に保持しがちだ。今回の報道は、AIツールの導入時に“モデルの性能”だけでなく、“認証情報をどこに残すか”“端末侵害時に何が奪われるか”まで見直す必要があることを示している[2][5][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "New Aoki Infostealer Targets AI Coding Assistant Credentials - Infosecurity Magazine",
+              "url": "https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding",
+              "source": "Infosecurity Magazine"
+            },
+            {
+              "id": 2,
+              "title": "Hackers Target Claude, ChatGPT and Cursor Credentials Using Aoki Infostealer",
+              "url": "https://gbhackers.com/aoki-infostealer-targets-ai/amp",
+              "source": "GBHackers"
+            },
+            {
+              "id": 3,
+              "title": "New infostealer targets AI coding assistant credentials | brief | SC Media",
+              "url": "https://www.scworld.com/brief/new-infostealer-targets-ai-coding-assistant-credentials",
+              "source": "SC Media"
+            },
+            {
+              "id": 4,
+              "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+              "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+              "source": "The Hacker News"
+            },
+            {
+              "id": 5,
+              "title": "Aoki: Infostealer Targets AI Coding Assistant Credentials | SECURITY.COM",
+              "url": "https://www.security.com/threat-intelligence/aoki-infostealer-ai-targeting",
+              "source": "SECURITY.COM"
+            },
+            {
+              "id": 6,
+              "title": "Aoki Infostealer Expands Attacks to Claude, Codex, Cursor and GitHub Copilot",
+              "url": "https://cyberpress.org/aoki-targets-ai-credentials?amp=1",
+              "source": "CyberPress"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "devtools",
+          "title_highlights": [
+            "Aoki",
+            "Claude",
+            "Cursor"
+          ],
+          "three_lines_highlights": [
+            "Aoki",
+            "Claude",
+            "Cursor"
+          ],
+          "id": "devtools-2"
+        },
+        {
+          "title": "Anthropic、Claude CodeのCode Reviewを一般提供開始　GitHub Enterprise向けに最大5万ドルのクレジットも",
+          "summary_ja": "AnthropicがClaude CodeのCode Reviewを一般提供開始し、GitHub Enterprise向けに最大5万ドルのクレジットを付ける施策が注目されています。利用条件や対象環境には制約もあり、導入前に確認すべき点があります。",
+          "summary_en": "Anthropic has generally released Code Review for Claude Code and is offering up to $50,000 in credits for GitHub Enterprise. The rollout comes with notable eligibility and environment restrictions that teams should review before adoption.",
+          "three_lines": [
+            "Claude CodeのCode Reviewが一般提供された。",
+            "GitHub Enterprise向けに最大5万ドルを付与する。",
+            "利用条件と対象外要件を確認して導入する。"
+          ],
+          "body_ja": "Anthropicは、Claude Code向けのCode Reviewを一般提供に切り替えた。対象はTeamまたはEnterpriseプランで、GitHub上のリポジトリを使っている組織だという。[1]\n\n今回の提供範囲には、GitHub Enterprise Serverや、データレジデンシー対応のGitHub Enterprise Cloudも含まれる。一方で、Zero Data Retentionを有効にしている組織や、HIPAA構成を適用した組織は利用できない。[1]\n\n開発者ツールの文脈では、Claude Codeはコード生成だけでなくレビュー支援まで広げてきたことになる。CIやPRレビューの負担を軽くしたい企業にとっては魅力的だが、利用可否は運用ポリシーとGitHub環境の条件を先に突き合わせる必要がある。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic Makes Code Review for Claude Code Generally Available – Unite.AI",
+              "url": "https://www.unite.ai/anthropic-makes-code-review-for-claude-code-generally-available",
+              "source": "Unite.AI"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "5万ドル"
+          ],
+          "three_lines_highlights": [
+            "Claude Code",
+            "5万ドル",
+            "GitHub Enterprise"
+          ],
+          "id": "devtools-3"
+        }
+      ],
+      "summary": "本日は、AI開発ツールが「コード支援の効率化」を進める一方で、その周辺にある認証情報やプレビュー表示まで攻撃面が広がっている点が目立ちます。Claude Code Desktopの脆弱性やAoki系インフォスティーラーの標的拡大は、開発者の秘密鍵・セッション情報が新たな重要資産になっていることを示しています。加えて、AnthropicによるClaude CodeのCode Review一般提供開始は導入拡大を後押ししており、利便性向上と同時に運用・セキュリティ確認の重要性が増しています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "米欧のAI戦略、フロンティア競争から投資・実装重視へ　欧州は主権と活用に軸足",
+          "summary_ja": "米国と欧州のAI戦略は、最先端モデルの覇権争いから、投資、導入、主権確保へと重心を移しつつある。欧州では規制をめぐる姿勢にも揺れがあり、EU AI Actやクラウド主権法案CADAを軸に、競争力と技術自立の両立が課題になっている。",
+          "summary_en": "The AI strategies of the US and Europe are shifting from frontier-model competition toward investment, deployment, and sovereignty. In Europe, policy is also in flux, with the EU AI Act and the proposed CADA at the center of the debate over competitiveness and technological autonomy.",
+          "three_lines": [
+            "米欧のAI戦略は実装重視へ移った。",
+            "欧州は主権確保と活用拡大を急ぐ。",
+            "規制と投資の両立が焦点になった。"
+          ],
+          "body_ja": "米欧のAI戦略は、ここにきて「どこが最先端モデルを作るか」から、「誰がどう使い、どう支えるか」へと軸足を移し始めている。POLITICOは、欧州の指導層がフロンティアAIの競争から距離を取り始めたと報じ、CNNも欧州は先行して規制を進めてきた一方で、フロンティアモデルやデータセンター、大手テック企業の厚みでは米国に及ばないと指摘した[2][4][6]。\n\nこの変化の背景には、欧州が「規制先進地域」であることの強みと弱みが同居している事情がある。EU AI Actのような規制枠組みは市場の安全性を高めるが、現場では導入スピードや競争力との折り合いが課題になる。Politicoは、欧州が長年の“tech rules”重視から少しずつトーンを変え、AIの席を確保しようとしていると伝えたが、その転換はタイミングの難しさも伴う[2]。\n\n欧州の政策議論で目立つのは、「主権」の言い換えが単なるデータ保護ではなく、能力、基盤、統治の確保に広がっている点だ。Light Readingは、2026年6月に公表された提案法案CADAが、EUの技術的自律を維持するために必要な能力、インフラ、ガバナンスの仕組みを確保することに焦点を当てると報じた[1]。つまり、欧州の関心は“データを域内に置く”だけではなく、“AIを自前で動かし続ける条件を持てるか”へ移っている。\n\nただし、その主権志向にはコスト論もつきまとう。The Next Webは、CADAが10年間で欧州に1150億ユーロのコストをもたらし得るとする研究を紹介した[3]。この試算の是非は別として、少なくとも欧州のAI政策が「守るべき価値」と「負担する費用」の綱引きに入っていることは確かだ。主権を強めれば強めるほど、企業の投資負担やクラウド利用の柔軟性に影響が及ぶ可能性がある[1][3]。\n\n一方で、欧州がAI競争で完全に後退しているわけではない。むしろ、最先端モデルの数で米国と真っ向勝負するより、組織実装や産業利用で成果を積み上げる戦略が現実味を帯びている。The Next Webが紹介したSiftedとロンドン・ビジネス・スクールの報告では、欧州の遅れは技術不足ではなく、スキル、マネジメント、信頼、コストといった「組織のギャップ」にあるとされる[5]。これは、AIの成否がモデル性能だけでなく、現場に落とし込む運用力で決まることを示している。\n\nつまり、欧州のAI戦略は「規制で守る」だけでも、「フロンティアで追う」だけでもない。CADAに代表される主権確保の議論、EU AI Actを中心としたルール整備、そして企業側の実装力強化が同時進行している[1][2][3][5]。今後の焦点は、欧州がどこまで独自の基盤を維持しつつ、投資と導入を加速できるかだ。米国との競争はなお激しいが、勝負の場所は“モデルの先頭争い”から、“社会実装の厚み”へと移りつつある。",
+          "references": [
+            {
+              "id": 1,
+              "title": "AI, cloud sovereignty policy talks move past residency – Omdia - Light Reading",
+              "url": "https://www.lightreading.com/ai-machine-learning/ai-and-cloud-sovereignty-policy-discussions-moving-beyond-concerns-about-data-residency-omdia",
+              "source": "Light Reading"
+            },
+            {
+              "id": 2,
+              "title": "Europe’s AI identity crisis - Politico",
+              "url": "https://www.politico.com/newsletters/decoded-by-politico/2026/10/16/europes-ai-identity-crisis-01123019",
+              "source": "Politico"
+            },
+            {
+              "id": 3,
+              "title": "EU cloud sovereignty law could cost €115bn, CCIA-funded study says - The Next Web",
+              "url": "https://thenextweb.com/news/eu-cloud-sovereignty-cada-115bn-ccia-study",
+              "source": "The Next Web"
+            },
+            {
+              "id": 4,
+              "title": "Europe leads the world on AI rules. So why is it missing from the AI safety debate? - CNN",
+              "url": "https://www.cnn.com/2026/10/14/business/europe-ai-act-safety-debate-intl",
+              "source": "CNN"
+            },
+            {
+              "id": 5,
+              "title": "Europe trails the US on AI because of how firms work, Sifted report says - The Next Web",
+              "url": "https://thenextweb.com/news/europe-ai-adoption-gap-sifted-lbs-report",
+              "source": "The Next Web"
+            },
+            {
+              "id": 6,
+              "title": "Europe’s leaders abandon the race for frontier AI - POLITICO.eu",
+              "url": "https://www.politico.eu/article/europe-ai-strategy-frontier-models-us-china/",
+              "source": "POLITICO.eu"
+            }
+          ],
+          "published_date": "2026-10-19",
+          "category": "global",
+          "title_highlights": [
+            "CADA",
+            "AI Act",
+            "115bn"
+          ],
+          "three_lines_highlights": [
+            "実装重視",
+            "主権確保",
+            "規制投資"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "米欧のAI戦略は、最先端モデルの開発競争から、投資拡大と実装・社会実装の加速へと重点を移している。欧州ではEU AI Actやクラウド主権をめぐる議論を通じて、規制と競争力、技術自立の両立をどう図るかが中心課題になっている。"
+    }
+  ]
+}

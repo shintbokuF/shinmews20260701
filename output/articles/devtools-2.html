@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Claude Codeの“ターミナル駆動”開発が広がる、フリーランスに刺さる実践知 | AI・クラウド ニュースダイジェスト</title>
+<title>Aoki系インフォスティーラー、Claude CodeやCursorなどAI開発ツールの認証情報を狙う | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,27 +19,24 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-10-18</span>
+    <span class="article-date">2026-10-19</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">Claude Code</mark>の“ターミナル駆動”開発が広がる、フリーランスに刺さる実践知</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Aoki</mark>系インフォスティーラー、<mark style="background:#8A3FE026">Claude</mark> Codeや<mark style="background:#8A3FE026">Cursor</mark>などAI開発ツールの認証情報を狙う</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Claude Code</mark>はターミナル型として使い分ける。</li><li><mark style="background:#8A3FE026">MCP</mark>連携は発見性まで詰めて検証する。</li><li>遠隔案件の増加が活用余地を広げる。</li></ul>
+    <ul><li><mark style="background:#8A3FE026">Aoki</mark>系がAI開発ツールの認証情報を狙う。</li><li><mark style="background:#8A3FE026">Claude</mark>や<mark style="background:#8A3FE026">Cursor</mark>のセッションも盗まれる。</li><li>開発者アカウント全体へ被害が広がる。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Claude CodeはIDEではなくターミナル上で動くエージェントとして捉えると、Cursorや他のAI開発ツールとの住み分けが見えやすい。実務では、MCPサーバー連携の検証を通じて「接続して終わり」ではなく、正しく発見させて使わせる設計が重要だと分かる。リモート案件や外部人材マーケットの存在も、フリーランス開発者にとっての需要拡大を示している。</p>
-    <p class="sum-en">Claude Code is best understood as a terminal-based agent rather than an IDE, which clarifies how it differs from Cursor and similar AI coding tools. Practical work shows that MCP integration is not just about making something compile, but about helping the agent discover and use it correctly. Remote job listings and freelance talent platforms indicate rising demand around Claude Code-related workflows.</p>
+    <p class="sum-ja">新たに観測されたAoki系インフォスティーラーが、従来のブラウザや暗号資産ウォレット情報に加え、ClaudeやCursorなどAIコーディング支援ツールの認証・セッション情報を収集対象に広げている。開発者のアカウントや接続先サービスにまで被害が及ぶ可能性があり、AI開発環境の“ログイン状態”そのものが新たな攻撃対象になりつつある。</p>
+    <p class="sum-en">Aoki infostealer has expanded from browser and crypto-wallet theft to target credentials and session files used by AI coding assistants such as Claude and Cursor, increasing the risk to developer accounts and connected services.</p>
   </div>
 
-  <div class="article-body"><p>AI開発ツールの選び方で、いま注目されているのが「どこで動くか」という視点だ。検索結果によれば、Claude Codeは「ターミナルエージェント」、Cursorは「AIネイティブIDE」と整理されており、両者は似て見えても設計思想が異なる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。つまり、画面中心で補助してほしいならCursor、既存のターミナル作業に溶け込ませて自律的に動かしたいならClaude Code、という住み分けが見えてくる。</p>
-<p>この違いは、実際の開発フローに直結する。CursorのようなIDE型は、編集体験を中心にAIが寄り添うのに対し、Claude Codeはコマンドライン上で作業を進めるため、既存のシェル操作や自動化の流儀と相性がよい<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。フリーランス開発者にとっては、案件ごとに異なるローカル環境へ入り込みやすく、GUIを前提にしないぶん導入ハードルを下げられる可能性がある。</p>
-<p>一方で、ターミナルで動くからといって導入が簡単とは限らない。MCPサーバー連携を試した事例では、Rustで書かれたプログラムを「コンパイルできる」だけでは不十分で、Claude Codeがそれを見つけ、接続し、正しく使えるようにすることが別の課題として示されている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。この指摘は重要で、AIエージェントは動くツールを自動的に理解してくれるわけではなく、参照可能な形に整える設計が必要だということを意味する。</p>
-<p>つまり、Claude Codeの価値は単なるコード生成ではなく、作業の文脈をまたいだ実行補助にある。MCPのような接続層を用意しても、テストや接続確認を経なければ、エージェントは期待通りに振る舞わない<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。フリーランスや少人数チームほど、この「使える状態にする」工程を軽視しがちだが、実際にはここが生産性の分かれ目になる。</p>
-<p>需要面でも、Claude Code周辺の動きは無視できない。リモートのClaude Code関連求人が多数掲載されていることは、少なくとも実務での関心が一定規模に達していることを示している<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。加えて、フリーランス向けの人材マーケットでもClaude系の専門家を探す導線が用意されており<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>、個人開発者や業務委託人材にとって、AIコーディング支援の実務経験が売りになり始めている様子がうかがえる。</p>
-<p>ここから見える実践ノウハウはシンプルだ。第一に、Claude CodeはIDEの代替ではなく、ターミナル中心の作業を拡張する道具として評価する<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。第二に、MCP連携のような外部ツール接続では、「動く」ではなく「見つけて使える」まで検証する<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。第三に、案件獲得の観点では、関連求人やフリーランス市場の存在を追いながら、ツール操作だけでなく接続設計や運用改善まで説明できると強い<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p>
-<p>AI開発ツールの競争は、もはや単機能の性能比較ではない。Claude Codeのようなターミナル駆動型のエージェントは、既存の開発習慣にどれだけ自然に入り込めるか、そして外部ツール群をどれだけ確実に扱えるかが評価軸になっている。フリーランス開発者にとっては、この変化を「作業を速くする道具」ではなく、「受託案件で価値を説明できる技能」として取り込めるかが、次の差になる。</p></div>
+  <div class="article-body"><p>Symantecの分析で、Aoki（Aokigaharaとも表記される）系インフォスティーラーの新しい版が、AIコーディング支援ツールの認証情報とセッションファイルを狙い始めたことが明らかになった。対象にはClaude、OpenAIのCodex、Cursor、Codeium、Geminiが含まれ、従来のブラウザや暗号資産ウォレット、パスワード管理データ中心の盗難から一段踏み込んだ動きといえる<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。</p>
+<p>ポイントは、盗まれるのが単なるパスワードではなく、OAuthやセッション・トークンのような“すでにログイン済み”を前提にした情報だという点だ。こうした情報が悪用されると、攻撃者は正規ユーザーになりすましてAIツールや関連サービスへ入り込める可能性がある<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。GBHackersはClaude、ChatGPT、Cursorを挙げて警告し、Security.comやThe Hacker NewsもClaude、Codex、Cursor、Codeium、Geminiへの拡大を伝えている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。</p>
+<p>Infosecurity Magazineは、Aokiが2026年初頭に初観測された比較的新しい、文書化の少ないインフォスティーラーだとしつつ、AI関連ファイルを盗む能力が最近になって拡大していると報じた<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。SC Mediaも、今回の変化は従来の盗難対象からの“重要な発展”だと整理している<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。つまり、AI開発ツールの利用が広がるほど、攻撃者にとっては開発者のブラウザや秘密鍵だけでなく、各種AIアシスタントの接続状態そのものが価値ある標的になっている。</p>
+<p>実務上の含意は大きい。Claude CodeやCursor、GitHub CopilotのようなAI支援機能は、開発効率を上げる一方で、認証トークンやセッションを端末に保持しがちだ。今回の報道は、AIツールの導入時に“モデルの性能”だけでなく、“認証情報をどこに残すか”“端末侵害時に何が奪われるか”まで見直す必要があることを示している<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。</p></div>
 
   
   <div class="references">
@@ -47,23 +44,33 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://getcreatr.com/kiro-vs-cursor" target="_blank" rel="noopener noreferrer">Kiro vs Cursor: Which AI IDE in 2026? · Creatr</a>
-        <span class="ref-source">— Creatr</span>
+        <a href="https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding" target="_blank" rel="noopener noreferrer">New Aoki Infostealer Targets AI Coding Assistant Credentials - Infosecurity Magazine</a>
+        <span class="ref-source">— Infosecurity Magazine</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://medium.com/@ivavrtaric/one-ai-coding-agent-a-rust-mcp-server-and-6-307-yc-startups-607ef8f4085c" target="_blank" rel="noopener noreferrer">One AI Coding Agent, a Rust MCP Server, and 6,307 YC Startups.</a>
-        <span class="ref-source">— Medium</span>
+        <a href="https://gbhackers.com/aoki-infostealer-targets-ai/amp" target="_blank" rel="noopener noreferrer">Hackers Target Claude, ChatGPT and Cursor Credentials Using Aoki Infostealer</a>
+        <span class="ref-source">— GBHackers</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://www.indeed.com/q-claude-code-l-remote-jobs.html" target="_blank" rel="noopener noreferrer">Claude Code jobs in Remote</a>
-        <span class="ref-source">— Indeed</span>
+        <a href="https://www.scworld.com/brief/new-infostealer-targets-ai-coding-assistant-credentials" target="_blank" rel="noopener noreferrer">New infostealer targets AI coding assistant credentials | brief | SC Media</a>
+        <span class="ref-source">— SC Media</span>
       </li>
       
       <li id="ref-4">
-        <a href="https://www.upwork.com/hire/claude-cowork-specialists" target="_blank" rel="noopener noreferrer">Hire the Best Claude Cowork Specialists</a>
-        <span class="ref-source">— Upwork</span>
+        <a href="https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html" target="_blank" rel="noopener noreferrer">ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More</a>
+        <span class="ref-source">— The Hacker News</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://www.security.com/threat-intelligence/aoki-infostealer-ai-targeting" target="_blank" rel="noopener noreferrer">Aoki: Infostealer Targets AI Coding Assistant Credentials | SECURITY.COM</a>
+        <span class="ref-source">— SECURITY.COM</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://cyberpress.org/aoki-targets-ai-credentials?amp=1" target="_blank" rel="noopener noreferrer">Aoki Infostealer Expands Attacks to Claude, Codex, Cursor and GitHub Copilot</a>
+        <span class="ref-source">— CyberPress</span>
       </li>
       
     </ol>

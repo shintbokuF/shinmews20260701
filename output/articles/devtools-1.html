@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AIエージェント基盤の比較整理が進展、Dify・Langflow・Flowise・Copilot Studio・Vertex AI Agent Builderの位置づけを再確認 | AI・クラウド ニュースダイジェスト</title>
+<title>Claude Code Desktopの「SneakPeek」脆弱性、ゼロクリックで開発者の鍵やAWS認証情報が漏えいする恐れ | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,24 +19,24 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-10-18</span>
+    <span class="article-date">2026-10-19</span>
   </div>
-  <h1 class="article-title">AIエージェント基盤の比較整理が進展、<mark style="background:#8A3FE026">Dify</mark>・Langflow・Flowise・Copilot Studio・<mark style="background:#8A3FE026">Vertex AI</mark> Agent Builderの位置づけを再確認</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Claude Code</mark> Desktopの「<mark style="background:#8A3FE026">SneakPeek</mark>」脆弱性、ゼロクリックで開発者の鍵やAWS認証情報が漏えいする恐れ</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Dify</mark>は統合基盤として用途が広がる。</li><li><mark style="background:#8A3FE026">Langflow</mark>やFlowiseは作り方の違いが明確。</li><li><mark style="background:#8A3FE026">Copilot Studio</mark>とVertex AIは企業導入向き。</li></ul>
+    <ul><li><mark style="background:#8A3FE026">Claude Code</mark> Desktopの表示機能に脆弱性が見つかった。</li><li>悪意あるHTMLだけで秘密情報が盗まれうる。</li><li>エージェントログでは追跡しにくい点が問題だ。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">AIエージェントの開発基盤は、用途別に整理して選ぶ段階に入っています。DifyはRAG・エージェント・ワークフローをまとめた開発基盤、LangflowはLangChain系の視覚エディタ、Flowiseはノード型構築、Copilot StudioはMicrosoft 365連携、Google系は企業向け基盤として位置づけられています。</p>
-    <p class="sum-en">AI agent development platforms are increasingly being organized by use case. Dify integrates RAG, agents, and workflows; Langflow offers a visual editor for LangChain; Flowise builds LLM apps with nodes; Copilot Studio targets Microsoft 365; and Google’s stack is positioned as an enterprise platform.</p>
+    <p class="sum-ja">Claude Code Desktopのプレビュー表示機能に起因する「SneakPeek」脆弱性が報告され、悪意あるHTMLだけでSSH秘密鍵やAWS認証情報などが盗まれる可能性があるとされています。[1][2] エージェントが実行した操作ではなくプレビュー描画の問題であるため、従来のエージェントログでは検知しにくい点も懸念されています。[2]</p>
+    <p class="sum-en">A reported “SneakPeek” flaw in Claude Code Desktop’s preview pane may let attackers steal SSH private keys, AWS credentials, and other secrets through malicious HTML alone, with limited visibility in agent-level logs.[1][2]</p>
   </div>
 
-  <div class="article-body"><p>AIエージェントをめぐる開発基盤の比較は、単なる「どれが高機能か」ではなく、「どの業務に、どの運用形態で載せるか」を見極める段階に入っている。今回の整理では、DifyはRAG・エージェント・ワークフローを統合したLLMアプリ開発基盤として紹介され、日本での利用者も多く、セルフホストにも対応する点が特徴とされる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。一方でLangflowはLangChain系の視覚的エディタ、FlowiseはノードベースでLLMアプリを組み立てる方式として並べられており、いずれも「開発の入り口」を下げる役割が強い<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
-<p>この整理が示すのは、エージェント基盤が“万能な1本化”ではなく、設計思想ごとに棲み分けているという点だ。LangflowはLangChainの構成を見ながら組み立てたいチームに向き、Flowiseはノードで素早く試作したいケースに合う。Difyはそれらに比べて、RAGやワークフローまで含めたアプリ基盤として、より運用寄りの位置づけが見える<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。つまり、生成AIのPoCを超えて業務に載せる局面では、「どのUIで作るか」より「どこまでを標準機能として抱えるか」が選定基準になってきたといえる。</p>
-<p>企業利用の文脈では、Microsoft Copilot StudioとGoogleのAgentspace / Vertex AI Agent Builderの存在感が増している。前者はMicrosoft 365環境に組み込むエージェント作成に強く、後者はGoogle Cloud上の企業向けエージェント基盤として整理されている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。ここから読み取れるのは、エージェント開発がオープンな個別ツール群だけでなく、既存の業務スイートやクラウドに深く統合された“本番導入前提”の選択肢へ広がっていることだ<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
-<p>開発者視点では、Claude CodeやCursor、GitHub Copilotのようなコーディング支援ツールが注目される一方、エージェントそのものを組み立てる基盤は別の評価軸で見直す必要がある。今回の比較整理は、LLMアプリ開発の主戦場が「チャットUIの工夫」から「エージェント基盤の設計と運用」に移っていることを示している<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。今後は、プロトタイピングの速さ、セルフホスト要件、既存SaaSとの親和性、クラウド管理との統合度が、ツール選定の中心になっていくだろう。</p></div>
+  <div class="article-body"><p>Claude Code Desktopのプレビュー表示に関する「SneakPeek」脆弱性が、開発者向けツールの安全性に改めて注意を促しています。報道によれば、この不具合はプレビュー・ペインの描画処理に入り込む形で悪用され、SSH秘密鍵やAWS認証情報などの機密情報を、開発者が気づかないうちに抜き取られる恐れがあります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
+<p>ポイントは、これが“ゼロクリック”型の脅威として扱われていることです。つまり、ユーザーが明示的に危険な操作をしなくても、表示されたコンテンツそのものをきっかけに情報漏えいが起こりうるということです。Dark Readingは、Claude Code Desktopのプレビュー・ペインにあるバグが、開発者の認証情報を静かに盗ませる可能性を指摘しています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>また、検知の難しさも見逃せません。Hackreadは、このスクリプトがエージェントの判断や実行ではなく、プレビュー・ペインのレンダリング処理で動いたため、エージェントレベルのログには通常現れないと説明しています。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> つまり、AIエージェントの挙動だけを監視していても、今回のような表示系の攻撃は見逃される可能性があります。</p>
+<p>開発者ツールやAIエージェントの利用が広がるなかで、利便性と同時に「どの層で何が実行されるのか」を意識する必要があります。Claude Codeのような開発支援ツールは、コード生成や自動化を加速する一方で、プレビューや外部入力の取り扱いが弱点になると、認証情報の流出という直接的な被害につながりかねません。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> 今回の件は、AI開発ツールのセキュリティが、モデルの性能だけでなく表示機構や実行環境まで含めた全体設計で問われる段階に入っていることを示しています。</p></div>
 
   
   <div class="references">
@@ -44,8 +44,13 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://note.com/kunugiyama123/n/n3a1755b42c6f" target="_blank" rel="noopener noreferrer">AI AGENT組織について、MCPやAPIで活用するサービスなどについて with claude opus 5.5｜kunugiyama123</a>
-        <span class="ref-source">— note.com</span>
+        <a href="https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat" target="_blank" rel="noopener noreferrer">Anthropic &#39;SneakPeek&#39; Flaw Is a Silent Zero-Click Threat</a>
+        <span class="ref-source">— Dark Reading</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://hackread.com/claude-code-desktop-flaw-html-steal-credentials" target="_blank" rel="noopener noreferrer">Claude Code Desktop Flaw Let Malicious HTML Steal Developer Credentials</a>
+        <span class="ref-source">— Hackread</span>
       </li>
       
     </ol>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aoki系インフォスティーラー、Claude CodeやCursorなどAI開発ツールの認証情報を狙う | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+    <span class="article-date">2026-10-19</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Aoki</mark>系インフォスティーラー、<mark style="background:#8A3FE026">Claude</mark> Codeや<mark style="background:#8A3FE026">Cursor</mark>などAI開発ツールの認証情報を狙う</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#8A3FE026">Aoki</mark>系がAI開発ツールの認証情報を狙う。</li><li><mark style="background:#8A3FE026">Claude</mark>や<mark style="background:#8A3FE026">Cursor</mark>のセッションも盗まれる。</li><li>開発者アカウント全体へ被害が広がる。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">新たに観測されたAoki系インフォスティーラーが、従来のブラウザや暗号資産ウォレット情報に加え、ClaudeやCursorなどAIコーディング支援ツールの認証・セッション情報を収集対象に広げている。開発者のアカウントや接続先サービスにまで被害が及ぶ可能性があり、AI開発環境の“ログイン状態”そのものが新たな攻撃対象になりつつある。</p>
+    <p class="sum-en">Aoki infostealer has expanded from browser and crypto-wallet theft to target credentials and session files used by AI coding assistants such as Claude and Cursor, increasing the risk to developer accounts and connected services.</p>
+  </div>
+
+  <div class="article-body"><p>Symantecの分析で、Aoki（Aokigaharaとも表記される）系インフォスティーラーの新しい版が、AIコーディング支援ツールの認証情報とセッションファイルを狙い始めたことが明らかになった。対象にはClaude、OpenAIのCodex、Cursor、Codeium、Geminiが含まれ、従来のブラウザや暗号資産ウォレット、パスワード管理データ中心の盗難から一段踏み込んだ動きといえる<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。</p>
+<p>ポイントは、盗まれるのが単なるパスワードではなく、OAuthやセッション・トークンのような“すでにログイン済み”を前提にした情報だという点だ。こうした情報が悪用されると、攻撃者は正規ユーザーになりすましてAIツールや関連サービスへ入り込める可能性がある<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。GBHackersはClaude、ChatGPT、Cursorを挙げて警告し、Security.comやThe Hacker NewsもClaude、Codex、Cursor、Codeium、Geminiへの拡大を伝えている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。</p>
+<p>Infosecurity Magazineは、Aokiが2026年初頭に初観測された比較的新しい、文書化の少ないインフォスティーラーだとしつつ、AI関連ファイルを盗む能力が最近になって拡大していると報じた<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。SC Mediaも、今回の変化は従来の盗難対象からの“重要な発展”だと整理している<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。つまり、AI開発ツールの利用が広がるほど、攻撃者にとっては開発者のブラウザや秘密鍵だけでなく、各種AIアシスタントの接続状態そのものが価値ある標的になっている。</p>
+<p>実務上の含意は大きい。Claude CodeやCursor、GitHub CopilotのようなAI支援機能は、開発効率を上げる一方で、認証トークンやセッションを端末に保持しがちだ。今回の報道は、AIツールの導入時に“モデルの性能”だけでなく、“認証情報をどこに残すか”“端末侵害時に何が奪われるか”まで見直す必要があることを示している<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://www.infosecurity-magazine.com/news/aoki-infostealer-ai-coding" target="_blank" rel="noopener noreferrer">New Aoki Infostealer Targets AI Coding Assistant Credentials - Infosecurity Magazine</a>
+        <span class="ref-source">— Infosecurity Magazine</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://gbhackers.com/aoki-infostealer-targets-ai/amp" target="_blank" rel="noopener noreferrer">Hackers Target Claude, ChatGPT and Cursor Credentials Using Aoki Infostealer</a>
+        <span class="ref-source">— GBHackers</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://www.scworld.com/brief/new-infostealer-targets-ai-coding-assistant-credentials" target="_blank" rel="noopener noreferrer">New infostealer targets AI coding assistant credentials | brief | SC Media</a>
+        <span class="ref-source">— SC Media</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html" target="_blank" rel="noopener noreferrer">ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More</a>
+        <span class="ref-source">— The Hacker News</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://www.security.com/threat-intelligence/aoki-infostealer-ai-targeting" target="_blank" rel="noopener noreferrer">Aoki: Infostealer Targets AI Coding Assistant Credentials | SECURITY.COM</a>
+        <span class="ref-source">— SECURITY.COM</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://cyberpress.org/aoki-targets-ai-credentials?amp=1" target="_blank" rel="noopener noreferrer">Aoki Infostealer Expands Attacks to Claude, Codex, Cursor and GitHub Copilot</a>
+        <span class="ref-source">— CyberPress</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>

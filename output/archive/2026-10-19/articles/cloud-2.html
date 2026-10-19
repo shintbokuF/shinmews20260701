@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIゲートウェイのレート制限は「件数」だけでなく「トークン」「並列数」も見る時代へ | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-10-19</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#3654D626">AIゲートウェイ</mark>の<mark style="background:#3654D626">レート制限</mark>は「件数」だけでなく「トークン」「並列数」も見る時代へ</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#3654D626">AWS</mark>はAI利用を3段階に制限する</li><li><mark style="background:#3654D626">Tyk</mark>は件数とトークンを分けて管理する</li><li>AIゲートウェイは<mark style="background:#3654D626">多軸</mark>制御へ進化する</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">AWSの提供例では、AI向けサービスを無料・標準・プロの3段階に分け、リクエスト数、同時実行数、月間上限、質問数、待機期限、画像数まで細かく制御しています。一方、Tykはクォータをプロキシ全体に適用し、個別ツールにはレート制限、LLMトークンの支出管理には別の予算機能を使う設計を示しています。AIゲートウェイの制限は、単純な回数制限から、利用単位ごとに最適化する運用へ進んでいます。</p>
+    <p class="sum-en">AWS shows a tiered AI service model that limits requests, concurrency, monthly volume, questions per request, queue deadlines, and images. Tyk, by contrast, applies quotas to the proxy as a whole, uses per-tool rate limits for individual tools, and relies on AI Studio budgets for token spend control. AI gateway limiting is evolving from simple request counting to multi-dimensional operational control.</p>
+  </div>
+
+  <div class="article-body"><p>AIゲートウェイのレート制限は、いまや「1分に何回呼べるか」だけでは足りません。AWSの事例では、AI向けサービスをFree、Standard、Proの3階層に分け、Requests/min、Concurrency、Decisions/month、Max questions/request、Queue deadline、Imagesまで明示しています<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。Freeは毎分10回・同時1・月2,000回、Standardは毎分100回・同時4・月5万回、Proは毎分300回・同時4・月50万回という設計で、単なるアクセス制限ではなく、利用体験とコストをまとめて調整する発想が見えます<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。</p>
+<p>この設計が示すポイントは、AIでは「件数」と「負荷」が切り離せないことです。質問数が増えれば1回のリクエストの重さも変わり、画像の有無や待機期限まで挙動に影響します。AWSの例は、AIサービスを段階課金・段階制御に落とし込むことで、無料利用から本格利用までを滑らかにつなぐモデルだと読めます<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。</p>
+<p>一方、Tykのドキュメントは、ゲートウェイ側の制御思想を別の角度から整理しています。Tykではクォータは「proxy as a whole」に適用され、特定のツールだけをクォータで縛ることはできません。その代わり、ツール単位で止めたいなら per-tool rate limit を使い、LLMトークンの支出上限は Tyk AI Studio budgets で管理する、と明確に役割分担しています<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。さらに、Tyk Gateway が数えるのは requests であり、tokens ではない点も重要です<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。つまり、AI運用では「呼び出し回数の制御」と「トークン消費の制御」を別レイヤーで設計する必要があるということです<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。</p>
+<p>2つのソースを並べると、AIゲートウェイのレート制限は、単純なRPS制御から、多次元のガバナンスへ移っています。AWSのように利用階層ごとに上限を細かく変える方法と、Tykのようにクォータ・レート制限・予算管理を分離する方法はアプローチが違いますが、狙いは同じです。AIの利用は、回数だけでなく、同時実行、質問の深さ、画像などのマルチモーダル要素、そして最終的なトークンコストまで含めて制御しなければならない、という現実が前提になっています<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。</p>
+<p>実務的には、AIゲートウェイを導入する際に「どこまでをゲートウェイで止め、どこからを予算や請求で抑えるか」を先に決めることが重要です。件数上限だけを置くと、少ない回数でも重いリクエストでコストが膨らむ可能性があります。逆にトークンだけを管理しても、瞬間的な集中アクセスは防げません。今回の2つの事例は、AI時代のレート制限が、アクセス制御ではなくサービス設計そのものになっていることを示しています<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://builder.aws.com/content/3Ks9uHwd7uxGglJbLXmzB7l6Xed/strands-decider-2b-hosted-16-million-tokens-served-to-100-builders-2000-free-decisions-a-month-and-a-zero-downtime-fix-on-air" target="_blank" rel="noopener noreferrer">Strands Decider 2B, hosted: 1.6 million tokens served to 100+ builders, 2,000 free decisions a month, and a zero-downtime fix on air | AWS Builder Center</a>
+        <span class="ref-source">— AWS Builder Center</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://tyk.io/docs/ai-management/agents/per-agent-credentials-and-quotas" target="_blank" rel="noopener noreferrer">How do I give each AI agent its own API key and quota? - Tyk Documentation</a>
+        <span class="ref-source">— Tyk Documentation</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
