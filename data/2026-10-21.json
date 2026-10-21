@@ -1,0 +1,555 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T01:21:35.287795+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [],
+      "summary": ""
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "【2026年10月版】生成AI主要8サービス料金早見表――GPT 6 AstraとGemini 4 Argonが相場を押し上げる",
+          "summary_ja": "2026年10月時点の主要生成AIサービスは、上位モデルの刷新と価格改定が同時進行している。とくにGemini 4 Argonは導入価格が示され、12月以降の値上げも予告されており、GPT 6 Astraの登場とあわせて“高性能化とコスト再計算”が進む局面だ。",
+          "summary_en": "As of October 2026, major generative AI services are being reshaped by model upgrades and pricing changes. Gemini 4 Argon already has introductory pricing with a scheduled increase in December, while the arrival of GPT 6 Astra signals a broader recalibration of performance and cost.",
+          "three_lines": [
+            "Gemini 4 Argonは導入価格が提示された。",
+            "GPT 6 Astra登場で上位帯が更新された。",
+            "個人向けプランは横ばいでも中身は変化した。"
+          ],
+          "body_ja": "2026年10月版の生成AI料金表を眺めると、表面上は「値上げ・据え置き・新モデル追加」が同時に起きているだけに見える。しかし実態はもう少し複雑だ。各社は価格帯を大きく崩さず、上位モデルの能力と提供条件を入れ替えながら、利用者に再選択を迫っている。[2]\n\nまず注目はGoogleのGemini 4 Argonだ。OrcaRouterの比較記事によれば、Gemini 4 Argonは2026年9月30日に発表され、10月13日に有料ティアで一般提供を開始した。入力・出力の両方でマルチモーダルに対応し、テキスト、画像、動画、音声、PDFを扱えるうえ、統合コンテキストは100万トークン、長デコード時は最大1,048,576トークンまで伸ばせるという。[4] 料金面では、入力100万トークンあたり2.00ドル、出力100万トークンあたり10.00ドルの導入価格が設定され、12月1日にはそれぞれ4.00ドル、20.00ドルへ上がる予定だ。[4]\n\nこの“段階的な値上げ”は、単なる高くなった安くなったの話ではない。同じGoogle系のGemini 3.1 Pro Previewと並べると、入力は200,000トークンまで2.00ドル、その後4.00ドルという構造で、結果的にGemini 4 Argonの導入価格は、比較のしやすい近い水準に置かれている。[1] つまりGoogleは、上位モデルを「高いが遠い存在」にせず、既存の予算感の延長線上に並べてきたわけだ。\n\nAnthropicとの比較でも、Argonの価格設計はかなり攻めている。Gemini 4 Argonの入力2.00ドル、出力10.00ドルに対し、Claude Opus 5.5は入力4.00ドル、出力20.00ドルで固定されていると整理されている。さらにキャッシュ入力はArgonが0.10ドル、Claude Opus 5.5が0.20ドルで、長時間エージェント実行のような用途では差が効きやすい。[3] つまり、単純な“最高性能対決”だけでなく、実運用コストでArgonが優位に立てる場面がある。\n\n一方で、Business Insider Japanの料金早見表では、個人向けのミドル帯は月3000円〜4000円台が中心で、料金自体に大きな変更はなかったとされる。[2] ただし各社ではAIモデルのアップデートが進み、たとえばGoogleの上位個人向けプランではDeep Think利用可能、20TBストレージ、Google Flowクレジット1万/月、YouTube Premium付帯といった具合に、単なる“モデル利用権”から“周辺機能込みの総合サブスク”へと中身が変わっている。[2]\n\nこのことは、生成AIの比較軸が「月額いくらか」だけでは足りなくなったことを示している。API利用者ならトークン単価とキャッシュ課金、個人利用者なら付帯機能と上位モデルへのアクセス、さらに長文・マルチモーダル処理の上限まで含めて見る必要がある。[1][3][4]\n\n要するに、2026年10月の生成AI市場は“価格表の更新”ではなく、“価格の再設計”の段階に入った。Gemini 4 Argonの登場は、その象徴だ。上位モデルは高性能化する一方で、値札はより戦略的になり、利用者は性能だけでなく、いつ・どの課金単位で使うかまで見極める必要がある。[2][4]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Gemini 4 対 Gemini 3.1 Pro：どちらを呼び出せるのか",
+              "url": "https://www.orcarouter.ai/ja/blog/gemini-4-vs-gemini-3-1-pro",
+              "source": "OrcaRouter"
+            },
+            {
+              "id": 2,
+              "title": "【2026年10月版】生成AI主要8サービス料金早見表 ―― 上位モデル「GPT 6 Astra」や「Gemini 4 Argon」が登場 | Business Insider Japan",
+              "url": "https://www.businessinsider.jp/article/2610-how-much-did-major-generative-ai-service-fees",
+              "source": "Business Insider Japan"
+            },
+            {
+              "id": 3,
+              "title": "Gemini 4 対 Claude Opus 5.5：インデックス、価格、アクセス",
+              "url": "https://www.orcarouter.ai/ja/blog/gemini-4-vs-claude-opus-5-5",
+              "source": "OrcaRouter"
+            },
+            {
+              "id": 4,
+              "title": "Mercury 3 vs Gemini 4 Pro：そのようなモデルはこれまで出荷されたことがない",
+              "url": "https://www.orcarouter.ai/ja/blog/mercury-3-vs-gemini-4-pro",
+              "source": "OrcaRouter"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "models",
+          "title_highlights": [
+            "GPT 6 Astra",
+            "Gemini 4 Argon",
+            "Claude Opus 5.5"
+          ],
+          "three_lines_highlights": [
+            "Argon",
+            "Astra",
+            "ミドル帯"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Anthropicの新モデルが示す「意図の読解」競争の始まり",
+          "summary_ja": "Anthropicが未公開の新モデルを準備しており、簡単な指示から利用者の深い目的を推論できると報じられた。生成AIの競争軸は、賢さの優劣から「ユーザーの意図をどれだけ読み取れるか」へ移りつつある。",
+          "summary_en": "Anthropic is reported to be preparing an unreleased model that can infer deeper user goals from sparse instructions. The competitive focus in generative AI is shifting from raw intelligence to how well a model can read user intent.",
+          "three_lines": [
+            "Anthropicの未公開モデルが意図を推論する。",
+            "競争軸は賢さから読解力へ移る。",
+            "簡潔な指示で深い目的を汲み取る。"
+          ],
+          "body_ja": "Anthropicが準備中とされる未公開モデルは、ユーザーの短い指示から、その背後にある深い目的まで推論できる点が注目されている。報道によれば、あるテスターはこのモデルが同社の現行商用モデルを上回る推論力と直感的判断を備えると見ているという [2][3]。\n\nここで重要なのは、AI競争の評価軸が少し変わってきたことだ。これまでの大型モデル競争は、どれだけ知識が広いか、どれだけ難問を解けるかに目が向きがちだった。しかし今回の報道では、次の勝負所は「より賢いか」ではなく「よりよく理解してくれるか」へ移っているとされる [2]。\n\nつまり、モデルは単に命令を実行するだけでなく、曖昧な入力の裏にある意図を補完しながら動く方向に進んでいる。これは、プロンプトを細かく書かなくても期待に近い答えを返せる可能性を広げる一方で、モデルがどの程度までユーザーの本当の狙いを推定しているのか、という新しい見極めも必要にする [1][3]。\n\nAnthropicの新モデルがもし報道どおりの性能を持つなら、生成AIの差別化は「高性能」だけでは測れなくなる。今後は、回答の正確さに加えて、文脈理解、意図補完、そして直感的な判断の質が、OpenAI、Google、Metaを含む主要プレイヤー間の競争ポイントになっていきそうだ [2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic has an unreleased model that infers users' goals from sparse instructions",
+              "url": "https://cryptobriefing.com/anthropic-has-an-unreleased-model-that-infers-users-goals-from-sparse",
+              "source": "CryptoBriefing"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic's New Model Exposed: It Can Infer Unstated Goals, as LLM Competition Shifts Toward \"Reading Intent\"",
+              "url": "https://finance.biggo.com/news/79b040a5-bdff-4c47-ad11-e1b0ddebb982",
+              "source": "BigGo Finance"
+            },
+            {
+              "id": 3,
+              "title": "Can Claude Read Minds? Unveiling Anthropic's Mysterious New AI Model",
+              "url": "https://eu.36kr.com/en/p/4033427663967106",
+              "source": "36Kr"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "models",
+          "title_highlights": [
+            "Anthropic",
+            "意図読解",
+            "新モデル"
+          ],
+          "three_lines_highlights": [
+            "Anthropic",
+            "意図読解",
+            "簡潔指示"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "DeepSeekの低コスト更新と、OpenAI/Anthropic周辺の実務AI活用が加速",
+          "summary_ja": "今週の生成AIニュースは、DeepSeekが更新版モデルで「より速く、より軽い」と打ち出し、米国勢への低コスト競争をさらに強めた点が中心でした。あわせて、OpenAIは金融業界向けのコーディング活用を訴求し、Claude系の活用はゲームやパフォーマンス改善の文脈でも広がっています。",
+          "summary_en": "This week’s generative AI news was led by DeepSeek’s updated model, which it says is faster and leaner, intensifying low-cost competition with U.S. rivals. OpenAI is also pushing practical coding use cases in finance, while Claude-based usage is spreading into gaming and performance optimization.",
+          "three_lines": [
+            "DeepSeekが更新版モデルを出し、低コスト競争を加速した。",
+            "OpenAIは金融分野のコーディング活用を前面に押し出した。",
+            "Claude系の実務活用はゲーム改善にも広がっている。"
+          ],
+          "body_ja": "中国のDeepSeekが、更新版のAIモデルを投入し、「より速く、より軽い」方向へ進めていると報じられました。Bloombergは、同社がこの週末にモデル更新を公開し、AnthropicやOpenAIを含むシリコンバレー勢への挑戦を強めていると伝えています。[1] 低コスト・高効率を前面に出すDeepSeekの動きは、性能競争だけでなく、推論や運用の“軽さ”そのものが差別化軸になっていることを示しています。\n\nさらにDeepSeekは、オープンソースの推論ツールでも圧力をかけているとGizmodoが報じました。R1の登場でシリコンバレーを揺らした同社が、今回はモデル本体だけでなく実行基盤の側でも存在感を強めている構図です。[3] 生成AIの競争は、単発の高性能モデルを出すだけではなく、学習後の運用や推論コストまで含めた総合力勝負に移っていると読めます。\n\n一方で米国勢も、実務導入のしやすさを押し出しています。OpenAIは、AIが金融業界の“コーディングの作り替え”に役立つと紹介し、複雑で古い業務システムをAIで扱いやすくする方向性を示しました。[5] こうした訴求は、派手なデモよりも、既存業務の置き換えや省力化に価値を見いだす企業利用の文脈に近いものです。\n\nAnthropicのClaudeについては、AIが実アプリの改善に使われる例が目立ちました。Wccftechは、Claude AIを使って作られた『Oblivion Remastered』向けのMODが、FPSを40％超改善し、スタッターも大きく減らしたと報じています。[6] またKotakuは、ゲーム業界でのAI vibe-codingの広がりを取り上げ、Claude Opusをめぐる課題が業界全体の関心事になっていると伝えました。[7] つまりClaudeは、対話AIとしてだけでなく、開発現場の具体的な作業や改修に入り込む存在になりつつあります。\n\nほかにも、MicrosoftのAI責任者が社内モデルについて、OpenAIの同種モデルより少ない計算資源で優れていると社員向けに語ったとBusiness Insiderが報じており、主要プレイヤーの間で“性能対コスト”の競争が一段と激しくなっていることがうかがえます。[2] NVIDIAも、後学習を施したオープン系のNemotron 3.5 Super VLが、特定タスクのベンチマークでClaude Opus 5やGPT-6.1 Solを上回ったとされ、基盤モデルの優劣が用途別に分化している様子が見えます。[4]\n\n総じて今週は、生成AIの競争軸が「最強モデルはどれか」から、「どれだけ安く、速く、現場で使えるか」へとさらに寄ってきた週でした。DeepSeekの低コスト攻勢、OpenAIの業務実装訴求、Anthropic系の実践利用拡大は、いずれも“モデルの賢さ”だけでは勝てない時代を映しています。",
+          "references": [
+            {
+              "id": 1,
+              "title": "DeepSeek Pushes Out Updated AI Model It Says Is Faster, Leaner - Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-17/deepseek-pushes-out-updated-ai-model-it-says-is-faster-leaner",
+              "source": "Bloomberg"
+            },
+            {
+              "id": 2,
+              "title": "Microsoft AI chief says the company beat OpenAI at its own game, using a quarter of the computing power - Business Insider",
+              "url": "https://www.businessinsider.com/microsoft-ai-ceo-new-model-beats-openai-using-less-compute-2026-10",
+              "source": "Business Insider"
+            },
+            {
+              "id": 3,
+              "title": "DeepSeek Dials Up the Pressure on OpenAI and Anthropic With Open-Source Inference Tool - Gizmodo",
+              "url": "https://gizmodo.com/deepseek-dials-up-the-pressure-on-openai-and-anthropic-with-open-source-inference-tool-2000828261",
+              "source": "Gizmodo"
+            },
+            {
+              "id": 4,
+              "title": "NVIDIA's Nemotron 3.5 Super VL with post-training beats Claude Opus 5, GPT-6.1 Sol on specialized task benchmarks - VentureBeat",
+              "url": "https://venturebeat.com/technology/nvidias-new-open-nemotron-3-5-super-vl-with-post-training-beats-claude-opus-5-gpt-6-1-sol-on-specialized-task-benchmarks",
+              "source": "VentureBeat"
+            },
+            {
+              "id": 5,
+              "title": "OpenAI Says Its Models Can Give the Financial Sector a Coding Makeover - Gizmodo",
+              "url": "https://gizmodo.com/openai-says-its-models-can-give-the-financial-sector-a-coding-makeover-2000828398",
+              "source": "Gizmodo"
+            },
+            {
+              "id": 6,
+              "title": "Oblivion Remastered Mod Built Using Claude AI Boosts FPS By Over 40% And Drastically Reduces Stuttering Without Sacrificing Visual Quality - Wccftech",
+              "url": "https://wccftech.com/oblivion-remastered-mod-built-using-claude-ai-boosts-fps-by-over-40-and-drastically-reduces-stuttering-without-sacrificing-visual-quality/",
+              "source": "Wccftech"
+            },
+            {
+              "id": 7,
+              "title": "Interview: The Video Game Industry’s Vibe-Coded Future - Kotaku",
+              "url": "https://kotaku.com/ai-vibe-coding-just-hit-the-video-game-industry-like-an-avalanche-2000746366",
+              "source": "Kotaku"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "models",
+          "title_highlights": [
+            "DeepSeek",
+            "OpenAI",
+            "Claude"
+          ],
+          "three_lines_highlights": [
+            "DeepSeek",
+            "OpenAI",
+            "Claude"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AIモデル分野では、上位モデルの刷新が進む一方で価格改定も重なり、「性能向上にどれだけコストを払うか」が改めて重要な論点になっています。競争軸も単なる賢さから、ユーザーの意図を深く読み取り実務にどう組み込めるかへ移り、DeepSeekの低コスト路線を含めて各社が性能・速度・軽さ・実用性のバランスを競う流れが強まっています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "Google Cloudが地域対応を再整理　Vertex AIやGemini Enterpriseの提供範囲を明示",
+          "summary_ja": "Google Cloudは、AI基盤サービスの提供地域を改めて整理している。今回の案内では、Gemini EnterpriseでGemini 2.5 Proを日本・カナダの国内リージョンでは選べないことが示され、地域ごとの機能差を確認する必要性が高まった。",
+          "summary_en": "Google Cloud is clarifying the regional availability of its AI infrastructure services. The latest notice shows that Gemini 2.5 Pro cannot be selected in Japan and Canada domestic regions on Gemini Enterprise, highlighting the need to verify region-specific feature differences.",
+          "three_lines": [
+            "Gemini Enterpriseの地域差を明示した。",
+            "日本・カナダでは2.5 Proを選べない。",
+            "利用前に提供範囲の確認が必要だ。"
+          ],
+          "body_ja": "Google Cloudは、AI基盤サービスの提供範囲を地域単位で見直し、利用者がどの機能をどこで使えるのかをより明確にしている。今回の整理で目立つのは、Gemini Enterpriseにおけるモデル選択の制約だ。[1]\n\n公開情報によると、Gemini Enterpriseでは10月20日以降、日本とカナダの国内リージョンでGemini 2.5 Proを選べない。これは単なる表示上の変更ではなく、同じサービス名でもリージョンによって使えるモデルが異なることを意味する。[1]\n\nこうした案内が出る背景には、クラウドのAIサービスが「提供開始」だけでなく「どの地域で、どのモデルまで使えるか」が導入判断に直結するようになっている事情がある。特に企業利用では、性能や価格だけでなく、地域要件や運用方針に沿ってモデルを選べるかが重要になる。[1]\n\n今回のポイントは、Google CloudがAIサービスの地域対応を曖昧にせず、利用可否を先に明示したことだ。Vertex AIやGemini Enterpriseのような基盤サービスでは、機能の見え方がリージョンごとに変わるため、導入前に対象地域の確認が欠かせない。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "モデル選択変更｜Gemini 2.5 Pro、Gemini Enterpriseの対象地域",
+              "url": "https://techinnovateit.com/gemini-enterprise-gemini-25-pro-canada-japan",
+              "source": "techinnovateit.com"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "cloud",
+          "title_highlights": [
+            "Gemini",
+            "地域"
+          ],
+          "three_lines_highlights": [
+            "Gemini Enterprise",
+            "2.5 Pro",
+            "日本・カナダ"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "Azure AI Foundry／Vertex AI／AWS系のモデル運用を整理する実装ガイドが公開",
+          "summary_ja": "Hermes Agentの2026年版リファレンスは、Google Vertex AI、Azure AI Foundry、AWS Bedrock系のモデル運用を横断して整理し、クラウド側の認証方式、課金先、配置の考え方を実装レベルで見通しやすくした。特にVertex AIはOAuth2/ADCでGCP परियジェクト課金、Azure AI Foundryはエンドポイントとキーで扱う、といった差分が明確だ。",
+          "summary_en": "The 2026 Hermes Agent reference organizes model operations across Google Vertex AI, Azure AI Foundry, and AWS Bedrock-style usage, clarifying cloud-side authentication, billing, and deployment choices. It highlights practical differences such as OAuth2/ADC with GCP project billing for Vertex AI and endpoint-plus-key handling for Azure AI Foundry.",
+          "three_lines": [
+            "Vertex AIの認証と課金先を整理した。",
+            "Azure AI Foundryの接続方式を明確にした。",
+            "AWS系も含め運用差分を横断比較した。"
+          ],
+          "body_ja": "Hermes Agentの2026年版リファレンスは、マルチクラウドでモデルを扱う際に迷いやすい「どこに認証し、どこに課金され、どこへ配置するか」を、実装者向けにまとめ直した資料だ。対象はGoogle Vertex AI、Azure AI Foundry、AWS Bedrock系の使い分けで、各クラウドの接続作法を並べて確認できる。[1][2]\n\nとくにGoogle Vertex AIについては、OAuth2を前提にサービスアカウントJSONやApplication Default Credentialsを使い、費用はGCPプロジェクトに計上されると整理されている。単に「使える」だけではなく、認証方式と請求先がセットで示されている点が、実運用では重要になる。[1][2]\n\nAzure AI Foundry側は、Azure OpenAI / Foundryのエンドポイントとキーで接続する形で、選択肢としては「OpenAI風またはAnthropic風のエンドポイント」と説明されている。つまり、モデルの呼び出し口をAPI互換の感覚で扱える一方で、実体はAzureのエンドポイント管理とキー運用に乗る、という理解がしやすい。[1][2]\n\nこの資料が実務で役立つのは、クラウドごとの差を抽象論ではなく、プロバイダー名や接続情報の違いまで落としていることだ。Hermes Agent上では `hermes model` の先に「Google Vertex AI」や「Azure AI Foundry」を選ぶ形で示されており、モデル運用の実装を始める際の入口としてそのまま参照しやすい。[1][2]\n\nAWS系についても同じ文脈で並記されており、少なくともマルチクラウド前提の運用設計で、認証・課金・配置を別々に考える必要があることが読み取れる。AIモデルの利用が広がるほど、こうした「クラウド側の責務」を整理した実装ガイドの価値は高まるだろう。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Hermes Agent：实践者参考指南（2026）",
+              "url": "https://blakecrosley.com/zh-Hans/guides/hermes",
+              "source": "Blake Crosley"
+            },
+            {
+              "id": 2,
+              "title": "Hermes Agent：実践者向けリファレンス（2026年版）",
+              "url": "https://blakecrosley.com/ja/guides/hermes",
+              "source": "Blake Crosley"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "cloud",
+          "title_highlights": [
+            "Azure AI Foundry",
+            "Vertex AI",
+            "AWS Bedrock"
+          ],
+          "three_lines_highlights": [
+            "Vertex AI",
+            "Azure AI Foundry",
+            "AWS系"
+          ],
+          "id": "cloud-2"
+        },
+        {
+          "title": "Microsoft Azure、AI基盤とクラウド運用の統合を強める中でコーポレートITもAIネイティブ化へ",
+          "summary_ja": "Microsoftは、Azureの拡張とAI機能の結合を進めながら、企業向けIT全体をAI中心に再設計する方向を強めています。投資家が評価しているのは、巨大な計算資源と独自AIモデル、そしてSaaSを束ねた成長戦略です。一方で、企業内の運用、ERP、データ、セキュリティ、コスト管理まで含めた“AIネイティブ化”が次の焦点になっています。",
+          "summary_en": "Microsoft is tightening the integration of Azure with AI capabilities as it pushes enterprise IT toward an AI-native operating model. Investors are rewarding the company’s strategy of combining large-scale compute, proprietary AI models, and SaaS growth. The next challenge is extending that model across ERP, data, security, and cloud cost operations.",
+          "three_lines": [
+            "Azure拡大とAI統合で、Microsoftの成長戦略が加速する。",
+            "企業ITはERPから運用まで、AIネイティブ化が進む。",
+            "コスト管理と安全性が、導入拡大の鍵になる。"
+          ],
+          "body_ja": "Microsoftのクラウド戦略は、Azureの拡大だけでなく、AIを前提にした企業IT全体の再構成へと踏み込んでいる。株式市場では、AzureとSaaSの伸長が強い成長期待を支えており、AIを組み込んだクラウドがエンタープライズ向けソフトウェアの主戦場になったという見方が強まっている [2]。\n\nその象徴が、Dynamics 365を軸にした業務システムのAI化だ。MicrosoftはAI-enabled operational ERPの分野でリーダー評価を得ており、複雑な業務運用をAIで扱う構想が単なる実験段階を越えつつあることを示している [3]。ここで重要なのは、ERPのような“守り”の領域にAIを入れることで、営業や分析だけでなく、調達、在庫、会計、オペレーションまでを一体で最適化しようとしている点だ。\n\n同時に、Microsoft自身の企業ITもAI前提へ寄っている。Techgenyzは、Microsoftが従来のOS・生産性ツール企業から、AIを媒介にした計算環境を作る方向へ進んでいると指摘している [1]。この見立ては、Copilotのような体験を単発の機能ではなく、日常業務そのものに埋め込むという現在の流れと整合的だ。つまり、従業員がアプリを操作してAIを呼び出すのではなく、AIが仕事の進め方に組み込まれた環境へと移っている。\n\nただし、この“AIネイティブ化”は、単純な導入拡大では終わらない。AIの活用が広がるほど、信頼、プライバシー、依存、労働への影響といった論点が重くなることも指摘されている [1]。さらに、AIの急速な普及はサイバー攻撃の速度と巧妙さも押し上げるため、Microsoft自身が強固なセキュア基盤を維持しながらAI機能を展開する必要がある [6]。\n\n加えて、企業がAzureやAIサービスを本格運用するほど、コスト管理の難度は上がる。North.cloudがAWS、Google Cloud Platform、Microsoft Azure、AIサービス、データ基盤にまたがる支出の統合管理を狙っていることは、マルチクラウド時代の“見える化”だけでは足りず、最適化と自動化が必須になっている現実を示す [7]。Azureの価値は、AI機能を増やすことだけでなく、運用・財務・データ管理まで含めた統合体験をどこまで提供できるかにかかっている。\n\nMicrosoftの動きは、外部向けのクラウド拡大と、社内業務のAI化を同時に進める点に特徴がある。SaaSとAzureの成長が評価される一方で [2]、企業向けERPのAI対応 [3]、AIを前提にしたコーポレートITの再設計 [1]、そしてセキュリティとコスト統制の強化 [6][7] が、次の競争軸として浮かび上がっている。要するにMicrosoftは、Azureを“AIのための基盤”にとどめず、“AIで動く企業運用の中枢”へ押し上げようとしている。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Microsoft Copilot Everywhere: Microsoft's AI-First Strategy - Techgenyz",
+              "url": "https://techgenyz.com/microsoft-copilot-everywhere",
+              "source": "Techgenyz"
+            },
+            {
+              "id": 2,
+              "title": "Microsoft Hits $4T as Azure, SaaS Surge | SaaS News",
+              "url": "https://www.saasrise.com/news/microsoft-shares-hit-4-trillion-mark-as-azure-and-saas-revenue-soar-9331b639-fa76-47b6-b7a7-225a5efa4a92",
+              "source": "SaaS News"
+            },
+            {
+              "id": 3,
+              "title": "Microsoft Dynamics 365 named a Leader for operational ERP - Microsoft Dynamics 365 Blog",
+              "url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/15/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-ai-enabled-operational-erp",
+              "source": "Microsoft Dynamics 365 Blog"
+            },
+            {
+              "id": 4,
+              "title": "30 Notable IT Executive Moves: September 2026",
+              "url": "https://www.crn.com/news/ai/2026/30-notable-it-executive-moves-september-2026",
+              "source": "CRN"
+            },
+            {
+              "id": 5,
+              "title": "Caeves Introduces Context LAKE, Turning Enterprise Data into Trusted Context for Any AI Assistant via MCP - StorageNewsletter",
+              "url": "https://www.storagenewsletter.com/2026/10/19/caeves-introduces-context-lake-turning-enterprise-data-into-trusted-context-for-any-ai-assistant-via-mcp",
+              "source": "StorageNewsletter"
+            },
+            {
+              "id": 6,
+              "title": "The week in AI-native telco (10-16 Oct 2026), The AI-Native Telco | TelecomTV",
+              "url": "https://www.telecomtv.com/content/ai/the-week-in-ai-native-telco-10-16-oct-2026-56488/amp",
+              "source": "TelecomTV"
+            },
+            {
+              "id": 7,
+              "title": "North.cloud Raises $60 Million Series B Led By PeakSpan Capital To Automate Cloud, AI, And Data Spend",
+              "url": "https://pulse2.com/north-cloud-raises-60-million-series-b-led-by-peakspan-capital-to-automate-cloud-ai-and-data-spend",
+              "source": "Pulse 2.0"
+            },
+            {
+              "id": 8,
+              "title": "AuxoAI raises over $20M to bring AI expertise to the enterprise and redesign how work gets done - SiliconANGLE",
+              "url": "https://siliconangle.com/2026/10/20/auxoai-raises-over-20m-to-bring-ai-expertise-to-the-enterprise-and-redesign-how-work-gets-done",
+              "source": "SiliconANGLE"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "cloud",
+          "title_highlights": [
+            "Azure",
+            "Copilot",
+            "Dynamics 365"
+          ],
+          "three_lines_highlights": [
+            "Azure",
+            "AIネイティブ",
+            "$4T"
+          ],
+          "id": "cloud-3"
+        }
+      ],
+      "summary": "クラウド各社は、AI基盤の提供範囲や運用方法を地域・サービス単位でより明確にし、実際の導入では「どの機能がどのリージョンで使えるか」「認証や課金をどう分けるか」が重要な論点になっています。特にGoogle Cloud、Azure AI Foundry、AWS系の比較からは、モデル運用が単なるAPI利用ではなく、クラウドごとの運用設計や制約を前提にした実装フェーズへ移っている流れが見えます。あわせてMicrosoftは、AI基盤と企業IT全体を一体で再設計する“AIネイティブ化”を強めており、クラウド競争はインフラ提供から業務運用まで含む総合力の勝負に広がっています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Vercel Labs、AIエージェント向け“skills”機能を投入　Claude CodeやCodexに事前構築の能力を配布する流れが加速",
+          "summary_ja": "Vercel Labsが、AIエージェントに事前構築済みの能力を追加する「skills」機能の流れを示した。検索結果では、skills導入時にClaude Codeなど複数の開発者向けツールへ同じリポジトリ由来の能力を配布する様子が確認でき、エージェント時代の“機能の持ち運び”が進んでいる。[1]",
+          "summary_en": "Vercel Labs is advancing a “skills” approach for AI agents, pointing to a workflow where prebuilt capabilities can be distributed across developer tools such as Claude Code.",
+          "three_lines": [
+            "skillsで能力を配布する流れが広がった。",
+            "Claude Codeへ事前構築の機能を導入できる。",
+            "複数の開発者ツールへ同時展開が進む。"
+          ],
+          "body_ja": "AIエージェントの開発現場で、個別の指示文を都度書くのではなく、あらかじめ用意した“skills”を配布して使い回す動きが見えてきた。検索結果では、`npx skills add google/adk-recipes --skill retail-product-search --full-depth -g`という導入コマンドが示され、エージェントが検出されると非対話でインストールが進み、ひとつのリポジトリから11個のskillsを見つけたこと、さらにClaude Codeを含む複数のクライアントに同じ能力を入れていく様子が確認できる[1]。\n\nこの動きのポイントは、skillsが単なる設定ファイルではなく、エージェントにとって再利用可能な“事前構築の能力パッケージ”として扱われていることだ。検索結果の範囲では、GoogleのADKレシピ集を起点に、retail-product-searchという個別skillを選んで導入し、それをClaude Codeなどのツール群へ横展開している[1]。つまり、能力をプロンプトに埋め込むのではなく、共通のレポジトリから配る発想に近い。\n\nこの流れは、Claude CodeやCodex、Cursor、GitHub Copilot、LangChainのような開発者向けAIツールが、それぞれ独立した製品でありながら、エージェントの行動を標準化したいという需要に応えていく方向を示している。検索結果で確認できるのはClaude Codeを含む複数環境への導入だが、少なくとも“skillsを配る”という操作が、個々のエージェントを同じ前提知識・同じ手順で動かすための基盤になりつつあることは読み取れる[1]。今後は、モデルの賢さだけでなく、どのskillsをどの環境へどう配布するかが、AI開発ツール選定の重要な論点になりそうだ。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Three layers, one repo: a tour of google/adk-recipes - Google Developers Blog",
+              "url": "https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes",
+              "source": "Google Developers Blog"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "devtools",
+          "title_highlights": [
+            "Vercel Labs",
+            "skills",
+            "Claude Code"
+          ],
+          "three_lines_highlights": [
+            "skills",
+            "Claude Code",
+            "複数展開"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "開発者ツールは“フレームワーク”から“エージェント本体”へ　LangChain、Pydantic AI 2.0、AWS Strands、Vercel AI SDK 7の進化",
+          "summary_ja": "AIエージェント開発の主戦場が、周辺部品を組み合わせるフレームワークから、実行主体そのものを用意する「ハーネス」型へ移りつつある。LangChainのcreate_agent、Pydantic AI 2.0、AWS Strands、Vercel AI SDK 7の動きから、その方向性を整理する。",
+          "summary_en": "AI agent tooling is shifting from composable frameworks toward agent-first harnesses. Recent signals from LangChain, Pydantic AI 2.0, AWS Strands, and Vercel AI SDK 7 show developers increasingly want ready-to-run agent bodies rather than only building blocks.",
+          "three_lines": [
+            "LangChainはcreate_agentで実行基盤を薄くした",
+            "Pydantic AI 2.0とAWS Strandsが本体志向を強めた",
+            "Vercel AI SDK 7はアプリ内でコード実行を可能にした"
+          ],
+          "body_ja": "AIエージェント開発の道具立てが、ここに来て少しずつ同じ方向を向き始めています。これまでのように部品を細かく寄せ集めるのではなく、まず“動くエージェント本体”を手に入れ、その上で必要に応じて振る舞いを調整する考え方です。[1]\n\nその象徴として挙げられているのが、LangChainのcreate_agentです。紹介文ではこれを「minimal, highly configurable agent harness」と位置づけており、重厚な抽象化というより、最小限でありながら設定の自由度が高い土台として設計されていることがうかがえます。[1] つまり、LangChainは従来の“フレームワーク”という印象よりも、エージェントを立ち上げるための実働基盤に寄っています。\n\n同じ流れの中で、Pydantic AI 2.0とAWS Strandsは、よりわかりやすく“ready-made agent”を前面に出しています。[1] これは、開発者がまずエージェントの骨格を組み立てる手間を減らし、プロンプト設計やツール連携、実行時の振る舞いといった上位レイヤーに集中しやすくする動きだと読めます。AIエージェント開発が実験段階から実運用段階へ進むほど、こうした即戦力型の設計は歓迎されやすくなります。\n\nさらにVercelのAI SDK 7は、話をもう一段先へ進めています。抜粋では、Claude Code、Codex、OpenCode、Piといった実行系を「directly inside your app」で動かせるとされており、アプリの外でエージェントを呼び出すのではなく、アプリ内部に作業者として埋め込む発想が見えます。[1] これは、エージェントを“別サービス”として扱うのではなく、UIやワークフローの一部として組み込む方向です。\n\nこの変化は、開発者向け教育コンテンツにも表れています。Udemyの講座では、AI FDE（Forward Deployed Engineer）やAgentic AI Architectという文脈で、要件定義のbrief、git checkoutやgit stash、Claude Codeを使ったplanningが並んでいました。[2] つまり、エージェント開発は単なるモデル呼び出しではなく、実装手順やブランチ運用、計画立案まで含む“開発作業そのもの”に近づいているということです。\n\n総じて見ると、LangChainは軽量なagent harnessへ、Pydantic AI 2.0とAWS Strandsはready-made agentへ、Vercel AI SDK 7はアプリ内実行へと、それぞれ異なる角度から同じ潮流を強めています。[1] 開発者にとっての次の焦点は、「どのモデルを使うか」だけでなく、「どのエージェント本体を採用し、どこまでアプリに埋め込むか」へ移りつつあります。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Four Ways to Build an AI Agent | Ishaan Sehgal (@ishaansehgal) on X",
+              "url": "https://x.com/ishaansehgal/article/2110884490868637799",
+              "source": "X"
+            },
+            {
+              "id": 2,
+              "title": "AI FDE: The Forward Deployed Engineer & Agentic AI Architect",
+              "url": "https://www.udemy.com/course/ai-fde-forward-deployed-engineer-agentic-ai-architect",
+              "source": "Udemy"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "devtools",
+          "title_highlights": [
+            "LangChain",
+            "Pydantic AI 2.0",
+            "AWS Strands",
+            "Vercel AI SDK 7"
+          ],
+          "three_lines_highlights": [
+            "create_agent",
+            "Pydantic AI 2.0",
+            "Claude Code"
+          ],
+          "id": "devtools-2"
+        }
+      ],
+      "summary": "AI開発ツールは、周辺機能を組み合わせる「フレームワーク」中心から、エージェントをそのまま動かす「ハーネス／本体」中心へと重心が移っている。あわせて、Vercel Labsのskillsのように、事前構築した能力をClaude CodeやCodexなど複数のエージェントへ持ち運び・再利用する流れが強まり、エージェント時代の開発資産は“コード”より“能力パッケージ”へ広がりつつある。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "AIブームで欧米のデータセンター投資が加速、拡張競争が次の焦点に",
+          "summary_ja": "欧米ではAI需要の拡大を背景に、ハイパースケーラーのデータセンター投資が一段と膨らんでいる。複数の見方を合わせると、投資の主戦場は半導体から電力・接続・施設運営まで広がり、収益化と供給制約が次の争点になりつつある。",
+          "summary_en": "AI demand is pushing U.S. and European data-center investment into a new phase, expanding beyond chips into power, connectivity, and operations. The key questions are now how fast hyperscalers can monetize the buildout and where bottlenecks will emerge.",
+          "three_lines": [
+            "欧米のAI投資がデータセンターへ広がる",
+            "ハイパースケーラーのCapExが再加速する",
+            "収益化と電力制約が次の焦点になる"
+          ],
+          "body_ja": "欧米のAI投資は、もはや半導体の増産だけでは語れない段階に入っている。WTOは、Amazon、Google、Meta、Microsoft、OracleなどのいわゆるハイパースケーラーのCapExを、2026年のAI投資を測る有力な物差しとして示しており、投資対象にはAI関連ハードウェアに加え、データセンターや電力といった周辺インフラが含まれると整理している[1][4]。J.P. Morgan Asset Managementも、2023年以降のAI需要を背景に米国ハイパースケーラーが累計で約1.6兆ドルを設備投資し、世界全体では2兆ドル超に達したとみている[6]。  \n\n投資の勢いは今後も続く見通しだ。ゴールドマン・サックスは、米国の主要ハイパースケーラーのCapExが2027年に1.2兆ドル、2028年に1.4兆ドルへ膨らむ可能性を示し、2026年の約100%成長から2027年は54%、2028年は12%へと伸び率は鈍化していくと予想している[2]。同時に、2026年から2031年までのAI関連CapExは、計算資源、データセンター、電力を合わせて約7.6兆ドルに達するとの見方もあり、投資の重心が「モデル開発」から「それを動かす物理基盤」へ移っていることがうかがえる[4]。  \n\n市場の見方は楽観だけではない。T. Rowe Priceは、AI投資機会が半導体の外側へ広がり、電力、接続性、運用面の需要を取り込むインフラや産業銘柄に波及している一方、単純なAI関連投資ではなく選別が必要だと指摘する[5]。ゴールドマンは、AIが「巨大な計算需要」を生み、その実現には複雑な物理インフラの意思決定が必要だと強調しており、ボトルネックはチップ不足だけでなく、電力やデータセンター整備、ネットワークまで連鎖的に広がる可能性がある[4]。  \n\n欧米大手のAI戦略を見ても、競争の中心はすでに「何を作るか」から「どこまで速く拡張できるか」へ移っている。さらに、欧州ではEU AI Actなどの規制対応が事業設計に影響しうるが、今回の検索結果から確認できるのは、少なくとも資本市場がAIインフラの拡張を織り込み始めているという点だ[5][6]。加えて、将来の収益化を巡るハードルも高い。外部推計では、ハイパースケーラーが投資回収に必要な年間AI売上は数千億ドル規模になるとの試算も出ており、巨大投資が持続するかどうかは需要の質と回収速度に左右される[2]。  \n\n要するに、2026年の欧米AIブームは「AIデータセンター拡張競争」の局面をさらに押し上げた。投資はすでに十分大きいが、次の勝負は設備をどれだけ早く増設できるか、電力と接続を確保できるか、そして膨らんだCapExを売上に変えられるかにある[1][4][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Global Trade Outlook and Statistics - update: October 2026",
+              "url": "https://www.wto.org/english/res_e/booksp_e/gtos1026_e.pdf",
+              "source": "WTO"
+            },
+            {
+              "id": 2,
+              "title": "AI Capex, Required Revenues, And What's Priced In The AI Trade - Edward Conard",
+              "url": "https://www.edwardconard.com/macro-roundup/goldman-estimates-based-on-average-annual-capex-in-2026-27-that-hyperscalers-need-308b-in-annual-ai-revenues-over-the-next-few-years-to-break-even-and-417-526b-for-a-10-20",
+              "source": "Edward Conard"
+            },
+            {
+              "id": 3,
+              "title": "North America AI Data Center Market Projected to Scale to $1.21 Trillion by 2035, Assesses Strategic Revenue Insights",
+              "url": "https://www.strategicrevenueinsights.com/industry/north-america-ai-data-center-market",
+              "source": "Strategic Revenue Insights"
+            },
+            {
+              "id": 4,
+              "title": "Navigating a System of AI Bottlenecks | Goldman Sachs",
+              "url": "https://www.goldmansachs.com/what-we-do/investment-banking/insights/articles/navigating-a-system-of-ai-bottlenecks",
+              "source": "Goldman Sachs"
+            },
+            {
+              "id": 5,
+              "title": "2026 Global Market Outlook | T. Rowe Price",
+              "url": "https://www.troweprice.com/financial-intermediary/de/en/lp/global-market-outlook.html",
+              "source": "T. Rowe Price"
+            },
+            {
+              "id": 6,
+              "title": "A brighter productivity outlook for the AI era | J.P. Morgan Asset Management",
+              "url": "https://am.jpmorgan.com/it/en/asset-management/institutional/insights/portfolio-insights/ltcma/a-brighter-productivity-outlook-for-the-ai-era",
+              "source": "J.P. Morgan Asset Management"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "global",
+          "title_highlights": [
+            "AI",
+            "データセンター",
+            "CapEx"
+          ],
+          "three_lines_highlights": [
+            "AI",
+            "CapEx",
+            "7.6兆ドル"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "生成AIアプリ競争が一段と激化、欧米スタートアップの高バリュエーションが継続",
+          "summary_ja": "生成AIとその周辺インフラへの資金流入が、2026年に入ってもなお加速している。Modalは15.75Bドル評価で7.5億ドルを調達し、Tenstorrentも6.2Bドル評価に到達した。一方で欧州はAI規制では先行するものの、モデルや計算資源の面で米国勢との差が課題になっている。",
+          "summary_en": "Capital continues to flood into generative AI and its infrastructure in 2026. Modal raised $750 million at a $15.75 billion valuation, while Tenstorrent reached a $6.2 billion valuation. Europe remains a regulatory leader, but still faces a gap in frontier models and compute capacity versus the U.S.",
+          "three_lines": [
+            "Modalが15.75Bドル評価で資金調達",
+            "Tenstorrentが6.2Bドル評価に到達",
+            "欧州は規制先行でも競争力に課題"
+          ],
+          "body_ja": "生成AIアプリとその土台となるインフラへの資金集中が、欧米でなお続いている。AIインフラのModalは7.5億ドルのSeries Dを実施し、ポストマネー評価額は157.5億ドル、年換算売上高は10億ドルを突破したと報じられた。AI専用基盤への大型資金が集まりやすい状況は、まだ終わっていないことを示している[1]。\\n\\n半導体側でも熱気は強い。推論向けに注力するTenstorrentは15億ドルを調達し、評価額は62億ドルに達した。しかもこの案件は、IntelやQualcommからの買収関心が伝えられてから5カ月後の動きで、スタートアップが独立路線を保ちながら大規模化する局面が続いている[2]。PitchBookによれば、推論AIスタートアップへのVC投資は2026年8月末までに約42億ドル、22件に達し、AIチップ企業の中央値評価額は2年で9倍に膨らんだという。資金の主戦場がモデルだけでなく、それを動かすチップへも広がっていることが分かる[3][4]。\\n\\n一方で欧州は、AI規制では世界を先行してきたが、競争条件では厳しさが増している。CNNは、EUがAIルールを主導してきたにもかかわらず、フロンティアモデルやデータセンター、大手テック企業の厚みで米国勢に及ばないと指摘した。AI Actを軸に規制面では存在感を示す一方、開発・計算資源の集積では劣位が鮮明になりつつある[5]。\\n\\nとはいえ、欧州のディープテック投資は勢いを失っていない。PitchBookによると、Q3 2026の欧州VCでは宇宙技術や先端製造などの分野が伸び、最も成長の速い垂直領域の多くをディープテックが占めた。規制と産業育成をどう両立させるかが、今後の欧州AI戦略の焦点になりそうだ[6]。\\n\\n全体としてみると、2026年の生成AI市場は「アプリの競争」から「基盤の争奪」へと重心を移しつつある。巨額資金は、アプリ開発を支えるクラウド基盤、推論チップ、そして計算資源に集まり、欧米の有力スタートアップは高バリュエーションを維持している。規制を先行させる欧州が、この投資熱と技術集中の波にどう対抗するかが、今後の見どころだ[1][2][3][5][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Exclusive: Modal raised $750M, crosses $1B in ARR - Axios",
+              "url": "https://www.axios.com/pro/enterprise-software-deals/2026/10/14/modal-accel-ai-infrastructure",
+              "source": "Axios"
+            },
+            {
+              "id": 2,
+              "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips - TechCrunch",
+              "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 3,
+              "title": "Q4 2026 Inference Chip Startups Are Just Starting Their Bull Run - PitchBook",
+              "url": "https://pitchbook.com/news/reports/q4-2026-inference-chip-startups-are-just-starting-their-bull-run",
+              "source": "PitchBook"
+            },
+            {
+              "id": 4,
+              "title": "Inference chip startup valuations soar on record fundraising - PitchBook",
+              "url": "https://pitchbook.com/news/articles/inference-chip-startup-valuations-soar-on-record-fundraising",
+              "source": "PitchBook"
+            },
+            {
+              "id": 5,
+              "title": "Europe leads the world on AI rules. So why is it missing from the AI safety debate? - CNN",
+              "url": "https://www.cnn.com/2026/10/14/business/europe-ai-act-safety-debate-intl",
+              "source": "CNN"
+            },
+            {
+              "id": 6,
+              "title": "Deep tech dominates fastest-growing European VC verticals - PitchBook",
+              "url": "https://pitchbook.com/news/articles/deep-tech-dominates-fastest-growing-european-vc-verticals",
+              "source": "PitchBook"
+            }
+          ],
+          "published_date": "2026-10-21",
+          "category": "global",
+          "title_highlights": [
+            "Modal",
+            "Tenstorrent",
+            "AI Act"
+          ],
+          "three_lines_highlights": [
+            "15.75B",
+            "6.2B",
+            "EU規制"
+          ],
+          "id": "global-2"
+        }
+      ],
+      "summary": "欧米ではAI需要の拡大を背景に、投資の焦点が半導体からデータセンターの電力・接続・運営まで一段と広がり、拡張競争が次のテーマになっている。生成AI分野でも大型資金調達と高バリュエーションが続き、アプリ層からインフラ層まで資本流入が加速する一方、欧州は規制面で先行しつつもモデル開発力や計算資源で米国勢との差が課題となっている。"
+    }
+  ]
+}

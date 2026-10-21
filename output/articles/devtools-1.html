@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LangChain、Pydantic AI、AWS Strandsが“エージェント本体”を前面に出す流れ。Vercel AI SDK 7はClaude CodeやCodexをアプリ内実行へ | AI・クラウド ニュースダイジェスト</title>
+<title>Vercel Labs、AIエージェント向け“skills”機能を投入　Claude CodeやCodexに事前構築の能力を配布する流れが加速 | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,25 +19,23 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-10-20</span>
+    <span class="article-date">2026-10-21</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">LangChain</mark>、<mark style="background:#8A3FE026">Pydantic AI</mark>、AWS <mark style="background:#8A3FE026">Strands</mark>が“エージェント本体”を前面に出す流れ。Vercel <mark style="background:#8A3FE026">AI SDK 7</mark>はClaude CodeやCodexをアプリ内実行へ</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Vercel Labs</mark>、AIエージェント向け“<mark style="background:#8A3FE026">skills</mark>”機能を投入　<mark style="background:#8A3FE026">Claude Code</mark>やCodexに事前構築の能力を配布する流れが加速</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">LangChain</mark>は創作基盤をハーネス化した。</li><li><mark style="background:#8A3FE026">Pydantic AI 2.0</mark>とStrandsは完成形を出す。</li><li>Vercel <mark style="background:#8A3FE026">AI SDK 7</mark>はアプリ内で動かす。</li></ul>
+    <ul><li><mark style="background:#8A3FE026">skills</mark>で能力を配布する流れが広がった。</li><li><mark style="background:#8A3FE026">Claude Code</mark>へ事前構築の機能を導入できる。</li><li>複数の開発者ツールへ同時展開が進む。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">開発者向けAIツール群で、フレームワークが「部品」よりも完成済みのエージェント実行基盤を前面に出す動きが強まっている。LangChainは create_agent を“最小限で高い柔軟性を持つハーネス”と位置づけ、Pydantic AI 2.0やAWS Strandsは最初からエージェントを提示する。一方、VercelのAI SDK 7はClaude Code、Codex、OpenCode、Piをアプリ内で直接動かせる点が注目される。[1][2]</p>
-    <p class="sum-en">Developer AI tooling is shifting from generic frameworks to agent-first runtimes. LangChain positions create_agent as a minimal, configurable harness, while Pydantic AI 2.0 and AWS Strands lead with ready-made agents. Vercel’s AI SDK 7 goes further by running Claude Code, Codex, OpenCode, or Pi directly inside apps.[1][2]</p>
+    <p class="sum-ja">Vercel Labsが、AIエージェントに事前構築済みの能力を追加する「skills」機能の流れを示した。検索結果では、skills導入時にClaude Codeなど複数の開発者向けツールへ同じリポジトリ由来の能力を配布する様子が確認でき、エージェント時代の“機能の持ち運び”が進んでいる。[1]</p>
+    <p class="sum-en">Vercel Labs is advancing a “skills” approach for AI agents, pointing to a workflow where prebuilt capabilities can be distributed across developer tools such as Claude Code.</p>
   </div>
 
-  <div class="article-body"><p>AI開発ツールの主戦場が、もはや「どのフレームワークを使うか」だけではなく、「エージェント本体をどう配布し、どこで走らせるか」に移りつつある。今回の流れを象徴するのが、LangChain、Pydantic AI、AWS Strands、そしてVercel AI SDK 7だ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
-<p>まずLangChainは、create_agentを「最小限で、しかも高度に設定可能なエージェント・ハーネス」として打ち出している。ここで重要なのは、従来の“部品を積み上げるフレームワーク”というより、動くエージェントを包み込む実行基盤としての性格が強まっている点だ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> さらに関連する文脈として、学習コンテンツでも「build or buy for agent harnesses」や「LangChain create_agent」「LangChain Deep Agents」といった表現が並び、開発者が“自前で組むか、既製のハーネスを採るか”を判断する局面が増えていることがうかがえる。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>一方で、Pydantic AI 2.0とAWS Strandsは、最初から“ready-made agent”を前面に出す。つまり、利用者がまず触れるのは汎用フレームワークではなく、すぐ動く完成済みのエージェントだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> この方向性は、AI開発が抽象度の高い設計図競争から、実際に動くエージェント体験の競争へ移ったことを示している。開発者にとっては、モデルの選定だけでなく、どの程度の初期実装をフレームワーク側に委ねられるかが重要になる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p>
-<p>さらにVercelのAI SDK 7は、エージェントの“外部呼び出し”ではなく“アプリ内実行”を強く印象づける。検索結果では、Claude Code、Codex、OpenCode、Piをアプリの内部で直接動かせるとされており、これは開発者ツールが単なる補助機能から、アプリに埋め込まれる実働エージェントへと進化していることを示す。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> ここでは、生成AIがチャット欄に留まらず、アプリの操作や開発支援のプロセスそのものに入り込む構図が見えてくる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
-<p>この動きをまとめると、LangChainは“柔軟に組めるハーネス”、Pydantic AI 2.0とAWS Strandsは“最初から使えるエージェント”、Vercel AI SDK 7は“アプリ内で走る開発エージェント”という役割分担になっている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> つまり競争軸は、モデルの賢さだけではなく、エージェントをどれだけすぐ実運用に載せられるか、そして開発体験としてどれだけ自然に埋め込めるかへ移っている。Claude CodeやCursor、GitHub Copilotのような開発者ツールを追ううえでも、この「エージェント本体を前に出す」流れは、今後の標準設計を左右する重要なサインといえる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p></div>
+  <div class="article-body"><p>AIエージェントの開発現場で、個別の指示文を都度書くのではなく、あらかじめ用意した“skills”を配布して使い回す動きが見えてきた。検索結果では、`npx skills add google/adk-recipes --skill retail-product-search --full-depth -g`という導入コマンドが示され、エージェントが検出されると非対話でインストールが進み、ひとつのリポジトリから11個のskillsを見つけたこと、さらにClaude Codeを含む複数のクライアントに同じ能力を入れていく様子が確認できる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。</p>
+<p>この動きのポイントは、skillsが単なる設定ファイルではなく、エージェントにとって再利用可能な“事前構築の能力パッケージ”として扱われていることだ。検索結果の範囲では、GoogleのADKレシピ集を起点に、retail-product-searchという個別skillを選んで導入し、それをClaude Codeなどのツール群へ横展開している<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。つまり、能力をプロンプトに埋め込むのではなく、共通のレポジトリから配る発想に近い。</p>
+<p>この流れは、Claude CodeやCodex、Cursor、GitHub Copilot、LangChainのような開発者向けAIツールが、それぞれ独立した製品でありながら、エージェントの行動を標準化したいという需要に応えていく方向を示している。検索結果で確認できるのはClaude Codeを含む複数環境への導入だが、少なくとも“skillsを配る”という操作が、個々のエージェントを同じ前提知識・同じ手順で動かすための基盤になりつつあることは読み取れる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。今後は、モデルの賢さだけでなく、どのskillsをどの環境へどう配布するかが、AI開発ツール選定の重要な論点になりそうだ。</p></div>
 
   
   <div class="references">
@@ -45,13 +43,8 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://x.com/ishaansehgal/article/2110884490868637799" target="_blank" rel="noopener noreferrer">Four Ways to Build an AI Agent | Ishaan Sehgal (@ishaansehgal) on X</a>
-        <span class="ref-source">— X</span>
-      </li>
-      
-      <li id="ref-2">
-        <a href="https://www.udemy.com/course/ai-fde-forward-deployed-engineer-agentic-ai-architect" target="_blank" rel="noopener noreferrer">AI FDE: The Forward Deployed Engineer &amp; Agentic AI Architect</a>
-        <span class="ref-source">— Udemy</span>
+        <a href="https://developers.googleblog.com/three-layers-one-repo-a-tour-of-googleadk-recipes" target="_blank" rel="noopener noreferrer">Three layers, one repo: a tour of google/adk-recipes - Google Developers Blog</a>
+        <span class="ref-source">— Google Developers Blog</span>
       </li>
       
     </ol>

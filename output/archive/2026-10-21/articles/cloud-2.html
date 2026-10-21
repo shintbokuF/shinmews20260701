@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Azure AI Foundry／Vertex AI／AWS系のモデル運用を整理する実装ガイドが公開 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-10-21</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#3654D626">Azure AI Foundry</mark>／<mark style="background:#3654D626">Vertex AI</mark>／AWS系のモデル運用を整理する実装ガイドが公開</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#3654D626">Vertex AI</mark>の認証と課金先を整理した。</li><li><mark style="background:#3654D626">Azure AI Foundry</mark>の接続方式を明確にした。</li><li><mark style="background:#3654D626">AWS系</mark>も含め運用差分を横断比較した。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Hermes Agentの2026年版リファレンスは、Google Vertex AI、Azure AI Foundry、AWS Bedrock系のモデル運用を横断して整理し、クラウド側の認証方式、課金先、配置の考え方を実装レベルで見通しやすくした。特にVertex AIはOAuth2/ADCでGCP परियジェクト課金、Azure AI Foundryはエンドポイントとキーで扱う、といった差分が明確だ。</p>
+    <p class="sum-en">The 2026 Hermes Agent reference organizes model operations across Google Vertex AI, Azure AI Foundry, and AWS Bedrock-style usage, clarifying cloud-side authentication, billing, and deployment choices. It highlights practical differences such as OAuth2/ADC with GCP project billing for Vertex AI and endpoint-plus-key handling for Azure AI Foundry.</p>
+  </div>
+
+  <div class="article-body"><p>Hermes Agentの2026年版リファレンスは、マルチクラウドでモデルを扱う際に迷いやすい「どこに認証し、どこに課金され、どこへ配置するか」を、実装者向けにまとめ直した資料だ。対象はGoogle Vertex AI、Azure AI Foundry、AWS Bedrock系の使い分けで、各クラウドの接続作法を並べて確認できる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p>
+<p>とくにGoogle Vertex AIについては、OAuth2を前提にサービスアカウントJSONやApplication Default Credentialsを使い、費用はGCPプロジェクトに計上されると整理されている。単に「使える」だけではなく、認証方式と請求先がセットで示されている点が、実運用では重要になる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p>
+<p>Azure AI Foundry側は、Azure OpenAI / Foundryのエンドポイントとキーで接続する形で、選択肢としては「OpenAI風またはAnthropic風のエンドポイント」と説明されている。つまり、モデルの呼び出し口をAPI互換の感覚で扱える一方で、実体はAzureのエンドポイント管理とキー運用に乗る、という理解がしやすい。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p>
+<p>この資料が実務で役立つのは、クラウドごとの差を抽象論ではなく、プロバイダー名や接続情報の違いまで落としていることだ。Hermes Agent上では `hermes model` の先に「Google Vertex AI」や「Azure AI Foundry」を選ぶ形で示されており、モデル運用の実装を始める際の入口としてそのまま参照しやすい。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p>
+<p>AWS系についても同じ文脈で並記されており、少なくともマルチクラウド前提の運用設計で、認証・課金・配置を別々に考える必要があることが読み取れる。AIモデルの利用が広がるほど、こうした「クラウド側の責務」を整理した実装ガイドの価値は高まるだろう。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://blakecrosley.com/zh-Hans/guides/hermes" target="_blank" rel="noopener noreferrer">Hermes Agent：实践者参考指南（2026）</a>
+        <span class="ref-source">— Blake Crosley</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://blakecrosley.com/ja/guides/hermes" target="_blank" rel="noopener noreferrer">Hermes Agent：実践者向けリファレンス（2026年版）</a>
+        <span class="ref-source">— Blake Crosley</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
