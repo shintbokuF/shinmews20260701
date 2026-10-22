@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>開発者ツールは“フレームワーク”から“エージェント本体”へ　LangChain、Pydantic AI 2.0、AWS Strands、Vercel AI SDK 7の進化 | AI・クラウド ニュースダイジェスト</title>
+<title>LangChainが“実行の中核”へ　Managed Deep Agents連携で進むエージェント本体化 | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,26 +19,25 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-10-21</span>
+    <span class="article-date">2026-10-22</span>
   </div>
-  <h1 class="article-title">開発者ツールは“フレームワーク”から“エージェント本体”へ　<mark style="background:#8A3FE026">LangChain</mark>、<mark style="background:#8A3FE026">Pydantic AI 2.0</mark>、<mark style="background:#8A3FE026">AWS Strands</mark>、<mark style="background:#8A3FE026">Vercel AI SDK 7</mark>の進化</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">LangChain</mark>が“実行の中核”へ　Managed <mark style="background:#8A3FE026">Deep Agents</mark>連携で進むエージェント本体化</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li>LangChainは<mark style="background:#8A3FE026">create_agent</mark>で実行基盤を薄くした</li><li><mark style="background:#8A3FE026">Pydantic AI 2.0</mark>とAWS Strandsが本体志向を強めた</li><li>Vercel AI SDK 7はアプリ内でコード実行を可能にした</li></ul>
+    <ul><li><mark style="background:#8A3FE026">LangChain</mark>は実行基盤へ役割を広げた。</li><li><mark style="background:#8A3FE026">Deep Agents</mark>連携が運用性を押し上げる。</li><li>開発者ツール競争は本体争いに入った。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">AIエージェント開発の主戦場が、周辺部品を組み合わせるフレームワークから、実行主体そのものを用意する「ハーネス」型へ移りつつある。LangChainのcreate_agent、Pydantic AI 2.0、AWS Strands、Vercel AI SDK 7の動きから、その方向性を整理する。</p>
-    <p class="sum-en">AI agent tooling is shifting from composable frameworks toward agent-first harnesses. Recent signals from LangChain, Pydantic AI 2.0, AWS Strands, and Vercel AI SDK 7 show developers increasingly want ready-to-run agent bodies rather than only building blocks.</p>
+    <p class="sum-ja">生成AI開発の主戦場が、単なるチャットや補助ツールから「継続的に仕事を進めるエージェント基盤」へ移りつつある。AnthropicのClaude Duet、OpenAIの業務向けエージェント投資、GoogleのHarness²公開などが相次ぐなか、LangChainもManaged Deep Agentsとの連携文脈で、エージェントを組み立てるフレームワークから“動かす本体”へと役割を広げている。開発者向けAIツール競争は、モデル性能だけでなく、長いタスクを安全に回し続ける運用レイヤーの争いになってきた。</p>
+    <p class="sum-en">The AI developer-tools race is shifting from chat assistants to execution layers that can keep working across longer tasks. Recent moves from Anthropic, OpenAI, Google, and others show a broader push toward agent systems that are not just built, but operated. In that context, LangChain’s Managed Deep Agents direction suggests it is evolving from a framework for assembling agents into a core runtime for agentic work.</p>
   </div>
 
-  <div class="article-body"><p>AIエージェント開発の道具立てが、ここに来て少しずつ同じ方向を向き始めています。これまでのように部品を細かく寄せ集めるのではなく、まず“動くエージェント本体”を手に入れ、その上で必要に応じて振る舞いを調整する考え方です。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
-<p>その象徴として挙げられているのが、LangChainのcreate_agentです。紹介文ではこれを「minimal, highly configurable agent harness」と位置づけており、重厚な抽象化というより、最小限でありながら設定の自由度が高い土台として設計されていることがうかがえます。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> つまり、LangChainは従来の“フレームワーク”という印象よりも、エージェントを立ち上げるための実働基盤に寄っています。</p>
-<p>同じ流れの中で、Pydantic AI 2.0とAWS Strandsは、よりわかりやすく“ready-made agent”を前面に出しています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> これは、開発者がまずエージェントの骨格を組み立てる手間を減らし、プロンプト設計やツール連携、実行時の振る舞いといった上位レイヤーに集中しやすくする動きだと読めます。AIエージェント開発が実験段階から実運用段階へ進むほど、こうした即戦力型の設計は歓迎されやすくなります。</p>
-<p>さらにVercelのAI SDK 7は、話をもう一段先へ進めています。抜粋では、Claude Code、Codex、OpenCode、Piといった実行系を「directly inside your app」で動かせるとされており、アプリの外でエージェントを呼び出すのではなく、アプリ内部に作業者として埋め込む発想が見えます。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> これは、エージェントを“別サービス”として扱うのではなく、UIやワークフローの一部として組み込む方向です。</p>
-<p>この変化は、開発者向け教育コンテンツにも表れています。Udemyの講座では、AI FDE（Forward Deployed Engineer）やAgentic AI Architectという文脈で、要件定義のbrief、git checkoutやgit stash、Claude Codeを使ったplanningが並んでいました。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> つまり、エージェント開発は単なるモデル呼び出しではなく、実装手順やブランチ運用、計画立案まで含む“開発作業そのもの”に近づいているということです。</p>
-<p>総じて見ると、LangChainは軽量なagent harnessへ、Pydantic AI 2.0とAWS Strandsはready-made agentへ、Vercel AI SDK 7はアプリ内実行へと、それぞれ異なる角度から同じ潮流を強めています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> 開発者にとっての次の焦点は、「どのモデルを使うか」だけでなく、「どのエージェント本体を採用し、どこまでアプリに埋め込むか」へ移りつつあります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup></p></div>
+  <div class="article-body"><p>生成AIの開発者ツール市場で、いま大きく変わっているのは「どのモデルが賢いか」よりも、「どの仕組みが仕事を最後まで回せるか」だ。AnthropicはClaude Duetを発表し、仕事向けのエージェントとして位置づけた<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。OpenAIも、薬剤開発を支援するエージェントを作るOrchestra Bioを買収し、AI競争の軸を研究や会話から実務プロセスへと広げている<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。Googleは自律的に学習するエージェントのためのHarness²をオープンソース化しており、基盤側での実装競争も激しくなっている<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p>
+<p>この流れの中で注目されるのが、LangChainの立ち位置だ。もともとLangChainは、LLMアプリやエージェントを組み立てるためのフレームワークとして広く使われてきた。しかしManaged Deep Agentsとの連携文脈では、単なる“部品”の集合から、エージェントの実行・管理を担う中核へと重心を移しているように見える。複雑なタスクを細かく分解し、必要に応じて外部の知識やアクションを呼び出しながら継続実行するには、モデル本体の強さだけでなく、状態管理やワークスペース、標準化された運用の枠組みが必要になる。PlumeがWi-Fi最適化ツールからISP全体のインテリジェンスを担う“agentic operating layer”へ再構築したのと同じく<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>、LangChainも「何を作るか」から「どう動かし続けるか」へ守備範囲を広げていると読める。</p>
+<p>こうした変化は、Claude Code、Cursor、GitHub Copilotのような開発支援ツールにも共通する潮流だ。これらは単発の補助機能ではなく、コード生成、修正提案、実行支援、さらにはワークフロー全体への入り込みを強めている。NvidiaのJensen Huang氏が「AIはプログラマーを置き換えるのではなく増やす」と述べたように、開発者の仕事は減るのではなく、AIエージェントを扱う設計・検証・統制へと移っていく可能性が高い<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。LangChainのようなフレームワークがManaged Deep Agentsと結びついていくのは、その新しい役割分担に対応する動きといえる。</p>
+<p>もっとも、エージェント化が進むほど課題も増える。自律性を高めれば便利になる一方、どこまで任せるか、どう監査するか、失敗時にどう止めるかが重要になる。GoogleがHarness²を通じて“recursive agent harnessing”を打ち出したことは<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>、まさに長く走るエージェントには、性能だけでなく制御のためのハーネスが要ることを示している。AnthropicのClaude Duetもまだ広く使える段階ではなく<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>、市場全体が「使えるエージェントの標準形」を探っている最中だ。</p>
+<p>結論として、LangChainの進化は、開発者向けAIツールが“モデルを呼び出す枠組み”から“エージェント本体を担う実行層”へ移る象徴的な動きといえる。OpenAI、Anthropic、Google、そして周辺の開発ツール群がそれぞれ別の切り口でエージェント時代を押し進めるなか、次の競争軸は、誰が最も賢いモデルを持つかではなく、誰が最も安全で持続的に働くエージェントを運用できるか、になっていきそうだ。</p></div>
 
   
   <div class="references">
@@ -46,13 +45,28 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://x.com/ishaansehgal/article/2110884490868637799" target="_blank" rel="noopener noreferrer">Four Ways to Build an AI Agent | Ishaan Sehgal (@ishaansehgal) on X</a>
-        <span class="ref-source">— X</span>
+        <a href="https://www.nytimes.com/2026/10/21/technology/anthropic-ai-agent-claude-duet.html" target="_blank" rel="noopener noreferrer">Anthropic Joins the A.I. Agent Race With Claude Duet - The New York Times</a>
+        <span class="ref-source">— The New York Times</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://www.udemy.com/course/ai-fde-forward-deployed-engineer-agentic-ai-architect" target="_blank" rel="noopener noreferrer">AI FDE: The Forward Deployed Engineer &amp; Agentic AI Architect</a>
-        <span class="ref-source">— Udemy</span>
+        <a href="https://rcrwireless.com/20261016/analyst-angle/plume-2-0-from-wi-fi-optimizer-to-agentic-operating-layer-for-isps-analyst-angle" target="_blank" rel="noopener noreferrer">Plume 2.0 – from Wi-Fi optimizer to agentic operating layer for ISPs (Analyst Angle) - RCR Wireless News</a>
+        <span class="ref-source">— RCR Wireless News</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://www.axios.com/2026/10/20/exclusive-openai-biotech-startup-drug-development" target="_blank" rel="noopener noreferrer">Exclusive: OpenAI has acquired Orchestra Bio - Axios</a>
+        <span class="ref-source">— Axios</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/" target="_blank" rel="noopener noreferrer">Google Open-Sources Harness2, a Recursive Agent Harnessing Framework - MarkTechPost</a>
+        <span class="ref-source">— MarkTechPost</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://www.ynetnews.com/tech-and-digital/article/hjjrq4u3zg" target="_blank" rel="noopener noreferrer">Nvidia CEO Jensen Huang says AI will create more programmers, not replace them - Ynetnews</a>
+        <span class="ref-source">— Ynetnews</span>
       </li>
       
     </ol>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Agent実践者向けリファレンス2026年版：LLM GatewayとClineの変化から読む運用の勘所 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-10-22</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#3654D626">Hermes Agent</mark>実践者向けリファレンス2026年版：<mark style="background:#3654D626">LLM Gateway</mark>と<mark style="background:#3654D626">Cline</mark>の変化から読む運用の勘所</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#3654D626">Hermes Agent</mark>は実務一覧で存在感を示す。</li><li>ClineはAzure系URL対応を改善した。</li><li>運用では<mark style="background:#3654D626">接続互換性</mark>が重要になる。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Hermes Agentは、LLM Gatewayの利用アプリ一覧に名を連ねる実務寄りの存在として確認できる。あわせて、Clineの変更履歴ではAzure AI Foundry系のカスタムAnthropic Base URL対応が改善されており、AIエージェント周辺の接続安定化が進んでいる。2026年の実践者は、機能の多さよりも、接続先やルール適用、障害回避のしやすさを重視して評価する局面に入っている。[1][2]</p>
+    <p class="sum-en">Hermes Agent appears as a practical entry in the LLM Gateway app list. Meanwhile, Cline’s changelog shows improved handling for custom Anthropic base URLs in Azure AI Foundry-like setups, pointing to better connection reliability across AI tooling. For practitioners in 2026, the key question is less about feature count and more about gateway compatibility, rule enforcement, and operational resilience.[1][2]</p>
+  </div>
+
+  <div class="article-body"><p>Hermes Agentを実践者向けに見るなら、まず「どこで使われているか」が手がかりになる。LLM Gatewayのアプリ一覧には、github-copilot、qwen-code、SoulForge、crush、Foundry Toolkitと並んで hermes-agent が掲載されており、単なる実験用ではなく、実際のワークフローに組み込まれる文脈で見られていることがうかがえる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。ここで重要なのは、個別の派手な機能よりも、他のツール群と同じ棚に置かれる“運用可能な選択肢”として認識されている点だ。\n\n周辺のエージェント系ツールの動きも示唆的だ。Clineの変更履歴では、Generate Commit Message が .clinerules に従うようになり、言語・フォーマット・チケット参照といった運用ルールをコミットメッセージにも反映できるようになった。また、Claude をカスタム Anthropic base URL 経由で使う際に、Azure AI Foundry や社内ゲートウェイで 400 エラーにならなくなったと記されている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。これは、AIアシスタントやエージェントの価値がモデル性能だけでなく、社内基盤やクラウド接続の“通りやすさ”に左右されることを示している。\n\nこの2つを合わせて読むと、Hermes Agentのようなツールを評価する軸はかなり実践的だ。たとえばAWS、Azure、GCPいずれの環境でも、実運用ではAI機能そのものより、プロキシやベースURL、ルールファイル、組織内ゲートウェイとの整合性がボトルネックになりやすい。LLM Gateway側の一覧でhermes-agentが他の主要ツールと並んでいる事実<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>と、ClineがAzure AI Foundry系の接続で不具合を減らした事実<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>を重ねると、2026年のAIクラウド運用では「機能追加」より「つながり続けること」が競争力になっているといえる。Hermes Agentを見る際も、派手さではなく、既存のクラウド運用にどれだけ自然に入るかを基準にするのが妥当だ。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://llmgateway.io/apps" target="_blank" rel="noopener noreferrer">Apps using LLM Gateway | LLM Gateway</a>
+        <span class="ref-source">— LLM Gateway</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://github.com/cline/cline/blob/main/CHANGELOG.md?ref=cline.ghost.io" target="_blank" rel="noopener noreferrer">cline/CHANGELOG.md at main · cline/cline · GitHub</a>
+        <span class="ref-source">— GitHub</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
