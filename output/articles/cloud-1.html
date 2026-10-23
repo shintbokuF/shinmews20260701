@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hermes Agent実践者向けリファレンス2026年版：LLM GatewayとClineの変化から読む運用の勘所 | AI・クラウド ニュースダイジェスト</title>
+<title>AWS/Azure/GCPは“新製品”より運用と信頼性が焦点に—AI時代のクラウド選定で何を見るべきか | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,21 +19,25 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
-    <span class="article-date">2026-10-22</span>
+    <span class="article-date">2026-10-23</span>
   </div>
-  <h1 class="article-title"><mark style="background:#3654D626">Hermes Agent</mark>実践者向けリファレンス2026年版：<mark style="background:#3654D626">LLM Gateway</mark>と<mark style="background:#3654D626">Cline</mark>の変化から読む運用の勘所</h1>
+  <h1 class="article-title"><mark style="background:#3654D626">AWS</mark>/<mark style="background:#3654D626">Azure</mark>/<mark style="background:#3654D626">GCP</mark>は“新製品”より運用と信頼性が焦点に—AI時代のクラウド選定で何を見るべきか</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#3654D626">Hermes Agent</mark>は実務一覧で存在感を示す。</li><li>ClineはAzure系URL対応を改善した。</li><li>運用では<mark style="background:#3654D626">接続互換性</mark>が重要になる。</li></ul>
+    <ul><li><mark style="background:#3654D626">GCP</mark>の案内で再構築対応が必要になった</li><li><mark style="background:#3654D626">Azure</mark>/<mark style="background:#3654D626">AWS</mark>/<mark style="background:#3654D626">GCP</mark>連携需要が改めて見えた</li><li>AI時代は機能より運用信頼性が重要だ</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Hermes Agentは、LLM Gatewayの利用アプリ一覧に名を連ねる実務寄りの存在として確認できる。あわせて、Clineの変更履歴ではAzure AI Foundry系のカスタムAnthropic Base URL対応が改善されており、AIエージェント周辺の接続安定化が進んでいる。2026年の実践者は、機能の多さよりも、接続先やルール適用、障害回避のしやすさを重視して評価する局面に入っている。[1][2]</p>
-    <p class="sum-en">Hermes Agent appears as a practical entry in the LLM Gateway app list. Meanwhile, Cline’s changelog shows improved handling for custom Anthropic base URLs in Azure AI Foundry-like setups, pointing to better connection reliability across AI tooling. For practitioners in 2026, the key question is less about feature count and more about gateway compatibility, rule enforcement, and operational resilience.[1][2]</p>
+    <p class="sum-ja">公開情報の検索結果を見る限り、AWS・Azure・GCPの新サービス発表そのものより、既存クラウドの運用、障害対応、マルチクラウド管理、そしてAI時代の安全性が注目点になっています。特にGCPでは、専用サーバー利用者に再構築を促すほどの深刻な案内が出ており、クラウドの「機能」だけでなく「継続運用できるか」が選定基準として強く意識されそうです。</p>
+    <p class="sum-en">Based on the search results, the main story is less about new launches from AWS, Azure, or GCP and more about operations, incident response, multi-cloud management, and reliability in the AI era. In particular, GCP dedicated server users were advised to rebuild compromised servers, underscoring that operational trust is becoming as important as features.</p>
   </div>
 
-  <div class="article-body"><p>Hermes Agentを実践者向けに見るなら、まず「どこで使われているか」が手がかりになる。LLM Gatewayのアプリ一覧には、github-copilot、qwen-code、SoulForge、crush、Foundry Toolkitと並んで hermes-agent が掲載されており、単なる実験用ではなく、実際のワークフローに組み込まれる文脈で見られていることがうかがえる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。ここで重要なのは、個別の派手な機能よりも、他のツール群と同じ棚に置かれる“運用可能な選択肢”として認識されている点だ。\n\n周辺のエージェント系ツールの動きも示唆的だ。Clineの変更履歴では、Generate Commit Message が .clinerules に従うようになり、言語・フォーマット・チケット参照といった運用ルールをコミットメッセージにも反映できるようになった。また、Claude をカスタム Anthropic base URL 経由で使う際に、Azure AI Foundry や社内ゲートウェイで 400 エラーにならなくなったと記されている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。これは、AIアシスタントやエージェントの価値がモデル性能だけでなく、社内基盤やクラウド接続の“通りやすさ”に左右されることを示している。\n\nこの2つを合わせて読むと、Hermes Agentのようなツールを評価する軸はかなり実践的だ。たとえばAWS、Azure、GCPいずれの環境でも、実運用ではAI機能そのものより、プロキシやベースURL、ルールファイル、組織内ゲートウェイとの整合性がボトルネックになりやすい。LLM Gateway側の一覧でhermes-agentが他の主要ツールと並んでいる事実<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>と、ClineがAzure AI Foundry系の接続で不具合を減らした事実<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>を重ねると、2026年のAIクラウド運用では「機能追加」より「つながり続けること」が競争力になっているといえる。Hermes Agentを見る際も、派手さではなく、既存のクラウド運用にどれだけ自然に入るかを基準にするのが妥当だ。</p></div>
+  <div class="article-body"><p>クラウドの新着情報というと、新サービスや値下げが目につきやすいですが、今回の検索結果から浮かぶ中心テーマはかなり違います。AWS、Azure、GCPの3大クラウドは、いまや「何ができるか」だけでなく、「止まらないか」「汚染されていないか」「複数環境をどう束ねるか」が評価軸になっています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#3654D6">[4]</a></sup></p>
+<p>とくに目を引くのは、GCP専用サーバー利用者に対して、サーバーを侵害済みとみなし再構築するよう促す強い案内です。加えて、請求の確認期間や過去日付までさかのぼった確認が必要だという示唆もあり、単なる障害通知ではなく、運用者に広範な点検を求める内容になっています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup> これは、クラウドの信頼性が「稼働率」だけでなく、インシデント後にどこまで安全を取り戻せるかに移っていることを示しています。</p>
+<p>一方で、AWS、Azure、GCPをまたいだネットワーク接続やセキュリティ支援を担う職種の記述も見られます。オンプレミスとAzure/AWS/GCPをつなぐネットワーク支援や、セキュリティ関連の連携が前提になっていることから、企業の現場では単一クラウド完結ではなく、マルチクラウド前提の設計・運用が一般化していることがうかがえます。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#3654D6">[4]</a></sup></p>
+<p>さらに、Jioの公開資料では、JioCloudXPというハイブリッドクラウド管理プラットフォームが紹介され、マルチクラウド環境のワークロード管理を想定していることが示されています。これは、クラウド事業者や大企業が、各社の基盤を横断してまとめる管理レイヤーに価値を置いている流れと読めます。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup> AWS、Microsoft Azure、Google Cloud、VMware、IBM、Oracle、Dellといった競合名が並ぶ点も、基盤単体の優劣より「どう組み合わせるか」が市場の論点になっていることを裏づけます。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup></p>
+<p>また、求人情報にAzureクラウドサービスの運用経験やKubernetes、CI/CDの実務が挙がっている点からも、クラウドは導入フェーズを過ぎ、日常運用の成熟度が問われる段階に入っています。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#3654D6">[3]</a></sup> こうした流れを総合すると、2026年10月のクラウド市場は、新機能の派手さより、AIワークロードを安全に回し続けるための運用設計、障害対応、そしてマルチクラウド統合の巧拙が勝負どころだと言えます。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#3654D6">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#3654D6">[4]</a></sup></p></div>
 
   
   <div class="references">
@@ -41,13 +45,23 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://llmgateway.io/apps" target="_blank" rel="noopener noreferrer">Apps using LLM Gateway | LLM Gateway</a>
-        <span class="ref-source">— LLM Gateway</span>
+        <a href="https://kuber.studio/internetonfire" target="_blank" rel="noopener noreferrer">The internet is on fire · Live cybersecurity and AI incident tracker</a>
+        <span class="ref-source">— kuber.studio</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://github.com/cline/cline/blob/main/CHANGELOG.md?ref=cline.ghost.io" target="_blank" rel="noopener noreferrer">cline/CHANGELOG.md at main · cline/cline · GitHub</a>
-        <span class="ref-source">— GitHub</span>
+        <a href="https://docs.phonepe.com/public/external/sb_cube/ipo/rhp/PXZZAQB" target="_blank" rel="noopener noreferrer">a mpls jio platforms limited corporate identity ... - PhonePe</a>
+        <span class="ref-source">— PhonePe</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://www.itjobboard.co.uk/categories/1232/java-jobs" target="_blank" rel="noopener noreferrer">Java Jobs in the UK | Elevate Your Programming Career | IT Job Board</a>
+        <span class="ref-source">— IT Job Board</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.jobleads.com/us/job/network-engineer-iii--united-states--e4f625718e957944adb0294728898955f" target="_blank" rel="noopener noreferrer">Network Engineer III | United States</a>
+        <span class="ref-source">— JobLeads</span>
       </li>
       
     </ol>
