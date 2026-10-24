@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- ears -->
+  <g transform="translate(23,20) rotate(-24)">
+    <rect x="-4.5" y="-26" width="9" height="30" rx="4.5" fill="#F7CE00"/>
+    <path d="M-4.5 -22 A4.5 4.5 0 0 1 4.5 -22 L4.5 -14 L-4.5 -14 Z" fill="#2B2A26"/>
+  </g>
+  <g transform="translate(41,20) rotate(24)">
+    <rect x="-4.5" y="-26" width="9" height="30" rx="4.5" fill="#F7CE00"/>
+    <path d="M-4.5 -22 A4.5 4.5 0 0 1 4.5 -22 L4.5 -14 L-4.5 -14 Z" fill="#2B2A26"/>
+  </g>
+  <!-- head -->
+  <circle cx="32" cy="40" r="19" fill="#F7CE00" stroke="#2B2A26" stroke-width="1.4"/>
+  <!-- cheeks -->
+  <circle cx="20.5" cy="45" r="4.2" fill="#E8402E"/>
+  <circle cx="43.5" cy="45" r="4.2" fill="#E8402E"/>
+  <!-- eyes -->
+  <circle cx="25.5" cy="37" r="3.4" fill="#2B2A26"/>
+  <circle cx="38.5" cy="37" r="3.4" fill="#2B2A26"/>
+  <circle cx="26.7" cy="35.8" r="1.1" fill="#fff"/>
+  <circle cx="39.7" cy="35.8" r="1.1" fill="#fff"/>
+  <!-- nose + mouth -->
+  <circle cx="32" cy="41" r="1.3" fill="#2B2A26"/>
+  <path d="M28 44 Q32 48 36 44" fill="none" stroke="#2B2A26" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

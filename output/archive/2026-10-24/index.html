@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="ticker" aria-label="本日のニュース速報">
+  <div class="ticker-live"><span class="live-dot" aria-hidden="true"></span><span>LIVE</span></div>
+  <div class="ticker-track">
+    <span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Google CloudがOpenAIモデルをModel Gardenで提供開始、マルチモデル戦略を一段と前進</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // AWSコスト最適化の実務知見が公開、Startup向けの料金削減とRI/SP活用が焦点に</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // AWS/Azure/GCPを横断する人材需要が拡大、AIデータセンターとセキュリティ運用が一体化へ</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AIエージェント開発環境「Orca」登場、複数エージェントを束ねるADEとして注目</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // NvidiaのヒュアンCEO、欧州に「主権AI」投資を促進　独では産業AIの実装を加速</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // EUのAI Act運用が本格化、AI OfficeがOpenAIやAnthropicに情報要求</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // AnthropicのIPO観測とOpenAIの30億ドル調達が、欧米AI資金競争を一段と熱くする</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Google CloudがOpenAIモデルをModel Gardenで提供開始、マルチモデル戦略を一段と前進</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // AWSコスト最適化の実務知見が公開、Startup向けの料金削減とRI/SP活用が焦点に</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // AWS/Azure/GCPを横断する人材需要が拡大、AIデータセンターとセキュリティ運用が一体化へ</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AIエージェント開発環境「Orca」登場、複数エージェントを束ねるADEとして注目</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // NvidiaのヒュアンCEO、欧州に「主権AI」投資を促進　独では産業AIの実装を加速</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // EUのAI Act運用が本格化、AI OfficeがOpenAIやAnthropicに情報要求</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // AnthropicのIPO観測とOpenAIの30億ドル調達が、欧米AI資金競争を一段と熱くする</span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="mast-left">
+    <div>
+      <h1 class="mast-title">AI・クラウド<br>ニュースダイジェスト</h1>
+      <div class="mast-sub">DAILY INTELLIGENCE DISPATCH</div>
+    </div>
+    <div class="stamp" aria-hidden="true">
+      <div class="arc">◦ RECEIVED ◦</div>
+      <div class="d">2026.10.24</div>
+      <div class="t">TRANSMISSION<br>RECEIVED</div>
+    </div>
+  </div>
+  <nav class="mast-nav">
+    <a class="ghost-btn" href="https://shintbokuf.github.io/" target="_blank" rel="noopener" data-gc="nav/profile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+      創作者プロフィール
+    </a>
+    <a class="ghost-btn" href="../index.html" data-gc="nav/archive">過去のダイジェスト
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </nav>
+</header>
+
+<nav class="chipbar" aria-label="分類">
+  <a class="chip" href="#sec-models"><span class="side-dot" style="background:#0E8A87"></span>生成AIモデル<span class="signal" style="height:16px"><i style="height:10px;background:#0E8A87"></i></span></a><a class="chip" href="#sec-cloud"><span class="side-dot" style="background:#3654D6"></span>クラウド<span class="signal" style="height:16px"><i style="height:10px;background:#3654D6"></i><i style="height:7px;background:#3654D6"></i></span></a><a class="chip" href="#sec-devtools"><span class="side-dot" style="background:#8A3FE0"></span>AI開発ツール<span class="signal" style="height:16px"><i style="height:10px;background:#8A3FE0"></i></span></a><a class="chip" href="#sec-global"><span class="side-dot" style="background:#C2871F"></span>欧米動向<span class="signal" style="height:16px"><i style="height:10px;background:#C2871F"></i><i style="height:7px;background:#C2871F"></i><i style="height:14px;background:#C2871F"></i></span></a>
+</nav>
+
+<div class="layout">
+  <nav class="sidebar" aria-label="分類インデックス">
+    <div class="side-head">SIGNAL INDEX</div>
+    
+    <a class="side-row" href="#sec-models">
+      <span class="side-dot" style="background:#0E8A87"></span>
+      <span class="side-name">生成AIモデル</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#0E8A87"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-cloud">
+      <span class="side-dot" style="background:#3654D6"></span>
+      <span class="side-name">クラウド</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#3654D6"></i><i style="height:10px;background:#3654D6"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-devtools">
+      <span class="side-dot" style="background:#8A3FE0"></span>
+      <span class="side-name">AI開発ツール</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#8A3FE0"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-global">
+      <span class="side-dot" style="background:#C2871F"></span>
+      <span class="side-name">欧米動向</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#C2871F"></i><i style="height:10px;background:#C2871F"></i><i style="height:20px;background:#C2871F"></i></span>
+    </a>
+    
+  </nav>
+
+  <main class="main">
+  
+    <section class="board" id="sec-models" style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+      <div class="board-head">
+        <span class="board-bar" style="background:#0E8A87"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0E8A87" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg></span>
+        <span class="board-name">生成AIモデル</span>
+        <span class="board-tag">01 SIGNALS</span>
+      </div>
+      <p class="board-intro">Google CloudがModel GardenでOpenAIモデルの提供を始めたことで、生成AI基盤は単一モデル依存から、用途に応じて複数モデルを使い分ける「マルチモデル」時代へさらに進みました。クラウド事業者側は自社モデル中心の戦略を保ちながらも他社モデルを取り込み、企業側は既存の契約や課金の枠内で選択肢を広げやすくなっています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-1.html">Google Cloudが<mark style="background:#0E8A8726">OpenAI</mark>モデルを<mark style="background:#0E8A8726">Model Garden</mark>で提供開始、マルチモデル戦略を一段と前進</a></h3>
+          <ul class="lines"><li>Google CloudがOpenAIモデル3種を先行提供する</li><li>企業はModel Garden経由で使い分けを進める</li><li>Gemini中心の戦略に選択肢を加える</li></ul>
+          <a class="readmore" href="articles/models-1.html" data-gc="click/models-1">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-cloud" style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+      <div class="board-head">
+        <span class="board-bar" style="background:#3654D6"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3654D6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg></span>
+        <span class="board-name">クラウド</span>
+        <span class="board-tag">02 SIGNALS</span>
+      </div>
+      <p class="board-intro">今日のクラウド分野は、単なる利用拡大から「コスト最適化」と「運用の統合・高度化」へ関心が移っています。AWSでは料金削減やRI/SP活用など実務的なコスト管理が重視される一方、求人面ではAWS/Azure/GCPを横断しつつ、AIデータセンターやM365、SOC/SIEMまで一体で扱える人材が求められています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+          <h3><a href="articles/cloud-1.html"><mark style="background:#3654D626">AWS</mark>コスト最適化の実務知見が公開、<mark style="background:#3654D626">Startup</mark>向けの料金削減と<mark style="background:#3654D626">RI/SP</mark>活用が焦点に</a></h3>
+          <ul class="lines"><li>Startup向けの節約策を整理する。</li><li>RI/SPの使い分けを見直す。</li><li>運用最適化を継続して削減する。</li></ul>
+          <a class="readmore" href="articles/cloud-1.html" data-gc="click/cloud-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+          <h3><a href="articles/cloud-2.html"><mark style="background:#3654D626">AWS</mark>/<mark style="background:#3654D626">Azure</mark>/<mark style="background:#3654D626">GCP</mark>を横断する人材需要が拡大、AIデータセンターとセキュリティ運用が一体化へ</a></h3>
+          <ul class="lines"><li>AWS・Azure・GCPをまたぐ運用力が求められる</li><li>AI基盤とSOC運用の統合が進んでいる</li><li>M365まで含む横断支援が求人で増える</li></ul>
+          <a class="readmore" href="articles/cloud-2.html" data-gc="click/cloud-2">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-devtools" style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+      <div class="board-head">
+        <span class="board-bar" style="background:#8A3FE0"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A3FE0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg></span>
+        <span class="board-name">AI開発ツール</span>
+        <span class="board-tag">01 SIGNALS</span>
+      </div>
+      <p class="board-intro">今日の「AI開発ツール」分野では、単体のAIコーディング支援から、複数エージェントを束ねて並列に動かす開発環境へと進化が進んでいるのが大きな流れです。特にOrcaのようなADEは、自前のサブスクリプションでエージェントを運用しつつ、worktree分離やJupyter連携、リモート実行まで含めて実務向けの開発基盤として存在感を強めています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-1.html">AIエージェント開発環境「<mark style="background:#8A3FE026">Orca</mark>」登場、複数エージェントを束ねる<mark style="background:#8A3FE026">ADE</mark>として注目</a></h3>
+          <ul class="lines"><li>Orcaは複数エージェントを束ねるADEです。</li><li>Claude Codeなどを自分の契約で動かせます。</li><li>worktree分離やJupyter対応も拡充しています。</li></ul>
+          <a class="readmore" href="articles/devtools-1.html" data-gc="click/devtools-1">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-global" style="--cat-light:#C2871F;--cat-dark:#96690E;--hl:#C2871F26">
+      <div class="board-head">
+        <span class="board-bar" style="background:#C2871F"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C2871F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg></span>
+        <span class="board-name">欧米動向</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">欧米のAI動向は、競争の軸が「モデル開発」から「インフラ整備・規制適合・資本調達」の三つに広がっているのが本日のポイントです。欧州ではNvidiaが主権AIと産業実装を後押しする一方、EUのAI Act運用が本格化して透明性や安全性の監督が強まり、米国ではOpenAIやAnthropicを中心に巨額資金調達とIPO観測が加速しています。つまり、技術競争と同時に、欧州は規制下での競争力確保、米国は資金力を背景にした拡大競争が鮮明になっています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#96690E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg>欧米動向</span>
+          <h3><a href="articles/global-1.html">NvidiaのヒュアンCEO、欧州に「<mark style="background:#C2871F26">主権AI</mark>」投資を促進　独では<mark style="background:#C2871F26">産業AI</mark>の実装を加速</a></h3>
+          <ul class="lines"><li>フアン氏が欧州に主権AI投資を促した</li><li>独では産業AI導入支援が前進した</li><li>EUは規制と競争力の両立を迫られる</li></ul>
+          <a class="readmore" href="articles/global-1.html" data-gc="click/global-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#96690E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg>欧米動向</span>
+          <h3><a href="articles/global-2.html">EUの<mark style="background:#C2871F26">AI Act</mark>運用が本格化、<mark style="background:#C2871F26">AI Office</mark>が<mark style="background:#C2871F26">OpenAI</mark>や<mark style="background:#C2871F26">Anthropic</mark>に情報要求</a></h3>
+          <ul class="lines"><li>EU AI Officeが情報要求を送り始めた。</li><li>焦点は安全性と外部評価、利用監視だ。</li><li>エージェント事故が規制解釈を試す。</li></ul>
+          <a class="readmore" href="articles/global-2.html" data-gc="click/global-2">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#96690E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg>欧米動向</span>
+          <h3><a href="articles/global-3.html"><mark style="background:#C2871F26">Anthropic</mark>のIPO観測と<mark style="background:#C2871F26">OpenAI</mark>の<mark style="background:#C2871F26">30億ドル</mark>調達が、欧米AI資金競争を一段と熱くする</a></h3>
+          <ul class="lines"><li>OpenAIは30億ドル級調達を急ぐ。</li><li>AnthropicのIPO観測が11月に高まる。</li><li>両社の1兆ドル級評価が焦点だ。</li></ul>
+          <a class="readmore" href="articles/global-3.html" data-gc="click/global-3">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+  </main>
+</div>
+
+<section class="contact">
+  <div class="dispatch">
+    <div class="dispatch-head"><span class="d-dot"></span>TRANSMIT · 作者へのシグナル</div>
+    <div class="dispatch-body">
+      <h2>あなたが最も知りたいテーマは？</h2>
+      <p>取り上げてほしいトピック・業界・企業のご要望、記事へのご相談など、お気軽にどうぞ。</p>
+      <form class="contact-form" action="https://formsubmit.co/shintboku@gmail.com" method="POST" data-gc="click/formsubmit">
+        <input type="hidden" name="_subject" value="[News Digest] お問い合わせ・ご要望">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ追ってご連絡します。（AI・クラウド ニュースダイジェスト）">
+        <input type="hidden" name="_next" value="https://shintbokuf.github.io/shinmews20260701/">
+        <div class="fields">
+          <label class="field"><span>Name</span><input type="text" name="name" placeholder="お名前（任意）" autocomplete="name"></label>
+          <label class="field"><span>Email</span><input type="email" name="email" placeholder="返信希望の方（任意）" autocomplete="email"></label>
+        </div>
+        <label class="field"><span>Message</span><textarea name="message" placeholder="知りたいテーマ・ご相談内容をご記入ください" required></textarea></label>
+        <button type="submit" class="contact-btn">送信する&nbsp;→</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク（原文）をご確認ください。</footer>
+
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest('[data-gc]'); if(!a) return;
+  if(window.goatcounter&&window.goatcounter.count){
+    window.goatcounter.count({path:a.getAttribute('data-gc'),title:'click:'+a.getAttribute('data-gc'),event:true});
+  }
+});
+</script>
+</body>
+</html>
