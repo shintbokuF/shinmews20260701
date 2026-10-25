@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Microsoft、企業向けAIエージェントにリスクスコアと動的権限を導入　Claude CodeやCopilotなどローカルエージェントの検出対象も拡大 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+    <span class="article-date">2026-10-25</span>
+  </div>
+  <h1 class="article-title">Microsoft、企業向けAIエージェントにリスクスコアと動的権限を導入　<mark style="background:#8A3FE026">Claude Code</mark>やCopilotなどローカルエージェントの検出対象も拡大</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li>MicrosoftはAIエージェントの権限を動的に絞る</li><li>リスクスコアを継続更新して危険度を見直す</li><li>Claude CodeやCopilotの検出対象を60種に拡大</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Microsoftは、企業内で動くAIエージェントを“常時評価”する新しいセキュリティ制御をProject Perceptionに追加した。中核は、エージェントごとにリスクスコアを更新し続ける仕組みと、タスクや期間に応じて権限を動的に絞り込む仕組みだ。あわせて、Claude Code、OpenAI Codex、GitHub Copilotを含むローカルエージェントの検出対象を60種類まで広げ、見えないエージェントまで把握しようとしている。[1][2][4][5][6][7]</p>
+    <p class="sum-en">Microsoft has added continuous risk scoring and dynamic permissions to Project Perception, treating enterprise AI agents as a potential insider-risk surface. It also expands local-agent discovery to 60 supported types, including Claude Code, OpenAI Codex, and GitHub Copilot.[1][2][4][5][6][7]</p>
+  </div>
+
+  <div class="article-body"><p>MicrosoftがProject Perceptionで打ち出したのは、AIエージェントを“入れたら終わり”の存在として扱わず、動いている間も監視し続ける前提の統制だ。今回の柱は、エージェントの挙動をもとにリスクスコアを継続更新する「Dynamic Agent Risk」と、タスクや継続時間に応じて権限を変える「Dynamic Permissions」で、どちらも組織やユーザーの許可範囲の中で動作を抑える方向に振っている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#8A3FE0">[8]</a></sup></p>
+<p>特に注目点は、Microsoftがローカルで動く開発者向けエージェントの発見範囲を大きく広げたことだ。対象は追加の35種類を含め合計60種類となり、Claude Code、OpenAI Codex、GitHub Copilotといった開発現場で使われるツールも含まれる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup> つまり、クラウド上の管理されたエージェントだけでなく、各端末や開発マシンに潜む“見えにくいエージェント”まで可視化しようとしているわけだ。</p>
+<p>この路線の背景には、MicrosoftがAIエージェントを“インサイダー脅威”に近いものとして捉えていることがある。検索結果では、Dynamic Agent RiskがID、エンドポイント、データ、クラウド、ネットワーク、実行環境、エージェント活動のシグナルを統合して評価するとされ、単発の導入時点の判定ではなく、継続的に権限の妥当性を見直す設計だと説明されている。<sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup> また、Entra Agent IDの拡張や、エージェント実行をサンドボックス化するMXC、さらにGuardian Agentsの追加も触れられており、Microsoftは検知、識別、隔離、監督を一体で組み合わせる方向を鮮明にしている。<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#8A3FE0">[8]</a></sup></p>
+<p>開発者向けに見れば、これは便利なAgentフレームワークやコーディング支援ツールの普及が、そのまま企業セキュリティの新しい管理対象になったことを意味する。Claude Code、Cursor、GitHub Copilot、LangChain系のエージェント設計が広がるほど、企業側は「誰が動かしているか」だけでなく「いま何をしてよいか」を細かく制御する必要がある。Microsoftの今回の動きは、AIエージェント活用の拡大に対し、権限を固定せず、危険度に応じて縮めるという実務的な答えを提示したものだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup></p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://t.co/DZvYtfN3pP" target="_blank" rel="noopener noreferrer">Microsoft Adds Risk Scoring and Dynamic Permissions for Enterprise AI Agents</a>
+        <span class="ref-source">— Microsoft</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring" target="_blank" rel="noopener noreferrer">Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring - SecurityWeek</a>
+        <span class="ref-source">— SecurityWeek</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://www.eweek.com/news/microsoft-project-perception-ai-agent-controls" target="_blank" rel="noopener noreferrer">Microsoft&#39;s Project Perception Adds Controls for AI Agents Acting as Insiders</a>
+        <span class="ref-source">— eWeek</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.neoteo.com/en/microsoft-outlines-a-continuous-security-loop-for-ai-agents" target="_blank" rel="noopener noreferrer">Microsoft AI agent security: How the controls connect</a>
+        <span class="ref-source">— NeoTeo</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://futurumgroup.com/insights/microsoft-points-project-perception-at-the-agents-already-inside" target="_blank" rel="noopener noreferrer">Project Perception Targets Enterprise AI Agents</a>
+        <span class="ref-source">— Futurum Group</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://forkast.news/microsoft-treats-ai-agents-as-insiders-and-the-containment-layer-just-arrived" target="_blank" rel="noopener noreferrer">Microsoft Treats AI Agents as Insiders — and the Containment Layer Just Arrived</a>
+        <span class="ref-source">— Forkast</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://cyberpress.org/microsoft-warns-ai-agents-insider-threats" target="_blank" rel="noopener noreferrer">Microsoft Warns AI Agents Could Become Insider Threats to Enterprise Security</a>
+        <span class="ref-source">— CyberPress</span>
+      </li>
+      
+      <li id="ref-8">
+        <a href="https://www.unite.ai/microsoft-adds-guardian-agents-to-project-perception-for-ai-insider-risk" target="_blank" rel="noopener noreferrer">Microsoft Adds Guardian Agents to Project Perception for AI Insider Risk</a>
+        <span class="ref-source">— Unite.AI</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>

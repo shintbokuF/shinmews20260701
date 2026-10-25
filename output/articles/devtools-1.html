@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AIエージェント開発環境「Orca」登場、複数エージェントを束ねるADEとして注目 | AI・クラウド ニュースダイジェスト</title>
+<title>Anthropic、仕事向け新エージェント「Claude Duet」を発表　待機リスト制の研究プレビューで“エージェント本体”競争に参戦 | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,26 +19,25 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-10-24</span>
+    <span class="article-date">2026-10-25</span>
   </div>
-  <h1 class="article-title">AIエージェント開発環境「<mark style="background:#8A3FE026">Orca</mark>」登場、複数エージェントを束ねる<mark style="background:#8A3FE026">ADE</mark>として注目</h1>
+  <h1 class="article-title">Anthropic、仕事向け新エージェント「<mark style="background:#8A3FE026">Claude Duet</mark>」を発表　待機リスト制の研究プレビューで“エージェント本体”競争に参戦</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Orca</mark>は複数エージェントを束ねるADEです。</li><li><mark style="background:#8A3FE026">Claude Code</mark>などを自分の契約で動かせます。</li><li><mark style="background:#8A3FE026">worktree</mark>分離やJupyter対応も拡充しています。</li></ul>
+    <ul><li><mark style="background:#8A3FE026">Claude Duet</mark>を研究プレビューで公開した。</li><li>米国の<mark style="background:#8A3FE026">Pro/Max</mark>加入者から待機登録を始めた。</li><li>仕事を先回りする常駐型<mark style="background:#8A3FE026">エージェント</mark>を狙う。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Orcaは、複数のコーディングエージェントを同時に扱えるデスクトップ向けAI開発環境（ADE）として公開された。GitHubの説明では、Claude Codeのようなエージェントを自分のサブスクリプションで動かせる点や、デスクトップ・モバイル・リモート実行への対応がうたわれている。更新履歴や紹介記事からは、並列実行、worktree分離、Jupyter連携など、開発者向けの実務機能を急速に拡張している様子が見える。</p>
-    <p class="sum-en">Orca is presented as a desktop AI development environment (ADE) for orchestrating fleets of coding agents in parallel. GitHub states it can run agents such as Claude Code with the user’s own subscription across desktop, mobile, and remote runtime, while recent changelog entries highlight features like direct terminal prompts, notebooks, and improved agent workflows.</p>
+    <p class="sum-ja">Anthropicは、仕事の進行を先回りして支える新エージェント「Claude Duet」の研究プレビューを公開し、まずは米国のClaude Pro/Max加入者向け待機リストから提供を始めた。日次ブリーフや連携アプリの監視など、単なる会話AIではなく“作業を代行・継続する常駐型”の性格が強く、開発者向けAIツール全体の競争軸を押し広げそうだ。</p>
+    <p class="sum-en">Anthropic has launched a research preview waitlist for Claude Duet, a new work-focused agent initially available to U.S. Claude Pro and Max subscribers. With daily briefings and proactive monitoring of connected apps, it signals a shift from chatbots to persistent, task-running agents in the developer and workplace AI market.</p>
   </div>
 
-  <div class="article-body"><p>AI開発ツールの世界で、単体のコーディング補助から「複数エージェントを束ねて回す」方向への進化が目立っている。その中でOrcaは、GitHub上で「a fleet of agents」を扱う場所と説明されるデスクトップ向けAI開発環境（ADE）として登場した。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> いわば、Claude Codeのような個別のエージェントを、ひとつの作業環境の中で同時並行に走らせるための司令塔だ。</p>
-<p>GitHubの説明で印象的なのは、Orcaが「自分のサブスクリプションで」coding agentを動かせるとしている点だ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> これは、開発者ツールが各社のモデルやエージェントを“自前のIDE機能”として囲い込むのではなく、既存の契約を活かして実行基盤だけを提供する方向に寄っていることを示している。さらに、デスクトップだけでなくモバイルやリモートランタイムにも対応しているため、ローカルPC上の作業に閉じず、外出先や遠隔環境からもエージェント群を扱える設計になっている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
-<p>実運用面で重要なのは、複数エージェントが同じリポジトリを触るときの衝突をどう避けるかだが、紹介記事ではOrcaが各タスクに個別のgit worktreeを割り当て、互いのファイルを汚さない仕組みが強調されている。<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup> さらに、1つのプロンプトを複数エージェントに投げ、差分の各行にコメントし、そのままPRを開けるとされており、単なる“チャットUI”ではなく、レビューと統合まで含めた開発導線を意識した製品だと分かる。<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup></p>
-<p>機能追加のスピードも速い。Changelogでは、2026年9月末にレコency順のセッション検索、直接ターミナルに送るエージェントプロンプト、永続的なリモートスクロールバックが入り、続く9月27日にはインタラクティブなJupyter notebook、composerのコンテキスト利用、ZCode agent harnessが加わった。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup> これは、Orcaが単に複数エージェントを並べるだけでなく、端末・ノートブック・コンテキスト管理をまたいで実務向けに磨き込まれていることを示す。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p>
-<p>また、別の紹介ではOrcaを「10〜100のcoding agentsを同時実行する」ための包括的なデスクトップAI開発環境と位置づけている。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup> これが事実なら、Orcaの狙いは、個人向けの軽量エージェント操作にとどまらず、大量のタスクを並列に回しながら結果を比較・統合する“エージェントオーケストレーション”にある。Open source alternativesのまとめでも、まだ初期段階で不具合を前提にした試験運用向けとされており、安定した本番ツールというよりは、先端的な試行をいち早く試したい個人開発者に向く立ち位置と読める。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup></p>
-<p>Claude Code、Cursor、GitHub Copilot、LangChainといった開発者向けAIツールやフレームワークは、それぞれ補完、IDE統合、エージェント構築で競ってきたが、Orcaはその上に「複数エージェントを束ねる実行環境」という層を作ろうとしている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup> 個々のモデル性能だけでなく、並列化、分業、worktree分離、レビュー、PR作成までをひと続きにすることで、AI支援開発の焦点を“賢い応答”から“チームとして回る開発システム”へ押し広げようとしている点が、Orcaの最大の特徴と言える。</p></div>
+  <div class="article-body"><p>Anthropicが発表した「Claude Duet」は、仕事を抱え込む人向けに設計された新しいAIエージェントだ。発表は2026年10月21日で、まずは米国のClaude ProとMax加入者を対象に、研究プレビューの待機リスト制で提供が始まった <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p>
+<p>注目点は、Duetが単なる対話アプリではなく、ユーザーの作業に“先回りして”関与するよう設計されていることだ。各種ソースは、接続したアプリを監視し、プロンプトを待たずに仕事を引き取る、あるいは日次ブリーフを返すといった性格を伝えている <sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。テキストのやり取りで都度指示する従来型AIよりも、常駐して状況を見張る「エージェント本体」に近い立ち位置と言える。</p>
+<p>対象ユーザーも明確だ。Anthropicは、複数のタスクを日々さばくプロフェッショナルや小規模事業者向けだと説明しており、Times of Indiaも同様に、業務量が多い人を想定した設計としている <sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。CNBCも、小規模事業者と専門職向けのAIエージェントとして紹介しており、コンシューマー向けの汎用アシスタントというより、仕事の実務に深く入る製品として位置づけられている <sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。</p>
+<p>技術面では、DuetがClaude Opus 5.5上で動くと複数ソースが伝えている点も重要だ <sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup>。つまりAnthropicは、モデルの性能競争だけでなく、その上に乗る“エージェント体験”を磨く方向に踏み込んだことになる。Claude Codeのような開発者向け作業支援の延長線上でも、今後は「どのモデルが賢いか」だけでなく、「どこまで仕事を任せられるか」が評価軸になっていく可能性が高い。</p>
+<p>市場文脈でも、Duetの意味は大きい。CNBCは、Anthropicの発表がOpenAIのDotsやMetaのMuseと競合しうると報じている <sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。開発者ツールの領域では、CursorやGitHub Copilot、LangChain系のフレームワークが“作る”体験を競ってきたが、Duetのような常駐型エージェントは、その上流で「仕事を回す」層を取りにいく。AI開発ツールの競争は、コード補完からエージェント本体へと、明らかに次の段階に入りつつある。</p></div>
 
   
   <div class="references">
@@ -46,28 +45,33 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://github.com/stablyai/orca" target="_blank" rel="noopener noreferrer">GitHub - stablyai/orca: Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime. · GitHub</a>
-        <span class="ref-source">— GitHub</span>
+        <a href="https://techmymoney.com/2026/10/23/claude-duet-us-pro-max-research-preview-waitlist" target="_blank" rel="noopener noreferrer">Claude Duet Opens US Pro and Max Research Preview Waitlist</a>
+        <span class="ref-source">— TechMyMoney</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://www.franksworld.com/2026/10/22/local-ai-mastery-unleashing-the-power-of-orcas-parallel-agent-orchestration" target="_blank" rel="noopener noreferrer">Local AI Mastery: Unleashing the Power of Orca&#39;s Parallel ...</a>
-        <span class="ref-source">— franksworld.com</span>
+        <a href="https://thepcenthusiast.com/claude-duet-anthropic-ai-agent" target="_blank" rel="noopener noreferrer">Claude Duet Unveiled: Features, Price and Waitlist | ThePCEnthusiast</a>
+        <span class="ref-source">— The PC Enthusiast</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://www.opensourcealternatives.to/item/monocode" target="_blank" rel="noopener noreferrer">monocode: Open Source Alternative to Conductor and OpenAI Codex</a>
-        <span class="ref-source">— opensourcealternatives.to</span>
+        <a href="https://betanews.com/article/proactive-ai-agent-claude-duet" target="_blank" rel="noopener noreferrer">Claude Duet: Anthropic opens proactive AI agent preview</a>
+        <span class="ref-source">— BetaNews</span>
       </li>
       
       <li id="ref-4">
-        <a href="https://www.onorca.dev/changelog" target="_blank" rel="noopener noreferrer">Changelog — Orca</a>
-        <span class="ref-source">— onorca.dev</span>
+        <a href="https://timesofindia.indiatimes.com/technology/tech-news/anthropic-introduces-claude-duet-ai-agent-app-for-professionals-features-availability-and-more/articleshow/135106572.cms" target="_blank" rel="noopener noreferrer">Anthropic introduces Claude Duet AI agent app for professionals: Features, availability and more - The Times of India</a>
+        <span class="ref-source">— The Times of India</span>
       </li>
       
       <li id="ref-5">
-        <a href="https://www.instagram.com/p/Deyxl-mjrTo" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <span class="ref-source">— Instagram</span>
+        <a href="https://www.techi.com/anthropic-claude-duet-proactive-agent-opus-55" target="_blank" rel="noopener noreferrer">Anthropic Launches Claude Duet, a 6,000-Connector Proactive Agent on Opus 5.5</a>
+        <span class="ref-source">— Techi</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://www.cnbc.com/2026/10/21/anthropic-preview-of-claude-duet-personal-ai-agent-take-on-muse-dots.html" target="_blank" rel="noopener noreferrer">Anthropic preview of Claude Duet, personal AI agent take on Muse, Dots</a>
+        <span class="ref-source">— CNBC</span>
       </li>
       
     </ol>
