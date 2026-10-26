@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="ticker" aria-label="本日のニュース速報">
+  <div class="ticker-live"><span class="live-dot" aria-hidden="true"></span><span>LIVE</span></div>
+  <div class="ticker-track">
+    <span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // Hi3D V1.0をオープンソース化、実運用で検証されたAI 3Dモデルが公開へ</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // プリペアードがRecACE plusの活用企業を栃木県で初募集、カスハラ対策の実証へ</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Google CloudがOpenAIモデルをModel Gardenで提供開始　Geminiと並ぶ“マルチモデル”を加速</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropicの新モデルが示す「意図読解」時代　生成AI競争は明示されない目標の推論へ</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、常時稼働の先回り支援エージェント「Claude Duet」を公開　ただし実利用はまだ限定的</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // Amazon、PyTorch開発者向けにTrainium対応を簡略化する「TorchNeuron」を公開—Nvidia依存脱却へ一段前進</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // Amazon、NvidiaのGB300サーバーラックを前倒し受領へ—AWSのAI向け調達と電力制約が鮮明に</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AIエージェント開発環境「Orca」がADEとして再整理、VS Code拡張や並列実行まで含む開発基盤に</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // Claude CodeやCursorが求人要件に――生成AI駆動開発ツールの実務導入が「使える前提」に</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // コミューン、技術スタックに Claude Code・Cursor・GitHub Copilot を明記　AIツール前提の開発体制が見える化</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // AI agents導入でHRの役割が再設計へ、雇用・評価・権限管理の見直しが焦点に</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // 米議会がAIディスティレーション攻撃対策法案、NISTにガイダンス策定を求める</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // AI失業リスクに備え、米議会で安全網強化を再検討</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // Hi3D V1.0をオープンソース化、実運用で検証されたAI 3Dモデルが公開へ</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // プリペアードがRecACE plusの活用企業を栃木県で初募集、カスハラ対策の実証へ</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Google CloudがOpenAIモデルをModel Gardenで提供開始　Geminiと並ぶ“マルチモデル”を加速</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropicの新モデルが示す「意図読解」時代　生成AI競争は明示されない目標の推論へ</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、常時稼働の先回り支援エージェント「Claude Duet」を公開　ただし実利用はまだ限定的</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // Amazon、PyTorch開発者向けにTrainium対応を簡略化する「TorchNeuron」を公開—Nvidia依存脱却へ一段前進</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // Amazon、NvidiaのGB300サーバーラックを前倒し受領へ—AWSのAI向け調達と電力制約が鮮明に</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AIエージェント開発環境「Orca」がADEとして再整理、VS Code拡張や並列実行まで含む開発基盤に</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // Claude CodeやCursorが求人要件に――生成AI駆動開発ツールの実務導入が「使える前提」に</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // コミューン、技術スタックに Claude Code・Cursor・GitHub Copilot を明記　AIツール前提の開発体制が見える化</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // AI agents導入でHRの役割が再設計へ、雇用・評価・権限管理の見直しが焦点に</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // 米議会がAIディスティレーション攻撃対策法案、NISTにガイダンス策定を求める</span><span class="ticker-item"><b style="background:#C2871F"></b>欧米動向 // AI失業リスクに備え、米議会で安全網強化を再検討</span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="mast-left">
+    <div>
+      <h1 class="mast-title">AI・クラウド<br>ニュースダイジェスト</h1>
+      <div class="mast-sub">DAILY INTELLIGENCE DISPATCH</div>
+    </div>
+    <div class="stamp" aria-hidden="true">
+      <div class="arc">◦ RECEIVED ◦</div>
+      <div class="d">2026.10.26</div>
+      <div class="t">TRANSMISSION<br>RECEIVED</div>
+    </div>
+  </div>
+  <nav class="mast-nav">
+    <a class="ghost-btn" href="https://shintbokuf.github.io/" target="_blank" rel="noopener" data-gc="nav/profile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+      創作者プロフィール
+    </a>
+    <a class="ghost-btn" href="../index.html" data-gc="nav/archive">過去のダイジェスト
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </nav>
+</header>
+
+<nav class="chipbar" aria-label="分類">
+  <a class="chip" href="#sec-japan"><span class="side-dot" style="background:#D6314B"></span>日本国内<span class="signal" style="height:16px"><i style="height:10px;background:#D6314B"></i><i style="height:7px;background:#D6314B"></i></span></a><a class="chip" href="#sec-models"><span class="side-dot" style="background:#0E8A87"></span>生成AIモデル<span class="signal" style="height:16px"><i style="height:10px;background:#0E8A87"></i><i style="height:7px;background:#0E8A87"></i><i style="height:14px;background:#0E8A87"></i></span></a><a class="chip" href="#sec-cloud"><span class="side-dot" style="background:#3654D6"></span>クラウド<span class="signal" style="height:16px"><i style="height:10px;background:#3654D6"></i><i style="height:7px;background:#3654D6"></i></span></a><a class="chip" href="#sec-devtools"><span class="side-dot" style="background:#8A3FE0"></span>AI開発ツール<span class="signal" style="height:16px"><i style="height:10px;background:#8A3FE0"></i><i style="height:7px;background:#8A3FE0"></i><i style="height:14px;background:#8A3FE0"></i></span></a><a class="chip" href="#sec-global"><span class="side-dot" style="background:#C2871F"></span>欧米動向<span class="signal" style="height:16px"><i style="height:10px;background:#C2871F"></i><i style="height:7px;background:#C2871F"></i><i style="height:14px;background:#C2871F"></i></span></a>
+</nav>
+
+<div class="layout">
+  <nav class="sidebar" aria-label="分類インデックス">
+    <div class="side-head">SIGNAL INDEX</div>
+    
+    <a class="side-row" href="#sec-japan">
+      <span class="side-dot" style="background:#D6314B"></span>
+      <span class="side-name">日本国内</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#D6314B"></i><i style="height:10px;background:#D6314B"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-models">
+      <span class="side-dot" style="background:#0E8A87"></span>
+      <span class="side-name">生成AIモデル</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#0E8A87"></i><i style="height:10px;background:#0E8A87"></i><i style="height:20px;background:#0E8A87"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-cloud">
+      <span class="side-dot" style="background:#3654D6"></span>
+      <span class="side-name">クラウド</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#3654D6"></i><i style="height:10px;background:#3654D6"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-devtools">
+      <span class="side-dot" style="background:#8A3FE0"></span>
+      <span class="side-name">AI開発ツール</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#8A3FE0"></i><i style="height:10px;background:#8A3FE0"></i><i style="height:20px;background:#8A3FE0"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-global">
+      <span class="side-dot" style="background:#C2871F"></span>
+      <span class="side-name">欧米動向</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#C2871F"></i><i style="height:10px;background:#C2871F"></i><i style="height:20px;background:#C2871F"></i></span>
+    </a>
+    
+  </nav>
+
+  <main class="main">
+  
+    <section class="board" id="sec-japan" style="--cat-light:#D6314B;--cat-dark:#AA2439;--hl:#D6314B26">
+      <div class="board-head">
+        <span class="board-bar" style="background:#D6314B"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D6314B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg></span>
+        <span class="board-name">日本国内</span>
+        <span class="board-tag">02 SIGNALS</span>
+      </div>
+      <p class="board-intro">本日は、AI技術の実運用・現場導入を広げる動きが目立ちました。3Dモデルのオープンソース化による開発・研究・企業への公開に加え、通話録音・要約AIをカスハラ対策へ転用する実証募集も始まり、既存AIの用途拡大が進んでいます。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-1.html"><mark style="background:#D6314B26">Hi3D</mark> <mark style="background:#D6314B26">V1.0</mark>をオープンソース化、実運用で検証されたAI 3Dモデルが公開へ</a></h3>
+          <ul class="lines"><li>Hi3D V1.0がオープンソース化された。</li><li>実運用で検証済みの3Dモデルとして公開する。</li><li>開発者・研究者・企業に広く開く。</li></ul>
+          <a class="readmore" href="articles/japan-1.html" data-gc="click/japan-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-2.html">プリペアードが<mark style="background:#D6314B26">RecACE plus</mark>の活用企業を<mark style="background:#D6314B26">栃木県</mark>で初募集、<mark style="background:#D6314B26">カスハラ</mark>対策の実証へ</a></h3>
+          <ul class="lines"><li>RecACE plusの活用企業を栃木で初募集する。</li><li>通話録音と自動要約でカスハラ対応を支える。</li><li>東京都でも同趣旨の募集が先行していた。[2]</li></ul>
+          <a class="readmore" href="articles/japan-2.html" data-gc="click/japan-2">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-models" style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+      <div class="board-head">
+        <span class="board-bar" style="background:#0E8A87"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0E8A87" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg></span>
+        <span class="board-name">生成AIモデル</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">生成AIモデル分野では、各社が単一モデルの性能競争から、用途や役割に応じて複数モデルを使い分ける「マルチモデル」化と、エージェント活用の高度化へと軸足を移しています。Google CloudのModel GardenへのOpenAIモデル追加や、Anthropicの意図読解モデル・常駐型支援エージェントの動きは、曖昧な指示を理解して先回りして動く能力と、企業内で安全に運用できる基盤整備が競争の中心になっていることを示しています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-1.html">Google Cloudが<mark style="background:#0E8A8726">OpenAI</mark>モデルを<mark style="background:#0E8A8726">Model Garden</mark>で提供開始　<mark style="background:#0E8A8726">Gemini</mark>と並ぶ“マルチモデル”を加速</a></h3>
+          <ul class="lines"><li>Google CloudがOpenAIモデル3種を追加した。</li><li>企業向けに私的プレビュー提供を始めた。</li><li>Codex連携で開発用途も広げる。</li></ul>
+          <a class="readmore" href="articles/models-1.html" data-gc="click/models-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-2.html"><mark style="background:#0E8A8726">Anthropic</mark>の新モデルが示す「意図読解」時代　生成AI競争は明示されない目標の推論へ</a></h3>
+          <ul class="lines"><li>Anthropicは不完全な指示から意図を推論するモデルを開発中と報じられた。</li><li>AIコーディングエージェントの範囲逸脱が、背景課題として浮上した。</li><li>生成AI競争の焦点は、実行力から意図読解へ移りつつある。</li></ul>
+          <a class="readmore" href="articles/models-2.html" data-gc="click/models-2">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-3.html">Anthropic、常時稼働の先回り支援エージェント「<mark style="background:#0E8A8726">Claude Duet</mark>」を公開　ただし実利用はまだ限定的</a></h3>
+          <ul class="lines"><li>AnthropicがClaude Duetを研究プレビュー公開した。</li><li>小規模事業者や専門職向けに先回り支援を狙う。</li><li>ただし利用は待機制で、権限管理が焦点だ。</li></ul>
+          <a class="readmore" href="articles/models-3.html" data-gc="click/models-3">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-cloud" style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+      <div class="board-head">
+        <span class="board-bar" style="background:#3654D6"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3654D6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg></span>
+        <span class="board-name">クラウド</span>
+        <span class="board-tag">02 SIGNALS</span>
+      </div>
+      <p class="board-intro">AWSは、AIインフラをNvidia依存のまま増強する一方で、自社チップTrainium向けの開発環境を整備することで、計算基盤の主導権を取り戻そうとしている。TorchNeuronの公開はその布石であり、既存のPyTorch資産を大きく崩さずにTrainiumへ移行しやすくすることで、長期的なコスト最適化と内製化を進める狙いがうかがえる。  
+同時に、GB300ラックの前倒し受領が示すように、AI需要に対する調達競争はなお激しく、データセンターの電力制約もボトルネックとして現実化している。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+          <h3><a href="articles/cloud-1.html">Amazon、<mark style="background:#3654D626">PyTorch</mark>開発者向けに<mark style="background:#3654D626">Trainium</mark>対応を簡略化する「<mark style="background:#3654D626">TorchNeuron</mark>」を公開—Nvidia依存脱却へ一段前進</a></h3>
+          <ul class="lines"><li>TorchNeuronでPyTorchの移行を簡略化する</li><li>既存の開発ツールをTrainiumで活かす</li><li>AWSはNvidia依存の差を縮めにいく</li></ul>
+          <a class="readmore" href="articles/cloud-1.html" data-gc="click/cloud-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+          <h3><a href="articles/cloud-2.html">Amazon、Nvidiaの<mark style="background:#3654D626">GB300</mark>サーバーラックを前倒し受領へ—<mark style="background:#3654D626">AWS</mark>のAI向け調達と電力制約が鮮明に</a></h3>
+          <ul class="lines"><li>AWSはGB300を前倒し受領する</li><li>一部拠点は電力不足で稼働できない</li><li>AI調達は電源制約と表裏一体</li></ul>
+          <a class="readmore" href="articles/cloud-2.html" data-gc="click/cloud-2">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-devtools" style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+      <div class="board-head">
+        <span class="board-bar" style="background:#8A3FE0"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A3FE0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg></span>
+        <span class="board-name">AI開発ツール</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">AI開発ツールは、単なる「コード補助」から、複数エージェントの並列実行や権限管理、VS Code連携まで含むADE（Agent Development Environment）として再定義されつつあり、開発基盤そのものへと進化しています。さらに Claude Code や Cursor、GitHub Copilot などが実務前提・採用要件に組み込まれ、AI支援開発は個人の便利ツールではなく、チーム標準の開発体制として定着し始めています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-1.html">AIエージェント開発環境「<mark style="background:#8A3FE026">Orca</mark>」が<mark style="background:#8A3FE026">ADE</mark>として再整理、VS Code拡張や並列実行まで含む開発基盤に</a></h3>
+          <ul class="lines"><li>OrcaをADEとして整理し直した。</li><li>複数エージェントを並列実行できる。</li><li>Git WorktreeとVS Codeもつなぐ。</li></ul>
+          <a class="readmore" href="articles/devtools-1.html" data-gc="click/devtools-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-2.html"><mark style="background:#8A3FE026">Claude Code</mark>や<mark style="background:#8A3FE026">Cursor</mark>が求人要件に――生成AI駆動開発ツールの実務導入が「使える前提」に</a></h3>
+          <ul class="lines"><li>Claude Codeなどが実務スキルとして求められる。</li><li>企業はAIエージェントの権限と危険度を管理する。</li><li>代替コーディングエージェントも開発現場で広がる。</li></ul>
+          <a class="readmore" href="articles/devtools-2.html" data-gc="click/devtools-2">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-3.html">コミューン、技術スタックに <mark style="background:#8A3FE026">Claude Code</mark>・<mark style="background:#8A3FE026">Cursor</mark>・<mark style="background:#8A3FE026">GitHub Copilot</mark> を明記　AIツール前提の開発体制が見える化</a></h3>
+          <ul class="lines"><li>コミューンがAI開発ツールを技術スタックに明記した。</li><li>Claude Code・Cursor・Copilotの併用が見える。</li><li>採用情報からAI前提の開発体制が読み取れる。</li></ul>
+          <a class="readmore" href="articles/devtools-3.html" data-gc="click/devtools-3">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-global" style="--cat-light:#C2871F;--cat-dark:#96690E;--hl:#C2871F26">
+      <div class="board-head">
+        <span class="board-bar" style="background:#C2871F"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#C2871F" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg></span>
+        <span class="board-name">欧米動向</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">欧米では、AI導入が単なる業務効率化ではなく、雇用設計や組織統治そのものを見直す段階に入っており、人事制度の再設計と権限管理の整備が大きな論点になっています。あわせて、AIモデルを悪用した攻撃への対策を制度化する動きと、AIによる雇用調整に備えた失業給付・再訓練などの安全網強化が進み、技術活用とリスク対応を同時に制度面で詰める流れが鮮明です。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#96690E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg>欧米動向</span>
+          <h3><a href="articles/global-1.html"><mark style="background:#C2871F26">AI agents</mark>導入でHRの役割が再設計へ、雇用・評価・権限管理の見直しが焦点に</a></h3>
+          <ul class="lines"><li>AI agents前提で人事制度を再設計する動きが強まった</li><li>職務記述は置換ではなく再定義へと向かう</li><li>評価と権限管理の見直しが実務課題になった</li></ul>
+          <a class="readmore" href="articles/global-1.html" data-gc="click/global-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#96690E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg>欧米動向</span>
+          <h3><a href="articles/global-2.html">米議会がAIディスティレーション攻撃対策法案、<mark style="background:#C2871F26">NIST</mark>にガイダンス策定を求める</a></h3>
+          <ul class="lines"><li>米議会でAI防御法案が超党派提出</li><li>NISTに対策ガイダンス策定を求める</li><li>公開AIの協業を損なわぬ定義が焦点</li></ul>
+          <a class="readmore" href="articles/global-2.html" data-gc="click/global-2">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#96690E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3v18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18M4.5 7.5c4.5 2.5 10.5 2.5 15 0M4.5 16.5c4.5-2.5 10.5-2.5 15 0"/></svg>欧米動向</span>
+          <h3><a href="articles/global-3.html"><mark style="background:#C2871F26">AI失業</mark>リスクに備え、米議会で<mark style="background:#C2871F26">安全網</mark>強化を再検討</a></h3>
+          <ul class="lines"><li>AI失業懸念を受け、米議会が給付拡充を検討する。</li><li>ロン・ワイデン氏が失業保険を最大52週へ延長する案を出す。</li><li>再訓練を含む安全網づくりが政策論点に浮上する。</li></ul>
+          <a class="readmore" href="articles/global-3.html" data-gc="click/global-3">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+  </main>
+</div>
+
+<section class="contact">
+  <div class="dispatch">
+    <div class="dispatch-head"><span class="d-dot"></span>TRANSMIT · 作者へのシグナル</div>
+    <div class="dispatch-body">
+      <h2>あなたが最も知りたいテーマは？</h2>
+      <p>取り上げてほしいトピック・業界・企業のご要望、記事へのご相談など、お気軽にどうぞ。</p>
+      <form class="contact-form" action="https://formsubmit.co/shintboku@gmail.com" method="POST" data-gc="click/formsubmit">
+        <input type="hidden" name="_subject" value="[News Digest] お問い合わせ・ご要望">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ追ってご連絡します。（AI・クラウド ニュースダイジェスト）">
+        <input type="hidden" name="_next" value="https://shintbokuf.github.io/shinmews20260701/">
+        <div class="fields">
+          <label class="field"><span>Name</span><input type="text" name="name" placeholder="お名前（任意）" autocomplete="name"></label>
+          <label class="field"><span>Email</span><input type="email" name="email" placeholder="返信希望の方（任意）" autocomplete="email"></label>
+        </div>
+        <label class="field"><span>Message</span><textarea name="message" placeholder="知りたいテーマ・ご相談内容をご記入ください" required></textarea></label>
+        <button type="submit" class="contact-btn">送信する&nbsp;→</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク（原文）をご確認ください。</footer>
+
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest('[data-gc]'); if(!a) return;
+  if(window.goatcounter&&window.goatcounter.count){
+    window.goatcounter.count({path:a.getAttribute('data-gc'),title:'click:'+a.getAttribute('data-gc'),event:true});
+  }
+});
+</script>
+</body>
+</html>
