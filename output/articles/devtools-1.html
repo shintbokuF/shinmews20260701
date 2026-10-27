@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AIエージェント開発環境「Orca」がADEとして再整理、VS Code拡張や並列実行まで含む開発基盤に | AI・クラウド ニュースダイジェスト</title>
+<title>Claude Code v2.1.303〜v2.1.310まとめ公開、サンドボックス修正と監視連携が前進 | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,21 +19,21 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-10-26</span>
+    <span class="article-date">2026-10-27</span>
   </div>
-  <h1 class="article-title">AIエージェント開発環境「<mark style="background:#8A3FE026">Orca</mark>」が<mark style="background:#8A3FE026">ADE</mark>として再整理、VS Code拡張や並列実行まで含む開発基盤に</h1>
+  <h1 class="article-title"><mark style="background:#8A3FE026">Claude Code</mark> v2.1.303〜<mark style="background:#8A3FE026">v2.1.310</mark>まとめ公開、サンドボックス修正と監視連携が前進</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Orca</mark>をADEとして整理し直した。</li><li><mark style="background:#8A3FE026">複数エージェント</mark>を並列実行できる。</li><li><mark style="background:#8A3FE026">Git Worktree</mark>とVS Codeもつなぐ。</li></ul>
+    <ul><li><mark style="background:#8A3FE026">権限</mark>まわりの穴を塞ぎ、誤動作を減らした。</li><li>主要クラウド連携で<mark style="background:#8A3FE026">Monitor</mark>対応を広げた。</li><li><mark style="background:#8A3FE026">自動設定</mark>と監視ログで運用性を高めた。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">AIエージェント開発環境「Orca」が、単なるチャットUIではなくADE（Agent Development Environment）として位置づけ直されています。複数エージェントの並列実行、Git Worktreeとの連携、そしてVS Code拡張やClaude Codeの活用まで視野に入れた“開発基盤”として整理され、AIに書かせる工程と人間が仕上げる工程を分離する考え方が見えてきます。</p>
-    <p class="sum-en">The AI agent development environment Orca is being reframed as an ADE (Agent Development Environment), not just a chat UI. It is presented as a development platform that includes parallel multi-agent execution, Git Worktree integration, and VS Code extensions, separating AI-driven coding from human finishing work.</p>
+    <p class="sum-ja">Claude Codeのv2.1.303〜v2.1.310で、権限チェックや長文コンパクションの不具合修正、AWS Bedrock/Vertex/Foundry向けMonitorツール対応、/auto-mode-setup追加などがまとまって見えてきました。開発者向けAIツールとしての実用性を底上げする更新が続いています。</p>
+    <p class="sum-en">Claude Code v2.1.303–v2.1.310 brings important fixes for sandboxing and Bash permission checks, adds Monitor tool support for Bedrock/Vertex/Foundry, and introduces /auto-mode-setup, improving day-to-day developer usability.</p>
   </div>
 
-  <div class="article-body"><p>AIエージェント開発の文脈で「Orca」が、ADE（Agent Development Environment）として再定義されている。検索結果からは、OrcaがAIにコードを書かせるための環境管理を担い、実際の仕上げはZedやVS Codeで人間が行う、という役割分担が示されている <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。つまり、Orcaは“AIが動く場所”というより、“AIが迷わず働ける開発基盤”として整理されている。\n\n注目すべきは、単にエージェントを動かすだけではなく、複数のAIエージェントを並列で扱う前提が見えている点だ。別ソースでは、ローカルのVS Code + Claude Codeから、ADE「Orca」で複数のAIエージェントを扱う構成へ移したことが語られており、Claude Codeを含む実運用の入口としてOrcaが使われていることがうかがえる <sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。これは、個々のAIツールを点で使うのではなく、Orcaをハブにして作業を分業・並列化する発想だと読める。\n\nさらに、検索結果の抜粋では、コンテキスト汚染の防止という効果も示されている <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。AIが参照する情報と、人間が最終確認する作業面を分けることで、生成物の品質管理をしやすくするわけだ。これにVS Codeのデバッガやステップ実行、Zedの高速リファクタリングのような“人間側の高精度作業場”を接続する構図が加わると、OrcaはAIエージェント時代のIDE代替というより、IDE群を束ねるオーケストレーション層に近い存在になる <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。\n\n開発者ツール全体で見ると、この動きはClaude Code、Cursor、GitHub Copilot、LangChainといった各プレイヤーが強化してきた「AIが書く」機能を、実務に耐える形へ再配置する流れの一部といえる。ただし、今回の検索結果だけで確認できるのは、OrcaがADEとして扱われ、VS Code拡張や複数エージェント並列実行、Git Worktree連携を含む開発基盤として見直されていることまでだ <sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。AIコーディングの主戦場は、単発の補完から、環境設計と実行管理へと移りつつある。</p></div>
+  <div class="article-body"><p>Claude Codeのv2.1.303〜v2.1.310は、派手な新機能の追加というより、実運用で効く“土台の補強”が目立つアップデートだった。Qiitaのまとめでは、v2.1.309でサンドボックスとBashのパーミッションチェックに大きな穴埋めが入り、v2.1.310ではBedrock / Vertex / FoundryでMonitorツールが使えるようになったと整理されている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。AI開発ツールは、モデル性能だけでなく、権限・監査・外部実行の安全性が使い勝手を左右するため、この種の修正は地味でも影響が大きい。\n\nとくにv2.1.306では、長いコンテキストやMCPの大規模なツール構成で“prompt is too long”系の誤判定が減り、v2.1.305でもVertexやBedrockなど複数プロバイダでの互換性問題が扱われたとされる<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。これは、Claude Codeが単なるローカル補助ツールではなく、クラウドAI基盤やMCP連携を含む開発フローの中核に入りつつあることを示す。プロンプト長やプロバイダ差分の吸収は、現場では「たまに壊れる」を減らすための重要な仕事だ。\n\nまた、v2.1.304で`/auto-mode-setup`が追加され、v2.1.307では`claude_code.safety_event`のOpenTelemetryイベントが加わったことも、運用面の前進として注目したい<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。前者は自動モードの導入を分かりやすくし、後者は安全関連の挙動を観測可能にする。AIエージェントや開発者向けツールでは、機能を増やすほど“何が起きたか追えること”が重要になるため、監視と自動化の両輪がそろってきた印象だ。\n\nGitHubのClaude Codeリリース一覧には、長文のコンパクション修正や、Windows環境でGit Bashがない場合のフック処理修正など、細かな不具合修正も確認できる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。さらに、関連するシステムプロンプト側の更新では、URLからのManaged Agentsオンボーディングが失敗した際の案内改善も見える<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。こうした周辺の改善まで含めると、Claude Codeは“使えるが時々つまずく”段階から、“管理しながら安心して回せる”段階へ寄せている途中といえる。CursorやGitHub Copilot、LangChain系の開発者ツールを比較する際も、生成精度だけでなく、権限管理・観測・マルチクラウド対応まで見る視点がますます重要になりそうだ。</p></div>
 
   
   <div class="references">
@@ -41,13 +41,28 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://plaza.rakuten.co.jp/hiroblue/diary/202610190004-amp" target="_blank" rel="noopener noreferrer">AIエージェント開発環境（ADE: Agent Development Environment）としての「Orca」について | hiroblue’s LIFE LOG - 楽天ブログ</a>
-        <span class="ref-source">— hiroblue’s LIFE LOG - 楽天ブログ</span>
+        <a href="https://github.com/anthropics/claude-code/releases" target="_blank" rel="noopener noreferrer">Releases · anthropics/claude-code · GitHub</a>
+        <span class="ref-source">— GitHub</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://www.gaipack.ai/blog/claude-code-cloud-session-migration" target="_blank" rel="noopener noreferrer">Claude Code をローカルからクラウドセッションに移した話</a>
-        <span class="ref-source">— gaipack.ai</span>
+        <a href="https://qiita.com/NaokiIshimura/items/9741b3f6e80a636f129c" target="_blank" rel="noopener noreferrer">Claude Code v2.1.303 - v2.1.310 リリースノートまとめ #AI - Qiita</a>
+        <span class="ref-source">— Qiita</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://github.com/Piebald-AI/claude-code-system-prompts/releases" target="_blank" rel="noopener noreferrer">Releases · Piebald-AI/claude-code-system-prompts · GitHub</a>
+        <span class="ref-source">— GitHub</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.havoptic.com/r/claude-code-2.1.305" target="_blank" rel="noopener noreferrer">Claude Code v2.1.305 | Havoptic</a>
+        <span class="ref-source">— Havoptic</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://www.havoptic.com/r/claude-code-2.1.306" target="_blank" rel="noopener noreferrer">Claude Code v2.1.306 | Havoptic</a>
+        <span class="ref-source">— Havoptic</span>
       </li>
       
     </ol>
