@@ -1,0 +1,397 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T02:03:48.631939+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "新冷媒向けヒートポンプ設計にAI実証、エアコン脱炭素化を後押し",
+          "summary_ja": "複雑な熱と流体の振る舞いをAIで高速・高精度に予測し、低GWP冷媒に対応するヒートポンプ設計を支援する実証開発が動き出します。エアコンなどの脱炭素化を加速し、市場投入の前倒しにつなげる狙いです。",
+          "summary_en": "A demonstration project will use AI to rapidly and accurately predict complex heat and fluid behavior, supporting heat pump design for low-GWP refrigerants. The goal is to accelerate decarbonization of air conditioners and shorten time to market.",
+          "three_lines": [
+            "AIで熱流体を予測し、設計期間を短縮する",
+            "低GWP冷媒対応で、空調の脱炭素化を進める",
+            "新冷媒の製品化を急ぎ、市場投入を後押しする"
+          ],
+          "body_ja": "エアコンをはじめとする空調機器の脱炭素化に向けて、ヒートポンプの設計を流体シミュレーションAIで支援する実証開発が始まります。ASCII.jpの報道によれば、複雑な熱と流体の動きをAIで高速かつ高精度に予測し、地球温暖化への影響を抑えた「低GWP冷媒」に対応する製品開発を効率化し、市場投入の加速を目指す構想です[1][2]。\n\n今回のポイントは、単なる省エネ家電の改良ではなく、冷媒そのものの転換を前提に設計開発を組み替えるところにあります。従来は試作と評価を重ねながら性能を詰める必要がありましたが、AIで熱流体挙動を事前に予測できれば、開発の手戻りを減らし、新冷媒への移行をより現実的にします[2]。空調は国内でも利用規模が大きく、ここでの設計高速化は脱炭素の実装を後押しする意味を持ちます。\n\nまた、低GWP冷媒への対応は、環境対応だけでなく、製品競争力にも直結します。市場投入を早めることができれば、メーカーは新冷媒対応機の展開を前倒ししやすくなり、結果として空調分野全体の移行速度も上がります[2]。政府・産業界が進める脱炭素施策の文脈でも、AIを設計工程に組み込む今回の取り組みは、実装段階の支援策として注目されます。\n\n今回の報道から読み取れるのは、AIの役割が「生成」や「対話」だけにとどまらず、複雑な物理現象の設計最適化へ広がっていることです。とりわけ空調・熱交換・冷媒の領域は、日本のものづくりが強みを持つ分野でもあり、AIを使った設計支援が広がれば、脱炭素と競争力強化を同時に進める手段になり得ます[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/biz/202610",
+              "source": "ASCII.jp"
+            },
+            {
+              "id": 2,
+              "title": "エアコンなどの脱炭素化を加速、新冷媒向けヒートポンプ設計を支援する流体シミュレーションAIの実証開発へ",
+              "url": "https://ascii.jp/elem/000/004/446/4446065",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-10-31",
+          "category": "japan",
+          "title_highlights": [
+            "低GWP",
+            "ヒートポンプ"
+          ],
+          "three_lines_highlights": [
+            "AI",
+            "低GWP",
+            "市場投入"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "ソーシャルパス、総務省の令和8年度実証事業に採択　偽・誤情報対策の技術開発を始動",
+          "summary_ja": "株式会社ソーシャルパスが、総務省の令和8年度「インターネット上の偽・誤情報等への対策技術の開発・実証事業」に採択され、事業を開始しました。総務省関連の支援施策が並ぶ中で、生成AI時代の情報環境を支える日本発の対策技術に注目が集まります。",
+          "summary_en": "SocialPath has been selected for Japan’s MIC FY2026 project to develop and demonstrate technologies against online misinformation and disinformation, marking the start of the initiative. The move highlights growing public-sector support for trust and safety technologies in the AI era.",
+          "three_lines": [
+            "ソーシャルパスが総務省事業に採択された。",
+            "偽・誤情報対策の実証開発を始める。",
+            "AI時代の情報信頼性強化が焦点になる。"
+          ],
+          "body_ja": "株式会社ソーシャルパスが、総務省の令和8年度「インターネット上の偽・誤情報等への対策技術の開発・実証事業」に採択され、事業を開始しました[1]。今回の案件は、単なる研究開発ではなく、実際の運用を見据えた「開発・実証」の枠組みで進む点に意味があります。\n\n背景には、生成AIの普及で情報生成のコストが下がる一方、誤情報や偽情報の拡散も加速しやすくなったという問題があります。総務省の公募に採択されたことは、こうした課題に対して、政府が民間の技術開発を後押ししながら対策の実装を急いでいる流れの一部と見ることができます[1]。\n\n関連して、同じASCII.jpの10月アーカイブでは、総務省の飯村参事官とアンドドット代表・茨木氏が地域DX・AXの支援施策や実装事例を語る対談記事も掲載されています[1]。この並びからは、総務省がAI活用の促進だけでなく、現場で使える制度設計や実装支援にも力点を置いていることがうかがえます。\n\nまた、ASCII.jpの同月アーカイブには、医療機関向けセミセルフレジの補助金採択や、AIモジュールの製品化など、補助金・実証・製品化が連動する事例が並んでいます[2]。ソーシャルパスの採択も、政府予算を通じて社会課題に対する技術を育てる日本のAI・デジタル政策の一例として位置づけられます。\n\n今回の発表で重要なのは、偽・誤情報対策が「情報モラル」の話にとどまらず、AI時代のセキュリティや社会基盤の話になっている点です。情報の真偽を見極める仕組みは、行政、企業、メディア、そして利用者の信頼を支えるインフラになりつつあります。ソーシャルパスの取り組みは、その実装を日本国内で前に進める試みとして注目されます[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/biz/202610",
+              "source": "ASCII.jp"
+            },
+            {
+              "id": 2,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/top/202610",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-10-31",
+          "category": "japan",
+          "title_highlights": [
+            "ソーシャルパス",
+            "総務省",
+            "偽・誤情報"
+          ],
+          "three_lines_highlights": [
+            "ソーシャルパス",
+            "総務省事業",
+            "偽・誤情報"
+          ],
+          "id": "japan-2"
+        },
+        {
+          "title": "総務省・飯村参事官とアンドドット茨木代表が対談　地域DX/AXの支援施策と実装の勘所",
+          "summary_ja": "総務省の飯村参事官とアンドドット代表・茨木氏の対談記事がASCII.jpに掲載された。記事一覧の記載からは、地域DX・AXを進めるための支援施策と実装事例が主題であり、行政の後押しと民間の現場知見をつなぐ論点が扱われたことがうかがえる。[1]",
+          "summary_en": "ASCII.jp lists a dialogue between a MIC official and anddot’s CEO on support measures and implementation cases for regional DX/AX, highlighting the connection between public policy and on-the-ground execution.[1]",
+          "three_lines": [
+            "総務省と民間が地域DX/AXの論点を共有した。",
+            "支援施策と実装事例を対談形式で整理した。",
+            "行政施策と現場実装の接点が焦点になった。"
+          ],
+          "body_ja": "ASCII.jpの2026年10月のアーカイブには、「総務省 飯村参事官とアンドドット代表・茨木が対談、地域DX・AXの支援施策と実装事例を語る」という記事が掲載されている。見出しから読み取れるのは、地域のデジタル化やAI活用を進めるうえで、総務省側の支援施策と、アンドドット側の実装知見を突き合わせる内容だという点だ。[1]\n\nこのテーマは、単にAI導入を促す一般論ではなく、「地域DX・AX」をどう現場に落とし込むかに重心がある。対談という形式は、制度設計の意図と、実際に事業や自治体、地域産業の中でどう機能するかを並べて整理しやすい。アーカイブの記載だけでも、行政の政策メッセージと実装事例を同じ文脈で扱う記事として位置づけられる。[1]\n\n同じASCII.jpのアーカイブには、総務省の「インターネット上の偽・誤情報等への対策技術の開発・実証事業」に採択された事例や、建設DX、流体シミュレーションAIの実証開発など、国の施策や実証を軸にした話題が並んでいる。[1] さらにトップ側のアーカイブでも、展示会やスタートアップ連携といった周辺の動きが確認でき、10月の紙面全体として「政策・実証・現場展開」を束ねる流れが見て取れる。[2]\n\n今回の対談記事は、その流れの中で、地域におけるDX/AXの実装をどう進めるかを示す一角とみるべきだろう。政府の支援施策があるだけでは十分ではなく、現場の課題設定、導入先との調整、そして継続運用まで含めた設計が重要になる。記事のタイトルが「支援施策」と「実装事例」を並べているのは、その両輪が不可欠だという問題意識の表れといえる。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/biz/202610",
+              "source": "ASCII.jp"
+            },
+            {
+              "id": 2,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/top/202610",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-10-31",
+          "category": "japan",
+          "title_highlights": [
+            "地域DX",
+            "AX"
+          ],
+          "three_lines_highlights": [
+            "地域DX/AX",
+            "支援施策",
+            "実装事例"
+          ],
+          "id": "japan-3"
+        }
+      ],
+      "summary": "本日は、総務省の支援施策を背景に、脱炭素・情報対策・地域DX/AXといった社会実装型テーマで、AIやデジタル技術を現場導入へつなげる動きが目立ちました。特に、低GWP冷媒に対応するヒートポンプ設計のAI実証や、偽・誤情報対策技術の開発など、次世代インフラや情報環境を支える基盤づくりが前進しています。行政の後押しと民間の実装知見を結びつけながら、日本発の技術を早期に社会へ展開する流れが強まっています。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Googleが次世代旗艦モデル「Gemini 4 Carbon」を発表、間接プロンプトインジェクション耐性を強化",
+          "summary_ja": "Googleは「Gemini 4 Carbon」を公開し、自社説明では「最強モデル」と位置づけた。セキュリティ面では、間接プロンプトインジェクションへの耐性が大きく前進し、Gray SwanのベンチマークではCarbonが検証された攻撃をすべて防いだとされる。",
+          "summary_en": "Google has unveiled Gemini 4 Carbon, positioning it as its strongest model. The model emphasizes stronger security, with Google reporting that it resisted every tested attack on Gray Swan’s indirect prompt injection benchmark.",
+          "three_lines": [
+            "Gemini 4 Carbonが旗艦モデルとして登場した。",
+            "間接プロンプト注入への耐性を大幅に高めた。",
+            "脆弱性検出と修復でも前世代を上回った。"
+          ],
+          "body_ja": "Googleは2026年10月、次世代の主力モデルとして「Gemini 4 Carbon」を発表した。Google自身はこのモデルを「最強モデル」と説明しており、特にサイバーセキュリティと長いタスクをこなす能力を前面に押し出している[3]。\n\n今回の発表で目を引くのは、単なる性能向上ではなく、安全性を大きく押し上げる方向で進化している点だ。Gray Swanの間接プロンプトインジェクション・ベンチマークでは、Carbonはテストされた攻撃をすべて退けたとされる[1]。間接プロンプトインジェクションとは、AIが読み込む文書や素材の中に悪意ある指示を埋め込み、システムの振る舞いを誘導しようとする攻撃で、AIエージェント時代に特に警戒されている手口だ[1]。\n\n同じくセキュリティ評価では、従来モデルのArgonが0.7%の攻撃成功率を記録したと報告されており、Carbonはこの種の攻撃への防御力を一段引き上げた格好だ[1]。さらにGoogleは、Carbonが脆弱性の発見、悪用、修復といったセキュリティ関連ベンチマークでも前世代を上回ると説明しており、モデルの役割が「答えるAI」から「防ぐAI」へ広がっていることを示している[2]。\n\n今回のGemini 4 Carbonは、生成AIモデル競争が単純な推論精度や速度だけでなく、攻撃耐性や安全なエージェント実装に軸足を移しつつあることを象徴する発表だ。企業利用が進むほど、外部データを読むAIがどれだけだまされにくいかは重要になる。Googleはその課題に対し、旗艦モデルそのものを安全性重視で設計し直すアプローチを打ち出したと言える[1][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google says Gemini 4 Carbon beats its predecessors at finding and fixing security flaws - Help Net Security",
+              "url": "https://www.helpnetsecurity.com/2026/10/29/google-gemini-4-carbon-model",
+              "source": "Help Net Security"
+            },
+            {
+              "id": 2,
+              "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+              "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+              "source": "The Hacker News"
+            },
+            {
+              "id": 3,
+              "title": "Introducing Gemini 4 Carbon",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+              "source": "Google Blog"
+            }
+          ],
+          "published_date": "2026-10-31",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 4",
+            "Carbon"
+          ],
+          "three_lines_highlights": [
+            "Carbon",
+            "間接注入",
+            "脆弱性"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Google、AI自律型の脆弱性対策サービス「Google AI Threat Defense」を発表　修正から監視まで自律実行",
+          "summary_ja": "Googleは、脆弱性の検出から修正、監視までをAIが自律的に進めるサイバー防御の新しい方向性を打ち出した。検索結果では、Gemini 4 Carbonが脆弱性検出テストで高い評価を受け、まず防御側と信頼できるパートナーに提供される流れが示されている。",
+          "summary_en": "Google announced an AI-driven threat defense approach that can autonomously detect, fix, and monitor vulnerabilities. The search results indicate that Gemini 4 Carbon scored highly in vulnerability-finding tests and is being rolled out first to cyber defenders and trusted partners.",
+          "three_lines": [
+            "Gemini 4 Carbonが脆弱性検出で高評価を得た。",
+            "Googleは防御側へ先行提供し、段階展開を進める。",
+            "AIが修正から監視まで自律実行する流れが見える。"
+          ],
+          "body_ja": "Googleが打ち出した「Google AI Threat Defense」は、単なる検知支援ではなく、脆弱性の発見から修正、さらに監視までをAIが自律的に回す防御モデルとして注目される。検索結果では、Gemini 4 Carbonがソフトウェア脆弱性を見つけるテストで88.2%という高いスコアを示し、Artificial Analysis Intelligence Indexでも首位に立ったとされる[2]。この数字は、AIがセキュリティ運用の“補助”から“実働主体”へ移りつつあることを象徴している。\n\nまた、提供の順序にもGoogleの慎重な姿勢が表れている。公開情報の抜粋では、このモデルはまずサイバー防御の担当者に渡され、その後、信頼できるパートナー、さらにビジネス用途へ広げていく流れが示されている[2]。強力なモデルをいきなり一般公開するのではなく、悪用リスクの低い範囲から実戦投入し、検証を進めるやり方だ。\n\nもう一方の検索結果では、Google Gemini 4 Carbonを軸に「自動化された脆弱性検出」がサイバーセキュリティを変えるという文脈が語られている[1]。今回の動きは、その延長線上で理解するとわかりやすい。つまりGoogleは、生成AIを文章生成や対話にとどめず、セキュリティ領域で実際に手を動かす自律エージェントへと押し出している。もしこの方向が広がれば、脆弱性対応の初動速度や運用負荷の面で、企業の防御体制は大きく変わる可能性がある。ただし、今回の検索結果から確認できるのは性能評価と提供方針までで、具体的な自動修正の実装範囲や一般提供時期は読み取れない。そのため現時点では、“AIが守る”時代の入り口にGoogleが本格的に立った、と見るのが妥当だろう[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google Gemini 4 Carbon: How AI Is Reshaping Cybersecurity Through Automated Vulnerability Detection",
+              "url": "https://medium.com/@asadmohsin760/google-gemini-4-carbon-how-ai-is-reshaping-cybersecurity-through-automated-vulnerability-detection-834fa3acaa4a",
+              "source": "Medium"
+            },
+            {
+              "id": 2,
+              "title": "Instagram投稿：Google’s strongest model is out. You just can’t have it yet.",
+              "url": "https://www.instagram.com/p/DfEgpgvAjkM",
+              "source": "Instagram"
+            }
+          ],
+          "published_date": "2026-10-31",
+          "category": "models",
+          "title_highlights": [
+            "Google AI Threat Defense",
+            "Gemini 4 Carbon"
+          ],
+          "three_lines_highlights": [
+            "88.2%",
+            "段階展開",
+            "自律実行"
+          ],
+          "id": "models-2"
+        }
+      ],
+      "summary": "Googleは次世代旗艦モデル「Gemini 4 Carbon」を軸に、性能競争だけでなく間接プロンプトインジェクション耐性など“安全性を含めたモデル評価”を前面に押し出しました。あわせて、検出・修正・監視をAIが自律的に回す「Google AI Threat Defense」を打ち出し、生成AIモデルの進化が“高性能化”から“防御・運用の自動化”へ広がっている流れが鮮明になっています】【。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "Microsoft、Azure売上を初開示し33.2億ドル　AI需要でクラウド成長が加速",
+          "summary_ja": "MicrosoftがAzureの四半期売上を初めてドル建てで開示し、33.2億ドル、前年比48%増だった。売上全体ではAzureが約36%を占め、同社の最大かつ最速成長の事業になっている。OpenAI関連需要や新データセンター整備も追い風となり、AI時代のクラウド競争で存在感を一段と高めた。",
+          "summary_en": "Microsoft disclosed Azure quarterly revenue in dollars for the first time: $33.2 billion, up 48% year over year. Azure now accounts for roughly 36% of Microsoft’s quarterly revenue and is the company’s largest and fastest-growing business line. AI demand, including OpenAI-related momentum, is accelerating Microsoft’s cloud growth.",
+          "three_lines": [
+            "Azure売上を初開示し33.2億ドルに達した。",
+            "前年比48%増でMicrosoft成長をけん引した。",
+            "AI需要と新設データセンターが追い風となった。"
+          ],
+          "body_ja": "MicrosoftがAzureの四半期売上を初めてドル建てで示し、33.2億ドル、前年比48%増という強い伸びを明らかにした[2]。クラウド事業の規模感が見えにくかった同社にとって、Azureの数字を公開した意味は大きい。売上全体に占める比率も約36%に達しており、Azureがもはや補完事業ではなく、Microsoftの中心エンジンになっていることがうかがえる[2]。\n\n今回の数字を押し上げた背景として、複数ソースがAI需要を挙げている。TechCrunchは、Azureがアプリケーションの実行やSaaS、AIモデルの構築・運用に使われる基盤であり、同社の「largest and fastest-growing product line」だと伝えた[2]。さらに36Krは、Microsoftの単四半期売上が6100億元規模に達し、OpenAIによる押し上げで利益も大きく伸びたと報じている[1]。つまり、Azureの成長は単なる従来型クラウド需要だけでなく、生成AIの実運用が企業導入フェーズに入ったことを映しているとみられる[1][2]。\n\n供給面でもMicrosoftは攻勢を強めている。36Krによれば、同社は最初の四半期だけで24の新しいデータセンターを建設したという[1]。AI向けの計算資源は需要が急増しやすく、供給力の拡大は売上成長を支える重要条件だ。今回の開示は、AzureがAIクラウドの主戦場であること、そしてMicrosoftがその需要を収益化する局面に入ったことを示すものだろう[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Microsoft Q3 Revenue Hits 610 Billion Yuan: 48% Azure Surge, 66.7 Billion Yuan Profit Boost Driven by OpenAI",
+              "url": "https://eu.36kr.com/en/p/4046335656858501",
+              "source": "36Kr"
+            },
+            {
+              "id": 2,
+              "title": "Microsoft just shared Azure's actual revenue in dollars: $33.2 billion | TechCrunch",
+              "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion",
+              "source": "TechCrunch"
+            }
+          ],
+          "published_date": "2026-10-31",
+          "category": "cloud",
+          "title_highlights": [
+            "Azure",
+            "33.2億ドル",
+            "48%"
+          ],
+          "three_lines_highlights": [
+            "Azure",
+            "48%",
+            "AI需要"
+          ],
+          "id": "cloud-1"
+        },
+        {
+          "title": "AWS、Q3売上45.98億ドルで39%増も株価下落　AI投資の重さに市場は慎重",
+          "summary_ja": "AWSは第3四半期に売上高45.98億ドル、前年比39%増と市場予想を上回る高成長を示した。一方でAmazon全体の決算は売上・利益ともに未達で、株価は下落。投資家はAWSの成長率鈍化観測と、AI向けを含む大規模な設備投資負担を警戒している。",
+          "summary_en": "AWS posted $45.98 billion in Q3 revenue, up 39% year over year and above expectations. But Amazon’s broader miss and concerns about heavy AI-related capex weighed on the stock. Investors are watching whether cloud growth can stay near the current pace as spending rises.",
+          "three_lines": [
+            "AWS売上は39%増でも市場は売られた。",
+            "投資家は成長鈍化と巨額投資を警戒した。",
+            "AI需要追い風でも収益性が焦点になった。"
+          ],
+          "body_ja": "Amazonのクラウド部門AWSは、第3四半期に売上高45.98億ドルを計上し、前年同期比39%増と高い伸びを維持した。CNBCは、これはアナリスト予想の45.29億ドルを上回ったと伝えている[1]。TechCrunchも、AWSが大きく成長した点を決算の“bright spot”と位置づけており、クラウド事業そのものの勢いは確かだとみられる[3]。\n\nそれでも株式市場の反応は冷ややかだった。The Motley Foolは、決算発表後にAmazon株が下落し、投資家が第3四半期の業績と資本支出懸念に注目したと報じた[2]。Yahoo Financeも、Amazonが売上高・EPSの両面で予想を下回り、株価が下落したと伝えている[6]。つまり、AWSの好調だけでは、会社全体の決算失望を相殺しきれなかった構図だ。\n\n背景にあるのは、AWSの高成長が続く一方で、成長率の“鈍化”への警戒がくすぶっていることだ。CNBCは、あるアナリストがAWSの39%成長を「予想されていた42〜43%」には届かないとして、投資家心理に影響した可能性を指摘したと紹介している[4]。AWSの伸びはなお非常に大きいものの、市場はすでにそれ以上の加速を織り込んでいたわけだ。\n\nさらに、AI関連を含むインフラ投資の重さも評価を難しくしている。Amazonは、クラウド容量が「来年分はほぼ売り切れ」と説明し、需要の強さを示した一方で、AI支出への注目も集めていた。CNBCは決算後、Amazonの売上が前年同期比12%増の201.9億ドルにとどまり、EPSも予想未達だったと報じており[5]、AWSの好材料よりも、会社全体の利益と投資負担が前面に出た形だ。\n\nAWSの今回の決算は、クラウドとAIが依然として強い需要を持つことを示した。しかし投資家が見ているのは、成長率そのものだけではない。今後は、AI向けの計算資源やデータセンターへの巨額投資をどこまで効率よく回収できるか、そしてAWSが高成長を維持しながら利益率を守れるかが、株価の方向を左右しそうだ。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Amazon AWS posts 39% revenue growth as cloud rivals also accelerate - CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/aws-q3-earnings-report-2026.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 2,
+              "title": "Stock Market Today, Oct. 29: Amazon Falls on Q3 Earnings Report and Capex Concerns - The Motley Fool",
+              "url": "https://www.fool.com/coverage/stock-market-today/2026/10/29/stock-market-today-oct-29-amazon-falls-on-q3-earnings-report-and-capex-concerns/",
+              "source": "The Motley Fool"
+            },
+            {
+              "id": 3,
+              "title": "Amazon reported booming cloud revenue but otherwise missed expectations - TechCrunch",
+              "url": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
+              "source": "TechCrunch"
+            },
+            {
+              "id": 4,
+              "title": "Amazon shares are tumbling after third-quarter earnings miss. Analysts say buy the dip - CNBC",
+              "url": "https://www.cnbc.com/2026/10/30/amazon-earnings-analysts-stock.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 5,
+              "title": "We're cutting our Amazon price target after a tough quarter. But it isn't all bad - CNBC",
+              "url": "https://www.cnbc.com/investingclub/2026/10/29/were-cutting-our-amazon-price-target-after-a-tough-quarter-but-it-isnt-all-bad.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 6,
+              "title": "Amazon earnings live: Q3 earnings miss sends stock lower - Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/stocks/live/amazon-earnings-live-q3-earnings-miss-sends-stock-lower-203345870.html",
+              "source": "Yahoo Finance"
+            },
+            {
+              "id": 7,
+              "title": "Amazon Says External AI Agents Aren't Hurting Its Ad Business - ADWEEK",
+              "url": "https://www.adweek.com/commerce/amazon-says-external-ai-agents-arent-hurting-its-ad-business/",
+              "source": "ADWEEK"
+            }
+          ],
+          "published_date": "2026-10-31",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "45.98億ドル",
+            "39%"
+          ],
+          "three_lines_highlights": [
+            "39%",
+            "capex",
+            "AI"
+          ],
+          "id": "cloud-2"
+        }
+      ],
+      "summary": "クラウド分野では、Microsoft AzureとAWSの両輪でAI需要を背景に高成長が続いており、クラウドが各社の業績をけん引する中核事業として一段と存在感を増している。特にMicrosoftはAzure売上を初開示して成長の強さを示した一方、AWSは高い伸びを維持しつつも、AI向けを含む巨額投資の重さから市場の評価は慎重で、今後は「成長率」と「投資負担」のバランスが注目点となっている。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [],
+      "summary": ""
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "EU AI Actが本格施行へ、欧米大手は「規制対応」を競争力に変えられるか",
+          "summary_ja": "EU AI Actは、欧州のAI規制を「まだ先の話」ではなく、すでに動く実務課題に変えつつあります。企業は罰則の大きさだけでなく、執行手続きの整備や製品責任の議論まで含めて、AI戦略を組み直す局面に入りました。",
+          "summary_en": "The EU AI Act is turning AI regulation in Europe from a future concern into an immediate business issue. Companies now need to rethink AI strategy by considering not only heavy penalties but also enforcement procedures and emerging product-liability debates.",
+          "three_lines": [
+            "EU AI Actは、企業の実務課題になった。",
+            "執行体制の整備で、違反リスクが現実化した。",
+            "製品責任の議論も、再び前面に戻った。"
+          ],
+          "body_ja": "欧州のAI規制をめぐる空気が、2026年秋に大きく変わっています。EM360Techは、EU AI Actについて「罰金は最大3500万ユーロ」としつつ、2027年の延期を理由に様子見を続けるべきではないと指摘しました。つまり、制度の全体像が見え切る前から、企業は対応を始めるべき段階に入ったということです。[1]\n\nより実務的なのは、DLA Piperの整理です。同社は、AI Actの義務そのものはすでに2026年8月2日から一部適用されており、10月29日公表の新しい法制度は「新しい義務」を増やすものではなく、既存の義務を手続きとして実際に動かすための枠組みだと説明しています。企業にとって厄介なのは、要求事項そのものより、後からやってくる執行や手続きの段階です。[2]\n\nこの2つの見方を合わせると、欧米大手のAI戦略に求められているのは、単なる法令順守ではありません。AIモデルの開発・導入・販売の各段階で、どこまでが規制対象なのか、どの証跡を残すべきか、どの部門が責任を負うのかを、事前に設計し直すことです。規制が強まるほど、ガバナンスを先回りして整えた企業ほど有利になる、という構図が鮮明になっています。[1][2]\n\nさらに、AIをめぐる責任問題はAI Actだけでは終わりません。Bird & Birdは、新しい製品責任指令がAIベース製品・サービスの製造者にも影響しうる一方、各国の「fault-based claims」は引き続き可能だと整理しています。また、欧州委員会がAI Liability Directive案を撤回したにもかかわらず、10月の欧州議会で再び議論が前面化したことを踏まえると、AI事故や欠陥をめぐる法的リスクは、今後も揺れ動く見通しです。[3]\n\n注目すべきなのは、規制がイノベーションの足を止めるというより、調達・投資・M&Aの判断基準を変え始めている点です。生成AIや業務AIを組み込んだ製品では、性能だけでなく、責任分界、証跡、説明可能性、保険対応までが競争条件になります。欧米の大手企業は今後、AIそのものの強さだけでなく、規制対応を含めた“出荷できるAI”をいかに早く作れるかで差がつくでしょう。[1][2][3]",
+          "references": [
+            {
+              "id": 1,
+              "title": "EU AI Act Explained: Europe’s AI Law and Its Business | EM360Tech",
+              "url": "https://em360tech.com/tech-articles/what-eu-ai-act-look-europes-first-ai-law",
+              "source": "EM360Tech"
+            },
+            {
+              "id": 2,
+              "title": "Innovation Law Insights - 29 October 2026 | DLA Piper",
+              "url": "https://www.dlapiper.com/en/insights/publications/innovation-law-insights/2026/innovation-law-insights-29-october-2026",
+              "source": "DLA Piper"
+            },
+            {
+              "id": 3,
+              "title": "What the new Product Liability Directive means for manufacturers of AI-based products and services - Bird & Bird",
+              "url": "https://www.twobirds.com/en/insights/2026/what-the-new-product-liability-directive-means-for-manufacturers-of-ai-based-products-and-services",
+              "source": "Bird & Bird"
+            }
+          ],
+          "published_date": "2026-10-31",
+          "category": "global",
+          "title_highlights": [
+            "EU AI Act",
+            "35 million",
+            "Product Liability"
+          ],
+          "three_lines_highlights": [
+            "EU AI Act",
+            "執行体制",
+            "Product Liability"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "EU AI Actの本格施行により、欧州のAI規制は「将来の議論」から、企業が直ちに対応を迫られる実務課題へと移りました。欧米大手は、罰則回避にとどまらず、執行手続きや製品責任を見据えた体制整備を通じて、規制対応そのものを競争力に変えられるかが焦点になっています。"
+    }
+  ]
+}
