@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Google、AI自律型の脆弱性対策サービス「Google AI Threat Defense」を発表　修正から監視まで自律実行 | AI・クラウド ニュースダイジェスト</title>
+<title>Anthropicの未公開Claudeが主要ブラウザ/OSのエクスプロイト連鎖を生成したとされる件 | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,23 +19,24 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
-    <span class="article-date">2026-10-31</span>
+    <span class="article-date">2026-11-01</span>
   </div>
-  <h1 class="article-title">Google、AI自律型の脆弱性対策サービス「<mark style="background:#0E8A8726">Google AI Threat Defense</mark>」を発表　修正から監視まで自律実行</h1>
+  <h1 class="article-title">Anthropicの未公開<mark style="background:#0E8A8726">Claude</mark>が主要ブラウザ/OSのエクスプロイト連鎖を生成したとされる件</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li>Gemini 4 Carbonが脆弱性検出で高評価を得た。</li><li>Googleは防御側へ先行提供し、<mark style="background:#0E8A8726">段階展開</mark>を進める。</li><li>AIが修正から監視まで<mark style="background:#0E8A8726">自律実行</mark>する流れが見える。</li></ul>
+    <ul><li>未公開<mark style="background:#0E8A8726">Claude</mark>が主要OS/ブラウザの脆弱性を連鎖</li><li>Chromeや<mark style="background:#0E8A8726">Windows</mark>などで実用的な攻撃を確認</li><li>修正済み脆弱性でもAI悪用リスクが残る</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Googleは、脆弱性の検出から修正、監視までをAIが自律的に進めるサイバー防御の新しい方向性を打ち出した。検索結果では、Gemini 4 Carbonが脆弱性検出テストで高い評価を受け、まず防御側と信頼できるパートナーに提供される流れが示されている。</p>
-    <p class="sum-en">Google announced an AI-driven threat defense approach that can autonomously detect, fix, and monitor vulnerabilities. The search results indicate that Gemini 4 Carbon scored highly in vulnerability-finding tests and is being rolled out first to cyber defenders and trusted partners.</p>
+    <p class="sum-ja">Anthropicが公開した研究によると、未公開版のClaude系モデルがChrome、Safari、Windows、Linux、Androidにまたがる実用的なエクスプロイト連鎖を見つけ、つなげたとされています。既に各ベンダーが修正済みの脆弱性を前提に、AIが攻撃チェーン作成をどこまで自動化できるかが改めて注目されています。</p>
+    <p class="sum-en">Anthropic says an unreleased Claude model was able to discover and chain working exploits across Chrome, Safari, Windows, Linux, and Android. The report highlights how far AI-assisted offensive security has advanced, even when the flaws involved were already patched by vendors.</p>
   </div>
 
-  <div class="article-body"><p>Googleが打ち出した「Google AI Threat Defense」は、単なる検知支援ではなく、脆弱性の発見から修正、さらに監視までをAIが自律的に回す防御モデルとして注目される。検索結果では、Gemini 4 Carbonがソフトウェア脆弱性を見つけるテストで88.2%という高いスコアを示し、Artificial Analysis Intelligence Indexでも首位に立ったとされる<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup>。この数字は、AIがセキュリティ運用の“補助”から“実働主体”へ移りつつあることを象徴している。</p>
-<p>また、提供の順序にもGoogleの慎重な姿勢が表れている。公開情報の抜粋では、このモデルはまずサイバー防御の担当者に渡され、その後、信頼できるパートナー、さらにビジネス用途へ広げていく流れが示されている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup>。強力なモデルをいきなり一般公開するのではなく、悪用リスクの低い範囲から実戦投入し、検証を進めるやり方だ。</p>
-<p>もう一方の検索結果では、Google Gemini 4 Carbonを軸に「自動化された脆弱性検出」がサイバーセキュリティを変えるという文脈が語られている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup>。今回の動きは、その延長線上で理解するとわかりやすい。つまりGoogleは、生成AIを文章生成や対話にとどめず、セキュリティ領域で実際に手を動かす自律エージェントへと押し出している。もしこの方向が広がれば、脆弱性対応の初動速度や運用負荷の面で、企業の防御体制は大きく変わる可能性がある。ただし、今回の検索結果から確認できるのは性能評価と提供方針までで、具体的な自動修正の実装範囲や一般提供時期は読み取れない。そのため現時点では、“AIが守る”時代の入り口にGoogleが本格的に立った、と見るのが妥当だろう<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup>。</p></div>
+  <div class="article-body"><p>Anthropicが公表した研究は、未公開のAIモデルがChrome、Safari、Windows、Linux、Androidにまたがる脆弱性を見つけ、実際に動くエクスプロイト連鎖まで組み立てたと伝えています<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup>。Dark Readingは、同社がこの研究で「複数の脆弱性をチェーンした」と報じており、AIが攻撃の組み立て工程に踏み込んだ印象を強めました<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup>。</p>
+<p>個別の例としては、WindowsではカーネルのQUIC実装にある境界外読み取りが挙げられています。抜粋ではこの欠陥がCVE-2026-33096として示され、Microsoftが2026年4月14日のパッチで修正済み、回避策としてHTTP/3無効化も案内されたとされています<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup>。つまり、モデルが見つけた対象は未知のゼロデイというより、すでに修正された脆弱性を組み合わせて“使える形”にした点が重要です<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup>。</p>
+<p>また、eWeekの要約では、Chromeの実証では悪意あるWebページを開くだけでブラウザのサンドボックスを脱出する流れが示され、Linuxではroot権限レベルのコマンド実行に至ったとされています<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup>。Anthropicの研究が示すのは、単体の脆弱性発見だけでなく、ブラウザ、OS、権限昇格をまたいだ連鎖をAIが設計できる可能性です<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup>。</p>
+<p>一方で、今回の話はAnthropicだけの“攻め”の進化ではなく、生成AI製品の競争環境も映しています。研究公開の翌日にGoogleが「Gemini 4 Carbon」を打ち出し、価格やスコアまで含めてサイバー防御用途を前面に出したとされており、AIモデルの高度化が防御・攻撃の双方で加速している構図がうかがえます<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup>。Anthropicの件は、AIがコード生成や要約を超えて、脆弱性調査と攻撃チェーン構築の実務に入りつつあることを示す警鐘として読むべきでしょう<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup>。</p></div>
 
   
   <div class="references">
@@ -43,13 +44,23 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://medium.com/@asadmohsin760/google-gemini-4-carbon-how-ai-is-reshaping-cybersecurity-through-automated-vulnerability-detection-834fa3acaa4a" target="_blank" rel="noopener noreferrer">Google Gemini 4 Carbon: How AI Is Reshaping Cybersecurity Through Automated Vulnerability Detection</a>
-        <span class="ref-source">— Medium</span>
+        <a href="https://pasqualepillitteri.it/en/news/27809/anthropic-unreleased-model-exploit-chains-chrome-safari-windows-linux" target="_blank" rel="noopener noreferrer">Anthropic&#39;s unreleased AI model builds working exploits for Chrome, Safari, Windows, Linux and Android</a>
+        <span class="ref-source">— pasqualepillitteri.it</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://www.instagram.com/p/DfEgpgvAjkM" target="_blank" rel="noopener noreferrer">Instagram投稿：Google’s strongest model is out. You just can’t have it yet.</a>
-        <span class="ref-source">— Instagram</span>
+        <a href="https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses" target="_blank" rel="noopener noreferrer">Claude Builds Exploits Across Major Browsers &amp; OSes</a>
+        <span class="ref-source">— Dark Reading</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://pasqualepillitteri.it/en/news/27881/gemini-4-carbon-launch-cyber-defenders-only" target="_blank" rel="noopener noreferrer">Google launches Gemini 4 Carbon, but only cyber defenders can use it</a>
+        <span class="ref-source">— pasqualepillitteri.it</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.eweek.com/news/anthropic-claude-five-exploit-chains" target="_blank" rel="noopener noreferrer">Claude Built Five Exploit Chains, Anthropic Says | eWeek</a>
+        <span class="ref-source">— eWeek</span>
       </li>
       
     </ol>
