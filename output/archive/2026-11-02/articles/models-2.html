@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anthropicの未公開Claude研究モデル、Chrome・Safari・Windows・Linux・Android向けの実働エクスプロイトを生成 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+    <span class="article-date">2026-11-02</span>
+  </div>
+  <h1 class="article-title">Anthropicの未公開<mark style="background:#0E8A8726">Claude</mark>研究モデル、<mark style="background:#0E8A8726">Chrome</mark>・Safari・<mark style="background:#0E8A8726">Windows</mark>・<mark style="background:#0E8A8726">Linux</mark>・<mark style="background:#0E8A8726">Android</mark>向けの実働エクスプロイトを生成</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li>未公開<mark style="background:#0E8A8726">Claude</mark>が実働攻撃を生成した。</li><li><mark style="background:#0E8A8726">Chrome</mark>など主要OS/ブラウザを横断した。</li><li><mark style="background:#0E8A8726">AI</mark>の悪用可能性が一段と現実化した。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">AnthropicのFrontier Red Teamは、未公開の内部Claude研究モデルに主要プラットフォーム向けの攻撃チェーン生成を試し、Chrome、Safari、Windows、Linux、Androidで動くエクスプロイトを作らせたと公表した。今回の報告は、生成AIが脆弱性の発見だけでなく、実際に動く攻撃手順の組み立てまで到達しうることを示している。</p>
+    <p class="sum-en">Anthropic&#39;s Frontier Red Team reported that an unreleased internal Claude research model could produce working exploit chains for Chrome, Safari, Windows, Linux, and Android, highlighting how advanced AI can help assemble real attack paths rather than merely identify bugs.</p>
+  </div>
+
+  <div class="article-body"><p>Anthropicは2026年10月27日、Frontier Red Teamの研究として、一般公開していない内部モデルに対し、Chrome、Safari、Windows、Linux、GoogleのPixel 9向けにそれぞれ1本ずつ、合計5本のエクスプロイトチェーンを作るよう依頼したと明らかにした<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup>。別報道でも、この未公開の内部Claude研究モデルが、広く使われるプラットフォーム上のゼロデイ脆弱性を見つけて組み合わせ、実際に動く攻撃チェーンに仕上げたと伝えられている<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup>。</p>
+<p>注目点は、単に「脆弱性を見つけた」だけではなく、複数の欠陥を連結して、攻撃として成立する形にまとめていることだ。The Hacker Newsは、AnthropicがChrome、Safari、Android、Windows、Linuxでのエクスプロイトをチェーン化したと報じており、Notebookcheckも、同社が管理された環境でテストしたうえで、影響を受けるベンダーに報告済みで、その後修正が公開されたと説明している<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#0E8A87">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#0E8A87">[6]</a></sup>。</p>
+<p>さらに、セキュリティ系メディアの続報では、このモデルがChromeで多数のCVEを見つけたほか、LinuxでのゼロクリックRCE級の実験や、Androidのロック画面回避に関わる挙動まで報告されている<sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#0E8A87">[8]</a></sup>。もっとも、公開記事の中にはWindowsやLinuxの個別CVEの対応づけに食い違いがあるとの指摘もあり、攻撃チェーンの技術的な細部は記事ごとに表現差がある<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup>。とはいえ、複数ソースを総合すると、今回の発表が示すのは「生成AIが脆弱性の説明役」から「攻撃の自動組み立て役」に近づきつつある現実だ。</p>
+<p>今回の件は、生成AIモデルの性能向上が防御と攻撃の両面を加速させることを改めて示した。Anthropicは研究成果として公開しているが、同時に、こうした能力が悪用された場合のリスクもかなり具体的になっている。モデルの安全性評価、Red Teaming、脆弱性報告の迅速化が、今後さらに重要になるだろう<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#0E8A87">[6]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://pasqualepillitteri.it/en/news/27809/anthropic-unreleased-model-exploit-chains-chrome-safari-windows-linux" target="_blank" rel="noopener noreferrer">Anthropic&#39;s unreleased AI model builds working exploits for Chrome, Safari, Windows, Linux and Android</a>
+        <span class="ref-source">— Pasquale Pillitteri</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://pragativadi.com/unreleased-claude-ai-model-builds-end-to-end-exploit-chains-in-chrome-safari-and-linux-kernel-anthropic-warns" target="_blank" rel="noopener noreferrer">​Unreleased Claude AI Model Builds End-to-End Exploit Chains in Chrome, Safari, and Linux Kernel, Anthropic Warns</a>
+        <span class="ref-source">— Pragativadi</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses" target="_blank" rel="noopener noreferrer">Claude Builds Exploits Across Major Browsers &amp; OSes</a>
+        <span class="ref-source">— Dark Reading</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://finance.biggo.com/news/954e802e-3614-4325-950f-0e05df448297" target="_blank" rel="noopener noreferrer">Anthropic Says Unreleased AI Model Chained Zero-Days Into Working Exploits on Chrome, Safari, Android, Windows and Linux</a>
+        <span class="ref-source">— BigGo Finance</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html" target="_blank" rel="noopener noreferrer">Anthropic&#39;s Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits</a>
+        <span class="ref-source">— The Hacker News</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://www.notebookcheck.net/Anthropic-s-secret-AI-extracts-data-from-a-locked-Android-phone-and-escapes-the-Chrome-s-sandbox.1436556.0.html" target="_blank" rel="noopener noreferrer">Anthropic&#39;s secret AI extracts data from a locked Android phone and escapes the Chrome&#39;s sandbox</a>
+        <span class="ref-source">— Notebookcheck</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://www.cyberkendra.com/2026/10/anthropic-claude-exploit-chains-chrome-safari-linux.html" target="_blank" rel="noopener noreferrer">Claude Found 62 Chrome CVEs and a Zero-Click Linux RCE</a>
+        <span class="ref-source">— Cyber Kendra</span>
+      </li>
+      
+      <li id="ref-8">
+        <a href="https://cybersecuritynews.com/claude-ai-builds-exploit" target="_blank" rel="noopener noreferrer">Claude AI Builds One-Click Chrome and Zero-Click Linux Exploit Chains, Bypasses Android Lock Screen</a>
+        <span class="ref-source">— Cyber Security News</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
