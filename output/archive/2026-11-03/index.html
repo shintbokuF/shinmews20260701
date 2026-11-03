@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="ticker" aria-label="本日のニュース速報">
+  <div class="ticker-live"><span class="live-dot" aria-hidden="true"></span><span>LIVE</span></div>
+  <div class="ticker-track">
+    <span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 丸紅情報システムズの生成AI音声テキスト化、SBI損保の現場導入が示す“保険×AI”の次の段階</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Googleが次世代フラッグシップ「Gemini 4 Carbon」を発表、開発支援とセキュリティを前面に</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、法務・医療向けAI活用を拡大　Claudeの業務特化展開を強化</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // Oracleの「AI Security Mesh」が示す、マルチクラウド時代のAI防御設計</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AI開発現場でClaude Code・Cursor・GitHub Copilot・Gemini Code Assistの採用がさらに拡大、実務向け求人で標準装備化が進む</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // 弁護士ドットコム、Claudeを軸にDevinとCodeRabbitでAI駆動開発を推進</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // 開発者向けAIツールは「試す」段階を越え、Claude Code・Cursor・LangChain連携の実務導入へ</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // 丸紅情報システムズの生成AI音声テキスト化、SBI損保の現場導入が示す“保険×AI”の次の段階</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Googleが次世代フラッグシップ「Gemini 4 Carbon」を発表、開発支援とセキュリティを前面に</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、法務・医療向けAI活用を拡大　Claudeの業務特化展開を強化</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // Oracleの「AI Security Mesh」が示す、マルチクラウド時代のAI防御設計</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AI開発現場でClaude Code・Cursor・GitHub Copilot・Gemini Code Assistの採用がさらに拡大、実務向け求人で標準装備化が進む</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // 弁護士ドットコム、Claudeを軸にDevinとCodeRabbitでAI駆動開発を推進</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // 開発者向けAIツールは「試す」段階を越え、Claude Code・Cursor・LangChain連携の実務導入へ</span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="mast-left">
+    <div>
+      <h1 class="mast-title">AI・クラウド<br>ニュースダイジェスト</h1>
+      <div class="mast-sub">DAILY INTELLIGENCE DISPATCH</div>
+    </div>
+    <div class="stamp" aria-hidden="true">
+      <div class="arc">◦ RECEIVED ◦</div>
+      <div class="d">2026.11.03</div>
+      <div class="t">TRANSMISSION<br>RECEIVED</div>
+    </div>
+  </div>
+  <nav class="mast-nav">
+    <a class="ghost-btn" href="https://shintbokuf.github.io/" target="_blank" rel="noopener" data-gc="nav/profile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+      創作者プロフィール
+    </a>
+    <a class="ghost-btn" href="../index.html" data-gc="nav/archive">過去のダイジェスト
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </nav>
+</header>
+
+<nav class="chipbar" aria-label="分類">
+  <a class="chip" href="#sec-japan"><span class="side-dot" style="background:#D6314B"></span>日本国内<span class="signal" style="height:16px"><i style="height:10px;background:#D6314B"></i></span></a><a class="chip" href="#sec-models"><span class="side-dot" style="background:#0E8A87"></span>生成AIモデル<span class="signal" style="height:16px"><i style="height:10px;background:#0E8A87"></i><i style="height:7px;background:#0E8A87"></i></span></a><a class="chip" href="#sec-cloud"><span class="side-dot" style="background:#3654D6"></span>クラウド<span class="signal" style="height:16px"><i style="height:10px;background:#3654D6"></i></span></a><a class="chip" href="#sec-devtools"><span class="side-dot" style="background:#8A3FE0"></span>AI開発ツール<span class="signal" style="height:16px"><i style="height:10px;background:#8A3FE0"></i><i style="height:7px;background:#8A3FE0"></i><i style="height:14px;background:#8A3FE0"></i></span></a>
+</nav>
+
+<div class="layout">
+  <nav class="sidebar" aria-label="分類インデックス">
+    <div class="side-head">SIGNAL INDEX</div>
+    
+    <a class="side-row" href="#sec-japan">
+      <span class="side-dot" style="background:#D6314B"></span>
+      <span class="side-name">日本国内</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#D6314B"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-models">
+      <span class="side-dot" style="background:#0E8A87"></span>
+      <span class="side-name">生成AIモデル</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#0E8A87"></i><i style="height:10px;background:#0E8A87"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-cloud">
+      <span class="side-dot" style="background:#3654D6"></span>
+      <span class="side-name">クラウド</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#3654D6"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-devtools">
+      <span class="side-dot" style="background:#8A3FE0"></span>
+      <span class="side-name">AI開発ツール</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#8A3FE0"></i><i style="height:10px;background:#8A3FE0"></i><i style="height:20px;background:#8A3FE0"></i></span>
+    </a>
+    
+  </nav>
+
+  <main class="main">
+  
+    <section class="board" id="sec-japan" style="--cat-light:#D6314B;--cat-dark:#AA2439;--hl:#D6314B26">
+      <div class="board-head">
+        <span class="board-bar" style="background:#D6314B"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D6314B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg></span>
+        <span class="board-name">日本国内</span>
+        <span class="board-tag">01 SIGNALS</span>
+      </div>
+      <p class="board-intro">国内では、保険業界を中心に生成AIの導入が「試験運用」から、コンタクトセンターや現場業務の実務効率化へと進んでいる流れが見えます。特に音声のリアルタイムテキスト化のように、対話記録の自動化や入力負荷の削減を通じて、業務品質と生産性を同時に高める活用が広がっています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-1.html">丸紅情報システムズの<mark style="background:#D6314B26">生成AI</mark>音声テキスト化、<mark style="background:#D6314B26">SBI損保</mark>の現場導入が示す“保険×AI”の次の段階</a></h3>
+          <ul class="lines"><li>SBI損保がリアルタイム文字起こしを導入した。[1]</li><li>丸紅情報システムズが生成AI搭載ツールを提供した。[1]</li><li>保険業務とコンタクトセンターの効率化を狙う。[1]</li></ul>
+          <a class="readmore" href="articles/japan-1.html" data-gc="click/japan-1">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-models" style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+      <div class="board-head">
+        <span class="board-bar" style="background:#0E8A87"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0E8A87" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg></span>
+        <span class="board-name">生成AIモデル</span>
+        <span class="board-tag">02 SIGNALS</span>
+      </div>
+      <p class="board-intro">生成AIモデル分野では、汎用チャットの競争から、開発支援・セキュリティ・業務特化といった“実務での強さ”を競う段階に入っている。Googleは高性能なコーディングと安全性を前面に押し出し、Anthropicは法務・医療のような高い正確性が求められる領域でClaudeの実用展開を強化しており、各社とも導入現場での信頼性を差別化軸にしている。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-1.html">Googleが次世代フラッグシップ「<mark style="background:#0E8A8726">Gemini 4 Carbon</mark>」を発表、開発支援とセキュリティを前面に</a></h3>
+          <ul class="lines"><li>Gemini 4 Carbonが最上位を獲得した。</li><li>長期コーディングと防御性能を強化した。</li><li>間接プロンプト攻撃は0.0%に抑えた。</li></ul>
+          <a class="readmore" href="articles/models-1.html" data-gc="click/models-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-2.html">Anthropic、<mark style="background:#0E8A8726">法務</mark>・<mark style="background:#0E8A8726">医療</mark>向けAI活用を拡大　<mark style="background:#0E8A8726">Claude</mark>の業務特化展開を強化</a></h3>
+          <ul class="lines"><li>Claudeの業務特化を法務・医療へ広げる</li><li>重い責任領域で実務適合性が問われる</li><li>AI活用の焦点は精度と説明責任に移る</li></ul>
+          <a class="readmore" href="articles/models-2.html" data-gc="click/models-2">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-cloud" style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+      <div class="board-head">
+        <span class="board-bar" style="background:#3654D6"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3654D6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg></span>
+        <span class="board-name">クラウド</span>
+        <span class="board-tag">01 SIGNALS</span>
+      </div>
+      <p class="board-intro">本日のクラウド分野では、AIを前提にしたセキュリティ設計が一段と重要になり、単一クラウド内で完結する防御から、複数クラウドを横断して脆弱性を検知・修復する運用へと焦点が移っています。特にOracleの「AI Security Mesh」は、AIを使った管理型防御をクラウド基盤に組み込み、マルチクラウド時代の守り方そのものを再定義しようとする動きとして注目されます。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+          <h3><a href="articles/cloud-1.html">Oracleの「<mark style="background:#3654D626">AI Security Mesh</mark>」が示す、マルチクラウド時代のAI防御設計</a></h3>
+          <ul class="lines"><li>OracleはAI Security Meshを発表した。</li><li>OCIを超える防御設計を示した。</li><li>AI時代の守りを多環境で再定義した。</li></ul>
+          <a class="readmore" href="articles/cloud-1.html" data-gc="click/cloud-1">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-devtools" style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+      <div class="board-head">
+        <span class="board-bar" style="background:#8A3FE0"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A3FE0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg></span>
+        <span class="board-name">AI開発ツール</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">AI開発ツールは、Claude CodeやCursor、GitHub Copilot、Gemini Code Assistなどが「試す対象」から「実務の標準装備」へ移り、求人や導入事例でも前提化が進んでいます。さらに、Claudeを軸にDevinやCodeRabbit、LangChainやMCPサーバーなどを組み合わせて、実装・レビュー・連携まで含めたAI駆動開発を業務フローに組み込む流れが強まっています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-1.html">AI開発現場で<mark style="background:#8A3FE026">Claude Code</mark>・<mark style="background:#8A3FE026">Cursor</mark>・GitHub <mark style="background:#8A3FE026">Copilot</mark>・Gemini Code Assistの採用がさらに拡大、実務向け求人で標準装備化が進む</a></h3>
+          <ul class="lines"><li>求人票でAI開発ツールの標準装備が広がる</li><li>事例ではCursorやClaude Codeの効果が可視化</li><li>実務ではクラウドコード経験も求められる</li></ul>
+          <a class="readmore" href="articles/devtools-1.html" data-gc="click/devtools-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-2.html">弁護士ドットコム、<mark style="background:#8A3FE026">Claude</mark>を軸に<mark style="background:#8A3FE026">Devin</mark>と<mark style="background:#8A3FE026">CodeRabbit</mark>でAI駆動開発を推進</a></h3>
+          <ul class="lines"><li>Claude中心で開発の流れをAI化する</li><li>DevinとCodeRabbitでレビューまで支える</li><li>実装後も含めて開発速度と品質を両立する</li></ul>
+          <a class="readmore" href="articles/devtools-2.html" data-gc="click/devtools-2">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-3.html">開発者向けAIツールは「試す」段階を越え、<mark style="background:#8A3FE026">Claude Code</mark>・<mark style="background:#8A3FE026">Cursor</mark>・<mark style="background:#8A3FE026">LangChain</mark>連携の実務導入へ</a></h3>
+          <ul class="lines"><li>CursorやClaude Codeが実務導入へ進む</li><li>LangChainとMCP連携が選定条件になる</li><li>AIは試用から運用フェーズへ移る</li></ul>
+          <a class="readmore" href="articles/devtools-3.html" data-gc="click/devtools-3">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+  </main>
+</div>
+
+<section class="contact">
+  <div class="dispatch">
+    <div class="dispatch-head"><span class="d-dot"></span>TRANSMIT · 作者へのシグナル</div>
+    <div class="dispatch-body">
+      <h2>あなたが最も知りたいテーマは？</h2>
+      <p>取り上げてほしいトピック・業界・企業のご要望、記事へのご相談など、お気軽にどうぞ。</p>
+      <form class="contact-form" action="https://formsubmit.co/shintboku@gmail.com" method="POST" data-gc="click/formsubmit">
+        <input type="hidden" name="_subject" value="[News Digest] お問い合わせ・ご要望">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ追ってご連絡します。（AI・クラウド ニュースダイジェスト）">
+        <input type="hidden" name="_next" value="https://shintbokuf.github.io/shinmews20260701/">
+        <div class="fields">
+          <label class="field"><span>Name</span><input type="text" name="name" placeholder="お名前（任意）" autocomplete="name"></label>
+          <label class="field"><span>Email</span><input type="email" name="email" placeholder="返信希望の方（任意）" autocomplete="email"></label>
+        </div>
+        <label class="field"><span>Message</span><textarea name="message" placeholder="知りたいテーマ・ご相談内容をご記入ください" required></textarea></label>
+        <button type="submit" class="contact-btn">送信する&nbsp;→</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク（原文）をご確認ください。</footer>
+
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest('[data-gc]'); if(!a) return;
+  if(window.goatcounter&&window.goatcounter.count){
+    window.goatcounter.count({path:a.getAttribute('data-gc'),title:'click:'+a.getAttribute('data-gc'),event:true});
+  }
+});
+</script>
+</body>
+</html>
