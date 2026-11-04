@@ -1,0 +1,435 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T02:57:35.721001+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [],
+      "summary": ""
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Google、Gemini 4 Carbonを発表　AI性能首位を奪回しつつも提供は限定的",
+          "summary_ja": "Googleは2026年10月28日、生成AIの最上位モデル「Gemini 4 Carbon」を発表した。検索結果ベースでは、Carbonは新しい厳しめのベンチマークで首位に立ち、特にサイバーセキュリティと長文脈処理を強みにする一方、初期アクセスはサイバー防御担当者や一部パートナーに限られる。API価格は投入100万トークンあたり2ドル、出力100万トークンあたり10ドルの導入価格が示され、その後は4ドル/20ドルへ戻るとされる。",
+          "summary_en": "Google announced Gemini 4 Carbon on October 28, 2026. Based on the search results, it leads updated benchmarks, emphasizes cybersecurity and long-context work, but access is initially limited to cyber defenders and selected partners. The API starts at $2 per million input tokens and $10 per million output tokens before moving to $4/$20.",
+          "three_lines": [
+            "Gemini 4 Carbonが首位を奪回した。",
+            "初期提供は防御担当者に限定された。",
+            "価格は100万トークン2ドルから始まる。"
+          ],
+          "body_ja": "Googleが2026年10月28日に発表した「Gemini 4 Carbon」は、同社が次のフロンティアモデルと位置づける最上位級の生成AIだ。検索結果では、更新されたより難しいベンチマークで世界1位に返り咲いたとされ、Claude Opus 5.5を1ポイント上回る指標も示されている[2][5]。一方で、Googleが打ち出したメッセージは単なる総合性能競争ではない。Carbonはサイバーセキュリティと長文脈処理に強みを持つモデルとして案内され、特に防御側ユースケースへの適性が前面に出ている[1][7][8]。\n\n注目すべきは、発表直後の利用条件だ。検索結果によれば、Carbonは「誰でもすぐ使える新モデル」ではなく、まずサイバー防御担当者、その後にFairwind Programのパートナーへ順次提供される[1][2][8]。つまりGoogleは、最先端モデルを広く開放して市場を取りにいくのではなく、まず高リスクだが高付加価値なセキュリティ用途に絞って実戦投入する戦略を採っている。これは、モデルの強さを誇示しつつも、利用範囲を制御していく慎重なローンチと言える[1][6]。\n\n価格面では、APIの導入価格として入力100万トークンあたり2ドル、出力100万トークンあたり10ドルが示され、継続利用時は4ドル/20ドルになるという整理が複数ソースで一致している[1][5]。前世代のGemini 4 Argonと同水準の価格設計とされるため、Googleは性能を大きく引き上げながらも、価格の急騰を避けているように見える[5]。ただし、少なくとも一部のソースは、コンテキストウィンドウのサイズやAPIモデル識別子などは未公表で、外部で見かける数値には未確認情報が混じると注意を促している[3]。\n\nベンチマーク面では、CarbonがArtificial Analysis Intelligence Index v5.0で59を記録し、Claude Opus 5.5を1点上回ったという見方がある[2]。さらにGoogleの公表値として、SEC-bench Proで88.2%、ExploitGymで54.8%、別のセキュリティ関連指標で71.0%が挙げられており、特に脆弱性発見のような防御タスクで強さを示している[3]。これらの数字は、単なる雑談や画像生成の性能競争ではなく、現実の企業セキュリティ運用に近い領域で差別化を図っていることを示唆する[1][3][7]。\n\n今回の発表は、OpenAI、Anthropic、Googleの競争軸が「汎用の賢さ」から「どの現場で実際に使えるか」へ移っていることも浮き彫りにした。Carbonは総合ランキングで首位に立つ一方、最初から広く配るのではなく、サイバー防御という明確な入口を選んだ[1][2][8]。この動きは、OpenAIやAnthropicが強みを争う一般用途の会話・開発支援だけでなく、規制や安全性を意識した限定公開、特定業務への深い最適化が次の勝負どころになっていることを示している[4][5]。GoogleにとってCarbonは、性能競争での再浮上と、実運用での信頼獲得を同時に狙うモデルだと言える。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google announces Gemini 4 Carbon with state-of-the-art cybersecurity and long-context capabilities",
+              "url": "https://www.online-tech-tips.com/google-gemini-4-carbon-cybersecurity-long-context",
+              "source": "Online Tech Tips"
+            },
+            {
+              "id": 2,
+              "title": "Gemini 4 Carbon: Benchmarks, Price and Release Date",
+              "url": "https://felloai.com/gemini-4-carbon",
+              "source": "Fello AI"
+            },
+            {
+              "id": 3,
+              "title": "Gemini 4 Carbon: 59 on Index, 88.2% SEC-bench [2026]",
+              "url": "https://shattered.io/gemini-4-carbon-index-59-sec-bench-pro-88-2-percent-2026",
+              "source": "Shattered"
+            },
+            {
+              "id": 4,
+              "title": "Claude vs ChatGPT vs Gemini: Carbon, Opus 5.5, Terra [2026]",
+              "url": "https://tech-insider.org/gemini-4-carbon-vs-claude-opus-5-5-vs-gpt-6-1-terra-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 5,
+              "title": "Google unveils Gemini 4 Carbon, retaking the world's no. 1 spot on updated, harder benchmarks — but access is limited",
+              "url": "https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited",
+              "source": "VentureBeat"
+            },
+            {
+              "id": 6,
+              "title": "Google Launches Gemini 4 Carbon for Cyber Defense",
+              "url": "https://www.technology.org/2026/10/29/google-gemini-4-carbon-cybersecurity-fairwind",
+              "source": "Technology.org"
+            },
+            {
+              "id": 7,
+              "title": "Gemini 4 Carbon: Google's New Frontier Model",
+              "url": "https://techmymoney.com/2026/11/01/gemini-4-carbon-google-frontier-model-cyber-defenders",
+              "source": "Tech My Money"
+            },
+            {
+              "id": 8,
+              "title": "Google Launches Gemini 4 Carbon for Cyber Defenders First, With API Pricing From $2 per Million Tokens - gHacks Tech News",
+              "url": "https://www.ghacks.net/2026/10/31/google-launches-gemini-4-carbon-for-cyber-defenders-first-with-api-pricing-from-2-per-million-tokens",
+              "source": "gHacks Tech News"
+            }
+          ],
+          "published_date": "2026-11-04",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 4 Carbon",
+            "59",
+            "$2"
+          ],
+          "three_lines_highlights": [
+            "Gemini 4 Carbon",
+            "防御担当者",
+            "$2"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Claudeで2000万円級分析が80万円に　ChatGPTやGemini、3大AIの戦略大研究",
+          "summary_ja": "大規模トークン処理の単価比較では、Gemini 3.1 ProがClaude Opus 4.8やGPT-5.5より明確に安く、同じ作業でも請求額に大きな差が出る。さらに2026年秋にはOpenAI、Google、Anthropicが相次いで旗艦モデルを更新し、性能だけでなく価格戦略の違いが一段と鮮明になった。",
+          "summary_en": "A token-cost comparison shows Gemini 3.1 Pro significantly undercutting Claude Opus 4.8 and GPT-5.5 for large workloads, while OpenAI, Google, and Anthropic all refreshed flagship models in fall 2026, making pricing strategy as important as capability.",
+          "three_lines": [
+            "Geminiは大規模分析費用を大きく下げた。",
+            "OpenAI・Google・Anthropicが旗艦を更新した。",
+            "性能競争は価格競争へと広がった。"
+          ],
+          "body_ja": "2026年秋の生成AI市場は、単なる性能競争から「どのモデルで、どれだけ安く回せるか」を問う局面に入った。比較材料になるのが、Gemini 3.1 Proの価格だ。10万トークン級ではなく、1000万入力・200万出力というエージェント実運用に近い負荷を当てると、Gemini 3.1 Proは44ドルで済む一方、Claude Opus 4.8は100ドル、GPT-5.5は110ドルとされる[1]。同じ仕事でも、GeminiはClaude比で44%、GPT-5.5比で40%という水準まで下がる計算だ[1]。\n\nこの差は、小規模な試算では見えにくいが、月次で大量にAPIを回すチームになるほど効いてくる。提示されている別表では、2000万入力・400万出力の「agent fleet」規模で、Gemini 3.1 Proは880ドル、Claude Opusは2000ドル、GPT-5.2は910ドルという並びになっている[4]。つまり、Claude系は性能評価で存在感を保ちながらも、純粋な推論コストでは最も高い側に位置するケースがある[4]。\n\n一方で、価格だけが市場を決めるわけではない。OpenAIは2026年10月26日にGPT-6.1 TerraをAPIへ投入し、1百万入力あたり1ドル、1百万出力あたり5ドルという低価格帯を打ち出した[2]。Googleも10月13日にGemini 4 Argonを一般提供へ進めており[2]、AnthropicもClaude 5.5ファミリーで対抗している[2]。わずか数週間の間に主要3社が旗艦級モデルを更新したことで、顧客は「どのモデルが最強か」だけでなく、「どのモデルが最も運用に向くか」を選び直す必要に迫られている。\n\nこの構図を理解するうえで重要なのは、3社がそれぞれ異なる勝ち筋を持っていることだ。OpenAIはAPI価格の抑え込みで使いやすさを前面に出し、GoogleはGemini 4 ArgonやGemini 3.1 Proでコスト効率と広い適用範囲を見せる。AnthropicはClaude系でエージェント的な作業やコーディング用途に強みを維持しつつ、価格面では相対的に高止まりしている[2][3][4]。\n\n実務目線で見ると、今回のニュースの本質は「2000万円級の分析」が80万円級に近づく、というコスト感覚の変化にある。大量トークンを消費する調査、要約、RAG、エージェント運用では、モデルの賢さ以上に、従量課金の差が最終成果を左右する。Gemini 3.1 Proの低価格は、その代表例だ[1][4]。そしてOpenAI、Google、Anthropicがほぼ同時期に新モデルへ更新したことで、生成AIの競争軸は、もはや能力表ではなく、運用設計と請求書の読み比べへ移っている[2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Gemini 3.1 Pro Pricing: $2/$12 vs Claude, GPT [2026]",
+              "url": "https://tech-insider.org/gemini-3-1-pro-2-12-pricing-undercuts-claude-gpt-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 2,
+              "title": "ChatGPT vs Claude vs Gemini Test: 12 Steps [2026]",
+              "url": "https://shattered.io/chatgpt-vs-claude-vs-gemini-api-test-harness-12-steps-2026",
+              "source": "Shattered"
+            },
+            {
+              "id": 3,
+              "title": "Codex vs Claude Code vs Antigravity: $500 to $0 [2026]",
+              "url": "https://tech-insider.org/codex-vs-claude-code-vs-antigravity-2026",
+              "source": "Tech Insider"
+            },
+            {
+              "id": 4,
+              "title": "Gemini 3.1 Pro: $2/$12 Pricing vs Claude, GPT [2026]",
+              "url": "https://shattered.io/gemini-3-1-pro-2-12-pricing-undercuts-claude-chatgpt-2026",
+              "source": "Shattered"
+            }
+          ],
+          "published_date": "2026-11-04",
+          "category": "models",
+          "title_highlights": [
+            "Claude",
+            "Gemini",
+            "GPT"
+          ],
+          "three_lines_highlights": [
+            "Gemini 3.1",
+            "旗艦更新",
+            "価格競争"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Anthropic、法務と医療でClaudeを前面に　業務特化の実装を一段と拡大",
+          "summary_ja": "Anthropicが、Claudeの業務特化を法務と医療の両面で強めている。法務では「すぐ使える」アーティファクト集を追加し、医療では複数の創薬パートナーとの取り組みを進めるなど、汎用チャットから実務実装へと軸足を移している。",
+          "summary_en": "Anthropic is deepening Claude’s domain-specific push in both legal and healthcare. The company added ready-to-use legal artifacts and is advancing drug-development work with multiple partners, signaling a shift from general-purpose chat to operational deployment.",
+          "three_lines": [
+            "Claudeは法務向け機能を拡充した。",
+            "創薬では複数提携で実証を進める。",
+            "業務特化のAI展開が鮮明になった。"
+          ],
+          "body_ja": "Anthropicは2026年10月28日、Claudeの法務向け機能として、すぐ使えるアーティファクトのギャラリーを公開した。法務業務向け製品「Claude for Legal」で、同社が作成した6件に加え、法律テック企業や法律事務所が作成した4件、さらにアクセス・トゥ・ジャスティス関連の9件を用意したという[1]。従来の対話型AIにとどまらず、実務の定型作業にそのまま組み込める形へと踏み込んだ点が特徴だ。\\n\\n一方で医療・創薬領域でも、Anthropicの動きは加速している。Quartzは、Anthropicが一人規模のバイオテック企業Mithrilを買収し、自社の創薬プログラムを始めたと報じた。また、Bristol Myers Squibbを含む6社との共同開発で初期成果を出したとも伝えている[3]。この報道は、Claudeを単なる研究支援の道具ではなく、薬剤開発の現場に近い用途へ広げる流れを示している。\\n\\n関連情報を拾うと、Anthropicは創薬分野で6件のパートナーシップと、社内で進めるMithril関連の取り組みを整理しているとされる[2]。検索結果の範囲では詳細は限定的だが、法務向けアーティファクトの整備と合わせて見ると、AnthropicはClaudeを業界別の実務基盤として売り込む姿勢を強めていることがわかる。生成AI競争がモデル性能の比較だけでなく、どの業務に深く入り込めるかの勝負へ移る中で、Anthropicは法務と医療という高付加価値分野を先行して固めにいっている。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic Adds Ready-to-Use Legal Artifacts Gallery to Claude – Unite.AI",
+              "url": "https://www.unite.ai/anthropic-adds-ready-to-use-legal-artifacts-gallery-to-claude",
+              "source": "Unite.AI"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic outlines six drug-development partnerships and in-house Mithril work | OpenTools",
+              "url": "https://opentools.ai/news/anthropic-drug-development-six-partners-in-house-mithril-organizational-scope",
+              "source": "OpenTools"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic acquires one-person biotech Mithril, starts drug programs",
+              "url": "https://qz.com/anthropic-mithril-medicine-acquisition-drug-programs-102826",
+              "source": "Quartz"
+            }
+          ],
+          "published_date": "2026-11-04",
+          "category": "models",
+          "title_highlights": [
+            "Claude",
+            "法務",
+            "創薬"
+          ],
+          "three_lines_highlights": [
+            "Claude",
+            "6社",
+            "業務特化"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AIモデル分野では、性能競争が再び加速する一方で、各社が「最上位モデルを誰にどう使わせるか」と「いくらで提供するか」の戦略差を強めています。GoogleはGeminiの新フラッグシップでベンチマーク首位を狙い、Anthropicは法務・医療など業務特化で実装を深め、OpenAIを含む各社は価格設計まで含めた総合力で競い合う局面に入っています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "GKEが再評価される理由――GKE Autopilotと周辺機能で「運用の重さ」を減らす選択肢に",
+          "summary_ja": "Google CloudのGKEが、コンテナアプリ向けマネージドKubernetesの基盤として改めて注目されている。背景には、短時間だけ動く処理をCloud Run JobsからGKE Autopilotへ移す実例や、DNS自動化のような運用支援、さらにDocument AIのようなAI処理基盤を組み合わせやすい点がある。",
+          "summary_en": "Google Cloud's GKE is drawing renewed attention as a managed Kubernetes foundation for container applications. The backdrop includes a real-world shift from Cloud Run Jobs to GKE Autopilot for bursty workloads, plus operational add-ons such as DNS automation and compatibility with AI workloads like Document AI.",
+          "three_lines": [
+            "短時間ワークロードでもGKE Autopilotを活用できる。",
+            "ExternalDNSでDNS運用の手間を減らせる。",
+            "Document AI連携でAI文書処理基盤を広げられる。"
+          ],
+          "body_ja": "Google CloudのGKEは、単なる「Kubernetesを動かす場所」から、コンテナアプリの運用をまとめて支える基盤として再び見直されている。きっかけの一つは、試合中だけ動く配信ワーカーをCloud Run JobsからGKE Autopilotへ移した実例だ。[1] これは、短時間・イベント駆動の処理でも、Kubernetesの運用モデルに乗せることで扱いやすくなることを示している。\n\n注目すべきは、GKE単体の話ではなく、周辺の自動化ツールと組み合わせたときの強さだ。ExternalDNSを使えば、Kubernetesのリソース状態に応じて外部DNSプロバイダのレコードを自動で検出し、作成・更新・削除できる。[2] こうした仕組みは、サービス公開や変更のたびに手作業が増えがちな運用を軽くし、マネージドKubernetesの利点を実感しやすくする。\n\nさらに、Google CloudのAI系サービスとの接続先としてもGKEは相性がよい。Document AIはPDFや画像の帳票から文字や表、項目を取り出して構造化データとして返すサービスで、文書処理の自動化に使える。[3] これをコンテナ化した業務アプリや周辺処理と組み合わせれば、Kubernetes上でAIワークロードを段階的に広げる設計が取りやすい。\n\n今回の見え方を一言でいうと、GKEの価値が「大規模クラスタのため」だけではなく、「運用を減らしたい現場のため」にも再評価されている、ということだ。[1][2][3] Cloud Runのような軽量実行基盤と比べてKubernetes特有の学習コストは残るが、AutopilotやExternalDNSのような機能を組み合わせることで、コンテナ運用の標準基盤としての使いどころが広がっている。",
+          "references": [
+            {
+              "id": 1,
+              "title": "試合中だけ動く配信ワーカーを、Cloud Run Jobs から GKE ...",
+              "url": "https://zenn.dev/nowex35/articles/eb22aed6388586",
+              "source": "zenn.dev"
+            },
+            {
+              "id": 2,
+              "title": "「ExternalDNS」でDNSレコードの管理を自動化する",
+              "url": "https://thinkit.co.jp/article/39026",
+              "source": "thinkit.co.jp"
+            },
+            {
+              "id": 3,
+              "title": "Google Document AI（ドキュメントAI）とは｜料金・使い方・日本 ...",
+              "url": "https://www.issoh.co.jp/tech/details/3120",
+              "source": "issoh.co.jp"
+            }
+          ],
+          "published_date": "2026-11-04",
+          "category": "cloud",
+          "title_highlights": [
+            "GKE",
+            "Autopilot",
+            "ExternalDNS"
+          ],
+          "three_lines_highlights": [
+            "GKE Autopilot",
+            "ExternalDNS",
+            "Document AI"
+          ],
+          "id": "cloud-1"
+        }
+      ],
+      "summary": "Google CloudのGKEは、単なるコンテナ実行基盤ではなく、GKE AutopilotやDNS自動化などの周辺機能によって「Kubernetes運用の重さ」を大きく下げられる選択肢として再評価されています。短時間処理やAI連携のような実運用ニーズに対して、Cloud Run Jobsからの移行も含めて、より柔軟に基盤を組める点が注目の流れです。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Cursor v3.29 / v3.28がMCP入力UX、stdioサーバー起動、SDK対応を改善し、AI開発ツールの実運用性を底上げ",
+          "summary_ja": "Cursorはv3.29とv3.28で、MCPの入力体験、stdio型サーバーの起動、SDK連携まわりを改善し、エージェント開発の使い勝手を高めた。一方で直近では、Cursorのマーケットプレイス経由でClaude Code拡張が改ざんされ、SSHバックドアを仕込む供給網攻撃も発生しており、AI開発ツールの“便利さ”と“安全性”を同時に見直す局面にある。",
+          "summary_en": "Cursor’s v3.29 and v3.28 updates improve MCP input UX, stdio server startup, and SDK support, strengthening the practical usability of AI developer tooling. At the same time, a recent supply-chain attack through Cursor’s marketplace underscores the need to balance convenience with security in AI-powered development workflows.",
+          "three_lines": [
+            "CursorがMCP入力UXを改善した。",
+            "stdio起動とSDK対応も強化した。",
+            "拡張機能改ざんで安全性も問われた。"
+          ],
+          "body_ja": "AI開発ツールの進化は、機能追加の速さだけでなく、日々の開発フローにどれだけ自然に溶け込むかで評価されるようになってきた。Cursorのv3.29とv3.28は、その意味で「実運用性」を磨く更新だ。MCPの入力まわりを扱いやすくし、stdio型サーバーの起動を改善し、SDK連携の対応範囲も広げることで、外部ツールやエージェントを組み合わせた作業を前提にした使い方を後押しする[1][2]。\n\n特にMCPは、AIアシスタントに外部の機能やデータをつなぐ接続層として注目されているが、実際の現場では「設定が面倒」「起動が不安定」「入力が分かりにくい」といった小さな摩擦が導入障壁になりやすい。今回のCursorの改善は、そうしたボトルネックを減らし、Claude CodeやLangChainのような開発者向けエージェント基盤と併用するときの取り回しをよくする方向のアップデートと読める[1][2]。\n\nただし、使いやすさが増すほど、配布経路や拡張機能の安全性はより重要になる。直近では、Cursorのマーケットプレイス経由でAnthropicのClaude Code拡張の改ざん版が流通し、SSHキーの設置や永続的なリモートアクセス確立を狙う挙動が確認されたと複数メディアが伝えている。被害は最大5,000人規模の開発者に及んだ可能性があり、供給網攻撃としても深刻だ[2][3][4][6][7]。\n\nこの件で浮き彫りになったのは、AI時代の開発ツールが「コード生成の精度」だけでは測れないという事実だ。モデルやエージェントが賢くなるほど、プラグイン、拡張機能、マーケットプレイス、認証済みアカウントといった周辺機構が攻撃面になる。つまり、CursorのようなIDEの機能強化は歓迎すべき一方で、導入企業は拡張機能の署名確認、配布元の検証、SSHやシークレットの保護といった基本対策を再確認する必要がある[1][2][5][6]。\n\n今回のv3.29とv3.28の更新は、AI開発ツールが「試すもの」から「継続運用するもの」へ移る過程を示している。だが同時に、Claude Code拡張の改ざん事件は、その運用がサプライチェーンの安全に強く依存していることも示した。AI開発基盤の競争は、機能の追加だけでなく、安心して使い続けられる設計をどこまで作り込めるかに移っている[1][2][3][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Devs Hit by Trojanized Claude Code Extension for Cursor - Dark Reading",
+              "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+              "source": "Dark Reading"
+            },
+            {
+              "id": 2,
+              "title": "Cursor removes malicious Claude Code extension after SSH backdoor attempt - www.csoonline.com",
+              "url": "https://www.csoonline.com/article/4243210/cursor-removes-malicious-claude-code-extension-after-ssh-backdoor-attempt.html",
+              "source": "CSO Online"
+            },
+            {
+              "id": 3,
+              "title": "Malicious Claude Code extension on Cursor planted SSH backdoors - BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+              "source": "BleepingComputer"
+            },
+            {
+              "id": 4,
+              "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours - Ars Technica",
+              "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+              "source": "Ars Technica"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic: That Claude Code extension compromise… couldn't be us - The Register",
+              "url": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+              "source": "The Register"
+            },
+            {
+              "id": 6,
+              "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack - SecurityWeek",
+              "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+              "source": "SecurityWeek"
+            },
+            {
+              "id": 7,
+              "title": "Tampered Claude Code extension hit up to 5,000 Cursor users - The Next Web",
+              "url": "https://thenextweb.com/news/tampered-claude-code-extension-cursor-ssh-backdoor",
+              "source": "The Next Web"
+            }
+          ],
+          "published_date": "2026-11-04",
+          "category": "devtools",
+          "title_highlights": [
+            "Cursor",
+            "v3.29",
+            "v3.28"
+          ],
+          "three_lines_highlights": [
+            "Cursor",
+            "MCP",
+            "SSH"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "Claude CodeやGemini CLIなど主要AIコーディングツールの最新リリースが相次ぎ、日次追跡一覧が更新",
+          "summary_ja": "Havopticの追跡情報によると、主要AIコーディングツールの更新は11月初旬も活発で、Claude Codeはv2.1.317、Gemini CLIはv0.66.0まで進んだ。直近3日以内に複数製品が続けて出ており、開発者向けAIツールの更新速度を俯瞰できる状況になっている。",
+          "summary_en": "According to Havoptic’s tracked release data, major AI coding tools continued to ship updates in early November 2026, with Claude Code reaching v2.1.317 and Gemini CLI v0.66.0. Multiple products released within a three-day window, highlighting the pace of developer-tool updates.",
+          "three_lines": [
+            "Claude Codeはv2.1.317へ更新された",
+            "Gemini CLIはv0.66.0で追随した",
+            "主要AI開発ツールの更新が連続した"
+          ],
+          "body_ja": "AIコーディングツールの最新動向を日次で追う一覧が、11月初旬の更新を反映して改めて注目されている。Havopticの比較ページでは、Claude Codeの最新リリースがv2.1.317で2026年11月2日、Gemini CLIがv0.66.0で2026年10月27日と整理されており、主要ツールの足並みが確認しやすい。[1]\n\n今回のポイントは、単に個別ツールの版数が上がったことではない。Havopticの各リリースページでは、「3日以内」に他のAIコーディングツールの更新も続いたことが繰り返し示されており、Claude Code v2.1.317の前後でもFactory Droid、Lovable、Devinなどの更新が並んでいる。[2][3][4][5] つまり、AI開発ツール市場は、単発の大型アップデートよりも、短い間隔での継続的な機能追加や改善が当たり前になりつつある。[2][3][4][5]\n\n機能面では、Claude CodeとGemini CLIのMCP対応が比較ページで明記されている点も見逃せない。Claude CodeはMCP Client、MCP Server、Custom Toolsに対応し、Gemini CLIもMCPに対応しているため、いずれも外部文脈やツール連携を前提にした開発フローへ寄ってきていることがうかがえる。[1] 開発者にとっては、単なるコード生成の速さだけでなく、エージェントとしてどこまで既存の作業環境に組み込めるかが、選定の重要な軸になっている。[1]\n\nこうした一覧の価値は、各社の発表を個別に追うだけでは見えにくい「更新の波」を、同じ時間軸で比較できる点にある。Claude Code、Gemini CLI、Devin、Lovable、Factory Droidといったツールが短期間に相次いで更新される状況は、AIコーディング支援が成熟期ではなく、まだ高速に変化する競争段階にあることを示している。[2][3][4][5][6]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claude Code vs Gemini CLI - Feature Comparison | Havoptic",
+              "url": "https://www.havoptic.com/compare/claude-code-vs-gemini-cli",
+              "source": "Havoptic"
+            },
+            {
+              "id": 2,
+              "title": "Devin 2026.11.02 - Havoptic",
+              "url": "https://www.havoptic.com/r/devin-2026-11-02",
+              "source": "Havoptic"
+            },
+            {
+              "id": 3,
+              "title": "Devin Desktop v3.11.234 - Havoptic",
+              "url": "https://www.havoptic.com/r/windsurf-3.11.234",
+              "source": "Havoptic"
+            },
+            {
+              "id": 4,
+              "title": "Devin 2026.10.30 - Havoptic",
+              "url": "https://www.havoptic.com/r/devin-2026-10-30",
+              "source": "Havoptic"
+            },
+            {
+              "id": 5,
+              "title": "OpenCode v2.2.1 - Havoptic",
+              "url": "https://www.havoptic.com/r/opencode-2.2.1",
+              "source": "Havoptic"
+            },
+            {
+              "id": 6,
+              "title": "Devin Desktop v3.11.235 - Havoptic",
+              "url": "https://www.havoptic.com/r/windsurf-3.11.235",
+              "source": "Havoptic"
+            }
+          ],
+          "published_date": "2026-11-04",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "Gemini CLI",
+            "v2.1.317",
+            "v0.66.0"
+          ],
+          "three_lines_highlights": [
+            "Claude Code",
+            "Gemini CLI",
+            "v2.1.317"
+          ],
+          "id": "devtools-2"
+        }
+      ],
+      "summary": "AI開発ツール分野では、Cursorをはじめとする主要製品がMCP対応やSDK連携、サーバー起動まわりを改善し、エージェント開発の実用性を一段引き上げる動きが目立ちました。  \n一方で、マーケットプレイス経由の改ざん事例に象徴されるように、利便性の拡大とサプライチェーンの安全性確保が同時に重要課題として浮上しています。  \nまたClaude CodeやGemini CLIなどの更新も相次ぎ、競争の激しい進化局面が続いていることがうかがえます。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "EU AI ActとCSDDDが変える欧米企業のAI・人権戦略",
+          "summary_ja": "欧米では、AIの活用競争が続く一方で、EU AI ActやCSDDDのような規制が企業戦略の前提条件になりつつあります。今回の検索結果からは、AIを使った業務高度化の事例と、規制対応が日本企業の海外展開にも波及する現実が見えてきます。",
+          "summary_en": "European and U.S. companies are advancing AI-driven strategies while adapting to stricter regulation. The search results highlight AI adoption in business operations and the widening compliance burden from EU rules such as the AI Act and CSDDD.",
+          "three_lines": [
+            "EU規制がAI戦略の前提に変わった。",
+            "日本企業にも人権DDの負荷が及ぶ。",
+            "AI活用は現場実装の段階へ進んだ。"
+          ],
+          "body_ja": "欧米のAI戦略を読むうえで、2026年の論点は「どこまでAIを使うか」ではなく、「どの規制の下で、どう実装するか」に移っています。今回の検索結果では、EUのCSDDDについて、2026年2月26日を境に「最速の適用基準」がそのまま唯一の基準になったと整理されており、企業が参照すべき実務上の基準が明確化したことが示されています[1]。これはAIそのものの規制ではないものの、サプライチェーン全体の人権デューデリジェンスを厳格に問う流れであり、欧州で事業を展開する企業にとっては、AI導入のガバナンスも含めた全社統制の見直しを迫る材料です[1]。\n\nこの規制圧力は欧州企業だけの問題ではありません。検索結果の解説では、CSDDDの調査範囲が見直されても、海外子会社に残る人権リスクは消えないとされ、日本企業にとっても実務負担が続くことが強調されています[1]。つまり、欧米大手がAIで競争力を高めようとする一方で、その背後では、取引先管理、監査、証跡管理、救済プロセスといった「説明責任のインフラ」が同時に必要になっています。AIを使った自動化や最適化が進むほど、データの出所、判断の再現性、委託先の管理まで問われるため、規制対応はもはや法務部門だけの仕事ではありません[1]。\n\n一方で、AI活用の実装は着実に現場へ降りてきています。日本農薬の統合報告書では、国内グループ会社の成長戦略の一環として、スマート農業における「AIやITシステムを活用」した病害虫・雑草の把握と防除判断の支援が紹介されています[2]。ここで重要なのは、AIが研究テーマではなく、農家の意思決定を支える業務システムとして位置づけられている点です。欧米の大手IT・AI企業が基盤モデルやクラウド、業務AIの拡張を進めるのに対し、産業側ではこのように、特定用途に最適化したAIが現場の生産性を左右する段階に入っています[2]。\n\nこの2つの流れを重ねると、2026年の欧米動向は「技術競争」と「規制順守」の二重構造で理解する必要があります。AI導入は、単なる効率化の武器ではなくなり、データ管理・人権配慮・サプライチェーン統制を含む企業統治の一部になりました[1][2]。とくにEU圏では、AI ActやCSDDDのような制度が、先進企業の実装速度を抑えるのではなく、むしろ実装の前提条件を厳密化していると見るべきでしょう。今後は、AIの性能やコストだけでなく、どの地域で、どの責任のもとに、どの業務へ適用するのかが、企業の競争力を左右する主要論点になりそうです[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "対象企業は74.2%減、それでも変わらない「調査の範囲」——CSDDDが日本の海外子会社に残す人権リスク - プルーヴ株式会社",
+              "url": "https://www.provej.jp/column/overseas-human-rights-due-diligence-csddd-gap-2026",
+              "source": "プルーヴ株式会社"
+            },
+            {
+              "id": 2,
+              "title": "統 合 報 告 書",
+              "url": "https://www.nichino.co.jp/contents/000036991.pdf",
+              "source": "日本農薬株式会社"
+            }
+          ],
+          "published_date": "2026-11-04",
+          "category": "global",
+          "title_highlights": [
+            "EU AI Act",
+            "CSDDD"
+          ],
+          "three_lines_highlights": [
+            "EU AI Act",
+            "CSDDD",
+            "AI活用"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "欧米では、AIの導入競争が加速する一方で、EU AI ActやCSDDDを軸とした規制対応が企業戦略の前提条件として強まっており、技術活用とガバナンス強化の両立が鮮明になっています。特に、AIの業務高度化を進める企業ほど、人権・リスク管理・説明責任まで含めた体制整備が求められ、これが欧米企業だけでなく海外展開する日本企業にも波及しつつあります。"
+    }
+  ]
+}
