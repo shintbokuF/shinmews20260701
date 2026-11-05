@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cursor v3.29 / v3.28がMCP入力UX、stdioサーバー起動、SDK対応を改善し、AI開発ツールの実運用性を底上げ | AI・クラウド ニュースダイジェスト</title>
+<title>エージェント・ハーネスから「アテンション・インターフェース」へ：Claude Code登場でAI SaaS設計が転換点に | AI・クラウド ニュースダイジェスト</title>
 <link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,25 +19,25 @@
 <main class="article-container">
   <div class="article-meta">
     <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
-    <span class="article-date">2026-11-04</span>
+    <span class="article-date">2026-11-05</span>
   </div>
-  <h1 class="article-title"><mark style="background:#8A3FE026">Cursor</mark> <mark style="background:#8A3FE026">v3.29</mark> / <mark style="background:#8A3FE026">v3.28</mark>がMCP入力UX、stdioサーバー起動、SDK対応を改善し、AI開発ツールの実運用性を底上げ</h1>
+  <h1 class="article-title">エージェント・<mark style="background:#8A3FE026">ハーネス</mark>から「アテンション・インターフェース」へ：<mark style="background:#8A3FE026">Claude Code</mark>登場で<mark style="background:#8A3FE026">AI SaaS</mark>設計が転換点に</h1>
 
   <div class="three-block">
     <div class="three-block-head">3行でわかる！今日のニュース</div>
-    <ul><li><mark style="background:#8A3FE026">Cursor</mark>が<mark style="background:#8A3FE026">MCP</mark>入力UXを改善した。</li><li>stdio起動とSDK対応も強化した。</li><li>拡張機能改ざんで安全性も問われた。</li></ul>
+    <ul><li><mark style="background:#8A3FE026">Claude Code</mark>で、設計の主戦場が変わる。</li><li><mark style="background:#8A3FE026">ハーネス</mark>は注意を守る層へ進化する。</li><li>だが誤設計なら逆に注意を壊す。</li></ul>
   </div>
 
   <div class="summary-pair">
-    <p class="sum-ja">Cursorはv3.29とv3.28で、MCPの入力体験、stdio型サーバーの起動、SDK連携まわりを改善し、エージェント開発の使い勝手を高めた。一方で直近では、Cursorのマーケットプレイス経由でClaude Code拡張が改ざんされ、SSHバックドアを仕込む供給網攻撃も発生しており、AI開発ツールの“便利さ”と“安全性”を同時に見直す局面にある。</p>
-    <p class="sum-en">Cursor’s v3.29 and v3.28 updates improve MCP input UX, stdio server startup, and SDK support, strengthening the practical usability of AI developer tooling. At the same time, a recent supply-chain attack through Cursor’s marketplace underscores the need to balance convenience with security in AI-powered development workflows.</p>
+    <p class="sum-ja">Claude Codeのような開発者向けエージェント環境が広がるなか、AI SaaSの競争軸は「モデルそのもの」から「人間の注意をどう配分するか」へ移りつつある。今回の論点は、エージェント・ハーネスを単なる実装周辺部品ではなく、注意力を制御する“アテンション・インターフェース”として再設計すべきだという点にある。</p>
+    <p class="sum-en">As developer-facing agent environments like Claude Code spread, AI SaaS competition is shifting from the model itself to how human attention is allocated. The key argument here is that the agent harness should be redesigned as an “attention interface,” not just a technical wrapper.</p>
   </div>
 
-  <div class="article-body"><p>AI開発ツールの進化は、機能追加の速さだけでなく、日々の開発フローにどれだけ自然に溶け込むかで評価されるようになってきた。Cursorのv3.29とv3.28は、その意味で「実運用性」を磨く更新だ。MCPの入力まわりを扱いやすくし、stdio型サーバーの起動を改善し、SDK連携の対応範囲も広げることで、外部ツールやエージェントを組み合わせた作業を前提にした使い方を後押しする<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
-<p>特にMCPは、AIアシスタントに外部の機能やデータをつなぐ接続層として注目されているが、実際の現場では「設定が面倒」「起動が不安定」「入力が分かりにくい」といった小さな摩擦が導入障壁になりやすい。今回のCursorの改善は、そうしたボトルネックを減らし、Claude CodeやLangChainのような開発者向けエージェント基盤と併用するときの取り回しをよくする方向のアップデートと読める<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。</p>
-<p>ただし、使いやすさが増すほど、配布経路や拡張機能の安全性はより重要になる。直近では、Cursorのマーケットプレイス経由でAnthropicのClaude Code拡張の改ざん版が流通し、SSHキーの設置や永続的なリモートアクセス確立を狙う挙動が確認されたと複数メディアが伝えている。被害は最大5,000人規模の開発者に及んだ可能性があり、供給網攻撃としても深刻だ<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#8A3FE0">[7]</a></sup>。</p>
-<p>この件で浮き彫りになったのは、AI時代の開発ツールが「コード生成の精度」だけでは測れないという事実だ。モデルやエージェントが賢くなるほど、プラグイン、拡張機能、マーケットプレイス、認証済みアカウントといった周辺機構が攻撃面になる。つまり、CursorのようなIDEの機能強化は歓迎すべき一方で、導入企業は拡張機能の署名確認、配布元の検証、SSHやシークレットの保護といった基本対策を再確認する必要がある<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#8A3FE0">[5]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。</p>
-<p>今回のv3.29とv3.28の更新は、AI開発ツールが「試すもの」から「継続運用するもの」へ移る過程を示している。だが同時に、Claude Code拡張の改ざん事件は、その運用がサプライチェーンの安全に強く依存していることも示した。AI開発基盤の競争は、機能の追加だけでなく、安心して使い続けられる設計をどこまで作り込めるかに移っている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#8A3FE0">[6]</a></sup>。</p></div>
+  <div class="article-body"><p>AI開発ツールの世界では、これまで「どのモデルが強いか」が議論の中心でした。しかし今回の論点は、その一歩先にあります。重要なのは、モデル単体ではなく、その周辺のハーネスが人間の作業体験をどう形づくるかです。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p>
+<p><sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>の整理では、エージェント・ハーネスは単なる補助機能ではなく、モデル吸収時代におけるAI SaaS設計の中核として捉え直されています。特に、フロンティアモデルが機械操作のためのハーネスを内部に取り込み、モデルとハーネスが一体化していく流れが指摘されています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> ここでいう「アテンション・インターフェース」とは、ユーザーの注意を散らさず、必要な判断だけを適切なタイミングで差し出す設計思想です。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>ただし、この考え方は万能ではありません。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>は、アテンション・インターフェースは銀の弾丸ではなく、設計を誤ると人間の注意力を守るどころか破壊する可能性があると警告しています。実際、Dan McAteer氏がClaude Code環境に導入した「Next Steps Supervisor」のテレメトリでは、2026年10月15日から10月21日までの111ターン中、99ターンで発火条件が満たされ、89.2%で割り込みが発生したとされています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> つまり、次の一手を常に提案する仕組みは便利である一方、介入過多になれば作業の流れそのものを壊しかねない、ということです。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>この示唆は、Claude CodeやCursor、GitHub Copilot、LangChainのような開発者向けツールにも広く当てはまります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup> いま競争力を左右するのは、単にモデルの賢さではなく、どれだけ自然に人の意図を汲み、どの粒度で割り込み、どの場面で引くかという“振る舞いの設計”です。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> FourWeekMBAの整理でも、モデルとその周辺のハーネスは役割分担の問題として扱われており、製品価値が「モデル + 使い方の枠組み」によって決まる構図が確認できます。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p>
+<p>結局のところ、AI SaaSの設計は「強いモデルを載せる箱」から、「人間の注意をどう編集するか」という領域に移り始めています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> その転換点で問われるのは、機能の多さではなく、介入の節度です。Claude Codeの文脈で見えてきたのは、エージェントの未来が“何を自動化するか”だけでなく、“人間の思考をどう支えるか”で決まる、という現実でした。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p></div>
 
   
   <div class="references">
@@ -45,38 +45,23 @@
     <ol>
       
       <li id="ref-1">
-        <a href="https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor" target="_blank" rel="noopener noreferrer">Devs Hit by Trojanized Claude Code Extension for Cursor - Dark Reading</a>
-        <span class="ref-source">— Dark Reading</span>
+        <a href="https://note.com/wayne_chang/n/n0d5786a288cf" target="_blank" rel="noopener noreferrer">エージェント・ハーネスの構造進化と「アテンション・インターフェース」への大転換：モデル吸収時代におけるAI SaaS設計の次世代ベストプラクティス｜Chang</a>
+        <span class="ref-source">— note.com</span>
       </li>
       
       <li id="ref-2">
-        <a href="https://www.csoonline.com/article/4243210/cursor-removes-malicious-claude-code-extension-after-ssh-backdoor-attempt.html" target="_blank" rel="noopener noreferrer">Cursor removes malicious Claude Code extension after SSH backdoor attempt - www.csoonline.com</a>
-        <span class="ref-source">— CSO Online</span>
+        <a href="https://fourweekmba.com/ai-3-of-anthropics-4-named-exits-in-60-days-were-claude-code" target="_blank" rel="noopener noreferrer">3 of Anthropic&#39;s 4 Named Exits in 60 Days Were Claude Code - FourWeekMBA</a>
+        <span class="ref-source">— FourWeekMBA</span>
       </li>
       
       <li id="ref-3">
-        <a href="https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/" target="_blank" rel="noopener noreferrer">Malicious Claude Code extension on Cursor planted SSH backdoors - BleepingComputer</a>
-        <span class="ref-source">— BleepingComputer</span>
+        <a href="https://note.com/wayne_chang/n/n0d5786a288cf?hl=ko" target="_blank" rel="noopener noreferrer">모델 흡수 시대의 AI SaaS 설계를 위한 차세대 베스트 프랙티스</a>
+        <span class="ref-source">— note.com</span>
       </li>
       
       <li id="ref-4">
-        <a href="https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/" target="_blank" rel="noopener noreferrer">Anthropic VS code extension on Cursor backdoored for nearly 12 hours - Ars Technica</a>
-        <span class="ref-source">— Ars Technica</span>
-      </li>
-      
-      <li id="ref-5">
-        <a href="https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682" target="_blank" rel="noopener noreferrer">Anthropic: That Claude Code extension compromise… couldn&#39;t be us - The Register</a>
-        <span class="ref-source">— The Register</span>
-      </li>
-      
-      <li id="ref-6">
-        <a href="https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/" target="_blank" rel="noopener noreferrer">Malicious Claude Code Extension Served in Cursor Supply Chain Attack - SecurityWeek</a>
-        <span class="ref-source">— SecurityWeek</span>
-      </li>
-      
-      <li id="ref-7">
-        <a href="https://thenextweb.com/news/tampered-claude-code-extension-cursor-ssh-backdoor" target="_blank" rel="noopener noreferrer">Tampered Claude Code extension hit up to 5,000 Cursor users - The Next Web</a>
-        <span class="ref-source">— The Next Web</span>
+        <a href="https://fourweekmba.com/ai-openais-lifeval-puts-gpt-6-astra-at-80-6-on-everyday-tasks" target="_blank" rel="noopener noreferrer">OpenAI&#39;s LifeVal Puts GPT-6 Astra at 80.6% on Everyday Tasks - FourWeekMBA</a>
+        <span class="ref-source">— FourWeekMBA</span>
       </li>
       
     </ol>

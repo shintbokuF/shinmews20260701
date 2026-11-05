@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>エージェント・ハーネスから「アテンション・インターフェース」へ：Claude Code登場でAI SaaS設計が転換点に | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+    <span class="article-date">2026-11-05</span>
+  </div>
+  <h1 class="article-title">エージェント・<mark style="background:#8A3FE026">ハーネス</mark>から「アテンション・インターフェース」へ：<mark style="background:#8A3FE026">Claude Code</mark>登場で<mark style="background:#8A3FE026">AI SaaS</mark>設計が転換点に</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#8A3FE026">Claude Code</mark>で、設計の主戦場が変わる。</li><li><mark style="background:#8A3FE026">ハーネス</mark>は注意を守る層へ進化する。</li><li>だが誤設計なら逆に注意を壊す。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Claude Codeのような開発者向けエージェント環境が広がるなか、AI SaaSの競争軸は「モデルそのもの」から「人間の注意をどう配分するか」へ移りつつある。今回の論点は、エージェント・ハーネスを単なる実装周辺部品ではなく、注意力を制御する“アテンション・インターフェース”として再設計すべきだという点にある。</p>
+    <p class="sum-en">As developer-facing agent environments like Claude Code spread, AI SaaS competition is shifting from the model itself to how human attention is allocated. The key argument here is that the agent harness should be redesigned as an “attention interface,” not just a technical wrapper.</p>
+  </div>
+
+  <div class="article-body"><p>AI開発ツールの世界では、これまで「どのモデルが強いか」が議論の中心でした。しかし今回の論点は、その一歩先にあります。重要なのは、モデル単体ではなく、その周辺のハーネスが人間の作業体験をどう形づくるかです。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p>
+<p><sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>の整理では、エージェント・ハーネスは単なる補助機能ではなく、モデル吸収時代におけるAI SaaS設計の中核として捉え直されています。特に、フロンティアモデルが機械操作のためのハーネスを内部に取り込み、モデルとハーネスが一体化していく流れが指摘されています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> ここでいう「アテンション・インターフェース」とは、ユーザーの注意を散らさず、必要な判断だけを適切なタイミングで差し出す設計思想です。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>ただし、この考え方は万能ではありません。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>は、アテンション・インターフェースは銀の弾丸ではなく、設計を誤ると人間の注意力を守るどころか破壊する可能性があると警告しています。実際、Dan McAteer氏がClaude Code環境に導入した「Next Steps Supervisor」のテレメトリでは、2026年10月15日から10月21日までの111ターン中、99ターンで発火条件が満たされ、89.2%で割り込みが発生したとされています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> つまり、次の一手を常に提案する仕組みは便利である一方、介入過多になれば作業の流れそのものを壊しかねない、ということです。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p>
+<p>この示唆は、Claude CodeやCursor、GitHub Copilot、LangChainのような開発者向けツールにも広く当てはまります。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup> いま競争力を左右するのは、単にモデルの賢さではなく、どれだけ自然に人の意図を汲み、どの粒度で割り込み、どの場面で引くかという“振る舞いの設計”です。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup> FourWeekMBAの整理でも、モデルとその周辺のハーネスは役割分担の問題として扱われており、製品価値が「モデル + 使い方の枠組み」によって決まる構図が確認できます。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup></p>
+<p>結局のところ、AI SaaSの設計は「強いモデルを載せる箱」から、「人間の注意をどう編集するか」という領域に移り始めています。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup> その転換点で問われるのは、機能の多さではなく、介入の節度です。Claude Codeの文脈で見えてきたのは、エージェントの未来が“何を自動化するか”だけでなく、“人間の思考をどう支えるか”で決まる、という現実でした。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup></p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://note.com/wayne_chang/n/n0d5786a288cf" target="_blank" rel="noopener noreferrer">エージェント・ハーネスの構造進化と「アテンション・インターフェース」への大転換：モデル吸収時代におけるAI SaaS設計の次世代ベストプラクティス｜Chang</a>
+        <span class="ref-source">— note.com</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://fourweekmba.com/ai-3-of-anthropics-4-named-exits-in-60-days-were-claude-code" target="_blank" rel="noopener noreferrer">3 of Anthropic&#39;s 4 Named Exits in 60 Days Were Claude Code - FourWeekMBA</a>
+        <span class="ref-source">— FourWeekMBA</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://note.com/wayne_chang/n/n0d5786a288cf?hl=ko" target="_blank" rel="noopener noreferrer">모델 흡수 시대의 AI SaaS 설계를 위한 차세대 베스트 프랙티스</a>
+        <span class="ref-source">— note.com</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://fourweekmba.com/ai-openais-lifeval-puts-gpt-6-astra-at-80-6-on-everyday-tasks" target="_blank" rel="noopener noreferrer">OpenAI&#39;s LifeVal Puts GPT-6 Astra at 80.6% on Everyday Tasks - FourWeekMBA</a>
+        <span class="ref-source">— FourWeekMBA</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>

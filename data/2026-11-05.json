@@ -1,0 +1,280 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T03:13:12.271039+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [],
+      "summary": ""
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Google、Gemini 4 Carbon発表　間接プロンプトインジェクション耐性「0%」を達成",
+          "summary_ja": "Googleは次世代フラッグシップモデル「Gemini 4 Carbon」を発表し、Gray Swanの間接プロンプトインジェクション評価で攻撃成功率0%を記録した。従来モデルのGemini 4 Argonと比べ、セキュリティや長期タスクの実運用耐性を前面に押し出した点が特徴だ。[1][2][4]",
+          "summary_en": "Google has announced Gemini 4 Carbon, its next flagship model, highlighting a 0% attack success rate on Gray Swan’s indirect prompt-injection benchmark. Compared with Gemini 4 Argon, the release emphasizes stronger real-world safety and long-horizon engineering capabilities.[1][2][4]",
+          "three_lines": [
+            "Gemini 4 Carbonが0%耐性を示した",
+            "Googleは安全性と長期作業を強化した",
+            "当面はサイバー専門家向けに限定する"
+          ],
+          "body_ja": "Googleが発表した「Gemini 4 Carbon」は、単なる性能向上モデルではなく、実運用で問題になりやすい“安全性”を強く意識したフラッグシップモデルだ。複数の報道では、Carbonはセキュリティ脆弱性の発見や複雑なエンジニアリング作業を想定したモデルとして位置づけられており、Googleは自律性の高い作業能力と、より強いガードレールを両立させる狙いを示している。[2][3][4]\n\n注目点は、Gray Swanの間接プロンプトインジェクション・ベンチマークで攻撃成功率が0.0%だったことだ。これは、外部データや参照先に紛れ込んだ隠し命令をモデルがどれだけ受けてしまうかを見る評価で、Carbonはこの評価で攻撃を1回も通さなかったとされる。少なくとも今回の公開情報では、Googleが行動面の安全性で前世代より優位に立ったと示した初めてのケースとして扱われている。[1][2][3][5]\n\n一方で、比較対象となるGemini 4 Argonでは同ベンチマークの攻撃成功率が0.7%とされ、Carbonとの差が強調されている。加えて、Terminal-Bench 4.0では不正な“cheating”成功率が0%に下がり、関連する試行も0.4%まで減少したという。内部のコーディング環境でも、意図に反する重大な挙動を示すアラートがほぼ80%減ったとされ、開発現場での安全性改善が数字で語られている。[1][3][4]\n\nさらにGoogleは、Carbonを「まずはサイバー専門家向け」に限定して開放する姿勢を示している。これは、モデルの能力を広く解放するより先に、脆弱性探索や防御用途など、リスクを抑えつつ価値を出せる領域から投入する戦略と読める。AIモデル競争が“賢さ”だけでなく、“どこまで安全に使えるか”へ移っていることを象徴する発表だと言える。[2][3][4][5]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Gemini 4 Carbon vs Gemini 4 Argon: 9 Points, No Endpoint",
+              "url": "https://www.orcarouter.ai/blog/gemini-4-carbon-vs-gemini-4-argon",
+              "source": "orcarouter.ai"
+            },
+            {
+              "id": 2,
+              "title": "Google Introduces Gemini 4 Carbon With Advanced Cybersecurity And Long-Horizon Agentic Capabilities",
+              "url": "https://pulse2.com/google-introduces-gemini-4-carbon-with-advanced-cybersecurity-and-long-horizon-agentic-capabilities",
+              "source": "pulse2.com"
+            },
+            {
+              "id": 3,
+              "title": "Google has introduced Gemini 4 Carbon, a model for finding vulnerabilities and complex engineering tasks. For now, access will be open only to cyber specialists",
+              "url": "https://dev.ua/en/news/gemini-carbon-1793250071",
+              "source": "dev.ua"
+            },
+            {
+              "id": 4,
+              "title": "Google says Gemini 4 Carbon beats its predecessors at finding and fixing security flaws",
+              "url": "https://www.helpnetsecurity.com/2026/10/29/google-gemini-4-carbon-model",
+              "source": "Help Net Security"
+            },
+            {
+              "id": 5,
+              "title": "Google launches Gemini 4 Carbon with advanced cyber defence",
+              "url": "https://yourstory.com/ai-story/gemini-4-carbon-advanced-cyber-defence",
+              "source": "YourStory"
+            }
+          ],
+          "published_date": "2026-11-05",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 4 Carbon",
+            "0%"
+          ],
+          "three_lines_highlights": [
+            "Carbon",
+            "0%",
+            "サイバー専門家"
+          ],
+          "id": "models-1"
+        }
+      ],
+      "summary": "生成AIモデル分野では、性能競争に加えて「実運用でどれだけ安全に使えるか」が主要テーマになっており、GoogleのGemini 4 Carbonはその象徴として間接プロンプトインジェクション耐性を大きく打ち出しました。従来の能力向上だけでなく、長期タスクや外部情報を扱う場面での堅牢性を重視する流れが強まっており、モデル評価の軸が“賢さ”から“安全性と実用性の両立”へ広がっています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "GKE、AI/ML運用と大規模データ処理の基盤として再評価　Cloud Build/Deploy/Artifact Registry連携でCI/CDも簡素化",
+          "summary_ja": "Google Kubernetes Engine（GKE）は、AI/ML運用や大規模データ処理を支える実行基盤としての存在感を改めて高めている。Google Cloudのドキュメントでは、Cloud Build、Cloud Deploy、Artifact Registryを組み合わせたCI/CD構成が推奨されており、マネージドなビルドとデプロイによりセキュリティ、スケール、シンプルさを最適化できるとしている。",
+          "summary_en": "Google Kubernetes Engine (GKE) is being re-evaluated as an execution platform for AI/ML operations and large-scale data processing. Google Cloud documentation also recommends integrating Cloud Build, Cloud Deploy, and Artifact Registry to simplify CI/CD with managed builds and deployments.",
+          "three_lines": [
+            "GKEはAI/ML運用基盤として再注目される。",
+            "大規模データ処理の実行先としても広がる。",
+            "Cloud Build連携でCI/CDを簡素化する。"
+          ],
+          "body_ja": "Google CloudのGKE概要ドキュメントは、GKEとKubernetesがロボット工学、医療、小売、教育、ゲーム、金融サービスなど幅広い業界で使われていると説明している。そのうえで、GKEで動かせる代表的なワークロードとして「AI と ML の運用」「大規模なデータ処理」「スケーラブルなオンライン ゲーム プラットフォーム」が挙げられており、GKEが単なるコンテナ実行環境ではなく、負荷変動の大きい処理やAI系の運用を支える汎用基盤として位置づけられていることが分かる[1]。\n\n今回の見どころは、GKEの用途拡大と運用設計の両輪がそろっている点だ。Google CloudはアプリケーションのCI/CDパイプラインを、Cloud Build、Cloud Deploy、Artifact Registryで構成することを推奨している。マネージドなビルドとデプロイサービスを使うことで、セキュリティ、スケール、シンプルさを最適化できるという整理は、AI/MLやデータ処理のように更新頻度や依存関係が複雑になりやすいワークロードほど効いてくる[1]。\n\nさらにセキュリティ面では、AIを使った脆弱性管理の文脈で、ビルド成果物の不可変バージョニングや、Artifact Registryへ登録する前のコンテナイメージ・パッケージのスキャン、そして開発・ステージング・本番をまたいだ同一イメージの昇格が推奨されている[2]。これは、GKE上でAI/MLアプリやデータ処理基盤を運用する際に、イメージの“作り直し”よりも“同じものを安全に流す”設計へ寄せるべきだという示唆と読める。\n\n要するに、GKEは「Kubernetesで動くクラウド基盤」という一般論から一歩進み、AI/ML運用と大規模データ処理のための実務的な選択肢として再評価されつつある。その際の差別化ポイントは、個別機能の多さよりも、Cloud Build、Cloud Deploy、Artifact Registryを含む運用の標準化にある。インフラの柔軟性とデリバリーの単純化を同時に求める企業にとって、GKEは改めて有力候補になりそうだ[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "GKE の概要 | Google Kubernetes Engine (GKE) | Google Cloud Documentation",
+              "url": "https://docs.cloud.google.com/kubernetes-engine/docs/concepts/kubernetes-engine-overview?hl=ja",
+              "source": "Google Cloud Documentation"
+            },
+            {
+              "id": 2,
+              "title": "Vulnerability management with AI | Security | Google Cloud Documentation",
+              "url": "https://docs.cloud.google.com/docs/security/vuln-management-ai",
+              "source": "Google Cloud Documentation"
+            }
+          ],
+          "published_date": "2026-11-05",
+          "category": "cloud",
+          "title_highlights": [
+            "GKE",
+            "AI/ML",
+            "CI/CD"
+          ],
+          "three_lines_highlights": [
+            "AI/ML",
+            "大規模データ",
+            "Cloud Build"
+          ],
+          "id": "cloud-1"
+        }
+      ],
+      "summary": "今日のクラウド分野では、GKEがAI/ML運用や大規模データ処理を支える中核基盤として再評価され、単なるコンテナ実行環境から、実運用に耐える本番プラットフォームへと位置づけを強めています。あわせて、Cloud Build・Cloud Deploy・Artifact Registryを組み合わせたマネージドなCI/CDの活用が前提となり、セキュリティ、拡張性、運用の सरलさを両立する流れが鮮明です。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "エージェント・ハーネスから「アテンション・インターフェース」へ：Claude Code登場でAI SaaS設計が転換点に",
+          "summary_ja": "Claude Codeのような開発者向けエージェント環境が広がるなか、AI SaaSの競争軸は「モデルそのもの」から「人間の注意をどう配分するか」へ移りつつある。今回の論点は、エージェント・ハーネスを単なる実装周辺部品ではなく、注意力を制御する“アテンション・インターフェース”として再設計すべきだという点にある。",
+          "summary_en": "As developer-facing agent environments like Claude Code spread, AI SaaS competition is shifting from the model itself to how human attention is allocated. The key argument here is that the agent harness should be redesigned as an “attention interface,” not just a technical wrapper.",
+          "three_lines": [
+            "Claude Codeで、設計の主戦場が変わる。",
+            "ハーネスは注意を守る層へ進化する。",
+            "だが誤設計なら逆に注意を壊す。"
+          ],
+          "body_ja": "AI開発ツールの世界では、これまで「どのモデルが強いか」が議論の中心でした。しかし今回の論点は、その一歩先にあります。重要なのは、モデル単体ではなく、その周辺のハーネスが人間の作業体験をどう形づくるかです。[1][4]\n\n[1]の整理では、エージェント・ハーネスは単なる補助機能ではなく、モデル吸収時代におけるAI SaaS設計の中核として捉え直されています。特に、フロンティアモデルが機械操作のためのハーネスを内部に取り込み、モデルとハーネスが一体化していく流れが指摘されています。[1][3] ここでいう「アテンション・インターフェース」とは、ユーザーの注意を散らさず、必要な判断だけを適切なタイミングで差し出す設計思想です。[1]\n\nただし、この考え方は万能ではありません。[1]は、アテンション・インターフェースは銀の弾丸ではなく、設計を誤ると人間の注意力を守るどころか破壊する可能性があると警告しています。実際、Dan McAteer氏がClaude Code環境に導入した「Next Steps Supervisor」のテレメトリでは、2026年10月15日から10月21日までの111ターン中、99ターンで発火条件が満たされ、89.2%で割り込みが発生したとされています。[1] つまり、次の一手を常に提案する仕組みは便利である一方、介入過多になれば作業の流れそのものを壊しかねない、ということです。[1]\n\nこの示唆は、Claude CodeやCursor、GitHub Copilot、LangChainのような開発者向けツールにも広く当てはまります。[1][2][4] いま競争力を左右するのは、単にモデルの賢さではなく、どれだけ自然に人の意図を汲み、どの粒度で割り込み、どの場面で引くかという“振る舞いの設計”です。[1] FourWeekMBAの整理でも、モデルとその周辺のハーネスは役割分担の問題として扱われており、製品価値が「モデル + 使い方の枠組み」によって決まる構図が確認できます。[4]\n\n結局のところ、AI SaaSの設計は「強いモデルを載せる箱」から、「人間の注意をどう編集するか」という領域に移り始めています。[1][3] その転換点で問われるのは、機能の多さではなく、介入の節度です。Claude Codeの文脈で見えてきたのは、エージェントの未来が“何を自動化するか”だけでなく、“人間の思考をどう支えるか”で決まる、という現実でした。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "エージェント・ハーネスの構造進化と「アテンション・インターフェース」への大転換：モデル吸収時代におけるAI SaaS設計の次世代ベストプラクティス｜Chang",
+              "url": "https://note.com/wayne_chang/n/n0d5786a288cf",
+              "source": "note.com"
+            },
+            {
+              "id": 2,
+              "title": "3 of Anthropic's 4 Named Exits in 60 Days Were Claude Code - FourWeekMBA",
+              "url": "https://fourweekmba.com/ai-3-of-anthropics-4-named-exits-in-60-days-were-claude-code",
+              "source": "FourWeekMBA"
+            },
+            {
+              "id": 3,
+              "title": "모델 흡수 시대의 AI SaaS 설계를 위한 차세대 베스트 프랙티스",
+              "url": "https://note.com/wayne_chang/n/n0d5786a288cf?hl=ko",
+              "source": "note.com"
+            },
+            {
+              "id": 4,
+              "title": "OpenAI's LifeVal Puts GPT-6 Astra at 80.6% on Everyday Tasks - FourWeekMBA",
+              "url": "https://fourweekmba.com/ai-openais-lifeval-puts-gpt-6-astra-at-80-6-on-everyday-tasks",
+              "source": "FourWeekMBA"
+            }
+          ],
+          "published_date": "2026-11-05",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "AI SaaS",
+            "ハーネス"
+          ],
+          "three_lines_highlights": [
+            "Claude Code",
+            "ハーネス",
+            "注意力"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "弁護士ドットコム、Claude・Devin・CodeRabbit・Cursor・Cline・Kiro・MCPを実務採用　生成AI活用が開発標準に",
+          "summary_ja": "弁護士ドットコムは、Claudeを中心にDevinやCodeRabbit、Cursor、Cline、Kiro、MCPまで開発現場へ広く取り込み、生成AIを前提にした開発標準へ移行している。レビューや生産性向上だけでなく、新しいツールを継続評価しながら、勉強会やワークショップも通じて組織実装を進めている。",
+          "summary_en": "Bengo4.com is standardizing development around generative AI, using Claude, Devin, CodeRabbit, Cursor, Cline, Kiro, and MCP in practice. The company is also running evaluations, workshops, and internal training to scale AI-driven productivity across engineering.",
+          "three_lines": [
+            "Claude中心に生成AI開発を標準化する",
+            "CodeRabbitでレビューを自動化し生産性を高める",
+            "新ツールを検証し順次導入を進める"
+          ],
+          "body_ja": "弁護士ドットコムの採用情報からは、同社が生成AIを“試す段階”ではなく、実務の開発基盤として組み込んでいる姿が見える。記載されているツールはChatGPT、GitHub Copilot、Amazon Bedrock、Azure OpenAI Service、Claude、Gemini、CodeRabbit、Cursor、Cline、Devin、Kiro、MCPと幅広く、特定の単独製品に寄せるのではなく、用途ごとに組み合わせる運用がうかがえる[1]。\n\n特に中心に置かれているのがClaudeで、そこにDevinなどのエージェント系ツールを重ね、レビューではCodeRabbitを活用している。これは、コード生成だけでなく、実装・確認・レビューまでをAIで補助する流れが開発標準になりつつあることを示す[1]。新たに登場したツールやエディタも多面的に検証し、順次導入するとしており、流行の追随ではなく、実運用で効くかどうかを見極める姿勢が明確だ[1]。\n\nさらに同社は、生成AIを活用した生産性の高い開発組織を目指して、勉強会やワークショップも開催している。つまり、ツール導入だけで終わらせず、使い方の共通化や定着まで含めて仕組みにしているわけだ[1]。本社所在地は東京都港区で、法務・リーガル領域を軸にした企業として、開発生産性の底上げを経営課題として捉えている構図も読み取れる[2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "バックエンドエンジニアの募集 | 弁護士ドットコム株式会社",
+              "url": "https://findy-code.io/companies/58/jobs/JnbL5bQ39jrr7",
+              "source": "Findy Code"
+            },
+            {
+              "id": 2,
+              "title": "弁護士ドットコム",
+              "url": "https://tavily.com/knowledge/company/BDX4SfFqRoCd",
+              "source": "Tavily"
+            }
+          ],
+          "published_date": "2026-11-05",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude",
+            "Devin",
+            "CodeRabbit"
+          ],
+          "three_lines_highlights": [
+            "Claude",
+            "CodeRabbit",
+            "MCP"
+          ],
+          "id": "devtools-2"
+        }
+      ],
+      "summary": "AI開発ツールは、単に高性能なモデルを使う段階から、開発者の注意や作業フローをどう設計するかという「アテンション・インターフェース」中心の競争へ移りつつあります。あわせて、ClaudeやDevin、Cursor、CodeRabbit、MCPなど複数のツールを前提に、レビュー・実装・学習まで含めて生成AIを開発標準へ組み込む企業実践が広がっています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "AI需要で再燃する半導体投資、メモリーと後工程材料に資金が戻る",
+          "summary_ja": "AI向け需要の急拡大で、投資マネーが再びメモリーと後工程材料へ向かっています。TSMCやサムスンを軸にした供給網の強さが株式市場を支える一方、2029年以降を見据えた競争激化や材料制約が新たな焦点です。加えて、AIの電力需要増に備える次世代計算基盤の開発も進み、欧米発のAI競争は半導体全体の再評価を促しています。",
+          "summary_en": "AI demand is sending capital back into memory and back-end materials. While TSMC-led supply chains support markets, 2029-era competition and material constraints are emerging risks. At the same time, next-generation computing efforts to address soaring AI power demand are pushing a broader re-rating of the semiconductor stack.",
+          "three_lines": [
+            "AI需要でメモリー投資が再び膨らむ。",
+            "後工程材料と装置にも資金が戻る。",
+            "供給網の強さの裏で競争激化が迫る。"
+          ],
+          "body_ja": "AI需要の急拡大は、半導体投資の主役を再び「メモリー」と「後工程材料」へ引き戻している。サムスン電子はAI需要の拡大を背景に、メモリー供給を強化するためベトナム初の半導体後工程工場を新設する方針を示したとされ、単なる増産ではなく、量産を支える実装・組立の能力まで含めて投資が広がっている[1]。これは、AI向けサーバーや関連機器の需要増が、前工程だけでなく後工程の設備・材料・部材を押し上げていることを示す動きだ[1][2]。\n\n市場全体で見ると、日本の半導体製造装置市場も拡大基調にある。SEAJの予測では、日本製半導体製造装置の販売額は2025年度に約5兆2000億円、2026年度に約6兆5500億円、2028年度には7兆7700億円へ伸びる見通しだという[2]。この数字は部品市場単独ではないが、先端材料や精密部品を含む装置エコシステムに資金が回る土台を示している。AI向け先端工場の拡張が続けば、製造装置だけでなく、その周辺にある真空系・消耗品・高純度材料といった後工程寄りの分野にも波及しやすい[2]。\n\n一方で、供給網の強さはそのまま安泰を意味しない。台湾の報道では、アナリストが「TSMCの独走は2029年まで」とみる一方、サムスンは1.4ナノ量産を先送りしたとされる[1]。つまり、当面はTSMCがAI好況の中心に立つ構図が続くが、数年先には競争環境が変わる可能性がある。さらに中国の対日タングステン輸出停止が、半導体材料ガスの国内生産ゼロという脆弱性と重なり、TSMCやサムスンにも影響懸念が及んでいる点は、投資が「勝ち筋」だけでなく「供給制約」も見ながら行われていることを示す[1]。\n\n欧米のAI戦略も、こうした投資再配分を後押ししている。NTTは光電融合と光量子を使った次世代計算基盤を構築し、AIによる電力需要の急増に対応する計画を示した[3]。AIはソフトウェア競争に見えて、実際には電力、熱、通信、実装まで含む総合インフラ競争になっている。だからこそ、投資マネーは最先端ロジックだけでなく、メモリー、後工程、材料、装置へと再集中している。今回の動きは、AIブームが半導体産業のどこに利益を配分するのか、その重心が前工程単独からサプライチェーン全体へ広がりつつあることを映している[1][2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "【コラム】サムスン最高益でも株価急落　TSMCが支える台湾株、AI好況に潜む「3年後」のリスク",
+              "url": "https://japan.storm.mg/articles/1177169",
+              "source": "風傳媒日本語版"
+            },
+            {
+              "id": 2,
+              "title": "日本半導体製造装置部品市場：先端半導体工場の拡張、精密部品、次世代半導体製造におけるビジネス機会",
+              "url": "http://www.excite.co.jp/news/article/Dreamnews_0000367273",
+              "source": "エキサイトニュース"
+            },
+            {
+              "id": 3,
+              "title": "NTT、光電融合と光量子で次世代計算基盤構築へ　AI電力急増に対応、2026年度末に商用化",
+              "url": "https://japan.storm.mg/articles/1168841",
+              "source": "風傳媒日本語版"
+            }
+          ],
+          "published_date": "2026-11-05",
+          "category": "global",
+          "title_highlights": [
+            "AI需要",
+            "TSMC",
+            "1.4ナノ"
+          ],
+          "three_lines_highlights": [
+            "メモリー",
+            "後工程",
+            "2029年"
+          ],
+          "id": "global-1"
+        }
+      ],
+      "summary": "AI需要の急拡大を受けて、欧米では半導体投資が再び活発化し、特にメモリーや後工程材料、関連インフラに資金が戻る流れが強まっています。TSMCやサムスンを中心とした供給網の強さが市場を支える一方で、将来の競争激化や材料制約、電力需要増をにらんだ次世代計算基盤の整備が新たな論点になっています。"
+    }
+  ]
+}
