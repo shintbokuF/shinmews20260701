@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="ticker" aria-label="本日のニュース速報">
+  <div class="ticker-live"><span class="live-dot" aria-hidden="true"></span><span>LIVE</span></div>
+  <div class="ticker-track">
+    <span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // RLWRLDがKDDI SUMMIT 2026で「RLDX-1」ライブデモ公開、物流倉庫の出荷作業を想定</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // SBI損保、丸紅情報システムズの生成AI搭載リアルタイムテキスト化ツールを導入</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、Claude有料プラン「Max」を再編　旧Max 5x/20xを統合し「Ultra」は5時間上限を撤廃</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Google、次世代フラッグシップ「Gemini 4 Carbon」を発表　セキュリティ性能で前進、ただし提供は限定的</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // OpenAI、サイバー用途の最上位モデル「GPT-6 Cyber」を発表　Daybreak Red顧客向けに限定提供</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // Tavily、Company Search Benchmarkで1位獲得　エージェント向け検索基盤として存在感を強める</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AI開発現場でClaude Code・Cursor・Copilot・Gemini Code Assistの採用がさらに拡大、実務向け求人で標準装備化が進む</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // RLWRLDがKDDI SUMMIT 2026で「RLDX-1」ライブデモ公開、物流倉庫の出荷作業を想定</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // SBI損保、丸紅情報システムズの生成AI搭載リアルタイムテキスト化ツールを導入</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、Claude有料プラン「Max」を再編　旧Max 5x/20xを統合し「Ultra」は5時間上限を撤廃</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Google、次世代フラッグシップ「Gemini 4 Carbon」を発表　セキュリティ性能で前進、ただし提供は限定的</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // OpenAI、サイバー用途の最上位モデル「GPT-6 Cyber」を発表　Daybreak Red顧客向けに限定提供</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // Tavily、Company Search Benchmarkで1位獲得　エージェント向け検索基盤として存在感を強める</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AI開発現場でClaude Code・Cursor・Copilot・Gemini Code Assistの採用がさらに拡大、実務向け求人で標準装備化が進む</span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="mast-left">
+    <div>
+      <h1 class="mast-title">AI・クラウド<br>ニュースダイジェスト</h1>
+      <div class="mast-sub">DAILY INTELLIGENCE DISPATCH</div>
+    </div>
+    <div class="stamp" aria-hidden="true">
+      <div class="arc">◦ RECEIVED ◦</div>
+      <div class="d">2026.11.06</div>
+      <div class="t">TRANSMISSION<br>RECEIVED</div>
+    </div>
+  </div>
+  <nav class="mast-nav">
+    <a class="ghost-btn" href="https://shintbokuf.github.io/" target="_blank" rel="noopener" data-gc="nav/profile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+      創作者プロフィール
+    </a>
+    <a class="ghost-btn" href="../index.html" data-gc="nav/archive">過去のダイジェスト
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </nav>
+</header>
+
+<nav class="chipbar" aria-label="分類">
+  <a class="chip" href="#sec-japan"><span class="side-dot" style="background:#D6314B"></span>日本国内<span class="signal" style="height:16px"><i style="height:10px;background:#D6314B"></i><i style="height:7px;background:#D6314B"></i></span></a><a class="chip" href="#sec-models"><span class="side-dot" style="background:#0E8A87"></span>生成AIモデル<span class="signal" style="height:16px"><i style="height:10px;background:#0E8A87"></i><i style="height:7px;background:#0E8A87"></i><i style="height:14px;background:#0E8A87"></i></span></a><a class="chip" href="#sec-devtools"><span class="side-dot" style="background:#8A3FE0"></span>AI開発ツール<span class="signal" style="height:16px"><i style="height:10px;background:#8A3FE0"></i><i style="height:7px;background:#8A3FE0"></i></span></a>
+</nav>
+
+<div class="layout">
+  <nav class="sidebar" aria-label="分類インデックス">
+    <div class="side-head">SIGNAL INDEX</div>
+    
+    <a class="side-row" href="#sec-japan">
+      <span class="side-dot" style="background:#D6314B"></span>
+      <span class="side-name">日本国内</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#D6314B"></i><i style="height:10px;background:#D6314B"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-models">
+      <span class="side-dot" style="background:#0E8A87"></span>
+      <span class="side-name">生成AIモデル</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#0E8A87"></i><i style="height:10px;background:#0E8A87"></i><i style="height:20px;background:#0E8A87"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-devtools">
+      <span class="side-dot" style="background:#8A3FE0"></span>
+      <span class="side-name">AI開発ツール</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#8A3FE0"></i><i style="height:10px;background:#8A3FE0"></i></span>
+    </a>
+    
+  </nav>
+
+  <main class="main">
+  
+    <section class="board" id="sec-japan" style="--cat-light:#D6314B;--cat-dark:#AA2439;--hl:#D6314B26">
+      <div class="board-head">
+        <span class="board-bar" style="background:#D6314B"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D6314B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg></span>
+        <span class="board-name">日本国内</span>
+        <span class="board-tag">02 SIGNALS</span>
+      </div>
+      <p class="board-intro">本日の日本国内では、企業向けAIの実装が「業務現場で使える形」へ一段進んでいる流れが目立ちました。物流倉庫でのロボティクス活用のような実作業への適用と、保険業務での会話・音声の即時テキスト化といったバックオフィス効率化の両面で、生成AIやAI基盤モデルの導入が具体化しています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-1.html"><mark style="background:#D6314B26">RLWRLD</mark>がKDDI SUMMIT 2026で「<mark style="background:#D6314B26">RLDX-1</mark>」ライブデモ公開、物流倉庫の出荷作業を想定</a></h3>
+          <ul class="lines"><li>RLWRLDがKDDIイベントでRLDX-1を披露した。</li><li>物流倉庫の出荷作業を想定して実演した。</li><li>企業向けロボティクスAIの実装感を示した。</li></ul>
+          <a class="readmore" href="articles/japan-1.html" data-gc="click/japan-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-2.html"><mark style="background:#D6314B26">SBI損保</mark>、丸紅情報システムズの<mark style="background:#D6314B26">生成AI</mark>搭載リアルタイムテキスト化ツールを導入</a></h3>
+          <ul class="lines"><li>SBI損保が生成AI搭載ツールを導入した。</li><li>会話の即時テキスト化で業務活用を狙う。</li><li>保険現場の効率化余地が広がりそうだ。</li></ul>
+          <a class="readmore" href="articles/japan-2.html" data-gc="click/japan-2">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-models" style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+      <div class="board-head">
+        <span class="board-bar" style="background:#0E8A87"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0E8A87" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg></span>
+        <span class="board-name">生成AIモデル</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">生成AIモデル分野では、各社が単なる性能競争から、用途特化と安全性・運用性の強化へ軸足を移しているのが今日の流れです。Anthropicは有料プランを整理して使い勝手を改善し、GoogleとOpenAIはそれぞれ次世代フラッグシップやサイバー特化モデルを限定提供することで、最先端性能を競いつつも提供範囲を慎重に絞る姿勢を示しました。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-1.html">Anthropic、<mark style="background:#0E8A8726">Claude</mark>有料プラン「<mark style="background:#0E8A8726">Max</mark>」を再編　旧Max 5x/20xを統合し「<mark style="background:#0E8A8726">Ultra</mark>」は5時間上限を撤廃</a></h3>
+          <ul class="lines"><li>ClaudeのMax 5x/20xを新名称へ整理した。</li><li>Ultraは認証後の5時間上限を撤廃した。</li><li>月額は据え置きで既存契約者も移行不要。</li></ul>
+          <a class="readmore" href="articles/models-1.html" data-gc="click/models-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-2.html">Google、次世代フラッグシップ「<mark style="background:#0E8A8726">Gemini 4</mark> <mark style="background:#0E8A8726">Carbon</mark>」を発表　セキュリティ性能で前進、ただし提供は限定的</a></h3>
+          <ul class="lines"><li>Gemini 4 Carbonが安全性評価で頭角を現した。</li><li>脆弱性検出や修復で高成績を示した。</li><li>ただし提供は限定的で、競争を再加速させる。</li></ul>
+          <a class="readmore" href="articles/models-2.html" data-gc="click/models-2">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-3.html">OpenAI、サイバー用途の最上位モデル「<mark style="background:#0E8A8726">GPT-6 Cyber</mark>」を発表　<mark style="background:#0E8A8726">Daybreak Red</mark>顧客向けに限定提供</a></h3>
+          <ul class="lines"><li>GPT-6 Cyberを限定提供で公開した。</li><li>Firefoxの81件脆弱性を見つけた。</li><li>Daybreak Red向けに厳格審査で配る。</li></ul>
+          <a class="readmore" href="articles/models-3.html" data-gc="click/models-3">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-devtools" style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+      <div class="board-head">
+        <span class="board-bar" style="background:#8A3FE0"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A3FE0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg></span>
+        <span class="board-name">AI開発ツール</span>
+        <span class="board-tag">02 SIGNALS</span>
+      </div>
+      <p class="board-intro">AI開発ツール分野では、単なるコード補助から一歩進み、エージェントが実務で使う前提の“基盤ツール”の競争が強まっています。特にClaude CodeやCursor、Copilot、Gemini Code Assistのような開発支援ツールは、試験導入ではなく求人や現場の標準装備として浸透しつつあり、採用が実務レベルで加速しています。あわせてTavilyのような高速検索基盤も注目を集めており、AIエージェントの性能を左右する検索・情報取得レイヤーが重要テーマとして浮上しています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-1.html"><mark style="background:#8A3FE026">Tavily</mark>、Company Search <mark style="background:#8A3FE026">Benchmark</mark>で1位獲得　エージェント向け検索基盤として存在感を強める</a></h3>
+          <ul class="lines"><li>TavilyがCompany Search Benchmarkで1位を示した。</li><li>p50 180msの高速検索をAIエージェント向けに訴求した。</li><li>2024年創業の新興企業として存在感を高めた。</li></ul>
+          <a class="readmore" href="articles/devtools-1.html" data-gc="click/devtools-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-2.html">AI開発現場で<mark style="background:#8A3FE026">Claude Code</mark>・Cursor・<mark style="background:#8A3FE026">Copilot</mark>・<mark style="background:#8A3FE026">Gemini</mark> Code Assistの採用がさらに拡大、実務向け求人で標準装備化が進む</a></h3>
+          <ul class="lines"><li>Claude Codeの修正状況が明示された。</li><li>Copilotは未修正で対応差が残る。</li><li>Tavily上位でagent検索の価値が増す。</li></ul>
+          <a class="readmore" href="articles/devtools-2.html" data-gc="click/devtools-2">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+  </main>
+</div>
+
+<section class="contact">
+  <div class="dispatch">
+    <div class="dispatch-head"><span class="d-dot"></span>TRANSMIT · 作者へのシグナル</div>
+    <div class="dispatch-body">
+      <h2>あなたが最も知りたいテーマは？</h2>
+      <p>取り上げてほしいトピック・業界・企業のご要望、記事へのご相談など、お気軽にどうぞ。</p>
+      <form class="contact-form" action="https://formsubmit.co/shintboku@gmail.com" method="POST" data-gc="click/formsubmit">
+        <input type="hidden" name="_subject" value="[News Digest] お問い合わせ・ご要望">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ追ってご連絡します。（AI・クラウド ニュースダイジェスト）">
+        <input type="hidden" name="_next" value="https://shintbokuf.github.io/shinmews20260701/">
+        <div class="fields">
+          <label class="field"><span>Name</span><input type="text" name="name" placeholder="お名前（任意）" autocomplete="name"></label>
+          <label class="field"><span>Email</span><input type="email" name="email" placeholder="返信希望の方（任意）" autocomplete="email"></label>
+        </div>
+        <label class="field"><span>Message</span><textarea name="message" placeholder="知りたいテーマ・ご相談内容をご記入ください" required></textarea></label>
+        <button type="submit" class="contact-btn">送信する&nbsp;→</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク（原文）をご確認ください。</footer>
+
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest('[data-gc]'); if(!a) return;
+  if(window.goatcounter&&window.goatcounter.count){
+    window.goatcounter.count({path:a.getAttribute('data-gc'),title:'click:'+a.getAttribute('data-gc'),event:true});
+  }
+});
+</script>
+</body>
+</html>
