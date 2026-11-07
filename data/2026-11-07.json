@@ -1,0 +1,412 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T02:34:44.208514+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "QommonsAI提供開始2周年、自治体の生成AI活用を「全国サミット」で可視化",
+          "summary_ja": "ASCII.jpの掲載情報によると、QommonsAIは提供開始2周年を記念して「行政AX全国サミット 2026」を開催し、全国の自治体職員とともに生成AIハッカソン、導入自治体の活用事例紹介、最新アップデートの発表を行う。自治体業務への生成AI実装が、個別導入から横断共有・標準化へ進みつつあることを示す動きだ。",
+          "summary_en": "According to ASCII.jp listings, QommonsAI will mark its second anniversary by hosting the “Administrative AX National Summit 2026,” featuring a generative-AI hackathon, municipal use-case presentations, and the latest product updates. The event signals a shift from isolated municipal pilots to broader sharing and standardization of AI adoption in public administration.",
+          "three_lines": [
+            "QommonsAIが2周年記念サミットを開く。",
+            "自治体の生成AI事例とハッカソンを共有する。",
+            "最新アップデートで行政AXの実装を加速する。"
+          ],
+          "body_ja": "QommonsAIは提供開始2周年を機に、「行政AX全国サミット 2026」を開催する。ASCII.jpの掲載情報では、この場で全国の自治体職員とともに、生成AIハッカソン、導入自治体の活用事例紹介、そして最新アップデートの発表が行われるという。[1]\n\n注目点は、単に製品の機能告知にとどまらず、自治体職員を巻き込んだ“実務ベース”の共有の場になっていることだ。生成AIの活用は、個別の先進事例から、横展開や運用設計を議論する段階へ移りつつあることがうかがえる。[1]\n\nまた、別の掲載情報でも、同じ月のアーカイブ内にこの催しが「全国の自治体職員とともに、生成AIハッカソンや導入自治体の活用事例紹介、最新アップデートを発表」として整理されており、イベントの主眼が“導入済み自治体の知見共有”にあることが確認できる。[2]\n\n日本国内の行政DX/AXでは、生成AIをどう試すかから、どう安全に定着させるかへ論点が移っている。今回のサミットは、その移行を象徴するイベントと言える。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/biz/202610",
+              "source": "ASCII.jp"
+            },
+            {
+              "id": 2,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/biz/202611",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-11-07",
+          "category": "japan",
+          "title_highlights": [
+            "QommonsAI",
+            "2周年"
+          ],
+          "three_lines_highlights": [
+            "QommonsAI",
+            "生成AI",
+            "行政AX"
+          ],
+          "id": "japan-1"
+        },
+        {
+          "title": "農林水産省選定の牛舎見守りAI「農家のミハルAI」、全国で無料相談を開始",
+          "summary_ja": "酪農・和牛農家向けの牛舎見守りAI「農家のミハルAI」が、農林水産省選定を受けて全国から導入の無料相談を受け付け始めました。人手不足や見回り負担の軽減を狙う現場向けAIとして、農業分野での実装事例として注目されます。",
+          "summary_en": "\"Noka no Miharu AI,\" a barn-monitoring AI for dairy and Wagyu farmers, has started offering free nationwide consultation after being selected by Japan's Ministry of Agriculture, Forestry and Fisheries. It is drawing attention as a practical AI deployment case in agriculture, aimed at easing labor shortages and inspection workloads.",
+          "three_lines": [
+            "農林水産省選定の見守りAIが相談受付を開始",
+            "酪農・和牛農家の見回り負担軽減を狙う",
+            "全国対応の無料相談で導入検討を後押しする"
+          ],
+          "body_ja": "農林水産省選定を前面に出した牛舎見守りAI「農家のミハルAI」が、酪農・和牛農家向けに全国からの無料相談受付を始めました。[1][2] 記事見出しからは、単なる製品紹介ではなく、行政のお墨付きと合わせて導入ハードルを下げる動きとして打ち出されていることが読み取れます。[1]\n\nこのニュースのポイントは、農業現場でのAI活用が「実験」から「導入相談」へ進んでいることです。見出しにある「牛舎見守りAI」は、飼養環境の見回りや異常検知といった、現場の省力化ニーズに直結する用途を示しています。[1][2] さらに「全国で受付開始」とあるため、地域限定の実証ではなく、広く導入先を開拓するフェーズに入ったとみるのが自然です。[1]\n\n日本のAI政策という観点でも、こうした農林水産省選定の事例は重要です。生成AIのような汎用技術だけでなく、一次産業に密着した現場実装が進むことで、AI活用はオフィス業務から地域産業へと裾野を広げつつあります。[1][2] 今回は詳細な機能や導入条件までは検索結果からは確認できませんが、少なくとも「省庁選定」「無料相談」「全国対応」という3点は、自治体・農家・関連事業者にとって検討しやすい入口になるでしょう。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "【農林水産省選定】酪農・和牛農家向け牛舎見守りAI「農家のミハルAI」、導入の無料相談を全国から受付開始 スタートアップ",
+              "url": "https://ascii.jp/archive/biz/202610/",
+              "source": "ASCII.jp"
+            },
+            {
+              "id": 2,
+              "title": "【農林水産省選定】酪農・和牛農家向け牛舎見守りAI「農家のミハルAI」、導入の無料相談を全国から受付開始",
+              "url": "https://ascii.jp/archive/top/202610/",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-11-07",
+          "category": "japan",
+          "title_highlights": [
+            "農林水産省",
+            "ミハルAI"
+          ],
+          "three_lines_highlights": [
+            "農林水産省",
+            "ミハルAI",
+            "無料相談"
+          ],
+          "id": "japan-2"
+        },
+        {
+          "title": "教育AI活用協会、11月7日に「探究ナビゲーター」体験WSを開催",
+          "summary_ja": "教育AI活用協会が11月7日、AI時代の学びを支える大人の役割を考える「探究ナビゲーター」体験ワークショップを開く。学校現場では、AIやロボットを使って課題解決に挑む動きも見え始めており、大人側の伴走力が一段と問われている。[2]",
+          "summary_en": "The Japan Education AI Utilization Association will hold an experiential workshop on Nov. 7 to discuss the role adults should play in supporting learning in the AI era. As schools begin using AI and robots to solve problems, the need for adults who can guide inquiry-based learning is growing.[2]",
+          "three_lines": [
+            "教育AI活用協会が体験WSを開く",
+            "AI時代の大人の役割を考える",
+            "学校の学びを支える視点が広がる"
+          ],
+          "body_ja": "（一社）教育AI活用協会が11月7日、AI時代の学びをどう支えるかを考える「探究ナビゲーター」体験ワークショップを開催する。AIを前提にした学びが広がるなかで、子どもが自分で問いを立て、試し、振り返る流れをどう支援するかがテーマになる。[2]\n\n背景には、学校現場でもAIやロボットを使って課題解決に取り組む動きが出てきたことがある。日経BPの事例では、高校生が地域や学科の枠を超えて交流しながら、AIロボットを使って学校の課題解決に挑んでいる。[2] こうした実践が増えるほど、単にツールを教えるだけではなく、学びの設計や対話を促す大人の関与が重要になる。\n\n今回のワークショップは、まさにその「伴走者」の役割を具体的に考える機会といえる。AI導入の主役が子どもや教師だけでなく、地域や保護者も含めた周辺の大人へ広がっていく中で、探究学習を支える新しい関わり方を共有する場として注目される。[2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "サムスン、新広告でアップルを「切り刻む」--折りたたみ参入遅れのiPh...",
+              "url": "https://japan.cnet.com/article/35254273/",
+              "source": "CNET Japan"
+            },
+            {
+              "id": 2,
+              "title": "一歩先への道しるべ ビズボヤージュ - 日経BP",
+              "url": "https://project.nikkeibp.co.jp/onestep/",
+              "source": "日経BP"
+            }
+          ],
+          "published_date": "2026-11-07",
+          "category": "japan",
+          "title_highlights": [
+            "探究ナビゲーター",
+            "11月7日"
+          ],
+          "three_lines_highlights": [
+            "教育AI活用協会",
+            "探究ナビゲーター",
+            "AIロボット"
+          ],
+          "id": "japan-3"
+        }
+      ],
+      "summary": "国内では、生成AIの活用が「試行」から「現場実装の横展開」へ移りつつあり、自治体では事例共有や標準化を進める全国サミットが開催されました。あわせて農業では見守りAIの無料相談開始、教育ではAI時代に子どもを支える大人の伴走力を学ぶワークショップが行われ、AI導入が行政・一次産業・教育の各現場で具体的な運用段階に入っている流れが見えます。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Claudeが家計簿・資産管理まで対応へ、Anthropicが個人向け財務支援機能「Personal Finance in Claude」を発表",
+          "summary_ja": "AnthropicはClaudeに、銀行口座やクレジットカードと連携して財務状況を自然言語で確認できる「Personal Finance」を追加した。読み取り専用のベータ版として、米国のPro/Max/Ultra向けに段階提供される。",
+          "summary_en": "Anthropic has added “Personal Finance” to Claude, letting users connect bank and credit-card accounts to ask about their finances in natural language. The read-only beta is being rolled out in waves to U.S. Pro, Max, and Ultra users.",
+          "three_lines": [
+            "Claudeが口座連携で家計分析に踏み込む",
+            "米国有料プラン向けに順次ベータ提供する",
+            "読み取り専用でも集計精度と設定確認が要る"
+          ],
+          "body_ja": "Anthropicが11月5日に発表した「Personal Finance in Claude」は、Claudeを“会話するAI”から、個人の財務ダッシュボードへ一段押し上げる機能だ。銀行口座やクレジットカードを連携し、残高や取引履歴を自然言語で確認できるため、日々の支出傾向や資金の流れをClaudeにまとめさせる使い方が想定される[1][2][3]。\n\n注目したいのは、金融データへのアクセスがPlaid経由の読み取り専用である点だ。Claudeは口座の中身を参照して分析できるが、資金の移動や運用はできない。個人の資産管理をAIに任せると聞くと強い自動化を想像しがちだが、今回はあくまで“見える化”と“解釈”の支援にとどまる[2]。\n\n提供範囲も限定的で、対象は米国在住のPro、Max、Ultraプラン利用者に絞られ、しかも順次展開のベータ版として始まる。Web版、デスクトップ、iOS、Androidで利用できるというが、最初から全員に開く形ではない。生成AI各社が個人向けユースケースを広げる流れの中でも、Anthropicはまず支払い能力や銀行接続の安全性を慎重に見極める姿勢を取っているように見える[1][2][3]。\n\n一方で、実運用では注意点も多い。記事の指摘どおり、口座残高の更新遅延、同一取引の重複、集計漏れが起きれば、AIの説明がそのまま家計簿の正解にはならない。さらに、連携解除後も会話履歴、生成物、共有リンクの扱いが残る可能性があるため、プライバシー設定やデータの残り方を確認しながら使う必要がある[1]。\n\n今回の発表は、Claudeが企業向けの資料作成や財務分析支援だけでなく、個人の生活費管理にも入り込むことを示した。生成AIの競争は、単に回答の賢さを競う段階から、どこまで日常業務や生活の“実務”を代替できるかへ移っている。そのなかでPersonal Financeは、AIアシスタントが家計の相談相手になる未来を、かなり具体的に見せた機能だと言える[1][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claudeが銀行口座と直接連携、AIが家計を分析する「Personal Finance」登場 | XenoSpectrum",
+              "url": "https://xenospectrum.com/claude-personal-finance-bank-data",
+              "source": "XenoSpectrum"
+            },
+            {
+              "id": 2,
+              "title": "ClaudeがPersonal Financeを発表、銀行口座は読み取り専用で資金は動かせない",
+              "url": "https://pasqualepillitteri.it/ja/news/30559/claude-personal-finance-happyo-beta",
+              "source": "pasqualepillitteri.it"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic、「Claude」に家計管理機能「Personal Finance」　銀行口座と連携、米国でβ提供 - ITmedia NEWS",
+              "url": "https://www.itmedia.co.jp/news/article/2611/06/2000002935",
+              "source": "ITmedia NEWS"
+            }
+          ],
+          "published_date": "2026-11-07",
+          "category": "models",
+          "title_highlights": [
+            "Claude",
+            "Personal Finance",
+            "Anthropic"
+          ],
+          "three_lines_highlights": [
+            "Claude",
+            "米国β",
+            "読み取り専用"
+          ],
+          "id": "models-1"
+        }
+      ],
+      "summary": "生成AIは、単なる会話や文章生成から一歩進み、銀行口座やクレジットカードと連携して個人の資産・家計を把握するなど、実生活の意思決定を支える“実用アシスタント”へと進化しつつあります。特にClaudeの新機能は、読み取り専用の安全な形で財務情報を自然言語で扱えるようにするもので、生成AIの活用範囲が業務支援からパーソナルな金融管理へ広がっている流れを示しています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "本日のAWS/Azure/GCP関連ニュースは不足",
+          "summary_ja": "本日の検索結果では、AWS/Azure/GCPの新サービス、価格改定、障害、戦略、AI関連クラウド機能について、ニュースとして扱える十分な材料が確認できませんでした。提示された検索結果はGCPという略称を含む企業情報であり、クラウドのGCP（Google Cloud Platform）に関する内容ではありませんでした。",
+          "summary_en": "Today’s search results did not provide sufficient newsworthy material on AWS, Azure, or GCP regarding new services, pricing changes, outages, strategy, or AI-related cloud features. The only result referencing “GCP” was a company profile and not information about Google Cloud Platform.",
+          "three_lines": [
+            "本日はクラウド新着の材料が不足した。",
+            "GCP関連の結果は別企業情報だった。",
+            "AWS/Azure/GCPの動きは確認できない。"
+          ],
+          "body_ja": "本日の検索結果を確認したところ、AWS、Azure、GCPに関する新サービス、価格改定、障害、戦略、AI関連機能のいずれについても、解説記事にできるだけのニュース性は見当たりませんでした。[1]\n\n注意したいのは、検索結果に含まれていた「GCP」はGoogle Cloud Platformではなく、別企業のプロフィール情報だった点です。会社名、所在地、業種などの記載はあるものの、クラウド製品やクラウド戦略を示す内容ではありません。[1]\n\nそのため、現時点では特定のクラウド各社の動向を比較して論じるよりも、ニュース候補が不足していると明示するのが正確です。次回は、クラウド事業者の公式発表、障害情報、価格表更新、AI機能の追加発表などが確認できる一次情報が必要です。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "GCP",
+              "url": "https://tavily.com/knowledge/company/Vs1TLSM1mEb3",
+              "source": "tavily"
+            }
+          ],
+          "published_date": "2026-11-07",
+          "category": "cloud",
+          "title_highlights": [
+            "GCP",
+            "AWS",
+            "Azure"
+          ],
+          "three_lines_highlights": [
+            "クラウド",
+            "GCP",
+            "不足"
+          ],
+          "id": "cloud-1"
+        }
+      ],
+      "summary": "本日は、AWS・Azure・GCPを中心としたクラウド分野で、ニュースとして整理できる新サービス発表や価格改定、障害、戦略的な動き、AI関連機能の追加といった大きなトピックは確認されませんでした。全体としては、主要クラウド各社に関する目立った変化が少なく、動向を判断する材料が不足している静かな一日だったと言えます。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "TavilyがCompany Search Benchmarkで1位　AIエージェント向け検索基盤の存在感を拡大",
+          "summary_ja": "TavilyがCompany Search Benchmarkで首位となり、AIエージェントやRAG向けの検索基盤としての評価を高めています。検索とコンテンツ抽出を一体化したAPI、リアルタイム性、そして開発者向けの実装しやすさが、Claude CodeやCursor、GitHub Copilot、LangChainのような開発者ツール／agentフレームワーク周辺での採用を後押ししそうです。",
+          "summary_en": "Tavily topped the Company Search Benchmark, strengthening its position as a search layer for AI agents and RAG workflows. Its fast, secure web search and content-extraction APIs, along with real-time retrieval, may make it increasingly relevant for developer tools and agent frameworks such as Claude Code, Cursor, GitHub Copilot, and LangChain.",
+          "three_lines": [
+            "TavilyがBenchmarkで1位を獲得した。",
+            "検索と抽出をAPI一体で提供する。",
+            "エージェント基盤として採用余地が広がる。"
+          ],
+          "body_ja": "AIエージェント向けの検索基盤を提供するTavilyが、Company Search Benchmarkで1位を獲得した。公式情報では、Tavilyは「real-time search engine for AI agents」であり、AIエージェントとRAGワークフロー向けに、高速かつ安全なWeb検索とコンテンツ抽出APIを提供すると説明されている [2]。つまり、単なる検索APIではなく、情報収集から抽出までをひとつのAPIでまとめて扱える点が、評価の中心にあると見られる [2]。\n\n開発者向けの周辺情報を見ても、Tavilyはエージェント実装に寄せた設計思想が一貫している。AgentsByJobでは「fast web search and content-extraction APIs built for AI agents」と紹介され、リアルタイム検索エンジンとして位置づけられている [1]。また、CloudPriceの説明では、Tavily Search Advancedは「enhanced tier」とされ、AI最適化されたWeb検索APIとして、より深い検索と包括的な結果をエージェントワークフローに返す層であるとされる [3]。この2点から、Tavilyは“検索するだけ”ではなく、“エージェントがそのまま使える検索レイヤー”へと進化していることがうかがえる [1][3]。\n\n今回の1位獲得は、Claude CodeやCursor、GitHub Copilot、LangChainのような開発者ツール／agentフレームワークにとっても示唆が大きい。これらの環境では、コードやドキュメント、外部情報を素早く取り込み、必要な文脈だけを抽出して次の推論や行動につなげることが重要になる。Tavilyが前面に出している「web search」と「content extraction」の組み合わせは、その要件にかなり素直に合う [1][2]。さらに、MCPInstallではTavily Search Agent Skillが「search the web」「find articles」「look up information」といった用途に向くと説明されており、実際のエージェント実装で検索機能を部品化して扱いたい需要とも相性が良い [4]。\n\n価格面でも、導入ハードルを下げる工夫が見える。AgentsByJobでは$0.008/credit、または月額$30からのパックが紹介されており、試験導入しやすいレンジにある [1]。開発者ツールの競争が激しい現在、検索品質だけでなく、実装コストや運用のしやすさも採用判断を左右する。Tavilyの今回の順位は、エージェント時代の“検索インフラ”としての地位を、単なる機能提供者から一段引き上げる出来事といえそうだ [1][2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Tavily: pricing, EU/GDPR info & alternatives - AgentsByJob",
+              "url": "https://agentsbyjob.com/agents/tavily",
+              "source": "AgentsByJob"
+            },
+            {
+              "id": 2,
+              "title": "Tavily | Tavily",
+              "url": "https://tavily.com/knowledge/company/EqGHgI7P5f0t",
+              "source": "Tavily"
+            },
+            {
+              "id": 3,
+              "title": "Tavily Search Advanced pricing & specs — Tavily | CloudPrice",
+              "url": "https://cloudprice.net/models/tavily-search-advanced",
+              "source": "CloudPrice"
+            },
+            {
+              "id": 4,
+              "title": "Tavily Search Agent Skill by tavily-ai | MCPInstall",
+              "url": "https://www.mcpinstall.com/skills/tavily-ai/skills/tavily-search",
+              "source": "MCPInstall"
+            }
+          ],
+          "published_date": "2026-11-07",
+          "category": "devtools",
+          "title_highlights": [
+            "Tavily",
+            "1位"
+          ],
+          "three_lines_highlights": [
+            "Benchmark",
+            "API",
+            "agents"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "AI開発現場でClaude Code・Cursor・Copilot・Gemini Code Assistの採用が拡大、求人でも“標準装備”化が進む",
+          "summary_ja": "AI開発ツールは、単なる話題性から実務の標準装備へと移りつつある。最新の製品更新では、Copilotの新モデルやGemini系の追加、Claude系の軽量モデル投入が続き、開発者は用途とコストで使い分けやすくなった。一方で、企業側は個人レベルの利用状況や用途を可視化する監視・分析基盤を整え、実務導入を前提にした運用へ踏み込んでいる。",
+          "summary_en": "AI development tools are moving from hype to standard workplace equipment. Recent updates add new models and lower-cost options across Copilot and Gemini, while enterprise monitoring tools make developer usage more visible and manageable. The result is a more practical, operations-oriented adoption model for daily engineering work.",
+          "three_lines": [
+            "CopilotとGeminiが新モデルで実務を広げる",
+            "Claude系も軽量化し日常利用の選択肢が増える",
+            "企業は利用可視化を進め導入を標準化する"
+          ],
+          "body_ja": "AI開発ツールの採用が、試験導入の段階から実務標準へと一段進んでいる。検索結果で確認できる範囲でも、GitHub Copilotは「GPT-6.1 Terra」を日常的なagentic/terminal作業向けの低コストモデルとして一般提供し、Gemini側でも「Gemini 4 Argon」がPro+、Max、Business、Enterprise各プランに加わった。またClaude系では「Claude Haiku 5.5」が投入され、重いモデルだけに頼らない使い分けがしやすくなっている[1]。こうした更新は、AIコーディング支援を“特別な機能”ではなく、速度・コスト・用途で選ぶ日用品に変えていく動きと読める。\n\n今回の変化で重要なのは、単に機能が増えたことではない。企業側の関心が、導入の可否から、どの業務でどの程度使われ、どんなリスクがあるかの把握へ移っている点だ。エンタープライズ向け監視基盤の説明では、Harmonicがプロンプトを個人単位で監視し、社員が共有するデータを分類するほか、利用状況を業務目的ごとにまとめて、どのユースケースが生産性につながり、どれがリスクを生むかを可視化するとされている[2]。ブラウザ外まで追える設計も示されており、AI開発ツールの利用は“自由に使う”段階から“管理しながら使う”段階へ進んでいる。\n\nさらに、エージェント系のワークフローでは検索コストの最適化も無視できない。TavilyはCompany Search Benchmarkで1位を掲げ、エージェント型検索のコスト削減を前面に出している[3]。開発者がClaude Code、Cursor、GitHub Copilot、Gemini Code Assistのような支援ツールを使う場面では、モデルの性能差だけでなく、検索・監視・運用の周辺コストも採用判断に効いてくる。つまり現場では、個々のツールを“最強かどうか”で比べるより、コード生成、端末作業、社内データの扱い、検索の節約まで含めた総合力で選ぶ時代に入りつつある[1][2][3]。\n\nこの流れが求人市場に与える影響は大きい。実務向けの募集要件では、特定ツールの経験があること自体よりも、AI支援を前提に開発を進められることが求められやすくなる。Copilot、Cursor、Claude Code、Gemini Code Assistは、その代表例として“使えることが当たり前”の棚に並び始めた。採用が広がるほど、現場は個人技ではなく運用設計で差がつく。AI開発ツールは、もはや補助輪ではなく、開発組織の標準装備になりつつある[1][2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Cursor vs Claude Code vs Copilot: $10 Cheapest [2026]",
+              "url": "https://shattered.io/claude-code-vs-cursor-vs-github-copilot-pricing-limits-2026",
+              "source": "shattered.io"
+            },
+            {
+              "id": 2,
+              "title": "Best Enterprise AI Monitoring Platforms: Top 5 Compared",
+              "url": "https://cybernews.com/ai-tools/best-enterprise-ai-monitoring-tools",
+              "source": "Cybernews"
+            },
+            {
+              "id": 3,
+              "title": "Tavily",
+              "url": "https://tavily.com/knowledge/company/WGf4o1saQ1yD",
+              "source": "Tavily"
+            }
+          ],
+          "published_date": "2026-11-07",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "Cursor",
+            "Copilot",
+            "Gemini Code Assist"
+          ],
+          "three_lines_highlights": [
+            "Copilot",
+            "Claude Haiku 5.5",
+            "Harmonic"
+          ],
+          "id": "devtools-2"
+        }
+      ],
+      "summary": "AI開発ツールは、単なる補助的な話題から、検索・生成・コーディングを含む開発実務の“標準装備”へと定着しつつあります。Tavilyのような検索基盤の評価向上は、AIエージェントやRAGの実装基盤が成熟してきたことを示しており、Claude CodeやCursor、Copilot、Gemini Code Assistの普及は、用途別・コスト別に使い分ける運用が一般化している流れを映しています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "AI巨額投資は続くのか？ 米欧で問われる半導体・メモリー投資の持続性",
+          "summary_ja": "生成AI向けの設備投資は、2025年に主要IT5社で4000億ドル超、2026年にはさらに約75%増える可能性が示され、米欧のAIインフラ投資はなお加速局面にある。一方で、その規模は景気や信用環境、キャッシュフローの制約に左右されやすく、投資の持続性が焦点になっている。",
+          "summary_en": "AI infrastructure spending remains in an expansion phase, with five major tech firms reportedly spending over $400 billion in 2025 and potentially another 75% increase in 2026. The key question is whether such scale can be sustained amid credit discipline and cash-flow constraints.",
+          "three_lines": [
+            "AI投資は2026年も拡大が続く。",
+            "半導体とメモリー需要が供給を押し上げる。",
+            "ただし資金制約が持続性を試す。"
+          ],
+          "body_ja": "生成AIを支えるデータセンター、半導体、メモリーへの投資は、米欧のテック大手にとって引き続き最重要テーマです。IEAベースの見立てでは、主要テクノロジー5社の設備投資は2025年に4000億ドルを超え、2026年にはさらに約75%増える可能性があるとされます。単年で7000億ドル超に迫りうる規模は、AIが「研究開発」から「インフラ産業」へ移ったことを示す一方、資本集約度の高さも際立たせています [1]。\\n\\nこの局面で注目されるのは、AI向け投資がどこまで自己資金で回るのか、という点です。記事が示すのは、AIインフラの拡張が成長期待だけでなく、信用規律やキャッシュフロー制約の影響を強く受けるという見方です。つまり、受注や利用が伸びても、データセンター建設や先端チップ調達、メモリー確保に先行投資が必要なため、資金調達環境が少し悪化するだけでも投資計画は見直しを迫られます [1]。\\n\\n米国では、こうした巨額投資の受け皿としてNVIDIAのような半導体企業が中心的な位置を占めています。公開情報ではNVIDIAは米カリフォルニア州サンタクララに本社を置く上場企業で、コンピュータハードウェア製造業に分類されています。AI計算基盤の中核を担う供給者が存在することで、米国のAI投資は設備とソフトの両面で加速しやすい構図にあります [2]。\\n\\nただし、欧州を含む外部環境は単純な追い風ではありません。AI Actなどの規制強化は、AI導入の透明性や安全性を高める一方、企業にとっては導入コストやコンプライアンス負担を増やします。規制対応費用が上がれば、巨額の半導体・メモリー投資を続ける企業ほど、投資判断に慎重さが求められるはずです。今回の材料だけでも、AIインフラ投資は“増えること”自体より、“どの資金で、どのペースで、どこまで続けられるか”が本題だと分かります [1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "AI Infrastructure Capital Cycle: Credit Discipline - Cash-Flow Constraints and the Economics of Artificial Intelligence Through 2030",
+              "url": "https://debuglies.com/2026/11/02/ai-infrastructure-capital-cycle-credit-discipline-cash-flow-constraints-and-the-economics-of-artificial-intelligence-through-2030",
+              "source": "debuglies.com"
+            },
+            {
+              "id": 2,
+              "title": "Nvidia",
+              "url": "https://tavily.com/knowledge/company/TXRhn2TKUD7t",
+              "source": "tavily.com"
+            }
+          ],
+          "published_date": "2026-11-07",
+          "category": "global",
+          "title_highlights": [
+            "4000億ドル",
+            "75%増",
+            "NVIDIA"
+          ],
+          "three_lines_highlights": [
+            "2026年",
+            "半導体",
+            "資金制約"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "EU AI ActとCSDDDで進む、欧米企業のAI・人権ガバナンス再編",
+          "summary_ja": "EU AI ActやCSDDDを見据え、欧米企業ではAI導入と人権デューデリジェンスを一体で管理する動きが強まっている。英国政府が強制的な人権DD法の導入を打ち出したことで、EU主導の規制対応はサプライチェーン管理や投資判断まで広がりつつある。",
+          "summary_en": "European and US companies are increasingly aligning AI deployment with human-rights due diligence in response to the EU AI Act and CSDDD. The UK government's move toward mandatory human-rights due diligence reinforces a broader regulatory shift affecting supply chains and investment decisions.",
+          "three_lines": [
+            "英国が人権DD法の導入を表明した",
+            "EU規制対応がAI統治の前提になった",
+            "企業は調達と投資の見直しを迫られる"
+          ],
+          "body_ja": "欧米企業のAIガバナンスは、もはや「モデルの性能管理」だけでは足りなくなっている。EU AI ActやCSDDDの流れに加え、英国政府が強制的な人権デューデリジェンス法と強制労働禁止の導入を打ち出したことで、AIの利用場面だけでなく、供給網や事業運営そのものを人権基準に沿って見直す必要性が一段と高まった。[1][2]\n\n今回の動きで重要なのは、AIのリスク管理と人権DDが別々の話ではなくなってきた点だ。生成AIや業務自動化の導入が進むほど、データ収集、外部委託、クラウド活用、採用・評価の自動化など、複数の工程に人権上の論点が入り込む。したがって企業は、AIの技術統制だけでなく、調達先や委託先を含めた説明責任の設計を前倒しで進める必要がある。[1][2]\n\nまた、こうした規制の拡大は、欧米大手のAI戦略にも影響する。AI導入を急ぐ企業ほど、コンプライアンス部門、法務、調達、ESG、セキュリティを横断した運営体制が不可欠になるからだ。とくにグローバルに展開する企業では、EU向けの制度対応を起点に、英国の新制度や各国の人権・労働規制へと統制範囲を広げる「共通基盤化」が進む可能性が高い。[1][2]\n\n投資家やM&Aの観点でも、影響は小さくない。人権デューデリジェンスが義務化方向へ進めば、買収対象企業のサプライチェーン管理、外部委託の実態、AIの利用ポリシーが、取引条件やバリュエーションの論点になりやすい。つまり、AIの競争力を測る尺度が、技術力だけでなく、規制に耐えるガバナンスの完成度へと広がっている。[1][2]\n\n今回の英国の発表はEUの制度そのものではないが、欧州の規制圏全体で「AIと人権を一体で管理する」方向が強まっていることを示すシグナルといえる。欧米企業にとって今後の焦点は、AI活用のスピードを落とさずに、いかに人権・労働・調達の統制を埋め込むかにある。[1][2]",
+          "references": [
+            {
+              "id": 1,
+              "title": "UK Government Commits to Mandatory Human Rights Due Diligence Law: Outcome of the Responsible Business Conduct Review | Global Policy Watch",
+              "url": "https://www.globalpolicywatch.com/2026/11/uk-government-commits-to-mandatory-human-rights-due-diligence-law-outcome-of-the-responsible-business-conduct-review",
+              "source": "Global Policy Watch"
+            },
+            {
+              "id": 2,
+              "title": "UK human rights due diligence and forced labour law: how does it compare with the EU?",
+              "url": "https://www.fieldfisher.com/en/services/regulatory/public-regulatory-law-blog/uk-human-rights-due-diligence-and-forced-labour-law-how-does-it-compare-with-the-eu",
+              "source": "Fieldfisher"
+            }
+          ],
+          "published_date": "2026-11-07",
+          "category": "global",
+          "title_highlights": [
+            "EU AI Act",
+            "CSDDD"
+          ],
+          "three_lines_highlights": [
+            "人権DD法",
+            "EU規制",
+            "調達"
+          ],
+          "id": "global-2"
+        }
+      ],
+      "summary": "米欧では、生成AI需要を背景に半導体・メモリーを含むインフラ投資が引き続き拡大している一方、景気や資金調達環境次第ではその持続性が問われ始めています。加えて、EU AI ActやCSDDD、英国の人権DD強化を受け、企業はAI導入を単独の技術課題ではなく、人権・サプライチェーン・投資判断まで含む統合ガバナンスとして再設計する流れが強まっています。"
+    }
+  ]
+}
