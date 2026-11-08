@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anthropic、Claudeの複数旧モデルに不可視テキスト透かしを適用へ | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+    <span class="article-date">2026-11-08</span>
+  </div>
+  <h1 class="article-title">Anthropic、<mark style="background:#0E8A8726">Claude</mark>の複数<mark style="background:#0E8A8726">旧モデル</mark>に不可視テキスト<mark style="background:#0E8A8726">透かし</mark>を適用へ</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#0E8A8726">Claude</mark>旧モデルにも透かしを広げる。</li><li><mark style="background:#0E8A8726">11月3日</mark>から順次、Bedrockは遅れて進む。</li><li>一部設定では検出性が落ちる。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Anthropicは、Claudeが生成する文章に埋め込む不可視のテキスト透かしを、これまで対象外だった旧モデルにも広げる。11月3日から順次、複数のClaudeモデルに適用し、Amazon Bedrockでは完了まで数日かかる見込みだという。[1][4][5]</p>
+    <p class="sum-en">Anthropic is extending invisible text watermarks to older Claude models, with rollout starting November 3 and Bedrock completion expected a few days later. The move broadens machine-readable attribution across more Claude outputs.[1][4][5]</p>
+  </div>
+
+  <div class="article-body"><p>Anthropicは、Claudeが出力する文章に埋め込む「不可視のテキスト透かし」を、旧モデルにも拡大する。対象はClaude Mythos 5、Claude Opus 4.7、Claude Opus 4.6、Claude Sonnet 4.6で、11月3日から順次適用が始まると案内された。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup></p>
+<p>この透かしは、AIが書いた文章であることを機械が判別しやすくするための仕組みだ。Notebookcheckは、Claudeの文章にはすでに「machine-readable mark」が入り、8月2日以降に出たモデルでは最初から無効化できない形で導入されていたと伝えている。今回の変更は、その仕組みを旧世代モデルまで広げる動きだといえる。<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup></p>
+<p>Anthropicのヘルプセンターによれば、Amazon Bedrockでの展開は11月10日までに完了する予定だという。<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#0E8A87">[5]</a></sup> つまり、Claude本体では先行して適用されても、クラウド経由で使うユーザーには数日のタイムラグが生じる可能性がある。Anthropicはプラットフォーム顧客向けの案内でも、Bedrock側は「additional days」かかる場合があるとしていた。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup></p>
+<p>ただし、すべての条件で同じように透かしが残るわけではない。特にSonnet 4.6では、temperature、top_p、top_kを非デフォルト値にすると、テキスト透かしが安定して付与されない場合があるとヘルプセンターは注意している。<sup class="cite"><a id="cite-5" href="#ref-5" style="color:#0E8A87">[5]</a></sup> これは、利用者が推論設定を調整する実運用では、検出の一貫性に差が出うることを示している。</p>
+<p>背景として、生成AI各社では出力の来歴を追跡しやすくする動きが広がっている。Instagram上の関連投稿では、Anthropicがこの仕組みを世界的に展開する一方、OpenAIも10月5日以降に同様の対応を進めていると紹介されており、主要モデルの「出所表示」をめぐる競争が加速していることがうかがえる。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup> 生成AIの性能競争に加えて、誰が書いたかをどう示すかという“真正性”の競争が、モデル運用の新しい論点になりつつある。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup><sup class="cite"><a id="cite-6" href="#ref-6" style="color:#0E8A87">[6]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup></p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://cellcog.ai/blog/claude-watermark-older-models" target="_blank" rel="noopener noreferrer">Claude&#39;s Text Watermark: Older Models Join Nov 3 | CellCog</a>
+        <span class="ref-source">— CellCog</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://www.instagram.com/reel/DfVs0X7qsYH" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span class="ref-source">— Instagram</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://www.facebook.com/AndruEdwards/posts/starting-tuesday-claudes-older-models-will-hide-a-watermark-in-the-words-they-ch/1726944002328192" target="_blank" rel="noopener noreferrer">Starting Tuesday, Claude&#39;s older models...</a>
+        <span class="ref-source">— Facebook</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.notebookcheck.net/Claude-now-watermarks-text-from-older-models-with-no-opt-out.1444769.0.html" target="_blank" rel="noopener noreferrer">Claude now watermarks text from older models, with no opt-out - Notebookcheck News</a>
+        <span class="ref-source">— Notebookcheck News</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content" target="_blank" rel="noopener noreferrer">How Claude marks AI-generated content | Claude Help Center</a>
+        <span class="ref-source">— Claude Help Center</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://www.facebook.com/willfrancis/posts/more-ai-models-are-adding-watermarks-to-the-text-they-writethese-updates-are-hap/1752266353568852" target="_blank" rel="noopener noreferrer">More AI models are adding watermarks to the text they write!</a>
+        <span class="ref-source">— Facebook</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://www.instagram.com/reel/DfQGo9WOXNK" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <span class="ref-source">— Instagram</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
