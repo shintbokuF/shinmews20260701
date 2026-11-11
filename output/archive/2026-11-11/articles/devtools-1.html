@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHubは“コード生成”から“エージェント運用”へ移るのか | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+    <span class="article-date">2026-11-11</span>
+  </div>
+  <h1 class="article-title"><mark style="background:#8A3FE026">GitHub</mark>は“コード生成”から“エージェント運用”へ移るのか</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#8A3FE026">Copilot</mark>は開発全体の作業補助へ広がる。</li><li><mark style="background:#8A3FE026">GitHub</mark>検索は秘密探索の悪用対象にもなる。</li><li>エージェント運用は安全設計が前提になる。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">GitHubとCopilotをめぐる最新動向を見ると、焦点は単なるコード補完ではなく、開発者の作業全体をまたぐエージェント化へ移っています。一方で、GitHub上の検索や秘密情報探索を悪用する動きも確認され、開発効率化とセキュリティ対策が同時に問われる局面に入りました。</p>
+    <p class="sum-en">GitHub’s latest momentum points beyond code completion toward agentic workflows across the developer lifecycle. At the same time, new reporting shows attackers abusing GitHub-related queries and exposed secrets, making productivity and security an inseparable pair.</p>
+  </div>
+
+  <div class="article-body"><p>GitHubの最新動向をまとめると、中心にあるのは「コードを出すAI」から「作業を任せるAI」への移行だ。GitHubブログは、まずは今いちばん面倒な工程からエージェントを入れ、徐々に開発全体へ広げるという考え方を示している。つまりCopilotは、断片的な補完機能ではなく、日々のワークフローに入り込む“実務の相棒”として再定義されつつある<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup>。&lt;br&gt;&lt;br&gt;この流れは、Copilot Studio側の更新にも表れている。Copilot Studioでは、これまでGitHub Copilot harnessだったものがMicrosoft Copilot harnessへと変わり、より複雑な業務課題に対応するエージェントを作りやすくする方向が打ち出された。名称変更だけに見えて、実際には「Copilot」を個別の開発支援ツールではなく、Microsoft全体のエージェント基盤として束ね直す動きと読める<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup>。&lt;br&gt;&lt;br&gt;さらに、開発者向けエディタ周辺でも競争は激しい。比較記事では、VS Codeの2026年10月リリースが、プラグインやskills、agent toolsを探せるMarketplace風のBrowse画面を加えたとされ、Copilot connectorsも拡張機能の一部を置き換える方向で進化していると指摘されている。Claude CodeやCursor、LangChainのような外部ツールが注目されるなか、GitHub/Microsoft陣営はエディタ、拡張、コネクタ、エージェントを一体化して囲い込みを強めている構図だといえる<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#8A3FE0">[2]</a></sup>。&lt;br&gt;&lt;br&gt;ただし、エージェント化の拡大は防御側の負担も増やす。Microsoft Security Blogは、2026年8月以降、攻撃者がエージェント型AIのオフェンシブ基盤を使い、GitHubに対して秘密情報を探す大量クエリを送っていたと報告した。ここで重要なのは、攻撃者がAIを使って“検索を高速化”している点だ。AIが開発生産性を上げるほど、同じ仕組みが秘密情報の探索や悪用にも転用される<sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。&lt;br&gt;&lt;br&gt;つまり2026年秋のGitHub周辺を一言で表せば、「生産性のためのAI」と「攻撃のためのAI」が同じ土俵に乗った、ということになる。Copilotやエージェントフレームワークの進化は止まらないが、今後の評価軸は機能の多さだけではない。どこまで権限を持たせるか、何を自動化し、何を人間が確認するか、そして秘密情報をどう守るかまで含めて設計できるかが、導入の成否を分けそうだ<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#8A3FE0">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#8A3FE0">[3]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#8A3FE0">[4]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agents-that-are-persistent-agents-for-customer-conversations-and-improved-maker-experience-in-microsoft-copilot-studio" target="_blank" rel="noopener noreferrer">Agents that are persistent | New in Copilot Studio, October 2026 | Microsoft Copilot Blog</a>
+        <span class="ref-source">— Microsoft Copilot Blog</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://shattered.io/zed-vs-vscode-vs-jetbrains-pricing-agents-2026" target="_blank" rel="noopener noreferrer">Zed vs VS Code vs JetBrains: $10 Pro, $0 Core [2026]</a>
+        <span class="ref-source">— shattered.io</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering" target="_blank" rel="noopener noreferrer">Beyond code generation: A developer&#39;s guide to agentic engineering - The GitHub Blog</a>
+        <span class="ref-source">— GitHub Blog</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets" target="_blank" rel="noopener noreferrer">Threat actors use agentic AI tooling to find and abuse exposed secrets | Microsoft Security Blog</a>
+        <span class="ref-source">— Microsoft Security Blog</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>

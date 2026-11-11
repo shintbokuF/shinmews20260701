@@ -1,0 +1,397 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T02:34:22.205839+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [
+        {
+          "title": "QommonsAI提供開始2周年、自治体向け生成AI活用を全国で共有へ",
+          "summary_ja": "QommonsAIが提供開始2周年を迎え、自治体職員向けの「行政AX全国サミット 2026」を開催する。生成AIハッカソンや導入自治体の活用事例、最新アップデートを通じて、行政現場での実装を広げる狙いだ。[1]",
+          "summary_en": "QommonsAI marks its second year of service with a nationwide summit for local governments, highlighting generative-AI hackathons, municipal use cases, and product updates.[1]",
+          "three_lines": [
+            "QommonsAIが2周年を機に全国サミットを開く。",
+            "自治体職員向けに生成AIの活用事例を共有する。",
+            "ハッカソンと最新アップデートで実装を後押しする。"
+          ],
+          "body_ja": "自治体向け生成AI活用の機運が、個別導入の段階から横展開へ進もうとしている。ASCII.jpのアーカイブには、QommonsAI提供開始2周年を記念した「行政AX全国サミット 2026」の開催が掲載され、全国の自治体職員とともに、生成AIハッカソンや導入自治体の活用事例紹介、最新アップデートを発表するとされている。[1]\n\nこの情報から読み取れるのは、QommonsAIが単なる製品訴求ではなく、自治体現場の実務に生成AIをどう組み込むかを共有する場づくりに軸足を置いていることだ。行政分野では、制度対応や住民対応など業務の幅が広く、導入後の運用知見が重要になる。今回のサミットは、そうした知見を自治体間で持ち寄り、実装の再現性を高める試みとみられる。[1]\n\nまた、全国規模での開催である点も注目される。自治体向けAI活用は、先行事例が一部の自治体に偏ると広がりにくいが、全国サミットという形なら、導入自治体の具体例を共有しながら、参加者自身がハッカソンを通じて活用像を描ける。ASCII.jpの見出しが示す通り、今回のイベントは2周年の節目を機に、製品の最新アップデートまで含めて発表する構成であり、提供元としての継続的な改善姿勢も打ち出している。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/biz/202610",
+              "source": "ASCII.jp"
+            },
+            {
+              "id": 2,
+              "title": "ASCII.jp － 記事アーカイブ",
+              "url": "https://ascii.jp/archive/top/202611",
+              "source": "ASCII.jp"
+            }
+          ],
+          "published_date": "2026-11-11",
+          "category": "japan",
+          "title_highlights": [
+            "QommonsAI",
+            "全国サミット"
+          ],
+          "three_lines_highlights": [
+            "QommonsAI",
+            "自治体職員",
+            "生成AI"
+          ],
+          "id": "japan-1"
+        }
+      ],
+      "summary": "自治体向け生成AIの実装が、単なる試行段階から全国展開・共有のフェーズへ進みつつあることがうかがえます。QommonsAIは提供開始2周年を機に、導入事例やハッカソンを通じて行政現場での具体的な活用を広げ、自治体DXの横展開を加速させようとしています。"
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "GoogleがGemini 4 Carbonを一般提供開始、Antigravityでマルチエージェント編成も前面に",
+          "summary_ja": "GoogleはGemini 4 Carbonの一般提供を打ち出し、開発者向けの新たな実装基盤としてAntigravityのマルチエージェント編成機能も示しました。今回の発表で目立つのは、単体モデルの性能訴求だけでなく、長大なコード移植のような実務タスクを複数エージェントで回す運用イメージを前面に出している点です。",
+          "summary_en": "Google announced general availability of Gemini 4 Carbon and also highlighted Antigravity’s multi-agent orchestration features. The update emphasizes not only model capability but also practical workflow design for large engineering tasks.",
+          "three_lines": [
+            "Gemini 4 Carbonが一般提供に入った。",
+            "Antigravityで複数エージェントを編成できる。",
+            "長大なFortran移植例で実務性を示した。"
+          ],
+          "body_ja": "GoogleはGemini 4 Carbonを一般提供に進め、生成AIを「使える段階」へ押し上げる姿勢を明確にしました。今回の発表では、単にモデル名を更新するだけでなく、実際の開発や移行作業にどう組み込むかが強く意識されています。モデル単体の性能競争から、運用面まで含めた総合力競争へと話題が移ってきた印象です。[1]\n\n注目点のひとつが、Antigravityで示されたマルチエージェント編成機能です。検索結果に含まれるAntigravityブログの事例では、Argonを使って17万4000行規模のFortranモデルを59分でRustへ移植したとされています。もっとも、これはベンダー自身が示したショーケースであり、特定条件下のデモとして受け止めるのが妥当です。それでも、巨大コードベースの変換や再実装を複数エージェントで分担させる発想が、実務レベルのユースケースとして提示された意味は小さくありません。[1]\n\nこの発表から読み取れるのは、Googleが「高性能な基盤モデル」と「それを回すための作業環境」を一体で売りにしていることです。AI導入の現場では、モデルのベンチマークだけでなく、実際にどう役割分担させ、どれだけ大きな仕事を任せられるかが重要になります。今回のGemini 4 CarbonとAntigravityの組み合わせは、その問いに対するGoogleの回答として位置づけられるでしょう。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google Jules eingestellt: Aus am 31. Dezember 2026",
+              "url": "https://shattered.io/at/google-jules-eingestellt-antigravity-31-dezember-2026",
+              "source": "shattered.io"
+            },
+            {
+              "id": 2,
+              "title": "Google",
+              "url": "https://tavily.com/knowledge/company/G3cVIaB2LvXb",
+              "source": "Tavily"
+            }
+          ],
+          "published_date": "2026-11-11",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 4",
+            "Carbon",
+            "Antigravity"
+          ],
+          "three_lines_highlights": [
+            "Gemini 4",
+            "マルチエージェント",
+            "17万4000行"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Anthropic、Claude Fable 5.2／Mythos 5.2を公開　出力30％高速化とAPI20％値下げで攻勢",
+          "summary_ja": "Anthropicは2026年11月9日、Claude Fable 5.2とClaude Mythos 5.2を発表した。両モデルは5.1世代より最大30％高速に出力し、API価格も入力100万トークン8ドル、出力100万トークン40ドルへ20％引き下げられた。",
+          "summary_en": "Anthropic announced Claude Fable 5.2 and Claude Mythos 5.2 on November 9, 2026. The models deliver up to 30% faster output than the 5.1 generation and come with a 20% API price cut to $8 per million input tokens and $40 per million output tokens.",
+          "three_lines": [
+            "Fable 5.2／Mythos 5.2を11月9日に発表",
+            "出力速度は5.1比で最大30％向上",
+            "API料金は20％下げて利用しやすくした"
+          ],
+          "body_ja": "Anthropicが11月9日に投入したClaude Fable 5.2とClaude Mythos 5.2は、同社の生成AIモデル戦略を「性能強化」と「利用単価の引き下げ」の両輪で進める動きとして注目される。複数ソースによると、両モデルは5.1世代より最大30％速く出力を生成し、価格は入力100万トークン8ドル、出力100万トークン40ドルに改定された[1][2][6]。\n\n今回の発表で重要なのは、Fable 5.2とMythos 5.2が「2つの別物」ではなく、同じ基盤モデルを異なる設定で提供する構成だという点だ。Fable 5.2は広く利用可能な一般向けの位置づけで、Mythos 5.2はライフサイエンスやサイバー分野の確認済み組織向けに制限されるとされる。つまり、Anthropicは同一モデルを用途とガードレールに応じて出し分け、公開範囲を変える戦略を採っている[1][3][8]。\n\n価格面では、5.1世代の10ドル／50ドルから20％の引き下げとなり、開発者にとってはコストの見通しが立てやすくなった。The New StackはFable 5.2の価格改定に加え、Fast modeでは通常より速い生成が可能になると報じており、MLQ.aiもFast modeの料金を入力16ドル、出力80ドルとしている[4][7]。速度と価格を同時に改善することで、Anthropicはコーディングや推論、エージェント用途での実運用を強く意識しているように見える[4][8]。\n\nまた、CNBCはFable 5.2とMythos 5.2をAnthropicの最上位クラスの提供群として位置づけ、IPOを控えるタイミングでの発表だと伝えた[6]。単なるモデル更新ではなく、性能、価格、提供条件をまとめて見直すことで、企業利用の拡大と収益化の両方を狙う布石と読める。生成AI市場ではOpenAIやGoogle、Metaなどの競争が続くが、今回のAnthropicは「速い・安い・使い分けやすい」を前面に出し、実務導入のしやすさで存在感を高めにきた[1][4][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claude Fable 5.2 and Mythos 5.2: Benchmarks and Pricing",
+              "url": "https://felloai.com/claude-fable-5-2",
+              "source": "Fello AI"
+            },
+            {
+              "id": 2,
+              "title": "Anthropic Unveils Claude Fable 5.2 and Mythos 5.2 With 30% Faster Output - The Blunt Times",
+              "url": "https://theblunttimes.in/anthropic-unveils-claude-fable-5-2-and-mythos-5-2-with-30-faster-output/76800",
+              "source": "The Blunt Times"
+            },
+            {
+              "id": 3,
+              "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 at a 20% lower price",
+              "url": "https://pasqualepillitteri.it/en/news/31474/claude-fable-5-2-mythos-5-2-launch-price",
+              "source": "pasqualepillitteri.it"
+            },
+            {
+              "id": 4,
+              "title": "Anthropic launches Fable 5.2 with a price cut and stronger coding scores - The New Stack",
+              "url": "https://thenewstack.io/anthropic-fable-coding-upgrade",
+              "source": "The New Stack"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2, pairing new, record-high benchmarks with 20% API cost reduction | VentureBeat",
+              "url": "https://venturebeat.com/technology/anthropic-releases-claude-fable-5-2-and-mythos-5-2-pairing-new-record-high-benchmarks-with-20-api-cost-reduction",
+              "source": "VentureBeat"
+            },
+            {
+              "id": 6,
+              "title": "Anthropic releases Claude Fable 5.2 and Claude Mythos 5.2 ahead of IPO",
+              "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html",
+              "source": "CNBC"
+            },
+            {
+              "id": 7,
+              "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 with a 20% price cut as its IPO nears | MLQ.ai",
+              "url": "https://mlq.ai/news/anthropic-launches-claude-fable-5-2-and-mythos-5-2-with-a-20-price-cut-as-its-ipo-nears",
+              "source": "MLQ.ai"
+            },
+            {
+              "id": 8,
+              "title": "Anthropic Launches Claude Fable 5.2 With 20% Price Cut Ahead of IPO | OpenTools",
+              "url": "https://opentools.ai/news/anthropic-launches-claude-fable-5-2-mythos-5-2-20-percent-price-cut",
+              "source": "OpenTools"
+            }
+          ],
+          "published_date": "2026-11-11",
+          "category": "models",
+          "title_highlights": [
+            "Fable 5.2",
+            "Mythos 5.2",
+            "30%",
+            "20%"
+          ],
+          "three_lines_highlights": [
+            "Fable 5.2",
+            "30%",
+            "20%"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Metaが小型AIモデル「Muse Ember」を発表、Claude Haiku 5.5級を約3分の1コストで狙う",
+          "summary_ja": "Metaは、反復作業やツール操作に強い小型AIモデル「Muse Ember」を発表した。ベンチマークではClaude Haiku 5.5に近い性能を示しつつ、タスクあたりのコストを約3分の1に抑えられるとしている。",
+          "summary_en": "Meta has introduced Muse Ember, a compact AI model optimized for repetitive agent tasks. The company says it delivers performance comparable to Claude Haiku 5.5 at roughly one-third the cost per task.",
+          "three_lines": [
+            "Metaが小型モデルMuse Emberを公開した。",
+            "Claude Haiku 5.5級性能を低コストで狙う。",
+            "反復作業向けの実用性を前面に出した。"
+          ],
+          "body_ja": "Metaは2026年11月9日、小型AIモデル「Muse Ember」を発表した。Meta自身はこれをMuseシリーズで最小・最も効率的なモデルと位置づけ、特にプログラミングやツール操作のような反復的なエージェント作業に向くと説明している[2][6]。\n\n注目点は、性能と価格のバランスだ。Metaの説明や各報道によると、Muse EmberはClaude Haiku 5.5と同等レベルの性能をうたいながら、タスクあたりのコストを約3分の1に抑えられるという[2][4][5]。Artificial Analysisの指標では、Muse Emberは最大設定で35.8〜36前後のスコアを記録し、Haiku 5.5と近い水準に達した一方、1タスクあたりの費用はEmberが約0.14ドル、Haiku 5.5が約0.41ドルとされ、差がはっきり出た[4][6]。\n\n価格体系も、低コスト路線を裏づける。Metaの公開価格を確認した記事によれば、Muse EmberのStandard modeは入力200,000トークン以下で通常入力0.10ドル、キャッシュ入力0.004ドル、出力0.50ドル/100万トークンとなっている[1]。別報道でも、入力単価0.10ドル/100万トークンという点が強調されており、頻繁に同じ処理を回す企業用途で使いどころがありそうだと分析されている[3][5]。\n\n今回の発表は、単なる“安いモデル”の追加ではない。Metaが狙うのは、AIエージェントの現場で重要になる「十分な性能を、できるだけ少ないコストで回す」ことだ。GPT-6 LunaやClaude Haiku 5.5といった競合が比較対象として挙げられるなか、Muse Emberは、最先端の巨大モデル競争とは別軸で、実務向けの小型・高効率モデル競争を一段押し進める存在になりそうだ[3][5]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Meta Launches Muse Ember, a Lightweight AI Model That Matches Claude Haiku's Index Score at About a Third of the Cost per Task | XenoSpectrum",
+              "url": "https://xenospectrum.com/en/meta-muse-ember-agent-pricing",
+              "source": "XenoSpectrum"
+            },
+            {
+              "id": 2,
+              "title": "Meta announces 'Muse Ember,' a compact AI model that delivers performance equivalent to Claude Haiku 5.5 at approximately one-third the cost. - GIGAZINE",
+              "url": "https://gigazine.net/gsc_news/en/20261110-meta-muse-ember",
+              "source": "GIGAZINE"
+            },
+            {
+              "id": 3,
+              "title": "Meta takes on OpenAI and Anthropic with Muse Ember AI model: Features, benchmarks and pricing | Mint",
+              "url": "https://www.livemint.com/ai/meta-takes-on-openai-and-anthropic-with-muse-ember-ai-model-features-benchmarks-and-pricing-11794289940494.html",
+              "source": "Mint"
+            },
+            {
+              "id": 4,
+              "title": "Meta Launches Muse Ember, a Low-Cost AI Model",
+              "url": "https://www.technology.org/2026/11/10/meta-muse-ember-low-cost-ai-model-pricing-benchmarks",
+              "source": "Technology.org"
+            },
+            {
+              "id": 5,
+              "title": "Meta Launches Muse Ember AI Model: How it challenges OpenAI's GPT-6 Luna and Anthropic's Claude Haiku 5.5",
+              "url": "https://www.zeebiz.com/technology/news-meta-launches-muse-ember-ai-model-at-lower-cost-how-it-challenges-openais-gpt-6-luna-and-anthropics-claude-haiku-55-405351",
+              "source": "Zee Business"
+            },
+            {
+              "id": 6,
+              "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+              "url": "https://research.meta.ai/blog/muse-ember",
+              "source": "Meta Research"
+            }
+          ],
+          "published_date": "2026-11-11",
+          "category": "models",
+          "title_highlights": [
+            "Muse Ember",
+            "Haiku 5.5"
+          ],
+          "three_lines_highlights": [
+            "Muse Ember",
+            "Haiku 5.5",
+            "低コスト"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "今日の生成AI分野は、単体モデルの性能競争から、**実運用での速さ・安さ・自動化をどう作るか**へ焦点が一段と移っています。Googleはマルチエージェント編成を前面に出し、Anthropicは高速化と値下げでAPI競争を強め、Metaは小型モデルでコスト最適化を狙うなど、各社とも「高性能」だけでなく**現場で回るAI基盤**の提供を競っている流れです。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "AWS・Azure・GCPのネットワーク新常識",
+          "summary_ja": "日経クロステックの特集見出しからは、AWS・Azure・GCPのネットワークを見直す視点が、セキュリティー対策の比較とあわせて整理されていることが読み取れる。AI活用が広がるなか、クラウドの“つなぎ方”は単なる配線ではなく、運用や防御の設計そのものになっている。",
+          "summary_en": "This feature points to a new way of thinking about cloud networking across AWS, Azure, and GCP, alongside security comparisons. As AI adoption expands, cloud connectivity is becoming a core part of operational and defense design.",
+          "three_lines": [
+            "AWS・Azure・GCPの接続設計を見直す時代になった。",
+            "ネットワークは、運用と防御の土台として重要度が増した。",
+            "比較記事を手がかりに、各社の違いを押さえたい。"
+          ],
+          "body_ja": "日経クロステックの特集「AWS・Azure・GCPのネットワーク新常識」は、クラウド利用の議論が“どのサービスを使うか”だけでなく、“どう安全につなぐか”へ移っていることを示している。見出しの関連導線には「AWS・Azure・GCPのセキュリティー対策を徹底比較」もあり、ネットワーク設計とセキュリティーを切り分けずに捉える流れがうかがえる[1]。<br><br>この文脈では、AWS、Azure、GCPの差は単純な機能比較ではなく、AI利用を前提にした通信経路の作り方、障害時の影響をどう局所化するか、そして管理負荷をどこまで減らせるかに表れる。特集タイトルが示す「新常識」という言葉は、クラウドのネットワークが従来の固定的な社内網の延長ではなく、複数クラウドをまたぐ前提で再設計すべき対象になったことを強く示唆している[1]。<br><br>公開された抜粋だけでは個別の新機能や価格改定までは断定できないが、少なくとも本特集は、AWS・Azure・GCPを横断してネットワークとセキュリティーを見直す入口として機能している。AI関連機能の拡充が続くほど、学習・推論・データ連携のための通信が増え、クラウド基盤の“つなぎ方”が業務の成否に直結する。だからこそ、各社のサービス名を追うだけでなく、通信の設計思想そのものを比較する視点が重要になる[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "AWS・Azure・GCPのネットワーク新常識 | 日経クロステック（xTECH）",
+              "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00765/index.html?%3Fi_cid=nbpnxt_bn_child&fieldSubSeg=fdxKEYWORDKEYWORDIoPKEYWORDCSRITKEYWORD",
+              "source": "日経クロステック（xTECH）"
+            }
+          ],
+          "published_date": "2026-11-11",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "Azure",
+            "GCP"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "ネットワーク",
+            "セキュリティー"
+          ],
+          "id": "cloud-1"
+        }
+      ],
+      "summary": "本日のクラウド分野は、AWS・Azure・GCPのネットワーク設計を「接続方法」ではなく、セキュリティーと運用を左右する基盤として見直す流れが中心でした。AI活用の拡大を背景に、クラウド間のつなぎ方や防御の考え方を比較・整理し直す動きが強まっており、マルチクラウド時代の設計最適化が重要テーマになっています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "GitHubは“コード生成”から“エージェント運用”へ移るのか",
+          "summary_ja": "GitHubとCopilotをめぐる最新動向を見ると、焦点は単なるコード補完ではなく、開発者の作業全体をまたぐエージェント化へ移っています。一方で、GitHub上の検索や秘密情報探索を悪用する動きも確認され、開発効率化とセキュリティ対策が同時に問われる局面に入りました。",
+          "summary_en": "GitHub’s latest momentum points beyond code completion toward agentic workflows across the developer lifecycle. At the same time, new reporting shows attackers abusing GitHub-related queries and exposed secrets, making productivity and security an inseparable pair.",
+          "three_lines": [
+            "Copilotは開発全体の作業補助へ広がる。",
+            "GitHub検索は秘密探索の悪用対象にもなる。",
+            "エージェント運用は安全設計が前提になる。"
+          ],
+          "body_ja": "GitHubの最新動向をまとめると、中心にあるのは「コードを出すAI」から「作業を任せるAI」への移行だ。GitHubブログは、まずは今いちばん面倒な工程からエージェントを入れ、徐々に開発全体へ広げるという考え方を示している。つまりCopilotは、断片的な補完機能ではなく、日々のワークフローに入り込む“実務の相棒”として再定義されつつある[3]。<br><br>この流れは、Copilot Studio側の更新にも表れている。Copilot Studioでは、これまでGitHub Copilot harnessだったものがMicrosoft Copilot harnessへと変わり、より複雑な業務課題に対応するエージェントを作りやすくする方向が打ち出された。名称変更だけに見えて、実際には「Copilot」を個別の開発支援ツールではなく、Microsoft全体のエージェント基盤として束ね直す動きと読める[1]。<br><br>さらに、開発者向けエディタ周辺でも競争は激しい。比較記事では、VS Codeの2026年10月リリースが、プラグインやskills、agent toolsを探せるMarketplace風のBrowse画面を加えたとされ、Copilot connectorsも拡張機能の一部を置き換える方向で進化していると指摘されている。Claude CodeやCursor、LangChainのような外部ツールが注目されるなか、GitHub/Microsoft陣営はエディタ、拡張、コネクタ、エージェントを一体化して囲い込みを強めている構図だといえる[2]。<br><br>ただし、エージェント化の拡大は防御側の負担も増やす。Microsoft Security Blogは、2026年8月以降、攻撃者がエージェント型AIのオフェンシブ基盤を使い、GitHubに対して秘密情報を探す大量クエリを送っていたと報告した。ここで重要なのは、攻撃者がAIを使って“検索を高速化”している点だ。AIが開発生産性を上げるほど、同じ仕組みが秘密情報の探索や悪用にも転用される[4]。<br><br>つまり2026年秋のGitHub周辺を一言で表せば、「生産性のためのAI」と「攻撃のためのAI」が同じ土俵に乗った、ということになる。Copilotやエージェントフレームワークの進化は止まらないが、今後の評価軸は機能の多さだけではない。どこまで権限を持たせるか、何を自動化し、何を人間が確認するか、そして秘密情報をどう守るかまで含めて設計できるかが、導入の成否を分けそうだ[1][3][4]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Agents that are persistent | New in Copilot Studio, October 2026 | Microsoft Copilot Blog",
+              "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agents-that-are-persistent-agents-for-customer-conversations-and-improved-maker-experience-in-microsoft-copilot-studio",
+              "source": "Microsoft Copilot Blog"
+            },
+            {
+              "id": 2,
+              "title": "Zed vs VS Code vs JetBrains: $10 Pro, $0 Core [2026]",
+              "url": "https://shattered.io/zed-vs-vscode-vs-jetbrains-pricing-agents-2026",
+              "source": "shattered.io"
+            },
+            {
+              "id": 3,
+              "title": "Beyond code generation: A developer's guide to agentic engineering - The GitHub Blog",
+              "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
+              "source": "GitHub Blog"
+            },
+            {
+              "id": 4,
+              "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets | Microsoft Security Blog",
+              "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets",
+              "source": "Microsoft Security Blog"
+            }
+          ],
+          "published_date": "2026-11-11",
+          "category": "devtools",
+          "title_highlights": [
+            "Copilot",
+            "GitHub"
+          ],
+          "three_lines_highlights": [
+            "Copilot",
+            "GitHub",
+            "AI"
+          ],
+          "id": "devtools-1"
+        },
+        {
+          "title": "AI開発ツール求人でLangChain/MCP/Vertex AI採用が拡大",
+          "summary_ja": "AI開発ツールの求人では、LangChainやMCP、Vertex AIの実務経験を求める動きが広がっている。MCP対応のサーバー群や、Cursor・Claude Desktop・VS Code向けの接続先整備、さらにClaudeやCursor、ChatGPT内で使えるMCP統合の広がりが、開発現場の前提を変えつつある。",
+          "summary_en": "Hiring for AI development tools is increasingly emphasizing hands-on experience with LangChain, MCP, and Vertex AI. The rise of MCP server directories and integrations for Cursor, Claude Desktop, VS Code, and even Claude/Cursor/ChatGPT workflows suggests a shift in what modern AI engineering teams expect.",
+          "three_lines": [
+            "求人でLangChainとMCP経験が重視される。",
+            "MCPサーバー群が開発接続の標準を広げる。",
+            "ClaudeやCursor連携が実装前提になりつつある。"
+          ],
+          "body_ja": "AI開発ツール関連の求人で、LangChainやMCP、Vertex AIといったキーワードの存在感が増している。背景には、AIを“使う”だけでなく、外部サービスや社内データとつなぎ込み、実装・運用まで担える人材を求める流れがある。[2][4]\n\nまず目立つのは、MCPの実務価値が一段と分かりやすくなっていることだ。MCPサーバーのディレクトリでは、Cursor、Claude Desktop、VS Codeなどに接続できるサーバーを見つけて導入できると案内されており、開発者がAIクライアントと各種ツールを橋渡しする前提が整いつつある。[1] これにより、単一のチャットUIの使い勝手ではなく、「何に繋がるか」が評価軸になってきた。[1]\n\nこの流れは、求人票でのスキル要件にも反映されている。LinkedInの解説では、一般的なプログラミング言語だけでは不十分で、ベクトルデータベース、MCP、LangChainのようなエージェント系フレームワークを使ってAI機能をバックエンドへ接続する力が重要だと示されている。[2] つまり、AI開発者に求められるのはモデル知識だけでなく、データ取得、ワークフロー設計、テストまで含む“接続設計”だ。[2]\n\nLangChainについては、企業情報としてSan Francisco拠点のLangChain, Inc.が確認でき、AI開発の文脈で広く認知されたフレームワークとして扱われている。[4] 求人市場でLangChain経験が目に付きやすくなっているのは、エージェント化や複数ツール連携の需要が高まった結果とみられる。[2][4]\n\nさらに、MCPは単なる開発者向けの補助機能ではなく、実際の制作フローへ入り込んでいる。たとえば、ある低コード/ノーコード系AIアプリビルダーの紹介では、FigmaからReact Nativeアプリへ変換するプラットフォームが、Claude、Cursor、ChatGPTの中で構築するためのMCP統合を備えるとされている。[3] このことは、AI開発ツールの競争軸が“生成の速さ”から“既存の開発環境にどれだけ自然に溶け込むか”へ移っていることを示している。[1][3]\n\n要するに、LangChain、MCP、Vertex AIといった採用キーワードは、単なる流行語ではない。AIエージェント、外部データ接続、開発者ツール統合をまとめて扱える人材への需要が、求人市場の条件として可視化され始めたということだ。[2][3][4] 今後は、Claude Code、Cursor、GitHub Copilotのような開発支援ツールを“使える”だけでなく、それらを業務システムとつなぎ込めることが、AI開発職の競争力を左右していきそうだ。[1][2][3]",
+          "references": [
+            {
+              "id": 1,
+              "title": "MCP servers directory | explainx.ai | explainx.ai",
+              "url": "https://explainx.ai/mcp-servers?sort=stars&page=27",
+              "source": "explainx.ai"
+            },
+            {
+              "id": 2,
+              "title": "AI Skills for Software Developer Resumes",
+              "url": "https://www.linkedin.com/top-content/artificial-intelligence/skills-for-the-ai-workforce/ai-skills-for-software-developer-resumes",
+              "source": "LinkedIn"
+            },
+            {
+              "id": 3,
+              "title": "Tech Tuesday: The complete guide to low-code and no-code AI app builders in 2026 — Dynamic Business",
+              "url": "https://dynamicbusiness.com/featured/tech-tuesday/tech-tuesday-the-complete-guide-to-low-code-and-no-code-ai-app-builders-in-2026.html",
+              "source": "Dynamic Business"
+            },
+            {
+              "id": 4,
+              "title": "LangChain",
+              "url": "https://tavily.com/knowledge/company/pjYU3mXgJHWz",
+              "source": "Tavily"
+            }
+          ],
+          "published_date": "2026-11-11",
+          "category": "devtools",
+          "title_highlights": [
+            "LangChain",
+            "MCP",
+            "Vertex AI"
+          ],
+          "three_lines_highlights": [
+            "LangChain",
+            "MCP",
+            "Claude Cursor"
+          ],
+          "id": "devtools-2"
+        }
+      ],
+      "summary": "AI開発ツールの主戦場は、単なるコード補完から、GitHub Copilotや各種AIエージェントを軸にした「開発作業全体の自動化・運用」へと移りつつあります。同時に、LangChainやMCP、Vertex AIのような実装・接続基盤の実務需要が急速に高まり、CursorやClaude Desktop、VS Codeなど複数環境をまたいだ統合が標準になりつつある一方で、AI活用の拡大に伴う検索悪用や秘密情報流出への対策も重要性を増しています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [],
+      "summary": ""
+    }
+  ]
+}

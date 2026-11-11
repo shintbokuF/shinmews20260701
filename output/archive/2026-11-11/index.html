@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="ticker" aria-label="本日のニュース速報">
+  <div class="ticker-live"><span class="live-dot" aria-hidden="true"></span><span>LIVE</span></div>
+  <div class="ticker-track">
+    <span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // QommonsAI提供開始2周年、自治体向け生成AI活用を全国で共有へ</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // GoogleがGemini 4 Carbonを一般提供開始、Antigravityでマルチエージェント編成も前面に</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、Claude Fable 5.2／Mythos 5.2を公開　出力30％高速化とAPI20％値下げで攻勢</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Metaが小型AIモデル「Muse Ember」を発表、Claude Haiku 5.5級を約3分の1コストで狙う</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // AWS・Azure・GCPのネットワーク新常識</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // GitHubは“コード生成”から“エージェント運用”へ移るのか</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AI開発ツール求人でLangChain/MCP/Vertex AI採用が拡大</span><span class="ticker-item"><b style="background:#D6314B"></b>日本国内 // QommonsAI提供開始2周年、自治体向け生成AI活用を全国で共有へ</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // GoogleがGemini 4 Carbonを一般提供開始、Antigravityでマルチエージェント編成も前面に</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Anthropic、Claude Fable 5.2／Mythos 5.2を公開　出力30％高速化とAPI20％値下げで攻勢</span><span class="ticker-item"><b style="background:#0E8A87"></b>生成AIモデル // Metaが小型AIモデル「Muse Ember」を発表、Claude Haiku 5.5級を約3分の1コストで狙う</span><span class="ticker-item"><b style="background:#3654D6"></b>クラウド // AWS・Azure・GCPのネットワーク新常識</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // GitHubは“コード生成”から“エージェント運用”へ移るのか</span><span class="ticker-item"><b style="background:#8A3FE0"></b>AI開発ツール // AI開発ツール求人でLangChain/MCP/Vertex AI採用が拡大</span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="mast-left">
+    <div>
+      <h1 class="mast-title">AI・クラウド<br>ニュースダイジェスト</h1>
+      <div class="mast-sub">DAILY INTELLIGENCE DISPATCH</div>
+    </div>
+    <div class="stamp" aria-hidden="true">
+      <div class="arc">◦ RECEIVED ◦</div>
+      <div class="d">2026.11.11</div>
+      <div class="t">TRANSMISSION<br>RECEIVED</div>
+    </div>
+  </div>
+  <nav class="mast-nav">
+    <a class="ghost-btn" href="https://shintbokuf.github.io/" target="_blank" rel="noopener" data-gc="nav/profile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg>
+      創作者プロフィール
+    </a>
+    <a class="ghost-btn" href="../index.html" data-gc="nav/archive">過去のダイジェスト
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </nav>
+</header>
+
+<nav class="chipbar" aria-label="分類">
+  <a class="chip" href="#sec-japan"><span class="side-dot" style="background:#D6314B"></span>日本国内<span class="signal" style="height:16px"><i style="height:10px;background:#D6314B"></i></span></a><a class="chip" href="#sec-models"><span class="side-dot" style="background:#0E8A87"></span>生成AIモデル<span class="signal" style="height:16px"><i style="height:10px;background:#0E8A87"></i><i style="height:7px;background:#0E8A87"></i><i style="height:14px;background:#0E8A87"></i></span></a><a class="chip" href="#sec-cloud"><span class="side-dot" style="background:#3654D6"></span>クラウド<span class="signal" style="height:16px"><i style="height:10px;background:#3654D6"></i></span></a><a class="chip" href="#sec-devtools"><span class="side-dot" style="background:#8A3FE0"></span>AI開発ツール<span class="signal" style="height:16px"><i style="height:10px;background:#8A3FE0"></i><i style="height:7px;background:#8A3FE0"></i></span></a>
+</nav>
+
+<div class="layout">
+  <nav class="sidebar" aria-label="分類インデックス">
+    <div class="side-head">SIGNAL INDEX</div>
+    
+    <a class="side-row" href="#sec-japan">
+      <span class="side-dot" style="background:#D6314B"></span>
+      <span class="side-name">日本国内</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#D6314B"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-models">
+      <span class="side-dot" style="background:#0E8A87"></span>
+      <span class="side-name">生成AIモデル</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#0E8A87"></i><i style="height:10px;background:#0E8A87"></i><i style="height:20px;background:#0E8A87"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-cloud">
+      <span class="side-dot" style="background:#3654D6"></span>
+      <span class="side-name">クラウド</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#3654D6"></i></span>
+    </a>
+    
+    <a class="side-row" href="#sec-devtools">
+      <span class="side-dot" style="background:#8A3FE0"></span>
+      <span class="side-name">AI開発ツール</span>
+      <span class="signal" style="height:22px"><i style="height:14px;background:#8A3FE0"></i><i style="height:10px;background:#8A3FE0"></i></span>
+    </a>
+    
+  </nav>
+
+  <main class="main">
+  
+    <section class="board" id="sec-japan" style="--cat-light:#D6314B;--cat-dark:#AA2439;--hl:#D6314B26">
+      <div class="board-head">
+        <span class="board-bar" style="background:#D6314B"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D6314B" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg></span>
+        <span class="board-name">日本国内</span>
+        <span class="board-tag">01 SIGNALS</span>
+      </div>
+      <p class="board-intro">自治体向け生成AIの実装が、単なる試行段階から全国展開・共有のフェーズへ進みつつあることがうかがえます。QommonsAIは提供開始2周年を機に、導入事例やハッカソンを通じて行政現場での具体的な活用を広げ、自治体DXの横展開を加速させようとしています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#AA2439"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18M4.5 10h15M7 7v12M17 7v12M6 7c1.5-2.5 10.5-2.5 12 0"/></svg>日本国内</span>
+          <h3><a href="articles/japan-1.html"><mark style="background:#D6314B26">QommonsAI</mark>提供開始2周年、自治体向け生成AI活用を全国で共有へ</a></h3>
+          <ul class="lines"><li>QommonsAIが2周年を機に全国サミットを開く。</li><li>自治体職員向けに生成AIの活用事例を共有する。</li><li>ハッカソンと最新アップデートで実装を後押しする。</li></ul>
+          <a class="readmore" href="articles/japan-1.html" data-gc="click/japan-1">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-models" style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+      <div class="board-head">
+        <span class="board-bar" style="background:#0E8A87"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0E8A87" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg></span>
+        <span class="board-name">生成AIモデル</span>
+        <span class="board-tag">03 SIGNALS</span>
+      </div>
+      <p class="board-intro">今日の生成AI分野は、単体モデルの性能競争から、**実運用での速さ・安さ・自動化をどう作るか**へ焦点が一段と移っています。Googleはマルチエージェント編成を前面に出し、Anthropicは高速化と値下げでAPI競争を強め、Metaは小型モデルでコスト最適化を狙うなど、各社とも「高性能」だけでなく**現場で回るAI基盤**の提供を競っている流れです。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-1.html">Googleが<mark style="background:#0E8A8726">Gemini 4</mark> <mark style="background:#0E8A8726">Carbon</mark>を一般提供開始、<mark style="background:#0E8A8726">Antigravity</mark>でマルチエージェント編成も前面に</a></h3>
+          <ul class="lines"><li>Gemini 4 Carbonが一般提供に入った。</li><li>Antigravityで複数エージェントを編成できる。</li><li>長大なFortran移植例で実務性を示した。</li></ul>
+          <a class="readmore" href="articles/models-1.html" data-gc="click/models-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-2.html">Anthropic、Claude <mark style="background:#0E8A8726">Fable 5.2</mark>／<mark style="background:#0E8A8726">Mythos 5.2</mark>を公開　出力30％高速化とAPI20％値下げで攻勢</a></h3>
+          <ul class="lines"><li>Fable 5.2／Mythos 5.2を11月9日に発表</li><li>出力速度は5.1比で最大30％向上</li><li>API料金は20％下げて利用しやすくした</li></ul>
+          <a class="readmore" href="articles/models-2.html" data-gc="click/models-2">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+          <h3><a href="articles/models-3.html">Metaが小型AIモデル「<mark style="background:#0E8A8726">Muse Ember</mark>」を発表、Claude <mark style="background:#0E8A8726">Haiku 5.5</mark>級を約3分の1コストで狙う</a></h3>
+          <ul class="lines"><li>Metaが小型モデルMuse Emberを公開した。</li><li>Claude Haiku 5.5級性能を低コストで狙う。</li><li>反復作業向けの実用性を前面に出した。</li></ul>
+          <a class="readmore" href="articles/models-3.html" data-gc="click/models-3">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-cloud" style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+      <div class="board-head">
+        <span class="board-bar" style="background:#3654D6"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#3654D6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg></span>
+        <span class="board-name">クラウド</span>
+        <span class="board-tag">01 SIGNALS</span>
+      </div>
+      <p class="board-intro">本日のクラウド分野は、AWS・Azure・GCPのネットワーク設計を「接続方法」ではなく、セキュリティーと運用を左右する基盤として見直す流れが中心でした。AI活用の拡大を背景に、クラウド間のつなぎ方や防御の考え方を比較・整理し直す動きが強まっており、マルチクラウド時代の設計最適化が重要テーマになっています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+          <h3><a href="articles/cloud-1.html"><mark style="background:#3654D626">AWS</mark>・<mark style="background:#3654D626">Azure</mark>・<mark style="background:#3654D626">GCP</mark>のネットワーク新常識</a></h3>
+          <ul class="lines"><li>AWS・Azure・GCPの接続設計を見直す時代になった。</li><li>ネットワークは、運用と防御の土台として重要度が増した。</li><li>比較記事を手がかりに、各社の違いを押さえたい。</li></ul>
+          <a class="readmore" href="articles/cloud-1.html" data-gc="click/cloud-1">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+    <section class="board" id="sec-devtools" style="--cat-light:#8A3FE0;--cat-dark:#6B2EB0;--hl:#8A3FE026">
+      <div class="board-head">
+        <span class="board-bar" style="background:#8A3FE0"></span>
+        <span class="board-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A3FE0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg></span>
+        <span class="board-name">AI開発ツール</span>
+        <span class="board-tag">02 SIGNALS</span>
+      </div>
+      <p class="board-intro">AI開発ツールの主戦場は、単なるコード補完から、GitHub Copilotや各種AIエージェントを軸にした「開発作業全体の自動化・運用」へと移りつつあります。同時に、LangChainやMCP、Vertex AIのような実装・接続基盤の実務需要が急速に高まり、CursorやClaude Desktop、VS Codeなど複数環境をまたいだ統合が標準になりつつある一方で、AI活用の拡大に伴う検索悪用や秘密情報流出への対策も重要性を増しています。</p>
+      <div class="grid">
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-1.html"><mark style="background:#8A3FE026">GitHub</mark>は“コード生成”から“エージェント運用”へ移るのか</a></h3>
+          <ul class="lines"><li>Copilotは開発全体の作業補助へ広がる。</li><li>GitHub検索は秘密探索の悪用対象にもなる。</li><li>エージェント運用は安全設計が前提になる。</li></ul>
+          <a class="readmore" href="articles/devtools-1.html" data-gc="click/devtools-1">詳しく読む →</a>
+        </article>
+      
+        <article class="card">
+          <span class="pill" style="background:#6B2EB0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9l3 3-3 3M13 15h4"/></svg>AI開発ツール</span>
+          <h3><a href="articles/devtools-2.html">AI開発ツール求人で<mark style="background:#8A3FE026">LangChain</mark>/<mark style="background:#8A3FE026">MCP</mark>/<mark style="background:#8A3FE026">Vertex AI</mark>採用が拡大</a></h3>
+          <ul class="lines"><li>求人でLangChainとMCP経験が重視される。</li><li>MCPサーバー群が開発接続の標準を広げる。</li><li>ClaudeやCursor連携が実装前提になりつつある。</li></ul>
+          <a class="readmore" href="articles/devtools-2.html" data-gc="click/devtools-2">詳しく読む →</a>
+        </article>
+      
+      </div>
+    </section>
+  
+  </main>
+</div>
+
+<section class="contact">
+  <div class="dispatch">
+    <div class="dispatch-head"><span class="d-dot"></span>TRANSMIT · 作者へのシグナル</div>
+    <div class="dispatch-body">
+      <h2>あなたが最も知りたいテーマは？</h2>
+      <p>取り上げてほしいトピック・業界・企業のご要望、記事へのご相談など、お気軽にどうぞ。</p>
+      <form class="contact-form" action="https://formsubmit.co/shintboku@gmail.com" method="POST" data-gc="click/formsubmit">
+        <input type="hidden" name="_subject" value="[News Digest] お問い合わせ・ご要望">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="お問い合わせありがとうございます。内容を確認のうえ追ってご連絡します。（AI・クラウド ニュースダイジェスト）">
+        <input type="hidden" name="_next" value="https://shintbokuf.github.io/shinmews20260701/">
+        <div class="fields">
+          <label class="field"><span>Name</span><input type="text" name="name" placeholder="お名前（任意）" autocomplete="name"></label>
+          <label class="field"><span>Email</span><input type="email" name="email" placeholder="返信希望の方（任意）" autocomplete="email"></label>
+        </div>
+        <label class="field"><span>Message</span><textarea name="message" placeholder="知りたいテーマ・ご相談内容をご記入ください" required></textarea></label>
+        <button type="submit" class="contact-btn">送信する&nbsp;→</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">本ダイジェストは各社の公開情報を基にAIが生成した「解説・導読」です。詳細は各記事末尾の関連リンク（原文）をご確認ください。</footer>
+
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest('[data-gc]'); if(!a) return;
+  if(window.goatcounter&&window.goatcounter.count){
+    window.goatcounter.count({path:a.getAttribute('data-gc'),title:'click:'+a.getAttribute('data-gc'),event:true});
+  }
+});
+</script>
+</body>
+</html>
