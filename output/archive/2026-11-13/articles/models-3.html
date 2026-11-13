@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google、1,000問を単一パスで評価する「Gemini Decisions API」をプレビュー公開 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+    <span class="article-date">2026-11-13</span>
+  </div>
+  <h1 class="article-title">Google、<mark style="background:#0E8A8726">1,000問</mark>を単一パスで評価する「<mark style="background:#0E8A8726">Gemini</mark> Decisions <mark style="background:#0E8A8726">API</mark>」をプレビュー公開</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li>Googleが1回で<mark style="background:#0E8A8726">1,000問</mark>を評価するAPIを公開</li><li>テキスト・画像・音声・動画・PDFに対応</li><li>生成文ではなく確率と<mark style="background:#0E8A8726">信頼度</mark>を返す</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Googleは、テキスト・画像・音声・動画・PDFを横断して、最大1,000個の yes/no や多肢選択などの設問を1回で評価できる「Gemini Decisions API」を公開した。生成文を返すのではなく、確率や信頼度を出す“意思決定”向けAPIで、ツール選択、ポリシーチェック、ルーティング、コンテンツ採点などの用途を狙う。</p>
+    <p class="sum-en">Google has previewed Gemini Decisions API, a multimodal decisioning endpoint that can score up to 1,000 closed-ended questions in a single pass. Instead of generating text, it returns probabilities and confidence scores for use cases such as tool selection, policy checks, routing, and content grading.</p>
+  </div>
+
+  <div class="article-body"><p>Googleは11月11日、マルチモーダル入力を対象に“答えを生成する”のではなく“判断する”ことに特化した「Gemini Decisions API」をプレビュー公開した。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup> 仕組みの中心にあるのは新モデル「Gemini Decision 1」で、単一の入力に対して最大1,000個の独立した設問を一度に評価できるという。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup></p>
+<p>対象は yes/no、複数選択、尺度評価のような閉じた形式の問いだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup> Googleは、入力の種類としてテキスト、画像、音声、動画、PDFを挙げており、出力も文章ではなく確率や信頼度スコアにすることで、より高速で較正された判断を返す設計だとしている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup></p>
+<p>この位置づけが分かりやすいのは、用途の想定だ。Googleはツール選択、ポリシーチェック、モデルルーティング、コンテンツ採点といった“決める”処理を挙げており、DataconomyもこのAPIを境界つきの選択やルーティング向けのエンドポイントと説明している。<sup class="cite"><a id="cite-6" href="#ref-6" style="color:#0E8A87">[6]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#0E8A87">[8]</a></sup> つまり、生成AIの役割を文章生成から判定・採点へと広げる動きであり、AIエージェントの前段や後段に置く判定レイヤーとして使いやすい。<sup class="cite"><a id="cite-6" href="#ref-6" style="color:#0E8A87">[6]</a></sup><sup class="cite"><a id="cite-8" href="#ref-8" style="color:#0E8A87">[8]</a></sup></p>
+<p>性能面では、VentureBeatがこの新モデルの価格として入力100万トークンあたり0.10ドル、出力は無料と伝えている。<sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup> ほかのモデル比較や詳細な料金体系は検索結果上では限られるが、少なくともGoogleは、低コストで大量の二値・多値判定をまとめて処理するユースケースを強く意識していると読める。<sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup></p>
+<p>一方で、独立性のある判定を前提にしている点は重要だ。Dataconomyは、各質問は独立して評価されるため、依存関係がある判断はコードや追加リクエストで扱う必要があると指摘している。<sup class="cite"><a id="cite-8" href="#ref-8" style="color:#0E8A87">[8]</a></sup> 1回で1,000問をまとめて処理できる反面、ワークフローの設計責任はアプリ側に残る、ということだ。<sup class="cite"><a id="cite-8" href="#ref-8" style="color:#0E8A87">[8]</a></sup></p>
+<p>要するに今回の発表は、Geminiを“文章を作るモデル”から“多入力・大量判定の決定エンジン”へ拡張する動きだ。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup> OpenAIやAnthropicとの直接比較を検索結果だけで断定することはできないが、少なくともGoogleは、生成よりも分類・採点・経路選択を重視する新しいAPI層で差別化を図り始めている。<sup class="cite"><a id="cite-6" href="#ref-6" style="color:#0E8A87">[6]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup></p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api" target="_blank" rel="noopener noreferrer">Gemini Decisions API: Fast multimodal decisions</a>
+        <span class="ref-source">— Google Blog</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://fourweekmba.com/ai-google-launches-gemini-decision-1-at-2-4x-microsofts-price" target="_blank" rel="noopener noreferrer">Google Launches Gemini Decision 1 at 2.4x Microsoft&#39;s Price - FourWeekMBA</a>
+        <span class="ref-source">— FourWeekMBA</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass" target="_blank" rel="noopener noreferrer">Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass</a>
+        <span class="ref-source">— The Decoder</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://mezha.net/eng/news/mezha-c06fca3b9549fb95708df0f2_google_introduces_gemini" target="_blank" rel="noopener noreferrer">Google introduces Gemini Decisions API for multimodal scoring</a>
+        <span class="ref-source">— Mezha</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://dev.ua/en/news/gemini-decisions-api-1794467027" target="_blank" rel="noopener noreferrer">Google releases Gemini Decisions API: a new tool for rapid decision-making (1000 questions in 250 milliseconds)</a>
+        <span class="ref-source">— dev.ua</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://mlq.ai/news/google-launches-gemini-decision-1-a-model-that-scores-up-to-1000-questions-in-one-pass" target="_blank" rel="noopener noreferrer">Google launches Gemini Decision 1, a model that scores up to 1,000 questions in one pass</a>
+        <span class="ref-source">— MLQ.ai</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://venturebeat.com/technology/googles-gemini-decision-1-model-scores-up-to-1-000-questions-in-one-api-call" target="_blank" rel="noopener noreferrer">Google’s Gemini Decision 1 model scores up to 1,000 questions in one API call</a>
+        <span class="ref-source">— VentureBeat</span>
+      </li>
+      
+      <li id="ref-8">
+        <a href="https://dataconomy.com/2026/11/12/google-launches-gemini-decision-1-api-for-1000-questions" target="_blank" rel="noopener noreferrer">Google Launches Gemini Decision 1 API For 1,000 Questions Per Call - Dataconomy</a>
+        <span class="ref-source">— Dataconomy</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
