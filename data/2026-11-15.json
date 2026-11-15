@@ -1,0 +1,442 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T02:26:17.532958+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [],
+      "summary": ""
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Anthropic、新Claude Fable 5.2で巻き返し　IPO前に性能・価格で優位を演出",
+          "summary_ja": "Anthropicが新モデル「Claude Fable 5.2」と「Mythos 5.2」を公開し、主要ベンチマークでOpenAIやGoogle勢を上回ると主張した。価格は前世代比20%引き下げられ、1百万入力トークンあたり8ドルとされる。IPOを控える同社は、性能とコストの両面で“今の主役”であることを強く印象づけている。",
+          "summary_en": "Anthropic has unveiled Claude Fable 5.2 and Mythos 5.2, claiming top benchmark results versus major rivals while cutting prices by 20%. The company says the new models are faster and cheaper, positioning them as a strong signal ahead of its IPO.",
+          "three_lines": [
+            "Claude Fable 5.2が主要指標で首位を主張",
+            "価格を20%下げ、API競争を強化した",
+            "IPO前にOpenAIとGoogleへ優位を示した"
+          ],
+          "body_ja": "Anthropicが新たに公開した「Claude Fable 5.2」と「Mythos 5.2」は、単なるマイナー更新ではない。公開情報によれば、同社はGPT-6 AstraやGemini 4 Carbonとの比較で、15項目中13項目のベンチマークでトップを取ったとしており、Artificial Analysis Intelligence Index v5でもFable 5.2が65点で首位に立ったとされる [1][2][7]。 \n\n注目したいのは、性能向上だけではない点だ。新モデルは前世代より30%高速、20%安価とされ、価格は入力100万トークンあたり8ドルまで下がった。これはOpenAIの主力モデルより安い水準として紹介されており、Anthropicが「高性能でも高すぎない」立ち位置を明確に狙っていることが分かる [1][3][6]。 \n\nベンチマークの中身を見ると、Fable 5.2はコード生成や知識タスクに強いとされ、FrontierCode 2.0やFrontierSWE v2でも競合を上回る数字が示された。Business Upturnは同社の前モデルOpus 5.5を多くの評価で上回ったとし、Hindustan TimesもFable 5.2とMythos 5.2を「coding and knowledge tasks」に適したモデルとして整理している [4][5][6]。 \n\n一方で、こうした比較はあくまでAnthropic自社発表の数字である点には留意が必要だ。とはいえ、複数ソースが共通して伝えているのは、AnthropicがIPOを目前に、性能・価格・速度の三拍子で市場に強いメッセージを打ち出したということだ [2][4][7]。生成AI市場では、モデル性能そのものに加え、実運用コストと価格競争力が導入判断を左右する局面に入っており、今回の発表はその潮流を象徴している [1][3][6]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Anthropic Launches Claude Fable 5.2 With 20% Price Cut Ahead of IPO | OpenTools",
+              "url": "https://opentools.ai/news/anthropic-launches-claude-fable-5-2-mythos-5-2-20-percent-price-cut",
+              "source": "OpenTools"
+            },
+            {
+              "id": 2,
+              "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO",
+              "url": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo",
+              "source": "The Decoder"
+            },
+            {
+              "id": 3,
+              "title": "An IPO looms as Anthropic unveils Claude Fable and Mythos 5.2",
+              "url": "https://www.techzine.eu/blogs/applications/145688/an-ipo-looms-as-anthropic-unveils-claude-fable-and-mythos-5-2",
+              "source": "Techzine"
+            },
+            {
+              "id": 4,
+              "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 ahead of a blockbuster IPO · Business Upturn",
+              "url": "https://businessupturn.com/technology/anthropic-launches-claude-fable-5-2-and-mythos-5-2-ahead-of-a-blockbuster-ipo",
+              "source": "Business Upturn"
+            },
+            {
+              "id": 5,
+              "title": "Anthropic's new Claude Fable and Mythos models deliver momentum ahead of IPO | Business News",
+              "url": "https://www.hindustantimes.com/business/anthropics-new-claude-fable-and-mythos-models-deliver-momentum-ahead-of-ipo-101794283321904.html",
+              "source": "Hindustan Times"
+            },
+            {
+              "id": 6,
+              "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 with a 20% price cut as its IPO nears | MLQ.ai",
+              "url": "https://mlq.ai/news/anthropic-launches-claude-fable-5-2-and-mythos-5-2-with-a-20-price-cut-as-its-ipo-nears",
+              "source": "MLQ.ai"
+            },
+            {
+              "id": 7,
+              "title": "Anthropic unveils faster, cheaper Claude models, claims lead over OpenAI and Google ahead of IPO - CHOSUNBIZ",
+              "url": "https://biz.chosun.com/en/en-it/2026/11/10/XXG2TVBFLFDNTE26GWBTGBG2IM",
+              "source": "CHOSUNBIZ"
+            }
+          ],
+          "published_date": "2026-11-15",
+          "category": "models",
+          "title_highlights": [
+            "Claude Fable 5.2",
+            "20%",
+            "IPO"
+          ],
+          "three_lines_highlights": [
+            "Fable 5.2",
+            "20%",
+            "OpenAI"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "Googleの最強モデル「Gemini 4 Carbon」一般提供開始　Antigravityでの/swarmも予告",
+          "summary_ja": "GoogleがGemini 4 Carbonの一般提供を開始しました。開発者向けには、Antigravityで単一プロンプトを複数エージェントのチームに変える「/swarm」機能もプレビューされ、コード生成や大規模プロジェクト対応を前面に打ち出しています。",
+          "summary_en": "Google has made Gemini 4 Carbon generally available and is previewing /swarm in Antigravity, a multi-agent workflow for larger coding projects.",
+          "three_lines": [
+            "Gemini 4 Carbonが一般提供された。",
+            "Antigravityで/swarmを先行公開した。",
+            "複数エージェントの協業開発を狙う。"
+          ],
+          "body_ja": "GoogleはGemini 4 Carbonを一般提供開始し、開発者がより大きな案件でこのモデルを使えるようにしました。Googleの発表では、Carbonは複雑なプロジェクト向けの推論力を前面に出しており、単なるチャット用モデルではなく、設計や実装の中核を担う存在として位置づけられています[2]。  \n\n注目は、Google Antigravityでプレビューされる「/swarm」です。これは1つの指示を、リアルタイムで追跡できる複数エージェントの作業チームに分解する仕組みで、Carbonが深い推論を要する役割を担い、他の高速なモデルが個別タスクを処理する形が示されています[2][3]。New Stackも、GoogleがAntigravityでスウォーム型のマルチエージェントコーディングを打ち出し、開発者向けの新しいベンチマークや価格設定、さらに強めたサイバーセキュリティ面を訴求していると伝えています[1]。  \n\nこの動きは、AIコーディング支援の競争が「単体モデルの賢さ」から「複数エージェントをどう編成するか」に移っていることを示しています。The New Stackは、Googleが同じ日にCursorの多人数協業機能と並ぶ形で独自のエージェント連携構想を出したと報じており、開発体験そのものを再設計する競争が進んでいることがうかがえます[4]。また別報道では、CarbonがGoogle AI StudioやAndroid Studio経由でも利用可能になったとされ、利用範囲が広がっている点も見逃せません[5]。  \n\nもっとも、今回の発表で重要なのは「強いモデルが出た」というだけではありません。GoogleはCarbonを、推論・設計・実装をつなぐ実務寄りの基盤として押し出し、その上に/swarmという運用レイヤーを重ねました[2][3]。つまり、AIを単独の回答エンジンではなく、作業分担するチームとして扱う方向を明確にしてきた、というのが今回の本質だと言えます。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google says its new AI proved Signal’s encryption in weeks - The New Stack",
+              "url": "https://thenewstack.io/gemini-4-carbon-swarm",
+              "source": "The New Stack"
+            },
+            {
+              "id": 2,
+              "title": "Gemini 4 Carbon is now available",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
+              "source": "Google Blog"
+            },
+            {
+              "id": 3,
+              "title": "Google expands Gemini 4 Carbon access with advanced coding features",
+              "url": "https://www.jagonews24.com/en/sci-tech/news/98227",
+              "source": "Jago News 24"
+            },
+            {
+              "id": 4,
+              "title": "Google’s coding agents now /swarm for one developer. Cursor’s go multiplayer so teammates’ agents can talk. - The New Stack",
+              "url": "https://thenewstack.io/cursor-google-multiplayer-swarm",
+              "source": "The New Stack"
+            },
+            {
+              "id": 5,
+              "title": "GitHub Copilot Agentic Coding: Carbon, Fable 5.2 [2026]",
+              "url": "https://shattered.io/github-copilot-agentic-coding-carbon-fable-5-2-pro-plus-39-max-100-2026",
+              "source": "Shattered"
+            }
+          ],
+          "published_date": "2026-11-15",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 4",
+            "Carbon",
+            "/swarm"
+          ],
+          "three_lines_highlights": [
+            "Carbon",
+            "/swarm",
+            "Antigravity"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Google、高速・高効率な「Gemini 4 Hydrogen」を発表　“Claude Sonnet 5.5”“GPT-6.1 Terra”と競う実行重視モデル",
+          "summary_ja": "Googleは2026年11月12日、Gemini 4ファミリーの新モデル「Gemini 4 Hydrogen」を発表した。狙いはベンチマーク競争よりも、日常利用やエージェント用途での高速性と効率性の強化にある。SearchやGeminiアプリへの展開に加え、開発者向け価格も低めに設定され、主要AIモデル競争は「高性能」から「速さ・コスト・実用性」のフェーズへ一段と移りつつある。",
+          "summary_en": "Google announced Gemini 4 Hydrogen on November 12, 2026, positioning it as a fast and highly efficient model within the Gemini 4 family. The model is being rolled out across the Gemini app, Google Search, and developer/enterprise workflows, with pricing aimed at broad usage. The launch highlights a shift in the AI model race from raw benchmark performance toward speed, cost, and practical execution.",
+          "three_lines": [
+            "GoogleがGemini 4 Hydrogenを発表した。",
+            "Searchとアプリに広く展開を始めた。",
+            "価格競争は速さと効率へ移った。"
+          ],
+          "body_ja": "Googleが2026年11月12日に打ち出した「Gemini 4 Hydrogen」は、単なる“新型フラッグシップ”ではない。公開情報を見る限り、今回の主眼は最先端ベンチマークの更新競争ではなく、実際の作業をどれだけ速く、軽く、安定して回せるかにある。Google自身も、Hydrogenをエージェント的なワークフローやマルチモデル運用、開発者・企業の業務効率化に向けたモデルとして位置づけている[1][8]。\n\n注目すべきは、提供範囲の広さだ。Hydrogenは開発者や企業向けだけでなく、一般ユーザーにも開放され、GeminiアプリやGoogle Searchで利用できる。検索結果によれば、無料ユーザーはプロンプト内容に応じた自動モデル選択を通じて利用でき、Google AI ProとUltraの加入者もアクセス対象になる[2]。つまり、Googleは高性能モデルを限られた層に囲い込むのではなく、日常の検索やアシスタント体験にまで一気に埋め込もうとしている。\n\n技術・製品面での今回のポイントは、「速い」「効率的」という説明が一貫していることだ。Googleの公式紹介でも、Hydrogenは“agentic workflows”向けに設計され、安全で信頼できる実行を重視するとされる[8]。第三者の報道でも、Hydrogenはこれまでの高速系モデルの後継として扱われ、Gemini 3.8 Flashを置き換える存在として紹介されている[1][6]。この流れからは、Googleが“高性能な思考モデル”と“軽快に動く実務モデル”を明確に役割分担させ始めたことが読み取れる。\n\n価格設定も、その戦略を裏づける。比較記事では、Gemini 4 HydrogenのAPI料金が入力100万トークンあたり1.50ドル、出力100万トークンあたり7.50ドルとされている[5]。別ソースでも、Hydrogenは開発者向けに入力1.50ドル／出力7.50ドルで案内されている[5]。もしこの水準が広く定着すれば、Hydrogenは“高性能だが高い”モデルではなく、日常的に回しやすい実用価格の候補として存在感を強めるだろう。\n\n競争環境を見ると、Googleの狙いはさらに鮮明になる。検索結果では、HydrogenはAnthropicのClaude Fable 5.2、OpenAIのGPT-6.1 Terraと並べて比較されており、各社の最新モデル競争が続いていることが分かる[4]。ここでの焦点は、単に賢さを競うだけではなく、どのモデルが最も速く、安く、幅広い業務に組み込みやすいかという実装力に移っている。GoogleはHydrogenをその“実務の本命”として押し出している格好だ。\n\n総じて、Gemini 4 Hydrogenの登場は、生成AI市場の評価軸が変わりつつあることを示している。派手な推論デモやベンチマークの優位だけではなく、検索、アプリ、開発API、企業ワークフローでどれだけ摩擦なく使えるかが勝負になってきた。GoogleはHydrogenで、その新しい競争軸に正面から乗り込んだと言える[1][2][8]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Gemini 4 Hydrogen Released: The Successor to 3.8 Flash – Jetstream",
+              "url": "https://jetstream.blog/en/gemini-4-hydrogen",
+              "source": "Jetstream"
+            },
+            {
+              "id": 2,
+              "title": "Google launches Gemini 4 Hydrogen, targets faster AI workflows",
+              "url": "https://americanbazaaronline.com/2026/11/12/google-launches-gemini-4-hydrogen-targets-faster-ai-workflows",
+              "source": "American Bazaar Online"
+            },
+            {
+              "id": 3,
+              "title": "Gemini 4 Hydrogen Released – Accessible to All Users",
+              "url": "https://eu.36kr.com/en/p/4067431058855815",
+              "source": "36Kr"
+            },
+            {
+              "id": 4,
+              "title": "Gemini vs Claude: $1.50 vs $8 per 1M Input [2026]",
+              "url": "https://shattered.io/gemini-vs-claude-hydrogen-vs-fable-5-2-vs-gpt-6-1-terra-2026",
+              "source": "Shattered.io"
+            },
+            {
+              "id": 5,
+              "title": "Google Search gains Gemini 4 Hydrogen for all users, not just subscribers",
+              "url": "https://ppc.land/google-search-gains-gemini-4-hydrogen-for-all-users-not-just-subscribers",
+              "source": "PPC Land"
+            },
+            {
+              "id": 6,
+              "title": "Google Releases Gemini 4 Hydrogen in Search and the Gemini App, Replacing Gemini 3.8 Flash - gHacks Tech News",
+              "url": "https://www.ghacks.net/2026/11/13/google-releases-gemini-4-hydrogen-in-search-and-the-gemini-app-replacing-gemini-3-8-flash",
+              "source": "gHacks Tech News"
+            },
+            {
+              "id": 7,
+              "title": "Google is letting staff test a 'fast' new Gemini AI model named Hydrogen",
+              "url": "https://www.businessinsider.com/google-hydrogen-test-new-gemini-4-flash-model-ai-2026-11",
+              "source": "Business Insider"
+            },
+            {
+              "id": 8,
+              "title": "Introducing Gemini 4 Hydrogen for Agentic Workflows",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+              "source": "Google Blog"
+            }
+          ],
+          "published_date": "2026-11-15",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 4",
+            "Hydrogen",
+            "Claude Sonnet 5.5",
+            "GPT-6.1 Terra"
+          ],
+          "three_lines_highlights": [
+            "Gemini 4",
+            "Search",
+            "効率"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "生成AIモデルの競争は、単なるベンチマーク争いから「実用性能・速度・コスト」を軸にした総合力勝負へさらに移っています。Anthropicは新Claudeで性能と価格の両面を強く押し出し、GoogleもGemini 4系で高性能モデルの一般提供と、エージェント向けの高速・高効率モデルやマルチエージェント機能を拡充しました。全体として、各社が“最強”だけでなく、現場で使いやすいモデル体験の囲い込みを急いでいる流れです。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "AWSとは？初心者向けに仕組み・できること・料金をわかりやすく解説",
+          "summary_ja": "AWSは、企業のシステムを支えるクラウド基盤として使われる一方、AI-OCRのような業務アプリの土台にもなっています。直近ではEMR on EKSの料金が30%下がり、データ分析系のコスト最適化も進みました。",
+          "summary_en": "AWS is widely used as a cloud foundation for enterprise systems and for business applications such as AI OCR. Recently, AWS also cut EMR on EKS pricing by 30%, improving cost efficiency for data analytics workloads.",
+          "three_lines": [
+            "AWSは、IT基盤を必要分だけ使えるようにします。",
+            "EMR on EKSの料金は30%下がりました。",
+            "AWS版AI-OCRは、VPC内で提供されます。"
+          ],
+          "body_ja": "AWS（Amazon Web Services）は、サーバーやストレージ、分析基盤などを必要な分だけ使えるクラウドです。自前で機器を買って運用するより、用途に応じて柔軟に構成しやすいのが大きな特徴です。実際、業務システム向けの製品では、AWSの仮想プライベートクラウド環境に構築されたサービスが案内されており、クラウドが“アプリの置き場”だけでなく“業務を動かす土台”として使われていることが分かります[2]。 \n\nAWSでできることは幅広く、特にデータ分析や業務自動化の領域で存在感があります。たとえば Amazon EMR on EKS では、EKS の料金とは別に加算される EMR の料金が 30% 値下げされました。しかも、vCPU時間あたりとGB時間あたりの両方が対象で、対象リージョンでは既存ワークロードに自動適用されます。つまり、利用者が設定を変更しなくても、分析処理のコストを下げやすくなったわけです[1]。クラウドは「早く作れる」だけでなく、「運用コストを調整しやすい」点も価値です。 \n\n料金体系を初心者向けに言い換えると、AWSは“使った分だけ支払う”考え方が基本です。ただし、どのサービスをどの構成で使うかによって費用は変わります。今回のように EMR on EKS の料金が引き下げられると、同じ分析基盤でも総額を抑えやすくなりますし、更新内容が自動適用されるため、利用者側の作業負担も小さいのが特徴です[1]。 \n\nまた、AWSはAI関連の業務システムとも相性が良いことがうかがえます。DX Suite AWS版は、AWSの仮想プライベートクラウド環境に構築されたAI-OCRソリューションとして案内されており、セキュリティ対策も含めて分かりやすく整理されています[2]。これは、AWSが単なるインフラではなく、文書読み取りや業務入力の自動化といったAI機能の実装基盤にもなっていることを示しています。 \n\n初心者がAWSを理解するうえでは、「仕組み」「できること」「料金」の3点を押さえると整理しやすいでしょう。仕組みは、必要なIT資源をクラウド上で借りること。できることは、業務システム、データ分析、AI-OCRのようなアプリ運用まで広いこと。料金は、使った量に応じて課金され、サービスごとの改定で安くなる場合もあることです。今回のEMR on EKSの値下げは、AWSが分析基盤の使いやすさとコスト競争力を同時に高めようとしている例だといえます[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "クラスメソッド データアナリティクス通信(AWSデータ分析編) – 2026年11月号 | DevelopersIO",
+              "url": "https://dev.classmethod.jp/articles/cm-news-analytics-202611",
+              "source": "DevelopersIO"
+            },
+            {
+              "id": 2,
+              "title": "業務支援ソフト - メーカー・企業40社の製品一覧とランキング | イプロス",
+              "url": "https://www.ipros.com/cg2/%E6%A5%AD%E5%8B%99%E6%94%AF%E6%8F%B4%E3%82%BD%E3%83%95%E3%83%88",
+              "source": "イプロス"
+            }
+          ],
+          "published_date": "2026-11-15",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "30%",
+            "AI-OCR"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "30%",
+            "VPC"
+          ],
+          "id": "cloud-1"
+        }
+      ],
+      "summary": "本日のクラウド分野は、AWSを中心に「クラウド基盤としての役割」と「業務アプリを支える実装先」としての存在感が改めて際立ちました。加えて、EMR on EKSの料金引き下げに見られるように、データ分析基盤ではコスト最適化の動きも進んでおり、導入のしやすさと運用効率の両面が注目されています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [
+        {
+          "title": "Claude CodeやGitHub Copilot Coding Agentが開発現場に浸透、AIツールは「実装補助」から「開発フローの一部」へ",
+          "summary_ja": "採用情報の記述からは、Claude CodeやDevin、GitHub Copilot Coding Agentのような開発者向けAIツールが、実験的な導入段階を越えて、設計・実装・テスト・レビューまでを支える実務フローに組み込まれつつあることが読み取れる。特に、セキュリティ配慮を前提に使い分ける姿勢や、AI生成コードの品質管理を重視する運用が目立つ。",
+          "summary_en": "Recruiting posts suggest that developer AI tools such as Claude Code, Devin, and GitHub Copilot Coding Agent are moving from experimental use into everyday workflows spanning design, implementation, testing, and review. The emphasis is increasingly on secure, selective usage and on quality control for AI-generated code.",
+          "three_lines": [
+            "Claude Codeを使い分け、開発を加速する",
+            "Copilot Coding Agentを実務に組み込む",
+            "AI生成コードの品質管理を強化する"
+          ],
+          "body_ja": "開発者向けAIツールの使われ方が、いま大きく変わっている。採用情報を見ると、GitHub Copilot Coding Agentを開発支援に位置づける記述があり、AIツールが単なる補助機能ではなく、開発プロセスの一部として扱われ始めていることが分かる[1]。別の募集では、Claude CodeやDevinを「利用可能な場面では」活用するとしており、便利さだけでなく、セキュリティや運用ルールとの両立を前提に導入している姿勢がうかがえる[3]。\n\n興味深いのは、AI活用の焦点がコード生成そのものから、より広い開発フロー全体へ移っている点だ。ある案件では、AIツールを使って実装、テストコード作成、ドキュメント生成まで進め、さらにAI生成コードの品質管理やコードレビュー、ノウハウ共有、開発プロセス改善まで担当範囲に含めている[2]。これは、AIが「書く人」ではなく「流れを整える人」の仕事にまで入り込んでいることを示している。\n\n一方で、最新ツールをただ導入すればよい、という空気ではない。別の募集では、最先端のAI開発ツールを開発フローに組み込みつつ、設計から実装、テスト、コードレビューまで推進すると明記されている[2]。つまり、現場で問われているのは、AIを使えるかどうかではなく、AIを使ったうえで品質と再現性をどう担保するか、という運用設計だ。\n\nこの流れは、AI開発ツール市場の成熟を象徴している。GitHub CopilotやClaude Code、Devin、さらにそれらを受け止めるチーム運用の設計が揃って初めて、開発速度と品質の両立が見えてくる。今後の競争軸は、どのツールを知っているかではなく、どの工程に、どの条件で、どう組み込むかに移っていきそうだ[1][2][3]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "【事業横断】Applied AI Engineer | ハイクラス転職スカウトならリクルートダイレクトスカウト",
+              "url": "https://directscout.recruit.co.jp/job_descriptions/12101370",
+              "source": "Recruit Direct Scout"
+            },
+            {
+              "id": 2,
+              "title": "DENSO　AI | ハイクラス転職スカウトならリクルートダイレクトスカウト",
+              "url": "https://directscout.recruit.co.jp/job_descriptions/12105931",
+              "source": "Recruit Direct Scout"
+            },
+            {
+              "id": 3,
+              "title": "◎【リモート可/フレックス】AIエンジニア（AIエージェント／プロダクト開発）◎ | ハイクラス転職スカウトならリクルートダイレクトスカウト",
+              "url": "https://directscout.recruit.co.jp/job_descriptions/12089185",
+              "source": "Recruit Direct Scout"
+            }
+          ],
+          "published_date": "2026-11-15",
+          "category": "devtools",
+          "title_highlights": [
+            "Claude Code",
+            "Copilot",
+            "Devin"
+          ],
+          "three_lines_highlights": [
+            "Claude Code",
+            "Copilot",
+            "品質管理"
+          ],
+          "id": "devtools-1"
+        }
+      ],
+      "summary": "AI開発ツールは、単なるコード補助から、設計・実装・テスト・レビューまでを支える開発フローの一部へと定着しつつあります。Claude CodeやGitHub Copilot Coding Agent、Devinのようなツールが実務に組み込まれ、効率化だけでなく、セキュリティや品質管理を前提にした運用が重視される流れが強まっています。"
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "EU、基底モデル規制見直し論が再燃　フランス主導のロビー攻勢でAI Act緩和に注目",
+          "summary_ja": "EUのAI規制は、技術主権と産業競争力をにらむ政治課題として再び揺れています。複数の報道では、EUがデジタル分野で追加規制を進める一方、米国との「主権」競争の中でAI Actの運用や見直しが論点化していることが示されています。",
+          "summary_en": "EU AI regulation is again under pressure as competitiveness and technological sovereignty collide. Reporting across several sources suggests the bloc is tightening digital rules while debate grows over whether the AI Act should be softened, especially around the governance of foundation models and other frontier systems.",
+          "three_lines": [
+            "EUのAI規制をめぐる綱引きが再燃した。",
+            "仏主導の緩和論で基底モデルが焦点だ。",
+            "米欧の主権競争が制度設計を揺さぶる。"
+          ],
+          "body_ja": "EUのAI規制をめぐる議論が、再び政治の中心に戻ってきました。背景にあるのは、AIを「規制の対象」にするのか、それとも「競争力の源泉」として育てるのかという、EU内部の綱引きです。法務系の解説では、AI規制がEUと米国のあいだで「technological sovereignty」と「technological leadership」を競う手段になっていると整理されています[1]。つまり、AI Actは単なるコンプライアンス文書ではなく、欧米の産業戦略そのものに接続した制度になっている、という見方です。\n\nこの構図のなかで注目されるのが、基底モデル、すなわち汎用性の高い大規模AIモデルへの扱いです。検索結果の範囲では、AI Actそのものの細目までは読み取れないものの、EUが追加のデジタル規制を広げていることは明確です。たとえば、欧州委員会は「Digital Fairness Act」を通じて、利用者を中毒的な設計から守る新たなルールを打ち出し、広告・通知・無料トライアルなどの“操作的”機能を制限する方向に進んでいます[3][5][6][7]。こうした流れを見ると、EUはAIだけを特別扱いするのではなく、デジタル体験全体をより厳しく統制する姿勢を強めているといえます。\n\n一方で、企業側の動きは規制強化だけでなく、AI投資の加速も映し出しています。ドイツテレコムはミュンヘンのAIファクトリーを拡張し、需要の強さを背景に計算資源を積み増しています[4]。オランダ政府も、行政コスト削減とあわせてAI活用を広げる方針を示しました[2]。こうした事例は、EU圏内でも「AIをどう縛るか」だけでなく「どう使って生産性を上げるか」が現実の課題になっていることを示しています。\n\nこのため、仏主導とされる規制緩和のロビー攻勢が再燃している、という見立てには説得力があります。企業や加盟国の一部は、基底モデルに対する過度な負担が欧州のAI開発を海外勢に後れさせると警戒しているはずです。Kennedys Lawの分析が示すように、EUと米国のあいだではAIが主権と覇権を争う領域になっており[1]、規制の厳しさそのものが競争条件になっています。つまり、今回の論点は「AI Actを守るか崩すか」ではなく、「どこまで緩和すれば保護と産業育成の両立が可能か」という設計問題です。\n\nもっとも、EUが一気に規制を後退させると見るのは早計でしょう。Digital Fairness Act関連の報道に見られるように、EUはむしろ消費者保護や透明性の観点から新ルールを積み増す局面にあります[3][5][6][7]。そのため、基底モデル規制の見直しが進むとしても、それは全面的な緩和というより、用途別・リスク別に負担を調整する“微修正”に落ち着く可能性が高いと考えられます。EUにとって難しいのは、厳格さを維持しながら、AI投資と研究開発の流出を防ぐことです。今回の再燃は、その矛盾がいよいよ無視できなくなったことの表れです。",
+          "references": [
+            {
+              "id": 1,
+              "title": "AI regulation: The EU–US sovereignty contest - Kennedys Law LLP",
+              "url": "https://www.kennedyslaw.com/en/thought-leadership/article/2026/ai-regulation-the-eu-us-sovereignty-contest/",
+              "source": "Kennedys Law LLP"
+            },
+            {
+              "id": 2,
+              "title": "Dutch government plans to cut 25,000 full-time positions and expand AI use - HR Executive",
+              "url": "https://hrexecutive.com/dutch-government-plans-to-cut-25000-full-time-positions-and-expand-ai-use/",
+              "source": "HR Executive"
+            },
+            {
+              "id": 3,
+              "title": "EU Plans Crackdown on Addictive Social Media, Bot Features - Insurance Journal",
+              "url": "https://www.insurancejournal.com/news/international/2026/11/10/892191.htm",
+              "source": "Insurance Journal"
+            },
+            {
+              "id": 4,
+              "title": "DT builds out AI factory but still undecided on EU Gigafactory bid - Light Reading",
+              "url": "https://www.lightreading.com/ai-machine-learning/dt-builds-out-ai-factory-but-still-undecided-on-eu-gigafactory-bid",
+              "source": "Light Reading"
+            },
+            {
+              "id": 5,
+              "title": "EU to blacklist ten online design 'traps', leaked draft shows - Euronews.com",
+              "url": "https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows",
+              "source": "Euronews"
+            },
+            {
+              "id": 6,
+              "title": "Duolingo, Strava, and Ticketmaster Are All Caught Up in EU’s New Digital Fairness Rules - WIRED",
+              "url": "https://www.wired.com/story/duolingo-strava-and-ticketmaster-are-all-caught-up-in-eus-new-digital-fairness-rules/",
+              "source": "WIRED"
+            },
+            {
+              "id": 7,
+              "title": "Loot boxes, influencers, and addictive features face an EU crackdown - The Verge",
+              "url": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+              "source": "The Verge"
+            }
+          ],
+          "published_date": "2026-11-15",
+          "category": "global",
+          "title_highlights": [
+            "AI Act",
+            "基底モデル",
+            "フランス"
+          ],
+          "three_lines_highlights": [
+            "AI Act",
+            "基底モデル",
+            "主権競争"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "欧州のAIインフラ投資が加速　DTはミュンヘン拡張を先行、EUのギガファクトリー判断は保留",
+          "summary_ja": "ドイツテレコムがミュンヘンで進めるIndustrial AI Cloudの拡張を軸に、欧州のAI基盤投資が先行している。一方で、EUの技術主権パッケージやギガファクトリー構想は政策面の判断待ちが続き、企業主導のインフラ整備と制度設計の時間差が際立つ。",
+          "summary_en": "Deutsche Telekom is accelerating AI infrastructure expansion in Munich, while EU-wide gigafactory decisions remain pending, highlighting a gap between corporate-led rollout and policy design.",
+          "three_lines": [
+            "DTはミュンヘンのAI基盤を先行拡張する。",
+            "EUはギガファクトリー判断をなお保留する。",
+            "技術主権と投資の主導権が焦点になる。"
+          ],
+          "body_ja": "欧州のAIインフラ投資で、まず動いているのは企業側です。検索結果によれば、Deutsche Telekomは2026年2月にミュンヘンで「Industrial AI Cloud」を開始し、NVIDIAのGPU約1万基を投入しました[1]。通信大手としての基盤を生かし、AI向け計算資源を先に積み上げることで、需要の取り込みを急ぐ構図です[2]。\n\nこの動きの意味は、単なる設備増強ではありません。AIの競争力は、モデルそのものだけでなく、どれだけ安定的に大規模計算資源を確保できるかに左右されます。DTのミュンヘン拡張は、欧州域内でAI処理を回す「受け皿」を先に整える取り組みと読めます[1][2]。\n\n一方で、EUレベルでは足並みがそろっていません。検索結果には、欧州委員会が2026年6月3日に「技術主権パッケージ」を出したことが示されており、主権的なAI基盤をどう整えるかは政策課題として前進しています[1]。ただし、今回の検索結果からは、EUのギガファクトリー構想について最終判断が出たとは確認できず、制度設計と大型投資のタイミングに差があることがうかがえます[1]。\n\nここで重要なのは、欧州のAI戦略が「規制と投資」を同時に進めようとしている点です。EU AI Actを含む規制環境では、AIの安全性や透明性が重視される一方で、企業は実際に使える計算資源を先に確保しなければ競争に出遅れます。つまり、規制が整うのを待つのではなく、まず使えるインフラを作る――DTの動きは、そうした現実解の一例です[1][2]。\n\nさらに、欧州のAI基盤整備は、研究開発のブレークスルーを事業化につなげるための土台でもあります。大規模GPU群があって初めて、高性能モデルの学習や推論、産業用途への展開が現実味を帯びます。ミュンヘンでの先行投資は、欧州が「自前のAI計算基盤」をどこまで持てるかを占う試金石になるでしょう[1]。\n\nまとめると、今回のポイントは、DTが企業主導でミュンヘンのAIインフラを先に走らせる一方、EU側の大型構想はまだ結論待ちにあることです。欧州のAI戦略は、政策の大枠よりも先に、現場のクラウドとGPUが動かしている段階に入っています[1][2]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "ソブリンAIとは【2026年11月】意味・5つの層のチェック表 ...",
+              "url": "https://aiteller.jp/blog/sovereign-ai",
+              "source": "aiteller.jp"
+            },
+            {
+              "id": 2,
+              "title": "Deutsche Telekom",
+              "url": "https://tavily.com/knowledge/company/R65pWqOYfBu4",
+              "source": "tavily.com"
+            }
+          ],
+          "published_date": "2026-11-15",
+          "category": "global",
+          "title_highlights": [
+            "DT",
+            "ミュンヘン",
+            "1万基"
+          ],
+          "three_lines_highlights": [
+            "AI基盤",
+            "ギガファクトリー",
+            "技術主権"
+          ],
+          "id": "global-2"
+        }
+      ],
+      "summary": "欧米では、AI規制をめぐる議論が「安全確保」から「技術主権と産業競争力」へと軸足を広げ、EUのAI Actも運用見直しや緩和の余地が注目されるなど、政策の不確実性が高まっています。  \n一方で、AI基盤整備は企業主導で先行しており、ドイツテレコムのような個社のインフラ投資が進む一方、EU全体のギガファクトリー構想は制度判断待ちで、官民の動きに時間差が生じています。"
+    }
+  ]
+}
