@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Google DeepMindが「AlphaGenome 2」を発表　細胞型ごとのDNA変異影響を高精度予測 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#0E8A87;--cat-dark:#0B6B69;--hl:#0E8A8726">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#0B6B69"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3v3M12 3v3M16 3v3M8 18v3M12 18v3M16 18v3M3 8h3M3 12h3M3 16h3M18 8h3M18 12h3M18 16h3"/><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5" rx=".8"/></svg>生成AIモデル</span>
+    <span class="article-date">2026-11-16</span>
+  </div>
+  <h1 class="article-title">Google DeepMindが「<mark style="background:#0E8A8726">AlphaGenome 2</mark>」を発表　細胞型ごとのDNA変異影響を高精度予測</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#0E8A8726">AlphaGenome 2</mark>が細胞型別の変異影響を予測する。</li><li>最大<mark style="background:#0E8A8726">100万塩基</mark>を入力し多層の生体信号を予測する。</li><li>因果変異の同定率は16%から<mark style="background:#0E8A8726">30%</mark>へ上がった。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">Google DeepMindは、DNA配列と細胞型・細胞状態を入力して変異の影響を予測するゲノムAI「AlphaGenome 2」を発表した。最大100万塩基の配列を扱い、遺伝子発現だけでなくヒストン修飾、クロマチンアクセシビリティ、DNAメチル化まで見通すのが特徴だ。前世代比で因果変異の同定率は16%から30%へ改善し、非商用研究向けにはAPI提供が始まっている。</p>
+    <p class="sum-en">Google DeepMind has announced AlphaGenome 2, a genomics AI model that predicts the effects of DNA variants using DNA sequence plus cell type and cell state. It handles sequences up to 1 million bases and forecasts gene expression, histone modifications, chromatin accessibility, and DNA methylation. Compared with the previous version, causal variant identification improved from 16% to 30%, and API access is now available for non-commercial research.</p>
+  </div>
+
+  <div class="article-body"><p>Google DeepMindが11月11日に発表した「AlphaGenome 2」は、DNA配列の変異が、どの細胞で、どのように遺伝子の働きへ影響するかを予測するゲノムAIだ。最大100万塩基のDNA配列に加えて、調べたい細胞型や細胞状態を入力できるため、同じ変異でも細胞ごとに異なる作用を見極めやすい。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup></p>
+<p>今回のモデルで目を引くのは、予測対象が広いことだ。遺伝子発現だけでなく、ヒストン修飾、クロマチンアクセシビリティ、DNAメチル化まで推定するため、DNA変異が細胞の振る舞いにどうつながるかを多面的に把握できる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup> こうした設計は、病気と関連するDNA領域がわかっていても、実際にどの細胞で原因変異として効いているのかを切り分けにくいという課題への応答といえる。<sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup></p>
+<p>性能面では、TenK10Kデータセットでの因果変異同定率が30%となり、前世代AlphaGenomeの16%から改善したと伝えられている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup> 別ソースでも、同等の精度条件で旧版のほぼ2倍の因果バリアントを検出できたとされており、少なくとも“旧版より大きく前進した”ことは複数の報道で一致している。<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#0E8A87">[2]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup></p>
+<p>学習規模も大きい。1億700万以上の単細胞プロファイルを使って学習したとされ、細胞レベルの違いを吸収しやすいモデルになっている。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-5" href="#ref-5" style="color:#0E8A87">[5]</a></sup> その結果、研究者は少数の自前データを使っても、再学習なしで細胞状態に合わせた予測を得やすくなるという。<sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup></p>
+<p>提供面では、非商用の研究用途向けにAPI経由で利用可能となり、商用研究はプライベートプレビューにとどまる。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-3" href="#ref-3" style="color:#0E8A87">[3]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup> つまり現時点では、臨床応用や製品化よりも、大学・研究機関を中心に疾患原因の仮説生成や変異候補の絞り込みを進める用途が先行しそうだ。生成AIの競争が大規模言語モデルだけでなく、生命科学の“基盤モデル”にも広がっていることを示す発表と言える。<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#0E8A87">[1]</a></sup><sup class="cite"><a id="cite-4" href="#ref-4" style="color:#0E8A87">[4]</a></sup><sup class="cite"><a id="cite-7" href="#ref-7" style="color:#0E8A87">[7]</a></sup></p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://tech-noisy.com/2026/11/13/ai-daily-news-2026-11-12" target="_blank" rel="noopener noreferrer">生成AIニュース 昨日【2026年11月12日（木）】のAI公式発表を3分でチェック | TECH NOISY</a>
+        <span class="ref-source">— TECH NOISY</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://pasqualepillitteri.it/ja/news/32527/deepmind-alphagenome-2-dna-saibo" target="_blank" rel="noopener noreferrer">DeepMind、細胞の種類ごとにDNAを読むAI「AlphaGenome 2」を発表</a>
+        <span class="ref-source">— Pasquale Pillitteri</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://finance.biggo.jp/news/dcc1e30e-1367-4418-8371-e2a159a534c7" target="_blank" rel="noopener noreferrer">グーグル、細胞単位でDNA変異を読むAI「AlphaGenome 2」公開 原因変異の検出ほぼ2倍に — BigGo ファイナンス</a>
+        <span class="ref-source">— BigGo ファイナンス</span>
+      </li>
+      
+      <li id="ref-4">
+        <a href="https://tech-noisy.com/2026/11/16/ai-weekly-news-2026-11-09-2026-11-15" target="_blank" rel="noopener noreferrer">生成AIニュースまとめ 先週【2026年11月9日（月）〜11月15日（日）】のAI公式発表を5分でチェック | TECH NOISY</a>
+        <span class="ref-source">— TECH NOISY</span>
+      </li>
+      
+      <li id="ref-5">
+        <a href="https://www.unite.ai/ja/google-deepminds-alphagenome-2-predicts-cell-state-variant-effects" target="_blank" rel="noopener noreferrer">Google DeepMindのAlphaGenome 2、細胞状態ごとの変異の影響を予測 – Unite.AI</a>
+        <span class="ref-source">— Unite.AI</span>
+      </li>
+      
+      <li id="ref-6">
+        <a href="https://gigazine.net/news/20261112-google-deepmind-alphagenome-2" target="_blank" rel="noopener noreferrer">DNA変異が細胞に与える影響を予測するAIモデル「AlphaGenome 2」をGoogle DeepMindが発表、病気の原因解明に期待 - GIGAZINE</a>
+        <span class="ref-source">— GIGAZINE</span>
+      </li>
+      
+      <li id="ref-7">
+        <a href="https://www.itmedia.co.jp/news/article/2611/12/2000003132" target="_blank" rel="noopener noreferrer">Google DeepMind、「AlphaGenome 2」発表　細胞の種類ごとにDNA変異の影響を予測するAI - ITmedia NEWS</a>
+        <span class="ref-source">— ITmedia NEWS</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
