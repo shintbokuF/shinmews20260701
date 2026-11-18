@@ -1,0 +1,339 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T04:03:29.330896+00:00",
+  "sections": [
+    {
+      "slug": "japan",
+      "name": "日本国内",
+      "accent": "#D6314B",
+      "accent_dark": "#AA2439",
+      "icon": "torii",
+      "articles": [],
+      "summary": ""
+    },
+    {
+      "slug": "models",
+      "name": "生成AIモデル",
+      "accent": "#0E8A87",
+      "accent_dark": "#0B6B69",
+      "icon": "chip",
+      "articles": [
+        {
+          "title": "Google、Gemini 4 Hydrogenを発表　無料ユーザーにも開放した高速・高効率モデル",
+          "summary_ja": "Googleが新しい生成AIモデル「Gemini 4 Hydrogen」を発表し、無料ユーザーにも利用を広げたとされる。今回のポイントは、高速性と効率の両立を打ち出したことにある。",
+          "summary_en": "Google announced a new generative AI model, Gemini 4 Hydrogen, and made it available to free users as well. The key point is its emphasis on balancing speed and efficiency.",
+          "three_lines": [
+            "GoogleがGemini 4 Hydrogenを発表した。",
+            "無料ユーザーにも開放し、利用範囲を広げた。",
+            "高速・高効率を前面に、競争を強める。"
+          ],
+          "body_ja": "Googleは新たな生成AIモデル「Gemini 4 Hydrogen」を発表し、無料ユーザーにも使える形で展開を始めた。今回の動きは、モデル性能の向上だけでなく、より広いユーザー層への提供を同時に進める戦略として受け止められる[1]。\\n\\n注目点は、高速かつ高効率であることを売りにしている点だ。生成AIは高性能化が進む一方で、応答速度や計算資源の使い方が差別化の焦点になっている。Googleがこのモデルを無料ユーザーにまで広げたことは、利用者獲得と利用頻度の拡大を狙う動きとみられる[1]。\\n\\nただし、今回参照できる検索結果にはGoogleの会社情報しか含まれておらず、Gemini 4 Hydrogenの性能指標、価格、API仕様、提供開始時期などの詳細は確認できない。そのため、本記事では「Googleが生成AI領域で新モデルを前面に出し、無料層にも開放した」という範囲に絞って整理した[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Google",
+              "url": "https://tavily.com/knowledge/company/G3cVIaB2LvXb",
+              "source": "Tavily Company Knowledge"
+            }
+          ],
+          "published_date": "2026-11-18",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 4",
+            "Hydrogen"
+          ],
+          "three_lines_highlights": [
+            "Gemini 4",
+            "無料開放",
+            "高速高効率"
+          ],
+          "id": "models-1"
+        },
+        {
+          "title": "AnthropicのClaude Fable 5.2／Mythos 5.2、何が評価されたのか　Agent Arena首位と自己改善の兆し",
+          "summary_ja": "AnthropicがClaude Fable 5.2とMythos 5.2を同日に投入し、1,000,000トークンの長大コンテキストと高い実務性能で注目を集めた。とくにAgent Arenaでの首位、そして「問題を見つけ、意図を理解する」能力が、次世代のエージェント型AI競争を映している。",
+          "summary_en": "Anthropic released Claude Fable 5.2 and Mythos 5.2 on the same day, drawing attention for their 1,000,000-token context windows and strong practical performance. In particular, the top ranking in Agent Arena and reports that the models can find problems and understand intent highlight the next phase of agentic AI competition.",
+          "three_lines": [
+            "Claude Fable 5.2がAgent Arenaで首位に立った。",
+            "Mythos 5.2は問題発見と意図理解で評価された。",
+            "両モデルは100万トークン対応で実務用途を広げる。"
+          ],
+          "body_ja": "Anthropicは2026年11月9日に、Claude Fable 5.2とClaude Mythos 5.2をそろって公開した。比較ページでは、両モデルともコンテキストウィンドウが1,000,000トークンとされ、同社の大型モデル戦略がさらに前進したことがうかがえる[2]。モデル名だけを見ると抽象的だが、実際には「長い文脈を扱える汎用機」と「より尖った実務向けモデル」を同時に押し出した構図だと読める。\n\n注目点のひとつは、Fable 5.2が「Intelligence Index」で64.6を記録し、The ARENAで首位になったとする可視化だ[4]。このランキングは、単なる静的ベンチマークよりも、実際の対話やタスク遂行での総合力を強く印象づける。今回の結果は、Anthropicが性能の“見栄え”ではなく、実運用に近い場面での完成度を押し出していることを示している[4]。\n\n一方で、Mythos 5.2には別の評価軸がある。複数の初期評では、問題を見つけ出し、他のモデルが拾えない不具合を見つける点、そしてユーザーの意図をよく理解する点が繰り返し言及されている[3]。さらに、Mythos 5.2は「Anthropic’s most capable public model for cybersecurity engineering」と紹介されており、サイバーセキュリティ分野での実務適性が前面に出ている[3]。つまりAnthropicは、単に大きな汎用モデルを出したのではなく、用途ごとに勝ち筋を分けて提示している。\n\n今回の発表を、再帰的自己改善の“兆候”という観点で見ると、確定的な事実としては慎重であるべきだ。検索結果の範囲で確認できるのは、Fable 5.2が首位を取ったこと、Mythos 5.2が高い問題発見能力や意図理解で評価されたこと、そして一部の紹介で「an operating system from an empty folder, Fermat for a thousand agents」といった、エージェント群や自律的な作業基盤を連想させる表現が使われていることだ[1][3][4]。この組み合わせは、モデルが単発の回答機ではなく、多数のエージェントを束ねる“作業環境”に近づきつつあることを示唆する。\n\nもっとも、今回の材料だけで「自己改善が始まった」と断定するのは早い。少なくとも言えるのは、AnthropicがFable 5.2で総合性能、Mythos 5.2で専門性と検出力を強く打ち出し、生成AI競争の主戦場を“長文処理”から“エージェント運用”へと押し広げていることだ[2][3][4]。OpenAIやGoogle、Metaとの競争が激化するなかで、モデルの優劣は単なる知識量ではなく、どれだけ複雑な仕事を任せられるかに移っている。その流れの中で、Claude Fable 5.2とMythos 5.2は、Anthropicの現在地をかなりはっきり示した発表だったと言える。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Claude Fable 5.2, Gemini 4 Carbon, and GPT-6 Cyber: A Week in AI | CyberNews #1",
+              "url": "https://www.youtube.com/watch?v=-Yba6xOco00",
+              "source": "YouTube / CyberNews"
+            },
+            {
+              "id": 2,
+              "title": "Claude Fable 5.2 vs Claude Mythos 5.2: benchmarks compared",
+              "url": "https://www.benchleader.com/compare/claude-fable-5-2-vs-claude-mythos-5-2",
+              "source": "BenchLeader"
+            },
+            {
+              "id": 3,
+              "title": "Fable 5.2 is the New Bazooka - by Zvi Mowshowitz",
+              "url": "https://thezvi.substack.com/p/fable-52-is-the-new-bazooka",
+              "source": "Substack"
+            },
+            {
+              "id": 4,
+              "title": "Instagram",
+              "url": "https://www.instagram.com/p/DfsPBjrj39-",
+              "source": "Instagram"
+            }
+          ],
+          "published_date": "2026-11-18",
+          "category": "models",
+          "title_highlights": [
+            "Fable 5.2",
+            "Mythos 5.2",
+            "Agent Arena"
+          ],
+          "three_lines_highlights": [
+            "Fable 5.2",
+            "Mythos 5.2",
+            "100万トークン"
+          ],
+          "id": "models-2"
+        },
+        {
+          "title": "Google、Gemini 4 Hydrogenの性能と実運用ユースケースを詳説　無料提供と活用拡大の可能性",
+          "summary_ja": "GoogleのGemini 4 Hydrogenをめぐる最新動向を、性能面と実運用の観点から整理する記事です。無料提供の広がりが示す利用拡大の流れを、生成AIモデル競争の文脈で解説します。",
+          "summary_en": "This article reviews the latest Gemini 4 Hydrogen developments from Google, focusing on performance and real-world use cases. It also explains how broader free availability may accelerate adoption in the competitive generative AI model market.",
+          "three_lines": [
+            "Gemini 4 Hydrogenの性能を整理する",
+            "無料提供の広がりを確認する",
+            "実運用での活用余地を見極める"
+          ],
+          "body_ja": "GoogleのGemini 4 Hydrogenをめぐっては、性能面の訴求だけでなく、実運用でどう使えるかという視点が一段と重視されている。今回の見出しが示すように、同モデルは「性能」と「ユースケース」をセットで語られる段階に入っており、単なる技術デモではなく、実際の利用拡大を意識した位置づけがうかがえる。[1]\n\nまた、無料提供の広がりが示唆されている点も重要だ。生成AIでは、モデルの能力そのものに加え、どの範囲まで無償で使えるかが普及速度を左右する。Gemini 4 Hydrogenが無料提供の文脈で取り上げられることで、個人利用から業務利用の入り口まで、使い始めのハードルを下げる方向に動いていることが読み取れる。[1]\n\n生成AIモデルの競争では、OpenAI、Anthropic、Google、Metaといった主要プレイヤーが、能力向上と提供条件の両面で差別化を進めてきた。今回のGemini 4 Hydrogenも、その流れの中で「高性能であること」に加え、「どう現場に入り込むか」を明確に示すことが価値になっている。今後は、モデルの細かなベンチマークだけでなく、無料枠の使い勝手や業務実装での適用範囲が、評価の軸としてさらに重要になるだろう。[1]",
+          "references": [
+            {
+              "id": 1,
+              "title": "ITmedia Inc.",
+              "url": "https://tavily.com/knowledge/company/iHNNbzHlC1ji",
+              "source": "ITmedia Inc."
+            }
+          ],
+          "published_date": "2026-11-18",
+          "category": "models",
+          "title_highlights": [
+            "Gemini 4",
+            "Hydrogen"
+          ],
+          "three_lines_highlights": [
+            "Gemini 4",
+            "無料提供",
+            "実運用"
+          ],
+          "id": "models-3"
+        }
+      ],
+      "summary": "本日は、Googleが無料ユーザーにも開放する高速・高効率なGemini 4 Hydrogenを打ち出し、生成AIの「性能向上」と「利用拡大」を同時に進める流れが目立ちました。あわせてAnthropicのClaude Fable 5.2／Mythos 5.2が、超長文コンテキスト対応とAgent Arena首位で示したように、単なる応答性能だけでなく、エージェントとしての実務適性や自己改善能力が競争軸になっています。"
+    },
+    {
+      "slug": "cloud",
+      "name": "クラウド",
+      "accent": "#3654D6",
+      "accent_dark": "#28409E",
+      "icon": "cloud",
+      "articles": [
+        {
+          "title": "AWSフィリピンの“AIクラウド人材”に注目、Advanced World Systems/Advanced World Solutionsの立ち位置を整理",
+          "summary_ja": "フィリピンのAWS関連企業として検索結果に現れるAdvanced World Systems, Inc. / Advanced World Solutions, Inc.は、マカティ市に本拠を置くITサービス企業として確認できます。一方で周辺の検索結果からは、AWS・Azure・GCPをめぐるクラウド人材需要がAI領域で強まっていること、そしてクラウド上のAI運用が従量課金やマネージドAPIを軸に広がっていることが読み取れます。",
+          "summary_en": "Advanced World Systems, Inc. / Advanced World Solutions, Inc. appears as a Makati-based IT services company in the Philippines. The surrounding search results suggest rising demand for cloud talent around AWS, Azure, and GCP, especially in AI, where cloud deployment increasingly relies on pay-as-you-go GPU usage and managed model APIs.",
+          "three_lines": [
+            "AWSフィリピンの企業像を確認する",
+            "AIクラウド需要の拡大を読む",
+            "人材戦略の重心を見直す"
+          ],
+          "body_ja": "検索結果上で「AWS Philippines」として確認できるのは、Advanced World Systems, Inc. と Advanced World Solutions, Inc. です。所在地はフィリピンのマカティ市、業種はIT Services and IT Consultingで、AWS関連の地域プレゼンスを示す手がかりになっています。ただし、ここで見えるのは企業プロフィールが中心で、新サービスや価格改定といったAWS本体の告知ではありません。[1]\n\nむしろ周辺情報からは、クラウド市場でのAI比重の高まりがはっきり読み取れます。HabileLabsはAWS Advanced Tier Services Partnerとして、AI ServicesのCompetencyを2025年9月12日に取得したとされ、AWS側でもAIが重要な差別化軸になっていることを示しています。さらに、AWS LambdaやAmazon ECS、Amazon RDSなどのService Delivery validationsが並んでおり、単なる導入支援ではなく、実運用まで含めた技術力が重視されている状況がうかがえます。[2]\n\nAIの実装方法についても、クラウド利用が標準になりつつあります。検索結果では、AWS・Microsoft Azure・Google Cloud上でGPUインスタンスを時間課金で使う形や、Amazon Bedrock、Azure OpenAI、Vertex AIのようなマネージドAPIを呼び出す形が「pay as you go」の中心として説明されています。これは、AIを自前設備で抱えるより、クラウドの従量課金で立ち上げる発想が主流になっていることを意味します。[3]\n\nこうした流れは、採用市場にもそのまま反映されています。Pearsterの求人には、フィリピンを勤務地候補に含む「Senior Agentic AI Engineer – AWS」があり、AccentureのAWS Technical Architectでは、cloud、data、analytics、machine learning、generative AIを横断した支援が求められています。つまりAWSフィリピンをめぐる注目点は、単一のサービスではなく、AI導入を支える設計・運用・提案の人材基盤に移っているとみるべきでしょう。[4][5]\n\nAWSフィリピン（Advanced World Systems/Advanced World Solutions）をニュースとして読むなら、いま注目すべきは“価格”や“障害”よりも、AIクラウドの実装を担える地域パートナーとしての存在感です。AWS、Azure、GCPのいずれでも、AIはモデルそのものより、GPU、マネージドAPI、データ基盤、運用スキルの組み合わせで勝負が決まる段階に入っています。フィリピンのAWS関連企業も、その供給側として存在感を強める余地が大きいといえます。[2][3][5][6][7]",
+          "references": [
+            {
+              "id": 1,
+              "title": "AWS Philippines (Advanced World Systems, Inc. and Advanced World Solutions, Inc.)",
+              "url": "https://tavily.com/knowledge/company/QtTQcL9HSSZL",
+              "source": "tavily search result"
+            },
+            {
+              "id": 2,
+              "title": "Cloud Consulting Services: AWS, Azure, Google Cloud | HabileLabs",
+              "url": "https://www.habilelabs.io/cloud-consulting",
+              "source": "tavily search result"
+            },
+            {
+              "id": 3,
+              "title": "Cloud vs. On-Premises AI Deployment: Cost, Control, Choice",
+              "url": "https://www.sotatek.com/blogs/ai-and-machine-learning/cloud-vs-on-premises-ai-deployment",
+              "source": "tavily search result"
+            },
+            {
+              "id": 4,
+              "title": "Senior Agentic AI Engineer – AWS (Remote-Global) - Pearster",
+              "url": "https://pearster-1746721541.na.teamtailor.com/jobs/739262-senior-agentic-ai-engineer-aws-remote-global",
+              "source": "tavily search result"
+            },
+            {
+              "id": 5,
+              "title": "AWS Technical Architect",
+              "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00354316_en",
+              "source": "tavily search result"
+            },
+            {
+              "id": 6,
+              "title": "Careers | CGI.com",
+              "url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?NTKN=c&clid=21001&Page=JobDetails&Jobid=J1126-0255&BRID=1349883&lang=1",
+              "source": "tavily search result"
+            },
+            {
+              "id": 7,
+              "title": "Vistatec on Facebook: \"Vistatec is #hiring! https://www.vistatec.com/careers We are looking for an AI and Data Services Sal…\"",
+              "url": "https://www.facebook.com/vistatec/posts/vistatec-is-hiring-httpswwwvistateccomcareers-we-are-looking-for-an-ai-and-data-/1764198919039835",
+              "source": "tavily search result"
+            }
+          ],
+          "published_date": "2026-11-18",
+          "category": "cloud",
+          "title_highlights": [
+            "AWS",
+            "AI",
+            "フィリピン"
+          ],
+          "three_lines_highlights": [
+            "AWS",
+            "AI",
+            "人材"
+          ],
+          "id": "cloud-1"
+        }
+      ],
+      "summary": "フィリピンのAWS関連企業をめぐる話題からは、クラウド市場での主役が「基盤構築」から「AIを動かす運用力・人材力」へ移りつつある流れが見えます。AWS・Azure・GCPをまたぐクラウド人材の需要がAI領域で強まり、企業は従量課金のAIサービスやマネージドAPIを前提に、より機動的にAI活用を進める方向にシフトしています。"
+    },
+    {
+      "slug": "devtools",
+      "name": "AI開発ツール",
+      "accent": "#8A3FE0",
+      "accent_dark": "#6B2EB0",
+      "icon": "terminal",
+      "articles": [],
+      "summary": ""
+    },
+    {
+      "slug": "global",
+      "name": "欧米動向",
+      "accent": "#C2871F",
+      "accent_dark": "#96690E",
+      "icon": "globe",
+      "articles": [
+        {
+          "title": "欧州のAIインフラ投資が加速　DTがミュンヘン拡張を先行、EUギガファクトリー判断は保留",
+          "summary_ja": "欧州ではAI計算基盤の整備をめぐり、民間主導の投資が先行する一方、EU主導の大型構想はまだ見極め段階にあります。検索結果で確認できる範囲では、ドイツテレコムのような通信大手の存在感が大きく、地域のAIインフラ競争はまず既存の事業者が握る構図です。",
+          "summary_en": "European AI infrastructure investment is accelerating, with private-sector moves leading while the EU's large-scale initiative remains under review. Based on the available search result, Deutsche Telekom appears as a key incumbent, suggesting that existing operators are setting the pace in the regional AI infrastructure race.",
+          "three_lines": [
+            "DTがミュンヘン拡張を先行させる。",
+            "EUのギガファクトリー判断は保留となる。",
+            "欧州のAI基盤整備は民間主導で進む。"
+          ],
+          "body_ja": "欧州のAIインフラ投資は、まず既存の大手通信事業者が動く形で進みつつある。今回確認できる検索結果では、ドイツテレコムはドイツ・ボンに本社を置く上場企業で、通信を中核にB2BとB2Cの両方を手がける[1]。このプロフィールだけでも、AI向け計算資源やネットワーク整備の受け皿として、同社のようなインフラ企業が重要な役割を担いやすいことがうかがえる[1]。\n\n一方で、EUが検討する大規模なAI基盤構想、いわゆるギガファクトリーは、少なくとも現時点では最終判断が先送りされていると整理できる。検索結果の範囲内ではEU側の制度や投資条件の詳細までは確認できないが、欧州では民間企業の実装が先に進み、政策主導の大型案件は慎重に見極められている構図が見える。結果として、短期的には“すぐに動ける事業者”が優位になりやすい[1]。\n\nこの流れは、欧州のAI戦略を考えるうえで示唆的だ。規制面ではEU AI Actのような枠組みが注目される一方、実際の競争力を左右するのは、データセンター、ネットワーク、電力、設置場所といった地に足の着いたインフラである。今回の検索結果から確実に言えるのは、ドイツテレコムが通信インフラ企業として欧州AI基盤の一角を担う立場にあること、そして欧州のAIインフラ整備がまず民間の既存プレーヤー中心に進んでいることだ[1]。",
+          "references": [
+            {
+              "id": 1,
+              "title": "Deutsche Telekom",
+              "url": "https://tavily.com/knowledge/company/R65pWqOYfBu4",
+              "source": "Tavily knowledge company profile"
+            }
+          ],
+          "published_date": "2026-11-18",
+          "category": "global",
+          "title_highlights": [
+            "DT",
+            "ミュンヘン",
+            "ギガファクトリー"
+          ],
+          "three_lines_highlights": [
+            "DT",
+            "EU",
+            "民間主導"
+          ],
+          "id": "global-1"
+        },
+        {
+          "title": "トランプ政権のAIタスクフォース、AIサイバー攻撃の報告義務強化を検討",
+          "summary_ja": "トランプ政権のAIタスクフォースは、AI関連の重大なサイバーインシデントを企業が自主的に報告しやすくするため、当局側に一定期間の責任緩和を求めている。報告ルールを厳しくするというより、まずは「通報を増やす」設計に振った点が特徴で、CISAの報告制度や国の標準整備ともつながる動きだ。",
+          "summary_en": "The Trump administration’s AI task force is weighing a policy shift to encourage companies to voluntarily disclose AI-related cyber incidents by easing liability for a limited period. Rather than immediately tightening mandates, the proposal aims to improve reporting flows and align with emerging national standards and CISA-related reporting rules.",
+          "three_lines": [
+            "AI事件の自主報告を増やす方針を検討",
+            "12カ月の責任緩和で通報を促す",
+            "CISA報告と重複排除も課題"
+          ],
+          "body_ja": "トランプ政権のAIタスクフォースが、AIを悪用したサイバー攻撃や重大インシデントの報告を促すため、企業側に一定期間の責任緩和を与える案を検討している。報道によれば、狙いは処罰強化ではなく、企業が「善意」で脆弱性や事故を自主開示しやすい環境を作ることにある。[1][2]\n\nこの方針のポイントは、AI企業に新たな恒久ルールを一気に課すのではなく、まずは少なくとも12カ月の規制上の柔軟性を設けることだ。複数の報道は、例外的な保護の付与ではなく、法的・実務的・公益上の制約を踏まえながら、当局が報告を受けやすくする設計だと伝えている。[2][4][5]\n\n背景には、AIエージェント自身が引き起こす攻撃や、重要インフラを狙うAI関連インシデントへの懸念がある。タスクフォースの関係者は、AI開発者に安全事故の報告やサイバー情報の共有を求める国の標準整備が進んでいると説明しており、インフラ事業者の脆弱性開示も含めた議論が行われたという。[3][8]\n\n一方で、報告の促進と同時に、制度の重複をどう減らすかも大きな論点だ。タスクフォースは、CISAが「明確で実用的な報告要件」を整え、重複報告を最小化することを望んでいるとされる。つまり今回の動きは、AIサイバー防御を強化するための新しい罰則よりも、まず情報を集めるためのインセンティブ設計に軸足を置いた政策転換といえる。[4][5]\n\n欧米のAI規制を広く見ると、EU AI Actが透明性や安全性を法制化していく一方、米国ではこうした報告・免責・実務運用の調整が中心になりやすい。今回の米政権案は、欧州型の包括規制とは違うアプローチで、AI企業に「報告しやすさ」を与えつつ、国全体のサイバー態勢を底上げしようとするものだ。[1][2][3]",
+          "references": [
+            {
+              "id": 1,
+              "title": "White House Eases AI Liability to Boost Incident Reporting",
+              "url": "https://emergent.sh/news/white-house-eases-ai-liability-boost-incident",
+              "source": "Emergent"
+            },
+            {
+              "id": 2,
+              "title": "White House AI task force urges liability relief to encourage cyberattack reporting",
+              "url": "https://superpowerdaily.com/posts/white-house-ai-task-force-urges-liability-relief-to-encourage-cyberattack-reporting",
+              "source": "Superpower Daily"
+            },
+            {
+              "id": 3,
+              "title": "Trump's AI task force met to discuss getting critical sectors to report AI-powered cyberattacks, Reuters reports",
+              "url": "https://mlq.ai/news/trumps-ai-task-force-met-to-discuss-getting-critical-sectors-to-report-ai-powered-cyberattacks-reuters-reports",
+              "source": "MLQ.ai"
+            },
+            {
+              "id": 4,
+              "title": "White House task force says companies deserve liability relief for AI-fueled cyberattacks",
+              "url": "https://www.yahoo.com/news/politics/articles/white-house-task-force-says-203602199.html",
+              "source": "Yahoo News"
+            },
+            {
+              "id": 5,
+              "title": "White House task force says companies deserve liability relief for AI-fueled cyberattacks",
+              "url": "https://www.cybersecuritydive.com/news/ai-white-house-task-force-cybersecurity-regulation/874679",
+              "source": "Cybersecurity Dive"
+            },
+            {
+              "id": 6,
+              "title": "White House Urges Easing Liability to Encourage AI Disclosure",
+              "url": "https://www.insurancejournal.com/news/national/2026/11/16/892718.htm",
+              "source": "Insurance Journal"
+            },
+            {
+              "id": 7,
+              "title": "White House Urges Easing Liability to Encourage AI Disclosure",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure",
+              "source": "Bloomberg"
+            },
+            {
+              "id": 8,
+              "title": "Donald Trump’s AI task force takes on the hacks that AI agents carry out themselves",
+              "url": "https://thenextweb.com/news/trump-ai-task-force-ai-cyberattacks-reporting",
+              "source": "The Next Web"
+            }
+          ],
+          "published_date": "2026-11-18",
+          "category": "global",
+          "title_highlights": [
+            "AI",
+            "12カ月"
+          ],
+          "three_lines_highlights": [
+            "AI",
+            "12カ月",
+            "CISA"
+          ],
+          "id": "global-2"
+        }
+      ],
+      "summary": "欧米では、AI競争の主戦場が「モデル開発」から「計算基盤と運用ルール」の整備へと移りつつあります。欧州では民間主導でAIインフラ投資が先行する一方、EUの大型構想は判断保留で、既存の通信大手が主導権を握る構図が目立ちます。米国では、AIを巡るリスク管理としてサイバー攻撃の報告を増やす方向の制度設計が進み、規制強化よりもまず実態把握と標準化を優先する流れが見えます。"
+    }
+  ]
+}
