@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oracle Base Database Serviceの技術詳細が公開、Azure・GCP・AWS連携とクロスリージョン復旧を訴求 | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-11-19</span>
+  </div>
+  <h1 class="article-title">Oracle <mark style="background:#3654D626">Base Database</mark> Serviceの技術詳細が公開、Azure・GCP・AWS連携とクロスリージョン復旧を訴求</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li><mark style="background:#3654D626">Base Database</mark> Serviceの詳細が公開された。</li><li>Azure・GCP・AWS連携を前面に出した。</li><li>クロスリージョン復旧で保護を強化する。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">OracleのBase Database Serviceを軸に、Azure・GCP・AWSとのマルチクラウド連携や、クロスドメイン／クロスリージョンの高速復旧、ゼロデータロス系の保護機能が整理された。技術記事一覧でも、Oracle Database@Azure上でBase Databaseを構築・デプロイする実践記事が並び、運用と導入の具体像が見え始めている。[1][2]</p>
+    <p class="sum-en">Oracle’s Base Database Service is being positioned with multicloud integration across Azure, GCP, and AWS, plus cross-domain/cross-region fast restore and zero-data-loss-style protection. A related article list also shows hands-on guidance for building and deploying Base Database on Oracle Database@Azure.[1][2]</p>
+  </div>
+
+  <div class="article-body"><p>Oracle Base Database Serviceの技術詳細が公開され、単なる「Oracleのデータベースをクラウドで使う」話ではなく、保護・復旧・マルチクラウド接続をまとめて打ち出す構図が見えてきた。今回の整理では、Autonomous DatabaseやDedicated Exadata Database Service、Zero Data Loss Autonomous Recovery Service、そしてMulticloud Database @Azure／@GCP／@AWSといった要素が並び、基盤の選択肢を広く見せている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。</p>
+<p>注目したいのは、復旧面の言葉づかいだ。スライド抜粋には「Cross-Domain / Cross-Region Fast Restore」や「Cloud Protect - New Clean Room」といった表現があり、障害時の切り戻しや隔離環境での保全を意識した設計思想がうかがえる。保護対象として「On-Premises / Any Linux x64 system」が示されている点も、クラウド単体ではなく既存環境をまたぐ保護戦略として読むべきだろう<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。</p>
+<p>また、Oracle側の技術記事一覧を見ると、Oracle Database@Azureについて「Base Database Service を構築する」「Base Databaseをデプロイする」といった実践的な記事が並んでいる。つまり今回のメッセージは、抽象的な製品紹介ではなく、Azure上でBase Databaseを組み上げる手順や運用知見を広げる段階に入っていることを示している<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。</p>
+<p>この動きは、AWS・Azure・GCPがそれぞれ独自のAI基盤やデータ基盤を拡張する中で、Oracleが「既存Oracle資産をマルチクラウドへ持ち出しやすくする」方向で差別化を図っているとも読める。特にAI時代は、学習・推論そのものだけでなく、データの保護、復旧、配置先の柔軟性が競争力になる。Oracle Base Database Serviceの訴求は、その周辺条件を含めて“AIに耐えるデータ基盤”を前面に出したものだと言える<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://speakerdeck.com/oracle4engineer/basedb-tech-detail" target="_blank" rel="noopener noreferrer">Oracle Base Database Service 技術詳細 by oracle4engineer - Speaker Deck</a>
+        <span class="ref-source">— Speaker Deck</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://blogs.oracle.com/oracle4engineer/oracle-at-azure-google-aws-technical-articles" target="_blank" rel="noopener noreferrer">Oracle AI Database@Azure, Google Cloud, AWS：技術記事一覧 | oracle4engineer</a>
+        <span class="ref-source">— Oracle Blogs</span>
+      </li>
+      
+      <li id="ref-3">
+        <a href="https://tavily.com/knowledge/company/KNdC3Uzi7GEU" target="_blank" rel="noopener noreferrer">Oracle</a>
+        <span class="ref-source">— Tavily company knowledge</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
