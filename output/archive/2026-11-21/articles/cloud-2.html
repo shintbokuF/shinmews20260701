@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>政府系システムで「AWS・Azure・GCP互換」を明記、クラウドネイティブ前提が標準化へ | AI・クラウド ニュースダイジェスト</title>
+<link rel="icon" href="../static/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../static/style.css">
+<script data-goatcounter="https://shinmews.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body style="--cat-light:#3654D6;--cat-dark:#28409E;--hl:#3654D626">
+<header class="masthead">
+  <a class="back-link" href="../index.html">← ダイジェスト一覧へ</a>
+</header>
+
+<main class="article-container">
+  <div class="article-meta">
+    <span class="pill" style="background:#28409E"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18h9a4 4 0 0 0 .5-7.97A5.5 5.5 0 0 0 6 9.5 3.5 3.5 0 0 0 7 18Z"/><path d="M10 13.5h2M12 13.5v2"/></svg>クラウド</span>
+    <span class="article-date">2026-11-21</span>
+  </div>
+  <h1 class="article-title">政府系システムで「<mark style="background:#3654D626">AWS</mark>・<mark style="background:#3654D626">Azure</mark>・<mark style="background:#3654D626">GCP</mark>互換」を明記、クラウドネイティブ前提が標準化へ</h1>
+
+  <div class="three-block">
+    <div class="three-block-head">3行でわかる！今日のニュース</div>
+    <ul><li>政府系調達で<mark style="background:#3654D626">互換設計</mark>を明記した。</li><li><mark style="background:#3654D626">AWS</mark>・Azure・GCP前提の構成を求めた。</li><li>特定クラウド依存を抑える流れが強まる。</li></ul>
+  </div>
+
+  <div class="summary-pair">
+    <p class="sum-ja">農林水産省の調達資料で、違法輸入動植物等流通監視システムをクラウドネイティブ構成とし、ガバメントクラウドまたはMAFFクラウド上でAWS、Azure、GCP、OCIのいずれでも同等システムを構築可能とする方針が示された。Oracleの資料でも、AWS・Azure・GCP・OCIやDatabricks、Snowflakeまで視野に入れた互換性の考え方が示されており、特定クラウドに縛られない設計がより強まっている。</p>
+    <p class="sum-en">A Japanese government procurement document calls for a cloud-native architecture that can be built equivalently on AWS, Azure, GCP, or OCI. Oracle’s documentation also emphasizes compatibility across major clouds and data platforms, reinforcing a move toward cloud-agnostic design.</p>
+  </div>
+
+  <div class="article-body"><p>農林水産省の「違法輸入動植物等流通監視システム 整備業務」では、システム方式の全体方針として、クラウドサービスの機能を最大限活用するクラウドネイティブ構成を求めている。さらに、ガバメントクラウドまたはMAFFクラウド上に構築しつつ、AWS、Azure、GCP、OCIで同等のシステムを構築可能であることを明記しており、政府系システムでもマルチクラウド互換を前提にした設計思想がはっきり表れている<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。</p>
+<p>この記述が示すのは、単に「どのクラウドでも動く」という話ではない。信頼性や拡張性といった要件を満たすために、特定ベンダー固有の作り込みを避け、クラウド標準の機能を活用しながら移植性を確保する方向だ。実務上は、運用基盤、データ管理、監視、バックアップ、ネットワーク設計などのレイヤーで差異を吸収できるかが重要になる<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup>。</p>
+<p>この流れは政府調達に限らず、クラウド基盤やデータ基盤の世界全体にも広がっている。OracleのAutonomous AI Databaseに関する説明でも、AWS、Azure、GCP、OCIに加え、DatabricksやSnowflakeといったプラットフォームでの利用を視野に入れ、ユーザーを特定の環境に閉じ込めない互換性を打ち出している<sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。ベンダーが異なるクラウドやデータ基盤との接続性を前面に出す背景には、組織がAIや分析の活用を進めるほど、単一クラウド固定では要件を満たしにくくなる事情がある。</p>
+<p>今回の調達文書から読み取れるのは、政府系システムにおいても「クラウドを使う」段階から、「どのクラウドでも同じ設計思想で運用できる」段階へと要求水準が上がっていることだ。AWS、Azure、GCPは競争の軸が個別の機能競争だけでなく、相互運用性や移植性の確保にも移っており、今後はAI関連機能を含む基盤選定でも、ベンダーロックインを抑える設計が一層重視されそうだ<sup class="cite"><a id="cite-1" href="#ref-1" style="color:#3654D6">[1]</a></sup><sup class="cite"><a id="cite-2" href="#ref-2" style="color:#3654D6">[2]</a></sup>。</p></div>
+
+  
+  <div class="references">
+    <div class="ref-head">▼ 関連リンク / References</div>
+    <ol>
+      
+      <li id="ref-1">
+        <a href="https://www.maff.go.jp/j/supply/nyusatu/syosei_kozi/attach/pdf/index-494.pdf" target="_blank" rel="noopener noreferrer">違法輸入動植物等流通監視システム 整備業務</a>
+        <span class="ref-source">— 農林水産省</span>
+      </li>
+      
+      <li id="ref-2">
+        <a href="https://docs.oracle.com/ja-jp/iaas/autonomous-database-serverless/doc/about-autonomous-database-workloads.html" target="_blank" rel="noopener noreferrer">Autonomous AI Databaseワークロード・タイプについて</a>
+        <span class="ref-source">— Oracle</span>
+      </li>
+      
+    </ol>
+  </div>
+  
+</main>
+
+<footer class="foot">本記事は複数の公開情報を基にAIが作成したオリジナルの日本語解説です。引用元の原文は上記リンクをご参照ください。</footer>
+</body>
+</html>
